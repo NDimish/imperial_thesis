@@ -6,8 +6,6 @@ from datetime import datetime
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from kdbe_check import check_omissions
 
-BATCH_SIZE = 10
-
 
 class NlpEvaluate:
     """Tracks condenser-module runs: scores both the original (un-condensed) transcript
@@ -18,12 +16,13 @@ class NlpEvaluate:
     fluff correctly removed" -- this tracks the raw KDE omission scores and elapsed
     time per file instead of precision/recall.
 
-    Records are grouped into batches of BATCH_SIZE; a batch average is snapshotted
-    every time a batch completes, giving a trend over the course of the run rather
-    than just one final average.
+    Every individual record is kept (and persisted to JSON) regardless of run.
+    A checkpoint -- one averaged snapshot -- is taken once per run via
+    checkpoint_run(run), giving one point per run (e.g. 5 runs = 5 points)
+    instead of an arbitrary batch size.
     """
 
-    LOG_DIR = "Logs"
+    LOG_DIR = os.environ.get("RESULTS_DIR", "Logs")
 
     def __init__(self, module_name):
         self._module_name = module_name
@@ -88,20 +87,23 @@ class NlpEvaluate:
             f"(reduced by {words_reduced}, {percent_reduced:.1f}%)"
         )
 
-        if len(self._records) % BATCH_SIZE == 0:
-            self._checkpoint()
-
         return entry
 
-    def _checkpoint(self):
-        """Averages the most recent BATCH_SIZE records and stores/logs the snapshot."""
-        batch = self._records[-BATCH_SIZE:]
-        batch_index = len(self._records) // BATCH_SIZE
+    def checkpoint_run(self, run):
+        """Averages every record from this run and stores/logs the snapshot.
+
+        Call once after all files for a given run have been record()'d -- gives
+        one checkpoint per run (e.g. 5 runs = 5 points), instead of an arbitrary
+        batch size.
+        """
+        batch = [r for r in self._records if r.get("run") == run]
+        if not batch:
+            return None
 
         checkpoint = {
             "module": self._module_name,
-            "batch_index": batch_index,
-            "records_in_batch": len(batch),
+            "run": run,
+            "records_in_run": len(batch),
         }
         for key in (
             "elapsed",
@@ -121,14 +123,15 @@ class NlpEvaluate:
         self.write_json()
 
         self._log_(
-            f"[batch {batch_index}] avg_elapsed={self._fmt(checkpoint['avg_elapsed'])}s "
+            f"[run {run}] avg_elapsed={self._fmt(checkpoint['avg_elapsed'])}s "
             f"avg_diff_transcript_to_soap={self._fmt(checkpoint['avg_diff_transcript_to_soap'])} "
             f"avg_diff_soap_to_transcript={self._fmt(checkpoint['avg_diff_soap_to_transcript'])} "
             f"avg_percent_reduced={self._fmt(checkpoint['avg_percent_reduced'])}"
         )
+        return checkpoint
 
     def write_json(self):
-        """Persists all records and batch checkpoints collected so far to disk."""
+        """Persists all records and run checkpoints collected so far to disk."""
         path = os.path.join(self.LOG_DIR, self._json_file)
         with open(path, "w", encoding="utf-8") as f:
             json.dump({"module": self._module_name, "records": self._records, "checkpoints": self._checkpoints}, f, indent=2)

@@ -2,19 +2,18 @@ import json
 import os
 from datetime import datetime
 
-BATCH_SIZE = 10
-
 
 class Evaluate:
     """Compares predicted errors against ground-truth Labels and tracks precision/recall/F1/accuracy.
 
-    Records are grouped into batches of BATCH_SIZE; a batch average is snapshotted
-    every time a batch completes, giving a trend over the course of the run rather
-    than just one final average.
+    Every individual record is kept (and persisted to JSON) regardless of run.
+    A checkpoint -- one averaged precision/recall/f1/elapsed snapshot -- is taken
+    once per run via checkpoint_run(run), giving one point per run (e.g. 5 runs =
+    5 points) instead of an arbitrary batch size.
     """
 
     LABELS_DIR = "Labels"
-    LOG_DIR = "Logs"
+    LOG_DIR = os.environ.get("RESULTS_DIR", "Logs")
 
     def __init__(self, labels_dir=None):
         self._records = []
@@ -86,15 +85,18 @@ class Evaluate:
         self._log_missed(filename, missed, extra)
         self.write_json()
 
-        if len(self._records) % BATCH_SIZE == 0:
-            self._checkpoint()
-
         return record
 
-    def _checkpoint(self):
-        """Averages the most recent BATCH_SIZE records and stores/logs the snapshot."""
-        batch = self._records[-BATCH_SIZE:]
-        batch_index = len(self._records) // BATCH_SIZE
+    def checkpoint_run(self, run):
+        """Averages every record from this run and stores/logs the snapshot.
+
+        Call once after all files for a given run have been compare()'d -- gives
+        one checkpoint per run (e.g. 5 runs = 5 points), instead of an arbitrary
+        batch size.
+        """
+        batch = [r for r in self._records if r.get("run") == run]
+        if not batch:
+            return None
 
         batch_tp = sum(r["tp"] for r in batch)
         batch_fp = sum(r["fp"] for r in batch)
@@ -104,8 +106,8 @@ class Evaluate:
         elapsed_values = [r["elapsed"] for r in batch if r.get("elapsed") is not None]
 
         checkpoint = {
-            "batch_index": batch_index,
-            "records_in_batch": len(batch),
+            "run": run,
+            "records_in_run": len(batch),
             "avg_elapsed": (sum(elapsed_values) / len(elapsed_values)) if elapsed_values else None,
             **scores,
         }
@@ -113,12 +115,13 @@ class Evaluate:
         self.write_json()
 
         self._log_(
-            f"[batch {batch_index}] precision={scores['precision']:.2f} recall={scores['recall']:.2f} "
+            f"[run {run}] precision={scores['precision']:.2f} recall={scores['recall']:.2f} "
             f"f1={scores['f1']:.2f} avg_elapsed={checkpoint['avg_elapsed']}"
         )
+        return checkpoint
 
     def write_json(self):
-        """Persists all records and batch checkpoints collected so far to disk."""
+        """Persists all records and run checkpoints collected so far to disk."""
         path = os.path.join(self.LOG_DIR, self._json_file)
         with open(path, "w", encoding="utf-8") as f:
             json.dump({"records": self._records, "checkpoints": self._checkpoints}, f, indent=2)

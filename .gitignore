@@ -1,2 +1,4 @@
 secrets_config.py
 Clean Transcripts/
+venv
+.venv

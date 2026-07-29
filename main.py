@@ -15,7 +15,8 @@ from scispacy_condenser import SciSpacyCondenser
 INPUT_DIR = "prim57/cleaned transcripts"  # "Input"
 OUTPUT_DIR = "prim57/bad notes lib"  # "Output"
 LABELS_DIR = "prim57/bad notes labels lib"  # "Labels"
-PLOT_PATH = "Logs/main_trends.png"
+RESULTS_DIR = os.environ.get("RESULTS_DIR", "Logs")
+PLOT_PATH = os.path.join(RESULTS_DIR, "main_trends.png")
 
 # Which NLP condenser module runs on each transcript before it reaches the checker
 # modules below. Swap this to MedspacyCondenser / SciSpacyCondenser /
@@ -89,9 +90,9 @@ def read_output_file(filename):
 
 
 def plot_trends(all_checkpoints):
-    """Plots per-module batch-of-10 trends: precision, recall, f1, and elapsed time.
+    """Plots per-module per-run trends: precision, recall, f1, and elapsed time.
     One line per module, fixed categorical color order, four stacked single-axis
-    panels (never dual-axis).
+    panels (never dual-axis). One point per run (e.g. 5 runs = 5 points).
     """
     metrics = [
         ("precision", "Precision"),
@@ -101,13 +102,13 @@ def plot_trends(all_checkpoints):
     ]
 
     fig, axes = plt.subplots(len(metrics), 1, figsize=(9, 11), sharex=True)
-    fig.suptitle("Checker modules: per-module trends (averaged every 10 files)")
+    fig.suptitle("Checker modules: per-module trends (one point per run)", y=0.995)
 
     for module_index, (module_name, checkpoints) in enumerate(all_checkpoints.items()):
         if not checkpoints:
             continue
         color = MODULE_COLORS[module_index % len(MODULE_COLORS)]
-        x = [c["batch_index"] for c in checkpoints]
+        x = [c["run"] for c in checkpoints]
 
         for ax, (key, _) in zip(axes, metrics):
             y = [c.get(key) for c in checkpoints]
@@ -119,10 +120,13 @@ def plot_trends(all_checkpoints):
         ax.spines["top"].set_visible(False)
         ax.spines["right"].set_visible(False)
 
-    axes[-1].set_xlabel("Batch (every 10 files)")
+    axes[-1].set_xlabel("Run")
     handles, labels = axes[0].get_legend_handles_labels()
-    fig.legend(handles, labels, loc="upper right", ncol=1, frameon=False)
-    fig.tight_layout(rect=[0, 0, 1, 0.96])
+    fig.legend(
+        handles, labels, loc="upper center", bbox_to_anchor=(0.5, 0.965),
+        ncol=min(len(labels), 4), frameon=False, fontsize=8,
+    )
+    fig.tight_layout(rect=[0, 0, 1, 0.90])
 
     os.makedirs(os.path.dirname(PLOT_PATH), exist_ok=True)
     fig.savefig(PLOT_PATH, dpi=150)
@@ -165,13 +169,15 @@ def main(limit=None):
 
                 evaluator.compare(errors, input_filename, elapsed, run=run)
 
+            evaluator.checkpoint_run(run)
+
         evaluator.results()
         all_checkpoints[module_name] = evaluator.checkpoints
 
     if any(all_checkpoints.values()):
         plot_trends(all_checkpoints)
     else:
-        print("\nNo batches of 10+ records completed -- skipping plot.")
+        print("\nNo completed runs -- skipping plot.")
 
 
 if __name__ == "__main__":
