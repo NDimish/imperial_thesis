@@ -13,7 +13,7 @@ from base import CondenserModule, join_turns, split_turns
 #   2. Download a UMLS release and install it with MetamorphoSys
 #   3. python -m quickumls.install <umls_install_dir> <this_destination_dir>
 # See: https://github.com/Georgetown-IR-Lab/QuickUMLS
-QUICKUMLS_INSTALL_DIR = ""
+QUICKUMLS_INSTALL_DIR = r"C:\Users\natha\OneDrive\Documents\Uni\Impreial\modules\Thesis\code\data\quickumls_install"
 
 
 class QuickUMLSCondenser(CondenserModule):

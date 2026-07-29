@@ -34,19 +34,26 @@
 set -euo pipefail
 
 # --- scratch dir (quota escape hatch) ---------------------------------------
-# Home directories on shared DoC-style clusters are quota-limited (often just
-# ~12GB) regardless of how big the underlying filesystem's total capacity is
-# -- this project's dependencies (torch, transformers, spacy, gensim's GloVe
-# vectors) plus downloaded model checkpoints (AlignScore) can easily blow past
-# that on their own. SCRATCH_DIR should point at a volume you've confirmed is
-# actually writable for you and has real headroom -- check with e.g.:
-#   touch /data/$USER/test && rm /data/$USER/test
-# before trusting this default.
-SCRATCH_DIR="${SCRATCH_DIR:-/data/$USER}"
-mkdir -p "$SCRATCH_DIR/cache"
+# Home directories on DoC-style clusters are quota-limited (often just ~12GB,
+# via the same NFS-backed /homes/$USER share regardless of which physical
+# machine you're on) -- this project's dependencies (torch, transformers,
+# spacy, gensim's GloVe vectors) plus downloaded model checkpoints (AlignScore)
+# can easily blow past that on their own. /vol/bitbucket/$USER is DoC's large
+# scratch volume (confirmed writable, 12T free as of 2026-07-29) -- if you're
+# on a machine where that mount doesn't exist or isn't writable, override at
+# submission time instead of editing this default:
+#   sbatch --export=SCRATCH_DIR=/data/$USER slurm/sbatch_var.sh <script> [args...]
+SCRATCH_DIR="${SCRATCH_DIR:-/vol/bitbucket/$USER}"
+mkdir -p "$SCRATCH_DIR/cache" "$SCRATCH_DIR/cache/tmp"
 export HF_HOME="$SCRATCH_DIR/cache/huggingface"
 export TORCH_HOME="$SCRATCH_DIR/cache/torch"
 export GENSIM_DATA_DIR="$SCRATCH_DIR/cache/gensim-data"
+export PIP_CACHE_DIR="$SCRATCH_DIR/cache/pip"
+# /tmp on this cluster's compute nodes is a small tmpfs (RAM-backed) that fills
+# up fast -- pip (and anything else staging big downloads/builds) defaults to
+# $TMPDIR/tmp there regardless of PIP_CACHE_DIR, causing "No space left on
+# device" mid-install even when every other quota/volume above has room.
+export TMPDIR="$SCRATCH_DIR/cache/tmp"
 
 # --- conda / venv setup -----------------------------------------------------
 # CONDA_ENV: the conda env this project's checker/condenser modules are
