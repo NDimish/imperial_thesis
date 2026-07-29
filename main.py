@@ -61,18 +61,6 @@ def load_checker_modules():
         print(f"Skipping FactKBChecker: {e}")
 
     try:
-        from Modules.factsumm_checker import FactSummChecker
-        modules.append(FactSummChecker())
-    except Exception as e:
-        print(f"Skipping FactSummChecker: {e}")
-
-    try:
-        from Modules.questeval_checker import QuestEvalChecker
-        modules.append(QuestEvalChecker())
-    except Exception as e:
-        print(f"Skipping QuestEvalChecker: {e}")
-
-    try:
         from Modules.kdbe_checker import KdbeChecker
         modules.append(KdbeChecker())
     except Exception as e:
