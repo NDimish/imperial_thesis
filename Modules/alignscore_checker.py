@@ -6,7 +6,7 @@ from Modules.base import CheckerModule, split_sentences
 
 # Set to a downloaded AlignScore checkpoint (see yuh-zha/AlignScore -- checkpoints
 # are on HuggingFace, not bundled with the package).
-CKPT_PATH = ""
+CKPT_PATH = r"C:\Users\natha\OneDrive\Documents\Uni\Impreial\modules\Thesis\code\data\AlignScore-base.ckpt"
 MODEL = "roberta-base"
 # Uncalibrated on this data -- tune once you see real scores.
 THRESHOLD = 0.5
