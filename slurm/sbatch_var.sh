@@ -28,19 +28,35 @@
 #   sbatch slurm/sbatch_var.sh slurm/run_nlp_main.sh [limit]
 #
 # Optional overrides at submission time:
-#   sbatch --export=CONDA_ENV=other-env,VENV_PATH=/path/to/venv slurm/sbatch_var.sh <script> [args...]
+#   sbatch --export=CONDA_ENV=other-env,VENV_PATH=/path/to/venv,SCRATCH_DIR=/data/you slurm/sbatch_var.sh <script> [args...]
 
 set -euo pipefail
+
+# --- scratch dir (quota escape hatch) ---------------------------------------
+# Home directories on shared DoC-style clusters are quota-limited (often just
+# ~12GB) regardless of how big the underlying filesystem's total capacity is
+# -- this project's dependencies (torch, transformers, spacy, gensim's GloVe
+# vectors) plus downloaded model checkpoints (AlignScore) can easily blow past
+# that on their own. SCRATCH_DIR should point at a volume you've confirmed is
+# actually writable for you and has real headroom -- check with e.g.:
+#   touch /data/$USER/test && rm /data/$USER/test
+# before trusting this default.
+SCRATCH_DIR="${SCRATCH_DIR:-/data/$USER}"
+mkdir -p "$SCRATCH_DIR/cache"
+export HF_HOME="$SCRATCH_DIR/cache/huggingface"
+export TORCH_HOME="$SCRATCH_DIR/cache/torch"
+export GENSIM_DATA_DIR="$SCRATCH_DIR/cache/gensim-data"
 
 # --- conda / venv setup -----------------------------------------------------
 # CONDA_ENV: the conda env this project's checker/condenser modules are
 # installed in (see requirements.txt at the repo root). Change this if you
 # clone the env under a different name.
 CONDA_ENV="${CONDA_ENV:-soap-checker}"
-# VENV_PATH: fallback if conda itself isn't reachable on this node -- point
-# this at a plain venv's install root (the one containing bin/activate).
-# Only used when conda can't be found at all.
-VENV_PATH="${VENV_PATH:-$HOME/venvs/soap-checker}"
+# VENV_PATH: fallback if conda itself isn't reachable on this node (e.g. no
+# conda installed at all) -- point this at a plain venv's install root (the
+# one containing bin/activate). Defaults under SCRATCH_DIR, not $HOME, so the
+# venv itself doesn't refill your quota the way it did the first time round.
+VENV_PATH="${VENV_PATH:-$SCRATCH_DIR/venv}"
 
 activate_env() {
     if command -v conda >/dev/null 2>&1; then

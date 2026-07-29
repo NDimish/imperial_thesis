@@ -128,7 +128,7 @@ pytest==9.1.1
 python-dateutil==2.9.0.post0
 pytorch-lightning==2.6.5
 pytorch_revgrad==0.2.0
-pywin32==312
+pywin32==312; sys_platform == "win32"
 PyYAML==6.0.3
 questeval==0.2.4
 quicksectx==0.4.1
@@ -186,7 +186,7 @@ websockets==16.1.1
 wget==3.2
 Wikidata==0.9.0
 Wikipedia-API==0.15.0
-win32_setctime==1.2.0
+win32_setctime==1.2.0; sys_platform == "win32"
 wrapt==2.2.2
 xxhash==3.8.1
 yarl==1.24.5
