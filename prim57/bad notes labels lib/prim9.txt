@@ -1,0 +1,14 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "\"UTI\" was swapped for \"MSU \n 3\" (from note 5)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"MSU \n  3\" was swapped for \"MSU \n 2\" (from note 10)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 5: \"Urinary sx - noticed some pink coloured urine, no frank haematuria, nil dysuria.\""
+  }
+]

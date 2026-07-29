@@ -1,0 +1,153 @@
+d: Hi there. Good morning.
+p: Hello.
+d: Um, I'm Doctor <UNSURE>Deen Mirza</UNSURE> from GP at Hand. Nice to see you.
+p: Lovely to meet you.
+d: OK. So, before we start your appointment. Can I please confirm your full name and date of birth?
+p: Uh my name is, Tracy Chapman, and, um, my date of birth is.
+p: <UNSURE>God</UNSURE> <INAUDIBLE_SPEECH/>. <UNIN/>, I'm forty five.
+d: Just tell me how old you are.
+d: <INAUDIBLE_SPEECH/>, OK. Uh, <UNSURE>and</UNSURE> could you <UNSURE>just</UNSURE> confirm the first line of your address, and your postcode?
+p: Uh, fifteen Babylon Street. Um, W six five <INAUDIBLE_SPEECH/>.
+d: <INAUDIBLE_SPEECH/>
+d: That's great, OK, thank you. Um, are you in a private place where you're OK to speak at the moment?
+p: Yes.
+d: OK, fantastic. All right, so tell me what's been going on. You said you're, a bit short of breath. Is that right?
+p: Yeah, yeah, feeling very sort of breathless recently.
+p: Um, <UNIN/> like, I don't know, whenever I like breathe deeply, I, it sort of catches in, in the, right-hand side of my back.
+d: Right, OK, OK. And how long has this been going on for now?
+p: Just, just today really.
+d: Right, OK. Any other symptoms at the same time, uh, that you've had this pain?
+p: Um, well I've had a <UNIN/>, I've got a bit of slight fever, um, and, and, uh, well like, I coughed up a bit of blood on, on two occasions.
+d: <INAUDIBLE_SPEECH/>
+d: <INAUDIBLE_SPEECH/>
+d: Right, OK.
+p: <INAUDIBLE_SPEECH/> what that means.
+d: OK, all right. <UNIN/>, well it might, it might all be connected then. Um, and um, yesterday, before this, all of this, were you completely fine?
+p: Um, yeah, yeah, kind of, I <UNIN/>, I, I can sort of feel my heart beating, but <UNIN/>, other than that, no, sort of fine.
+d: <INAUDIBLE_SPEECH/>
+d: OK. So you can feel your heart kind of, um, beating a little bit, bit faster, do you think than normal? Is that?
+p: <INAUDIBLE_SPEECH/>
+p: <UNIN/>, I don't know I can just sort of feel it, more <UNIN/>, you know. Um, but I've, I've also, I've been feeling a bit, like a bit tired at work.
+d: <UNSURE>OK</UNSURE>. Sure.
+p: Haven't really been, like exercising has been a bit difficult, because I've been feeling tired.
+p: Um, and, <UNIN/>, yeah <UNSURE>performing</UNSURE>, <UNIN/>, performing daily activities has, has been a bit harder than usual.
+d: <INAUDIBLE_SPEECH/>
+d: <INAUDIBLE_SPEECH/>. OK, all right. <UNIN/>, and um, how long has that been for? The tiredness and, you know, <UNIN/>, not wanting to exercise <UNSURE>and</UNSURE>.
+p: Um, <UNIN/>, only after, only for a couple of weeks or so.
+d: Couple of weeks, OK. And then, and the last day or so that's when you get the cough and the pain in the side? And you've cough <INAUDIBLE_SPEECH/> blood, OK, all right. Um, you said you felt a bit warm. <UNIN/>, have you measured your temperature at all?
+p: Yep.
+p: Um, with the back of <UNSURE>my</UNSURE>, my hand, yes.
+d: <INAUDIBLE_SPEECH/> just <INAUDIBLE_SPEECH/> with that, OK, fair enough, all right. Um, OK. And now, can I just ask? Um, do you smoke at all?
+p: Uh, no.
+d: OK. What do you work as?
+p: Um, I work in an office, just a, desk job.
+d: OK, all right. And, um, do you live alone?
+p: Uh, yes.
+d: Yeah. In a flat or a house?
+p: Flat.
+d: OK. Do you have any pets?
+p: Cat.
+d: A cat, OK. Um, uh, uh, are you on, any medication at all? Regular medication?
+p: <INAUDIBLE_SPEECH/>
+p: Uh, yeah, um, <UNIN/>, Methotrexate, Methotrexate, that's.
+d: Methotrexate. OK. <UNIN/>, what are you on that for?
+p: Um, I've, I've got SLE.
+d: SLE, OK. Do you have any other <UNIN/>, diagnoses? Any other illnesses at all?
+p: No.
+d: Right, OK. Um, and do you have any allergies to any medication?
+p: No.
+d: Any other allergies at all?
+p: No.
+d: OK. So, um, you're on, you're taking Methotrexate at the moment. When was the last time you had Methotrexate?
+p: Uh, this morning.
+d: Ohh, you had it this morning. OK, <UNSURE>ohh</UNSURE> right, all right.
+p: <INAUDIBLE_SPEECH/>
+p: <INAUDIBLE_SPEECH/>
+d: OK. Um <UNIN/>, um, couple of things I'd like to do in order to try and um, get an idea of how, unwell you are.
+d: OK. Um, the first thing I'd like to do, is to try and measure your pulse.
+d: So, what, the way we're gonna do this, is that, if you're, if I can get you to try and locate the pulse in your wrist.
+d: <UNIN/>. Not everyone can do this, so don't worry if you can't.
+d: But if you, if you can tell me whether you can feel the regular pulse. It's just under the thumb. If you put two fingers up and down like that, you might be able to feel the pulse.
+p: I've got it.
+d: You got it, OK. Are you sure?
+p: Yep.
+d: All right. So what I'm going to do, is I'm going to tell you when to start counting, and when to stop counting OK. So I'll just get my stopwatch up.
+d: OK. So if you can, um, you've still got the pulse?
+p: Yep.
+d: OK. So if you can start counting, now please.
+p: One, two, three.
+p: Five, six, <UNIN/>, eight, <UNIN/>, ten, <UNIN/>.
+p: <INAUDIBLE_SPEECH/>
+d: If you can stop now, <UNIN/>. That, I think that was about eleven or twelve. Um, so that would make your heart rate about, sixty six to seventy four, that's, that's OK, good.
+d: Fantastic. And the next thing I'd like you to try and do, OK. Um, it depends on the lighting, so it may not be possible.
+d: But <UNSURE>the</UNSURE> next thing I'd like you to try and do is just, to get you to squeeze the tip of your finger.
+d: And then let me see how quickly the redness come back. OK, so if you can see what I'm doing now. My finger's come, right behind the screen, I'm squeezing it, OK. <UNIN/>, just watch me first, it's all right, just watch me first. Yeah, I'm, I'm squeezing it.
+d: And then you can see, that, it goes, pale and then it goes back to the normal red colour, OK.
+d: So if I can get you just to put your finger up to the, your camera. And then with the other hand, just try and squeeze it, and <UNSURE>see</UNSURE><INAUDIBLE_SPEECH/>.
+p: <INAUDIBLE_SPEECH/>
+p: You <UNSURE>look</UNSURE> like you've got very good circulation.
+p: <INAUDIBLE_SPEECH/>
+d: OK, perfect, that's great. Thank you so much.
+d: The last thing I'd like to do, is I'd like <UNIN/>, to <UNIN/>, try and have a look down your throat.
+d: OK. Are, are you doing this consultation via, um, a phone or a <UNIN/>, laptop?
+p: Phone.
+d: A phone?
+p: <INAUDIBLE_SPEECH/> rested it on my laptop, so I think we're good to go.
+d: <UNIN/>, sorry, say that again.
+p: Got it rested the laptop but I can.
+d: <INAUDIBLE_SPEECH/>
+d: OK, <UNIN/>, OK. So if you, if you, um, position your device up above your head, put your head back, mouth open wide, and let me see if I can have a <UNIN/>. That's, <UNSURE>fantastic</UNSURE>. And say ah.
+p: Ah.
+d: <INAUDIBLE_SPEECH/>
+d: Perfect. Thank you for that. Excellent.
+p: Lovely.
+d: OK. Last thing, is if I can get you to feel inside your neck. Just on the sides here, OK, um, by your Adam's apple. Tell me whether you can feel any enlarged glands or not.
+p: No, they feel pretty normal to me.
+d: <INAUDIBLE_SPEECH/>. OK.
+p: I think.
+d: All right. Um.
+d: Now, um, uh, <UNIN/>. Sorry, I've forgotten your name.
+p: Um, Doris.
+d: <INAUDIBLE_SPEECH/>
+d: Doris, OK Doris. Um, so, so Doris, um, what, what I think we need to do, is um. This sounds like you might have a chest infection.
+d: OK. If you're coughing up blood, and you're feeling your heart racing. Um.
+d: Uh, I think, you need to be examined today, someone needs to listen to your chest.
+d: And, um, maybe check your blood pressure as well, check that, you're stable. I have to say examining you now, from what limited, examination I could do online.
+p: <INAUDIBLE_SPEECH/>
+d: You're, everything does seem to be OK, in terms of, you, you don't seem acutely unstable.
+d: However, if you've got, this kind of pain, um, when taking a deep breath in and you're coughing up blood. We do, do, we do need to assess you to figure out whether you have <UNSURE>a</UNSURE> Pneumonia or chest infection.
+d: And um, that would involve someone listening to your chest with a stethoscope, and you may need um, an antibiotic. Uh, there's one thing I need to ask you. Have you been, on any long-haul flight recently?
+p: <INAUDIBLE_SPEECH/>
+p: No, no.
+d: No, OK. Have you ever had any clots in your legs, or clots in your lung? Blood clots?
+p: Not that I know of, no.
+d: No, OK. Anyone in the family have that?
+p: No.
+d: No, OK. All right. Um, what I think we'll do is um, we'll arrange for you to get reviewed in a clinic today.
+d: OK. Um, I would like someone to listen to your chest, and check your blood pressure.
+d: And to, to recheck your pulse as well. Just make <UNSURE>sure</UNSURE>, and check your temperature, make sure all those parameters <UNSURE>are</UNSURE> OK.
+d: You may well need an antibiotic, OK. Um, do you have any allergies to any antibiotics?
+p: No.
+d: No, OK. Um, I, I'm not, I'm gonna, not, I'm not going to prescribe anything for you now, because I think you need to have that, basic assessment first.
+d: Um, before we proceed to the next step. But the, that's what I would predict the next step might be. Um, I'm going to leave the number in the notes for this appointment, for you to ring our support team.
+d: And then, they will, book you in for a face-to-face appointment with one of our GPs today.
+d: And <UNSURE>then</UNSURE>, they'll do that assessment, and then we'll take it from there, OK.
+p: OK.
+p: But we don't think I'm dying of lung cancer.
+d: Um, uh, given the, the way in which you uh, have presented now. Just one day, with a fever and, this slight pain, <UNIN/>, concurrent with the, the blood in the, the, the flem.
+d: That's not usually how lung cancer is <UNSURE>presented</UNSURE>. It's more insidious, over a longer period of time, with other symptoms.
+d: Um, however, we might need to get some investigations to exclude that. It depends on the examination finding, when we see you.
+p: OK.
+d: All right. <UNIN/>, are you worried about lung cancer?
+p: Well you know, you start coughing up blood and you think you're, gonna, die of lung cancer, so.
+d: <INAUDIBLE_SPEECH/>. Sure, of course yeah. So, just remind me how old you are again. I'm sorry.
+p: Forty five.
+d: Forty five, OK. It's something we do need to be cognisant of, OK. Um, and, we may end up having to do a follow-up chest X-ray, if things don't settle down. But at the moment, it, it seems more like a chest infection, rather than a lung cancer.
+p: That's good to know.
+d: Yeah, that, that is good to know, yeah, so that's, 'cause that's easier to treat. But we still need to make sure that things are OK because, chest infections can become nasty as well.
+d: <UNSURE>It</UNSURE> can lead to infection inside the body, <UNIN/>, we want to avoid that as well. So, let's get you checked out today, and hopefully we can put your mind to rest, <UNSURE>and</UNSURE> get you on the right course of treatment.
+p: Yep.
+p: Perfect. Thank you very much.
+d: All right, you're welcome. All right, take care then. All the best.
+p: <INAUDIBLE_SPEECH/>
+d: Bye.

@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "Examination"
+  },
+  {
+    "type": "hallucination",
+    "detail": "You are not depressed or stressed (from NOTE 28)"
+  }
+]

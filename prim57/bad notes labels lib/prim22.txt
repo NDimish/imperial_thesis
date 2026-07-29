@@ -1,0 +1,6 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "\"IHD\" was swapped for \"GP\" (from note 23)"
+  }
+]

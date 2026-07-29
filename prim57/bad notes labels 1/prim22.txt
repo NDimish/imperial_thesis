@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "Explained above"
+  },
+  {
+    "type": "hallucination",
+    "detail": "DDx - MI, PE, GORD (from NOTE 36)"
+  }
+]

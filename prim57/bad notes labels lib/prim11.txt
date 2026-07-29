@@ -1,0 +1,10 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 1: \"Lives with wife and children.\""
+  },
+  {
+    "type": "omission",
+    "detail": "3/7 hx of diarrhea - watery stools, opening bowels every hour."
+  }
+]

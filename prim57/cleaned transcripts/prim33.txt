@@ -1,0 +1,77 @@
+d: Hello?
+p: Hi there!
+d: Hi, hi, I'm doctor Jacob and welcome to Babylon. Hello.
+p: <UNSURE>I, uh</UNSURE>
+d: Hi. So just before we start, is it alright if you could confirm your full name for me please?
+p: Uh, <INAUDIBLE_SPEECH/>, that's, uh, John Jones.
+d: <UNIN/>
+d: And your date of birth.
+p: Uh, that's, uh, the, twenty ninth of September, nineteen eighty.
+d: K. And your email address for me please?
+p: Uh, that's, uh, John Jones, at, John Jones dot net.
+d: OK. And just to confirm that you're in a secure location, and we can have a confidential conversation.
+p: Yep. That's absolutely fine.
+d: OK. So, you've mentioned on our notes that you're having a bit of a cough and a cold. Is that correct?
+p: Yeah, yeah, it's just <UNIN/> it's been going on for, like a few days now. Um, sort of like, coughing, and like, <INAUDIBLE_SPEECH/>  general runny nose, and stuff, and, like <INAUDIBLE_SPEECH/>
+d: <INAUDIBLE_SPEECH/> is it two to three days, or longer?
+p: Little bit, uh about like five days around that, uh, yeah it started like, what day is it today? Uh, yeah <UNIN/> the week, it started with the start of the weekend, so.
+d: <UNSURE>Fine</UNSURE>.
+d: <UNIN/> OK. So, so it started off with a cold, did it?
+p: Yeah <UNIN/> just like coughing, and like running nose, and like kind of muscles aching and stuff, like occasional <UNIN/> feeling like headache, cold, chills, and things like that.
+d: <UNIN/>
+d: OK.
+d: Important cold, yeah?
+d: And, so about your cough, are you bringing up any phlegm at all?
+p: Yeah.
+p: No, no, it's like a, it's like a dry cough <UNIN/> Sort of like <UNIN/> like, almost hacking, hacking kind of like <UNIN/>.
+d: OK.
+d: You're not bringing up any blood, are you?
+p: <INAUDIBLE_SPEECH/>
+d: <UNIN/> OK. Are you feeling short of breath at all?
+p: No, no, no shortness <UNIN/>, like yeah, I'm breathing fine.
+d: Yeah. So you're not wheezy or <UNIN/> rattly noises in your chest.
+p: No.
+d: OK. Um, right. So what have you taken so far?
+p: Uh, so, uh, just like pain killers and such. I mean that I, I, um, in addition to like my normal medication and such. Um, but like
+d: Well you mentioned, uh, you've come to your normal medications but <UNIN/> you've mentioned you've taken some painkillers like, would you tell me the names please?
+p: I'll just like pass it along.
+d: Paracetamol, OK. Any Ibuprofen at all?
+p: <UNSURE>No</UNSURE>
+d: No, OK. And also um you mentioned some regular medication. Unfortunately I don't have your medical, complete medical history. So if you could tell me what your medications are, and what you use them for?
+p: Yeah, so I take, um, uh, what's it called,  it's like <UNSURE>metformin</UNSURE>.  <UNIN/> I'm a diabetic, so. And, um, I also, like have,  uh,   <UNIN/> <UNSURE>lisinopril </UNSURE>.
+d: Lisonopril, OK.
+p: Yeah, but the <UNIN/> like <UNSURE>slight</UNSURE> blood pressure.
+d: Yeah, OK. And, how long have you been a diabetic for?
+p: Um, like a, a few years, maybe five or six years.
+d: Five six years, OK.
+d: OK. Do you monitor your blood sugars at home?
+p: Yes.
+d: OK. And how have they been doing at the moment?
+p: Uh, no issues <UNIN/> nothing like out of the ordinary there.
+d: OK. So there's no problems with your blood pressure control at the moment, even though you're not, OK so that's <UNSURE>fine</UNSURE>. That's absolutely fine. And when was the last time you took your blood pressure?
+p: Uh, I've been this morning.
+d: This morning. And what was it? What was the readings like?
+p: I can't remember off the top of my head, but it was <UNIN/> within the normal range.
+d: <UNSURE>Cool</UNSURE>, 'cause there's nothing alarming yeah? No more. OK. That's fine. OK. So that seems all right.
+d: OK. So, um, can I, hypothetically, look into your mouth here?
+p: <UNSURE>Sure</UNSURE>.
+d: Yeah?
+d: <INAUDIBLE_SPEECH/> Yeah, <UNIN/> so, uh, looking into your mouth
+p: <INAUDIBLE_SPEECH/>
+d: Um, you know, there's just a bit mild redness at the back of your throat. Um, there's no enlarged tonsils. Can you feel any glands around your neck, at all?
+d: <UNSURE>No. No.</UNSURE>
+p: No, <UNIN/> I haven't had anything like that.
+d: OK. So, it looks like, it's just a viral infection. Um, because it's just a <UNIN/> cold and a cough. There's nothing there.
+d: And generally if you have things like a chest infection, you would have a bit like a wheeze or shortness of breath.
+d: So, um, things that we would recommend is you can use the, you know, Night Nurse, Day Nurse. It's still OK with your medications, yeah. So I'm, I'm sure that you are a bit wary to use them. But it's still OK with your current medication. You can still use that. Might be able to make you feel a bit more better quickly.
+p: OK.
+d: If there's any change, like you're feeling short of breath or be your symptoms are lasting more than three weeks or something
+d: Or you're  becoming <UNSURE>poorly</UNSURE>,  uh, things like that, then you need to get in touch with us, then probably we might need to examine you and <UNIN/> especially your chest. But I don't think so, that's necessary at this point in time
+p: OK, that sounds good.
+d: OK. Any questions at all ?
+p: Uh, no, I <UNIN/> I think <UNSURE> that's been </UNSURE> very helpful thank you.
+d: OK. So just to round up, just use the night, Night Nurse, Day Nurse, if any change in your symptoms, like shortness of breath,  wheezy, or <UNSURE>symptoms </UNSURE>are lasting more than three weeks,  then get in touch with us.
+p: OK, so I don't need any prescription, or anything like that.
+d: <UNSURE>No, no</UNSURE> you don't need anything at the moment. OK. Take care, then. Bye. <INAUDIBLE_SPEECH/> Bye bye.
+p: OK.
+p: Thank you very much, bye!

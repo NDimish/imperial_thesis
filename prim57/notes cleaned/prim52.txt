@@ -1,0 +1,22 @@
+PC: Cough and cold.
+HPC: 4-5 day hx runny nose, dry cough. No sputum/haemoptysis. No epistaxis/sinus pain. Feels hot, hasn't measured temperature. No SOB/inspiratory pain/wheeze. Aches and pains. No vomiting. E&D ok. PUing ok. 
+No hx chest problems/recurrent chest infections/wt loss.
+Thinks last BP was fine, can't remember when last BP/DM check up was. Doesn't check blood sugars/urine at home. 
+No increased thirst/urinary freq.
+Taking 2-3 lemsips a day which eases sx.
+
+PMH: Hypertension
+T2 DM
+
+DH: Lisinopril 
+Metformin
+
+Height- 5ft 5in
+Weight - 65kg
+
+SH: Non smoker, odd sherry. Lives with partner and dog. Office manager.
+
+Imp: Viral bronchitis.
+
+Plan: Advised continue lemsips but no other paracetamol containing products. Avoid cough syrup but can take if unable to sleep at night. 
+May take 1-2 weeks to settle and cough can persist for up to a month but to contact us if symptoms not worse/fever persists - check with thermometer/coughing up phlegm/blood in sputum/nose bleeds.

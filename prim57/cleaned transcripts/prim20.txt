@@ -1,0 +1,141 @@
+d: Hi there. Good morning. I'm Doctor <INAUDIBLE_SPEECH/> <UNSURE>from GP at Hand</UNSURE>. Nice to see you.
+p: <UNSURE>Hi</UNSURE>.
+d: OK. So, um, before we start your appointment. Could I confirm your full name and date of birth please?
+p: <UNSURE>Yeah</UNSURE>, it's John Smith, and I am thirty two years old.
+d: Sorry, I didn't catch your date of birth.
+p: I'm thirty two years old.
+d: Thirty two years old, OK. Could you tell me the first line of your address, and <UNSURE>your</UNSURE> postcode please?
+p: It's four Park Avenue, and it's AB one CB two.
+d: That's great, thank you so much for that. Are you in a private place where you're OK to speak at the moment?
+p: Yes.
+d: OK. So how can I help you today? You've been having some problems with your asthma. Is that right?
+p: Sorry, say that <UNIN/>.
+d: How can I help you today?
+p: So, um, I've been experiencing very weird symptoms, over the past month or so.
+p: And I <UNSURE>don't know</UNSURE> what's causing them. I have googled it and, um, nothing's coming up, so I thought I'd come and speak to you about it.
+d: OK.
+d: OK. So, tell me a bit more about these weird symptoms you've been having.
+p: So, it started with, feeling very tired, but for a couple of days, and then I get back to normal.
+d: <INAUDIBLE_SPEECH/>
+p: And then I started losing feeling, in my hands and arms. I get a weird sensation like, uh, I guess, pins and needles.
+d: <UNSURE>Right</UNSURE> <INAUDIBLE_SPEECH/> again, the connection's not so great. You've been getting pins and needles in the hand. Is that right?
+p: And.
+p: Yeah, that's correct.
+d: OK. Is that the right or left hand?
+p: My right hand.
+d: Is it always the right?
+p: Yes.
+d: OK. Um, we've lost video now, maybe is there a, a, a button you can press?
+d: OK.
+d: Are you happy for us to carry on without the video? I can't see you at the moment.
+p: Yes, that's fine.
+d: All right. Um, so, you've been having these pins and needles, <UNSURE>and</UNSURE> episodes of numbness, in the right hand. Is it just the hand, or does it go up the arm as well?
+p: Uh, the pins and needles are in the hand, but I feel like my arm is getting weaker, but it only lasts few days and then goes back to normal. So, it's very weird.
+d: Right, OK. Um, is <UNSURE>there</UNSURE> any involvement of your leg at all?
+p: Uh, my, colleague said, I'm walking slightly differently to normal.
+p: And again, it's only for three days, or three or four days.
+d: OK. You, you said you've been having weird symptoms for about a month.
+p: Yes.
+d: <UNIN/>, so, what has been happening from the beginning of the month? What else has been <UNSURE>happening</UNSURE>?
+p: Um, I generally feel tired, and weak.
+p: And, sometimes I feel nauseous, and I don't feel like I want to do anything.
+d: Right, OK.
+d: Um, and, um.
+d: You know, <UNIN/>, your colleague said you've, you've not been walking normally.
+p: Yes.
+d: Do you feel anything different, on either side, in terms of your legs? Can <UNIN/>, have you noticed anything different?
+p: <UNSURE>Yeah</UNSURE>, so, at the same time I get my arm symptoms, my leg feels weaker.
+d: Right, OK.
+d: And.
+d: You know you, the abnormal gait. Has that been present, outside of these episodes?
+p: No, it has not. So normally, I'm, fit and well actually.
+d: Right, <UNIN/>.
+d: All right, OK. Um, and, these, these episodes. How often have they been happening?
+p: They have been getting more regular. So at the start, it would be maybe once a week, uh, to every once <UNIN/>, once a month, but now it's getting uh, uh, a couple of times a day.
+d: Right, OK. And, how long have these episodes been going on for? When, when did it all start? Was it a month ago?
+p: <UNIN/>, probably a month and a half, maybe two months.
+d: Right, OK.
+d: OK. And, along with these symptoms, of the weakness and numbness. Do you have any other symptoms at the same time? Like swallowing, or difficulty speaking, or vision problems?
+p: So, recently I've noticed, I can't hold my cup of coffee.
+p: And when I, do drink coffee, it's slightly harder to drink.
+p: And that's only been in the last couple of days, I guess.
+d: Right. Is that during these episodes, or outside of these episodes?
+p: Only during the episodes.
+d: OK.
+d: Do you have any difficulty swallowing at all?
+p: Not currently, no.
+d: <UNIN/>. During the episodes, do you have any difficulty swallowing?
+p: I, I, I feel like there's something in my throat.
+d: OK. What about, <UNIN/> um, difficulty speaking during these episodes? Any, any issues with that at all?
+p: No, I can speak fine.
+d: OK. And any visual problems during these episodes?
+p: <UNSURE>I</UNSURE>, I don't think so, but I wear glasses.
+d: OK, all right. Now um, can I just ask? <UNIN/>, has, uh, is there any history of stroke, or mini-strokes in your family?
+p: Uh, yes. My, father has had a, operation to the side of his neck, to reduce the risk of stroke.
+d: Right, OK.
+d: Um, and, uh, how about yourself? Have you had any history of, mini-strokes or anything like that, along those lines? I know you're quite young.
+p: No, so after my, dad had his operation, I was required to be checked, and my cholesterol <UNIN/>, was fine.
+d: Good, excellent. So you had a, a blood test done. And did they check for diabetes as well?
+p: Yeah.
+p: They checked my diabetes, my blood pressure and my, cholesterol, and the doctor said it was all OK.
+d: Fantastic, OK. Now, do you have any other illnesses at all?
+p: No.
+d: No. Are you on any medication?
+p: I take an aspirin, seventy five milligrams, once a day, but that's, because of something I read on the internet.
+d: OK. So, so, why is that? Why do you take that?
+p: I think it's, meant to reduce your risk of stroke and heart attack.
+d: OK. Do, have you ever told a doctor before, your GP, that you're on Aspirin?
+p: Yes I took, I started to <UNIN/>, taking it after my, father had his operation, but that wasn't the doctor telling me.
+d: OK. Uh, and, has any GP ever spoken to you about, the risks of Aspirin, and whether you should be on it? Or have you not <UNIN/>, told the <UNIN/>, the GP in the past?
+p: No, I haven't.
+d: You haven't, OK. Um, all right. Um. Now, um, in terms of your uh, your kind of social situation. Um, are you working at the moment?
+p: Yes, I am.
+d: <UNIN/>, what do you work as?
+p: Uh, I'm, uh, I'm actually a doctor.
+d: You're a <UNIN/>, a, a medical doctor?
+p: Yes.
+d: OK. Uh, which, <UNSURE>specialty</UNSURE> are you in?
+p: I work in, <UNSURE>uh</UNSURE>, plastic surgery.
+d: Plastic surgery, OK, great. And, um, do you, have any, um, allergies to any medication at all?
+p: I'm allergic to penicillin only.
+d: OK. And, um, are you, um, living alone?
+p: No, I live with my wife.
+d: Right, OK. Um, fantastic. Uh <UNIN/>, do you smoke at all?
+p: No, I don't.
+d: Right, OK. Um, that's fine. Now, obviously you're a, you're a medic yourself. Did you have any thoughts as to what might be going on?
+p: Uh, I've <UNSURE>actually</UNSURE>, got no idea.
+d: Right, OK. Um, well the, the way you're describing these episodes. They make me concerned about, mini-strokes or TIAs, <UNIN/>, transient ischemic attacks. Um.
+p: <UNSURE>OK</UNSURE>.
+d: And so, that's something quite urgent. And given that you've got a family history of um, stroke.
+d: Um, even though you're quite young, I think um, it's something that we need to exclude. So, what I'm probably going to do, uh, in fact what I am going to do, is I'm going to, refer you to a stroke, a TIA clinic.
+d: Um, now just to double-check. Do you have the symptoms right now?
+p: No, I'm perfectly fine at the moment.
+d: OK. So, so, what I'm gonna do, is I'm uh, I'm gonna refer you to a, a mini-stroke clinic, or a TIA clinic.
+d: Um, I send that referral off now, and then you can attend them, they, they'll usually, call you in within the next one to two days, OK.
+d: Because it's something relatively urgent. Now, today it's Wednesday, so we've got a few days <UNIN/>, before the weekend. So, um, uh, basically the deadline should be, Thursday, Friday.
+d: We're expecting you to be seen by the time, that's the kind of turnaround we're, we're looking at.
+d: And in that clinic, they'll be doing a number of things. Um, they'll be checking, they'll be doing <UNSURE>a</UNSURE> ultrasound of the, carotid arteries, like your, your father had. Um, and, they'll be doing a, maybe a, they might do a scan of your brain as well, to check if there's <UNSURE>any</UNSURE> signs of a bleed there.
+d: But, um, they'll be doing a range of tests in a short time frame, in order to exclude whether, you have um, any illness. OK, whether you <UNSURE>have</UNSURE> got any kind of stroke or, mini-stroke.
+p: Sure.
+d: Now, if your symptoms return and they persist, <UNSURE>they're prolonged</UNSURE>. Then um, you may need to attend A and E.
+d: OK, because um, our presumptive, working diagnosis <UNSURE>is</UNSURE>, mini-stroke or TIA, OK.
+d: And if, a mini-stroke is prolonged then uh, then we end up thinking that this might be a stroke and in that case, that becomes even more of an emergency. So, we're not talking about waiting one or two days, we want you to go to hospital in that instance, as soon as possible, OK.
+p: Sure.
+d: Now if <UNIN/>, things happen again, feel free to contact us, we can assess you over the phone, we can give you direction and guidance over the phone. That's, that's, that's not a problem, you know, you, you've got easy access to us.
+d: OK. So, um, this is the plan going forward. Um, I'm going to, um, do that referral.
+d: You should hear back from the hospital, relatively soon.
+d: The hospital, you can actually ring them, on um, uh, the <UNSURE>PALS</UNSURE> number, and then there's also the TIA clinic number.
+d: I'm going to leave that number in the notes for this consultation, OK. So you'll have all the information you need, to chase this appointment.
+p: OK.
+d: And um, if you want, you can ring them, either today or tomorrow morning.
+d: <UNIN/>, today in the afternoon, wait uh, one or two hours. Or tomorrow morning just to find out when they <UNSURE>got</UNSURE> time to slot you in. And, just to make sure they've got you in the system, that they've got in the books, and they're going to be calling you in, OK.
+p: <INAUDIBLE_SPEECH/>
+d: <INAUDIBLE_SPEECH/>, this isn't, <UNSURE>a</UNSURE>, an immediate emergency that you need to rush down to A and E. But it's something quite urgent we need to, deal with in a short space of time, OK.
+d: So if there's, if there's any delay that, transpires for example, you can't make the appointment or, you know, they, you don't get called. <INAUDIBLE_SPEECH/>, you, you get, get in contact back, back with us, OK.
+p: <INAUDIBLE_SPEECH/>
+d: All right. Did you have any questions at all?
+p: No, I think that covers, most of it.
+d: OK, great. So just bear with me a few minutes, and then I'll send that uh, all through and then you should, um, you should be able to <UNSURE>help</UNSURE>, you should have the information at your hands to, in order to take things further, OK.
+p: <UNIN/>, thank you.
+d: All the best. Take care now. Bye bye.
+p: <INAUDIBLE_SPEECH/>

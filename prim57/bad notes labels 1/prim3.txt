@@ -1,0 +1,10 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "Pmh: renal stones (swapped in from NOTE 41)"
+  },
+  {
+    "type": "omission",
+    "detail": "PMH: nil"
+  }
+]

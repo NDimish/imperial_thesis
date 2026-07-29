@@ -1,0 +1,18 @@
+Diarrhoea for 3 days 
+Also associated abdominal pain 
+No mucous, no blood 
+Vomiting once 
+Still eating and drinking 
+Diarrhea like water 4-5 times a day 
+No fever 
+Loss od appetite 
+Did not eat out 
+No foreign travel 
+No dehydration on examination 
+PMH : asthma 
+FH: Dad died of bowel cancer 10 years, HTN
+Medication ? Lapriso
+No allergies 
+Diagnosis: Gastroenteritis
+Plan : advised soft diet , drink plenty . Start with crackers, soups and mash . Then can build on with mash and vegetable. Can use yoghurts as probiotics and will help build the gut. If the diarhoea goes on for more than a week or there is blood , we would need a stool sample. 
+If there is diarrhea more than 8 episodes, you may get dehydrated please book an appointment.

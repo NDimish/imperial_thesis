@@ -1,0 +1,144 @@
+p: Hello.
+d: Hi there, it's Doctor Smith from Babylon. Can you confirm your name, date of birth and your address, please?
+p: Uh, <UNIN/> date of birth twenty second of december, nineteen ninety. Uh, address, uh, <INAUDIBLE_SPEECH/> sixteen <UNIN/> avenue.
+d: OK, that's fine. <UNIN/> Are you in a private place so you can have a consultation?
+p: Yeah, sure.
+d: What can I do for you today?
+p: So, um, recently I'm wheezy. Uh, I have feel like kind of short of breath.
+d: OK, and how long has that been going on for?
+p: Mmm, two, three days. Yeah, quite recently.
+d: And have you ever had similar symptoms in the past?
+p: Um, I think so. It was a while before, yeah, but I can't remember.
+d: As, was that as an adult or as a child?
+p: Sorry? Oh, as a <UNIN/>, as a adult, yeah.
+d: How long ago was that?
+p: Sorry?
+d: How long ago was that, that you had similar symptoms?
+p: I can't remember, sorry.
+d: <INAUDIBLE_SPEECH/>
+d: And any problems with wheezing when you were a child or any asthma?
+p: Uh, yes, I had asthma. I also had, uh, <UNIN/> hay fever and <UNIN/> <UNSURE>eczema</UNSURE> <UNIN/>, sorry.
+d: OK, and <UNIN/> when you were a child how bad was your asthma?
+p: Uh, it's quite bad.
+d: Did you have to take medication?
+p: Yeah, I take the asthma inhaler.
+d: Do you know which ones you took?
+p: No, I can't remember.
+d: And did you ever have to go to hospital with it?
+p: Yeah, sometimes.
+d: Did you ever get severely unwell, have to be on intensive care unit or anything like that?
+p: No, not that bad but still, sometimes, need to go to hospital to check if it goes well.
+d: Did you have to miss school?
+p: Uh, yeah, occasionally.
+d: OK. And when do you think it last, when do you think that asthma stopped? At what age did you get to a point where you weren't taking medication anymore?
+p: Mmm.
+p: Few years ago, like, three or four years ago I think? Yeah.
+d: <INAUDIBLE_SPEECH/>
+d: And so this time, how did it start? Did you have any other symptoms? Any chest pain, temperature, cold symptoms, anything like that?
+p: Yeah, so I have, I have cough and cough a lot, and I have a fever. Um, I also used to walk to work but recently I can't because it's, I, I feel like very short of breath and sometimes I feel like I can't even finish <UNIN/> sentence is quite difficult to, to complete the, the the talking sometimes, yeah. Occasionally.
+d: Right. Have you coughed any phlegm up or anything like that?
+p: No.
+d: Any, any, um, blood in there when you cough?
+p: No, I don't think so.
+d: OK. And any chest pain?
+p: No chest pain, no.
+d: Have you been woken up at night time at all?
+p: No, just daytime working, yeah.
+d: Have you been able to do any exercise?
+p: No, I can't.
+d: OK, and do you have a peak flow meter at home, where you measure your breathing?
+p: Sorry?
+d: You have what's called a peak flow meter, which you breathe into to get a score on your breathing?
+p: No, no.
+d: And do you normally take any asthma inhalers over the last few years?
+p: Yes, yeah.
+d: You do? So you said you stopped them three to four years ago?
+p: <INAUDIBLE_SPEECH/>
+p: Ohh, um, when I had asthma I used to take this inhaler, yeah.
+d: OK. How about over the last three to four years?
+p: Yeah.
+d: Have you taken any medication?
+p: Um, I took salbutamol? Salbutamol? Yeah.
+d: OK, so you, you normally take that do you? Or is that just recently?
+p: Normally, yeah.
+d: OK, and how often do you normally need it?
+p: Every, every few weeks? I'm not sure.
+d: OK. What about when you exercise normally, do you have to use medication? Uh, inhalers?
+p: <UNIN/> Yeah, yeah, a bit.
+d: Pardon?
+p: Yeah.
+d: OK, um, and do you take any other medications?
+p: No, nothing else.
+d: Any other medical problems?
+p: Uh, I have, uh, hay fever as well.
+d: OK, do you take anything for that?
+p: No.
+d: And any allergies to medications?
+p: No, no allergies.
+d: Do you smoke?
+p: No, I don't smoke.
+d: Do you drink any alcohol regularly?
+p: Yeah, one glass.
+d: How often? Have a glass of what?
+p: Today, yeah.
+p: Uh, one glass of wine.
+d: Every, how often did you say?
+p: Every two or three days? Depends, yeah.
+d: And who do you live with at home?
+p: Yeah.
+d: Who do you live with at home?
+p: Yeah, <UNIN/>.
+d: Who do you live with, do you live on your own, or do you live with
+p: I live with my partner.
+d: OK, and what's your job, day-to-day?
+p: Uh, I'm engineer.
+d: And have you been at work in the last few days?
+p: No I can't because I used to walk <INAUDIBLE_SPEECH/> walk to work, but recently I, I work from home or sometimes I take sick leave, yeah.
+d: OK, and when, at the moment, are you, um, feeling short of breath when you're sitting still? Or just when you walk?
+p: No.
+p: Just walk or sometimes, but currently I feel, I feel well.
+d: Are you able to get <UNIN/> up and down the stairs OK?
+p: Yeah.
+d: Right, OK. Um, and did you say you were finding it hard to complete your sentences?
+p: Yeah, sometimes.
+d: OK, um.
+p: Yeah, <INAUDIBLE_SPEECH/>, days, yeah.
+d: Right, OK. Um, I mean, it sounds like you've had a flare up of your asthma. It could be, um, triggered by, if there's more pollen around, or there may be, you may have a viral infection, causing it to get worse.
+p: Mm-hmm.
+p: Mm-hmm.
+d: Did you say you checked your temperature already?
+p: Yes, I checked, I have fever <INAUDIBLE_SPEECH/>.
+d: Was it normal?
+p: Yeah, yeah.
+d: <UNIN/> What was your temperature?
+p: Uh, thirty seven, yeah.
+d: OK, that's fine. Um, have you got an asthma inhaler at home?
+p: Yeah.
+d: OK. So what I would suggest is you take it more regularly than you are doing at the moment. Have you got, um, a spacer at home?
+p: Mm-hmm.
+p: Um, do you want to show me how to do it or somehow?
+d: Um, do you have a spacer at home?
+p: No.
+d: OK. Um, what I can do is, I can prescribe you a peak flow meter so we can check your breathing level and a spacer to use your inhaler a bit more efficiently, which the pharmacist can show you how you use that when you pick it up.
+p: Yeah, sure.
+d: Um, and if you increase it so you're taking it two to four puffs, like, every four hours?
+p: Mm-hmm.
+d: Initially, um, if you get a high temperature or your wheezing is getting worse, you need to call us back straightaway so we can just advise you further with that.
+p: OK.
+d: And it will be a good idea when you're feeling better if we can arrange just a review, just to see how your asthma is, because we may need to start some other medication for you.
+p: OK, sounds good, yeah.
+d: You could arrange a review in a week or so, um, but, but before that and if you're, if you're feeling worse.
+p: In a week, right? OK.
+d: OK, and the other thing to do would be to take a regular antihistamine.
+p: Mm-hmm.
+d: Which you can get from the pharmacy, I can put a <UNIN/> on your notes about what to take.
+p: Yeah.
+p: Yeah, they'll be helpful.
+d: And then if you, when you get the peak flow meter, if you can take, the pharmacist can show you how to use it, and if you can record a value first thing when you wake up.
+p: Mm-hmm.
+d: And in the evening over the next week, and then we can discuss that over the phone when we look at the figures and see whether you need to go on another inhaler as well.
+p: Oh, awesome, thank you.
+d: Have you got any questions?
+p: Um, no, that's fine, yeah, thank you very much.
+d: Thanks a lot, bye.
+p: <INAUDIBLE_SPEECH/>

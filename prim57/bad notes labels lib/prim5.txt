@@ -1,0 +1,10 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "\"UTI\" was swapped for \"MSU \n 2\" (from note 10)"
+  },
+  {
+    "type": "omission",
+    "detail": "Review in 24-48 hours if sx not improving, or earlier if worsening sx (fever, abdo pain, vomiting)"
+  }
+]

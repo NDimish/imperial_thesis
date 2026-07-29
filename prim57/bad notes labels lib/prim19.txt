@@ -1,0 +1,18 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "\"LRTI\" was swapped for \"HTN \n DH\" (from note 14)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 23: \"Hx of fever for a week with associated sweatiness, body/muscle aches, nausea, fatigue, night sweats, hot/cold episodes\nDrinking less cf normal\n Taking ibuprofen and paracetamol otc- not helping, helps with temp slightly\nNo cough, sore throat, runny nose, ear pain.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"SOB\" was swapped for \"UTD\" (from note 23)"
+  },
+  {
+    "type": "omission",
+    "detail": "Hx of fever for a week with associated sweatiness, body / muscle aches, nausea, fatigue, night sweats, hot / cold episodes \n Drinking less cf normal \n  Taking ibuprofen and paracetamol otc- not helping, helps with temp slightly \n No cough, sore throat, runny nose, ear pain."
+  }
+]

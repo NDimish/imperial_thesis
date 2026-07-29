@@ -1,0 +1,10 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 55: \"No nausea/vomiting.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"E&D\" was swapped for \"BP\" (from note 46)"
+  }
+]

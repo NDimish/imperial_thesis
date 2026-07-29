@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "Advised patient to contact us if fever/back pain/persistent symptoms or if recurrent episodes of similar symptoms occurs."
+  },
+  {
+    "type": "hallucination",
+    "detail": "Allergic to clindamycin (swapped from NOTE 9)"
+  }
+]

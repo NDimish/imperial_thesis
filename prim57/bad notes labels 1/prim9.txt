@@ -1,0 +1,6 @@
+[
+  {
+    "type": "omission",
+    "detail": "FH: Nil regular"
+  }
+]

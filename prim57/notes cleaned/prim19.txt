@@ -1,0 +1,12 @@
+1 day hx of SOB, slight pleuritic pain (right side), feeling warm (not measured temperature), 2 episodes haemoptysis and palpitations.
+No recent long haul flights
+No FH or PMHx of DVT/Pes
+Has been feeling TATT/ fatigue for the last few weeks preceding these symptoms
+Pmhx: SLE
+DH: on methotrexate
+No allergies
+SH lives alone, has cat, works in an office
+Ex: pulse around 66, normal CRT, throat inspection normal, pt cant feel any LNs in neck, not SOB, looks well
+Imp: probable LRTI, possibly secondary to immunosuppression
+Plan: needs F2f gp assessment today to listen to chest and check BP/pulse/ temp
+May also need blood tests to check immune status in view of methotrexate

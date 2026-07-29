@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "No FH of rheumatological disease- NB pt says he has been old he has OA previously by doctors- ? need to confirm this"
+  },
+  {
+    "type": "hallucination",
+    "detail": "Has had previous ice hockey injury and bruising afterwards. (from NOTE 56)"
+  }
+]

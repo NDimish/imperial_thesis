@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "No hx headaches."
+  },
+  {
+    "type": "hallucination",
+    "detail": "Had visual aura before onset of headaches - zigzag lines in field of vision. (from NOTE 3)"
+  }
+]

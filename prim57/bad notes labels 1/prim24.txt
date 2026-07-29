@@ -1,0 +1,10 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "Added 'you recently started some boxing lessons' from NOTE 34"
+  },
+  {
+    "type": "omission",
+    "detail": "No previous similar episodes"
+  }
+]

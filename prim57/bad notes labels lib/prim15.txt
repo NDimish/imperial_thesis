@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "No pain \nWorks as a cleaner and does not always wear gloves - possible trigger\nNo fever\nNo bowel/urinary sx\nAppetite maintained \n\nPMH: Type 2 diabetes\nDH: metformin \nNKDA\nFH: Type 2 diabetes, \nSH: works as a housekeeper, recently changed jobs 4/12 ago, works in a hotel."
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 2: \"Steroid cream - Betnovate BD\n2.\""
+  }
+]

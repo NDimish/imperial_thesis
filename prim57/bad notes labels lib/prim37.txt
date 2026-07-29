@@ -1,0 +1,6 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "\"SOBAR\" was swapped for \"PE\" (from note 36)"
+  }
+]

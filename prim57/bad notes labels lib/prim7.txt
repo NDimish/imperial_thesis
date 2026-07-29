@@ -1,0 +1,6 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 14: \"Supportive mx - bed rest, fluids, regular paracetamol\n2.\""
+  }
+]

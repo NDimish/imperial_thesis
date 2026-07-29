@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "After discharge from hospital please book a review with the doctor to consider prescribing an epipen"
+  },
+  {
+    "type": "hallucination",
+    "detail": "Pt has had a bee/wasp bite a few minutes prior to appointment (from NOTE 21)"
+  }
+]

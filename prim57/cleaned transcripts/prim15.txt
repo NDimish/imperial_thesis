@@ -1,0 +1,133 @@
+d: Hello?
+p: Hello?
+d: Hello. Can you hear me?
+p: Yes.
+d: Great, excellent. Before I go any further, can I confirm you name and your, um, age please?
+p: Uh yes. Um Laura Parkinson. And uh I'm forty five.
+d: Forty five. Alright Laura, well how can I help you this afternoon?
+p: Uh yeah. So I have uh soreness in my fingers, my finger, like, the skin on my hands is kind of cracked.
+d: OK. When, when did this all start?
+p: Um, a couple of months ago. I got it three, four months ago.
+d: <UNIN/> OK so it's been that long, has it? OK. And so you mentioned your <UNIN/>, is it the skin on your hand, mainly that's dry?
+p: Yeah.
+p: Yeah, I haven't noticed. I mean, I have dryness, like you know, in other parts, like my legs. But it's not, it's not very, it's not severe. It's just you know, I've always, you know, I don't hydrate very much. So
+d: Right. OK.
+p: <INAUDIBLE_SPEECH/>
+p: Yeah. Like it's very, it's very bad in my hands.
+d: OK. Can I ask why have you come to see me today? Uh is it because it's got worse recently, your symptoms?
+p: Yeah I mean, it's gotten to a point where, where it hurts a lot. And I can't really do my job. So, I thought I should probably get it checked out.
+d: Yeah, that sounds like a very sensible plan. Um, which part of your hands are affected, mainly?
+p: Uh the palm. <UNSURE>I don't get</UNSURE>, yeah.
+d: Um, OK alright. Um, have you <UNIN/> any itchiness in your palms?
+p: Yeah, it's itchy. Not all the time, but yeah, it does get itchy.
+d: OK. Any bleeding at all?
+p: Um um I don't, I mean, no I don't think so.
+d: <UNIN/> you scratch yourself, you scratching yourself often, and bleeding?
+p: Um, yeah I guess when I scratched it, yes it has bled sometimes but, yeah. Otherwise, it hasn't bled on its own.
+d: OK. Um, fine. Uh
+d: OK. Sorry, I'm <UNIN/> writing notes as we go along. Um, and you mentioned that skin is quite cracked as well. Is that right?
+p: Yes, that's right.
+d: OK, alright. Um
+d: <UNIN/>, I know it's a long time ago, but do you remember how it all started? <INAUDIBLE_SPEECH/> what were you doing at the time when it all started? Is it anything you may have done, to bring your symptoms on?
+p: Uh, I mean I am a, I do work as a housekeeper. Um
+d: <INAUDIBLE_SPEECH/>
+p: And to be honest, I'm not always very good about wearing gloves. So that could be related. Um, I switched jobs, uh four months ago. Uh
+d: <UNSURE>OK</UNSURE>. OK.
+d: OK.
+p: I've been working for, as a housekeeper for, for a while now, but um, that's the only thing I can think of.
+d: Yeah, I think that might be quite important actually. I think there's definitely, maybe a correlation between the two.
+d: Um, fine. And so you mentioned something about having general dryness. Is that, you mentioned in your legs as well?
+p: Yeah. Yeah but isn't, sorry.
+d: Is that, <UNIN/> is that something you've, you've had for a while now?
+p: Yeah. It's not really, it's not really major. Uh yeah it's just like literally grinding my legs.
+d: <UNIN/> OK.
+p: <INAUDIBLE_SPEECH/>
+d: Right, OK. <INAUDIBLE_SPEECH/>
+p: <INAUDIBLE_SPEECH/> <UNSURE>trouble</UNSURE>.
+d: OK. I'm just going to ask you some very brief yes or no questions, if that's OK. With your symptoms, have you, have you had any other symptoms, such as fever, or temperatures?
+p: No.
+d: Any nausea, or any vomiting?
+p: No.
+d: Any problem with your bowels?
+p: No.
+d: Any problem with your urine, or waterworks?
+d: <INAUDIBLE_SPEECH/>
+p: No.
+d: Otherwise you feel well, do you? And yourself, <UNIN/> your eating, drinking, your appetite is well-maintained?
+p: Yeah. <INAUDIBLE_SPEECH/>
+d: <INAUDIBLE_SPEECH/>
+d: OK, alright. Fine. Um, in terms of your past medical history, do you have any other conditions at all?
+p: I have diabetes.
+d: Do you know if that's type one or type two?
+p: Type two.
+d: Diabetes, OK. Anything else?
+p: Um no.
+d: Any skin problems?
+p: No.
+d: Eczema, dermatitis, for exmaple?
+p: Not that I know of. No, I haven't been diagnosed.
+d: No, OK. Which medications do you take?
+p: <INAUDIBLE_SPEECH/>
+d: Metformin, OK. Do you have any allergies, either to any medications or in general?
+p: No.
+d: OK. Family history-wise, is there anything I should be aware of?
+p: Diabetes and <UNSURE>what</UNSURE>?
+d: Diabetes as well. OK. Again, any skin problems?
+p: Yeah.
+p: Uh no, not that I know of.
+d: Any history of asthma, or bowel problems?
+p: Uh, no.
+d: No. OK, alright. Um
+d: Fine. In terms of social history, you mentioned that you work as a housekeeper. Um are you, you're not always very good at wearing gloves.
+p: Yeah.
+d: Um, you've recently changed jobs. Which <INAUDIBLE_SPEECH/> which kind of places do you work in? Is it mainly residential, or is it commercial?
+p: Yeah.
+p: At a hotel. I have to do the whole thing like bedrooms, bathrooms, <INAUDIBLE_SPEECH/>.
+d: Hotel, OK.
+d: <UNSURE>OK</UNSURE>. OK.
+d: <INAUDIBLE_SPEECH/>
+d: Do you think there might be a relationship between the two? Between the, kind of the products you're using, and your symptoms?
+p: Yeah, I usually use those for bathrooms. But, yeah bedrooms and corridors not always.
+d: OK. Have your symptoms stopped you from doing any work? Have you had to take time off work recently?
+p: Uh, yeah like the past three days, I haven't been able to go to work.
+d: OK. Can I ask a couple questions? Do you smoke at all?
+p: No.
+d: Do you drink much in the way of alcohol?
+p: <UNIN/> pints a week.
+d: Once a week?
+p: Uh, a couple of pints a week.
+d: <INAUDIBLE_SPEECH/> a week. OK so, very minimal, alcohol there. Um
+d: <UNIN/> have you tried anything for your symptoms? Have you tried anything over the counter? Any creams?
+p: Yeah. I tried uh E forty five.
+d: Any luck with that?
+d: <INAUDIBLE_SPEECH/>
+p: Yeah, no it didn't really do anything.
+d: No, OK. Alright. Um <INAUDIBLE_SPEECH/>
+p: I also tried an <UNIN/> antihistamine, antihistamine. Uh but it didn't
+d: <INAUDIBLE_SPEECH/>. OK, alright.
+d: Um, Mrs. Parkinson, so I think um, based on your story, I <UNIN/> I think you might have something called dermatitis or contact dermatitis. Which is very common in, particularly people in your in your in your field, who are using cleaning products, not using gloves. And sometimes you get a bit of reaction between the chemicals and your skin.
+d: Um, so moving forward there's a couple of options. So firstly,  what we try and do is, you know, avoid the triggers. In your case, I strongly recommend that you wear gloves when cleaning at all times.
+p: Yeah.
+d: OK. And in terms of helping your dryness and the cracking of your skin, um we can try some steroid creams to help with the inflammation.
+p: Yeah.
+d: <INAUDIBLE_SPEECH/>
+p: <INAUDIBLE_SPEECH/>
+d: As well as some stronger emollients, um which you really need to kind of coat on, three four times a day, for the next couple of weeks, just to help with the moisturizing of your skin.
+d: <INAUDIBLE_SPEECH/>
+p: <INAUDIBLE_SPEECH/>
+d: Um if it still hasn't got better in about a week, two weeks time, I really need you to come back and see me again. And we can maybe think about other things we can give to you.
+d: <INAUDIBLE_SPEECH/>
+p: OK.
+d: Is that all clear?
+p: Uh yeah, that sounds good.
+d: Great. Do you have any questions for me?
+p: Um, where do I get the medicine from?
+d: <UNIN/> I'll I'll I'll do a <UNIN/> prescription for you now, and send it over to your pharmacy.
+p: OK great. Yeah, uh so you said a couple of weeks, it should get better, right?
+d: OK.
+d: I think <INAUDIBLE_SPEECH/> I think minimum couple of weeks. Uh ten days to fourteen days. Um and if it still hasn't got better, or indeed if it's getting worse, like if it's spreading, or dryness is getting worse, come back and see me sooner.
+d: OK.
+d: Great. Thank you Laura. Thank you.
+p: Alright. Thank you very much.
+d: <INAUDIBLE_SPEECH/>. Bye bye now.
+p: Bye.

@@ -1,0 +1,54 @@
+d: Hello, hi, I'm Doctor Jacob and welcome to Babylon.
+p: I <UNSURE>have been</UNSURE>
+d: You're right.
+d: <INAUDIBLE_SPEECH/> So just before we start, is it alright if you could confirm your name for me, please?
+p: Uh, not <UNSURE>really</UNSURE>.
+p: <UNIN/> My name is Jonathan Irving.
+d: And your date of birth?
+p: Uh, six, twelve, uh, eighty.
+d: And your address for me, please.
+p: Uh, sixty two Lewin Road <UNIN/> Streatham SW sixteen six JT.
+d: correct, and just to confirm that you're in a secure location and we can have a confidential conversation.
+p: Yes.
+d: Yeah. You've mentioned you had some breathing difficulties in the, the notes. <UNIN/> How can I help you?
+p: Yes, about fifteen minutes ago, I was gardening and, um,  I was stung by wasp. Um, ran inside.
+d: Mm-hmm.
+p: And now I'm, um, just starting to notice a few things. Yeah, I'm having quite shallow breath.
+d: You're having difficulties breathing since then, yeah?
+p: <INAUDIBLE_SPEECH/>
+d: OK. So, is there any swelling of your lips, you feel your throat is closing up?
+p: Not throat, but I can , <UNIN/> yeah, I can <UNIN/>  I can definitely feel something in the lips, yeah.
+d: Right, like a tingling kind of feeling?
+p: Yes, yeah.
+d: OK, but no swelling, yeah?
+p: Alright. I mean, <UNIN/> you know, to be honest, I'm just doing this to establish whether I should go to the hospital.
+d: OK. Right, OK. Have you had anything like this before?
+p: Uh, no.
+d: No. OK. So, um, do you feel wheezy in your chest, or just tightness?
+p: Uh, yeah. Um, a bit of tightness. Yeah, a bit of tightness, yeah.
+d: Bit of tightness, OK, OK. So, I, unfortunately, I don't have much of your past medical history. Do you have any significant past medical or surgical history you'd like to share?
+p: Uh, no, not really. Uh, a bit of eczema and I'm allergic to penicillin.
+d: OK. Are you on any regular medication at all?
+p: <INAUDIBLE_SPEECH/>
+d: OK.
+d: Righty-ho.
+d: <UNIN/> Are you having any rash on your body at the moment?
+p: Yes there's a bit of blotching <INAUDIBLE_SPEECH/>.
+d: <UNIN/> OK. Well, have you taken anything at all for the blotching?
+p: I wouldn't even know what <UNSURE>to take then</UNSURE>.
+d: OK so you've, OK. That's fine. So from what you're saying, you do need to <UNIN/> have medical attention straight away. OK? Um, <UNIN/> do you have any antihistamines in your house at all?
+p: Um, yes, I've used them for flying. I have aerosinusitis, so yes, I do <UNIN/>
+d: So, why, why, and I'm, because your <UNIN/> your breathing problem can get worse very quickly, I would like you to call. Is there someone else at home with you?
+p: Yes, my wife can take me to the emergency room, yeah.
+d: Uh, no, I wouldn't want your wife to take you, I would like, I'd like her to <UNIN/> call the ambulance because that might take a bit longer, and, you know, we need to deal with it quickly. So, what we are worried about is, you know, in case you develop an anaphylactic reaction.
+p: <INAUDIBLE_SPEECH/>
+p: OK. She's listening. I'll get her to call now, yeah
+d: Yeah so, I'll ask her to give you the, um, antihistamine, in the meantime while the ambulance is coming. And take yourself to hospital.
+d: Um, it might just be an <UNSURE>articularly</UNSURE> <UNIN/> reaction, but because you're complaining of breathing difficulties, it is quite important that you go to hospital straight away.
+d: But I'd like you to call the ambulance because, you know, so that you will be sorted out quickly.
+p: <UNSURE>OK</UNSURE>.
+p: Yeah. Alright, thank you. She's on it now. Yeah, she's on the phone.
+d: <INAUDIBLE_SPEECH/>
+d: OK. Alright then, you take care.
+p: <UNSURE>Alright, thank you for the advice </UNSURE> <UNIN/>.
+d: <INAUDIBLE_SPEECH/>

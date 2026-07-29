@@ -1,0 +1,6 @@
+[
+  {
+    "type": "omission",
+    "detail": "Appetite maintained, nil nausea/vomiting"
+  }
+]

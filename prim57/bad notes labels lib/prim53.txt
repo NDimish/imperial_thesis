@@ -1,0 +1,10 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 54: \"If gets worse in meantime contact us straightaway or go to A&E is severe/unrelenting.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"A&E\" was swapped for \"TATT\" (from note 54)"
+  }
+]

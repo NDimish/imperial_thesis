@@ -1,0 +1,14 @@
+[
+  {
+    "type": "omission",
+    "detail": "One previous similar episode in the past- resolved spontaneously."
+  },
+  {
+    "type": "omission",
+    "detail": "History: \nHx of difficulty hearing left ear for 6 weeks with tinnitus and slight nausea/ dizziness."
+  },
+  {
+    "type": "omission",
+    "detail": "No discharge/ fever/ itchiness/ pain\nDoesn't use cotton wool buds\nNo Pmhx of note\nEx: Looks well, not in pain."
+  }
+]

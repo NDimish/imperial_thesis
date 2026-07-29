@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "FHx -Brther Type 1 dm."
+  },
+  {
+    "type": "hallucination",
+    "detail": "Currently sexually active with regular partner. Last STD 6/12 ago. Unprotected SI 2/7 ago. (from NOTE 5)"
+  }
+]

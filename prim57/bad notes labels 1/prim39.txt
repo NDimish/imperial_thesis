@@ -1,0 +1,10 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "You suffer from eczema . your last asthma attack was 3 years ago (from NOTE 29)"
+  },
+  {
+    "type": "omission",
+    "detail": "No chest pain."
+  }
+]

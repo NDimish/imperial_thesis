@@ -1,0 +1,18 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "\"BD\" was swapped for \"SOB\" (from note 4)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"BNP \n  3\" was swapped for \"SOB\" (from note 4)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"NKDA \n   FH\" was swapped for \"URTI \n\n Plan\" (from note 14)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"SOB\" was swapped for \"URTI\" (from note 4)"
+  }
+]

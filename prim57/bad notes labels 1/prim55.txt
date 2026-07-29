@@ -1,0 +1,6 @@
+[
+  {
+    "type": "omission",
+    "detail": "Has had some generalised headaches before but not bad and associated symptoms/altered vision."
+  }
+]

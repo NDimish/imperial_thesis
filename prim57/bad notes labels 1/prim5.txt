@@ -1,0 +1,6 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "Allergic to clindamycin (from NOTE 9)"
+  }
+]

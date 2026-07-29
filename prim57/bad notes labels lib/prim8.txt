@@ -1,0 +1,6 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "\"Sx\" was swapped for \"UTI\" (from note 9)"
+  }
+]

@@ -1,0 +1,6 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "\"COCP\" was swapped for \"DOB\" (from note 41)"
+  }
+]

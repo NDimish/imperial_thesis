@@ -1,0 +1,6 @@
+[
+  {
+    "type": "omission",
+    "detail": "Has been taking ORT regularly, difficulty keeping down."
+  }
+]

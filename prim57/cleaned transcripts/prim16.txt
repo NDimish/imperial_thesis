@@ -1,0 +1,79 @@
+d: Hi, there. Good morning!
+p: <INAUDIBLE_SPEECH/>
+d: Uh, I'm Dr. Dean Mesa from Babylon.
+p: <INAUDIBLE_SPEECH/>
+d: <UNIN/> Can you hear me OK?
+p: Yep. Can you find
+d: Yeah, OK, great. Well, nice to see you this morning. Um, before we start your appointment, could I confirm your full name and date of birth please?
+p: Uh yeah, uh Jack Smith, uh thirty first <UNIN/> October nineteen ninety.
+d: That's perfect, thank you, John. Um, are you in a private place where you're OK to speak at the moment?
+p: <UNSURE>I am, yes</UNSURE>
+d: OK, great. So, um, tell me what's been going on. <UNIN/> You've been saying there's a problem with your hearing. Is that right?
+p: Yeah, so I just feel I can't really hear as well as I used to, like my hearing is kind of deteriorating in some way.
+d: Right, OK. How long has this been going on for?
+p: Uh about six weeks.
+d: Six weeks, OK. Um, and before that have you had any hearing problem at all?
+p: Um I had something maybe, about a year ago, but it only lasted a couple of days, it wasn't anything as long as this.
+d: Right, OK, OK. And, um, in this six week period, have you had anything else happen? Have you had any other ear symptoms at all?
+p: Um, I <UNIN/> occasionally get like a ringing in my left ear, uh just on the one side and um there's actually been a few times when I felt kind of a bit sick or a bit dizzy as well.
+d: Right, OK. Uh, uh, um,  just to clarify, the difficulty you've got in hearing, is that both ears or just the left ear?
+p: Uh just the left ear, yeah.
+d: Alright, so your right ear is fine.
+p: It seems be yeah.
+d: OK. So you've had ringing, difficulty hearing in your left ear, and feeling slightly sick.
+p: Mh-mm.
+d: Um, that's been, on and off for the six weeks, or is it continuous there throughout that six weeks?
+p: Yeah.
+p: Uh it's kind of on and off. Like some things trigger it as well. So, for example, if I'm watching TV or listen to music or something that'll <UNSURE>solve</UNSURE> the ringing in the ear.
+d: Right, OK. Um, and, um, have you had any pain from the ear at all?
+p: Uh no my <UNSURE>left ear</UNSURE>.
+d: OK. Any discharge coming out of the ear? No, OK. Um,  have, have you been experiencing any fever?
+p: <INAUDIBLE_SPEECH/>
+p: Uh, not specifically apart from the dizziness <UNIN/> so much.
+d: Right, OK. And, um, has your ear been itchy at all?
+p: <INAUDIBLE_SPEECH/>
+d: OK. Now, do you use cotton ball buds to try and <UNIN/> clean out wax from your ears?
+p: Uh <UNSURE>nah I'll do it</UNSURE>.
+d: No, OK. Well, you're right, you should, you shouldn't be doing that. <UNIN/> Doesn't clean up wax, it pushes it back in. Alright, um, the first thing that we need to do is we need to get someone to have a look inside your ear.
+d: 'K. I'm just exclude the simple things. Simple things <UNIN/> might be wax. You know. Someone might have impacted wax, blocking the tube going into the eardrum, which can
+p: OK.
+d: lead to muffled hearing. Um, if that's the case, that that's something that's easy fixable. But, um, so we need to exclude that first.
+d: and then after that, we can consider other potential possibilities. Um, and for that we need to have a look inside the ear drum.
+d: So, um, what I think we could do is, um, maybe if we book you in for a face-to-face appointment in one of our clinics. It's not an emergency.
+d: It can be done within the next four, five days or so, OK? And then, um, what I'll do, I'll send a message to our admin team.
+d: I'll ask them to slot you into the clinic, one of our clinics in that time frame. You can come in and one of the GPs will just have a quick look in the ear and figure out
+d: whether there's physical blockage or whether there's something else going on, OK? Um, can I just double check, the dizziness that you've been getting, um, how severe is it?
+p: OK.
+p: Yeah.
+p: Uh nothing major it's just kind of uh it's, it's not the kind of dizziness you get with nausea, like uh not, not proper room spinning or anything like that but just, just a little bit kind of off balance.
+d: <INAUDIBLE_SPEECH/>
+d: Right, right, OK. Have, have you had any chest pain with it?
+p: <INAUDIBLE_SPEECH/>
+p: No.
+d: No. Any palpitations, heart beating fast?
+p: <INAUDIBLE_SPEECH/>
+d: OK, fine, alright. Um, so <UNIN/> let's get your ear checked out. I think that will be the, the most sensible thing to do. And then after that, we can, we'll be a step closer to figuring out which way we <UNIN/>
+d: <UNIN/> It might be that there's a problem inside the drum or the balance system within the ear. But, we just need to exclude whether there's <UNIN/>
+d: physical blockage first and trying to deal with that if that's the case, OK? Um, but
+p: <UNIN/> <UNSURE>is that the</UNSURE> sort of thing that can cause uh like this uh ringing I've got in my ear, 'cause it seems <UNIN/> .
+d: <UNIN/> The ringing that you got, that you've got, it's something called Tinnitus. OK? Um
+p: Right.
+d: and Tinnitus is something actually that medicine doctors, we don't really understand it fully. We haven't
+p: OK.
+d: Uh, <UNIN/> people can't give you a specific cause for why some patients get Tinnitus and some patients don't. It can be triggered by a wide range of different things, and in fact
+d: I'm glad that you've mentioned that. What I might do, in the time between now and when you come for the appointment, I'm going to, uh, put
+d: paste the link for a leaflet about Tinnitus, um, in the notes for this appointment. I'd really appreciate it if you could start reading about it.
+p: OK.
+p: Sure.
+d: OK. And often that, that, uh, awareness of what it is and what the treatment options are, and there are limited options
+d: um that helps us in terms of conversation about what we do next, if your ear is clear, OK? So, um, I'm going to paste a link to that, um, and you can read about that and
+d: what we'll do is we'll see you in about four, five days time. It won't be with me, it'll be another GP
+d: but they'll have my notes and they'll know exactly what, what my question is, which is just to check your ears. Is that OK?
+p: OK.
+p: Yeah it sounds great.
+d: Alright, great. So, um, bear with me five minutes and then you can ring the support team, I'll leave the number in the notes for this appointment. Ring them, and then they'll slot you in, OK?
+p: OK brilliant.
+d: Alright. <UNIN/> If there's any problem, any issues <UNIN/> between now and when the clinic appointment is, just book another appointment <UNSURE>and</UNSURE> you can speak to <UNSURE>one of</UNSURE> us over video, OK?
+p: OK.
+d: Alright then. Take care. Nice to see you this morning. OK. Bye bye.
+p: Thank you. See you later.

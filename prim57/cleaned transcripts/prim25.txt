@@ -1,0 +1,129 @@
+d: Hello. Good afternoon.
+p: Hiya.
+d: Hi there. This is Doctor <UNIN/>, from GP at Hand.
+p: Hi there. My name's <UNSURE>Atan</UNSURE>.
+d: Hi <UNSURE>Anthony</UNSURE>. So, could I have your um, before we start, could I have your full name and date of birth? If that's possible?
+p: Sure. So, it's <UNSURE>Ayrton Warren</UNSURE>. Um, and my date of birth, is the sixteenth of May, nineteen, eighty two.
+d: That's <UNIN/>, thank you for that. Are you in a private place where you're OK to speak?
+p: I am, yes.
+d: OK, great. So how can I help you today?
+p: Um, so I kind of woke up this morning, um, and I've just got this, really horrible pain on the left side of my head. Um, a real kind of headachy feeling.
+d: Sure, OK. And, um, uh, <INAUDIBLE_SPEECH/>, did the, did the pain wake you up?
+p: Yeah, it woke me up, um, quite early this morning.
+d: What, what time did it wake you up?
+p: Um, probably around, five thirty ish.
+d: And, what time do you normally get up?
+p: Um, I normally get up at about, seven o'clock.
+d: Is the headache still present now?
+p: Yes, it is.
+d: OK. <UNSURE>Have</UNSURE> you had this kind of pain before?
+p: Um, I mean uh, I've, had a bit of a history with headaches, but nothing as severe as this before.
+d: So they were less severe. Were they similar in nature in terms of being one-sided and the type of pain?
+p: Um, not so much on the one side, it tends to be, a bit of a cluster at the front of my head in a way. Um, but this time it's just kind of more prominent on the left side which, I've never really had it, normally they kind of spread across the front of my head.
+d: OK, all right. And, um, can I just double-check, do you have any neck stiffness at all?
+p: Uh, no.
+d: OK. And do you have any fever?
+p: No.
+d: All right. Um, how are you with bright lights at the moment? Do you feel sensitive to bright lights or can you, can you tolerate them <UNSURE>all right</UNSURE>, OK?
+p: Um, it, I'm a little bit sensitive it just, it kind of, makes my eyes a little bit sore, but nothing that I can't really handle.
+d: OK. And, can I just double-check, um, are you feeling nauseous at all?
+p: Um, not really, like <UNIN/>. When I first got up this morning, my head felt a bit dizzy, but that's kind of subsided now, and I, seems to, be fine.
+d: OK. Um, and um, can I just double-check, does anyone in your family have any migraines or anything like that? They've been diagnosed with migraines?
+p: Uh, no. They haven't.
+d: OK. Um, and um, are you under any particular stress at the moment?
+p: Um, work's kind of, um, a bit stressful at the moment. I've got a lot going on.
+p: Um, yeah, I just seem to have like, a lot of, kind of, a backlog of work that I need to go through at the moment. So, I've kind of, been, doing a lot of late nights as well.
+d: Right, OK. Um, and, um, how long has that been the case for?
+p: Uh, <UNSURE>for</UNSURE> probably about a couple of months now.
+d: <UNIN/>, how would you say your mood is?
+p: Um, I'm not, like moody, I'm not angry or, um, like I get a bit frustrated during the day. Um, but <INAUDIBLE_SPEECH/>, it kind of, um, ebbs and flows every now and then, but, yeah.
+d: OK. Do you have, have you ever been <INAUDIBLE_SPEECH/> diagnosed with anxiety, or depression or stress in the past?
+p: Um, I've had, um, so I had, like anxiety for about, two years now, and I've been on, uh, Sertraline for, a while.
+d: OK. Are you taking <UNSURE>Sertraline</UNSURE> at the moment?
+p: Yes.
+d: OK. Um, and how do you feel in terms of <UNIN/>, anxiety at the moment? Do you feel anxious at the moment?
+p: <UNIN/>, no, not necessarily at work, sometimes I do feel a bit anxious. Um, but I, I kind of just, uh, the panic of not being able to get my work done on time.
+d: <INAUDIBLE_SPEECH/>
+p: Um, but other than that, I, I don't, feel, um, massively anxious.
+d: OK, all right. Um, now, sorry to ask this, just need to ask this for <UNIN/>, anyone suffering from <UNSURE>anxiety</UNSURE>. <UNSURE>Do you have any</UNSURE> <UNIN/>, have you had any thoughts about harming yourself or hurting yourself?
+p: No.
+d: <UNSURE>Good</UNSURE>, I'm glad to hear that. Um, now, with regards to this headache. Is it worse when you lie down, or um, is, is, is it better when you lie down?
+p: Um, when I lay down, like, uh, it kind of feels a little bit sore at first, um and it takes me a while to get comfortable. Um, so yeah, at the beginning it does, but then again that's just kind of, um, <UNSURE>soothes</UNSURE> a little bit.
+d: OK.
+d: Um, so, would you say ultimately, it's better when you lie down? Or have you not <UNIN/>?
+p: Uh, yeah, I would say so.
+d: OK. Um, and um, in terms of um, this, headache since this morning, have you taken anything for it yet?
+p: Um, I've taken some Paracetamol.
+d: Has that helped?
+p: Um, not really, no.
+d: OK. Taking anything else at all?
+p: No that's it, just Paracetamol.
+d: OK. Um, do you have any other illnesses at all?
+p: Uh, none.
+d: Have you ever been diagnosed with high blood pressure?
+p: No.
+d: Have you ever had your blood pressure checked?
+p: No.
+d: OK. Um, and are there any illnesses in your family?
+p: Um, no, there's nothing. My parents, uh, my mum's had a history of anxiety as well but, no kind of like physical illnesses or anything like that.
+d: OK, all right. And um, are you on any medication?
+p: Um, no, other, other than Sertraline and having taken, um, Paracetamol this morning, uh, nothing else.
+d: Do you have any allergies to any medication?
+p: Not that I'm aware of, no.
+d: All right. And, are you living by yourself at the moment, or living with someone else?
+p: Um, I live with my partner.
+d: OK. Are you a smoker?
+p: No.
+d: OK. And, uh, do you have any pets at home?
+p: Uh, I have a cat.
+d: OK. And, can I just double-check, how much exercise would you do normally a week?
+p: Um, so normally I, try to go running at least three times a week.
+d: OK.
+d: And what's your diet like?
+p: Um, it's OK, um, it's nothing, <UNSURE>it's</UNSURE> nothing <INAUDIBLE_SPEECH/> um, really healthy, um, but it's fine.
+d: OK.
+p: I <UNSURE>wouldn't say</UNSURE> unhealthy.
+d: All right. Um, now um, in terms of this headache, uh, obviously I haven't been able to examine you, or see you directly.
+d: But, um, it sounds like it might be one of two things. It could be an element of what we call tension headache.
+p: Sure.
+d: <UNSURE>OK</UNSURE>. That's one possibility. Um, and what makes that, more likely is the fact that, you've been under some pressure, and you have a history of anxiety in the past, OK. Um.
+p: OK.
+d: The other possibility is, um, migraine as well.
+d: OK. Um, and, the fact, what makes that more likely is the fact that it's on one side, and that you've got some sensitivity to light.
+p: OK.
+d: OK, So, what, what I think we can do, is um, I think we can give you some, um, generic, pain relief.
+p: OK.
+d: That would be the appropriate first step, for, migraine type headaches. OK. So I'll tell you <UNSURE>what it is</UNSURE> in a second.
+p: OK.
+d: And the other thing that I was gonna suggest is, we maybe look, explore things to try and decrease the stress from work.
+d: So, um, the medication-wise, the <UNSURE>things</UNSURE> that we'd start off first <UNSURE>line</UNSURE>, if someone had migraine was to, would be to start Ibuprofen.
+p: OK.
+d: And um, uh, <UNSURE>that</UNSURE>, the doses of Ibuprofen can be a bit, more than the normal doses Ibuprofen so that's one thing we can start. You can keep on taking Paracetamol as well if you like, but the, the Ibuprofen's um, actually more effective <UNIN/>, for migraine.
+p: OK.
+d: And, um, yeah, so the, the guidelines have changed, recently we used, we, before that we used to give Paracetamol as first line but now it's, um, Ibuprofen or Aspirin.
+p: Ohh right, <UNSURE>O</UNSURE>.
+d: That's, <UNIN/> thing. Um, the other thing I'd like you to do, is maybe consider taking some time off work. OK, because if the headache is due to stress from work.
+p: OK.
+p: OK.
+d: Um, maybe having a week off if you self-certify, that might help with things. And I'd also like you to explore, counselling options as well so there's, a counselling service in your area, that I can give you the link for, for you to self-refer.
+p: <INAUDIBLE_SPEECH/>
+d: I'd like you <UNSURE>to</UNSURE>, <UNIN/>, OK I'd like you to try that. Um, what, we're gonna do is, we'll have a follow-up in a week's time.
+p: Yeah, that'd <UNSURE>be</UNSURE>.
+d: As well as those two things, other things I'd like you to do, is to try and ensure that you're having a minimum of seven, eight hours sleep at night, every night. <UNSURE>And you're drinking a</UNSURE> minimum of, um, one point five to two litres uh, of water or fluids a day, and that's not including coffee or tea.
+p: OK.
+p: OK.
+d: All right, because sometimes dehydration and you know uh, fatigue can be causes of headaches as well. Um.
+p: Ohh <UNSURE>OK</UNSURE>, I didn't realise that.
+d: Yeah, so <UNSURE>it</UNSURE>, that, that, that is um, you know, we need to rule those things out. Um, let's, let's try that.
+d: OK. Um, and let's have a follow-up appointment, if we're finding that things are not getting better, we might need to arrange some blood tests or um, look at uh, other possibilities, but, we'll try that in the first instance.
+d: Um, if anything changes in the meantime, or you get worried or things get worse. Feel free, have a lower threshold for ringing us back and <UNSURE>we can</UNSURE> book you an appointment, and we can reassess the situation.
+p: OK. Yeah, <UNSURE>the</UNSURE>, that, that sounds brilliant. Thank you so much for your help.
+d: OK, no problem. So there'll be a summary of all of this in the notes. Um, and I'll also leave a link, to some of the danger signs of symptoms of headaches, in the notes. If you can read through that in your own time, that will just help you to have a bit more, control over what's going on and understanding of what, what, what kind of things, should trigger you contacting another doctor.
+p: OK. That's perfect. Thank you so much for your help.
+d: No problem, OK. So we'll, we'll touch base in a week's time, with me <UNSURE>or</UNSURE>, myself or one of the other doctors, and we <UNIN/>, we'll take it from there, OK.
+p: OK. Thank you. Yeah, I'll book an appointment, in, um, yeah, in that time.
+d: Brilliant, OK then, all right. Take care then, <UNSURE>all the best</UNSURE>.
+p: <UNSURE>Bye</UNSURE>.
+p: Thank you, and you.
+d: Bye bye.
+p: Bye.

@@ -1,0 +1,162 @@
+d: <INAUDIBLE_SPEECH/>
+d: Hello?
+p: Hello there.
+d: Uh, hello. Can you hear me OK?
+p: Yes, I can hear you.
+d: OK, great. <UNIN/>. I am, yes. Nice to see you here, Oscar. Um, how can I help you this afternoon?
+p: Are you the doctor?
+p: Um, I'm, contacting you because I've been, quite short of breath lately.
+d: OK. Do you want to tell me a bit more about it? When did it all start?
+p: Uh, well it seems to have been, slowly getting worse over the last couple of weeks.
+p: Um, now it's, become quite troublesome, <UNSURE>in</UNSURE> the last few days.
+p: Uh, I kind of, normally I can walk to the shops, without a problem but, now I'm having to sort of sit down and catch my breath. And I'm <UNSURE>really</UNSURE> starting to get a bit breathless, just about the house.
+d: <INAUDIBLE_SPEECH/>
+p: And uh, it's got me kind of worried, don't really know what's going on.
+d: OK.
+d: OK. OK. Is there anything you're particularly worried about?
+p: Um, well, I've, I've uh, I've got um, heart failure.
+d: OK.
+p: Uh, I was told that, uh, a while ago.
+p: Um, and I got a bit breathless when I was first diagnosed, and put on some <UNSURE>medicine</UNSURE> that, that um, that helped, but I'm a bit worried it's just getting worse.
+d: OK.
+d: Right.
+d: <INAUDIBLE_SPEECH/>
+d: Right, OK. So you mentioned you're feeling, uh, short of breath for the last couple of weeks, but mainly the last couple of days it's got a bit worse.
+d: Um, uh, and you're now feeling more breathless on kind of minimal, minimal exertion you mentioned. Um, have you noticed any other symptoms at all, uh, uh, with your breath? So, for example, any pain in your chest?
+p: No pain in my chest.
+d: OK. And have you found yourself coughing, coughing at all?
+p: Um.
+p: Uh, I've got a bit of a dry cough, but it's not too troublesome.
+d: OK. OK. And how's your general health otherwise? Are you feeling uh, weak, lethargic?
+p: Um, I'm feeling a little run-down, um, but otherwise, otherwise pretty normal.
+d: OK.
+p: I've noticed my ankles have got a bit bigger.
+d: OK. And what do you mean by that?
+p: Uh, it's just like, it's sort of swollen up a bit.
+d: OK. Um, is that, is that both <UNIN/>?
+p: Kind of <INAUDIBLE_SPEECH/>. Um, yeah, both ankles. Yeah, it's a bit embarrassing.
+d: Both ankles?
+d: OK. Uh, I can imagine, yeah. Um, and again, <UNIN/> over how long has this, have you noticed this for?
+p: Um, I kind of noticed it the last few days.
+d: Past few days, OK. And is this something that you've had before, in the past?
+p: Uh, I think my ankles did swell up a bit last time, the heart failure was a problem.
+d: OK. OK. Um, fine. OK. So, um, just to really recap, uh, so you're really, in the last couple of weeks, uh, you've been feeling breathless, uh, but worse in the last couple of days. You mentioned you had a bit of a dry cough.
+d: Um, and some swelling in your ankles. Um, reporting no chest pain. Um, and, and have you had any, have you any, have you noticed your heartbeat racing at all? So, palpitations or skipped heartbeat?
+p: No, not really.
+d: OK. And any temperatures or fevers?
+p: Uh, no.
+d: OK. And how about your appetite? Are you eating and drinking OK?
+p: Yeah, I, <UNIN/>, <UNSURE>I'm</UNSURE>, that's fine.
+d: OK. And your waterworks? Are you passing urine OK?
+p: Uh, yeah, <UNSURE>but</UNSURE> yeah. I usually pee a lot, <INAUDIBLE_SPEECH/>, ever <UNSURE>since</UNSURE> the drugs <UNIN/>.
+d: Yeah. <INAUDIBLE_SPEECH/>
+d: Sure, OK. Alright. Um, fine. So, <INAUDIBLE_SPEECH/> your uh, your past medical history. You mentioned heart failure. Any, any other medical history I should be aware of?
+p: Uh, well I was told I had like a, they called it like a small heart attack.
+p: About, five years ago. Um, I uh, I had, I, I had like <UNSURE>some</UNSURE> chest pain and, they took me into hospital.
+d: OK.
+p: And um, they, uh, but then I just got better.
+d: OK. And when, when you say a small heart attack, did they give you a name, for what happened, a, a name of a diagnosis?
+p: Um.
+p: Uh, I can't remember. They just called it something a <UNIN/>, uh, something like that, a small heart attack.
+d: It's more hard to say. OK. Was it like angina or, um,
+p: Um.
+p: Uh, no they, they said that it, uh, it seemed, it was like, more than angina.
+d: OK.
+p: Um, uh, but um, I didn't, but I only had to stay in hospital for a few days, and, uh.
+d: OK.
+d: OK.
+p: And yeah, I've been OK since then.
+d: You've been OK since then. OK, alright. So, apart from the uh, the heart, the heart problems, the heart failure, any other problems I should be aware of?
+p: Uh, no, I think I'm otherwise, I'm OK.
+d: OK. Um, do you take any regular medications, apart from your <UNIN/> diuretics that you're taking? And do you know which ones?
+p: <UNSURE>Uh</UNSURE>, yeah, I take something called Furosemide.
+d: <INAUDIBLE_SPEECH/>. Do you know which dose you're taking?
+p: I can't remember, I'm sorry doctor. I have to check.
+d: That's OK.
+d: No problems. Um,
+d: Any other medications?
+p: Uh, yeah. I take Aspirin.
+d: OK.
+p: <UNSURE>And uh, Bisoprolol</UNSURE>.
+d: The Metoprolol, was it?
+d: Or?
+p: Uh, <UNSURE>Bisoprolol</UNSURE>.
+d: Sorry, the connection's not very good. OK. Thank you, yeah.
+d: <INAUDIBLE_SPEECH/>
+p: Um, <INAUDIBLE_SPEECH/>.
+d: <UNSURE>And a thousand</UNSURE>, OK. Alright. Any allergies at all? Any medications?
+p: <UNSURE>Uh</UNSURE>, no, no allergies.
+d: No.
+d: OK. And is there anything in the family that's, uh, that, that's uh, that's important for me to know? Any family history of medical problems, heart problems, lung problems?
+p: Uh <UNIN/>, my, my father died of a, uh, of a heart attack.
+d: I'm sorry to hear that. And, um, how old was your father when he passed away?
+p: Uh, he was, um, early sixties.
+d: Early sixties, OK. Alright. Anything else I should be aware of?
+p: Um, my mother had osteoporosis.
+d: OK.
+d: Is your mother still with us?
+p: Uh, yeah, she's still living.
+d: OK, alright. Um, and socially, sir, just tell me a bit more about your situation at home. Who lives at home with you?
+p: Uh, I live on my own. Well, I got two cats.
+d: You've got two cats. OK, great. Do they have names?
+p: They're my family. Uh, they're, they're called, um, they're called, Polly and Tim.
+d: OK.
+d: Um, so it's just you and your cats. And um, in terms of day to day, are you working at the moment?
+p: Uh, I work part-time as, a, uh, lorry driver.
+d: OK. And how is that? Is that quite stressful, long hours?
+p: Uh, it's OK. Um, I uh, yeah <UNIN/>, when I'm working it's pretty exhausting.
+d: Mm.
+p: Um, I guess I'm a bit worried, that if I get sick I won't, if I get more sick then, I won't be able to work properly.
+d: Yeah, that's certainly a consideration, isn't it? So let's, let's try and get you better soon, so it doesn't have any um, impact on your, on your job.
+p: <UNSURE>No</UNSURE>.
+d: Uh, and do you find yourself doing a lot of anti-social hours? Do you <INAUDIBLE_SPEECH/>, do you do a lot of night driving, weekend driving?
+d: <INAUDIBLE_SPEECH/>
+p: Ohh no, I <UNIN/>, I <UNIN/>, I, I only take shifts during the day, I don't like working at night.
+d: OK.
+d: OK, alright. And what about smoking and alcohol? So, 'cause <UNIN/> that can sometimes be very important when it comes to heart problems. Do you, do you smoke at all?
+p: Not any more.
+d: So, you used to smoke?
+p: Yeah.
+d: And how many did you smoke a day, on average?
+p: Ooh it was about, about a pack a day, back in the day.
+d: Um, and how many, how many years was that for?
+p: Ohh that was, oof, good twenty five years.
+d: OK. And what about the stopping? That must have been difficult for you. <INAUDIBLE_SPEECH/> stopping. Um, and what, what about alcohol?
+p: I don't drink alcohol.
+d: OK. Do you do much in the way of exercise, sir?
+p: Uh, I try and walk to the shops, at least once a day.
+d: OK.
+p: Um, but uh, that's about it, I've. Yeah, I don't, I don't go running like I used to when i was young.
+d: OK.
+d: Right, OK. And certainly now your symptoms, you, you're, you said you're feeling more breathless even walking to the <UNIN/> uh, to the shop, she said.
+d: Um, right. Ohh um, based on your, based on you history, and having listened to your story, I, I wonder whether you've had a flare-up of your heart failure, sir. Um,
+d: Which can sometimes happen. Um, um, and uh,
+p: Mmm.
+p: <UNSURE>That</UNSURE>.
+d: It's <UNIN/>. So, it seems like your heart's not pumping as well as it should be. Um, and obviously having diagnosed with heart failure, there's obviously
+p: What's going <UNSURE>on</UNSURE>.
+d: Um, that's the first thing that comes to my mind. Um, now there's a couple of options <INAUDIBLE_SPEECH/> move forward. Um,
+p: Mmm.
+d: Given that you're otherwise well at the moment, and having examined you, your chest, and your saturations and blood pressure are all OK,
+d: I'm quite happy to increase your dose of Furosemide. Maybe, rather than one tablet a day, we can do two tablets a day, for the first few days.
+d: Um, and see, and see how you're getting on.
+p: OK. If you think that'll be better.
+d: <UNSURE>Uh</UNSURE>,
+d: I think, I think, it's, <UNIN/> it's, it's definitely worth treating your symptoms. But what we should also think about is maybe doing a couple of other tests, like a blood test, and maybe an echocardiogram of your heart, to see how well your heart's pumping.
+p: OK.
+d: Is that something you've had <UNSURE>before</UNSURE>? Yeah, so um, an <UNIN/>, it's a, it's a general scan of your heart. You might have had this done before, when you were diagnosed. And it's just to get a good
+p: What does that?
+p: Ohh yes, <UNSURE>I remember now</UNSURE>.
+d: Sorry?
+p: Uh, yeah, I remember now. <UNIN/>.
+d: You remember that. OK, fine. That's something I can organize for you today. And, and that might take a week or two weeks for that to be organized. But, I think certainly in the meantime, let's, um,
+d: Let's, let's get a blood test done. We can check your um, you know your full blood count, look for signs of anemia. We can have a check of your kidney function.
+d: Um, and we can definitely increase your um, your Furosemide, uh, to you know, one tablet twice a day.
+d: But I really like, would like you to come back and see me in about a week's time, see how you're getting on. That sound reasonable?
+p: I think that sounds like a good plan.
+d: And of course, in the meantime if you are getting more unwell, feel like you're getting more breathless, or you're having any other symptoms like chest pain, or palpitations or dizziness, then, uh, you know <UNIN/> I want you to give me a call sooner than that, and we can have a chat on the phone as well.
+p: OK. I'll see <UNSURE>how</UNSURE> I get on.
+d: OK? Do you have any questions for me?
+p: Uh, <UNSURE>I</UNSURE> think that's all pretty clear. Thank you very much Doctor.
+d: Great, and then well I wish you all the best! Have a good day. <INAUDIBLE_SPEECH/> OK. Thank you.
+p: <UNSURE>OK</UNSURE>. See you soon.

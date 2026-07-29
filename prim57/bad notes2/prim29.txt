@@ -1,0 +1,16 @@
+History: Having breathlessness for 3-4 days 
+Having to use the blue inhalers twice a day 
+You normally use it only as and when 
+You are also on the clenil and taking it everyday 2 puff twice a day 
+You are having a cough but no sputum 
+There is some wheezing 
+Medical history : you had asthma since your childhood
+You suffer from eczema . your last asthma attack was 3 years ago 
+You have never needed anitibiotics or steroids 
+You have never been hospitalized because of your asthma 
+Your normal peak flow reading is 380
+You don't have any allergies 
+Medication : you also use hydrocortisone and cetraban for eczema
+Plan : you have been advised to increase you brown inhaler to 4 puffs twice daily and can use the blue inhalers upto every 2-4 hrs 
+You will need your chest reviewed by a doctor in the next 2 days 
+If you were to get increasingly breathless with the treatment that has been advised and not seen a doctor yet, please go to A & E

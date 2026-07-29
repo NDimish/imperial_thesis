@@ -1,0 +1,101 @@
+p: Hi.
+d: Hi there. It's Doctor Smith from Babylon.
+p: Hey. How are you?
+d: <UNSURE>How are you doing</UNSURE>? <INAUDIBLE_SPEECH/>. Good thank you. Can you confirm your name, date of birth, and your, home address please?
+p: Um, yes I can. Uh, it's, Mary Smith.
+d: <INAUDIBLE_SPEECH/>
+p: Um, I'm twenty eight, and I live at apartment four oh five, nine C, Clerkenwell Road.
+d: OK that's fine. Are you in a private place <UNSURE>so</UNSURE> you can have a consultation today?
+p: Yes I am.
+d: What can I do for you?
+p: Um, I keep having a headache.
+d: OK, and when did it start?
+p: It started yesterday, um.
+p: Uh, it's unusual for me, to have a headache.
+d: OK. Can you just tell me whereabouts in your head it is?
+p: It's on the left side at the back, sort of here.
+d: <UNIN/>. OK. Just on the left side.
+p: Yes.
+d: And, when did it start? What time of day did it start yesterday?
+p: About mid-morning.
+d: And how did it feel when it first started?
+p: Um, just quite, intense, and kinda quite throbbing. It kind of built up gradually <UNSURE>after</UNSURE>, over.
+p: A short period of time.
+d: OK. And did you get uh, have you got any other symptoms along with that? Any nausea, vomiting, tingling, <UNSURE>numbness</UNSURE>, weakness, anywhere?
+p: No, nothing.
+d: OK, and, uh. Sorry <INAUDIBLE_SPEECH/>.
+d: Um, any blurred vision, or any pain over your eyes?
+p: Um.
+p: No.
+d: Any <UNIN/>, any funny lights or, anything like that in your vision area? Any problems when you look into the light?
+p: No, <INAUDIBLE_SPEECH/>.
+p: No.
+d: Um, and have you been eating and drinking OK?
+p: Yes, yes, like normal.
+d: <UNIN/>. Are you feeling sick, or vomiting, or anything?
+p: No, nothing like that, <INAUDIBLE_SPEECH/>.
+d: Any high fevers? Are you feeling shivery? Sweaty?
+p: No, no fever, no <UNIN/>.
+d: Any <UNIN/>, any rashes at all?
+p: No.
+d: And, in the past, have you had any headache before?
+p: Not really.
+d: OK. How bad would you say the headache is from, zero to ten, if ten is the worst pain that you could have, and zero is nothing?
+p: I'd say about eight.
+d: OK. And have you taken any pain killers?
+p: Um, I took some, um, um, Nurofen, yesterday.
+d: OK, and did that make any difference?
+p: Not really.
+d: And last night, did you manage to sleep through the night OK?
+p: Uh, yes I did.
+d: Has it been worse at any particular time of the day?
+p: No, it hasn't made any difference, the time of the day.
+d: Any difference if you lie down, stand up, bend over, cough or sneeze, or anything like that?
+p: Um, no.
+d: And, have you got any other medical problems?
+p: Um, no I haven't.
+d: Anything you take medication for?
+p: No I don't.
+d: Um, any over-the-counter medications or allergies?
+p: No, only the, Nurofen I took yesterday, Ibuprofen.
+d: <UNSURE>That's fine</UNSURE>. And any stomach <UNSURE>problems</UNSURE>, or asthma at all?
+p: No.
+d: Anyone in your family got any medical problems?
+p: Uh, my mother's had hypertension, and she does get migraines.
+d: <UNIN/>. And, have you had your blood pressure checked <UNIN/>?
+p: Um, no, not recently.
+d: And who do you live with at home?
+p: Sorry?
+d: Who do you live with at home?
+p: My partner.
+d: And what's your job, day-to-day?
+p: I'm a designer.
+d: Have you had to miss any work at all?
+p: Uh, no, but I don't feel that, I'm finding it really hard to <UNIN/>, to do any of, my work, or, normal things.
+d: OK. Um, and do you smoke at all normally?
+p: No I don't.
+d: Do you drink any alcohol regularly?
+p: No.
+d: Um, and any other drugs?
+p: No.
+d: No, OK. Um, I mean the fact that you haven't had headaches before, um, is, is unusual the fact that they've developed. Is there anything you think's changed? Any increased stress, <UNIN/>, <UNSURE>change</UNSURE> in your diet or lifestyle?
+p: Not that I can, not that I can think of.
+d: OK. So, what we would suggest is, trying a slightly stronger, pain relief.
+d: Uh, so, similar to Ibuprofen, but taking instead of Ibuprofen not at the same time, and taking that regularly with food.
+p: OK.
+d: Um, hopefully that will settle it down. You can take Paracetamol along with that.
+p: Yes.
+d: Try and um, take rest, have lots of good hydration.Um, but if the pain's getting worse, or you get new symptoms, fever, rash, <UNSURE>vomiting</UNSURE>, neck stiffness.
+d: Um, or you keep getting <UNSURE>episodes</UNSURE> of the same type of thing, then we need to speak to you, and, and make a plan for, for what we can do next.
+p: OK.
+p: Thank you.
+d: <UNSURE>Have you</UNSURE> got any other questions?
+p: How long do you think it will last for?
+d: Well I should think it should <UNIN/> down, if it's getting worse or not settling in the next day or two.
+d: Then certainly give us a call back, if, when you've tried the medication that I've prescribed from the pharmacy.
+p: <INAUDIBLE_SPEECH/>
+p: OK.
+d: OK?
+p: Thank you.
+d: All right then. Thanks a lot. Bye.
+p: <UNIN/>, bye.

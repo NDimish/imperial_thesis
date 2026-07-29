@@ -1,0 +1,10 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "PMH: asthma (swapped in from NOTE 1)"
+  },
+  {
+    "type": "omission",
+    "detail": "Nil urinary sx - passing less urine ."
+  }
+]

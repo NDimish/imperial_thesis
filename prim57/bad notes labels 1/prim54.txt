@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "FU 1 week later with GP."
+  },
+  {
+    "type": "hallucination",
+    "detail": "You are also experiencing some weight loss in the past 6 months about a stone (from NOTE 28)"
+  }
+]

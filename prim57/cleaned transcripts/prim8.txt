@@ -1,0 +1,119 @@
+p: OK. Ohh, OK.
+d: Hello?
+p: Hello, can you hear me?
+d: Hello. Uh, just before we go any further, can I confirm your name and, age please?
+p: Uh, my name's <UNSURE>Itha</UNSURE>, and I'm twenty six.
+d: <UNSURE>Twenty six</UNSURE>, OK. And how can I help you this afternoon?
+p: Um, so basically, I've been really stressed at work for the past few days.
+p: And, I've realised that I've got, really dry itchy skin.
+d: OK. Um, sorry to hear work's been so stressful. Um.
+d: Tell me more about your skin first, <UNSURE>Lou</UNSURE>. Tell me uh, you mentioned it's been dry and itchy. Um, whereabouts on your skin?
+p: All over my arms, um, and my hands mainly.
+d: OK. Um, and is this something you've had before?
+p: Uh, no. <UNSURE>Never had</UNSURE> <UNIN/>.
+d: So, uh, did it, did it come about quite suddenly, or was it more, kind of a gradual thing?
+p: I think it started a few days ago.
+d: OK. And, has this spread anywhere else? Has it spread to your, to your chest, your legs, your face?
+p: <INAUDIBLE_SPEECH/>
+d: No, OK. So apart from being dry and itchy, um, any other symptoms? Has it been sore? Has it been, uh, <UNIN/> have you noticed any cracked skin?
+p: Um, so my skin's quite red, um, and I'm using coconut butter for the past few days.
+d: OK. <UNSURE>Has that</UNSURE>.
+p: I don't have any spots, and no fever <INAUDIBLE_SPEECH/>, and I'm not sweating either.
+d: OK.
+d: Thank you, for mentioning all those. Um, OK. Uh, so the coconut butter hasn't helped, with the itch?
+p: No, <INAUDIBLE_SPEECH/>.
+d: <INAUDIBLE_SPEECH/>
+d: OK. And, uh, you mentioned work's been quite stressful. What do you do for work?
+p: Um, I work as a teacher.
+d: OK. And, uh, in what way has work been stressful?
+p: I think the kids have been really annoying these days.
+d: OK. <UNIN/>.
+p: And, <UNSURE>I've been working</UNSURE> really long hours.
+d: OK, all right. Well I'm sorry to hear that, and I hope it gets better.
+d: Um, going back to your skin. <UNSURE>I mean</UNSURE> is it anything you've done perhaps, uh, which may have triggered your symptoms? Anything you've touched or, you know, for example shower gels, soaps, fabric <UNIN/>, fabric cleaners?
+p: <INAUDIBLE_SPEECH/>, I went swimming a few days ago.
+d: OK. Is that the first time in your life or have you been before?
+p: Uh, no, I've been before.
+d: OK. And did your symptoms start after you went swimming?
+p: Uh, yes, <INAUDIBLE_SPEECH/>.
+d: OK, all right. Um, you mentioned you've had no other fevers, is that right? No fevers? No vomiting?
+p: No.
+d: No. How's your health otherwise?
+p: It's pretty good, yeah. I'm not on any medication.
+d: <UNSURE>And all</UNSURE> <UNIN/>, we'll get to medication in just a second. Um, <UNIN/>, do you, do you feel generally run-down? Do you feel tired?
+p: Uh, yeah, I think I have been, quite tired.
+d: OK, OK. Are you eating and drinking OK?
+p: Yeah, I've been drinking, and eating as normal.
+d: Your appetite's fine is it? OK. And your bowels, are your bowels working OK?
+p: <UNSURE>Yeah</UNSURE>.
+d: Uh, no, no problems with vomiting, or loose stools?
+p: No.
+d: OK. And your waterworks are uh, all OK? You're passing urine OK?
+p: Yep.
+d: OK, all right. Um, so just moving on. In terms of your other medical history, is there anything else I should be aware of?
+p: I'm currently taking <UNIN/>.
+d: <UNSURE>Microgynon</UNSURE>.
+p: Yeah.
+d: OK. Do you know what that is?
+p: Uh, no.
+d: OK. <UNIN/>, it's a contraceptive pill
+p: <INAUDIBLE_SPEECH/>
+d: Does that make sense? Is that something you're, is that, does that ring a bell now?
+p: Ohh yeah.
+d: OK. Is <UNSURE>there</UNSURE>, any other medications that you take?
+p: <UNSURE>Uh</UNSURE>, no.
+d: No. So, in terms of your medical history, there's no, problems of skin problems in the past, things like eczema or, um, dermatitis?
+p: Uh, no, I think it might just be the weather.
+d: Sorry what was that? You think it's.
+d: <UNSURE>The</UNSURE> <UNIN/>.
+p: I think it might just be the weather.
+d: The weather?
+p: Yeah, <INAUDIBLE_SPEECH/>.
+d: Ohh, you think the <UNIN/>, OK. You think the <UNSURE>weather</UNSURE>, OK.
+d: OK. No that's OK, no, no problems. Well um, uh, move <UNIN/>. Do you, do you suffer from allergies? Are you someone who suffers from allergies?
+p: Um.
+d: <UNSURE>Food</UNSURE> allergies? Medication allergies?
+p: I think, um, I <UNSURE>might</UNSURE> be lactose intolerant.
+d: Lactose intolerant, OK, that could be helpful to know. Um, fine. <UNSURE>And tell me of</UNSURE> family history, is there anything in the family that you're aware of?
+p: Um, yeah, so um, my dad has asthma, and, my mum has hayfever.
+d: Hayfever, OK. Um, fine, but any, again, any skin problems that you're aware of?
+p: Yep.
+p: Uh, no.
+d: No, OK, all right. Socially, who do you live with at home?
+p: Ohh, it's just me.
+d: Live alone?
+p: Yep.
+d: And, uh, do you smoke at all? Do you, can I ask? Do you smoke? Are you a smoker?
+p: Uh, no, I don't smoke.
+d: Do you drink much in the way of alcohol?
+p: Uh, no.
+d: Recreational drugs?
+p: <UNSURE>No</UNSURE>.
+d: OK. And you said you <UNIN/>, you work as a primary school teacher?
+p: Yes, that's right.
+d: Uh <UNIN/>, the reason I ask is sometimes stress can be a <UNIN/>, contributing factor. Um, you felt, <UNIN/> you noticed yourself, <UNSURE>find</UNSURE>, uh, <UNIN/>,  life's been more stressful recently. Is that right?
+d: Do you think that might have any correlation to your symptoms?
+p: <UNIN/> <UNSURE>I don't</UNSURE>. I <UNSURE>certainly</UNSURE> think so.
+d: OK, all right. Um, fine. Um.
+d: OK, well, normally at this stage I like to proceed to examination, but um, based on your uh, story.
+d: Um, it's difficult. I think that, you know, <UNIN/>, you've, essentially the story is you've got a dry itchy rash on your, mainly your hands. you mentioned. Um and your arms which started, perhaps after swimming a few days ago.
+d: Um, but no other symptoms, you're feeling otherwise, well, no fevers, no bleeding or discharge from skin.
+p: Yep.
+d: I wonder whether you may have something called dermatitis. Um, have you heard of that condition before?
+p: I have, yeah.
+d: OK. Um, great. Well I can give you a patient information leaflet about that, which gives a bit more information about the disease, but, um, it, it's something that we can readily treated. Um.
+d: With couple options, we have steroid creams I can give you, um, which will help with the inflammation.
+d: And, uh, something called emollients, which can help with the dry, dry skin.
+d: And that's something you just need to kind of paste on, uh, on to your skin, uh, <UNIN/>, throughout the day for the next few days. Um, and hopefully that helps your symptoms.
+p: OK, <UNSURE>it's cool</UNSURE>. Thank you very <UNSURE>much</UNSURE>.
+d: Um, <UNIN/>, you can also try antihistamines, so you can get things over the counter, Piriton, Loratadine, <UNSURE>they can sometimes</UNSURE> help with the itchiness.
+p: Yeah, that sounds good.
+d: OK. And um, that's probably what I recommend. Paracetamol on this occasion, wouldn't be helpful.
+d: Um, uh, uh, painkillers wouldn't be helpful <UNIN/>, on this occasion, but let's, let's, let's see how the next few days go.
+d: And if it's still not getting better, come back and see me next week, and we can have another look again, at your symptoms.
+p: OK, perfect. Thank you very <UNSURE>much</UNSURE>.
+d: Right. Do you have any questions for me?
+p: Uh, no.
+d: OK. Well, I wish you all the best. Have a good day.
+p: Well, thank you very much. Bye.
+d: Thank you. Bye bye.

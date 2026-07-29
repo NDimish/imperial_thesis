@@ -1,0 +1,166 @@
+d: You have to do it, part of your training as a doctor.
+p: Hello.
+d: Hi.
+d: Hi. Can you hear me?
+p: <UNIN/>. Yes, I can hear fine.
+d: Hi. My name's Doctor <UNSURE>Gohill</UNSURE>, I'm one of the general practitioners, that works here. Can I check your name and date of birth please?
+p: Uh, I am, uh, Patrick Smith.
+d: Hi.
+p: Uh, thirty five years old.
+p: Um, October, seventh. Uh.
+p: <UNSURE>ninety</UNSURE> , three something.
+d: Great.
+d: And Patrick, are you in a, space, that's private and quiet?
+p: Yes.
+d: Great, and so, we're OK to chat?
+p: Yes, we are.
+d: OK. So it says here, um, you are feeling hot, and have had severe headaches. Is that correct?
+p: Yeah. It's, it's really affecting my work. Uh, uh, it comes and goes. Uh.
+p: Uh, I kind of, feel like, uh, it's, it's hard 'cause I, I <UNIN/>, kinda lose my appetite.
+p: Also. Uh, one thing that's kinda weird is, I <UNSURE>just</UNSURE> sometimes also get like some, tingling in my arms.
+d: OK.
+p: <UNIN/>. And, like, especially if, for example when I, come into the elevator, in the morning.
+d: OK.
+p: <UNSURE>I</UNSURE>, I <UNSURE>can uh, of</UNSURE> have, my heart is beating, kinda fast.
+d: OK.
+d: So, those are lots of things. Are they all happening at the same time?
+p: Almost randomly like. Yeah, it's, it's, it's at different <UNIN/>, times.
+d: And, do they all happen at the same time? Or is it one thing one time, and one <INAUDIBLE_SPEECH/>?
+p: <INAUDIBLE_SPEECH/>, one time, one thing at a time.
+d: OK. So, let's <UNSURE>start</UNSURE> with the headaches. When they do come, do you have any idea the headache is going to come?
+p: <INAUDIBLE_SPEECH/>
+p: <INAUDIBLE_SPEECH/>
+p: Uh, not really but, generally during, work times.
+d: So, it's normally at work?
+p: I'm at work, I'm in a meeting, or on my laptop.
+d: OK. And, where does the headache sit in your head? <UNSURE>Is it</UNSURE> the front, or the back?
+p: Um, I can't say, so like, kind of <UNSURE>over</UNSURE>.
+d: <INAUDIBLE_SPEECH/>. OK. And, does it <INAUDIBLE_SPEECH/> else?
+p: <INAUDIBLE_SPEECH/>
+p: <INAUDIBLE_SPEECH/>
+d: Does it go anywhere else?
+p: <UNIN/>, the headache? No, it's mostly in the front, and then yeah, it just kind of stays there.
+d: And, when you have the headaches, specifically, do you <UNSURE>feel</UNSURE> sick?
+p: Yeah.
+p: <UNIN/>, not, not, not really, but it's like, making it hard. I, yeah, I kind of feel a little bit nauseous maybe. Um.
+d: OK.
+p: And sometimes I also feel like.
+p: Uh, yeah. It's like uh, maybe, probably, breathing or something.
+d: OK.
+p: <UNSURE>No</UNSURE>.
+d: And, do you normally get headaches, before all of this started?
+p: Uh, so.
+p: No, I, I feel like my, like, health situation was mostly under control.
+d: <INAUDIBLE_SPEECH/>
+d: OK.
+p: <UNSURE>Yeah</UNSURE>.
+d: And then let's.
+p: But it <INAUDIBLE_SPEECH/>, it started roughly when I changed jobs.
+d: OK. So, talk to me about your job, what do you do?
+p: I'm a lawyer.
+d: And, do you work in London at the moment?
+p: Yes.
+d: So, do you get these headaches on your commute in to work?
+p: Not really. I get it, mostly when I'm, at work.
+d: OK, and tell me about what you do. Do you sit in front of a computer most of the time? Or do you speak to people?
+p: Like fifty-fifty. I go to meetings and then uh, sit in front of a computer.
+d: OK.
+p: There's a lot of reading.
+d: And, these things have happened mostly when you're sitting at your computer?
+p: Um.
+p: <UNIN/>, yeah, it happens then, yeah.
+d: OK, and tell me, what did you do, before being a lawyer?
+p: Uh, no, I was a lawyer <UNSURE>at</UNSURE> previous job as well.
+d: OK.
+p: <INAUDIBLE_SPEECH/>
+d: So, talk to me about the stress that you're under at the moment. If, uh, ten out of ten is, extremely stressful, and one out of ten is being on vacation. Where <UNSURE>would</UNSURE> <INAUDIBLE_SPEECH/> moment?
+p: <INAUDIBLE_SPEECH/>
+p: Think it's, seven, or eight.
+d: And, is that normal for you?
+p: Yeah, it's like, a law firm, like, there's always pressure.
+d: OK.
+d: So, you mentioned your headaches. You also mentioned your reduced appetite. So, you don't want to eat as much.
+p: Yeah.
+d: Have you lost weight?
+p: Yes.
+d: Can you remember how much you've lost?
+p: Five pounds.
+d: And, is that because you're going to the gym? Or is that unintentional?
+p: It's not intentional, no.
+d: OK. So, have you noticed your clothes feeling looser?
+p: <INAUDIBLE_SPEECH/>, not really, ah, no.
+d: And, have people said, or commented that you've lost weight?
+p: No.
+d: <UNSURE>Great</UNSURE>. And, another thing that you also mentioned. Is that you noticed tingling in your hand.
+p: Yeah.
+d: So, talk to me about that. Is it in one hand? Or both hands?
+p: Both.
+d: And, do you get that in your legs as well?
+p: No.
+d: And, what does it feel like, the tingling?
+p: <UNSURE>Quick picking</UNSURE>, yeah.
+d: And again, is this the first time you've noticed this?
+p: Yeah.
+d: OK.
+d: And the other two things that I've just, jotted down. Is, you're feeling hot, but you didn't mention that.
+d: Is that <UNSURE>correct</UNSURE>?
+p: <INAUDIBLE_SPEECH/>
+p: Uh, but like.
+p: I would say like, I get this like, feeling of, <UNSURE>short</UNSURE>, like, <UNIN/>, short of breath, sometimes.
+d: OK.
+p: So, like, that could be what, you we're, referring to.
+d: Yes. So, do you feel short of breath while you're sitting at your desk?
+p: Yeah, no. Yes. Sorry, yeah.
+d: <UNIN/>. OK. And, how about when you're exercising?
+p: No.
+d: OK.
+d: And the last thing is. You mentioned that you noticed your heart beating?
+p: Yeah.
+d: Again, how often do you get that?
+p: I, I, when I like, it's maybe once a day, uh, maybe more. Uh.
+p: There's one more thing that I, I think I should mention, like, I do have like, some loss of libido at home.
+d: OK. How long has that been happening for?
+p: Same amount of time really, like, since I changed my job.
+d: Fine. And, apart from all of these things that you've told me. Do you have any other medical problems?
+p: Uh, well I have, hyperthyroidism.
+d: OK. And, do you take medications for that?
+p: Thyroxine.
+d: And, are you remembering to take your medications?
+p: Yes.
+d: OK. And, do you drink or smoke?
+p: Yes.
+d: How much do you drink?
+p: Like, once a week, couple of glasses, of wine.
+d: <UNSURE>OK</UNSURE>. And, how about smoking?
+p: No.
+d: And, uh, I need to ask this to all of my patients, but do you do anything else recreational, in terms of drugs?
+p: No.
+d: OK. So, you've never taken cocaine, or marijuana?
+p: <UNIN/>. No.
+d: OK, thank you. And, are you allergic to anything?
+p: <INAUDIBLE_SPEECH/>
+d: Good. So, you've told me lots of things happening to you at the moment, and I can understand, they probably feel quite strange and unusual.
+p: Yeah.
+d: Um, I think the best course of action is, you come and see, one of our doctors, in the clinic.
+p: Yeah.
+d: <UNSURE>We</UNSURE> can give you an examination, and what that means is, we check your heart and your breathing.
+p: Yeah.
+d: Make sure that those things are functioning correctly.
+p: Yeah.
+d: And probably do some blood tests, for your <UNSURE>thyroxine</UNSURE>.
+p: Yep.
+d: And take it from there. How does that sound?
+p: That sounds, uh, very good. Thank you.
+d: I think before we give you any medications, we should see you in person.
+p: OK. <INAUDIBLE_SPEECH/>.
+d: So, <UNSURE>what we're</UNSURE> going to do is book an appointment. Or I think you can book an appointment through the app, to come and <UNSURE>see us</UNSURE> <INAUDIBLE_SPEECH/> clinic, and see one of my colleagues.
+p: <UNSURE>Yep</UNSURE>.
+p: Yep.
+p: Yep.
+d: I'll let them know what you've told me today, so you won't have to repeat exactly what you've said.
+p: Thank you.
+d: Great. Do you have any questions?
+p: <UNSURE>Right</UNSURE>.
+p: No, that was it. Thank you very much.
+d: Thank you very much.
+p: <UNSURE>Yep</UNSURE>, bye.

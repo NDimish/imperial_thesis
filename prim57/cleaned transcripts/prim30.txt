@@ -1,0 +1,95 @@
+p: Hello.
+d: Hello. Hi, I'm Doctor Jacob and welcome to Babylon. How are you doing?
+p: I'm OK, thank you. Um, not feeling that great actually.
+d: <INAUDIBLE_SPEECH/> Good. <INAUDIBLE_SPEECH/>
+d: Alright. I can't see your face properly <UNIN/>, just, yeah that's it. That's good. Thank you. So, I'm sorry to hear that. But just before we start, is it alright if you could confirm your name for me please?
+p: <INAUDIBLE_SPEECH/>
+p: I'm Mary Jane Grey, um.
+d: <UNIN/> Date of birth?
+p: Date of birth, um nineteen eighty.
+d: <INAUDIBLE_SPEECH/>
+d: OK. And your address for me please?
+p: Um, I live <UNIN/> on SW four zero NG.
+d: <INAUDIBLE_SPEECH/>
+d: That's correct. And just to confirm that you're in a secure location, and we can have a confidential conversation.
+p: Yeah.
+d: OK. So you've mentioned that you're feeling dizzy. <INAUDIBLE_SPEECH/>, yes.
+p: Yeah.
+p: Yeah, I'm feeling I'm, I'm yeah, I'm feeling very sick. It's probably because i'm feeling dizzy, um the the room is sort of spinning, um.
+d: <INAUDIBLE_SPEECH/>
+p: And I, I can't, I can't walk properly. Uh, well I can walk properly but not straight, um.
+p: and my ears are buzzing a bit. I'm just, they're feeling a bit off.
+d: <UNSURE>Mm-hmm</UNSURE>.
+d: OK, <UNSURE>ear's buzzing</UNSURE>. So when did it all start?
+p: Started probably about two hours ago maybe. but I, I, um, I had a a similar sort of thing about a month ago, um
+p: But I didn't really think anything of it, 'cause it <UNIN/> it settled quite quickly. Um, but this has been going for a bit more now.
+d: <INAUDIBLE_SPEECH/>
+d: OK. So you <UNSURE>said</UNSURE>, you mentioned it started a few hours ago. So <UNIN/> did it start? What were you doing?
+p: <INAUDIBLE_SPEECH/>
+p: Um, I was just actually making my husband some breakfast, um.
+p: And I, yeah, I just suddenly felt very fuzzy and dizzy, um, and a bit shaky.
+d: OK. So <UNIN/> you <UNSURE>mentioned</UNSURE>, like the room spinning around?
+p: <INAUDIBLE_SPEECH/>
+p: Yep.
+d: OK. And is, how long does it last for? Or is it there now, continuously now?
+p: Yeah it's, it's there, the whole time.
+d: So it's there now for the past two hours you'd say, yeah?
+p: Yep.
+d: OK. Did you have any kind of viral illness in the recent past, past couple of weeks?
+p: <UNIN/>
+p: No.
+d: No cold, cough, nothing.
+p: No, I've been pretty healthy I think, um, yeah.
+d: Yeah, OK. Um, you've mentioned that you have a, some ear buzzing kind of thing. Any kind of ear pain or ear discharge, anything like that?
+p: No, nothing.
+d: OK. Do you have a temperature at all?
+p: I don't think so, um.
+d: OK, right. You also mentioned that you can walk, but you're not walking straight. Why is that? Is it because
+p: I think just 'cause the room feels like it's moving a bit. Um
+d: <UNSURE>Feels like to move</UNSURE> <UNIN/>. That's why you're feeling like you're a bit unsteady, yeah?
+p: <UNSURE>I'll look</UNSURE> <INAUDIBLE_SPEECH/>.
+p: <INAUDIBLE_SPEECH/> My, my legs and arms and everything are working fine I just, I don't feel like I'm <UNIN/> stable. My, the room is <UNIN/> spinning.
+d: So there's no weakness of your arms and legs. OK.
+p: No.
+d: K. Right. Um, so you mentioned you had something like this a month ago. So how, how, how long did that episode last for?
+p: Probably only about five, ten minutes.
+d: OK, right. And do you have any problems hearing at the moment? Like, is it <UNIN/> muffled or something?
+p: No.
+p: It's just a bit of a buzzy noise in my ears, but otherwise I can hear everything.
+d: OK. <UNSURE>Righty-ho</UNSURE>.
+d: OK. So, have you been physically sick?
+p: No, but now I'm feeling very sick.
+d: Nausea, OK.
+d: Righty-ho. And, I don't have much information of your past medical history. So is there any medical conditions you'd like to <UNIN/> tell me, surgical, medical conditions?
+p: Um, I've had premature ovarian failure, um, and I've taken HRT.
+d: OK <UNSURE>charting premature hearing failure</UNSURE>. OK, and um any other medications at all?
+p: No.
+d: OK, do you have any allergies at all?
+p: No.
+d: <UNIN/>
+d: <INAUDIBLE_SPEECH/>
+d: OK. Right. OK so <UNIN/>, talking to you today, um, in the <UNIN/>, the most common um, you know, diagnosis we would <UNIN/> you're suffering from at the moment is something called labyrinthitis. Yeah?
+d: OK, that's when your middle ear...there is something um, some inflammation going on there, and there is some imbalances in the crystals there in your middle ear.
+d: OK, so what the most important treatment is actually giving you some kind of middle ear <UNSURE>stability </UNSURE> so that you won't feel as if you're going around in a boat, kind of feeling.
+d: OK? So that's what we need to <UNIN/>. Because to actually make you <INAUDIBLE_SPEECH/> function a bit more, we'll start you on certain medications.
+d: I would still like you to be seen by one of our doctors to take a look inside your ears to just make sure. So this is like just symptomatic relief like you have a fever we just give paracetamol.  So just to, you know, make you able to come and see one of the doctors and things like that.
+d: <UNIN/> while you're with the doctors, we'd like to do your blood pressure, just examine your, you know, you know, how your walking and everything is.
+d: OK, while we're waiting, while you're waiting on seeing the doctor if you double up any weakness of your legs or arms or, or, you know, a sudden headache.
+p: OK.
+d: Any of those symptoms, or you start being violently sick with it, then you know, you would need to take your <UNIN/> to A and E.
+p: OK.
+d: But if not, wait for the appointment <UNIN/> for the doctor to examine you um and we'll take it from there.
+d: So i'll, i'll send the a prescription at cross <UNIN/> pharmacy looks like it's the Lloyd pharmacy on our system. Is that correct?
+p: Yeah.
+d: Yeah. So we'll send you across that prescription. Um, it's called <UNIN/> , yeah? It's one tablet three times a day. So I'll give you <UNIN/> about ten days worth.
+d: In the interim, obviously in the next few days, you'll get to see one of my doctors and we'll have to just take it from there.
+p: OK, thank you so much.
+d: <INAUDIBLE_SPEECH/> Any questions at all?
+p: Um, can you take, do you need to take those tablets with food? Or can you just take them any time?
+d: It doesn't really matter, you can take it, because sometimes, you know, you get the symptoms as soon as you wake up, so probably you'll feel a bit sick to eat anything so might as well just take the tablets.
+p: <INAUDIBLE_SPEECH/>
+p: OK, that's great. Thank you so much, that's so helpful.
+d: Just make sure you call support to book that appointment, OK?
+p: I will, thank you very much.
+d: <INAUDIBLE_SPEECH/> Bye bye now. Bye
+p: <INAUDIBLE_SPEECH/>

@@ -1,0 +1,115 @@
+d: Hi there, I'm Doctor Smith from Babylon.
+p: <INAUDIBLE_SPEECH/>
+d: Hi. Can you just confirm your name, date of birth and your address, please?
+p: Yes. <INAUDIBLE_SPEECH/> Italy.
+p: And,
+d: <INAUDIBLE_SPEECH/>
+d: I see, sounds a bit <INAUDIBLE_SPEECH/> . Um.
+d: Are you in a private place so you can have a consultation today?
+p: Sorry?
+d: Are you in a private place so you can have a consultation today?
+p: Uh, yes.
+d: What can I do for you?
+p: So, I have had a <UNIN/> pain in my lower tummy the last two days. I feel kind of hot and sweaty.
+d: <INAUDIBLE_SPEECH/>
+d: <INAUDIBLE_SPEECH/>
+d: OK. And any pain like this in the past?
+p: Uh, not yet, no.
+d: OK, can you just describe to me whereabouts it is?
+p: Um, so, I don't, what, sorry?
+d: Can you describe to me whereabouts the pain is? Is it, is it.
+p: So it's my lower tummy.
+d: Yeah. Is it in the middle or to one side?
+p: Uh, not, um, with a needle.
+d: In the middle, OK. And any other symptoms along that, with that? Have you had any nausea or any vomiting?
+p: Uh, no. I'm just a bit nausea but no vomiting.
+d: OK. Any change in your bowel habit recently, or any diarrhoea? Constipation?
+p: Uh, I had been constipated in, like, in the last, um, last week, but now it's fine. And, yeah, like <UNIN/>
+d: <INAUDIBLE_SPEECH/> to the toilet?
+p: Sorry?
+d: When did you last go to the toilet?
+p: Uh, like two hours ago.
+d: And was it normal?
+p: Yeah.
+d: Any blood in the stool?
+p: Um, so there was some, like, slight, uh, blood in the urine, but, like, <UNIN/> it was a little bit pink but.
+d: OK. And has this ever happened in the past before?
+p: Um, no.
+d: Right. Any pain when you pass water?
+p: Uh, no, that's fine.
+d: Are you having to go more often than normal?
+p: Uh, yeah, a little bit, but I wasn't drinking a lot in these days.
+d: Are you more thirsty than normal?
+p: Uh, yeah.
+d: And you said you felt hot and cold. Have you measured your temperature?
+p: Uh, yes, I measured it but it's fine, like, around thirty seven.
+d: What was it? Thirty seven. Have you measured it at any other time when it's been raised?
+p: Yeah.
+p: Sorry?
+d: Have you measured it at any other time when it's been raised?
+p: Um, no, no, I just measured, like, one hour ago.
+d: OK, that's fine. And, are you getting any pain higher up in your stomach? Any acid coming up into your throat or anything like that?
+p: No, no, <UNIN/> but like just a bit of nausea but not vomiting.
+d: OK. And any other discharge below?
+p: Uh, no.
+d: OK. Um, and have you been abroad recently?
+p: Um, no, no.
+d: No. And no similar problems to this before?
+p: No.
+d: Have you had any other medical problems in the past?
+p: Um, no, no, nothing sore. I mean, depends what, like, normal stuff like cold, flu.
+d: OK, nothing <UNIN/> significant. Any allergies to medications?
+p: <INAUDIBLE_SPEECH/>
+p: Uh, yes, amoxycillin.
+d: OK. Do you take any regular medications?
+p: Uh, no.
+d: <UNSURE>Any</UNSURE> over the counter medications?
+p: No. I have had the just, the, uh, internal <UNIN/> uh, contraceptive implant, but like, for one year, now, no more.
+d: OK. Um, and do you have regular periods?
+p: Uh, yeah.
+d: Any bleeding in between periods or after intercourse?
+p: Um, no, no, no.
+d: OK.
+p: Just like <INAUDIBLE_SPEECH/>
+d: Right. Um, and you haven't felt shivery or sweaty? You said you had felt a bit sweaty.
+p: Yeah. <INAUDIBLE_SPEECH/> , yeah.
+d: OK. And any, any back pain or strong smell to the urine?
+p: Uh, no back pain. No, I typically don't suffer from back pain, so, no.
+d: Right, OK. Anyone in your family had any medical problems before?
+p: Uh, so, <UNIN/> actually my mom had the breast cancer. Uh, but, again, not so important. I mean, just, like, the beginning it was <UNIN/>, uh, cured in time.
+d: OK.
+d: OK. And who do you live with at home?
+p: Um, sorry?
+d: Who do you live with at home?
+p: Uh, with my parents.
+d: And, do you smoke <UNIN/> or drink alcohol regularly?
+p: Uh, yes.
+d: How much in a normal week?
+p: Uh, so, I don't smoke. I drink, I <INAUDIBLE_SPEECH/> .
+p: Four times per week.
+d: And how much?
+p: Uh, yeah, a beer <UNIN/> like, per time, let's say. <INAUDIBLE_SPEECH/> .
+d: <INAUDIBLE_SPEECH/>
+d: What per time?
+p: Uh, let's say a beer.
+d: OK.
+p: Four times a week on average, yeah.
+d: Right, OK. Um, so, it, it may be possible that you might be having an infection in the urine.
+p: Uh-huh.
+d: If you feel like you're, you're going, you're having a little bit of difficulty when you're passing urine.
+p: Yeah.
+d: Um, it might be worth taking a three day course of antibiotics.
+d: To clear that. Um, but, if the pain is getting worse, or you have a high temperature or back pain or develop any new symptoms, we feel like it's not getting better, then, um, we should speak to you again, because we might need to see you face-to-face for an examination.
+p: Uh-huh.
+p: Uh-huh, OK.
+d: Um, have you allocated a pharmacy with Babylon?
+p: Uh, yes.
+d: OK. So, are you happy to take a course of antibiotics, if I send it through to the pharmacy?
+p: Uh, yeah, that's fine. If it helps, yeah. OK.
+d: OK, so I can do that for you. Start taking them as soon as you get them, it's just twice a day for three days. Um, if your pain's getting worse,
+p: OK.
+d: um, or you've got new symptoms, just contact us straightaway, or if you're getting a recurrence of the same problem again.
+p: Uh-huh, OK. Sure. OK.
+d: OK? Alright then, have you got any other questions?
+p: Uh, no, that's fine. Yeah. Thank you. Thank you. Bye.
+d: OK, thanks a lot. Bye.

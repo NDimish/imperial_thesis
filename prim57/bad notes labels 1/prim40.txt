@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "No problems with breathing, no chest pain, no headache."
+  },
+  {
+    "type": "hallucination",
+    "detail": "PMH: Asthma (swapped in from NOTE 1)"
+  }
+]

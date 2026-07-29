@@ -1,0 +1,6 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 21: \"No rash seen on arm\nImp: localized inflammatory reaction to insect bite, no evidence of acute anaphylactic reaction or cellulitis\nPlan: for OTC antihistamines\n Warned re red flags sings/ symptoms- if these occur to get urgent medical review\nNo need for allergy testing on a one-off episode\nTo ring back if any concerns/ anxiety- may need more reassurance\""
+  }
+]

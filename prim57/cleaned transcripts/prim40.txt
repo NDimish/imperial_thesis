@@ -1,0 +1,116 @@
+p: Hello.
+d: Hello?
+p: Hi, hi.
+d: Hi, can you hear me?
+p: <UNIN/>, I can hear you well.
+d: Hi, my name is Doctor Gohil. I'm one of the doctors that works at Babylon.
+d: Can I, <UNIN/> can I check your name and date of birth, please?
+p: Uh, hi doctor. My name is.
+p: Yes my, my name is uh, Roberto Mendoza. <UNSURE>And</UNSURE>, uh, I'm, I was born on the first of January, of um, uh, nineteen ninety two.
+d: OK.
+d: OK, and are you in a space that's quiet and you're able to talk?
+p: Ohh sorry, I um, of nineteen ninety, sorry I'm forty eight. Sorry, I forgot that <INAUDIBLE_SPEECH/>.
+d: So, you're forty eight, and are you able to talk at the moment?
+p: Yeah, yeah.
+d: OK. Tell me, uh, it says here you have a <UNIN/>, uh, you're having problems going to the toilet?
+p: Yes, so I have uh, I have um. I don't know how do you say it properly, in English. Uh, I mean <UNSURE>without sounding</UNSURE> good, like diarrhoea, for, for, yeah. So, it's lasting for like three days. And, uh, yeah, I, I don't know, uh, I don't know, what could cause it. I, uh, um.
+d: OK.
+p: Uh, I have a bit of uh, <UNSURE>pain, abdominal</UNSURE> pain. And I, had a bit of vomiting.
+p: And uh, uh, yeah. <UNSURE>So</UNSURE> this uh, kind of like uh, what is happening to me.
+d: OK. Tell me how you were three days ago, before this started.
+d: Did you have any medical problems?
+p: Uh, so I have, I have, I have <UNSURE>a</UNSURE>, asthma, and I take some uh, some uh, <UNIN/> um, inhaler.
+d: OK.
+p: I don't know, <UNIN/> uh, I take an inhaler, um. <UNIN/> and um. <UNIN/> uh, I have an allergy. I have <UNSURE>N, N, NK</UNSURE>, NKDA allergy. So, I don't know if it's because, uh, I don't know. Could be the inhaler, or, yeah.
+d: OK.
+d: That's <UNIN/>.
+d: And apart from asthma, do you have anything else?
+p: Uh, I don't maybe it's work, because you know it's, this thing here in the stomach <UNSURE>stuff</UNSURE>. I, I always have in the back of my head <UNSURE>and</UNSURE> my father. Because he died about um, ten years ago of <UNSURE>bowel</UNSURE> cancer.
+d: <UNSURE>Yep</UNSURE>.
+d: OK?
+p: So, yeah, this is kind of <UNSURE>uh</UNSURE>.
+p: Uh, my, my worries. I, I don't know <UNIN/>.
+d: OK. So, you've, you've had the diarrhoea for <UNIN/> three days, and now you're having <UNIN/> pain and vomiting.
+p: <INAUDIBLE_SPEECH/>
+p: Yeah.
+p: Yes, yes, <INAUDIBLE_SPEECH/>.
+d: Was the diarrhoea been getting better or worse?
+p: Uh, uh, I <UNIN/>, I think it, it's not getting better or worse. It's kind of like uh, uh, like, <UNSURE>middle</UNSURE>, like normal, like uh, it, it, it hasn't gone away, it hasn't <UNSURE>worsened</UNSURE>.
+d: OK.
+d: OK. And how often do you go to the toilet?
+p: I go, I need to go, I, I can't go to work because I need to go like every. I don't <UNSURE>is</UNSURE> this feeling like I go to <UNSURE>the</UNSURE> toilet, and then when I finish, I need to, I feel I need to go again.
+d: OK.
+p: And, and uh, and, yeah. So, I need to be like close to the toilet uh, all the <UNSURE>time</UNSURE>.
+d: That must be, that must be hard.
+p: Yeah, yeah, it's.
+d: Have you had to drink more water than normal?
+p: I don't know, maybe I'm not drinking enough water, <UNIN/> yeah. I drink uh, I think I, yeah I don't know. I, I think I don't drink enough water.
+d: An important question, have you noticed any blood?
+p: Uh, no, I haven't noticed any, any <UNSURE>blood</UNSURE>.
+d: And you mentioned tummy pain, can you tell me more about your tummy pain, like where it is, and if it goes anywhere?
+p: So, <UNIN/>, the pain is mainly uh, focus in, in the centre area of the abdomen, like under the belly, under the belly button. And, uh, yeah, and sometimes I can hear my stomach, uh, like, <UNSURE>it comes</UNSURE>, uh, yeah.
+d: <INAUDIBLE_SPEECH/>
+d: Yep.
+d: OK. You've been able to eat and drink?
+p: Uh, yes, but, yes but I, I go to the toilet <UNSURE>also</UNSURE> often. So I, I, I, yeah I try not to eat a lot because I, yeah I just, going to the toilet every, ten minute.
+d: Hmm. And you said the tummy pain's in the middle of your tummy. Does it go anywhere else?
+p: No, no, just there, and it, it seems to be <UNSURE>alleviate</UNSURE> a bit, toilet, and maybe it's like trapped gas. So, I don't know what it is, but.
+d: OK. And when was the last time you vomited?
+p: I think it was this morning. This morning, I, but <UNSURE>the, the</UNSURE> thing is like, because I'm not eating anything now. So, I, I haven't vomited again.
+d: Did you have any breakfast?
+p: Right, I don't know.
+p: I didn't. Uh, no sorry, yes I did actually, I did. Pardon, I had some fruit, I had some fruit.
+d: <INAUDIBLE_SPEECH/>
+d: OK. And <UNIN/>, and you vomited that up, afterwards?
+p: And afterwards, I didn't have anything, then I got a bit of nausea, and I vomited, and then, <UNIN/> uh, yeah and that was it, and that was it. And I <UNSURE>have any</UNSURE> <UNIN/> today, and so now I'm, uh, I think I'm OK, but uh, yeah, and I don't, yeah.
+d: Did you notice any blood when you vomit?
+p: Hmm. I think I do, I think I do, but is uh, uh, no, no actually I can't say sorry, I'm sorry. I, I, I don't think there is blood because uh, yeah it was, it was the strawberries that I was having for breakfast. So, so, yeah, it wasn't blood.
+d: <INAUDIBLE_SPEECH/>
+d: OK. And, um, <INAUDIBLE_SPEECH/> did you eat anything that you think might of been bad, or anything that could have caused the tummy pain?
+p: Yeah, <UNIN/>.
+p: Uh, I, I don't know. To be honest, sometimes I have, when I get a bit of anxiety, I, I use my inhaler. And, but my inhaler kind of um, run out <UNSURE>the</UNSURE> one. Because you know, I'm a foreigner, so I have uh, this brand, but I bought a new one here.
+d: Yeah.
+d: <UNIN/>. OK.
+p: And, uh, I don't know maybe this new one has cause it, <UNSURE>this</UNSURE>, this problem. I don't know.
+d: OK.
+d: OK. It's very unlikely for an inhaler to cause tummy pain, like this. Normally, it's when you eat, um, bad food or food that has gone off, and you normally get symptoms like you have suggested. But just <UNSURE>to </UNSURE> double-check, have you noticed any problems with your breathing?
+p: <UNSURE>Mmm</UNSURE>.
+p: Uh-huh.
+p: Um, uh, <UNIN/> I, I always have problems with my breathing, because of the asthma like, <UNIN/>. When I, <UNIN/>, I need to use my inhaler a little bit, but apart of the normal, I haven't, I haven't.
+d: OK.
+d: OK. And how about chest, have you noticed any chest pain?
+p: <UNIN/>, no, I haven't <UNIN/>, I haven't noticed any chest pain.
+d: OK. And how about, um, walking and talking, are those all both OK?
+p: Uh, walking and talking, uh, yes, yes. Uh, I, I, but uh, but yeah I don't walk very far because uh, I, yeah I need to, I need to go to the toilet now and then. So, I'm spending some time at <UNSURE>home</UNSURE>.
+d: Yep. And when you press on your tummy, does it cause any pain?
+p: Ohh, it does a little bit.
+d: OK.
+d: Sorry, I was just writing some things down.
+p: Sure.
+d: So, what it sounds like to me is that you might have eaten something bad, and it's causing your tummy pain. And it's <UNIN/>, this is normally called gastroenteritis, so, an infection of the tummy.
+p: OK.
+p: Ohh, OK.
+d: Normally, when patients have this <INAUDIBLE_SPEECH/> do some things. Number one is to drink lots of water and fluids, because you're losing lots at the moment. Number two is to make sure and look out for any fevers, so, if you start getting a temperature then you need <INAUDIBLE_SPEECH/>.
+p: <INAUDIBLE_SPEECH/>
+p: <UNSURE>Mmm, OK</UNSURE>.
+p: Uh-huh.
+d: And <UNSURE>please</UNSURE> stay home for the time being until you get slightly better.
+p: OK. OK, I, <UNSURE>yeah</UNSURE>.
+d: And normally,
+d: Normally, things like antibiotics don't help, they make the situation worse.
+p: OK. I didn't, yeah, sorry I <UNSURE>didn't</UNSURE>. No, I was saying I didn't have any, fever recently. I, I was sweating a little bit <UNSURE>the</UNSURE> last four days, but I, I. Not sure if, if I had bit of fever, but very, little <UNSURE>or, or, I'm, I'm</UNSURE> but I don't think so, I don't think. I don't know maybe.
+d: So, that's.
+d: Go ahead.
+d: So, I think that's what we should do for the time being, if you feel you're getting much worse, than I would suggest you go and see your GP in real, in real life, in person, so they <UNSURE>can loot at</UNSURE> your belly.
+p: <INAUDIBLE_SPEECH/>
+p: OK.
+p: OK, I will, yeah I will book then, <INAUDIBLE_SPEECH/> book <UNIN/>, I will wait a couple of days to see, or one more day, and then I will book, and then, yeah.
+d: Great! Cool! Do you have any more questions for me?
+p: Uh, <UNIN/>, no, that's uh, that's it. I was maybe just concerned about my father's <UNIN/> uh, <UNIN/> medical history, that would uh, I could <UNSURE>be</UNSURE> at some kind of risk.
+d: Yes.
+d: So, the, the things that you've told me are most suggestive of an infection of your tummy and less likely to be something your father had, but if your things don't get worse, then that's something that we can look up from the GP.
+p: OK.
+p: OK, <UNSURE>OK</UNSURE>. Yeah, that sounds good, that sounds good. OK. Thank you very much doctor, for your time. Bye <UNSURE>bye</UNSURE>.
+d: Does that sound OK?
+d: Thank you <UNIN/>.
+d: Bye bye.

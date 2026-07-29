@@ -1,0 +1,128 @@
+d: <INAUDIBLE_SPEECH/> Hi, Hi there, good morning.
+p: Hi, good morning.
+d: Um, I'm Doctor Dean <UNSURE>Resor</UNSURE> from <INAUDIBLE_SPEECH/>. Nice to see you.
+d: <INAUDIBLE_SPEECH/>
+p: <UNSURE> That's the same thing</UNSURE>.
+d: OK great! So before we start your appointment, could you please confirm your full name and date of birth?
+p: Yeah sure! Um, my name is <UNSURE>Jim Gowers</UNSURE> and I was born in nineteen fifty eight uh on the eighth of August.
+d: <INAUDIBLE_SPEECH/>
+d: That's great. Thank you so much for that. Um, you look a lot younger, so, um
+p: Yeah.
+d: Does that, that would make you roughly about fifty years old, fifty one, fifty one years old. Is that is that correct or?
+p: Yeah, yeah around that. Yeah about sixty, yeah.
+d: Six, OK, perfect. All right. So, um, nice to see see you this morning. Are you in a private place where you are OK to speak freely?
+p: Yep.
+p: Yes, I am. Yeah.
+d: OK fantastic! So um, how can I help you today?
+p: Um, yeah. I was, I was having, um, a bit of chest discomfort. So, I was doing some gardening, um, a couple of hours ago.
+p: And I felt <UNIN/> not exactly a pain but um like a <UNIN/> a pressure on my chest, um, feels like someone sitting on my chest.
+p: Um, and, I've noticed, um, a bit of nausea, not, no vomiting but, um, I'm pretty sweaty, um, short of breath, and it kind of feels like someone's sitting on my chest.
+d: Right, OK.
+d: Now, do you have those these symptoms right now or have they gone off now?
+p: Um, no, they're still present.
+d: OK. So, you've still got the chest discomfort right now?
+p: Yes.
+d: OK, um.
+d: We're probably gonna have to call an ambulance for you.
+d: <UNIN/> OK. So what I'm gonna do, is I'm gonna task my colleague next to me to sort that out. While we do that I'm gonna ask you a few more questions, OK?
+p: OK.
+p: Mmm, <UNSURE>sure</UNSURE>.
+d: <UNIN/> We're gonna a bit more information to the, <UNSURE>to help</UNSURE> the ambulance team when they, when they arrive, OK.
+p: Sure.
+d: So just to, just to double check, um, where exactly in the chest is the pain?
+p: Um, it's in the, uh, middle of my chest, um, over, uh, yeah, my my pecs, so, um, yeah but not not necessarily to one side, um, and it's quite diffuse pain.
+d: <INAUDIBLE_SPEECH/>
+d: <UNIN/> Is, is it spreading anywhere else, like down into your arm, up to the jaw, in your neck, anything like that?
+p: Yeah. It's, it's, um, mainly in my left arm, er, it's feeling a little bit, um, er, painful, and, and in my shoulder as well.
+d: Right, OK. Do you remember what you were doing at the time?
+d: <INAUDIBLE_SPEECH/>
+p: Uh yes, so it started uh just when I was gardening. So nothing that was too strenuous um I was just kneeling down and
+p: Uh, yeah, wasn't running or anything, it wasn't during any physical exercise.
+d: Sure, OK. And, and how much activity do you do normally? Do you walk a lot or do you run or do you <UNIN/> do anything?
+p: No, I don't, I, I generally don't do much activity at all, um, you know.
+d: Have you had this before?
+p: No, this is the first time, actually.
+d: Right, OK. Can <UNIN/> are you aware of any palpitations, like your heart beating faster or more prominently than normal?
+p: Yeah.
+p: Um, yeah. It's, it's beating a bit faster now. I think that's 'cause I'm a little bit stressed.
+p: Um, about the situation but I haven't noticed it, um, beating faster than usual, um, and I did today.
+d: <INAUDIBLE_SPEECH/>
+d: <INAUDIBLE_SPEECH/>
+d: So, I know you're stressed but, but we've got an ambulance coming on the way, OK? So um, we'll take care of everything, so don't, don't <UNSURE>worry</UNSURE>. Who's in the house with you at the moment?
+p: Yeah.
+p: OK, thank you.
+p: Uh, no, no one's in the house at the moment.
+d: OK. Um, and is your front door open?
+p: Uh, yes, it's open.
+d: OK so maybe we'll, we'll speak maybe in the hallway to the front door. Have the front door open so that, in case people need access, they could access you.
+p: Yeah, yeah <UNIN/>.
+d: Alright. Um, so, um, uh, are you a smoker at all?
+p: Uh, yeah, I smoke, um, a fair bit so I smoke about ten cigarettes, uh, a day. Um, yeah.
+d: How long have you been smoking for?
+p: Uh, for the past fifteen years.
+d: Fifteen years, OK. Um, do you have, um, high blood pressure or high cholesterol or diabetes <UNSURE>or anything</UNSURE>?
+p: Yeah.
+p: Yeah, I have high blood, uh, blood pressure, but, um, not diabetes.
+d: OK. Have you ever had your cholesterol checked?
+p: No.
+d: OK, all right. Um, now anyone in your wider <UNIN/> in, in your family, sorry, in your parents, did either of them have any heart problems, or heart attacks, or anything like that?
+p: Yes.
+p: Um, yes, so, my, um, father died of a heart attack, um, and my mother had some heart problems.
+d: <INAUDIBLE_SPEECH/>
+d: OK. Uh, I'm sorry to hear about your father. Can you remember what age roughly he was when he had, he had the heart attack?
+p: Um, he was about my age.
+d: Right so <UNIN/> just under sixty, around sixty.
+p: Yes, around sixty, yes.
+d: Yeah, OK, alright. Um, do you drink much alcohol?
+p: Um, yeah, I drink, um, about, per week, probably about seven or eight pints a week.
+d: OK, is that a, a beer you're talking about, yeah?
+p: Ohh. Yeah, yes.
+d: Uh, I, I can't tell from the video, are you overweight?
+p: Um, yes, I'm overweight, yeah.
+d: Right, OK. Alright. Um, uh now um, you, do you normally live alone?
+p: Yeah.
+p: Uh, yeah. I live alone, uh, at the moment. Yeah, uh, it's just me in the house.
+d: Sure, OK, and, and, uh, are you working at the moment?
+p: Yeah yeah, I, I work, yeah.
+d: Right, what do you work as?
+p: Um, I work as a restaurant owner. So I own a sushi shop.
+d: Right, OK. Alright. Um, so, um, the, the symptoms that you've described to me
+p: Yeah.
+d: Um, they indicate the possibility of, um, a heart attack.
+d: OK? So, I'm not saying you definitely have a heart attack, but we, that, it's our number one priority to exclude that.
+p: OK.
+d: OK, so ambulance team will be with you very shortly.  I'm gonna stay on the line with you until they come.
+p: OK, yeah.
+d: OK. <UNIN/> when they come, what they'll do is, they're gonna put some stickers on your chest and do an ECG.
+p: OK, yeah. Thank you.
+d: And then decide where to take you after that, OK? <UNIN/>
+p: OK.
+p: OK, <UNSURE>no</UNSURE>.
+d: And um, what, what, uh, can I just double check? Do you have, um, any allergies to any medication?
+p: Yes, actually, I have, um, an allergy to aspirin.
+d: Right, OK.
+p: Yeah, and no other allergies.
+d: Sure. Uh, what's the nature of that allergy to aspirin? Do you, does it, does it cause you heartburn? Or is it like <UNIN/> an allergic reaction?
+p: <UNSURE>Um</UNSURE>
+p: Yeah, uh, it's an allergic reaction, so I swell up, um, a bit, but, um, nothing life threatening.
+p: Um, I've, I, sometimes even have it and it's, it's a, it's a mild reaction to it.
+d: OK, all right. It's very important that you communicate that to the hospital.
+p: Yeah.
+d: Um, the detail you just told me, because, um, we, we may need to consider aspirin despite <UNSURE>allergy</UNSURE>, OK?
+p: OK.
+p: Ohh, OK.
+d: Um, alright, um, now in terms of, um, what happens from here
+p: <UNSURE>OK</UNSURE>.
+d: That <UNIN/> team will assess you and then they may take you into one hospital or another based on how bad <UNIN/>, what the ECG looks like and what kind of treatment you might need, OK?
+p: Uh huh.
+d: Um, what I'm going to do is, we'll stay on the line for the time being, OK, until they come,  and then, um, once they come, then I'll hand over to them and I'll explain what's going on, alright?
+p: OK.
+p: OK.
+p: OK, OK, sure.
+d: OK.
+p: Yeah, thank you.
+d: <UNIN/> we'll end the conversation after the <UNSURE>purposes</UNSURE>. Is that OK?
+p: <UNIN/>
+p: Yeah, that's, OK. OK, thank you very much.
+d: <UNIN/> thanks! Bye!
+p: Thank you. Bye.

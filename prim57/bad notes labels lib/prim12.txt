@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "No headaches/muscle pain."
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 4: \"Finding work slightly stressful.\""
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "You have had mosquito bites (from NOTE 27)"
+  },
+  {
+    "type": "omission",
+    "detail": "Drinking less cf normal"
+  }
+]

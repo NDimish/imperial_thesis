@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "You don't have any allergies"
+  },
+  {
+    "type": "hallucination",
+    "detail": "Dust allergy. (swapped in from NOTE 44)"
+  }
+]

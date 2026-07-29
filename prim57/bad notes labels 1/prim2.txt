@@ -1,0 +1,6 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "FH Hypothyroidism (from NOTE 32)"
+  }
+]

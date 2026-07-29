@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "Plans : requires further examination and blood tests."
+  },
+  {
+    "type": "hallucination",
+    "detail": "Father - suicide. (swapped in from NOTE 43)"
+  }
+]

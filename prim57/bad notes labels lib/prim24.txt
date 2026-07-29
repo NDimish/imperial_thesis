@@ -1,0 +1,10 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 18: \"Slight tinnitus at times in this period- not continuous\nNumbness and difficulty hearing present now \nPmhx: labyrinthitis, heart burn, nasal polyps\nDH: Rennies PRN OTC, nasal spray PRN (pt not sure of name)\nAllergies: latex allergy\nNo FH of note\nEx: no facial asymmetry, looks well, normal facial expressions and movements\nImp: ?\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"HTN \n DH\" was swapped for \"IHD\" (from note 22)"
+  }
+]

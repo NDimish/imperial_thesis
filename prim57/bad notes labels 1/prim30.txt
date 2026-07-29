@@ -1,0 +1,6 @@
+[
+  {
+    "type": "omission",
+    "detail": "If you will need to book a pace to face appointment to have your ears checked ."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "No Pmhx of note"
+  },
+  {
+    "type": "hallucination",
+    "detail": "Pmhx: labyrinthitis, heart burn, nasal polyps (from Note 18)"
+  }
+]

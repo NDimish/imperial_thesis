@@ -1,0 +1,25 @@
+2/7 ago developed lower abdo pain/suprapubic pain, gradual onset, burning pain, constant, progressively worsening
+No bowel sx. 
+Urinary sx - noticed some pink coloured urine, no frank haematuria, nil dysuria.  
+Some nausea, no vomiting
+Feeling hot and sweaty
+Currently sexually active with regular partner. Last STD 6/12 ago. Unprotected SI 2/7 ago. 
+LMP 2/52 ago 
+
+No chest pain/SOB/palpitations
+No headches/visual sx
+
+PMH: nil
+PSH: nil 
+DH: implanon , otherwise nil
+FH: nil 
+SH: roomshare with 2 flatmates, works as an accountant. Nil smoking, social EtOH 
+
+Imp: ?UTI. also need to exclude pregnancy 
+
+Plan:
+1.	Pregnancy test
+2.	Urine dip and MSU
+3.	Rx empirically with Abx for UTI
+4.	Regular paracetamol for pain 
+5.	Review in 24-48 hours if sx not improving, or earlier if worsening sx (fever, abdo pain, vomiting)

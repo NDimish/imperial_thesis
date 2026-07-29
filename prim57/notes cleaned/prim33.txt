@@ -1,0 +1,11 @@
+History : 
+Cough and cold for 5 days 
+Cough is dry, no sputum , no blood
+No wheeze 
+No breathlessness 
+Used paracetamol 
+Diabetic and high blood pressure since 5-6 years
+Medication: metformin, lisinopril
+Sugar levels and BP normal today 
+Diagnosis: Upper respiratory tract infection
+Plan : . advised to use night and day nurse. If there is breathlessness, wheezying or cough more than 3 weeks to call back

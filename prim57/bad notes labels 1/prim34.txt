@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "If there is progressing weakness of the arms and legs, vomiting, visual disturbances, fits you will need to go to A & E"
+  },
+  {
+    "type": "hallucination",
+    "detail": "If any prolonged symptoms occur- to attend A/E (swapped in from NOTE 20)"
+  }
+]

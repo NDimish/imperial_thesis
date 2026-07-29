@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "FROM."
+  },
+  {
+    "type": "hallucination",
+    "detail": "allergic to peanuts (from NOTE 17)"
+  }
+]

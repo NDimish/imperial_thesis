@@ -1,0 +1,120 @@
+d: Hi there, it's Doctor Smith from Babylon.
+p: Hi.
+d: Hi. Can you confirm you name, date of birth and your home address, please?
+p: Uh, Sandra Bullock, uh, twentieth of February, nineteen fifty eight.
+d: Hello. <INAUDIBLE_SPEECH/>
+d: And your home address?
+p: Uh, seven three four, <UNIN/> court in St. <UNIN/>.
+d: OK, that's fine. Uh, are you in a private place that you can have a consultation at the moment?
+p: Yeah, yeah, I am.
+d: OK, what can I do for you today?
+p: Um, well, like five days ago I started having problems like a cough, and my nose is just constantly streaming.
+d: OK. And, and are you normally fit and well?
+p: Yeah, normally I'm diabetic, but other than that, like, generally pretty good.
+d: Right, OK. So, just tell me about the last, did you say five days?
+p: Yeah, five days or so ago.
+d: OK. How about your cough at the moment?
+p: Uh, it's quite bad. It's kind of quite dry, um.
+p: I'm coughing maybe every twenty, thirty minutes or so.
+d: OK, you bringing up any phlegm at all?
+p: No.
+d: No. Any chest pain?
+p: No.
+p: Chest what, sorry?
+d: Any pain in your chest?
+p: Uh, no.
+d: Any difficulty breathing, feeling short of breath or any pain when you take a deep breath?
+p: No, that's all fine.
+d: Have you coughed up any blood or anything like that?
+p: Nope.
+d: And what about your nose symptoms?
+d: Are you <INAUDIBLE_SPEECH/> front of your sinuses or anything?
+p: Uh, just <UNIN/>.
+p: Uh, nothing up in here but just constant streaming, like, using a million tissues.
+d: OK. And any blood coming from the nose?
+p: No, it's pretty green.
+d: Right, OK. Any other symptoms, like sore ears? Sore throat?
+p: Uh, I <UNIN/> I've been feeling really hot, um, I don't know if it's fever as such, but, <UNIN/> like, to touch I'm quite hot but sometimes I'm feeling really chilly, needing to be under a blanket, that sort of thing.
+d: Have you checked your temperature with a thermometer?
+p: Uhh, no, I haven't.
+d: OK. Um, and are you eating and drinking normally?
+p: Uhh, yes. Um, kind of around when it started, I had some diarrhoea, but I don't know if that was associated. But since then it's all been pretty fine.
+d: OK. So, you're drinking well, holding down fluids OK?
+p: Yeah.
+d: And passing water OK?
+p: Yeah, that's fine.
+d: No <UNSURE>vomiting</UNSURE>, diarrhoea now?
+p: No.
+d: OK, that's fine. Um, any rashes that you've noticed?
+p: Rashes? Uhh, no, nothing like that.
+d: Yeah.
+d: Any headaches or change in your vision?
+p: No, um, I've had quite achy muscles, but that's pretty much it.
+d: OK. And normally, do you have any chest problems?
+p: Uh, no.
+d: Do you ever get wheezing, short of breath?
+p: Uh, I mean, like, if I do intense exercise, then yes. But not <UNIN/>.
+d: <UNIN/>. And, do you regularly have any infections in your chest, or anything that needs treatment, normally?
+p: No, uh, I've got hypertension, um, so I'm on some drugs for that, um, but that's it, really.
+d: OK. Um, any other medical problems?
+p: Uh, just the hypertension and the diabetes.
+d: OK, and what type of drugs are you on?
+p: Uh, I think something called metformin, and lisinopril I think is the other one.
+d: OK, and when did you last have your blood pressure checked?
+p: Uh, ooh, uh, <UNIN/> a while ago. Um, <INAUDIBLE_SPEECH/>.
+d: <UNIN/> Do you know if it, do you know if it's been stable?
+p: Uh, I can't remember.
+d: OK. And with your blood, with your diabetes, have you had a blood test recently?
+p: Um, yeah. Like.
+p: Yeah, it was normal. It was around three weeks ago.
+d: OK, and do you know what dose of the lisinopril you're taking?
+p: Uh, two hundred.
+d: OK. Have you been able to pass water normally? Any increase in <UNIN/> in frequency that you're passing water or any increased thirst?
+p: Uh, no, not particularly.
+d: And has your weight been stable?
+p: Yeah.
+d: What is your weight and height?
+p: Uh, my height is five foot five, and my weight is sixty five kilograms.
+d: OK. And do you smoke at all?
+p: <INAUDIBLE_SPEECH/>
+d: You drink any alcohol?
+p: Yes, the odd cherry.
+d: OK.Um, who do you live with at home?
+p: Uh, my partner and my dog.
+d: And do you work?
+p: Uh, yes. I'm an office manager.
+d: OK.
+d: And have you been doing anything yourself to help with the symptoms? Anything that you've bought in the chemist?
+p: Um, uh, a quite a few lemon sips. Um, they seems to be helping.
+d: <INAUDIBLE_SPEECH/>
+d: Do you, what, what do you mean by quite a few? How many in, in a day do you normally take?
+p: Uh, maybe two or three. Maybe, like, at the start of the day and at the end of the day.
+d: OK. Have you noticed any improvement in that?
+p: Yeah. It tends to soothe my throat a bit for when I'm going to sleep.
+d: OK. Um, do you have any allergies to anything?
+p: Uh, I sometimes suffer from some, like, hay fever. But, um, but it's not bad <INAUDIBLE_SPEECH/>
+d: Any <INAUDIBLE_SPEECH/>. Any allergies to any medications at all?
+p: Not that I'm aware of, no.
+d: OK. So, what you've described to me, it sounds like you, you probably have got an infection in the chest, um, because it's, it, you know, you're obviously getting symptoms of from your nose and your chest. Um, it sounds like you might have a high temperature, it's definitely worth getting a thermometer and checking your temperature.
+p: OK. I can just get one of those at a pharmacy or something?
+d: Yeah, and most of the time, these infections are caused by viruses, so they do normally settle by themselves. But it can take, you know, a week or two, um, and you can <UNIN/> persistently have the cough ongoing longer than that.
+d: Um, the important thing to do would be to take your temperature.
+d: Um, and if you feel like, if the temperature's ongoing, above thirty seven point five, thirty eight, um, and you keep spiking temperatures and that's not settling down, or your cough's getting worse, you're coughing up lots of nasty phlegm or you cough up any blood or get blood coming out your nose,
+d: um, or any shortness of breath, chest pain, then we certainly would need to speak to you again. With the diabetes you are a bit more likely to get a bacterial infection than if you didn't have the diabetes, so it's something we do need to be careful of.
+p: OK.
+p: OK. So, then we would at potentially antibiotics at that time, perhaps?
+d: Yeah, potentially. If it is, if it's not settling or the temperature's ongoing, getting worse, then we definitely need to talk to you again.
+p: OK.
+d: Um, have you got any other questions?
+p: Um, no, that's all fine.
+d: It's fine to carry on what you're doing at the moment, with the lemsip. I wouldn't take, and that, that contains paracetamol so don't take any other paracetamol containing products, um, with that at the same time.
+p: Yeah.
+d: Um, the cough syrup isn't advisable in the daytime because it's best for your body if you just keep coughing. But if you're kept up all night and you can't sleep at all, then it, it's OK to have a little bit of cough syrup, just to settle that down.
+p: OK. Cool.
+d: OK? Do you have blood sugar checking equipment? Do you check? No, OK. Well, if you make sure that you have the regular diabetes and blood pressure checkups that your GP has asked you for?
+p: Yep.
+p: I'm not at home.
+p: Yeah.
+d: OK, great. Alright then, take care. Bye.
+p: <INAUDIBLE_SPEECH/>
+p: Alright. Thanks so much. Bye.

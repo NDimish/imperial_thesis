@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "Sugar levels and BP normal today"
+  },
+  {
+    "type": "hallucination",
+    "detail": "SH: lives with wife, works in factory/manufacturing, smoking socially, etOH - >14 units/week (from NOTE 7)"
+  }
+]

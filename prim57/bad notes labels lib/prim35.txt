@@ -1,0 +1,10 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 23: \"Recent foreign travel- returned from Vietnam, took malaria prevention daily- cant remember medication, present there for a few weeks, rural and urban tourism, trekking and cycling.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 40: \"FHx : father has history of stomach Ca.\""
+  }
+]

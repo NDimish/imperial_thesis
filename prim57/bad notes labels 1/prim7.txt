@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "Delayed script for amoxicillin abx - to start in 24-48 hours if sx not improving"
+  },
+  {
+    "type": "hallucination",
+    "detail": "Finding work slightly stressful. (from NOTE 4)"
+  }
+]

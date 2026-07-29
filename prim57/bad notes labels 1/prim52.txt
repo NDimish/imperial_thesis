@@ -1,0 +1,6 @@
+[
+  {
+    "type": "omission",
+    "detail": "May take 1-2 weeks to settle and cough can persist for up to a month but to contact us if symptoms not worse/fever persists - check with thermometer/coughing up phlegm/blood in sputum/nose bleeds."
+  }
+]

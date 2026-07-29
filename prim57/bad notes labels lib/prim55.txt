@@ -1,0 +1,14 @@
+[
+  {
+    "type": "omission",
+    "detail": "No coryzal symptoms."
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 46: \"No tingling/numbness/weakness/rash.\""
+  },
+  {
+    "type": "omission",
+    "detail": "Has had some generalised headaches before but not bad and associated symptoms/altered vision."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 16: \"One previous similar episode in the past- resolved spontaneously.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 16: \"One previous similar episode in the past- resolved spontaneously.\""
+  }
+]

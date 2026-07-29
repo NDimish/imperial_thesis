@@ -1,0 +1,6 @@
+[
+  {
+    "type": "omission",
+    "detail": "No need for allergy testing on a one-off episode"
+  }
+]

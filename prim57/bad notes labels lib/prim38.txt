@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "DDx: PE\n\nPlan : Further examination and investigation in acute setting."
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"SOBAR\" was swapped for \"SOBOE\" (from note 36)"
+  }
+]

@@ -1,0 +1,6 @@
+[
+  {
+    "type": "omission",
+    "detail": "Worse\nWhen moving sx."
+  }
+]

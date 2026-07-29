@@ -1,0 +1,6 @@
+[
+  {
+    "type": "omission",
+    "detail": "FH - father died of MI early 60s , mother - osteoporosis"
+  }
+]

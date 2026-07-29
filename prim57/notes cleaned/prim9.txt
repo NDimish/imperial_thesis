@@ -1,0 +1,19 @@
+3/7 hx of dysuria and suprapubic pain. Nil frequency. Brief episode of haematuria, now resolved. Foul smelling.
+Abdo pain - cramping, nil radiating 
+Nil nausea/vomiting. Nil fever. Nil bowel sx
+Currently sexually active - with regular partner for 2/12. No previous STD screen. Nil PV discharge. LMP 2/52 ago. 
+
+PMH: IBS
+DH: Nil regular 
+Allergic to clindamycin 
+FH: Nil regular 
+SH: lives in a flat with friends, student in Biology, nil smoking, social EtOH at weekends
+
+Imp: UTI/cystitis 
+
+Plan:
+1.	Nitrofurantoin abx for 3/7
+2.	Push fluids
+3.	Trial cranberry juice 
+4.	Pregnancy test to exclude pregnancy 
+5.	Review in 3d if no better, or earlier if worsening sx (fevers, back pain, vomiting, more unwell)

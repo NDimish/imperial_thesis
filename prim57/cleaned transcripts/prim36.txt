@@ -1,0 +1,140 @@
+d: <INAUDIBLE_SPEECH/>
+d: Hello.
+p: Hello. Can you hear me?
+d: Yeah, I can. Can you hear me?
+p: <INAUDIBLE_SPEECH/>
+d: Hi, my name is Doctor <UNSURE>Gohill</UNSURE>.
+d: I'm <UNSURE>one of</UNSURE>, Hi, I'm one of the physicians that works at Babylon.
+p: <INAUDIBLE_SPEECH/>
+d: Are you in a quiet and private space to <UNSURE> talk</UNSURE>?
+p: I am, yes.
+d: Good, and can I confirm your name and date of birth please?
+p: Uh, it's Joe Bloggs. It's the seventh, of June, nineteen seventy four.
+d: Seventy four, and how old does that make you?
+p: Sorry, fifty four <UNIN/>. <UNSURE>I'm</UNSURE>, suppose I'd be fifty three, well, yeah.
+d: Perfect.
+d: Great, and it says here, um, it says you're having chest discomfort. Is that correct?
+p: That, that is correct, yes. I'm experiencing discomfort in my chest.
+d: <INAUDIBLE_SPEECH/>
+d: OK, can you tell me a little bit more about your chest discomfort? When it started, and how you're feeling at the moment?
+p: Sure, um, it's been ongoing for, a couple of hours now.
+p: Um, I'd say that it's <UNSURE>come on</UNSURE>, quite suddenly. I was, digging in the garden.
+p: And it, if I had to describe where it is, <UNSURE>it's</UNSURE> somewhere in the middle of my <UNSURE>chest</UNSURE>.
+p: And it's more, it feels like it's pressure, <INAUDIBLE_SPEECH/> discomfort, than more, than a pain.
+p: Um, if I, had to <UNIN/>.
+p: If <UNSURE>I</UNSURE>, if I had to describe what <INAUDIBLE_SPEECH/> <UNSURE>discomfort</UNSURE> feeling, it's, it's like someone's sitting on my chest. <INAUDIBLE_SPEECH/>.
+d: <UNSURE>OK</UNSURE>.
+p: <UNSURE>And</UNSURE>.
+p: Yeah.
+d: Great. So, you've talked about your chest. Are you still in, discomfort at the moment?
+p: Uh, yes I do <UNSURE>smoke, yeah</UNSURE>.
+d: OK, and when it started, how would you rate it out, out of ten?
+p: Say about, say, seven out of ten.
+d: OK, <UNIN/>.
+p: Ten being, very sort of, unbearable and severe pain. Seven is.
+p: Quite manageable, <UNSURE>well</UNSURE>, it's quite <INAUDIBLE_SPEECH/>.
+d: <UNSURE>OK</UNSURE>, and how about now?
+p: Um, it's still the same.
+d: OK, and tell me before this happened, what were you doing?
+p: Yeah.
+p: Um, I was, <INAUDIBLE_SPEECH/> <UNSURE>relaxing</UNSURE>.
+p: My wife, and, we're watching Jeremy Kyle.
+d: OK.
+p: <UNIN/> still <UNSURE>go out</UNSURE> into the garden.
+d: OK, and how often do you do gardening?
+p: Um, every other week. So, fortnightly.
+d: OK, and are you normally fit and well? So, are you <UNIN/> normally OK to garden as you would?
+p: Uh, yes.
+d: Great, and apart from this, do you have any other medical problems?
+p: Um, high cholesterol, and, I've had hypertension, <INAUDIBLE_SPEECH/> <UNSURE>hypertension</UNSURE>.
+d: OK, so that's high blood pressure, and high cholesterol. Do you take any <UNSURE>medicines</UNSURE> for that?
+p: <INAUDIBLE_SPEECH/>
+p: No, I don't take any medicine.
+d: OK, and are you allergic to anything?
+p: Uh, <INAUDIBLE_SPEECH/>.
+d: OK. So, let me summarise what you've told me already. You were gardening a few hours ago, and you experienced chest discomfort, which was roughly seven out of ten.
+p: <INAUDIBLE_SPEECH/>
+d: <UNSURE>And it</UNSURE> feels more like someone's sitting on your chest, as opposed to pain.
+p: Yeah.
+p: Yes, that's <UNSURE>great</UNSURE>.
+d: And apart from this, have you noticed anything else unusual, specifically with your breathing?
+p: Uh, yes I have. Um, I've got shortness of breath. And I feel slightly, light-headed.
+d: OK, and is that getting worse or better?
+p: Um, it's remained the same. Although, I would say recently I've noticed, in terms of sort of breathing, I've had, <UNSURE>some</UNSURE> difficulty <UNSURE>climbing</UNSURE> the stairs. And, if I have to sort of walk uphill, there's that sort of challenge as well.
+d: And when you get short of breath, when you're walking up the stairs, have you noticed any pain?
+p: Um, no pain as such, but there's often calf pain and, leg <UNSURE>swellings</UNSURE>.
+d: OK. So, let me confirm. You have the pressure at the moment, and you have shortness of breath, is that correct?
+p: That is correct, yes.
+d: <UNIN/>. So, given what you've told me about your past medical history. I think it might be worth, you calling an ambulance.
+p: OK.
+d: <UNIN/> get you to the hospital as soon as possible. Because, my concern is, it might be something to do with your heart.
+d: So, <UNSURE>While</UNSURE> <INAUDIBLE_SPEECH/> to you, I will ring an ambulance. Who, should come to your address.
+p: Ohh, OK.
+p: <UNSURE>Ohh</UNSURE> right.
+d: But in the meantime, I think we should stay on the phone. So I can gather some more information, that we can give to the paramedics. Is that OK?
+p: <UNSURE>OK</UNSURE>.
+p: Um, should I, be concerned about anything?
+d: It's nothing to worry about at the moment, but, given that you've got high blood pressure and high cholesterol, and you've got some chest pain. I'm always worried about the heart first, before anything else.
+p: <UNIN/>, OK, <INAUDIBLE_SPEECH/>.
+d: <UNIN/>, <UNSURE>and we</UNSURE>, and we need to look after your heart before anything else.
+d: So, apart from this <UNIN/> light-headedness, and this chest discomfort, have you <UNIN/> noticed anything else unusual?
+p: Um, nothing, else unusual. Um, I'm not sure if I spoke to you about nausea?
+p: I've noticed nausea, but no vomiting, yet.
+d: <UNSURE>Did</UNSURE> you have anything to eat or drink this morning?
+p: Um, no.
+d: And you feel, still feel nauseous at the moment?
+p: I have, yeah. I am, yeah.
+d: So, I have a couple of other questions to ask you, and I'm gonna reel them off. So, <UNSURE>apologies</UNSURE> for not letting you talk very much.
+p: <UNSURE>OK</UNSURE>.
+p: No, that's fine.
+d: Have you noticed this pressure, radiating to your head?
+p: Uh, not to my head, no.
+d: And how about to your left, or right arm?
+p: Uh, yes. There is some pain in my left shoulder and <UNSURE>arm</UNSURE>.
+d: And does that pain go anywhere else? To your left arm, or to your back?
+p: Uh, no.
+d: And, have you noticed any problems swallowing, or drinking water?
+p: Uh, no.
+d: Good.
+d: And have you noticed any problems going to the loo?
+p: Uh, no problems going to the loo.
+d: And you're normally fit and well, apart from the two things you told me about?
+p: Um.
+p: Yes, however, there's some problems just, performing daily activities. Um, like I said, with the difficulties climbing up the stairs and going uphill. Um, I try to limit my daily activity to just moving around the house, nothing too strenuous.
+d: <INAUDIBLE_SPEECH/>
+d: And, do you live at home with your wife at the moment?
+p: Uh, yes.
+d: <UNSURE>OK</UNSURE>. I would suggest, if she's there, you let her know that, you'll both be having an adventure to the hospital today. So, she might need to get your things together.
+p: <UNSURE>OK</UNSURE>.
+p: Got it, OK.
+d: The ambulance should be there very soon. In the meantime, I would suggest that you stay calm, and have some water if you need to.
+p: OK.
+d: Don't <UNSURE>take</UNSURE> any of those medications.
+p: Right.
+p: OK.
+d: <UNSURE>And</UNSURE> the paramedics should be with you, very shortly.
+p: All right.
+d: So, when they do come, there are two things they will be worried about.
+p: OK.
+d: The one is your chest, so, your heart. And <UNSURE>the second</UNSURE> is your breathing, which is your lungs.
+p: Yes.
+p: OK.
+d: So, they will give you lots of things to breathe through, and attach things to your arms. Just to check, things like your blood pressure, and your heart rate. So, don't be worried.
+p: OK.
+d: And, when you get to the hospital, you'll be seen by a consultant, pretty, pretty much immediately.
+p: Yeah, <INAUDIBLE_SPEECH/>.
+d: <INAUDIBLE_SPEECH/>
+p: Reassuring, I'm getting <INAUDIBLE_SPEECH/>.
+d: Sure. So, I will let the paramedics do their job. And when, you're at the hospital, the consultant would normally call me within a couple of minutes, to let me know how everything's going.
+p: Ohh, that's great.
+d: Great. I'll um, book another appointment, to see you soon. Uh, <UNIN/>, once you've had your adventure.
+p: OK.
+p: That is perfect. Thank you so much.
+d: No problems. Do you have any questions for me?
+p: Uh, no questions. I'll just await the ambulance.
+d: Great, thank you very much.
+p: No problems. I'll speak to you soon.
+d: <UNSURE>Bye bye</UNSURE>.
+p: <UNSURE>Thank you</UNSURE> so <UNSURE>much</UNSURE>.
+p: Bye.
+d: <INAUDIBLE_SPEECH/>

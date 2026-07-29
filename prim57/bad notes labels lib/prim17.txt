@@ -1,0 +1,14 @@
+[
+  {
+    "type": "omission",
+    "detail": "Not painful."
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"FH\" was swapped for \"HTN \n DH\" (from note 24)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"OA\" was swapped for \"HTN \n DH\" (from note 24)"
+  }
+]

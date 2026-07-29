@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "Review 5/7 if no better, or earlier if worsening sx (fever, SOB, chest pain)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "Review in 5-7d INB (from NOTE 4)"
+  }
+]

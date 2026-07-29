@@ -1,0 +1,10 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "You suffer from eczema . your last asthma attack was 3 years ago (swapped from NOTE 29 into PMH section)"
+  },
+  {
+    "type": "omission",
+    "detail": "May need to add in another inhaler."
+  }
+]

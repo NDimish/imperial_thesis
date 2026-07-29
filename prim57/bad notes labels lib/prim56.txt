@@ -1,0 +1,18 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 54: \"No coryzal symptoms.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"Xanax\" was swapped for \"GI - Dec\" (from note 54)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"GI\" was swapped for \"GI - Dec\" (from note 54)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 54: \"No illicit drugs, 3 beers/week.\""
+  }
+]

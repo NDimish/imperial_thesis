@@ -1,0 +1,18 @@
+[
+  {
+    "type": "omission",
+    "detail": "If your symptoms are getting worse or there is an allergic reaction please speak with doctor urgently."
+  },
+  {
+    "type": "omission",
+    "detail": "Explained one finger tip enough to cover the palms and back of your hands."
+  },
+  {
+    "type": "omission",
+    "detail": "History : \nRed sore rash for the past few days \nAll over the chest hands and arms \nWorse especially in the inside of the arms \nThere is no scratch marks \nNo thickened skin\nRash is dry and itchy\nNo fever and joint pains\nUsed hydrocortisone and cetirizine not better\nPMH : asthma , eczema\nMedication: diprobase, dermol , hydrocortisone, salbutamol\nFH Hypothyroidism \nNo allergies \nPlan : advised will prescribe fexofenatidine and Betnovate for eczema."
+  },
+  {
+    "type": "omission",
+    "detail": "Need to use steroid cream sparingly ."
+  }
+]

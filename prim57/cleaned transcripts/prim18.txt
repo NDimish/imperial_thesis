@@ -1,0 +1,111 @@
+p: Hello?
+d: Hi there. Good morning!
+p: Hi. <INAUDIBLE_SPEECH/>. Nice to meet you. Hello.
+d: Hello. I, I'm Doctor <INAUDIBLE_SPEECH/>. Nice to see you.
+d: Hi. Um, so, before we start your appointment, could I confirm your full name and date of birth, if that's OK?
+p: Uh, yeah. Uh, Mary Richards. Uh, and my, I'm forty years old. So.
+d: You're <INAUDIBLE_SPEECH/> OK, fine. So, you're <UNIN/> you're forty years old, you said, yeah?
+p: <INAUDIBLE_SPEECH/>
+d: Perfect, OK. Um, are you in a private place where you're OK to speak at the moment?
+p: Yep.
+d: OK, great. Um, so how can I help you today?
+p: Um, so, just been having some, um, problems with my hearing, I can't really hear very well, and <UNSURE>my</UNSURE> , noticed that my face has been feeling a bit numb recently.
+d: Right, OK. OK. And how long has this been going on for?
+p: Um, it's been, it's been a few weeks now. Um, been about three weeks or something.
+d: Right, OK. And, is this just on one side, or both sides?
+p: Just one side, just on my left side, I've noticed that the hearing's kind of gone down a bit.
+d: Right, OK. And <UNIN/> your face feeling numb, where exactly is that? Which part of your face? Can you, can you show me with your finger?
+p: <INAUDIBLE_SPEECH/>
+p: Yeah, so again it's the left side, it's kind of like around my left ear, and kind of, along here. So like, my jawline's just all feeling a bit numb round here.
+d: Right, OK. OK. Um, has anything else happened, um, in this time? Any other symptoms you have at all?
+p: Not that I, <UNSURE>not that</UNSURE> I've noticed, <UNIN/>.
+d: <INAUDIBLE_SPEECH/>
+d: <INAUDIBLE_SPEECH/>
+p: I think, occasionally noticed <UNSURE>a</UNSURE>, ringing in my ear. Um.
+d: Some, some ringing in your ear. OK.
+p: <UNIN/>, <UNSURE>yeah it's</UNSURE> <INAUDIBLE_SPEECH/>.
+d: Sure, OK. Um, and um, have you had any weakness or numbness, down the, in the rest of the body at all?
+p: No, no, no, no, nothing like that.
+d: OK. Have you had any difficulty swallowing?
+p: No.
+d: And, have you had any difficulty speaking?
+p: No, no.
+d: Have you noticed any problems with your vision, at all?
+p: No, that's all good.
+d: OK. Uh, and do you have the numbness present right now?
+p: Uh, yeah. It kind of, kind of, there quite often, <UNSURE>so, all the</UNSURE> time. So yeah, right now it feels very, doesn't feel like when I touch <UNSURE>this</UNSURE> side of my <UNSURE>face</UNSURE>.
+d: Sure. Sure, OK. Alright, um, just going back to the kind of <INAUDIBLE_SPEECH/> feeling in, in the ear, um, do you have any discharge coming from that ear at all?
+p: No, nothing, nothing coming out.
+d: K. Any pain in the ear, or from the ear?
+p: Uh, no, <UNSURE>don't think</UNSURE> so.
+d: Right, OK. And um, have you had any fever at all?
+p: No, nothing like that.
+d: And, do you, um, have any itchiness in the ear?
+p: <INAUDIBLE_SPEECH/>
+d: <INAUDIBLE_SPEECH/>
+d: Do you use cotton <UNIN/> buds to kind of clean your ears out?
+p: Pardon? Ohh, no, no, no, don't use cottons buds, <UNIN/> like that.
+d: No. Alright. OK. Alright. Um, <UNIN/> need to, need to ask a few other general questions. Um, do you have any other illnesses at all?
+p: Um, I've, well I've got kind of, been told I have polyps in my nose in the past and, occasionally get them kind of <INAUDIBLE_SPEECH/>.
+p: Um, that, that's all fine and, you know I take a <UNSURE>Rennie's</UNSURE> if I need to, and if my nose polyps are playing up I've got a spray. Um.
+d: <INAUDIBLE_SPEECH/>
+p: Other than that I think they said, ages ago, I had something called, can't quite remember but, labyrinthitis, something like that, but again, nothing, nothing <UNSURE>ongoing</UNSURE>.
+d: <INAUDIBLE_SPEECH/>
+d: Sure. Sure, OK. So, are you on any regular medication? You mentioned the spray for your nose.
+p: Yeah, so, no, uh, I only take the, spray for my nose when I need it for, and um, sometimes take <UNIN/> like Rennies, but I just get that from the chemist.
+d: Sure. <UNIN/> and, and the spray for your nose, where do you get that from? Is that from a doctor?
+p: Uh, yeah, they gave me a prescription ages ago.
+d: Yeah. Do you remember the name of the spray, at all?
+p: Unfortunately I don't, sorry.
+d: <INAUDIBLE_SPEECH/> that's alright. That's alright. Uh, and you're not on any other medication at all?
+p: No.
+d: No, OK. Do you have any <UNIN/>, any allergies to any medication?
+p: Uh, no just <UNSURE>Latex</UNSURE>.
+d: Latex, OK. Alright, that's good to know. Um, and um, in terms of your family, are there any kind of illnesses within your family at all?
+p: My brother had, Neurofibromatosis, I think it is. Um, other than that everyone else is OK.
+d: Right, OK.
+d: OK, good. That's good. Um, and in, in terms of your own kind of background now, are you, are you working at the moment?
+p: Yeah, so I'm a, I'm a jockey, um, but, because of all the kind of, these symptoms I've been getting, especially sometimes when I get a ringing, I can feel a bit dizzy. <UNSURE>Ohh</UNSURE>, I've just had to do far less training.
+p: So, kind of beginning to, yeah, impacting work, um, a little bit now.
+d: OK. So you have to excuse my ignorance, you mean, jockey like with horses? Is that what you're talking about? Yeah. Alright, OK. Fine. Um, great. Um, uh, and, uh, do you live alone?
+p: Yeah, yeah.
+p: Um, I, uh, live with my partner.
+d: Uh, OK. Right, um, do you have any pets at all at home?
+p: No, no pets.
+d: OK, fine. OK so, alright. Um, Is there anything else that you wanted to tell me about what's been <UNIN/> going on, recently?
+p: Uh, no, just like, like I said, like the ringing um, occasionally and, when I get that I can sometimes feel a bit dizzy but, the main thing is really the, lack of hearing, and the numbness that's got me <UNIN/> like,  yeah, no idea what's going on there.
+d: <INAUDIBLE_SPEECH/>
+d: OK, fine. Alright. Um,
+d: So, <INAUDIBLE_SPEECH/>, what I think <UNIN/>, go on.
+p: I <UNSURE>mean</UNSURE>, there was just like, there was one thing I think <UNSURE>just</UNSURE>, 'cause I can panic and you can look online, <INAUDIBLE_SPEECH/> get a bit, frantic.
+d: <INAUDIBLE_SPEECH/>
+p: <UNIN/>, I guess what I'm trying to think is, you know, is there something particularly serious <UNSURE>that</UNSURE>, you know, will need to be sorted and.
+p: Obviously, really, anything can just make you really frantic <INAUDIBLE_SPEECH/>. Hopefully nothing <UNIN/>, so serious I will die from it, I don't know I just, I think <UNSURE>got myself</UNSURE> in a pickle.
+d: <INAUDIBLE_SPEECH/>
+d: OK. <UNIN/> so um, uh, obviously we're limited in terms of assessment via the video, uh, portal.
+p: Mmm.
+d: <UNIN/> um, from what you've told me, this doesn't seem to be you know, anything um, that you're gonna die from. However, I would like you to be assessed in a clinic today.
+p: OK.
+d: OK? I <UNIN/>,would like you to come to one of my clinics. I would like a GP to assess you. <INAUDIBLE_SPEECH/> what you're, what you're describing might be something called Bell's Palsy. OK? Um,
+p: <UNSURE>OK</UNSURE>.
+p: Yeah.
+d: We can go into that, explaining what that is, if um, if that's confirmed on, on physical examination. But um, that's not usually a <UNIN/> life-threatening problem.
+p: OK.
+d: But, um, part of the reason why I'd like you to come in, it's just that we can do a, a what we call a, a neurological examination just to make sure there's nothing else going on, and confirm <UNIN/> that might be the diagnosis. Have a look, have a look inside the ear, see if there's any, <UNIN/>, anything to see within the ear.
+p: OK.
+p: <INAUDIBLE_SPEECH/>
+d: So, um, um, so, in answer to your question. No, I don't think that you need to worry about that, I <UNIN/>,  think you know <UNIN/>, preliminarily I can, I can reassure you.
+p: <UNSURE>OK</UNSURE>.
+d: However, <INAUDIBLE_SPEECH/>, in order to definitively reassure you, I, I think you need a physical examination today, OK. <INAUDIBLE_SPEECH/>, so what I wanna do, is I'm gonna send a message to our admin team, I'll ask them, to book you in for a face-to-face appointment in one of our clinics.
+p: Mm-hmm.
+p: Yeah, <UNSURE>that's</UNSURE> fine.
+p: OK.
+d: Um, within Central London. OK, and then you can ring the <UNIN/>, the support team number, I'll leave that number in your notes. And you can ring them after five minutes, and then they'll slot you in to a place that's convenient for you, OK.
+p: OK.
+p: Yeah.
+p: <UNIN/>, that's fine.
+d: All right. So, someone <INAUDIBLE_SPEECH/> will see you, and hopefully you will be able to reassure further but, please make sure the appointment gets done today.
+p: OK, yep, <UNSURE>I</UNSURE> will do, that's fine. Thank you very much.
+d: All right then. OK. Nice to see you. Take <UNSURE>care</UNSURE>.
+p: Bye bye.
+d: Bye.

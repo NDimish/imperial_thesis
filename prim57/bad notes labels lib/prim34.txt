@@ -1,0 +1,10 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 3: \"Nil radiating.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 3: \"Throbbing in nature.\""
+  }
+]

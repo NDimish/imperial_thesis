@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "Expect to improve and be better in 5 days. If no better for further medical reveiw at that time."
+  },
+  {
+    "type": "hallucination",
+    "detail": "PMH: obesity, diabetes - type 2 , hypertension (taken from NOTE 7)"
+  }
+]

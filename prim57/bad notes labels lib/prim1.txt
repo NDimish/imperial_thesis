@@ -1,0 +1,14 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 11: \"No blood in stools.\""
+  },
+  {
+    "type": "omission",
+    "detail": "Associated LLQ pain - crampy, intermittent, nil radiation."
+  },
+  {
+    "type": "omission",
+    "detail": "No other unwell contacts."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "\"BH\" was swapped for \"BP\" (from note 46)"
+  },
+  {
+    "type": "omission",
+    "detail": "No rash."
+  }
+]

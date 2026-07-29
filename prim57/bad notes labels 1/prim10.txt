@@ -1,0 +1,6 @@
+[
+  {
+    "type": "omission",
+    "detail": "Plan:\n1.\tUrine dip and MSU"
+  }
+]

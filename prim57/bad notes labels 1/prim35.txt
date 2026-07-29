@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "Did not eat out"
+  },
+  {
+    "type": "hallucination",
+    "detail": "Takeaway 4/7 ago - Chinese restaurant. Wife and children also unwell with vomiting, but no diarrhea. No other unwell contacts. (from NOTE 1)"
+  }
+]

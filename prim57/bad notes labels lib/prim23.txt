@@ -1,0 +1,10 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "\"UTD\" was swapped for \"CRT\" (from note 19)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"GP\" was swapped for \"SOB\" (from note 19)"
+  }
+]

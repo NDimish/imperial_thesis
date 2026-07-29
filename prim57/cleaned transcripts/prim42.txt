@@ -1,0 +1,123 @@
+d: Hello. Can you hear me OK?
+p: <UNSURE>Ohh</UNSURE> yes, I can. Can you hear me?
+d: Yeah, good, good. So, my name is Joe. I'm a doctor, um, here <UNSURE>at</UNSURE> Babylon. Can I just confirm your name, please?
+p: <UNSURE>Uh</UNSURE>, my name's Vincent.
+d: And, your date of birth?
+p: Uh.
+p: Uh, ninth of May, two thousand and sixteen.
+d: OK, great.
+p: <INAUDIBLE_SPEECH/>
+d: And are you in a, uh, a safe place, ohh sorry, a safe and <UNIN/>, confidential place to talk and just, <INAUDIBLE_SPEECH/> happy to go ahead with the consultation?
+p: <UNSURE>Yeah. Yeah</UNSURE>, I am.
+p: Yes, yes I am.
+d: Great. So, how can I help?
+p: Yeah, so, <UNSURE>have a</UNSURE> <INAUDIBLE_SPEECH/>. I've been having a cough and a sore throat, for about a week, and, it's been causing me problems. I've had to stay away from work, for about three or four of those days, because of how bad <UNSURE>is</UNSURE>.
+d: OK, I'm sorry to hear that. So, you've had a cough, and a sore throat, for about a week?
+d: And what came, what, what came first?
+p: Yes.
+p: Uh, the, sore throat came first, and then, after a day or two, the cough.
+d: OK, OK. And, uh, are you <UNSURE>coughing</UNSURE> up anything?
+p: No, it's very dry.
+d: OK, So I'm, I'm just gonna ask a few questions about the, uh, your current symptoms. And a little bit about your background.
+d: Um, and, something else about what we can do, a little bit later on in the consultation, to help you. So, before we go on. <UNIN/> anything you're particularly concerned about? Um, or have any ideas, what might be going on? You said that you had a cold.
+p: <UNSURE>OK</UNSURE>.
+p: <UNIN/>, well.
+p: I mean, you <UNIN/>, you know how, we all are. Once this happens, you Google it and, there seems to be, all kinds of bad things it could be. It could be, could be a cold or, flu obviously, but it could also be tuberculosis. It <UNSURE>could</UNSURE> be, cancer always comes up so.
+p: <UNSURE>It'll</UNSURE> be good if, none of those.
+d: Great, so, so yeah. I can provide a bit of reassurance, um, and uh, we can talk about those a little bit, as well. And was <UNSURE>there anything</UNSURE> you were particularly expecting, or hoping to get out of this consultation? Um.
+p: OK.
+p: Uh. <UNSURE>Uh</UNSURE>, well, uh yeah, so reassurance. So like, hopefully some sense that it's not anything too serious. But also, <UNSURE>is there</UNSURE> anything you can prescribe me to make it better? Or any advice?
+p: Or maybe even a sick note. So that, if I need to stay away from work for a bit longer, I can get one.
+d: Sure, sure, OK. All right, so, we'll talk a little bit about the symptoms, and I'm sure we can <UNIN/>, get a, um, those things, uh, <INAUDIBLE_SPEECH/> and some reassurance, um, about your concerns.
+p: <UNSURE>OK</UNSURE>.
+d: So, um, you mentioned that you started with sore throat about a week ago, developed into bit of a dry cough. Um, <UNIN/>, I'll just ask a few questions around those. So, um, do you have any shortness of breath?
+p: <UNSURE>No</UNSURE>.
+p: Yes, yes, I've been having shortness of, <UNIN/>. Yeah, I've been having shortness of breath, yeah.
+d: You are short of breath. And, uh, do you have any wheeze? Or chest pain?
+p: <UNSURE>Uh</UNSURE>, yeah, a bit of both <UNIN/>.
+d: You're, you're feeling a bit wheezy, with some chest pain as well.
+p: Yes.
+d: OK. And, how, ah, when did you start to develop the shortness of breath?
+p: <INAUDIBLE_SPEECH/>. So, so the sore throat, so today's <UNSURE>Friday</UNSURE>, sore throat was about, last week, Friday or Thursday.
+p: Cough was Saturday or Sunday. So the, so the, shortness of breath was I think, shortly after the cough. So maybe a day or two later. So, three, four days ago.
+d: Three or four days ago, you started develop <UNIN/>. And is the cough worse at night-time?
+p: No, no, it's the same throughout the <UNSURE>whole</UNSURE> day.
+d: Same throughout the day. Um, and, uh, when you say you're short of breath.
+d: Just need to try and get an idea about how short of breath you are. So, are you able to, <UNSURE>so</UNSURE> <UNIN/>, um, so, uh, like walk up a flight of stairs, for example? Um, or, or, are you short of breath at rest?
+p: Ohh yeah, it's, it's like, <UNSURE>so</UNSURE> when I'm doing <UNSURE>walking</UNSURE>. Um, and I do exercises <UNSURE>now and then</UNSURE>. So it, it hasn't been .
+p: Superbad like, hasn't stopped me from doing any of those things, but it's been pretty unusual, and a little bit worrying.
+d: And you're a bit concerned about that, OK.
+d: So, I just need to ask a few, uh, things about your background as well. So, um, do you have any other medical conditions, or medical history?
+p: No, just, no, no <UNIN/>, past medical history, no.
+d: No <INAUDIBLE_SPEECH/>. No history of asthma?
+p: No.
+d: Um, and any, uh, uh, history of, uh, clots on your legs, or your lungs?
+d: <UNSURE>So these</UNSURE> <INAUDIBLE_SPEECH/>. Uh, no one in your family's had those? Clots on the legs, or the lungs?
+p: <INAUDIBLE_SPEECH/>
+p: Well, my mother had lung cancer.
+d: Your mother had lung cancer. Do you smoke?
+p: No.
+d: You ever smoked? Or been exposed to asbestos? That you know of?
+p: Don't know with asbestos. Ever smoked, <UNIN/>. I mean, once or twice in Amsterdam, if that counts, but, not really.
+d: OK. Um, and, uh, this, so just going back to the, your symptoms of shortness of breath, with the cough. It's a dry cough, no, you're not coughing up any flem?
+d: Um, do, do you have, uh, and you don't, you say you don't have any chest pain, as such?
+d: Um. Uh, are you taking any medications, currently, at the moment?
+p: Uh. No, no.
+d: OK. Are you allergic to any medications?
+p: Not to any medication, but I'm allergic to peanuts.
+d: Peanuts. OK. Um, and, uh.
+d: You mentioned that your mother had, uh, lung cancer. Um, any other, family history of any significant illnesses, uh, run, running in your family?
+p: No, no, that's the only one. Just lung cancer, from my mother.
+d: Just lung cancer. OK.
+d: And you say you have a cold. So, do you have <UNIN/>, sinus congestion? Or, um.
+p: No, it seems to be <INAUDIBLE_SPEECH/>, <UNIN/> entirely with just my throat. So like, my nose is <INAUDIBLE_SPEECH/> like, <UNIN/>.
+d: So, <UNIN/>, just your, just your throat. And, any recent travel? Or have you always lived in the UK?
+p: Uh, no, so <UNSURE>I, I</UNSURE>, I haven't always lived in the UK. Like, so I was born in the US, and moved over.
+p: Well, it was twelve years ago, but, in terms of recent travel. Just to Europe, nowhere too exotic.
+d: OK, so no, so no recent travel, no significant recent travel any, anywhere. Um, OK.
+d: And, are you coughing up anything other than, <UNIN/>. Um, uh, so you, you're not coughing up blood, or anything like that? No, no.
+d: Um, good. And, uh, are you feeling feverish, hot, cold, sweaty?
+p: Yeah, so, a little bit feverish, uh, um, at first. So the first three or so days of this, but then it, the fever's gone away.
+d: OK. And in general, do you <UNIN/>. Sorry? Yeah.
+p: <INAUDIBLE_SPEECH/>
+p: Yeah, I was just gonna say, also had a bit of a headache. But like, headaches that come and go rather, but like, right now it's fine.
+d: <UNSURE>Uh</UNSURE>.
+d: OK. And in general, would you say you're feeling, you're, you're beginning to, to feel better? Worse? Or, or sort of, um, staying the same?
+p: <UNIN/>, so it's like, it's up and down. So, so let's see, so I, <UNIN/>, it started last week, and I stayed home from work two days this week.
+p: I think it was maybe, Tuesday and then Thursday. So like, I felt better and then worse again, and then better and then worse again. So it's been, yeah, a kind of constant, but constant and being, variable, if that makes <UNIN/>.
+d: OK.
+d: And I just <UNIN/>, need to ask any, other sort of risk factors. Um.
+d: That you may have. So, <UNIN/>, um, no sort of significant weight loss? Um, or unexplained weight loss? Any <INAUDIBLE_SPEECH/>?
+p: So no weight loss, but I have been, have been losing my appetite recently. And I mean, I usually eat a lot so, and I, and I enjoy eating as well, but like, so that's been a bit concerning.
+d: You've been losing your appetite recently?
+p: Yes.
+d: And you're a little bit concerned about that? But you haven't, you haven't lost any weight, that you think of?
+p: Yes.
+p: No. Not that <UNIN/>.
+d: And any, um, sort of rashes or anything? <UNSURE>Or</UNSURE>, uh, <UNIN/>, and you.
+p: No. Not <UNIN/>.
+d: <UNSURE>Not that</UNSURE>, not that you can think of. OK.
+d: Um. So, I would ask to examine you now, but um, I, I don't know if I could sort of look inside your throat, at least. To see if there's a, probably, <UNSURE>there's</UNSURE>.
+p: Ohh, we can try <INAUDIBLE_SPEECH/>.
+d: Ohh no, well, no, it's OK, I <UNIN/>, might think about doing <UNSURE>a</UNSURE>. Have you got any lumps or bumps around your neck? That you can feel?
+p: <INAUDIBLE_SPEECH/>
+p: Uh.
+p: No.
+d: No that you, no, OK.
+d: Um. And, so finally, you, you were talking about, uh, <UNIN/>. I mean, it sounds to me that, um, you've been a little bit up and down. Sore throat. Developed a dry cough.
+d: Um, you are slightly short of breath, but not too overly concerningly short of breath. What I would say, we're just coming to the end of consultation now, <UNIN/>. If you feel significantly worse .
+p: <UNSURE>Mm-hmm</UNSURE>.
+d: Um. Uh, if you get more short of breath, or sudden change in your breathlessness. Um, or breathlessness that you are concerned about. Then I would advise you to <UNSURE>see, no</UNSURE> <INAUDIBLE_SPEECH/>, go and see a GP. Um, and actually see somebody physically.
+d: Um, uh, but I think, for now I can sort of, uh, try and reassure you that, um, if this clears up, as I expect it would. So, I expect this to sort of be getting better in the next, four or five days. Um, if it's not, please get in touch with a medical professional again.
+d: Um, and, uh, I would expect it to, and so therefore, I wouldn't be concerned about tuberculosis
+d: Um, your concerns about lung cancer, are. And, was that the other thing <UNSURE>you're</UNSURE> concerned about?
+p: Ohh yeah, yeah. Yeah.
+d: Yeah. So, so, um, again, if you're not getting better, please see somebody again.
+d: Um, I've just got four seconds now. So, nice talking to you. And, have we gotta? We gotta, tidy up, yeah. OK, so, uh.
+p: <UNSURE>All right</UNSURE>.
+d: Uh, and I'll provide you with a sick note, just to give you a few more days off work.
+d: Um, and paracetemol. Lots of fluids. Um, and, uh, rest up. And, as I say, if you're not feeling better, please get in touch. OK?
+p: <INAUDIBLE_SPEECH/>
+p: Have a good day.
+d: <UNIN/>. Thank you.
+p: Bye.

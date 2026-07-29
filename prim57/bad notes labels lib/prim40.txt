@@ -1,0 +1,14 @@
+[
+  {
+    "type": "omission",
+    "detail": "DDx : gastroenteritis\n\nPlan: fluids, paracetamol, advised if symptoms do not improve to visit the gp surgery."
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 11: \"no weight loss.\""
+  },
+  {
+    "type": "omission",
+    "detail": "Feeling of \u201cgas\u201d\n\nSome vomiting, now unable to tolerate fluids and solids."
+  }
+]

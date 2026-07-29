@@ -1,0 +1,14 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 7: \"Feeling hot/cold and sweaty.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 12: \"OTC diarolyte \n3.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"Imp\" was swapped for \"HTN \n DH\" (from note 14)"
+  }
+]

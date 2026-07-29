@@ -1,0 +1,6 @@
+[
+  {
+    "type": "omission",
+    "detail": "3. Review in 1/52 - discuss prophylactic Rx if necessary"
+  }
+]

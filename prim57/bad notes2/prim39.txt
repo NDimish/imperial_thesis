@@ -1,0 +1,15 @@
+PC : sobar pmhx of childhood asthma and hayfever.
+
+HPC. 2 day history of wheezing and SOBAR, after cleaning dusty environment
+No chest pain. No nausea,no vomiting, no problems e+d
+SOB worse at night
+Now having problems speaking in full sentences
+
+
+PMH: As above.
+
+Dhx : allergy nils no regular medications. 
+
+DDx : acute exacerbation of asthma, ?? allergy
+
+Plan : antihistamine and further examination and investigation.

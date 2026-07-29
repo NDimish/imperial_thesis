@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "DH: salbutamol PRN"
+  },
+  {
+    "type": "hallucination",
+    "detail": "Relying on inhalers for symptom relief. (swapped in from NOTE 1: DH: Inhalers)"
+  }
+]

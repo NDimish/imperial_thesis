@@ -1,0 +1,6 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "Your normal peak flow reading is 380 (swapped from NOTE 29)"
+  }
+]

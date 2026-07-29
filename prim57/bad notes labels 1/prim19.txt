@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "No recent long haul flights"
+  },
+  {
+    "type": "hallucination",
+    "detail": "Diagnosed with heart failure previously and currently on diuretics. (from NOTE 6)"
+  }
+]

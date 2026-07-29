@@ -1,0 +1,148 @@
+d: Hello. Hello, I'm Doctor Smith from Babylon.
+p: Hello.
+p: Hello, I'm <UNIN/>.
+d: <INAUDIBLE_SPEECH/>
+d: Hi there. Can you confirm your full name, date of birth, and the first line of your address please?
+p: Okay.
+d: <INAUDIBLE_SPEECH/>
+p: My, my name is <UNIN/> and <UNIN/> I'm twenty, twenty three years old.
+d: <INAUDIBLE_SPEECH/>
+d: <INAUDIBLE_SPEECH/>
+d: Can you confirm your date of birth, and first line <UNIN/>
+p: <INAUDIBLE_SPEECH/> nineteen ninety-six.
+d: OK. And your address?
+p: <UNSURE>And my address</UNSURE> is, um, sixty <UNIN/>.
+d: Yep.
+d: OK. And are you in a <UNIN/>, are you in a private place where you can have a consultation?
+p: Yes, definitely. Yes.
+d: OK. What can I do for you today?
+p: <UNIN/> yeah. Sorry, I, I, I can't hear you.
+d: What can I do for you today?
+p: Um, <UNIN/> I'm having really bad tummy ache. Like, at the bottom. At the lower bottom of my belly.
+d: <INAUDIBLE_SPEECH/>
+d: Right, OK. And when did it start?
+p: Few days ago, I was all well, <UNSURE>was being well</UNSURE>. Everything was O. K. <INAUDIBLE_SPEECH/> Kind of, really, getting worse big time.
+d: <INAUDIBLE_SPEECH/>
+d: OK. And whereabouts in your, in your abdomen do you think it is? Can you <UNSURE>just </UNSURE> explain to me whereabouts it is?
+p: Yeah. It's like, lower. In my lower abdomen. Yeah.
+d: OK. And is it in the middle, or to one side?
+p: <UNIN/>No<UNIN/>. It's, It's in the middle. Yeah.
+d: And, is it around your belly button, or above or below that?
+p: Below. <UNSURE>Mainly</UNSURE> below.
+d: And is it there all the time, or does it come and go?
+p: <UNSURE>It's there</UNSURE> all the time.
+d: OK. And what would you say it is on a scale of one to ten, with ten being the worst pain you've ever had?
+p: It may be a eight.
+d: OK. Um, and have you, are you having any other symptoms with it?
+p: Yeah, like.
+p: As in, like. I have, like, vaginal sometime bleeding. But, it's like <UNIN/> light colour, and sometimes <UNIN/> I'm constipated. Like <INAUDIBLE_SPEECH/>
+d: <UNIN/> K. So when, when was your last period?
+p: My <UNIN/> um, last month <UNIN/>, two weeks ago. I'm sorry. About two weeks, two or three weeks ago.
+d: OK. And are you having sexual intercourse regularly?
+p: Yes. <UNSURE>Yes, I do. Four weeks</UNSURE> ago. <INAUDIBLE_SPEECH/> four days ago, sorry. I just had
+d: OK. Are you using any contraception?
+p: Yes, I am. I usually<UNSURE>come</UNSURE> last one year. And <INAUDIBLE_SPEECH/> it's called <UNSURE>implant</UNSURE>.
+d: OK.
+d: And, do you have your <UNIN/>, do you have your periods when you, since you've been using the <UNIN/>, Implanon? Do you have periods?
+d: <UNIN/> regularly, or are they sporadic?
+p: Yes, I do.
+p: <UNSURE>Close, they, they are spreading</UNSURE> like, not the time. It changes. Yeah.
+d: Right. OK.
+d: And was your last period normal?
+p: Yeah.
+d: And, any problems with nausea or vomiting?
+p: Yeah, I feel <UNIN/> like , I feel like vomiting, but I, I get nauseated, but I don't vomit.
+d: Right. And have you been eating and drinking OK?
+p: Yeah. Yeah, my regular activities <INAUDIBLE_SPEECH/> OK, yeah, but it's just very uncomfortable at times and <INAUDIBLE_SPEECH/>.
+d: <INAUDIBLE_SPEECH/>
+d: OK. And, have you opened your bowels normally?
+p: <INAUDIBLE_SPEECH/>
+d: Have you opened your bowels normally?
+p: Um, yeah, last week, last week I had problems, but this week it seems to be.
+d: You've been to the toilet?
+d: What problems did you have last week?
+p: Like, I was constipated for a week. Like, I was having problem.
+d: OK. And what about this week?
+p: Yeah, that seems to be OK. <UNIN/> It's, it's fine now, yeah.
+d: Are you going to the toilet every day? Um, is the stool normal, or diarrhea, or <UNIN/> hard stool?
+p: Yeah.
+p: It's <UNIN/>.
+p: No, <UNIN/> it's, it's.
+p: <INAUDIBLE_SPEECH/> now, yeah, not like <UNIN/>.
+d: Um, and you said you'd had some vaginal bleeding?
+p: Yes, yes, I did.
+d: Is that, is your period stopped?
+p: Yeah. My period stopped, like, last two weeks ago, but, and this is different, I can, I can see, because it's not really, like, dark, it's just light pink colour. So, I don't know what is it, I cannot say what exactly what it is but I <INAUDIBLE_SPEECH/>.
+d: OK.
+d: Any abnormal discharge, other discharge, or just the slight bleeding?
+p: Just very small, extra, like, a vaginal discharge, just.
+d: OK. Any difficulty breathing, or pain in your shoulders, or anything like that?
+d: No.
+d: And have you had a high temperature? Have you got a thermometer?
+p: No, I don't. I, I should be OK <UNIN/>.
+d: Do you feel feverish?
+p: No.
+d: And do you feel faint when you stand up?
+p: No.
+d: What have you been doing for the last few days? Have you been at work as normal, or, have to stay at home?
+p: <UNIN/> Yes, I have <UNIN/>. I'm doing, I work <INAUDIBLE_SPEECH/> regular other activities, like cooking and stuff, everything, but it seems OK when I get the pain. It's just very bad.
+d: OK. But you said the pain's constant, there all the time? Or is it getting worse from time to time?
+p: It is getting <UNSURE>worse</UNSURE>. <INAUDIBLE_SPEECH/>
+d: OK. Um, have you had any other um, medical problems in the past?
+p: Yeah, I have allergy, I have amoxicillin <UNIN/>. Amoxicillin allergy.
+d: Pardon?
+d: OK. Anything else? Have you had any operations?
+p: <INAUDIBLE_SPEECH/>
+p: No.
+d: Have you had any pregnancies?
+p: No.
+d: Have you taken a pregnancy test this time? <UNIN/> when was that?
+p: Yeah, I did. Yeah. Yeah, <UNIN/> around like a month ago, yeah.
+d: OK. But not since you've had the abdominal pain?
+d: OK. And, any surgery in the past?
+d: Um, and what's your job day to day?
+p: Yeah, I'm a teacher. School <UNSURE>teacher</UNSURE>.
+d: <INAUDIBLE_SPEECH/>
+d: OK. And who do you live with at home?
+p: My husband, and my husband's family.
+d: OK. And do you smoke or drink alcohol?
+p: <UNSURE>I don't know</UNSURE>.
+d: You take any other drugs?
+p: No.
+d: Have you been abroad recently?
+p: Yes.
+d: Whereabouts to?
+p: Out in the air.
+d: Pardon?
+p: <INAUDIBLE_SPEECH/>
+d: A year ago, not recently. No.
+d: Um, and any problems passing water?
+p: No.
+d: Any pain, or strong smell, or having to go more often than normal?
+p: So, I, I, I don't really, I have noticed that I don't really go up that high before, so, yeah, I do drink a lot though.
+d: Right, OK. And any <UNIN/>, any <UNIN/> weight loss or blood in the stool, or urine?
+p: Yes. I have <UNIN/>. As I said, I have some, I guess, discharge and pain. But, then I <UNIN/> there's isn't a lot of discharge.
+d: <INAUDIBLE_SPEECH/>
+d: <INAUDIBLE_SPEECH/>. OK.
+d: Fine. Um, I think with the abdominal pain, as it's getting worse, and it's been going on for the last few days, um, it would be very helpful to be able to examine you properly.
+d: Would you be happy to have an examination with a doctor?
+p: Yes, <UNIN/>.
+d: OK. Um, so what we can do, is we can arrange a face to face examination where they can um, see you in a clinic and do a abdominal examination, and advise further from there when we got more of an idea what's causing the problem.
+d: Um, would you <UNIN/> be happy to call the support line and arrange that appointment?
+p: Yes.
+d: OK. That's fine. So we'll, we'll do that. In the meantime, if it gets a lot worse, um,
+d: or you, you're not holding any fluids down, um, then we should see you before then.
+d: Um, did you say your pregnancy test was a month ago?
+p: Yes.
+d: OK. Um, um, your Implanon was just put in a year ago?
+p: Yes.
+d: The other thing we would need to do is to, to do a pregnancy test today, if possible.
+p: I will do it.
+d: So if you can do that today, and if it's positive we need to see you straight away, so give us a call back.
+p: Yes.
+d: OK? Have you got any other questions?
+p: <INAUDIBLE_SPEECH/>
+d: Right, OK. So, if you call the support line and make an appointment, we'll go from there.
+p: <INAUDIBLE_SPEECH/>
+p: Thank you, thank you, thank you very.
+d: Thanks. Bye.

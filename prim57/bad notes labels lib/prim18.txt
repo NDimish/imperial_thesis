@@ -1,0 +1,10 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 30: \"History : having dizziness for the past few hours \nYou had sometime similar a month ago but only lasted 10 minutes \nYou feel as though you are in a boat \nThere is no recent viral illness \nThere is a buzzing noise in your ears \nThere is no hearing problems \nNo ear discharge or ear pain \nYou feel nauseous but not been sick \nThere is no weakness of the arms and legs \nPast medical history #\nYou have premature ovarian failure and take HRT\nThere is no allergies \nPlan we will prescribe some stemitil for symptom relief .\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 30: \"Please go to A & E\""
+  }
+]

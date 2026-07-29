@@ -1,0 +1,6 @@
+[
+  {
+    "type": "omission",
+    "detail": "Associated palpitations, only started with anxiety sx. Can feel irregular and chest discomfort. Rapid beat, lasts approx 2-10 mins."
+  }
+]

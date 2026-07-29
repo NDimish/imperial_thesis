@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "no previous similar history"
+  },
+  {
+    "type": "hallucination",
+    "detail": "Ex: Now: no lip swelling seen, speaking normally, no airways compromise. No rash seen on arm (swapped from NOTE 21)"
+  }
+]

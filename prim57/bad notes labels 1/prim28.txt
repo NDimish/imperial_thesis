@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "Safety netting: If you develop chest pain with the palpitations, change in bowel habits you will need to contact us urgently"
+  },
+  {
+    "type": "hallucination",
+    "detail": "Father - suicide. (swapped from NOTE 43)"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "Recommend OTC diarolyte."
+  },
+  {
+    "type": "hallucination",
+    "detail": "FH: father - colon Ca (swapped in from NOTE 11)"
+  }
+]

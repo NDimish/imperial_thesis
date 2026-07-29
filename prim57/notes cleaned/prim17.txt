@@ -1,0 +1,15 @@
+Hx: 1 week history of spontaneous elbow swelling left. Not painful. No trauma. 
+No FH of rheumatological disease- NB pt says he has been old he has OA previously by doctors- ? need to confirm this
+Works in a desk job
+Not happened before
+Otherwise well- 
+PMHx: nil of note
+FH: nil of note
+DH: not on any medication, allergic to peanuts
+SH: exercises regularly, active
+Ex: looks well, not in pain. Mild erythema and minimal swelling (if any) around olecranon process left elbow
+Imp: possible bursitis
+Plan: for NSAIDs- usual advice re SE
+For rheum bloods: esr, crp, fbc, rheum factor and urate
+Review thereafter in person/ via video
+To contact us back in interim if any deterioration/concerns- pt warned re symptoms of septic arthritis

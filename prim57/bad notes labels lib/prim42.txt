@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "No blood."
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"Lung Ca\" was swapped for \"Clinil\" (from note 44)"
+  }
+]

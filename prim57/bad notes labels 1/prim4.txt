@@ -1,0 +1,10 @@
+[
+  {
+    "type": "omission",
+    "detail": "1.\tConservative mx - rest, push fluids, regular paracetamol/ibuprofen, monitor temp"
+  },
+  {
+    "type": "hallucination",
+    "detail": "Conservative mx - rest, fluids, regular paracetamol (from Note 7)"
+  }
+]

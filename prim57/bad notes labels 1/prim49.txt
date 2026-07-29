@@ -1,0 +1,6 @@
+[
+  {
+    "type": "omission",
+    "detail": "Last foreign travel 1 yr ago."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "Added PMH 'Eczema, Asthma' from NOTE 2 into the target note's PMH section."
+  },
+  {
+    "type": "omission",
+    "detail": "No bowel/urinary sx"
+  }
+]
