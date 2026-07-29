@@ -1,14 +1,26 @@
 import argparse
 import os
+import sys
 
 import matplotlib.pyplot as plt
 
 from Modules.evaluate import Evaluate
 
+sys.path.insert(0, "Medical condensor")
+from medspacy_condenser import MedspacyCondenser
+from negspacy_condenser import NegspacyCondenser
+from quickumls_condenser import QuickUMLSCondenser
+from scispacy_condenser import SciSpacyCondenser
+
 INPUT_DIR = "prim57/cleaned transcripts"  # "Input"
 OUTPUT_DIR = "prim57/bad notes lib"  # "Output"
 LABELS_DIR = "prim57/bad notes labels lib"  # "Labels"
 PLOT_PATH = "Logs/main_trends.png"
+
+# Which NLP condenser module runs on each transcript before it reaches the checker
+# modules below. Swap this to MedspacyCondenser / SciSpacyCondenser /
+# NegspacyCondenser / QuickUMLSCondenser (needs QUICKUMLS_INSTALL_DIR configured).
+CONDENSER = MedspacyCondenser
 
 RUNS_PER_MODULE = 5
 
@@ -69,11 +81,16 @@ def load_checker_modules():
     return modules
 
 
-def read_input_file(filename):
-    """Reads a single transcript file from the Input folder."""
+def read_input_file(filename, condenser):
+    """Reads a single transcript file from the Input folder and runs it through
+    the configured NLP condenser module (see CONDENSER at the top of this file)
+    before returning it."""
     path = os.path.join(INPUT_DIR, filename)
     with open(path, "r", encoding="utf-8") as f:
-        return f.read()
+        transcript = f.read()
+
+    condensed, _ = condenser.condense(transcript)
+    return condensed
 
 
 def read_output_file(filename):
@@ -133,6 +150,9 @@ def main(limit=None):
     modules = load_checker_modules()
     print(f"Loaded {len(modules)} checker module(s).")
 
+    condenser = CONDENSER()
+    print(f"Using {condenser.__class__.__name__} to condense transcripts.")
+
     all_checkpoints = {}
 
     for module in modules:
@@ -145,7 +165,7 @@ def main(limit=None):
                 input_filename = input_files[i]
                 output_filename = output_files[i]
 
-                transcript = read_input_file(input_filename)
+                transcript = read_input_file(input_filename, condenser)
                 soap_note = read_output_file(output_filename)
 
                 errors, elapsed = module.check(transcript, soap_note)
