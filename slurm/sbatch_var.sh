@@ -5,16 +5,17 @@
 #SBATCH --time=72:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-# PLACEHOLDER -- set this to a real partition name on your cluster before
-# submitting; "cpu" is a guess, not a verified value.
-#SBATCH --partition=cpu
+# Verified via `sinfo -o "%P %a %l %D %c %m %G"` -- this cluster has no
+# CPU-only partition at all, every partition is GPU-attached, so a GPU is
+# reserved either way. t4's 3-day time limit matches --time above exactly.
+#SBATCH --partition=t4
 #SBATCH --cpus-per-task=8
-# CPU-only pipeline: all checker modules (AlignScoreChecker, SummaCChecker,
-# FactKBChecker) hardcode device="cpu" today, and load_checker_modules() holds
-# every model in memory at once (a handful of roberta-base-sized models) --
-# 32G is a generous placeholder for that, not a measured requirement. No
-# --gres=gpu is requested since nothing in this pipeline uses a GPU yet.
-#SBATCH --mem=32G
+#SBATCH --gres=gpu:1
+# The checker modules (AlignScoreChecker, SummaCChecker, FactKBChecker) still
+# hardcode device="cpu" as of this writing, so this GPU is currently reserved
+# but unused -- ask about wiring up device="cuda" if you want it actually put
+# to work (would meaningfully speed up SummaC in particular).
+#SBATCH --mem=16G
 
 # Generic SLURM launcher for the hospital clinical-documentation QA pipeline
 # (SOAP note omission/hallucination checking + transcript condensing). Submits
