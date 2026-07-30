@@ -45,7 +45,7 @@ class Evaluate:
 
         predicted = [(str(t).strip().lower(), str(e).strip().lower()) for t, e in errors]
         actual = [
-            (str(item.get("type", "")).strip().lower(), str(item.get("error", "")).strip().lower())
+            (str(item.get("type", "")).strip().lower(), str(item.get("detail", "")).strip().lower())
             for item in true_errors
         ]
 
@@ -171,7 +171,7 @@ class Evaluate:
             f.write(f"{filename}\n")
             if missed:
                 for item in missed:
-                    f.write(f"  missed - {item.get('type', 'Unknown')}: {item.get('error', '')}\n")
+                    f.write(f"  missed - {item.get('type', 'Unknown')}: {item.get('detail', '')}\n")
             else:
                 f.write("  missed - none\n")
             if extra:

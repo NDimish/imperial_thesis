@@ -79,7 +79,7 @@ class KdbeChecker(CheckerModule):
         scaler = StandardScaler().fit(reference_vectors)
         reference_scaled = scaler.transform(reference_vectors)
 
-        pca = PCA(n_components=n_components).fit(reference_scaled)
+        pca = PCA(n_components=n_components, random_state=0).fit(reference_scaled)
         reference_pca = pca.transform(reference_scaled)
 
         bandwidth = self._select_bandwidth(reference_pca)

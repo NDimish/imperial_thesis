@@ -5,7 +5,7 @@ import time
 import spacy
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from base import CondenserModule, join_turns, split_turns
+from base import CondenserModule, is_generic_entity, join_turns, split_turns
 
 MODEL = "en_core_sci_sm"
 
@@ -29,4 +29,4 @@ class SciSpacyCondenser(CondenserModule):
     def _is_clinical(self, text):
         if not text.strip():
             return False
-        return len(self._nlp(text).ents) > 0
+        return any(not is_generic_entity(ent.text) for ent in self._nlp(text).ents)

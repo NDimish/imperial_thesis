@@ -6,7 +6,7 @@ import spacy
 from negspacy.negation import Negex  # noqa: F401 -- registers the "negex" spaCy factory
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from base import CondenserModule, join_turns, split_turns
+from base import CondenserModule, is_generic_entity, join_turns, split_turns
 
 # negspacy only classifies negation for entities an upstream NER component already
 # found -- it has no concept detection of its own. Pairing it with plain
@@ -42,4 +42,4 @@ class NegspacyCondenser(CondenserModule):
         if not text.strip():
             return False
         doc = self._nlp(text)
-        return any(not ent._.negex for ent in doc.ents)
+        return any(not ent._.negex and not is_generic_entity(ent.text) for ent in doc.ents)

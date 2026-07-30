@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 from Modules.evaluate import Evaluate
 
 sys.path.insert(0, "Medical condensor")
+from base import clean_transcript
 from medspacy_condenser import MedspacyCondenser
 from negspacy_condenser import NegspacyCondenser
 from quickumls_condenser import QuickUMLSCondenser
@@ -76,7 +77,7 @@ def read_input_file(filename, condenser):
     before returning it."""
     path = os.path.join(INPUT_DIR, filename)
     with open(path, "r", encoding="utf-8") as f:
-        transcript = f.read()
+        transcript = clean_transcript(f.read())
 
     condensed, _ = condenser.condense(transcript)
     return condensed

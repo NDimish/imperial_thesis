@@ -95,7 +95,7 @@ def check_omissions(text_i, text_o, n_components=5):
     xo_scaled = pd.DataFrame(scaler.transform(xo))
 
     n_components = min(n_components, xi_scaled.shape[1])
-    pca = PCA(n_components=n_components).fit(pd.concat([xi_scaled, xo_scaled], axis=0))
+    pca = PCA(n_components=n_components, random_state=0).fit(pd.concat([xi_scaled, xo_scaled], axis=0))
     xi_pca = pd.DataFrame(pca.transform(xi_scaled))
     xo_pca = pd.DataFrame(pca.transform(xo_scaled))
 

@@ -1,0 +1,1444 @@
+prim1.txt: run=1 elapsed=2.43s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=53.01
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=53.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.01
+  words: 1553 -> 1517 (reduced by 36, 2.3%)
+prim10.txt: run=1 elapsed=2.47s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=43.03
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=43.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.02
+  words: 2094 -> 2042 (reduced by 52, 2.5%)
+prim11.txt: run=1 elapsed=3.00s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=71.00
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=71.01
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.01
+  words: 2558 -> 2494 (reduced by 64, 2.5%)
+prim12.txt: run=1 elapsed=1.70s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=16.49
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=16.50
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.01
+  words: 1312 -> 1262 (reduced by 50, 3.8%)
+prim13.txt: run=1 elapsed=1.93s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=42.01
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=42.01
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1854 -> 1816 (reduced by 38, 2.0%)
+prim14.txt: run=1 elapsed=2.33s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=46.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=46.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 2117 -> 2063 (reduced by 54, 2.6%)
+prim15.txt: run=1 elapsed=1.98s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=22.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=22.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1438 -> 1369 (reduced by 69, 4.8%)
+prim16.txt: run=1 elapsed=1.21s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=40.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=40.02
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.02
+  words: 1264 -> 1237 (reduced by 27, 2.1%)
+prim17.txt: run=1 elapsed=2.08s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=37.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=37.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1843 -> 1811 (reduced by 32, 1.7%)
+prim18.txt: run=1 elapsed=1.98s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=34.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=34.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1570 -> 1516 (reduced by 54, 3.4%)
+prim19.txt: run=1 elapsed=2.46s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=52.00
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=52.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 2035 -> 1929 (reduced by 106, 5.2%)
+prim2.txt: run=1 elapsed=1.96s
+  original transcript -> soap: transcript->soap=3.01 soap->transcript=35.00
+  condensed transcript -> soap: transcript->soap=3.17 soap->transcript=35.00
+  diff (condensed - original): transcript->soap=0.17 soap->transcript=0.00
+  words: 1847 -> 1816 (reduced by 31, 1.7%)
+prim20.txt: run=1 elapsed=2.25s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=59.39
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=59.65
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.26
+  words: 2051 -> 1999 (reduced by 52, 2.5%)
+prim21.txt: run=1 elapsed=2.66s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=42.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=42.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 2116 -> 2053 (reduced by 63, 3.0%)
+prim22.txt: run=1 elapsed=1.78s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=25.00
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=25.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1494 -> 1427 (reduced by 67, 4.5%)
+prim23.txt: run=1 elapsed=2.13s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=58.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=58.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1962 -> 1902 (reduced by 60, 3.1%)
+prim24.txt: run=1 elapsed=1.48s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=36.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=36.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.00
+  words: 1162 -> 1107 (reduced by 55, 4.7%)
+prim25.txt: run=1 elapsed=2.15s
+  original transcript -> soap: transcript->soap=5.01 soap->transcript=51.00
+  condensed transcript -> soap: transcript->soap=5.01 soap->transcript=51.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.00
+  words: 1964 -> 1903 (reduced by 61, 3.1%)
+prim26.txt: run=1 elapsed=1.66s
+  original transcript -> soap: transcript->soap=8.00 soap->transcript=46.00
+  condensed transcript -> soap: transcript->soap=8.00 soap->transcript=46.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1390 -> 1336 (reduced by 54, 3.9%)
+prim27.txt: run=1 elapsed=1.38s
+  original transcript -> soap: transcript->soap=10.00 soap->transcript=51.00
+  condensed transcript -> soap: transcript->soap=10.00 soap->transcript=51.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1279 -> 1240 (reduced by 39, 3.0%)
+prim28.txt: run=1 elapsed=1.98s
+  original transcript -> soap: transcript->soap=17.00 soap->transcript=103.00
+  condensed transcript -> soap: transcript->soap=17.00 soap->transcript=100.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-3.00
+  words: 2044 -> 1961 (reduced by 83, 4.1%)
+prim29.txt: run=1 elapsed=1.19s
+  original transcript -> soap: transcript->soap=13.00 soap->transcript=67.00
+  condensed transcript -> soap: transcript->soap=13.00 soap->transcript=65.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-2.00
+  words: 1224 -> 1192 (reduced by 32, 2.6%)
+prim3.txt: run=1 elapsed=1.66s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=40.02
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=40.02
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1748 -> 1711 (reduced by 37, 2.1%)
+prim30.txt: run=1 elapsed=1.15s
+  original transcript -> soap: transcript->soap=7.00 soap->transcript=64.00
+  condensed transcript -> soap: transcript->soap=7.00 soap->transcript=64.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 1219 -> 1175 (reduced by 44, 3.6%)
+prim31.txt: run=1 elapsed=0.63s
+  original transcript -> soap: transcript->soap=3.06 soap->transcript=14.13
+  condensed transcript -> soap: transcript->soap=3.18 soap->transcript=14.19
+  diff (condensed - original): transcript->soap=0.12 soap->transcript=0.06
+  words: 665 -> 641 (reduced by 24, 3.6%)
+prim32.txt: run=1 elapsed=1.31s
+  original transcript -> soap: transcript->soap=7.01 soap->transcript=42.08
+  condensed transcript -> soap: transcript->soap=7.00 soap->transcript=38.02
+  diff (condensed - original): transcript->soap=-0.01 soap->transcript=-4.06
+  words: 1298 -> 1205 (reduced by 93, 7.2%)
+prim33.txt: run=1 elapsed=0.94s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=26.08
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=26.09
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.01
+  words: 1017 -> 993 (reduced by 24, 2.4%)
+prim34.txt: run=1 elapsed=1.77s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=80.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=79.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-1.00
+  words: 2249 -> 2202 (reduced by 47, 2.1%)
+prim35.txt: run=1 elapsed=1.42s
+  original transcript -> soap: transcript->soap=4.01 soap->transcript=78.00
+  condensed transcript -> soap: transcript->soap=4.01 soap->transcript=78.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 1477 -> 1446 (reduced by 31, 2.1%)
+prim36.txt: run=1 elapsed=1.60s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=53.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=53.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1423 -> 1348 (reduced by 75, 5.3%)
+prim37.txt: run=1 elapsed=1.81s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=48.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=46.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-2.00
+  words: 1419 -> 1308 (reduced by 111, 7.8%)
+prim38.txt: run=1 elapsed=1.35s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=36.00
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=34.01
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-1.99
+  words: 1144 -> 1075 (reduced by 69, 6.0%)
+prim39.txt: run=1 elapsed=1.17s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=33.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=33.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 1116 -> 1068 (reduced by 48, 4.3%)
+prim4.txt: run=1 elapsed=1.60s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=42.01
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=42.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.01
+  words: 1860 -> 1794 (reduced by 66, 3.5%)
+prim40.txt: run=1 elapsed=1.53s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=58.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=57.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-1.00
+  words: 1720 -> 1681 (reduced by 39, 2.3%)
+prim41.txt: run=1 elapsed=1.73s
+  original transcript -> soap: transcript->soap=5.03 soap->transcript=43.00
+  condensed transcript -> soap: transcript->soap=5.03 soap->transcript=43.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 1826 -> 1779 (reduced by 47, 2.6%)
+prim42.txt: run=1 elapsed=1.64s
+  original transcript -> soap: transcript->soap=2.32 soap->transcript=66.00
+  condensed transcript -> soap: transcript->soap=2.41 soap->transcript=65.00
+  diff (condensed - original): transcript->soap=0.09 soap->transcript=-1.00
+  words: 1940 -> 1909 (reduced by 31, 1.6%)
+prim43.txt: run=1 elapsed=2.03s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=33.04
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=33.01
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.04
+  words: 1961 -> 1883 (reduced by 78, 4.0%)
+prim44.txt: run=1 elapsed=1.63s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=44.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=44.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 1887 -> 1875 (reduced by 12, 0.6%)
+prim45.txt: run=1 elapsed=1.90s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=54.00
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=53.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-1.00
+  words: 1893 -> 1862 (reduced by 31, 1.6%)
+prim46.txt: run=1 elapsed=1.36s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=36.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=35.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-1.00
+  words: 1380 -> 1316 (reduced by 64, 4.6%)
+prim47.txt: run=1 elapsed=1.42s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=10.07
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=10.09
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.02
+  words: 1231 -> 1163 (reduced by 68, 5.5%)
+prim48.txt: run=1 elapsed=1.80s
+  original transcript -> soap: transcript->soap=6.00 soap->transcript=62.00
+  condensed transcript -> soap: transcript->soap=6.00 soap->transcript=62.01
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.00
+  words: 2519 -> 2491 (reduced by 28, 1.1%)
+prim49.txt: run=1 elapsed=1.67s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=44.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=43.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-1.00
+  words: 1454 -> 1364 (reduced by 90, 6.2%)
+prim5.txt: run=1 elapsed=1.51s
+  original transcript -> soap: transcript->soap=6.00 soap->transcript=40.00
+  condensed transcript -> soap: transcript->soap=6.00 soap->transcript=40.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1784 -> 1757 (reduced by 27, 1.5%)
+prim50.txt: run=1 elapsed=1.27s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=22.08
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=22.03
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.05
+  words: 1066 -> 984 (reduced by 82, 7.7%)
+prim51.txt: run=1 elapsed=1.60s
+  original transcript -> soap: transcript->soap=3.01 soap->transcript=51.00
+  condensed transcript -> soap: transcript->soap=3.01 soap->transcript=50.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-1.00
+  words: 1687 -> 1625 (reduced by 62, 3.7%)
+prim52.txt: run=1 elapsed=1.40s
+  original transcript -> soap: transcript->soap=4.02 soap->transcript=37.00
+  condensed transcript -> soap: transcript->soap=4.01 soap->transcript=35.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-2.00
+  words: 1380 -> 1351 (reduced by 29, 2.1%)
+prim53.txt: run=1 elapsed=1.59s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=34.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=34.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1453 -> 1380 (reduced by 73, 5.0%)
+prim54.txt: run=1 elapsed=1.49s
+  original transcript -> soap: transcript->soap=7.00 soap->transcript=38.04
+  condensed transcript -> soap: transcript->soap=7.00 soap->transcript=36.02
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-2.02
+  words: 1530 -> 1465 (reduced by 65, 4.2%)
+prim55.txt: run=1 elapsed=1.62s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=44.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=42.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-2.00
+  words: 1727 -> 1643 (reduced by 84, 4.9%)
+prim56.txt: run=1 elapsed=1.75s
+  original transcript -> soap: transcript->soap=7.00 soap->transcript=67.00
+  condensed transcript -> soap: transcript->soap=7.00 soap->transcript=65.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-2.00
+  words: 2133 -> 2058 (reduced by 75, 3.5%)
+prim57.txt: run=1 elapsed=1.06s
+  original transcript -> soap: transcript->soap=3.02 soap->transcript=21.37
+  condensed transcript -> soap: transcript->soap=3.02 soap->transcript=21.39
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.02
+  words: 909 -> 830 (reduced by 79, 8.7%)
+prim6.txt: run=1 elapsed=1.88s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=60.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=59.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-1.00
+  words: 2044 -> 2004 (reduced by 40, 2.0%)
+prim7.txt: run=1 elapsed=2.54s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=56.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=55.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-1.00
+  words: 2999 -> 2898 (reduced by 101, 3.4%)
+prim8.txt: run=1 elapsed=1.50s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=34.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=34.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1330 -> 1297 (reduced by 33, 2.5%)
+prim9.txt: run=1 elapsed=1.61s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=34.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=34.01
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.00
+  words: 1736 -> 1701 (reduced by 35, 2.0%)
+[run 1] avg_elapsed=1.72s avg_diff_transcript_to_soap=0.01 avg_diff_soap_to_transcript=-0.52 avg_percent_reduced=3.52
+prim1.txt: run=2 elapsed=1.43s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=53.01
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=53.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.01
+  words: 1553 -> 1517 (reduced by 36, 2.3%)
+prim10.txt: run=2 elapsed=1.81s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=43.03
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=43.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.02
+  words: 2094 -> 2042 (reduced by 52, 2.5%)
+prim11.txt: run=2 elapsed=2.05s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=71.00
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=71.01
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.01
+  words: 2558 -> 2494 (reduced by 64, 2.5%)
+prim12.txt: run=2 elapsed=1.26s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=16.48
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=16.50
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.01
+  words: 1312 -> 1262 (reduced by 50, 3.8%)
+prim13.txt: run=2 elapsed=1.62s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=42.01
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=42.01
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1854 -> 1816 (reduced by 38, 2.0%)
+prim14.txt: run=2 elapsed=1.98s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=46.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=46.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 2117 -> 2063 (reduced by 54, 2.6%)
+prim15.txt: run=2 elapsed=1.55s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=22.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=22.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1438 -> 1369 (reduced by 69, 4.8%)
+prim16.txt: run=2 elapsed=0.98s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=40.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=40.02
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.02
+  words: 1264 -> 1237 (reduced by 27, 2.1%)
+prim17.txt: run=2 elapsed=1.44s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=37.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=37.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1843 -> 1811 (reduced by 32, 1.7%)
+prim18.txt: run=2 elapsed=1.38s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=34.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=34.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1570 -> 1516 (reduced by 54, 3.4%)
+prim19.txt: run=2 elapsed=1.87s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=52.00
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=52.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 2035 -> 1929 (reduced by 106, 5.2%)
+prim2.txt: run=2 elapsed=1.61s
+  original transcript -> soap: transcript->soap=3.01 soap->transcript=35.00
+  condensed transcript -> soap: transcript->soap=3.17 soap->transcript=35.00
+  diff (condensed - original): transcript->soap=0.17 soap->transcript=0.00
+  words: 1847 -> 1816 (reduced by 31, 1.7%)
+prim20.txt: run=2 elapsed=1.87s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=59.39
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=59.65
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.26
+  words: 2051 -> 1999 (reduced by 52, 2.5%)
+prim21.txt: run=2 elapsed=2.14s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=42.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=42.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 2116 -> 2053 (reduced by 63, 3.0%)
+prim22.txt: run=2 elapsed=1.81s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=25.00
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=25.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1494 -> 1427 (reduced by 67, 4.5%)
+prim23.txt: run=2 elapsed=1.97s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=58.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=58.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1962 -> 1902 (reduced by 60, 3.1%)
+prim24.txt: run=2 elapsed=1.40s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=36.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=36.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.00
+  words: 1162 -> 1107 (reduced by 55, 4.7%)
+prim25.txt: run=2 elapsed=1.95s
+  original transcript -> soap: transcript->soap=5.01 soap->transcript=51.00
+  condensed transcript -> soap: transcript->soap=5.01 soap->transcript=51.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.00
+  words: 1964 -> 1903 (reduced by 61, 3.1%)
+prim26.txt: run=2 elapsed=1.39s
+  original transcript -> soap: transcript->soap=8.00 soap->transcript=46.00
+  condensed transcript -> soap: transcript->soap=8.00 soap->transcript=46.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1390 -> 1336 (reduced by 54, 3.9%)
+prim27.txt: run=2 elapsed=1.15s
+  original transcript -> soap: transcript->soap=10.00 soap->transcript=51.00
+  condensed transcript -> soap: transcript->soap=10.00 soap->transcript=51.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1279 -> 1240 (reduced by 39, 3.0%)
+prim28.txt: run=2 elapsed=2.20s
+  original transcript -> soap: transcript->soap=17.00 soap->transcript=103.00
+  condensed transcript -> soap: transcript->soap=17.00 soap->transcript=100.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-3.00
+  words: 2044 -> 1961 (reduced by 83, 4.1%)
+prim29.txt: run=2 elapsed=1.42s
+  original transcript -> soap: transcript->soap=13.00 soap->transcript=67.00
+  condensed transcript -> soap: transcript->soap=13.00 soap->transcript=65.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-2.00
+  words: 1224 -> 1192 (reduced by 32, 2.6%)
+prim3.txt: run=2 elapsed=1.84s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=40.02
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=40.02
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1748 -> 1711 (reduced by 37, 2.1%)
+prim30.txt: run=2 elapsed=1.43s
+  original transcript -> soap: transcript->soap=7.00 soap->transcript=64.00
+  condensed transcript -> soap: transcript->soap=7.00 soap->transcript=64.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 1219 -> 1175 (reduced by 44, 3.6%)
+prim31.txt: run=2 elapsed=0.71s
+  original transcript -> soap: transcript->soap=3.06 soap->transcript=14.13
+  condensed transcript -> soap: transcript->soap=3.18 soap->transcript=14.19
+  diff (condensed - original): transcript->soap=0.12 soap->transcript=0.06
+  words: 665 -> 641 (reduced by 24, 3.6%)
+prim32.txt: run=2 elapsed=1.62s
+  original transcript -> soap: transcript->soap=7.01 soap->transcript=42.08
+  condensed transcript -> soap: transcript->soap=7.00 soap->transcript=38.02
+  diff (condensed - original): transcript->soap=-0.01 soap->transcript=-4.06
+  words: 1298 -> 1205 (reduced by 93, 7.2%)
+prim33.txt: run=2 elapsed=1.02s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=26.08
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=26.09
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1017 -> 993 (reduced by 24, 2.4%)
+prim34.txt: run=2 elapsed=1.78s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=80.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=79.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-1.00
+  words: 2249 -> 2202 (reduced by 47, 2.1%)
+prim35.txt: run=2 elapsed=1.36s
+  original transcript -> soap: transcript->soap=4.01 soap->transcript=78.00
+  condensed transcript -> soap: transcript->soap=4.01 soap->transcript=78.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 1477 -> 1446 (reduced by 31, 2.1%)
+prim36.txt: run=2 elapsed=1.57s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=53.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=53.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1423 -> 1348 (reduced by 75, 5.3%)
+prim37.txt: run=2 elapsed=1.76s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=48.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=46.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-2.00
+  words: 1419 -> 1308 (reduced by 111, 7.8%)
+prim38.txt: run=2 elapsed=1.32s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=36.00
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=34.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-2.00
+  words: 1144 -> 1075 (reduced by 69, 6.0%)
+prim39.txt: run=2 elapsed=1.11s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=33.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=33.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 1116 -> 1068 (reduced by 48, 4.3%)
+prim4.txt: run=2 elapsed=1.53s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=42.01
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=42.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.01
+  words: 1860 -> 1794 (reduced by 66, 3.5%)
+prim40.txt: run=2 elapsed=1.46s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=58.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=57.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-1.00
+  words: 1720 -> 1681 (reduced by 39, 2.3%)
+prim41.txt: run=2 elapsed=1.73s
+  original transcript -> soap: transcript->soap=5.03 soap->transcript=43.00
+  condensed transcript -> soap: transcript->soap=5.03 soap->transcript=43.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 1826 -> 1779 (reduced by 47, 2.6%)
+prim42.txt: run=2 elapsed=1.60s
+  original transcript -> soap: transcript->soap=2.32 soap->transcript=66.00
+  condensed transcript -> soap: transcript->soap=2.41 soap->transcript=65.00
+  diff (condensed - original): transcript->soap=0.09 soap->transcript=-1.00
+  words: 1940 -> 1909 (reduced by 31, 1.6%)
+prim43.txt: run=2 elapsed=1.94s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=33.04
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=33.01
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.04
+  words: 1961 -> 1883 (reduced by 78, 4.0%)
+prim44.txt: run=2 elapsed=1.62s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=44.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=44.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 1887 -> 1875 (reduced by 12, 0.6%)
+prim45.txt: run=2 elapsed=1.82s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=54.00
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=53.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-1.00
+  words: 1893 -> 1862 (reduced by 31, 1.6%)
+prim46.txt: run=2 elapsed=1.83s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=36.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=35.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-1.00
+  words: 1380 -> 1316 (reduced by 64, 4.6%)
+prim47.txt: run=2 elapsed=1.38s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=10.07
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=10.09
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.02
+  words: 1231 -> 1163 (reduced by 68, 5.5%)
+prim48.txt: run=2 elapsed=1.74s
+  original transcript -> soap: transcript->soap=6.00 soap->transcript=62.00
+  condensed transcript -> soap: transcript->soap=6.00 soap->transcript=62.01
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.00
+  words: 2519 -> 2491 (reduced by 28, 1.1%)
+prim49.txt: run=2 elapsed=1.64s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=44.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=43.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-1.00
+  words: 1454 -> 1364 (reduced by 90, 6.2%)
+prim5.txt: run=2 elapsed=1.46s
+  original transcript -> soap: transcript->soap=6.00 soap->transcript=40.00
+  condensed transcript -> soap: transcript->soap=6.00 soap->transcript=40.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1784 -> 1757 (reduced by 27, 1.5%)
+prim50.txt: run=2 elapsed=1.18s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=22.08
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=22.03
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.05
+  words: 1066 -> 984 (reduced by 82, 7.7%)
+prim51.txt: run=2 elapsed=1.55s
+  original transcript -> soap: transcript->soap=3.01 soap->transcript=51.00
+  condensed transcript -> soap: transcript->soap=3.01 soap->transcript=50.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-1.00
+  words: 1687 -> 1625 (reduced by 62, 3.7%)
+prim52.txt: run=2 elapsed=1.33s
+  original transcript -> soap: transcript->soap=4.02 soap->transcript=37.00
+  condensed transcript -> soap: transcript->soap=4.01 soap->transcript=35.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-2.00
+  words: 1380 -> 1351 (reduced by 29, 2.1%)
+prim53.txt: run=2 elapsed=1.54s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=34.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=34.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1453 -> 1380 (reduced by 73, 5.0%)
+prim54.txt: run=2 elapsed=1.43s
+  original transcript -> soap: transcript->soap=7.00 soap->transcript=38.04
+  condensed transcript -> soap: transcript->soap=7.00 soap->transcript=36.02
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-2.02
+  words: 1530 -> 1465 (reduced by 65, 4.2%)
+prim55.txt: run=2 elapsed=1.75s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=44.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=42.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-2.00
+  words: 1727 -> 1643 (reduced by 84, 4.9%)
+prim56.txt: run=2 elapsed=1.83s
+  original transcript -> soap: transcript->soap=7.00 soap->transcript=67.00
+  condensed transcript -> soap: transcript->soap=7.00 soap->transcript=65.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-2.00
+  words: 2133 -> 2058 (reduced by 75, 3.5%)
+prim57.txt: run=2 elapsed=1.10s
+  original transcript -> soap: transcript->soap=3.02 soap->transcript=21.37
+  condensed transcript -> soap: transcript->soap=3.02 soap->transcript=21.39
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.02
+  words: 909 -> 830 (reduced by 79, 8.7%)
+prim6.txt: run=2 elapsed=2.00s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=60.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=59.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-1.00
+  words: 2044 -> 2004 (reduced by 40, 2.0%)
+prim7.txt: run=2 elapsed=2.40s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=56.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=55.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-1.00
+  words: 2999 -> 2898 (reduced by 101, 3.4%)
+prim8.txt: run=2 elapsed=1.54s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=34.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=34.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1330 -> 1297 (reduced by 33, 2.5%)
+prim9.txt: run=2 elapsed=1.67s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=34.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=34.01
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.00
+  words: 1736 -> 1701 (reduced by 35, 2.0%)
+[run 2] avg_elapsed=1.59s avg_diff_transcript_to_soap=0.01 avg_diff_soap_to_transcript=-0.52 avg_percent_reduced=3.52
+prim1.txt: run=3 elapsed=1.68s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=53.01
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=53.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.01
+  words: 1553 -> 1517 (reduced by 36, 2.3%)
+prim10.txt: run=3 elapsed=2.06s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=43.03
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=43.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.02
+  words: 2094 -> 2042 (reduced by 52, 2.5%)
+prim11.txt: run=3 elapsed=2.26s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=71.00
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=71.01
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.01
+  words: 2558 -> 2494 (reduced by 64, 2.5%)
+prim12.txt: run=3 elapsed=1.49s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=16.48
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=16.50
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.01
+  words: 1312 -> 1262 (reduced by 50, 3.8%)
+prim13.txt: run=3 elapsed=1.82s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=42.01
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=42.01
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1854 -> 1816 (reduced by 38, 2.0%)
+prim14.txt: run=3 elapsed=2.06s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=46.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=46.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 2117 -> 2063 (reduced by 54, 2.6%)
+prim15.txt: run=3 elapsed=1.71s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=22.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=22.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1438 -> 1369 (reduced by 69, 4.8%)
+prim16.txt: run=3 elapsed=1.21s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=40.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=40.02
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.02
+  words: 1264 -> 1237 (reduced by 27, 2.1%)
+prim17.txt: run=3 elapsed=1.69s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=37.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=37.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1843 -> 1811 (reduced by 32, 1.7%)
+prim18.txt: run=3 elapsed=1.58s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=34.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=34.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1570 -> 1516 (reduced by 54, 3.4%)
+prim19.txt: run=3 elapsed=1.94s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=52.00
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=52.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 2035 -> 1929 (reduced by 106, 5.2%)
+prim2.txt: run=3 elapsed=1.60s
+  original transcript -> soap: transcript->soap=3.01 soap->transcript=35.00
+  condensed transcript -> soap: transcript->soap=3.17 soap->transcript=35.00
+  diff (condensed - original): transcript->soap=0.17 soap->transcript=0.00
+  words: 1847 -> 1816 (reduced by 31, 1.7%)
+prim20.txt: run=3 elapsed=1.77s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=59.39
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=59.65
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.26
+  words: 2051 -> 1999 (reduced by 52, 2.5%)
+prim21.txt: run=3 elapsed=1.85s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=42.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=42.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 2116 -> 2053 (reduced by 63, 3.0%)
+prim22.txt: run=3 elapsed=1.54s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=25.00
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=25.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1494 -> 1427 (reduced by 67, 4.5%)
+prim23.txt: run=3 elapsed=1.75s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=58.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=58.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1962 -> 1902 (reduced by 60, 3.1%)
+prim24.txt: run=3 elapsed=1.12s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=36.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=36.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.00
+  words: 1162 -> 1107 (reduced by 55, 4.7%)
+prim25.txt: run=3 elapsed=1.64s
+  original transcript -> soap: transcript->soap=5.01 soap->transcript=51.00
+  condensed transcript -> soap: transcript->soap=5.01 soap->transcript=51.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.00
+  words: 1964 -> 1903 (reduced by 61, 3.1%)
+prim26.txt: run=3 elapsed=1.29s
+  original transcript -> soap: transcript->soap=8.00 soap->transcript=46.00
+  condensed transcript -> soap: transcript->soap=8.00 soap->transcript=46.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1390 -> 1336 (reduced by 54, 3.9%)
+prim27.txt: run=3 elapsed=1.25s
+  original transcript -> soap: transcript->soap=10.00 soap->transcript=51.00
+  condensed transcript -> soap: transcript->soap=10.00 soap->transcript=51.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.00
+  words: 1279 -> 1240 (reduced by 39, 3.0%)
+prim28.txt: run=3 elapsed=2.09s
+  original transcript -> soap: transcript->soap=17.00 soap->transcript=103.00
+  condensed transcript -> soap: transcript->soap=17.00 soap->transcript=100.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-3.00
+  words: 2044 -> 1961 (reduced by 83, 4.1%)
+prim29.txt: run=3 elapsed=1.24s
+  original transcript -> soap: transcript->soap=13.00 soap->transcript=67.00
+  condensed transcript -> soap: transcript->soap=13.00 soap->transcript=65.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-2.00
+  words: 1224 -> 1192 (reduced by 32, 2.6%)
+prim3.txt: run=3 elapsed=1.80s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=40.02
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=40.02
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1748 -> 1711 (reduced by 37, 2.1%)
+prim30.txt: run=3 elapsed=1.42s
+  original transcript -> soap: transcript->soap=7.00 soap->transcript=64.00
+  condensed transcript -> soap: transcript->soap=7.00 soap->transcript=64.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 1219 -> 1175 (reduced by 44, 3.6%)
+prim31.txt: run=3 elapsed=0.66s
+  original transcript -> soap: transcript->soap=3.06 soap->transcript=14.13
+  condensed transcript -> soap: transcript->soap=3.18 soap->transcript=14.19
+  diff (condensed - original): transcript->soap=0.12 soap->transcript=0.06
+  words: 665 -> 641 (reduced by 24, 3.6%)
+prim32.txt: run=3 elapsed=1.31s
+  original transcript -> soap: transcript->soap=7.01 soap->transcript=42.08
+  condensed transcript -> soap: transcript->soap=7.00 soap->transcript=38.02
+  diff (condensed - original): transcript->soap=-0.01 soap->transcript=-4.06
+  words: 1298 -> 1205 (reduced by 93, 7.2%)
+prim33.txt: run=3 elapsed=0.93s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=26.08
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=26.09
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1017 -> 993 (reduced by 24, 2.4%)
+prim34.txt: run=3 elapsed=1.91s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=80.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=79.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-1.00
+  words: 2249 -> 2202 (reduced by 47, 2.1%)
+prim35.txt: run=3 elapsed=1.40s
+  original transcript -> soap: transcript->soap=4.01 soap->transcript=78.00
+  condensed transcript -> soap: transcript->soap=4.01 soap->transcript=78.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 1477 -> 1446 (reduced by 31, 2.1%)
+prim36.txt: run=3 elapsed=1.54s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=53.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=53.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1423 -> 1348 (reduced by 75, 5.3%)
+prim37.txt: run=3 elapsed=1.97s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=48.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=46.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-2.00
+  words: 1419 -> 1308 (reduced by 111, 7.8%)
+prim38.txt: run=3 elapsed=1.30s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=36.00
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=34.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-2.00
+  words: 1144 -> 1075 (reduced by 69, 6.0%)
+prim39.txt: run=3 elapsed=1.15s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=33.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=33.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 1116 -> 1068 (reduced by 48, 4.3%)
+prim4.txt: run=3 elapsed=1.58s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=42.01
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=42.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.01
+  words: 1860 -> 1794 (reduced by 66, 3.5%)
+prim40.txt: run=3 elapsed=1.50s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=58.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=57.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-1.00
+  words: 1720 -> 1681 (reduced by 39, 2.3%)
+prim41.txt: run=3 elapsed=1.70s
+  original transcript -> soap: transcript->soap=5.03 soap->transcript=43.00
+  condensed transcript -> soap: transcript->soap=5.03 soap->transcript=43.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 1826 -> 1779 (reduced by 47, 2.6%)
+prim42.txt: run=3 elapsed=1.92s
+  original transcript -> soap: transcript->soap=2.32 soap->transcript=66.00
+  condensed transcript -> soap: transcript->soap=2.41 soap->transcript=65.00
+  diff (condensed - original): transcript->soap=0.09 soap->transcript=-1.00
+  words: 1940 -> 1909 (reduced by 31, 1.6%)
+prim43.txt: run=3 elapsed=2.44s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=33.04
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=33.01
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.04
+  words: 1961 -> 1883 (reduced by 78, 4.0%)
+prim44.txt: run=3 elapsed=1.95s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=44.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=44.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 1887 -> 1875 (reduced by 12, 0.6%)
+prim45.txt: run=3 elapsed=2.31s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=54.00
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=53.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-1.00
+  words: 1893 -> 1862 (reduced by 31, 1.6%)
+prim46.txt: run=3 elapsed=1.39s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=36.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=35.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-1.00
+  words: 1380 -> 1316 (reduced by 64, 4.6%)
+prim47.txt: run=3 elapsed=1.39s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=10.07
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=10.09
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.02
+  words: 1231 -> 1163 (reduced by 68, 5.5%)
+prim48.txt: run=3 elapsed=1.72s
+  original transcript -> soap: transcript->soap=6.00 soap->transcript=62.00
+  condensed transcript -> soap: transcript->soap=6.00 soap->transcript=62.01
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.00
+  words: 2519 -> 2491 (reduced by 28, 1.1%)
+prim49.txt: run=3 elapsed=1.65s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=44.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=43.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-1.00
+  words: 1454 -> 1364 (reduced by 90, 6.2%)
+prim5.txt: run=3 elapsed=1.50s
+  original transcript -> soap: transcript->soap=6.00 soap->transcript=40.00
+  condensed transcript -> soap: transcript->soap=6.00 soap->transcript=40.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1784 -> 1757 (reduced by 27, 1.5%)
+prim50.txt: run=3 elapsed=1.27s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=22.08
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=22.03
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.05
+  words: 1066 -> 984 (reduced by 82, 7.7%)
+prim51.txt: run=3 elapsed=1.63s
+  original transcript -> soap: transcript->soap=3.01 soap->transcript=51.00
+  condensed transcript -> soap: transcript->soap=3.01 soap->transcript=50.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-1.00
+  words: 1687 -> 1625 (reduced by 62, 3.7%)
+prim52.txt: run=3 elapsed=1.38s
+  original transcript -> soap: transcript->soap=4.02 soap->transcript=37.00
+  condensed transcript -> soap: transcript->soap=4.01 soap->transcript=35.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-2.00
+  words: 1380 -> 1351 (reduced by 29, 2.1%)
+prim53.txt: run=3 elapsed=1.63s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=34.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=34.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1453 -> 1380 (reduced by 73, 5.0%)
+prim54.txt: run=3 elapsed=1.44s
+  original transcript -> soap: transcript->soap=7.00 soap->transcript=38.04
+  condensed transcript -> soap: transcript->soap=7.00 soap->transcript=36.02
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-2.02
+  words: 1530 -> 1465 (reduced by 65, 4.2%)
+prim55.txt: run=3 elapsed=1.63s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=44.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=42.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-2.00
+  words: 1727 -> 1643 (reduced by 84, 4.9%)
+prim56.txt: run=3 elapsed=1.87s
+  original transcript -> soap: transcript->soap=7.00 soap->transcript=67.00
+  condensed transcript -> soap: transcript->soap=7.00 soap->transcript=65.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-2.00
+  words: 2133 -> 2058 (reduced by 75, 3.5%)
+prim57.txt: run=3 elapsed=1.05s
+  original transcript -> soap: transcript->soap=3.02 soap->transcript=21.37
+  condensed transcript -> soap: transcript->soap=3.02 soap->transcript=21.39
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.02
+  words: 909 -> 830 (reduced by 79, 8.7%)
+prim6.txt: run=3 elapsed=1.90s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=60.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=59.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-1.00
+  words: 2044 -> 2004 (reduced by 40, 2.0%)
+prim7.txt: run=3 elapsed=2.42s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=56.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=55.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-1.00
+  words: 2999 -> 2898 (reduced by 101, 3.4%)
+prim8.txt: run=3 elapsed=1.44s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=34.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=34.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1330 -> 1297 (reduced by 33, 2.5%)
+prim9.txt: run=3 elapsed=1.59s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=34.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=34.01
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.00
+  words: 1736 -> 1701 (reduced by 35, 2.0%)
+[run 3] avg_elapsed=1.62s avg_diff_transcript_to_soap=0.01 avg_diff_soap_to_transcript=-0.52 avg_percent_reduced=3.52
+prim1.txt: run=4 elapsed=1.44s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=53.01
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=53.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.01
+  words: 1553 -> 1517 (reduced by 36, 2.3%)
+prim10.txt: run=4 elapsed=1.87s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=43.03
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=43.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.02
+  words: 2094 -> 2042 (reduced by 52, 2.5%)
+prim11.txt: run=4 elapsed=2.11s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=71.00
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=71.01
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.01
+  words: 2558 -> 2494 (reduced by 64, 2.5%)
+prim12.txt: run=4 elapsed=1.26s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=16.48
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=16.49
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.01
+  words: 1312 -> 1262 (reduced by 50, 3.8%)
+prim13.txt: run=4 elapsed=1.57s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=42.01
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=42.01
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1854 -> 1816 (reduced by 38, 2.0%)
+prim14.txt: run=4 elapsed=1.87s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=46.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=46.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 2117 -> 2063 (reduced by 54, 2.6%)
+prim15.txt: run=4 elapsed=1.58s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=22.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=22.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1438 -> 1369 (reduced by 69, 4.8%)
+prim16.txt: run=4 elapsed=1.02s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=40.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=40.02
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.02
+  words: 1264 -> 1237 (reduced by 27, 2.1%)
+prim17.txt: run=4 elapsed=1.48s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=37.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=37.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1843 -> 1811 (reduced by 32, 1.7%)
+prim18.txt: run=4 elapsed=1.46s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=34.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=34.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1570 -> 1516 (reduced by 54, 3.4%)
+prim19.txt: run=4 elapsed=1.91s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=52.00
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=52.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 2035 -> 1929 (reduced by 106, 5.2%)
+prim2.txt: run=4 elapsed=1.69s
+  original transcript -> soap: transcript->soap=3.01 soap->transcript=35.00
+  condensed transcript -> soap: transcript->soap=3.17 soap->transcript=35.00
+  diff (condensed - original): transcript->soap=0.17 soap->transcript=0.00
+  words: 1847 -> 1816 (reduced by 31, 1.7%)
+prim20.txt: run=4 elapsed=1.83s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=59.39
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=59.65
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.26
+  words: 2051 -> 1999 (reduced by 52, 2.5%)
+prim21.txt: run=4 elapsed=1.89s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=42.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=42.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 2116 -> 2053 (reduced by 63, 3.0%)
+prim22.txt: run=4 elapsed=1.51s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=25.00
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=25.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1494 -> 1427 (reduced by 67, 4.5%)
+prim23.txt: run=4 elapsed=1.71s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=58.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=58.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1962 -> 1902 (reduced by 60, 3.1%)
+prim24.txt: run=4 elapsed=1.17s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=36.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=36.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.00
+  words: 1162 -> 1107 (reduced by 55, 4.7%)
+prim25.txt: run=4 elapsed=1.63s
+  original transcript -> soap: transcript->soap=5.01 soap->transcript=51.00
+  condensed transcript -> soap: transcript->soap=5.01 soap->transcript=51.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.00
+  words: 1964 -> 1903 (reduced by 61, 3.1%)
+prim26.txt: run=4 elapsed=1.26s
+  original transcript -> soap: transcript->soap=8.00 soap->transcript=46.00
+  condensed transcript -> soap: transcript->soap=8.00 soap->transcript=46.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1390 -> 1336 (reduced by 54, 3.9%)
+prim27.txt: run=4 elapsed=1.07s
+  original transcript -> soap: transcript->soap=10.00 soap->transcript=51.00
+  condensed transcript -> soap: transcript->soap=10.00 soap->transcript=51.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1279 -> 1240 (reduced by 39, 3.0%)
+prim28.txt: run=4 elapsed=1.96s
+  original transcript -> soap: transcript->soap=17.00 soap->transcript=103.00
+  condensed transcript -> soap: transcript->soap=17.00 soap->transcript=100.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-3.00
+  words: 2044 -> 1961 (reduced by 83, 4.1%)
+prim29.txt: run=4 elapsed=1.22s
+  original transcript -> soap: transcript->soap=13.00 soap->transcript=67.00
+  condensed transcript -> soap: transcript->soap=13.00 soap->transcript=65.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-2.00
+  words: 1224 -> 1192 (reduced by 32, 2.6%)
+prim3.txt: run=4 elapsed=1.70s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=40.02
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=40.02
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1748 -> 1711 (reduced by 37, 2.1%)
+prim30.txt: run=4 elapsed=1.15s
+  original transcript -> soap: transcript->soap=7.00 soap->transcript=64.00
+  condensed transcript -> soap: transcript->soap=7.00 soap->transcript=64.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 1219 -> 1175 (reduced by 44, 3.6%)
+prim31.txt: run=4 elapsed=0.65s
+  original transcript -> soap: transcript->soap=3.06 soap->transcript=14.13
+  condensed transcript -> soap: transcript->soap=3.18 soap->transcript=14.19
+  diff (condensed - original): transcript->soap=0.12 soap->transcript=0.06
+  words: 665 -> 641 (reduced by 24, 3.6%)
+prim32.txt: run=4 elapsed=1.35s
+  original transcript -> soap: transcript->soap=7.01 soap->transcript=42.08
+  condensed transcript -> soap: transcript->soap=7.00 soap->transcript=38.02
+  diff (condensed - original): transcript->soap=-0.01 soap->transcript=-4.06
+  words: 1298 -> 1205 (reduced by 93, 7.2%)
+prim33.txt: run=4 elapsed=0.96s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=26.08
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=26.09
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.01
+  words: 1017 -> 993 (reduced by 24, 2.4%)
+prim34.txt: run=4 elapsed=1.75s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=80.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=79.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-1.00
+  words: 2249 -> 2202 (reduced by 47, 2.1%)
+prim35.txt: run=4 elapsed=1.47s
+  original transcript -> soap: transcript->soap=4.01 soap->transcript=78.00
+  condensed transcript -> soap: transcript->soap=4.01 soap->transcript=78.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 1477 -> 1446 (reduced by 31, 2.1%)
+prim36.txt: run=4 elapsed=1.66s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=53.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=53.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1423 -> 1348 (reduced by 75, 5.3%)
+prim37.txt: run=4 elapsed=1.87s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=48.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=46.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-2.00
+  words: 1419 -> 1308 (reduced by 111, 7.8%)
+prim38.txt: run=4 elapsed=1.38s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=36.00
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=34.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-2.00
+  words: 1144 -> 1075 (reduced by 69, 6.0%)
+prim39.txt: run=4 elapsed=1.22s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=33.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=33.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 1116 -> 1068 (reduced by 48, 4.3%)
+prim4.txt: run=4 elapsed=1.71s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=42.01
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=42.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.01
+  words: 1860 -> 1794 (reduced by 66, 3.5%)
+prim40.txt: run=4 elapsed=1.59s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=58.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=57.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-1.00
+  words: 1720 -> 1681 (reduced by 39, 2.3%)
+prim41.txt: run=4 elapsed=1.98s
+  original transcript -> soap: transcript->soap=5.03 soap->transcript=43.00
+  condensed transcript -> soap: transcript->soap=5.03 soap->transcript=43.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 1826 -> 1779 (reduced by 47, 2.6%)
+prim42.txt: run=4 elapsed=1.69s
+  original transcript -> soap: transcript->soap=2.32 soap->transcript=66.00
+  condensed transcript -> soap: transcript->soap=2.41 soap->transcript=65.00
+  diff (condensed - original): transcript->soap=0.09 soap->transcript=-1.00
+  words: 1940 -> 1909 (reduced by 31, 1.6%)
+prim43.txt: run=4 elapsed=2.18s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=33.04
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=33.01
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.04
+  words: 1961 -> 1883 (reduced by 78, 4.0%)
+prim44.txt: run=4 elapsed=1.78s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=44.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=44.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 1887 -> 1875 (reduced by 12, 0.6%)
+prim45.txt: run=4 elapsed=2.04s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=54.00
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=53.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-1.00
+  words: 1893 -> 1862 (reduced by 31, 1.6%)
+prim46.txt: run=4 elapsed=1.49s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=36.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=35.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-1.00
+  words: 1380 -> 1316 (reduced by 64, 4.6%)
+prim47.txt: run=4 elapsed=1.59s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=10.07
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=10.09
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.02
+  words: 1231 -> 1163 (reduced by 68, 5.5%)
+prim48.txt: run=4 elapsed=2.16s
+  original transcript -> soap: transcript->soap=6.00 soap->transcript=62.00
+  condensed transcript -> soap: transcript->soap=6.00 soap->transcript=62.01
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.00
+  words: 2519 -> 2491 (reduced by 28, 1.1%)
+prim49.txt: run=4 elapsed=2.08s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=44.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=43.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-1.00
+  words: 1454 -> 1364 (reduced by 90, 6.2%)
+prim5.txt: run=4 elapsed=1.84s
+  original transcript -> soap: transcript->soap=6.00 soap->transcript=40.00
+  condensed transcript -> soap: transcript->soap=6.00 soap->transcript=40.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1784 -> 1757 (reduced by 27, 1.5%)
+prim50.txt: run=4 elapsed=1.49s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=22.08
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=22.03
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.05
+  words: 1066 -> 984 (reduced by 82, 7.7%)
+prim51.txt: run=4 elapsed=1.83s
+  original transcript -> soap: transcript->soap=3.01 soap->transcript=51.00
+  condensed transcript -> soap: transcript->soap=3.01 soap->transcript=50.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-1.00
+  words: 1687 -> 1625 (reduced by 62, 3.7%)
+prim52.txt: run=4 elapsed=1.53s
+  original transcript -> soap: transcript->soap=4.02 soap->transcript=37.00
+  condensed transcript -> soap: transcript->soap=4.01 soap->transcript=35.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-2.00
+  words: 1380 -> 1351 (reduced by 29, 2.1%)
+prim53.txt: run=4 elapsed=1.83s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=34.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=34.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1453 -> 1380 (reduced by 73, 5.0%)
+prim54.txt: run=4 elapsed=1.75s
+  original transcript -> soap: transcript->soap=7.00 soap->transcript=38.04
+  condensed transcript -> soap: transcript->soap=7.00 soap->transcript=36.02
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-2.02
+  words: 1530 -> 1465 (reduced by 65, 4.2%)
+prim55.txt: run=4 elapsed=1.82s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=44.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=42.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-2.00
+  words: 1727 -> 1643 (reduced by 84, 4.9%)
+prim56.txt: run=4 elapsed=1.92s
+  original transcript -> soap: transcript->soap=7.00 soap->transcript=67.00
+  condensed transcript -> soap: transcript->soap=7.00 soap->transcript=65.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-2.00
+  words: 2133 -> 2058 (reduced by 75, 3.5%)
+prim57.txt: run=4 elapsed=1.21s
+  original transcript -> soap: transcript->soap=3.02 soap->transcript=21.37
+  condensed transcript -> soap: transcript->soap=3.02 soap->transcript=21.39
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.02
+  words: 909 -> 830 (reduced by 79, 8.7%)
+prim6.txt: run=4 elapsed=2.32s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=60.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=59.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-1.00
+  words: 2044 -> 2004 (reduced by 40, 2.0%)
+prim7.txt: run=4 elapsed=2.92s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=56.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=55.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-1.00
+  words: 2999 -> 2898 (reduced by 101, 3.4%)
+prim8.txt: run=4 elapsed=1.60s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=34.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=34.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1330 -> 1297 (reduced by 33, 2.5%)
+prim9.txt: run=4 elapsed=1.86s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=34.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=34.01
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.00
+  words: 1736 -> 1701 (reduced by 35, 2.0%)
+[run 4] avg_elapsed=1.65s avg_diff_transcript_to_soap=0.01 avg_diff_soap_to_transcript=-0.52 avg_percent_reduced=3.52
+prim1.txt: run=5 elapsed=1.58s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=53.01
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=53.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.01
+  words: 1553 -> 1517 (reduced by 36, 2.3%)
+prim10.txt: run=5 elapsed=2.16s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=43.03
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=43.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.02
+  words: 2094 -> 2042 (reduced by 52, 2.5%)
+prim11.txt: run=5 elapsed=2.41s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=71.00
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=71.01
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.01
+  words: 2558 -> 2494 (reduced by 64, 2.5%)
+prim12.txt: run=5 elapsed=1.36s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=16.48
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=16.50
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.01
+  words: 1312 -> 1262 (reduced by 50, 3.8%)
+prim13.txt: run=5 elapsed=1.81s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=42.01
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=42.01
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1854 -> 1816 (reduced by 38, 2.0%)
+prim14.txt: run=5 elapsed=2.03s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=46.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=46.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 2117 -> 2063 (reduced by 54, 2.6%)
+prim15.txt: run=5 elapsed=1.73s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=22.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=22.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1438 -> 1369 (reduced by 69, 4.8%)
+prim16.txt: run=5 elapsed=1.14s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=40.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=40.02
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.02
+  words: 1264 -> 1237 (reduced by 27, 2.1%)
+prim17.txt: run=5 elapsed=1.69s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=37.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=37.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1843 -> 1811 (reduced by 32, 1.7%)
+prim18.txt: run=5 elapsed=1.69s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=34.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=34.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1570 -> 1516 (reduced by 54, 3.4%)
+prim19.txt: run=5 elapsed=2.31s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=52.00
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=52.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 2035 -> 1929 (reduced by 106, 5.2%)
+prim2.txt: run=5 elapsed=2.03s
+  original transcript -> soap: transcript->soap=3.01 soap->transcript=35.00
+  condensed transcript -> soap: transcript->soap=3.17 soap->transcript=35.00
+  diff (condensed - original): transcript->soap=0.17 soap->transcript=0.00
+  words: 1847 -> 1816 (reduced by 31, 1.7%)
+prim20.txt: run=5 elapsed=2.18s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=59.39
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=59.65
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.26
+  words: 2051 -> 1999 (reduced by 52, 2.5%)
+prim21.txt: run=5 elapsed=2.21s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=42.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=42.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 2116 -> 2053 (reduced by 63, 3.0%)
+prim22.txt: run=5 elapsed=2.05s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=25.00
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=25.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1494 -> 1427 (reduced by 67, 4.5%)
+prim23.txt: run=5 elapsed=2.14s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=58.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=58.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1962 -> 1902 (reduced by 60, 3.1%)
+prim24.txt: run=5 elapsed=1.38s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=36.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=36.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.00
+  words: 1162 -> 1107 (reduced by 55, 4.7%)
+prim25.txt: run=5 elapsed=2.26s
+  original transcript -> soap: transcript->soap=5.01 soap->transcript=51.00
+  condensed transcript -> soap: transcript->soap=5.01 soap->transcript=51.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.00
+  words: 1964 -> 1903 (reduced by 61, 3.1%)
+prim26.txt: run=5 elapsed=1.51s
+  original transcript -> soap: transcript->soap=8.00 soap->transcript=46.00
+  condensed transcript -> soap: transcript->soap=8.00 soap->transcript=46.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1390 -> 1336 (reduced by 54, 3.9%)
+prim27.txt: run=5 elapsed=1.19s
+  original transcript -> soap: transcript->soap=10.00 soap->transcript=51.00
+  condensed transcript -> soap: transcript->soap=10.00 soap->transcript=51.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1279 -> 1240 (reduced by 39, 3.0%)
+prim28.txt: run=5 elapsed=2.29s
+  original transcript -> soap: transcript->soap=17.00 soap->transcript=103.00
+  condensed transcript -> soap: transcript->soap=17.00 soap->transcript=100.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-3.00
+  words: 2044 -> 1961 (reduced by 83, 4.1%)
+prim29.txt: run=5 elapsed=1.35s
+  original transcript -> soap: transcript->soap=13.00 soap->transcript=67.00
+  condensed transcript -> soap: transcript->soap=13.00 soap->transcript=65.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-2.00
+  words: 1224 -> 1192 (reduced by 32, 2.6%)
+prim3.txt: run=5 elapsed=1.97s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=40.02
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=40.02
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1748 -> 1711 (reduced by 37, 2.1%)
+prim30.txt: run=5 elapsed=1.42s
+  original transcript -> soap: transcript->soap=7.00 soap->transcript=64.00
+  condensed transcript -> soap: transcript->soap=7.00 soap->transcript=64.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 1219 -> 1175 (reduced by 44, 3.6%)
+prim31.txt: run=5 elapsed=0.75s
+  original transcript -> soap: transcript->soap=3.06 soap->transcript=14.13
+  condensed transcript -> soap: transcript->soap=3.18 soap->transcript=14.19
+  diff (condensed - original): transcript->soap=0.12 soap->transcript=0.06
+  words: 665 -> 641 (reduced by 24, 3.6%)
+prim32.txt: run=5 elapsed=1.47s
+  original transcript -> soap: transcript->soap=7.01 soap->transcript=42.08
+  condensed transcript -> soap: transcript->soap=7.00 soap->transcript=38.02
+  diff (condensed - original): transcript->soap=-0.01 soap->transcript=-4.06
+  words: 1298 -> 1205 (reduced by 93, 7.2%)
+prim33.txt: run=5 elapsed=0.98s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=26.08
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=26.09
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.01
+  words: 1017 -> 993 (reduced by 24, 2.4%)
+prim34.txt: run=5 elapsed=1.88s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=80.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=79.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-1.00
+  words: 2249 -> 2202 (reduced by 47, 2.1%)
+prim35.txt: run=5 elapsed=1.64s
+  original transcript -> soap: transcript->soap=4.01 soap->transcript=78.00
+  condensed transcript -> soap: transcript->soap=4.01 soap->transcript=78.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 1477 -> 1446 (reduced by 31, 2.1%)
+prim36.txt: run=5 elapsed=1.95s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=53.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=53.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1423 -> 1348 (reduced by 75, 5.3%)
+prim37.txt: run=5 elapsed=2.26s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=48.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=46.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-2.00
+  words: 1419 -> 1308 (reduced by 111, 7.8%)
+prim38.txt: run=5 elapsed=1.57s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=36.00
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=34.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-2.00
+  words: 1144 -> 1075 (reduced by 69, 6.0%)
+prim39.txt: run=5 elapsed=1.43s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=33.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=33.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 1116 -> 1068 (reduced by 48, 4.3%)
+prim4.txt: run=5 elapsed=1.95s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=42.01
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=42.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.01
+  words: 1860 -> 1794 (reduced by 66, 3.5%)
+prim40.txt: run=5 elapsed=1.83s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=58.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=57.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-1.00
+  words: 1720 -> 1681 (reduced by 39, 2.3%)
+prim41.txt: run=5 elapsed=1.91s
+  original transcript -> soap: transcript->soap=5.03 soap->transcript=43.00
+  condensed transcript -> soap: transcript->soap=5.03 soap->transcript=43.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 1826 -> 1779 (reduced by 47, 2.6%)
+prim42.txt: run=5 elapsed=1.84s
+  original transcript -> soap: transcript->soap=2.32 soap->transcript=66.00
+  condensed transcript -> soap: transcript->soap=2.41 soap->transcript=65.00
+  diff (condensed - original): transcript->soap=0.09 soap->transcript=-1.00
+  words: 1940 -> 1909 (reduced by 31, 1.6%)
+prim43.txt: run=5 elapsed=2.24s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=33.04
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=33.01
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.04
+  words: 1961 -> 1883 (reduced by 78, 4.0%)
+prim44.txt: run=5 elapsed=1.89s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=44.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=44.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.00
+  words: 1887 -> 1875 (reduced by 12, 0.6%)
+prim45.txt: run=5 elapsed=2.19s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=54.00
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=53.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-1.00
+  words: 1893 -> 1862 (reduced by 31, 1.6%)
+prim46.txt: run=5 elapsed=1.63s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=36.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=35.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-1.00
+  words: 1380 -> 1316 (reduced by 64, 4.6%)
+prim47.txt: run=5 elapsed=1.65s
+  original transcript -> soap: transcript->soap=2.00 soap->transcript=10.07
+  condensed transcript -> soap: transcript->soap=2.00 soap->transcript=10.09
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.02
+  words: 1231 -> 1163 (reduced by 68, 5.5%)
+prim48.txt: run=5 elapsed=2.01s
+  original transcript -> soap: transcript->soap=6.00 soap->transcript=62.00
+  condensed transcript -> soap: transcript->soap=6.00 soap->transcript=62.01
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.00
+  words: 2519 -> 2491 (reduced by 28, 1.1%)
+prim49.txt: run=5 elapsed=2.10s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=44.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=43.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-1.00
+  words: 1454 -> 1364 (reduced by 90, 6.2%)
+prim5.txt: run=5 elapsed=1.79s
+  original transcript -> soap: transcript->soap=6.00 soap->transcript=40.00
+  condensed transcript -> soap: transcript->soap=6.00 soap->transcript=40.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1784 -> 1757 (reduced by 27, 1.5%)
+prim50.txt: run=5 elapsed=1.42s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=22.08
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=22.03
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-0.05
+  words: 1066 -> 984 (reduced by 82, 7.7%)
+prim51.txt: run=5 elapsed=1.85s
+  original transcript -> soap: transcript->soap=3.01 soap->transcript=51.00
+  condensed transcript -> soap: transcript->soap=3.01 soap->transcript=50.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-1.00
+  words: 1687 -> 1625 (reduced by 62, 3.7%)
+prim52.txt: run=5 elapsed=1.52s
+  original transcript -> soap: transcript->soap=4.02 soap->transcript=37.00
+  condensed transcript -> soap: transcript->soap=4.01 soap->transcript=35.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-2.00
+  words: 1380 -> 1351 (reduced by 29, 2.1%)
+prim53.txt: run=5 elapsed=1.76s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=34.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=34.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-0.00
+  words: 1453 -> 1380 (reduced by 73, 5.0%)
+prim54.txt: run=5 elapsed=1.52s
+  original transcript -> soap: transcript->soap=7.00 soap->transcript=38.04
+  condensed transcript -> soap: transcript->soap=7.00 soap->transcript=36.02
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-2.02
+  words: 1530 -> 1465 (reduced by 65, 4.2%)
+prim55.txt: run=5 elapsed=1.88s
+  original transcript -> soap: transcript->soap=5.00 soap->transcript=44.00
+  condensed transcript -> soap: transcript->soap=5.00 soap->transcript=42.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-2.00
+  words: 1727 -> 1643 (reduced by 84, 4.9%)
+prim56.txt: run=5 elapsed=1.97s
+  original transcript -> soap: transcript->soap=7.00 soap->transcript=67.00
+  condensed transcript -> soap: transcript->soap=7.00 soap->transcript=65.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-2.00
+  words: 2133 -> 2058 (reduced by 75, 3.5%)
+prim57.txt: run=5 elapsed=1.17s
+  original transcript -> soap: transcript->soap=3.02 soap->transcript=21.37
+  condensed transcript -> soap: transcript->soap=3.02 soap->transcript=21.39
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.02
+  words: 909 -> 830 (reduced by 79, 8.7%)
+prim6.txt: run=5 elapsed=2.29s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=60.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=59.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=-1.00
+  words: 2044 -> 2004 (reduced by 40, 2.0%)
+prim7.txt: run=5 elapsed=3.04s
+  original transcript -> soap: transcript->soap=4.00 soap->transcript=56.00
+  condensed transcript -> soap: transcript->soap=4.00 soap->transcript=55.00
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=-1.00
+  words: 2999 -> 2898 (reduced by 101, 3.4%)
+prim8.txt: run=5 elapsed=1.72s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=34.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=34.00
+  diff (condensed - original): transcript->soap=0.00 soap->transcript=0.00
+  words: 1330 -> 1297 (reduced by 33, 2.5%)
+prim9.txt: run=5 elapsed=1.66s
+  original transcript -> soap: transcript->soap=3.00 soap->transcript=34.00
+  condensed transcript -> soap: transcript->soap=3.00 soap->transcript=34.01
+  diff (condensed - original): transcript->soap=-0.00 soap->transcript=0.00
+  words: 1736 -> 1701 (reduced by 35, 2.0%)
+[run 5] avg_elapsed=1.80s avg_diff_transcript_to_soap=0.01 avg_diff_soap_to_transcript=-0.52 avg_percent_reduced=3.52
+
+=== SciSpacyCondenser Results ===
+Files processed: 285
+Average elapsed time: 1.68s
+Average Original omission (transcript->soap): 4.45
+Average Original omission (soap->transcript): 45.17
+Average Condensed omission (transcript->soap): 4.45
+Average Condensed omission (soap->transcript): 44.65
+Average Difference (transcript->soap): 0.01
+Average Difference (soap->transcript): -0.52
+Average Original word count: 1656.05
+Average Condensed word count: 1601.30
+Average Words reduced: 54.75
+Average Percent reduced: 3.52

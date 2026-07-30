@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 
 sys.path.insert(0, "Medical condensor")
 
+from base import clean_transcript
 from evaluate import NlpEvaluate
 
 TRANSCRIPT_DIR = "prim57/cleaned transcripts"
@@ -122,7 +123,7 @@ def main(limit=None):
         for run in range(1, RUNS_PER_MODULE + 1):
             for i in range(file_count):
                 filename = transcript_files[i]
-                transcript = read_file(TRANSCRIPT_DIR, filename)
+                transcript = clean_transcript(read_file(TRANSCRIPT_DIR, filename))
                 soap_ground = read_file(SOAP_GROUND_DIR, filename)
 
                 condensed, elapsed = module.condense(transcript)
