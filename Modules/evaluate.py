@@ -2,6 +2,71 @@ import json
 import os
 from datetime import datetime
 
+import torch
+import torch.nn.functional as F
+from transformers import AutoModel, AutoTokenizer
+
+# Omission-type predictions are literal TRANSCRIPT sentences (conversational),
+# but omission labels' "detail" text is a literal GROUND-TRUTH-NOTE sentence
+# (clinical shorthand) -- confirmed by direct inspection of prim1/prim2/prim10's
+# labels against their source transcripts. These two phrasings almost never
+# substring-match even when they describe the same fact, so omission recall
+# would look structurally near-zero regardless of model quality. Hallucination
+# labels don't have this problem (insertion-type "detail" text embeds the exact
+# inserted sentence verbatim), so only omission-type comparisons fall back to
+# embedding similarity -- deliberately not using AlignScore/SummaC/FactKB
+# themselves as the similarity judge, since that would bias the comparison
+# toward whichever checker's own scoring style happens to resemble its output.
+#
+# A first attempt used mean-pooled GloVe vectors (gensim's glove-wiki-gigaword-100)
+# -- verified empirically on the real "LLQ pain" label from prim1.txt and found to
+# NOT work: an unrelated sentence scored HIGHER (0.571) than 3 of 4 genuinely
+# relevant transcript sentences (0.454-0.549), because "LLQ" itself isn't in
+# GloVe's general web-crawl vocabulary, so the comparison degraded into generic
+# word-soup matching on "pain"/"radiation" alone. Switched to a real sentence-
+# embedding model (contrastively fine-tuned for semantic similarity, unlike plain
+# word-vector averaging) -- re-verified on the same real example: 3 of 4 relevant
+# sentences scored 0.19-0.37, both unrelated controls scored 0.06-0.13, a clean
+# separation the GloVe approach never produced. Loaded via plain transformers
+# (not the sentence-transformers package) since transformers is already a
+# dependency here -- avoids adding a new package to an already dependency-heavy env.
+EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
+# Conservative given the small validation sample above (one label, six candidate
+# sentences) -- recalibrate once real omission-matching data is visible at scale.
+OMISSION_SIMILARITY_THRESHOLD = 0.15
+
+_tokenizer = None
+_embed_model = None
+
+
+def _get_embed_model():
+    global _tokenizer, _embed_model
+    if _embed_model is None:
+        _tokenizer = AutoTokenizer.from_pretrained(EMBEDDING_MODEL_NAME)
+        _embed_model = AutoModel.from_pretrained(EMBEDDING_MODEL_NAME)
+        _embed_model.eval()
+    return _tokenizer, _embed_model
+
+
+def _sentence_vector(text):
+    """Mean-pooled, L2-normalized sentence embedding for text."""
+    tokenizer, model = _get_embed_model()
+    encoded = tokenizer([text], padding=True, truncation=True, return_tensors="pt")
+    with torch.no_grad():
+        output = model(**encoded)
+    token_embeddings = output[0]
+    mask = encoded["attention_mask"].unsqueeze(-1).expand(token_embeddings.size()).float()
+    summed = torch.sum(token_embeddings * mask, dim=1)
+    counts = torch.clamp(mask.sum(dim=1), min=1e-9)
+    pooled = summed / counts
+    return F.normalize(pooled, p=2, dim=1)[0]
+
+
+def _cosine_similarity(vec_a, vec_b):
+    if vec_a is None or vec_b is None:
+        return 0.0
+    return float(torch.dot(vec_a, vec_b))
+
 
 class Evaluate:
     """Compares predicted errors against ground-truth Labels and tracks precision/recall/F1/accuracy.
@@ -38,8 +103,12 @@ class Evaluate:
         run: which repeat of the run this came from, if tracking multiple runs.
 
         A prediction counts as a true positive if its type matches a not-yet-matched
-        ground-truth error of the same type and the error text overlaps (case-insensitive).
-        Stores the per-file result and returns it.
+        ground-truth error of the same type, and either the error text overlaps
+        (case-insensitive substring) or -- for omission-type predictions only,
+        since their text is in a different register than the label's "detail"
+        text (see module docstring above) -- their GloVe sentence embeddings are
+        at least OMISSION_SIMILARITY_THRESHOLD cosine-similar. Stores the
+        per-file result and returns it.
         """
         true_errors = self._load_labels(filename)
 
@@ -59,7 +128,7 @@ class Evaluate:
             for i, (a_type, a_error) in enumerate(actual):
                 if matched_actual[i]:
                     continue
-                if p_type == a_type and (p_error == a_error or p_error in a_error or a_error in p_error):
+                if p_type == a_type and self._texts_match(p_type, p_error, a_error):
                     matched_actual[i] = True
                     match_found = True
                     break
@@ -86,6 +155,15 @@ class Evaluate:
         self.write_json()
 
         return record
+
+    @staticmethod
+    def _texts_match(p_type, p_error, a_error):
+        if p_error == a_error or p_error in a_error or a_error in p_error:
+            return True
+        if p_type != "omission":
+            return False
+        similarity = _cosine_similarity(_sentence_vector(p_error), _sentence_vector(a_error))
+        return similarity >= OMISSION_SIMILARITY_THRESHOLD
 
     def checkpoint_run(self, run):
         """Averages every record from this run and stores/logs the snapshot.

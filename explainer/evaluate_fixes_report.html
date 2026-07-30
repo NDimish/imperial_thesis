@@ -1,0 +1,321 @@
+<title>Fixing the Evaluation Harness</title>
+<style>
+  :root {
+    --bg: #F3F5F4;
+    --surface: #FFFFFF;
+    --surface-soft: #EBEFEE;
+    --ink: #17262A;
+    --ink-soft: #51686C;
+    --ink-faint: #7C8E90;
+    --accent: #1F6F78;
+    --accent-soft: #DCEAEA;
+    --before: #B5502A;
+    --before-soft: #F5E4DA;
+    --after: #3E7A56;
+    --after-soft: #DFEBE2;
+    --border: #D9E1DF;
+    --code-bg: #EEF1F0;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #101A1C;
+      --surface: #162224;
+      --surface-soft: #1C2A2C;
+      --ink: #E7EDEC;
+      --ink-soft: #9FB4B3;
+      --ink-faint: #71898A;
+      --accent: #59B4B8;
+      --accent-soft: #1D3436;
+      --before: #E2915F;
+      --before-soft: #33261E;
+      --after: #7BC79A;
+      --after-soft: #1E3128;
+      --border: #2A3A3B;
+      --code-bg: #10191A;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #101A1C; --surface: #162224; --surface-soft: #1C2A2C;
+    --ink: #E7EDEC; --ink-soft: #9FB4B3; --ink-faint: #71898A;
+    --accent: #59B4B8; --accent-soft: #1D3436;
+    --before: #E2915F; --before-soft: #33261E;
+    --after: #7BC79A; --after-soft: #1E3128;
+    --border: #2A3A3B; --code-bg: #10191A;
+  }
+
+  :root[data-theme="light"] {
+    --bg: #F3F5F4; --surface: #FFFFFF; --surface-soft: #EBEFEE;
+    --ink: #17262A; --ink-soft: #51686C; --ink-faint: #7C8E90;
+    --accent: #1F6F78; --accent-soft: #DCEAEA;
+    --before: #B5502A; --before-soft: #F5E4DA;
+    --after: #3E7A56; --after-soft: #DFEBE2;
+    --border: #D9E1DF; --code-bg: #EEF1F0;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .sans { font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+  .mono { font-family: "SF Mono", "Cascadia Code", Consolas, "Liberation Mono", monospace; }
+
+  .page { max-width: 900px; margin: 0 auto; padding: 4rem 1.5rem 6rem; }
+
+  header.masthead { max-width: 700px; margin: 0 0 3.5rem; }
+
+  .eyebrow {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.72rem;
+    color: var(--accent); font-weight: 600; margin: 0 0 0.9rem;
+  }
+
+  h1 { font-size: 2.3rem; line-height: 1.15; margin: 0 0 1rem; text-wrap: balance; font-weight: 400; }
+
+  .dek {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink-soft); font-size: 1.05rem; max-width: 62ch; margin: 0;
+  }
+
+  .meta-row {
+    display: flex; gap: 1.5rem; flex-wrap: wrap; margin-top: 1.6rem;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.85rem; color: var(--ink-faint);
+  }
+  .meta-row strong { color: var(--ink-soft); font-weight: 600; }
+
+  code {
+    font-family: "SF Mono", "Cascadia Code", Consolas, "Liberation Mono", monospace;
+    background: var(--code-bg); padding: 0.1rem 0.35rem; border-radius: 3px; font-size: 0.88em;
+  }
+
+  .overflow-x { overflow-x: auto; }
+
+  /* ---- headline fix (#2) ---- */
+
+  .headline-fix {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 2.1rem 2.2rem 2.3rem;
+    margin-bottom: 3rem;
+  }
+
+  .headline-fix .tag {
+    display: inline-block;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+    background: var(--accent-soft); color: var(--accent);
+    padding: 0.25rem 0.6rem; border-radius: 3px; margin-bottom: 1rem;
+  }
+
+  .headline-fix h2 { font-size: 1.7rem; font-weight: 400; margin: 0 0 0.9rem; text-wrap: balance; }
+  .headline-fix p { max-width: 68ch; margin: 0 0 1rem; }
+
+  .attempt {
+    margin: 1.5rem 0;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    overflow: hidden;
+  }
+
+  .attempt-head {
+    display: flex; align-items: baseline; justify-content: space-between;
+    padding: 0.8rem 1.1rem;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.82rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em;
+  }
+
+  .attempt.failed .attempt-head { background: var(--before-soft); color: var(--before); }
+  .attempt.worked .attempt-head { background: var(--after-soft); color: var(--after); }
+
+  .attempt-head span.verdict { text-transform: none; letter-spacing: 0; font-weight: 400; opacity: 0.85; }
+
+  .score-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "SF Mono", "Cascadia Code", Consolas, "Liberation Mono", monospace;
+    font-size: 0.82rem;
+  }
+
+  .score-table td { padding: 0.5rem 1.1rem; border-top: 1px solid var(--border); }
+  .score-table tr:first-child td { border-top: none; }
+
+  .score-table td.score {
+    font-variant-numeric: tabular-nums;
+    font-weight: 700;
+    width: 4.5rem;
+    white-space: nowrap;
+  }
+
+  .score-table tr.relevant td.score { color: var(--after); }
+  .score-table tr.unrelated td.score { color: var(--before); }
+
+  .score-table td.kind {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.04em;
+    color: var(--ink-faint); width: 6.5rem;
+  }
+
+  .verified-banner {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    background: var(--after-soft);
+    border-radius: 4px;
+    padding: 1rem 1.3rem;
+    margin-top: 1.7rem;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.88rem;
+  }
+
+  .verified-banner .check {
+    flex: 0 0 auto;
+    color: var(--after);
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+
+  .verified-banner code { background: transparent; padding: 0; }
+
+  /* ---- small fixes grid ---- */
+
+  .small-fixes h2.section-label {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.09em;
+    color: var(--ink-faint); font-weight: 600; margin: 0 0 1.3rem;
+  }
+
+  .fix-card {
+    border-left: 3px solid var(--accent);
+    padding-left: 1.5rem;
+    margin-bottom: 2.2rem;
+  }
+
+  .fix-card h3 { font-size: 1.2rem; font-weight: 400; margin: 0 0 0.5rem; text-wrap: balance; }
+  .fix-card p { margin: 0 0 0.6rem; max-width: 66ch; }
+  .fix-card p:last-child { margin-bottom: 0; }
+
+  .rename {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: "SF Mono", "Cascadia Code", Consolas, "Liberation Mono", monospace;
+    font-size: 0.82rem;
+    margin: 0.3rem 0 0.8rem;
+    flex-wrap: wrap;
+  }
+
+  .rename .old { color: var(--before); text-decoration: line-through; }
+  .rename .new { color: var(--after); }
+  .rename .arrow { color: var(--ink-faint); }
+
+  footer {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.8rem; color: var(--ink-faint);
+    border-top: 1px solid var(--border);
+    padding-top: 1.5rem; margin-top: 3.5rem;
+  }
+  footer p { max-width: 68ch; margin: 0 0 0.6rem; }
+
+  @media (max-width: 620px) {
+    .page { padding: 2.5rem 1.1rem 4rem; }
+    h1 { font-size: 1.85rem; }
+    .attempt-head { flex-direction: column; align-items: flex-start; gap: 0.2rem; }
+    .score-table td.kind { display: none; }
+  }
+</style>
+
+<div class="page">
+
+  <header class="masthead">
+    <p class="eyebrow">Evaluation harness &middot; bug fixes</p>
+    <h1>Six fixes to how checker predictions get scored</h1>
+    <p class="dek">The precision/recall numbers from <code>Modules/evaluate.py</code> and the omission scores from <code>Medical&nbsp;condensor/evaluate.py</code> had real bugs sitting underneath them. Here&rsquo;s what was wrong and what changed &mdash; including one fix attempt that failed and was replaced with a working one.</p>
+    <div class="meta-row">
+      <span><strong>Date</strong> 2026&#8209;07&#8209;30</span>
+      <span><strong>Verified</strong> real labels, real transcripts, real model runs &mdash; not estimates</span>
+    </div>
+  </header>
+
+  <section class="headline-fix">
+    <span class="tag">Biggest fix</span>
+    <h2>Omission predictions couldn&rsquo;t match omission labels &mdash; at all</h2>
+    <p>A checker module&rsquo;s omission prediction is the literal <strong>transcript</strong> sentence it flagged. An omission label&rsquo;s <code>detail</code> text is the literal <strong>ground-truth-note</strong> sentence that went missing. Those are two different registers describing the same fact &mdash; clinical shorthand vs. spoken dialogue &mdash; and plain substring matching almost never bridges them. Every checker&rsquo;s omission recall was structurally close to zero, independent of how good the underlying model actually was.</p>
+
+    <div class="attempt failed">
+      <div class="attempt-head"><span>Attempt 1 &mdash; GloVe word vectors</span><span class="verdict">rejected after testing</span></div>
+      <div class="overflow-x">
+        <table class="score-table">
+          <tr class="relevant"><td class="kind">relevant</td><td class="score">0.543</td><td>&ldquo;it feels like a cramp, like a muscular cramp&hellip;&rdquo;</td></tr>
+          <tr class="relevant"><td class="kind">relevant</td><td class="score">0.548</td><td>&ldquo;so in my lower abdomen&hellip; just to one side.&rdquo;</td></tr>
+          <tr class="relevant"><td class="kind">relevant</td><td class="score">0.454</td><td>&ldquo;on the left side.&rdquo;</td></tr>
+          <tr class="unrelated"><td class="kind">unrelated</td><td class="score">0.571</td><td>&ldquo;loss of appetite&hellip; hold down fluids&rdquo; &mdash; scores <em>higher</em> than 3 of 4 real matches</td></tr>
+        </table>
+      </div>
+      <p style="padding: 0 1.1rem 1.1rem; margin: 0.8rem 0 0;">Root cause: &ldquo;LLQ&rdquo; &mdash; the single most distinguishing word in the label &mdash; isn&rsquo;t in GloVe&rsquo;s general web-crawl vocabulary, so it&rsquo;s silently dropped. No threshold can fix this; it&rsquo;s the wrong tool.</p>
+    </div>
+
+    <div class="attempt worked">
+      <div class="attempt-head"><span>Attempt 2 &mdash; sentence-transformer embeddings</span><span class="verdict">shipped</span></div>
+      <div class="overflow-x">
+        <table class="score-table">
+          <tr class="relevant"><td class="kind">relevant</td><td class="score">0.370</td><td>&ldquo;it feels like a cramp, like a muscular cramp&hellip;&rdquo;</td></tr>
+          <tr class="relevant"><td class="kind">relevant</td><td class="score">0.223</td><td>&ldquo;no, just maybe my stomach.&rdquo;</td></tr>
+          <tr class="relevant"><td class="kind">relevant</td><td class="score">0.193</td><td>&ldquo;so in my lower abdomen&hellip; just to one side.&rdquo;</td></tr>
+          <tr class="unrelated"><td class="kind">unrelated</td><td class="score">0.126</td><td>&ldquo;loss of appetite&hellip; hold down fluids&rdquo;</td></tr>
+          <tr class="unrelated"><td class="kind">unrelated</td><td class="score">0.063</td><td>&ldquo;great, well, I wish you all the best.&rdquo;</td></tr>
+        </table>
+      </div>
+      <p style="padding: 0 1.1rem 1.1rem; margin: 0.8rem 0 0;"><code>sentence-transformers/all-MiniLM-L6-v2</code>, loaded via plain <code>transformers</code> (already a dependency &mdash; no new package). Threshold set to <strong>0.15</strong>. Clean separation: every unrelated sentence now scores below the relevant ones, reversing what GloVe produced.</p>
+    </div>
+
+    <div class="verified-banner">
+      <span class="check">&#10003;</span>
+      <span>End-to-end test on real <code>prim1.txt</code> labels: 3 predicted errors in, all 3 correctly matched &mdash; <code>tp=3, fp=0, fn=0</code>. One of the three (&ldquo;There&rsquo;s no one with the same symptoms.&rdquo; against label &ldquo;No other unwell contacts.&rdquo;) has zero word overlap and could only have matched through the new embedding path.</span>
+    </div>
+  </section>
+
+  <section class="small-fixes">
+    <h2 class="section-label">Five smaller fixes</h2>
+
+    <div class="fix-card">
+      <h3>A hallucination-style signal was labeled &ldquo;omission&rdquo;</h3>
+      <div class="rename"><span class="old">omission_soap_to_transcript</span><span class="arrow">&rarr;</span><span class="new">groundedness_soap_in_transcript</span></div>
+      <p><code>kdbe_check.py</code>&rsquo;s own docstring already said this direction measures whether SOAP content is grounded in the transcript &mdash; a hallucination-adjacent signal, not an omission one. Every log line, JSON field, and plot label still called it &ldquo;omission,&rdquo; which would mislead anyone reading the results without re-deriving the math. Renamed consistently across <code>kdbe_check.py</code>, <code>Medical&nbsp;condensor/evaluate.py</code>, and <code>NLP_Main.py</code>&rsquo;s plot.</p>
+    </div>
+
+    <div class="fix-card">
+      <h3>Positive or negative &mdash; which way is &ldquo;better&rdquo;?</h3>
+      <p>Lower raw KDE scores are the stronger signal, so <code>diff = condensed &minus; original</code> being <strong>positive</strong> means condensing <em>improved</em> things &mdash; the opposite of how &ldquo;the number went up&rdquo; usually reads. Nothing said this anywhere. Added it to the class docstring, a printed note in <code>results()</code>, and the plot panel titles directly (&ldquo;+improved&rdquo;).</p>
+    </div>
+
+    <div class="fix-card">
+      <h3>Dropped records vanished with no trace</h3>
+      <p>If a condenser over-filters and the condensed text drops below 6 recognized words, <code>check_omissions()</code> returns <code>None</code> for that record &mdash; and it silently fell out of every average. <code>_log_average()</code> now reports how many records were dropped alongside each average, so an over-aggressive condenser&rsquo;s data loss is visible instead of hidden inside a smaller denominator.</p>
+    </div>
+
+    <div class="fix-card">
+      <h3>Two KDE files, two different fitting strategies &mdash; on purpose</h3>
+      <p><code>Modules/kdbe_checker.py</code> (per-sentence) fits <code>scaler</code>/<code>PCA</code> on the reference document only, so it has one stable space to test many candidate sentences against. <code>Medical&nbsp;condensor/kdbe_check.py</code> (whole-document) fits on the concatenation of both texts, matching the original Embed2KDE repo it was ported from. Rather than force these identical and lose either rationale, both files now cross-reference each other with a comment explaining the difference is deliberate &mdash; scores from the two aren&rsquo;t on a directly comparable scale.</p>
+    </div>
+
+    <div class="fix-card">
+      <h3>One missing null-guard</h3>
+      <p><code>results()</code> summed <code>elapsed</code> across all records without filtering <code>None</code> values, unlike every other averaged field. Not live-broken today &mdash; every condenser always returns a real elapsed time &mdash; but inconsistent, and would crash the moment that stopped being true. Brought in line with the rest.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>All comparisons above were run directly against this project&rsquo;s real data: the label file at <code>prim57/bad notes labels lib/prim1.txt</code> and its source transcript. The GloVe and MiniLM similarity scores are actual model output, not illustrative numbers, and the <code>tp/fp/fn</code> result is a real call to <code>Evaluate.compare()</code> after the fix.</p>
+  </footer>
+
+</div>

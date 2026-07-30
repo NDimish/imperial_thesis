@@ -10,11 +10,23 @@ from kdbe_check import check_omissions
 class NlpEvaluate:
     """Tracks condenser-module runs: scores both the original (un-condensed) transcript
     and the condensed transcript against the ground-truth SOAP note via KDE-based
-    omission checking, and logs the result plus the difference between them.
+    scoring, and logs the result plus the difference between them.
 
     Unlike Modules/evaluate.py, there's no sentence-level ground truth for "was
-    fluff correctly removed" -- this tracks the raw KDE omission scores and elapsed
-    time per file instead of precision/recall.
+    fluff correctly removed" -- this tracks the raw KDE scores and elapsed time per
+    file instead of precision/recall.
+
+    Two directions are tracked, and they are NOT the same kind of signal:
+      - transcript_to_soap: the genuine omission direction (does the SOAP note
+        cover the transcript's content).
+      - groundedness_soap_in_transcript: a hallucination-adjacent signal (is the
+        SOAP note's content grounded in the transcript) -- named for what it
+        actually measures rather than reusing "omission" for both directions.
+
+    For both diff_* fields (condensed - original): LOWER raw scores are the
+    stronger signal (see kdbe_check.py), so a POSITIVE diff means condensing
+    IMPROVED that direction (reduced the signal), and a NEGATIVE diff means it
+    got WORSE -- the opposite of the usual "a bigger number is worse" reading.
 
     Every individual record is kept (and persisted to JSON) regardless of run.
     A checkpoint -- one averaged snapshot -- is taken once per run via
@@ -40,6 +52,12 @@ class NlpEvaluate:
     def record(self, filename, transcript, condensed_transcript, soap_ground, elapsed, run=None):
         """Scores both transcript and condensed_transcript against soap_ground, logs
         both plus the difference (condensed - original) per direction, and stores it.
+
+        If either side has too few recognized words to score (see
+        kdbe_check.check_omissions), that direction's scores/diff are recorded as
+        None rather than silently dropped -- results() reports how often this
+        happens per field so a condenser that over-filters doesn't lose data
+        unnoticed.
         """
         original_scores = check_omissions(transcript, soap_ground)
         condensed_scores = check_omissions(condensed_transcript, soap_ground)
@@ -47,8 +65,8 @@ class NlpEvaluate:
         diff_transcript_to_soap = self._diff(
             condensed_scores["omission_transcript_to_soap"], original_scores["omission_transcript_to_soap"]
         )
-        diff_soap_to_transcript = self._diff(
-            condensed_scores["omission_soap_to_transcript"], original_scores["omission_soap_to_transcript"]
+        diff_groundedness_soap_in_transcript = self._diff(
+            condensed_scores["groundedness_soap_in_transcript"], original_scores["groundedness_soap_in_transcript"]
         )
 
         original_word_count = len(transcript.split())
@@ -62,11 +80,11 @@ class NlpEvaluate:
             "filename": filename,
             "elapsed": elapsed,
             "original_transcript_to_soap": original_scores["omission_transcript_to_soap"],
-            "original_soap_to_transcript": original_scores["omission_soap_to_transcript"],
+            "original_groundedness_soap_in_transcript": original_scores["groundedness_soap_in_transcript"],
             "condensed_transcript_to_soap": condensed_scores["omission_transcript_to_soap"],
-            "condensed_soap_to_transcript": condensed_scores["omission_soap_to_transcript"],
+            "condensed_groundedness_soap_in_transcript": condensed_scores["groundedness_soap_in_transcript"],
             "diff_transcript_to_soap": diff_transcript_to_soap,
-            "diff_soap_to_transcript": diff_soap_to_transcript,
+            "diff_groundedness_soap_in_transcript": diff_groundedness_soap_in_transcript,
             "original_word_count": original_word_count,
             "condensed_word_count": condensed_word_count,
             "words_reduced": words_reduced,
@@ -77,12 +95,13 @@ class NlpEvaluate:
 
         self._log_(
             f"{filename}: run={run} elapsed={elapsed:.2f}s\n"
-            f"  original transcript -> soap: transcript->soap={self._fmt(original_scores['omission_transcript_to_soap'])} "
-            f"soap->transcript={self._fmt(original_scores['omission_soap_to_transcript'])}\n"
-            f"  condensed transcript -> soap: transcript->soap={self._fmt(condensed_scores['omission_transcript_to_soap'])} "
-            f"soap->transcript={self._fmt(condensed_scores['omission_soap_to_transcript'])}\n"
-            f"  diff (condensed - original): transcript->soap={self._fmt(diff_transcript_to_soap)} "
-            f"soap->transcript={self._fmt(diff_soap_to_transcript)}\n"
+            f"  original  -- omission(transcript->soap)={self._fmt(original_scores['omission_transcript_to_soap'])} "
+            f"groundedness(soap->transcript)={self._fmt(original_scores['groundedness_soap_in_transcript'])}\n"
+            f"  condensed -- omission(transcript->soap)={self._fmt(condensed_scores['omission_transcript_to_soap'])} "
+            f"groundedness(soap->transcript)={self._fmt(condensed_scores['groundedness_soap_in_transcript'])}\n"
+            f"  diff (condensed - original, positive = improved) -- "
+            f"omission(transcript->soap)={self._fmt(diff_transcript_to_soap)} "
+            f"groundedness(soap->transcript)={self._fmt(diff_groundedness_soap_in_transcript)}\n"
             f"  words: {original_word_count} -> {condensed_word_count} "
             f"(reduced by {words_reduced}, {percent_reduced:.1f}%)"
         )
@@ -108,11 +127,11 @@ class NlpEvaluate:
         for key in (
             "elapsed",
             "original_transcript_to_soap",
-            "original_soap_to_transcript",
+            "original_groundedness_soap_in_transcript",
             "condensed_transcript_to_soap",
-            "condensed_soap_to_transcript",
+            "condensed_groundedness_soap_in_transcript",
             "diff_transcript_to_soap",
-            "diff_soap_to_transcript",
+            "diff_groundedness_soap_in_transcript",
             "words_reduced",
             "percent_reduced",
         ):
@@ -125,7 +144,7 @@ class NlpEvaluate:
         self._log_(
             f"[run {run}] avg_elapsed={self._fmt(checkpoint['avg_elapsed'])}s "
             f"avg_diff_transcript_to_soap={self._fmt(checkpoint['avg_diff_transcript_to_soap'])} "
-            f"avg_diff_soap_to_transcript={self._fmt(checkpoint['avg_diff_soap_to_transcript'])} "
+            f"avg_diff_groundedness_soap_in_transcript={self._fmt(checkpoint['avg_diff_groundedness_soap_in_transcript'])} "
             f"avg_percent_reduced={self._fmt(checkpoint['avg_percent_reduced'])}"
         )
         return checkpoint
@@ -138,23 +157,35 @@ class NlpEvaluate:
 
     def results(self):
         """Prints/logs a summary: average elapsed time and average scores for the
-        original transcript, the condensed transcript, and the difference between them."""
+        original transcript, the condensed transcript, and the difference between them.
+
+        Any field with one or more None values (too few recognized words to score --
+        see check_omissions) gets its drop count reported alongside its average, so
+        an over-aggressive condenser's data loss doesn't pass unnoticed.
+        """
         if not self._records:
             self._log_("No results to show.")
             return
 
         self._log_(f"\n=== {self._module_name} Results ===")
 
-        avg_elapsed = sum(r["elapsed"] for r in self._records) / len(self._records)
+        elapsed_values = [r["elapsed"] for r in self._records if r.get("elapsed") is not None]
+        avg_elapsed = (sum(elapsed_values) / len(elapsed_values)) if elapsed_values else None
         self._log_(f"Files processed: {len(self._records)}")
-        self._log_(f"Average elapsed time: {avg_elapsed:.2f}s")
+        self._log_(f"Average elapsed time: {self._fmt(avg_elapsed)}s")
+
+        self._log_(
+            "Note: diff_* is (condensed - original); positive means condensing "
+            "IMPROVED that direction (lower raw scores are the stronger signal), "
+            "negative means it got worse."
+        )
 
         self._log_average("Original omission (transcript->soap)", "original_transcript_to_soap")
-        self._log_average("Original omission (soap->transcript)", "original_soap_to_transcript")
+        self._log_average("Original groundedness (soap->transcript)", "original_groundedness_soap_in_transcript")
         self._log_average("Condensed omission (transcript->soap)", "condensed_transcript_to_soap")
-        self._log_average("Condensed omission (soap->transcript)", "condensed_soap_to_transcript")
-        self._log_average("Difference (transcript->soap)", "diff_transcript_to_soap")
-        self._log_average("Difference (soap->transcript)", "diff_soap_to_transcript")
+        self._log_average("Condensed groundedness (soap->transcript)", "condensed_groundedness_soap_in_transcript")
+        self._log_average("Diff omission (transcript->soap)", "diff_transcript_to_soap")
+        self._log_average("Diff groundedness (soap->transcript)", "diff_groundedness_soap_in_transcript")
 
         self._log_average("Original word count", "original_word_count")
         self._log_average("Condensed word count", "condensed_word_count")
@@ -165,8 +196,12 @@ class NlpEvaluate:
 
     def _log_average(self, label, key):
         values = [r[key] for r in self._records if r.get(key) is not None]
+        dropped = len(self._records) - len(values)
+        drop_note = f" ({dropped} record(s) dropped -- too few recognized words)" if dropped else ""
         if values:
-            self._log_(f"Average {label}: {sum(values) / len(values):.2f}")
+            self._log_(f"Average {label}: {sum(values) / len(values):.2f}{drop_note}")
+        else:
+            self._log_(f"Average {label}: N/A{drop_note}")
 
     @staticmethod
     def _diff(condensed_value, original_value):

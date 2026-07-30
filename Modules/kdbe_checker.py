@@ -6,6 +6,13 @@ Unlike that whole-document version (one omission-style score per file), this fit
 KDE on the *reference* document once per direction, then scores each candidate
 sentence from the other document against it individually -- giving flaggable
 (type, sentence) pairs like the other 5 checker modules, instead of a bare score.
+
+Note on methodology: this fits scaler/PCA on the reference document only (needed
+to get one stable projection space to test many candidate sentences against
+efficiently), whereas kdbe_check.py fits on the concatenation of both documents
+(a one-shot symmetric comparison, matching the original Embed2KDE repo's own
+approach). This is a deliberate difference for each file's own use case, not an
+oversight -- scores from the two files aren't on directly comparable scales.
 """
 
 import re

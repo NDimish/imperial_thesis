@@ -1,0 +1,527 @@
+<title>Tuning the Condenser Modules</title>
+<style>
+  :root {
+    --bg: #F3F5F4;
+    --surface: #FFFFFF;
+    --surface-soft: #EBEFEE;
+    --ink: #17262A;
+    --ink-soft: #51686C;
+    --ink-faint: #7C8E90;
+    --accent: #1F6F78;
+    --accent-soft: #DCEAEA;
+    --before: #B5502A;
+    --before-soft: #F5E4DA;
+    --after: #3E7A56;
+    --after-soft: #DFEBE2;
+    --border: #D9E1DF;
+    --code-bg: #EEF1F0;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #101A1C;
+      --surface: #162224;
+      --surface-soft: #1C2A2C;
+      --ink: #E7EDEC;
+      --ink-soft: #9FB4B3;
+      --ink-faint: #71898A;
+      --accent: #59B4B8;
+      --accent-soft: #1D3436;
+      --before: #E2915F;
+      --before-soft: #33261E;
+      --after: #7BC79A;
+      --after-soft: #1E3128;
+      --border: #2A3A3B;
+      --code-bg: #10191A;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #101A1C;
+    --surface: #162224;
+    --surface-soft: #1C2A2C;
+    --ink: #E7EDEC;
+    --ink-soft: #9FB4B3;
+    --ink-faint: #71898A;
+    --accent: #59B4B8;
+    --accent-soft: #1D3436;
+    --before: #E2915F;
+    --before-soft: #33261E;
+    --after: #7BC79A;
+    --after-soft: #1E3128;
+    --border: #2A3A3B;
+    --code-bg: #10191A;
+  }
+
+  :root[data-theme="light"] {
+    --bg: #F3F5F4;
+    --surface: #FFFFFF;
+    --surface-soft: #EBEFEE;
+    --ink: #17262A;
+    --ink-soft: #51686C;
+    --ink-faint: #7C8E90;
+    --accent: #1F6F78;
+    --accent-soft: #DCEAEA;
+    --before: #B5502A;
+    --before-soft: #F5E4DA;
+    --after: #3E7A56;
+    --after-soft: #DFEBE2;
+    --border: #D9E1DF;
+    --code-bg: #EEF1F0;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .sans {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  .mono {
+    font-family: "SF Mono", "Cascadia Code", Consolas, "Liberation Mono", monospace;
+  }
+
+  .page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 6rem;
+  }
+
+  header.masthead {
+    max-width: 700px;
+    margin: 0 0 3.5rem;
+  }
+
+  .eyebrow {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.72rem;
+    color: var(--accent);
+    font-weight: 600;
+    margin: 0 0 0.9rem;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+    line-height: 1.15;
+    margin: 0 0 1rem;
+    text-wrap: balance;
+    font-weight: 400;
+  }
+
+  .dek {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink-soft);
+    font-size: 1.05rem;
+    max-width: 62ch;
+    margin: 0;
+  }
+
+  .meta-row {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-top: 1.6rem;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.85rem;
+    color: var(--ink-faint);
+  }
+
+  .meta-row strong {
+    color: var(--ink-soft);
+    font-weight: 600;
+  }
+
+  /* ---- summary comparison ---- */
+
+  section.summary {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 2rem 2.2rem 2.2rem;
+    margin-bottom: 3.5rem;
+  }
+
+  section.summary h2 {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 600;
+    color: var(--ink-soft);
+    margin: 0 0 1.6rem;
+  }
+
+  .legend {
+    display: flex;
+    gap: 1.6rem;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.82rem;
+    color: var(--ink-soft);
+    margin-bottom: 1.6rem;
+  }
+
+  .legend span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+  }
+
+  .swatch {
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 2px;
+    display: inline-block;
+  }
+
+  .swatch.before { background: var(--before); }
+  .swatch.after { background: var(--after); }
+
+  .bar-rows {
+    display: flex;
+    flex-direction: column;
+    gap: 1.35rem;
+  }
+
+  .bar-row {
+    display: grid;
+    grid-template-columns: 148px 1fr;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .bar-row .label {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.88rem;
+    font-weight: 600;
+  }
+
+  .bar-row .label .scope {
+    display: block;
+    font-weight: 400;
+    font-size: 0.72rem;
+    color: var(--ink-faint);
+    margin-top: 0.15rem;
+  }
+
+  .bar-track {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .bar {
+    position: relative;
+    height: 1.1rem;
+    border-radius: 3px;
+    background: var(--surface-soft);
+    overflow: hidden;
+  }
+
+  .bar-fill {
+    position: absolute;
+    inset: 0 auto 0 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+  }
+
+  .bar-fill.before { background: var(--before); }
+  .bar-fill.after { background: var(--after); }
+
+  .bar-fill .pct {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-variant-numeric: tabular-nums;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 0.5rem;
+    white-space: nowrap;
+  }
+
+  .summary-note {
+    margin-top: 1.8rem;
+    padding-top: 1.4rem;
+    border-top: 1px solid var(--border);
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+  }
+
+  /* ---- per-model sections ---- */
+
+  .model {
+    border-left: 3px solid var(--accent);
+    padding-left: 1.7rem;
+    margin-bottom: 3.2rem;
+  }
+
+  .model h2 {
+    font-size: 1.55rem;
+    font-weight: 400;
+    margin: 0 0 0.3rem;
+    text-wrap: balance;
+  }
+
+  .model .subtitle {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink-faint);
+    font-size: 0.88rem;
+    margin: 0 0 1.5rem;
+  }
+
+  .model h3 {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    font-size: 0.72rem;
+    font-weight: 700;
+    margin: 1.6rem 0 0.6rem;
+  }
+
+  .model h3.broken { color: var(--before); }
+  .model h3.fixed { color: var(--after); }
+
+  .model p {
+    margin: 0 0 0.9rem;
+    max-width: 66ch;
+  }
+
+  code {
+    font-family: "SF Mono", "Cascadia Code", Consolas, "Liberation Mono", monospace;
+    background: var(--code-bg);
+    padding: 0.1rem 0.35rem;
+    border-radius: 3px;
+    font-size: 0.88em;
+  }
+
+  .transcript {
+    margin: 0.9rem 0 0;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+    font-family: "SF Mono", "Cascadia Code", Consolas, "Liberation Mono", monospace;
+    font-size: 0.82rem;
+  }
+
+  .transcript .row {
+    display: flex;
+    gap: 0.9rem;
+    padding: 0.55rem 0.9rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .transcript .row:first-child { border-top: none; }
+
+  .transcript .row.dropped { background: var(--before-soft); }
+  .transcript .row.kept { background: var(--after-soft); }
+
+  .transcript .tag {
+    flex: 0 0 auto;
+    font-weight: 700;
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding-top: 0.15rem;
+  }
+
+  .transcript .row.dropped .tag { color: var(--before); }
+  .transcript .row.kept .tag { color: var(--after); }
+
+  .transcript .line {
+    color: var(--ink);
+    overflow-wrap: anywhere;
+  }
+
+  .transcript .speaker {
+    color: var(--ink-faint);
+  }
+
+  .overflow-x {
+    overflow-x: auto;
+  }
+
+  /* ---- universal fix callout ---- */
+
+  section.universal {
+    background: var(--accent-soft);
+    border-radius: 4px;
+    padding: 2rem 2.2rem;
+    margin: 3.5rem 0;
+  }
+
+  section.universal .eyebrow { margin-bottom: 0.7rem; }
+
+  section.universal h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0 0 0.9rem;
+    text-wrap: balance;
+  }
+
+  section.universal p {
+    max-width: 66ch;
+    margin: 0 0 0.9rem;
+  }
+
+  section.universal p:last-child { margin-bottom: 0; }
+
+  footer {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.8rem;
+    color: var(--ink-faint);
+    border-top: 1px solid var(--border);
+    padding-top: 1.5rem;
+    margin-top: 3rem;
+  }
+
+  footer p { max-width: 68ch; margin: 0 0 0.6rem; }
+
+  @media (max-width: 620px) {
+    .bar-row { grid-template-columns: 1fr; }
+    .page { padding: 2.5rem 1.1rem 4rem; }
+    h1 { font-size: 1.9rem; }
+  }
+</style>
+
+<div class="page">
+
+  <header class="masthead">
+    <p class="eyebrow">Medical condensor &middot; tuning pass</p>
+    <h1>Four condensers, one transcript, before and after</h1>
+    <p class="dek">Each module decides which turns of a doctor&ndash;patient transcript are clinically relevant enough to keep. This is what changed when three real bugs &mdash; not model quality &mdash; were found and fixed.</p>
+    <div class="meta-row">
+      <span><strong>Test file</strong> prim1.txt &middot; 109 turns</span>
+      <span><strong>Date</strong> 2026&#8209;07&#8209;30</span>
+      <span><strong>Status</strong> single-file spot check &mdash; full 57-file re-run pending</span>
+    </div>
+  </header>
+
+  <section class="summary">
+    <h2>Retained turns, before &amp; after</h2>
+    <div class="legend">
+      <span><span class="swatch before"></span> untuned</span>
+      <span><span class="swatch after"></span> tuned</span>
+    </div>
+    <div class="bar-rows">
+
+      <div class="bar-row">
+        <div class="label">Medspacy<span class="scope">rule-based target matcher</span></div>
+        <div class="bar-track">
+          <div class="bar"><div class="bar-fill before" style="width: 18%;"><span class="pct">18% &middot; 20/109</span></div></div>
+          <div class="bar"><div class="bar-fill after" style="width: 38%;"><span class="pct">38% &middot; 41/109</span></div></div>
+        </div>
+      </div>
+
+      <div class="bar-row">
+        <div class="label">SciSpacy<span class="scope">biomedical NER, 57-file avg. &rarr; this file</span></div>
+        <div class="bar-track">
+          <div class="bar"><div class="bar-fill before" style="width: 96%;"><span class="pct">~96% &middot; 57-file avg.</span></div></div>
+          <div class="bar"><div class="bar-fill after" style="width: 66%;"><span class="pct">66% &middot; 72/109</span></div></div>
+        </div>
+      </div>
+
+      <div class="bar-row">
+        <div class="label">Negspacy<span class="scope">NER + negation, 57-file avg. &rarr; this file</span></div>
+        <div class="bar-track">
+          <div class="bar"><div class="bar-fill before" style="width: 94%;"><span class="pct">~94% &middot; 57-file avg.</span></div></div>
+          <div class="bar"><div class="bar-fill after" style="width: 61%;"><span class="pct">61% &middot; 67/109</span></div></div>
+        </div>
+      </div>
+
+      <div class="bar-row">
+        <div class="label">QuickUMLS<span class="scope">fuzzy UMLS concept matcher</span></div>
+        <div class="bar-track">
+          <div class="bar"><div class="bar-fill before" style="width: 72%;"><span class="pct">72% &middot; 78/109</span></div></div>
+          <div class="bar"><div class="bar-fill after" style="width: 43%;"><span class="pct">43% &middot; 47/109</span></div></div>
+        </div>
+      </div>
+
+    </div>
+    <p class="summary-note">Lower isn&rsquo;t automatically better here &mdash; Medspacy&rsquo;s bar goes <em>up</em> because its untuned version was over-filtering, dropping real clinical content along with the fluff. What matters is precision, not just how much gets cut. See each module below for what specifically changed.</p>
+  </section>
+
+  <div class="model">
+    <h2>Medspacy</h2>
+    <p class="subtitle">Keeps a turn if it contains a hand-authored clinical target term</p>
+
+    <h3 class="broken">What was broken</h3>
+    <p>The target-rule list had only ~24 hand-typed terms &mdash; symptoms and conditions, but nothing for social history, diet/exposure, or the treatment plan. Any turn without one of those exact 24 words was discarded, including genuinely relevant content.</p>
+
+    <h3 class="fixed">What changed</h3>
+    <p>Expanded the list to ~60 terms across social history (smoking, alcohol), exposure history (takeaway, restaurant, travel), and plan/management language (review, recommend, analgesia, sample) &mdash; using regex patterns instead of exact strings so word families match without needing a full lemmatizer pipeline.</p>
+
+    <div class="transcript overflow-x">
+      <div class="row dropped"><span class="tag">Dropped&nbsp;before</span><span class="line"><span class="speaker">p:</span> Um, yeah, I ate at a Chinese restaurant with friends.</span></div>
+      <div class="row dropped"><span class="tag">Dropped&nbsp;before</span><span class="line"><span class="speaker">d:</span> Um, there are things like Dioralyte you can get from the pharmacy&hellip;</span></div>
+      <div class="row kept"><span class="tag">Kept&nbsp;after</span><span class="line"><span class="speaker">p:</span> Um, yeah, I ate at a Chinese restaurant with friends.</span></div>
+      <div class="row kept"><span class="tag">Kept&nbsp;after</span><span class="line"><span class="speaker">d:</span> Um, there are things like Dioralyte you can get from the pharmacy&hellip;</span></div>
+    </div>
+  </div>
+
+  <div class="model">
+    <h2>SciSpacy</h2>
+    <p class="subtitle">Keeps a turn if scispacy&rsquo;s biomedical NER finds any entity at all</p>
+
+    <h3 class="broken">What was broken</h3>
+    <p><code>en_core_sci_sm</code> exposes exactly one flat entity label &mdash; <code>ENTITY</code> &mdash; with no semantic type to filter on. Trained on formal scientific literature, it was tagging ordinary discourse markers as entities in spoken dialogue.</p>
+
+    <h3 class="fixed">What changed</h3>
+    <p>Added a shared denylist of confirmed false-positive spans and required at least one <em>non</em>-denylisted entity before a turn counts as clinical.</p>
+
+    <div class="transcript overflow-x">
+      <div class="row dropped"><span class="tag">False&nbsp;positive</span><span class="line"><span class="speaker">d:</span> &ldquo;Hello&rdquo; &middot; &ldquo;Yeah&rdquo; &middot; &ldquo;okay&rdquo; &middot; &ldquo;Good morning&rdquo; &middot; &ldquo;morning&rdquo; &mdash; all tagged ENTITY</span></div>
+      <div class="row dropped"><span class="tag">False&nbsp;positive</span><span class="line"><span class="speaker">d:</span> &ldquo;Great&rdquo; &middot; &ldquo;I wish&rdquo; &mdash; both tagged ENTITY, from &ldquo;Great. Well, I wish you all the best.&rdquo;</span></div>
+    </div>
+  </div>
+
+  <div class="model">
+    <h2>Negspacy</h2>
+    <p class="subtitle">Same scispacy NER, plus negation detection &mdash; keeps only un-negated entities</p>
+
+    <h3 class="broken">What was broken</h3>
+    <p>Identical root cause to SciSpacy: it inherits <code>en_core_sci_sm</code>&rsquo;s single flat label, so the negation layer was correctly checking whether a discourse marker was negated &mdash; a well-formed answer to the wrong question.</p>
+
+    <h3 class="fixed">What changed</h3>
+    <p>Same denylist, applied before the negation check: a turn is kept only if it has an un-negated entity that also isn&rsquo;t a known false positive.</p>
+  </div>
+
+  <div class="model">
+    <h2>QuickUMLS</h2>
+    <p class="subtitle">Fuzzy string matching against a 6.1M-term local UMLS index</p>
+
+    <h3 class="broken">What was broken</h3>
+    <p>Two independent issues stacked here. First, the defaults (similarity threshold 0.7, 27 accepted semantic types) were too permissive for casual dialogue. Second &mdash; and this one no threshold can fix &mdash; UMLS contains ordinary English words as literal clinical terminology: <code>&ldquo;start&rdquo;</code> is a real T061 (Therapeutic/Preventive Procedure) concept, and <code>&ldquo;well&rdquo;</code> is a real T033 (Finding) concept, both matched at <strong>exact similarity&nbsp;1.0</strong>.</p>
+
+    <h3 class="fixed">What changed</h3>
+    <p>Raised the threshold to 0.85 and narrowed accepted types from 27 down to 15 focused on symptoms, findings, procedures and drugs. Then, since exact matches ignore any threshold, added a denylist for the specific generic words confirmed by direct inspection of the match output.</p>
+
+    <div class="transcript overflow-x">
+      <div class="row dropped"><span class="tag">Kept&nbsp;before</span><span class="line"><span class="speaker">d:</span> Hello? Hi. Um, should we start? &hellip; Good morning sir, how can I help you this morning?</span></div>
+      <div class="row dropped"><span class="tag">Kept&nbsp;before</span><span class="line"><span class="speaker">d:</span> Thank you. Bye bye.</span></div>
+      <div class="row kept"><span class="tag">Dropped&nbsp;after</span><span class="line">&mdash; both turns above no longer pass the clinical-relevance filter &mdash;</span></div>
+    </div>
+  </div>
+
+  <section class="universal">
+    <p class="eyebrow">Shared root cause</p>
+    <h2>One bug was hiding inside all four</h2>
+    <p>Every transcript carries its own transcription-uncertainty markup &mdash; <code>&lt;UNSURE&gt;&hellip;&lt;/UNSURE&gt;</code> and <code>&lt;UNIN/&gt;</code> &mdash; and none of the four condensers were stripping it before analysis. The literal word <code>&ldquo;UNSURE&rdquo;</code> coincidentally matches a real UMLS concept (T033, Finding) at exact similarity 1.0, which is exactly why greeting and sign-off turns kept surviving QuickUMLS no matter how the thresholds were tuned.</p>
+    <p>Confirmed present in all 57 transcript files and absent from all SOAP notes &mdash; a transcript-only artifact. A shared <code>clean_transcript()</code> step now strips it once, upstream of every module, in both <code>main.py</code> and <code>NLP_Main.py</code>.</p>
+  </section>
+
+  <footer>
+    <p>All figures above come from direct runs of the actual condenser code on <code>prim57/cleaned transcripts/prim1.txt</code>, not estimates. SciSpacy and Negspacy&rsquo;s &ldquo;before&rdquo; figures are the 57-file, 5-run dataset average (3.5% and 6.5% reduction respectively) from the last full <code>NLP_Main.py</code> pass, since that pass predates today&rsquo;s fixes; Medspacy and QuickUMLS&rsquo;s &ldquo;before&rdquo; figures are this same file, untuned.</p>
+    <p>A full 57-file &times; 5-run re-run with all fixes applied is still pending and will replace the dataset-average figures with a like-for-like comparison.</p>
+  </footer>
+
+</div>

@@ -62,15 +62,20 @@ def read_file(directory, filename):
 
 def plot_trends(all_checkpoints):
     """Plots per-module per-run trends: elapsed time, word reduction, and the
-    condensed-vs-original omission diff in both directions. One line per module,
-    fixed categorical color order, four stacked single-axis panels (never dual-axis).
+    condensed-vs-original diff in both directions. One line per module, fixed
+    categorical color order, four stacked single-axis panels (never dual-axis).
     One point per run (e.g. 5 runs = 5 points).
+
+    The two diff panels are NOT the same kind of signal: transcript->soap is the
+    genuine omission direction, groundedness soap->transcript is hallucination-
+    adjacent (is SOAP content grounded in the transcript). For both, positive =
+    condensing improved that direction, negative = it got worse.
     """
     metrics = [
         ("avg_elapsed", "Avg elapsed time (s)"),
         ("avg_percent_reduced", "Avg words reduced (%)"),
-        ("avg_diff_transcript_to_soap", "Avg diff: transcript->soap (condensed - original)"),
-        ("avg_diff_soap_to_transcript", "Avg diff: soap->transcript (condensed - original)"),
+        ("avg_diff_transcript_to_soap", "Avg diff, omission transcript->soap (condensed - original; +improved)"),
+        ("avg_diff_groundedness_soap_in_transcript", "Avg diff, groundedness soap->transcript (condensed - original; +improved)"),
     ]
 
     fig, axes = plt.subplots(len(metrics), 1, figsize=(9, 11), sharex=True)

@@ -66,29 +66,42 @@ def check_omissions(text_i, text_o, n_components=5):
     text_o: the "output" text being checked for completeness against it (e.g. the
         ground-truth SOAP note)
 
-    Returns a dict with an omission-style score in each direction. Each score is the
+    Returns a dict with a coverage-style score in each direction. Each score is the
     *best-case* coverage among that side's words -- how well even the single most-
     covered word is explained by the other text's distribution:
       - "omission_transcript_to_soap": best-case coverage of the transcript's words
         by the SOAP's distribution. LOW means even the best-matching transcript word
         wasn't well covered -- strong evidence the SOAP omits transcript content.
         HIGH is a weak/ambiguous signal -- it only means one word matched well, and
-        says nothing about the rest.
-      - "omission_soap_to_transcript": best-case coverage of the SOAP's words by the
-        transcript's distribution -- same logic, mirrored (a low score here points
-        at SOAP content not grounded in the transcript, i.e. hallucination).
+        says nothing about the rest. This is the genuine omission-direction signal.
+      - "groundedness_soap_in_transcript": best-case coverage of the SOAP's words by
+        the transcript's distribution -- same logic, mirrored. Deliberately NOT named
+        "omission_soap_to_transcript" (an earlier version of this function used that
+        name) -- a low score here means SOAP content isn't grounded in the transcript,
+        which is a hallucination-style signal, not an omission one. Keeping the two
+        directions distinctly named avoids a downstream reader assuming both measure
+        the same thing just mirrored.
 
-    LOWER scores are the stronger/more confident omission signal (matches the
-    original Embed2KDE repo's own calibration: predicted_omission = score < threshold).
-    Both scores are None if either text doesn't have enough recognized words to fit
-    a density estimate. There is no validated threshold for "yes/no omission" on this
-    embedding space -- these are relative scores, not calibrated probabilities.
+    LOWER scores are the stronger/more confident signal in both directions (matches
+    the original Embed2KDE repo's own calibration: predicted_omission = score <
+    threshold). Both scores are None if either text doesn't have enough recognized
+    words to fit a density estimate. There is no validated threshold for "yes/no
+    omission" on this embedding space -- these are relative scores, not calibrated
+    probabilities.
+
+    Note on methodology vs. Modules/kdbe_checker.py's per-sentence version: that
+    version fits scaler/PCA on the *reference document only*, since it needs one
+    stable projection space to test many candidate sentences against efficiently.
+    This whole-document version fits on the *concatenation of both texts* instead,
+    since it's a one-shot symmetric comparison and that's how the original Embed2KDE
+    repo (which this was ported from) did it. Both choices are deliberate for their
+    own context -- scores from the two files aren't on directly comparable scales.
     """
     xi = _embed_words(text_i)
     xo = _embed_words(text_o)
 
     if len(xi) < 6 or len(xo) < 6:
-        return {"omission_transcript_to_soap": None, "omission_soap_to_transcript": None}
+        return {"omission_transcript_to_soap": None, "groundedness_soap_in_transcript": None}
 
     scaler = StandardScaler().fit(pd.concat([xi, xo], axis=0))
     xi_scaled = pd.DataFrame(scaler.transform(xi))
@@ -111,9 +124,9 @@ def check_omissions(text_i, text_o, n_components=5):
     omission_transcript_to_soap = float((xi_density_under_o / min_kde_o).max())
 
     xo_density_under_i = np.exp(kde_i.score_samples(xo_pca))
-    omission_soap_to_transcript = float((xo_density_under_i / min_kde_i).max())
+    groundedness_soap_in_transcript = float((xo_density_under_i / min_kde_i).max())
 
     return {
         "omission_transcript_to_soap": omission_transcript_to_soap,
-        "omission_soap_to_transcript": omission_soap_to_transcript,
+        "groundedness_soap_in_transcript": groundedness_soap_in_transcript,
     }
