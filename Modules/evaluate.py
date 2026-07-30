@@ -80,13 +80,14 @@ class Evaluate:
     LABELS_DIR = "Labels"
     LOG_DIR = os.environ.get("RESULTS_DIR", "Logs")
 
-    def __init__(self, labels_dir=None):
+    def __init__(self, labels_dir=None, module_name=None):
+        self._module_name = module_name or "UnknownChecker"
         self._records = []
         self._checkpoints = []
         os.makedirs(self.LOG_DIR, exist_ok=True)
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        self._log_file = f"evaluate_{timestamp}.log"
-        self._json_file = f"evaluate_records_{timestamp}.json"
+        self._log_file = f"evaluate_{self._module_name}_{timestamp}.log"
+        self._json_file = f"evaluate_records_{self._module_name}_{timestamp}.json"
         if labels_dir is not None:
             self.LABELS_DIR = labels_dir
 
@@ -202,7 +203,10 @@ class Evaluate:
         """Persists all records and run checkpoints collected so far to disk."""
         path = os.path.join(self.LOG_DIR, self._json_file)
         with open(path, "w", encoding="utf-8") as f:
-            json.dump({"records": self._records, "checkpoints": self._checkpoints}, f, indent=2)
+            json.dump(
+                {"module": self._module_name, "records": self._records, "checkpoints": self._checkpoints},
+                f, indent=2,
+            )
 
     def results(self):
         """Prints per-file and overall precision/recall/F1/accuracy."""

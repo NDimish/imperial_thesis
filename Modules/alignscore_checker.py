@@ -8,8 +8,16 @@ from Modules.base import CheckerModule, split_sentences
 # are on HuggingFace, not bundled with the package).
 CKPT_PATH = r"C:\Users\natha\OneDrive\Documents\Uni\Impreial\modules\Thesis\code\data\AlignScore-base.ckpt"
 MODEL = "roberta-base"
-# Uncalibrated on this data -- tune once you see real scores.
-THRESHOLD = 0.5
+# THRESHOLD=0.5 assumed AlignScore's raw score centers near the 0-1 midpoint on
+# this domain -- it doesn't. A labeled 5-file/8-hallucination threshold sweep
+# (condensed transcript vs bad SOAP note, hallucination direction) found
+# threshold=0.5 gives precision=0.03 (near useless: 60 FP for 2 TP), while
+# threshold=0.05 gives precision=0.50 and roughly triples F1 (0.06 -> 0.20).
+# Moved down accordingly. The exact optimal point is NOT well-determined by
+# only 8 labels (the 0.05 sweep result rests on tp=1/fp=1) -- this is a
+# directionally-justified move, not a fully validated calibration. Re-sweep
+# across more of the 57 files before treating this as final.
+THRESHOLD = 0.1
 
 
 class AlignScoreChecker(CheckerModule):

@@ -4,8 +4,16 @@ from summac.model_summac import SummaCZS
 
 from Modules.base import CheckerModule, split_sentences
 
-# Uncalibrated on this data -- tune once you see real scores.
-THRESHOLD = 0.5
+# THRESHOLD=0.5 was a copy-pasted assumption that this behaves like AlignScore's
+# 0-1 alignment probability. It doesn't: SummaCZS's zero-shot score is signed,
+# roughly in [-1, 1]. Confirmed directly on prim42.txt -- the HIGHEST score
+# across all 20 SOAP sentences was 0.09, meaning 0.5 could never be satisfied by
+# anything, ever (100% of every file gets flagged as hallucination, always).
+# Moved into the metric's real range -- but a labeled 5-file/8-hallucination
+# threshold sweep found precision stays poor (~9%) even at the sweep's best
+# setting (-0.6), so this fixes the "always flags everything" bug without
+# claiming SummaC is actually a strong hallucination detector on this domain.
+THRESHOLD = 0.0
 
 
 class SummaCChecker(CheckerModule):

@@ -14,7 +14,7 @@ SOAP_GROUND_DIR = "prim57/notes cleaned"
 RESULTS_DIR = os.environ.get("RESULTS_DIR", "Logs")
 PLOT_PATH = os.path.join(RESULTS_DIR, "nlp_main_trends.png")
 
-RUNS_PER_MODULE = 5
+RUNS_PER_MODULE = 2
 
 # Fixed categorical order (validated palette) -- one color per module, never cycled.
 MODULE_COLORS = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#4a3aa7", "#e34948"]

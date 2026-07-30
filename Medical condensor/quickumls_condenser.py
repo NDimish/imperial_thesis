@@ -19,11 +19,30 @@ QUICKUMLS_INSTALL_DIR = r"C:\Users\natha\OneDrive\Documents\Uni\Impreial\modules
 # are too permissive on spoken dialogue -- short common words (e.g. "hi", "sir")
 # fuzzy-match spurious UMLS concepts at 0.7 Jaccard similarity, so almost every
 # turn (including pure greetings/sign-offs) was being kept as "clinical".
-# Tightened here: higher similarity threshold, longer minimum match length, and
-# a narrower set of semantic types focused on symptoms/findings/procedures/drugs
-# (dropping broader/more abstract types like Mental Process or Intellectual
-# Product that were the likely source of spurious matches).
-THRESHOLD = 0.85
+#
+# THRESHOLD was first raised to 0.85, but a real full-dataset NLP_Main.py run
+# showed the fix that followed (denylist below) had made filtering much more
+# aggressive at a real cost: the condensed-vs-original groundedness score got
+# roughly 10x worse (-1.1 -> -11.3). Direct inspection of what an unrestricted
+# QuickUMLS matcher actually returns for dropped-but-relevant phrases found why:
+# "smoke"->"smoker" only reaches similarity=0.75, "peanuts"->"peanut" reaches
+# 0.80, and "allergic"->"allergican" reaches 0.75 -- all below the 0.85 bar,
+# even though their semantic types were already accepted. The real fix for the
+# "start"/"well" false positives (both exact similarity=1.0, immune to ANY
+# threshold) was always the denylist below, not the threshold raise -- so 0.85
+# was mostly just costing real recall without doing the job it was raised for.
+# Lowered back to 0.75: still well above the original too-permissive 0.7
+# default, but low enough to keep these legitimate fuzzy matches.
+#
+# Also found two real semantic-type gaps the same way: "lung cancer" (family
+# history) only matches under T191 (Neoplastic Process), and "loss of appetite"
+# partly matches under T184 (Sign or Symptom) -- neither was in the accepted
+# set below, a straightforward oversight given how central "sign or symptom"
+# should be. Added both. ("travel" and "contacts" remain uncovered, under
+# T058/T067/T170 -- deliberately NOT added, since those are broad/abstract
+# types that were the original source of spurious matches; a known residual
+# gap rather than a fix worth the false-positive risk.)
+THRESHOLD = 0.75
 MIN_MATCH_LENGTH = 4
 ACCEPTED_SEMTYPES = {
     "T023",  # Body Part, Organ, or Organ Component
@@ -39,6 +58,8 @@ ACCEPTED_SEMTYPES = {
     "T060",  # Diagnostic Procedure
     "T061",  # Therapeutic or Preventive Procedure
     "T121",  # Pharmacologic Substance
+    "T184",  # Sign or Symptom
+    "T191",  # Neoplastic Process
     "T195",  # Antibiotic
     "T200",  # Clinical Drug
 }

@@ -151,7 +151,7 @@ def main(limit=None):
     for module in modules:
         module_name = module.__class__.__name__
         print(f"\n=== Running {module_name} ({RUNS_PER_MODULE} runs x {file_count} files) ===")
-        evaluator = Evaluate(LABELS_DIR)
+        evaluator = Evaluate(LABELS_DIR, module_name)
 
         for run in range(1, RUNS_PER_MODULE + 1):
             for i in range(file_count):

@@ -165,6 +165,35 @@
     color: var(--ink-faint); width: 6.5rem;
   }
 
+  .score-table th {
+    text-align: left;
+    padding: 0.55rem 1.1rem;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.05em;
+    color: var(--ink-faint);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .score-table tr.default-row td { font-weight: 700; }
+  .score-table tr.picked-row td { color: var(--after); font-weight: 700; }
+
+  .verdict-line {
+    display: flex; gap: 1.8rem; flex-wrap: wrap;
+    padding: 0.9rem 1.1rem 1.1rem;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.85rem;
+  }
+  .verdict-line b { font-family: "SF Mono", "Cascadia Code", Consolas, "Liberation Mono", monospace; }
+
+  .caveat {
+    background: var(--before-soft);
+    border-radius: 4px;
+    padding: 1rem 1.2rem;
+    margin-top: 1.6rem;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.85rem;
+  }
+
   .verified-banner {
     display: flex;
     align-items: center;
@@ -314,8 +343,50 @@
     </div>
   </section>
 
+  <section class="headline-fix">
+    <span class="tag">Follow-up smoke test</span>
+    <h2>Two checker thresholds were badly miscalibrated &mdash; not just &ldquo;uncalibrated&rdquo;</h2>
+    <p>Every scoring-based checker's threshold carried the same code comment: <em>&ldquo;Uncalibrated on this data &mdash; tune once you see real scores.&rdquo;</em> Rather than keep guessing, this pulled the actual raw scores &mdash; on the real condensed transcript <code>main.py</code> feeds every checker, not the raw uncondensed one &mdash; and swept threshold values against real labels across 5 files.</p>
+
+    <div class="verdict-line" style="padding-left:0;">
+      <span><b>FactKB</b>: mean score 0.49, almost exactly at its 0.5 threshold. Looks fine &mdash; no change.</span>
+      <span><b>KdbeChecker</b>: 9/20 sentences (45%) crossed its threshold on the test file &mdash; reasonably balanced. No change.</span>
+    </div>
+
+    <div class="attempt failed">
+      <div class="attempt-head"><span>SummaCChecker &mdash; wrong scale entirely</span><span class="verdict">threshold moved</span></div>
+      <p style="padding: 1rem 1.1rem 0;">SummaC's zero-shot score isn't a 0&ndash;1 probability like AlignScore's &mdash; it's signed, roughly <code>[-1, 1]</code>. On the real condensed transcript for <code>prim42.txt</code>, the <strong>highest</strong> score across all 20 SOAP sentences was <strong>0.09</strong> &mdash; meaning the old <code>THRESHOLD=0.5</code> could never be satisfied by anything, ever. Every SOAP note, on every file, unconditionally flagged as 100% hallucinated.</p>
+      <div class="overflow-x">
+        <table class="score-table">
+          <tr><th>Threshold</th><th>TP</th><th>FP</th><th>FN</th><th>Precision</th><th>F1</th></tr>
+          <tr class="default-row"><td class="score">0.50 (old)</td><td>5</td><td>81</td><td>3</td><td>0.06</td><td>0.11</td></tr>
+          <tr><td class="score">0.00 (new)</td><td>5</td><td>70</td><td>3</td><td>0.07</td><td>0.12</td></tr>
+          <tr class="picked-row"><td class="score">&minus;0.60 (sweep best)</td><td>4</td><td>40</td><td>4</td><td>0.09</td><td>0.15</td></tr>
+        </table>
+      </div>
+      <p style="padding: 1rem 1.1rem 1.1rem; margin:0;">Moved <code>THRESHOLD</code> to <strong>0.0</strong> &mdash; inside the metric's real range, fixing the always-flags-everything bug. Not moved all the way to the sweep's own best point (&minus;0.6): even there, precision is still only 9%. This checker doesn't appear to meaningfully separate real hallucinations from everything else on this domain &mdash; a threshold fix caps the damage, it doesn't make SummaC good here.</p>
+    </div>
+
+    <div class="attempt worked">
+      <div class="attempt-head"><span>AlignScoreChecker &mdash; genuine improvement</span><span class="verdict">threshold moved</span></div>
+      <div class="overflow-x">
+        <table class="score-table">
+          <tr><th>Threshold</th><th>TP</th><th>FP</th><th>FN</th><th>Precision</th><th>F1</th></tr>
+          <tr class="default-row"><td class="score">0.50 (old)</td><td>2</td><td>60</td><td>6</td><td>0.03</td><td>0.06</td></tr>
+          <tr class="picked-row"><td class="score">0.10 (new)</td><td>1</td><td>8</td><td>7</td><td>0.11</td><td>0.12</td></tr>
+          <tr><td class="score">0.05 (sweep best)</td><td>1</td><td>1</td><td>7</td><td>0.50</td><td>0.20</td></tr>
+        </table>
+      </div>
+      <p style="padding: 1rem 1.1rem 1.1rem; margin:0;">Moved <code>THRESHOLD</code> to <strong>0.1</strong>, roughly tripling F1 over the old default. Deliberately <em>not</em> set to the sweep's single best point (0.05) &mdash; that result rests on just <code>tp=1, fp=1</code>, too fragile to commit to outright.</p>
+    </div>
+
+    <div class="caveat">
+      <strong>Sample size caveat:</strong> the whole sweep is 5 files and only 8 true hallucination labels total. That's enough to catch SummaC's scale bug (unambiguous: max score 0.09 &lt; any sane threshold) and to justify moving AlignScore's threshold in the right direction, but not enough to call either number final. Re-sweep across more of the 57 files before treating these as validated.
+    </div>
+  </section>
+
   <footer>
-    <p>All comparisons above were run directly against this project&rsquo;s real data: the label file at <code>prim57/bad notes labels lib/prim1.txt</code> and its source transcript. The GloVe and MiniLM similarity scores are actual model output, not illustrative numbers, and the <code>tp/fp/fn</code> result is a real call to <code>Evaluate.compare()</code> after the fix.</p>
+    <p>All comparisons above were run directly against this project&rsquo;s real data: the label file at <code>prim57/bad notes labels lib/prim1.txt</code> and its source transcript. The GloVe and MiniLM similarity scores are actual model output, not illustrative numbers, and the <code>tp/fp/fn</code> result is a real call to <code>Evaluate.compare()</code> after the fix. The threshold sweep used real scores from <code>prim1.txt</code>, <code>prim2.txt</code>, <code>prim3.txt</code>, <code>prim10.txt</code>, and <code>prim42.txt</code>, scored against their real ground-truth labels, on the transcript text as actually condensed by <code>MedspacyCondenser</code> (matching <code>main.py</code>'s real pipeline, not a raw uncondensed shortcut).</p>
   </footer>
 
 </div>
