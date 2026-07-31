@@ -14,7 +14,7 @@ SOAP_GROUND_DIR = "prim57/notes cleaned"
 RESULTS_DIR = os.environ.get("RESULTS_DIR", "Logs")
 PLOT_PATH = os.path.join(RESULTS_DIR, "nlp_main_trends.png")
 
-RUNS_PER_MODULE = 2
+RUNS_PER_MODULE = 1
 
 # Fixed categorical order (validated palette) -- one color per module, never cycled.
 MODULE_COLORS = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#4a3aa7", "#e34948"]
@@ -66,19 +66,38 @@ def plot_trends(all_checkpoints):
     categorical color order, four stacked single-axis panels (never dual-axis).
     One point per run (e.g. 5 runs = 5 points).
 
-    The two diff panels are NOT the same kind of signal: transcript->soap is the
-    genuine omission direction, groundedness soap->transcript is hallucination-
-    adjacent (is SOAP content grounded in the transcript). For both, positive =
-    condensing improved that direction, negative = it got worse.
+    The two KDE diff panels are NOT the same kind of signal: transcript->soap is
+    the genuine omission direction, groundedness soap->transcript is
+    hallucination-adjacent (is SOAP content grounded in the transcript). Three
+    more panels track cosine/ROUGE-based alternatives, added after the KDE-based
+    groundedness score was found to have a severe length bias -- it penalizes
+    condensing roughly in proportion to how much text is removed, almost
+    regardless of whether what's removed is real content or pure filler:
+      - diff_cosine_coverage: nearest-neighbor cosine similarity, each SOAP
+        word's best match anywhere in the transcript (recall-like).
+      - diff_cosine_f1: adds the mirror precision direction (is what survived
+        condensing actually SOAP-relevant, not filler) and combines both into
+        an F1-style harmonic mean.
+      - diff_rouge1_f1: the same recall/precision/F1 idea via exact word
+        overlap, no embeddings at all -- independent triangulation against the
+        cosine-based metrics.
+    None of these fit a density estimate, so none are subject to the KDE
+    metrics' small-sample bias. For every diff panel, positive = condensing
+    improved that direction, negative = it got worse -- but for the
+    cosine/ROUGE panels specifically, 0 is the realistic ceiling (removing
+    words can only hold a score steady or reduce it, never improve it).
     """
     metrics = [
         ("avg_elapsed", "Avg elapsed time (s)"),
         ("avg_percent_reduced", "Avg words reduced (%)"),
         ("avg_diff_transcript_to_soap", "Avg diff, omission transcript->soap (condensed - original; +improved)"),
-        ("avg_diff_groundedness_soap_in_transcript", "Avg diff, groundedness soap->transcript (condensed - original; +improved)"),
+        ("avg_diff_groundedness_soap_in_transcript", "Avg diff, groundedness soap->transcript (KDE, condensed - original; +improved)"),
+        ("avg_diff_cosine_coverage", "Avg diff, cosine coverage/recall (condensed - original; 0=ceiling)"),
+        ("avg_diff_cosine_f1", "Avg diff, cosine precision+recall F1 (condensed - original; 0=ceiling)"),
+        ("avg_diff_rouge1_f1", "Avg diff, ROUGE-1 F1, no embeddings (condensed - original; 0=ceiling)"),
     ]
 
-    fig, axes = plt.subplots(len(metrics), 1, figsize=(9, 11), sharex=True)
+    fig, axes = plt.subplots(len(metrics), 1, figsize=(9, 2.1 * len(metrics)), sharex=True)
     fig.suptitle("Medical condensor: per-module trends (one point per run)", y=0.995)
 
     for module_index, (module_name, checkpoints) in enumerate(all_checkpoints.items()):

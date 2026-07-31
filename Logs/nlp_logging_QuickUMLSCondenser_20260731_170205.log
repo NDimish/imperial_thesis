@@ -1,0 +1,319 @@
+prim1.txt: run=1 elapsed=1.59s
+  original  -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=53.00
+  condensed -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=50.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-3.00 cosine_coverage=-0.03 cosine_precision=0.02 cosine_f1=-0.01 rouge1_f1=0.01
+  words: 1523 -> 1259 (reduced by 264, 17.3%)
+prim10.txt: run=1 elapsed=2.10s
+  original  -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=43.00
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=30.04
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-12.96 cosine_coverage=-0.02 cosine_precision=0.01 cosine_f1=-0.00 rouge1_f1=0.02
+  words: 2031 -> 1538 (reduced by 493, 24.3%)
+prim11.txt: run=1 elapsed=2.36s
+  original  -- omission(transcript->soap)=2.00 groundedness(soap->transcript)=71.00
+  condensed -- omission(transcript->soap)=2.00 groundedness(soap->transcript)=59.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-12.00 cosine_coverage=-0.03 cosine_precision=0.00 cosine_f1=-0.01 rouge1_f1=0.00
+  words: 2507 -> 1912 (reduced by 595, 23.7%)
+prim12.txt: run=1 elapsed=1.40s
+  original  -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=16.43
+  condensed -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=10.13
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-6.29 cosine_coverage=-0.01 cosine_precision=0.01 cosine_f1=0.00 rouge1_f1=0.01
+  words: 1291 -> 1098 (reduced by 193, 14.9%)
+prim13.txt: run=1 elapsed=1.88s
+  original  -- omission(transcript->soap)=3.01 groundedness(soap->transcript)=42.04
+  condensed -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=35.01
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.00 groundedness(soap->transcript)=-7.02 cosine_coverage=-0.01 cosine_precision=0.01 cosine_f1=-0.00 rouge1_f1=0.01
+  words: 1843 -> 1531 (reduced by 312, 16.9%)
+prim14.txt: run=1 elapsed=1.98s
+  original  -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=46.00
+  condensed -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=40.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.00 groundedness(soap->transcript)=-6.00 cosine_coverage=0.00 cosine_precision=0.00 cosine_f1=0.00 rouge1_f1=0.01
+  words: 2067 -> 1754 (reduced by 313, 15.1%)
+prim15.txt: run=1 elapsed=1.59s
+  original  -- omission(transcript->soap)=4.01 groundedness(soap->transcript)=22.04
+  condensed -- omission(transcript->soap)=4.01 groundedness(soap->transcript)=21.03
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.00 groundedness(soap->transcript)=-1.01 cosine_coverage=-0.02 cosine_precision=0.01 cosine_f1=-0.00 rouge1_f1=0.01
+  words: 1404 -> 1096 (reduced by 308, 21.9%)
+prim16.txt: run=1 elapsed=1.18s
+  original  -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=40.01
+  condensed -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=35.01
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.00 groundedness(soap->transcript)=-5.00 cosine_coverage=0.00 cosine_precision=0.01 cosine_f1=0.00 rouge1_f1=0.02
+  words: 1239 -> 1022 (reduced by 217, 17.5%)
+prim17.txt: run=1 elapsed=1.70s
+  original  -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=37.00
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=34.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.00 groundedness(soap->transcript)=-3.00 cosine_coverage=-0.01 cosine_precision=0.01 cosine_f1=-0.00 rouge1_f1=0.01
+  words: 1829 -> 1529 (reduced by 300, 16.4%)
+prim18.txt: run=1 elapsed=1.61s
+  original  -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=34.00
+  condensed -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=33.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.00 groundedness(soap->transcript)=-1.00 cosine_coverage=-0.00 cosine_precision=0.01 cosine_f1=0.00 rouge1_f1=0.02
+  words: 1539 -> 1252 (reduced by 287, 18.6%)
+prim19.txt: run=1 elapsed=2.05s
+  original  -- omission(transcript->soap)=2.01 groundedness(soap->transcript)=52.00
+  condensed -- omission(transcript->soap)=2.01 groundedness(soap->transcript)=48.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-4.00 cosine_coverage=-0.00 cosine_precision=0.01 cosine_f1=0.00 rouge1_f1=0.01
+  words: 2011 -> 1625 (reduced by 386, 19.2%)
+prim2.txt: run=1 elapsed=1.90s
+  original  -- omission(transcript->soap)=3.13 groundedness(soap->transcript)=35.00
+  condensed -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=31.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.12 groundedness(soap->transcript)=-4.00 cosine_coverage=0.00 cosine_precision=0.00 cosine_f1=0.00 rouge1_f1=0.01
+  words: 1806 -> 1550 (reduced by 256, 14.2%)
+prim20.txt: run=1 elapsed=2.06s
+  original  -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=59.48
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=52.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-7.48 cosine_coverage=-0.01 cosine_precision=0.00 cosine_f1=-0.00 rouge1_f1=0.01
+  words: 2044 -> 1633 (reduced by 411, 20.1%)
+prim21.txt: run=1 elapsed=2.09s
+  original  -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=42.00
+  condensed -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=38.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-4.00 cosine_coverage=-0.01 cosine_precision=0.01 cosine_f1=0.00 rouge1_f1=0.01
+  words: 2100 -> 1730 (reduced by 370, 17.6%)
+prim22.txt: run=1 elapsed=1.62s
+  original  -- omission(transcript->soap)=2.01 groundedness(soap->transcript)=25.00
+  condensed -- omission(transcript->soap)=2.04 groundedness(soap->transcript)=21.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.03 groundedness(soap->transcript)=-4.00 cosine_coverage=-0.01 cosine_precision=0.01 cosine_f1=0.00 rouge1_f1=0.02
+  words: 1469 -> 1152 (reduced by 317, 21.6%)
+prim23.txt: run=1 elapsed=1.96s
+  original  -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=58.00
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=51.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-7.00 cosine_coverage=-0.01 cosine_precision=0.01 cosine_f1=-0.00 rouge1_f1=0.02
+  words: 1933 -> 1489 (reduced by 444, 23.0%)
+prim24.txt: run=1 elapsed=1.26s
+  original  -- omission(transcript->soap)=4.04 groundedness(soap->transcript)=36.00
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=32.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.04 groundedness(soap->transcript)=-4.00 cosine_coverage=-0.00 cosine_precision=0.01 cosine_f1=0.01 rouge1_f1=0.02
+  words: 1139 -> 901 (reduced by 238, 20.9%)
+prim25.txt: run=1 elapsed=1.94s
+  original  -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=51.00
+  condensed -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=47.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.00 groundedness(soap->transcript)=-4.00 cosine_coverage=-0.02 cosine_precision=0.00 cosine_f1=-0.01 rouge1_f1=0.01
+  words: 1959 -> 1623 (reduced by 336, 17.2%)
+prim26.txt: run=1 elapsed=1.41s
+  original  -- omission(transcript->soap)=8.00 groundedness(soap->transcript)=46.00
+  condensed -- omission(transcript->soap)=8.00 groundedness(soap->transcript)=41.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.00 groundedness(soap->transcript)=-5.00 cosine_coverage=-0.01 cosine_precision=0.02 cosine_f1=0.01 rouge1_f1=0.02
+  words: 1362 -> 1088 (reduced by 274, 20.1%)
+prim27.txt: run=1 elapsed=1.24s
+  original  -- omission(transcript->soap)=10.00 groundedness(soap->transcript)=51.00
+  condensed -- omission(transcript->soap)=10.00 groundedness(soap->transcript)=43.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-8.00 cosine_coverage=-0.01 cosine_precision=0.02 cosine_f1=0.01 rouge1_f1=0.02
+  words: 1241 -> 1018 (reduced by 223, 18.0%)
+prim28.txt: run=1 elapsed=2.08s
+  original  -- omission(transcript->soap)=17.00 groundedness(soap->transcript)=103.00
+  condensed -- omission(transcript->soap)=17.00 groundedness(soap->transcript)=90.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-13.00 cosine_coverage=-0.01 cosine_precision=0.01 cosine_f1=0.00 rouge1_f1=0.02
+  words: 1980 -> 1610 (reduced by 370, 18.7%)
+prim29.txt: run=1 elapsed=1.34s
+  original  -- omission(transcript->soap)=13.00 groundedness(soap->transcript)=67.00
+  condensed -- omission(transcript->soap)=13.00 groundedness(soap->transcript)=55.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-12.00 cosine_coverage=-0.01 cosine_precision=0.01 cosine_f1=-0.00 rouge1_f1=0.03
+  words: 1195 -> 900 (reduced by 295, 24.7%)
+prim3.txt: run=1 elapsed=1.95s
+  original  -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=40.03
+  condensed -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=35.03
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-5.00 cosine_coverage=-0.00 cosine_precision=0.01 cosine_f1=0.00 rouge1_f1=0.02
+  words: 1706 -> 1374 (reduced by 332, 19.5%)
+prim30.txt: run=1 elapsed=1.26s
+  original  -- omission(transcript->soap)=7.00 groundedness(soap->transcript)=64.00
+  condensed -- omission(transcript->soap)=7.00 groundedness(soap->transcript)=55.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-9.00 cosine_coverage=-0.00 cosine_precision=0.01 cosine_f1=0.01 rouge1_f1=0.04
+  words: 1184 -> 916 (reduced by 268, 22.6%)
+prim31.txt: run=1 elapsed=0.74s
+  original  -- omission(transcript->soap)=3.02 groundedness(soap->transcript)=14.24
+  condensed -- omission(transcript->soap)=3.13 groundedness(soap->transcript)=12.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.11 groundedness(soap->transcript)=-2.24 cosine_coverage=-0.00 cosine_precision=0.03 cosine_f1=0.02 rouge1_f1=0.03
+  words: 644 -> 494 (reduced by 150, 23.3%)
+prim32.txt: run=1 elapsed=1.36s
+  original  -- omission(transcript->soap)=7.00 groundedness(soap->transcript)=42.00
+  condensed -- omission(transcript->soap)=7.00 groundedness(soap->transcript)=32.01
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-9.99 cosine_coverage=-0.01 cosine_precision=0.02 cosine_f1=0.01 rouge1_f1=0.03
+  words: 1252 -> 1009 (reduced by 243, 19.4%)
+prim33.txt: run=1 elapsed=1.04s
+  original  -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=26.06
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=24.04
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.00 groundedness(soap->transcript)=-2.03 cosine_coverage=0.00 cosine_precision=0.01 cosine_f1=0.01 rouge1_f1=0.02
+  words: 986 -> 792 (reduced by 194, 19.7%)
+prim34.txt: run=1 elapsed=2.17s
+  original  -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=80.00
+  condensed -- omission(transcript->soap)=5.01 groundedness(soap->transcript)=74.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.01 groundedness(soap->transcript)=-6.00 cosine_coverage=0.00 cosine_precision=0.01 cosine_f1=0.01 rouge1_f1=0.01
+  words: 2209 -> 1969 (reduced by 240, 10.9%)
+prim35.txt: run=1 elapsed=1.55s
+  original  -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=78.00
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=74.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.00 groundedness(soap->transcript)=-4.00 cosine_coverage=-0.00 cosine_precision=0.02 cosine_f1=0.01 rouge1_f1=0.02
+  words: 1454 -> 1229 (reduced by 225, 15.5%)
+prim36.txt: run=1 elapsed=1.66s
+  original  -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=53.00
+  condensed -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=44.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-9.00 cosine_coverage=-0.01 cosine_precision=0.02 cosine_f1=0.00 rouge1_f1=0.02
+  words: 1403 -> 1034 (reduced by 369, 26.3%)
+prim37.txt: run=1 elapsed=1.77s
+  original  -- omission(transcript->soap)=4.01 groundedness(soap->transcript)=48.00
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=34.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.01 groundedness(soap->transcript)=-14.00 cosine_coverage=-0.01 cosine_precision=0.01 cosine_f1=0.00 rouge1_f1=0.03
+  words: 1407 -> 924 (reduced by 483, 34.3%)
+prim38.txt: run=1 elapsed=1.38s
+  original  -- omission(transcript->soap)=2.00 groundedness(soap->transcript)=36.05
+  condensed -- omission(transcript->soap)=2.00 groundedness(soap->transcript)=24.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-12.05 cosine_coverage=-0.01 cosine_precision=0.01 cosine_f1=0.00 rouge1_f1=0.01
+  words: 1137 -> 762 (reduced by 375, 33.0%)
+prim39.txt: run=1 elapsed=1.27s
+  original  -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=33.00
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=29.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-4.00 cosine_coverage=-0.01 cosine_precision=0.01 cosine_f1=0.00 rouge1_f1=0.01
+  words: 1106 -> 842 (reduced by 264, 23.9%)
+prim4.txt: run=1 elapsed=1.84s
+  original  -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=42.00
+  condensed -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=39.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.00 groundedness(soap->transcript)=-3.00 cosine_coverage=-0.01 cosine_precision=0.01 cosine_f1=0.00 rouge1_f1=0.01
+  words: 1820 -> 1497 (reduced by 323, 17.7%)
+prim40.txt: run=1 elapsed=1.67s
+  original  -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=58.00
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=55.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.00 groundedness(soap->transcript)=-3.00 cosine_coverage=-0.00 cosine_precision=0.01 cosine_f1=0.01 rouge1_f1=0.01
+  words: 1697 -> 1384 (reduced by 313, 18.4%)
+prim41.txt: run=1 elapsed=1.95s
+  original  -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=43.00
+  condensed -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=42.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.00 groundedness(soap->transcript)=-1.00 cosine_coverage=-0.00 cosine_precision=0.01 cosine_f1=0.00 rouge1_f1=0.01
+  words: 1807 -> 1520 (reduced by 287, 15.9%)
+prim42.txt: run=1 elapsed=1.84s
+  original  -- omission(transcript->soap)=2.00 groundedness(soap->transcript)=66.00
+  condensed -- omission(transcript->soap)=2.01 groundedness(soap->transcript)=60.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.01 groundedness(soap->transcript)=-6.00 cosine_coverage=-0.00 cosine_precision=0.00 cosine_f1=0.00 rouge1_f1=0.01
+  words: 1930 -> 1671 (reduced by 259, 13.4%)
+prim43.txt: run=1 elapsed=2.16s
+  original  -- omission(transcript->soap)=2.00 groundedness(soap->transcript)=33.00
+  condensed -- omission(transcript->soap)=2.00 groundedness(soap->transcript)=30.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.00 groundedness(soap->transcript)=-3.00 cosine_coverage=-0.00 cosine_precision=0.01 cosine_f1=0.00 rouge1_f1=0.01
+  words: 1934 -> 1604 (reduced by 330, 17.1%)
+prim44.txt: run=1 elapsed=1.89s
+  original  -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=44.00
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=40.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-4.00 cosine_coverage=-0.00 cosine_precision=0.01 cosine_f1=0.01 rouge1_f1=0.01
+  words: 1883 -> 1586 (reduced by 297, 15.8%)
+prim45.txt: run=1 elapsed=1.97s
+  original  -- omission(transcript->soap)=2.01 groundedness(soap->transcript)=54.00
+  condensed -- omission(transcript->soap)=2.00 groundedness(soap->transcript)=49.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.00 groundedness(soap->transcript)=-5.00 cosine_coverage=-0.00 cosine_precision=0.01 cosine_f1=0.01 rouge1_f1=0.01
+  words: 1864 -> 1473 (reduced by 391, 21.0%)
+prim46.txt: run=1 elapsed=1.51s
+  original  -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=36.00
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=31.01
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-4.99 cosine_coverage=-0.01 cosine_precision=0.00 cosine_f1=-0.00 rouge1_f1=0.02
+  words: 1369 -> 1073 (reduced by 296, 21.6%)
+prim47.txt: run=1 elapsed=1.52s
+  original  -- omission(transcript->soap)=2.00 groundedness(soap->transcript)=10.00
+  condensed -- omission(transcript->soap)=2.03 groundedness(soap->transcript)=9.05
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.03 groundedness(soap->transcript)=-0.95 cosine_coverage=-0.02 cosine_precision=0.01 cosine_f1=-0.01 rouge1_f1=0.02
+  words: 1228 -> 864 (reduced by 364, 29.6%)
+prim48.txt: run=1 elapsed=2.24s
+  original  -- omission(transcript->soap)=6.00 groundedness(soap->transcript)=62.04
+  condensed -- omission(transcript->soap)=6.00 groundedness(soap->transcript)=57.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.00 groundedness(soap->transcript)=-5.04 cosine_coverage=-0.01 cosine_precision=0.00 cosine_f1=-0.00 rouge1_f1=0.01
+  words: 2512 -> 2180 (reduced by 332, 13.2%)
+prim49.txt: run=1 elapsed=1.64s
+  original  -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=44.00
+  condensed -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=36.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-8.00 cosine_coverage=-0.00 cosine_precision=0.01 cosine_f1=0.00 rouge1_f1=0.03
+  words: 1410 -> 1039 (reduced by 371, 26.3%)
+prim5.txt: run=1 elapsed=1.85s
+  original  -- omission(transcript->soap)=6.00 groundedness(soap->transcript)=40.00
+  condensed -- omission(transcript->soap)=6.00 groundedness(soap->transcript)=39.02
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-0.98 cosine_coverage=-0.01 cosine_precision=0.00 cosine_f1=-0.00 rouge1_f1=0.01
+  words: 1763 -> 1549 (reduced by 214, 12.1%)
+prim50.txt: run=1 elapsed=1.27s
+  original  -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=22.02
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=18.01
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-4.01 cosine_coverage=-0.01 cosine_precision=0.02 cosine_f1=0.00 rouge1_f1=0.02
+  words: 1044 -> 701 (reduced by 343, 32.9%)
+prim51.txt: run=1 elapsed=1.85s
+  original  -- omission(transcript->soap)=3.08 groundedness(soap->transcript)=51.00
+  condensed -- omission(transcript->soap)=3.10 groundedness(soap->transcript)=44.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.02 groundedness(soap->transcript)=-7.00 cosine_coverage=-0.02 cosine_precision=0.00 cosine_f1=-0.01 rouge1_f1=0.01
+  words: 1665 -> 1303 (reduced by 362, 21.7%)
+prim52.txt: run=1 elapsed=1.61s
+  original  -- omission(transcript->soap)=4.01 groundedness(soap->transcript)=37.00
+  condensed -- omission(transcript->soap)=4.02 groundedness(soap->transcript)=34.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-3.00 cosine_coverage=-0.02 cosine_precision=0.01 cosine_f1=-0.00 rouge1_f1=0.02
+  words: 1367 -> 1032 (reduced by 335, 24.5%)
+prim53.txt: run=1 elapsed=1.73s
+  original  -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=34.00
+  condensed -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=27.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-7.00 cosine_coverage=-0.02 cosine_precision=0.01 cosine_f1=-0.00 rouge1_f1=0.04
+  words: 1436 -> 922 (reduced by 514, 35.8%)
+prim54.txt: run=1 elapsed=1.66s
+  original  -- omission(transcript->soap)=7.00 groundedness(soap->transcript)=38.01
+  condensed -- omission(transcript->soap)=7.00 groundedness(soap->transcript)=34.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.00 groundedness(soap->transcript)=-4.00 cosine_coverage=-0.00 cosine_precision=0.01 cosine_f1=0.00 rouge1_f1=0.02
+  words: 1502 -> 1221 (reduced by 281, 18.7%)
+prim55.txt: run=1 elapsed=1.78s
+  original  -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=44.00
+  condensed -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=38.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-6.00 cosine_coverage=-0.00 cosine_precision=0.00 cosine_f1=-0.00 rouge1_f1=0.02
+  words: 1715 -> 1431 (reduced by 284, 16.6%)
+prim56.txt: run=1 elapsed=2.14s
+  original  -- omission(transcript->soap)=7.00 groundedness(soap->transcript)=67.00
+  condensed -- omission(transcript->soap)=7.00 groundedness(soap->transcript)=60.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-7.00 cosine_coverage=-0.01 cosine_precision=0.00 cosine_f1=-0.01 rouge1_f1=0.01
+  words: 2122 -> 1837 (reduced by 285, 13.4%)
+prim57.txt: run=1 elapsed=1.14s
+  original  -- omission(transcript->soap)=3.01 groundedness(soap->transcript)=21.18
+  condensed -- omission(transcript->soap)=3.02 groundedness(soap->transcript)=20.10
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.02 groundedness(soap->transcript)=-1.08 cosine_coverage=-0.02 cosine_precision=0.01 cosine_f1=-0.00 rouge1_f1=0.03
+  words: 906 -> 621 (reduced by 285, 31.5%)
+prim6.txt: run=1 elapsed=2.17s
+  original  -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=60.00
+  condensed -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=43.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-17.00 cosine_coverage=-0.01 cosine_precision=-0.00 cosine_f1=-0.01 rouge1_f1=0.01
+  words: 2028 -> 1506 (reduced by 522, 25.7%)
+prim7.txt: run=1 elapsed=2.63s
+  original  -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=56.00
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=48.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-8.00 cosine_coverage=-0.00 cosine_precision=0.01 cosine_f1=0.01 rouge1_f1=0.01
+  words: 2974 -> 2294 (reduced by 680, 22.9%)
+prim8.txt: run=1 elapsed=1.52s
+  original  -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=34.00
+  condensed -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=28.02
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.00 groundedness(soap->transcript)=-5.98 cosine_coverage=-0.01 cosine_precision=0.01 cosine_f1=-0.00 rouge1_f1=0.02
+  words: 1324 -> 965 (reduced by 359, 27.1%)
+prim9.txt: run=1 elapsed=1.71s
+  original  -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=34.02
+  condensed -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=26.03
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-7.99 cosine_coverage=-0.02 cosine_precision=0.00 cosine_f1=-0.01 rouge1_f1=0.00
+  words: 1722 -> 1477 (reduced by 245, 14.2%)
+[run 1] avg_elapsed=1.71s avg_diff_transcript_to_soap=0.00 avg_diff_groundedness_soap_in_transcript=-5.86 avg_diff_cosine_coverage=-0.01 avg_diff_cosine_f1=0.00 avg_diff_rouge1_f1=0.02 avg_percent_reduced=20.66
+
+=== QuickUMLSCondenser Results ===
+Files processed: 57
+Average elapsed time: 1.71s
+Note: diff_* is (condensed - original); positive means condensing IMPROVED that direction, negative means it got worse. For the KDE metrics, lower raw scores are the stronger signal; for every cosine_*/rouge1_* metric, higher raw scores are better (genuine coverage/precision/F1 scores, not inverted omission signals), and 0 is the realistic ceiling for their diffs, not a positive number -- removing words can only hold a score steady or reduce it. The diff sign convention (positive=improved) is the same for all of them.
+Average Original omission (transcript->soap): 4.44
+Average Original groundedness (soap->transcript): 45.17
+Average Condensed omission (transcript->soap): 4.45
+Average Condensed groundedness (soap->transcript): 39.31
+Average Diff omission (transcript->soap): 0.00
+Average Diff groundedness (soap->transcript): -5.86
+Average Original cosine coverage/recall: 0.86
+Average Condensed cosine coverage/recall: 0.85
+Average Diff cosine coverage/recall: -0.01
+Average Original cosine precision: 0.79
+Average Condensed cosine precision: 0.80
+Average Diff cosine precision: 0.01
+Average Original cosine F1: 0.82
+Average Condensed cosine F1: 0.82
+Average Diff cosine F1: 0.00
+Average Original ROUGE-1 recall: 0.60
+Average Condensed ROUGE-1 recall: 0.58
+Average Diff ROUGE-1 recall: -0.02
+Average Original ROUGE-1 precision: 0.06
+Average Condensed ROUGE-1 precision: 0.07
+Average Diff ROUGE-1 precision: 0.01
+Average Original ROUGE-1 F1: 0.11
+Average Condensed ROUGE-1 F1: 0.13
+Average Diff ROUGE-1 F1: 0.02
+Average Original word count: 1631.96
+Average Condensed word count: 1305.35
+Average Words reduced: 326.61
+Average Percent reduced: 20.66

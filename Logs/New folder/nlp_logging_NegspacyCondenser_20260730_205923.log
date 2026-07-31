@@ -1,0 +1,301 @@
+prim1.txt: run=1 elapsed=2.67s
+  original  -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=53.00
+  condensed -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=42.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-11.00
+  words: 1523 -> 1083 (reduced by 440, 28.9%)
+prim10.txt: run=1 elapsed=3.49s
+  original  -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=43.00
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=25.05
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-17.95
+  words: 2031 -> 1363 (reduced by 668, 32.9%)
+prim11.txt: run=1 elapsed=3.77s
+  original  -- omission(transcript->soap)=2.00 groundedness(soap->transcript)=71.00
+  condensed -- omission(transcript->soap)=2.00 groundedness(soap->transcript)=45.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-26.00
+  words: 2507 -> 1456 (reduced by 1051, 41.9%)
+prim12.txt: run=1 elapsed=2.30s
+  original  -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=16.43
+  condensed -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=6.08
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-10.35
+  words: 1291 -> 826 (reduced by 465, 36.0%)
+prim13.txt: run=1 elapsed=3.08s
+  original  -- omission(transcript->soap)=3.01 groundedness(soap->transcript)=42.04
+  condensed -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=31.01
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.01 groundedness(soap->transcript)=-11.03
+  words: 1843 -> 1382 (reduced by 461, 25.0%)
+prim14.txt: run=1 elapsed=3.10s
+  original  -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=46.00
+  condensed -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=38.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.00 groundedness(soap->transcript)=-8.00
+  words: 2067 -> 1443 (reduced by 624, 30.2%)
+prim15.txt: run=1 elapsed=2.72s
+  original  -- omission(transcript->soap)=4.01 groundedness(soap->transcript)=22.04
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=18.01
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.00 groundedness(soap->transcript)=-4.03
+  words: 1404 -> 923 (reduced by 481, 34.3%)
+prim16.txt: run=1 elapsed=2.08s
+  original  -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=40.01
+  condensed -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=28.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-12.01
+  words: 1239 -> 767 (reduced by 472, 38.1%)
+prim17.txt: run=1 elapsed=2.89s
+  original  -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=37.00
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=30.01
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-6.99
+  words: 1829 -> 1263 (reduced by 566, 30.9%)
+prim18.txt: run=1 elapsed=2.55s
+  original  -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=34.00
+  condensed -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=28.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-6.00
+  words: 1539 -> 1046 (reduced by 493, 32.0%)
+prim19.txt: run=1 elapsed=3.41s
+  original  -- omission(transcript->soap)=2.01 groundedness(soap->transcript)=52.00
+  condensed -- omission(transcript->soap)=2.01 groundedness(soap->transcript)=42.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-10.00
+  words: 2011 -> 1393 (reduced by 618, 30.7%)
+prim2.txt: run=1 elapsed=2.80s
+  original  -- omission(transcript->soap)=3.13 groundedness(soap->transcript)=35.00
+  condensed -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=24.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.13 groundedness(soap->transcript)=-11.00
+  words: 1806 -> 1296 (reduced by 510, 28.2%)
+prim20.txt: run=1 elapsed=3.37s
+  original  -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=59.48
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=44.05
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-15.43
+  words: 2044 -> 1322 (reduced by 722, 35.3%)
+prim21.txt: run=1 elapsed=3.21s
+  original  -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=42.00
+  condensed -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=32.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-10.00
+  words: 2100 -> 1395 (reduced by 705, 33.6%)
+prim22.txt: run=1 elapsed=3.03s
+  original  -- omission(transcript->soap)=2.01 groundedness(soap->transcript)=25.00
+  condensed -- omission(transcript->soap)=2.10 groundedness(soap->transcript)=20.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.09 groundedness(soap->transcript)=-5.00
+  words: 1469 -> 946 (reduced by 523, 35.6%)
+prim23.txt: run=1 elapsed=3.22s
+  original  -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=58.00
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=42.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.00 groundedness(soap->transcript)=-16.00
+  words: 1933 -> 1212 (reduced by 721, 37.3%)
+prim24.txt: run=1 elapsed=2.14s
+  original  -- omission(transcript->soap)=4.04 groundedness(soap->transcript)=36.00
+  condensed -- omission(transcript->soap)=4.03 groundedness(soap->transcript)=20.03
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.01 groundedness(soap->transcript)=-15.97
+  words: 1139 -> 682 (reduced by 457, 40.1%)
+prim25.txt: run=1 elapsed=3.21s
+  original  -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=51.00
+  condensed -- omission(transcript->soap)=5.02 groundedness(soap->transcript)=40.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.02 groundedness(soap->transcript)=-11.00
+  words: 1959 -> 1335 (reduced by 624, 31.9%)
+prim26.txt: run=1 elapsed=2.34s
+  original  -- omission(transcript->soap)=8.00 groundedness(soap->transcript)=46.00
+  condensed -- omission(transcript->soap)=8.00 groundedness(soap->transcript)=33.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-13.00
+  words: 1362 -> 863 (reduced by 499, 36.6%)
+prim27.txt: run=1 elapsed=1.93s
+  original  -- omission(transcript->soap)=10.00 groundedness(soap->transcript)=51.00
+  condensed -- omission(transcript->soap)=10.00 groundedness(soap->transcript)=34.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-17.00
+  words: 1241 -> 765 (reduced by 476, 38.4%)
+prim28.txt: run=1 elapsed=3.24s
+  original  -- omission(transcript->soap)=17.00 groundedness(soap->transcript)=103.00
+  condensed -- omission(transcript->soap)=17.00 groundedness(soap->transcript)=67.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-36.00
+  words: 1980 -> 1235 (reduced by 745, 37.6%)
+prim29.txt: run=1 elapsed=2.44s
+  original  -- omission(transcript->soap)=13.00 groundedness(soap->transcript)=67.00
+  condensed -- omission(transcript->soap)=13.00 groundedness(soap->transcript)=51.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-16.00
+  words: 1195 -> 820 (reduced by 375, 31.4%)
+prim3.txt: run=1 elapsed=3.04s
+  original  -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=40.03
+  condensed -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=30.29
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-9.74
+  words: 1706 -> 1205 (reduced by 501, 29.4%)
+prim30.txt: run=1 elapsed=2.00s
+  original  -- omission(transcript->soap)=7.00 groundedness(soap->transcript)=64.00
+  condensed -- omission(transcript->soap)=7.00 groundedness(soap->transcript)=42.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-22.00
+  words: 1184 -> 754 (reduced by 430, 36.3%)
+prim31.txt: run=1 elapsed=1.22s
+  original  -- omission(transcript->soap)=3.02 groundedness(soap->transcript)=14.24
+  condensed -- omission(transcript->soap)=3.09 groundedness(soap->transcript)=11.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.07 groundedness(soap->transcript)=-3.24
+  words: 644 -> 447 (reduced by 197, 30.6%)
+prim32.txt: run=1 elapsed=2.08s
+  original  -- omission(transcript->soap)=7.00 groundedness(soap->transcript)=42.00
+  condensed -- omission(transcript->soap)=7.00 groundedness(soap->transcript)=30.01
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-11.99
+  words: 1252 -> 903 (reduced by 349, 27.9%)
+prim33.txt: run=1 elapsed=1.69s
+  original  -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=26.06
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=23.07
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.00 groundedness(soap->transcript)=-2.99
+  words: 986 -> 630 (reduced by 356, 36.1%)
+prim34.txt: run=1 elapsed=3.10s
+  original  -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=80.00
+  condensed -- omission(transcript->soap)=5.03 groundedness(soap->transcript)=70.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.03 groundedness(soap->transcript)=-10.00
+  words: 2209 -> 1740 (reduced by 469, 21.2%)
+prim35.txt: run=1 elapsed=2.35s
+  original  -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=78.00
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=58.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-20.00
+  words: 1454 -> 918 (reduced by 536, 36.9%)
+prim36.txt: run=1 elapsed=2.74s
+  original  -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=53.00
+  condensed -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=40.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-13.00
+  words: 1403 -> 922 (reduced by 481, 34.3%)
+prim37.txt: run=1 elapsed=3.09s
+  original  -- omission(transcript->soap)=4.01 groundedness(soap->transcript)=48.00
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=27.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.01 groundedness(soap->transcript)=-21.00
+  words: 1407 -> 683 (reduced by 724, 51.5%)
+prim38.txt: run=1 elapsed=2.46s
+  original  -- omission(transcript->soap)=2.00 groundedness(soap->transcript)=36.05
+  condensed -- omission(transcript->soap)=2.00 groundedness(soap->transcript)=25.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-11.05
+  words: 1137 -> 654 (reduced by 483, 42.5%)
+prim39.txt: run=1 elapsed=2.19s
+  original  -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=33.00
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=28.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-5.00
+  words: 1106 -> 716 (reduced by 390, 35.3%)
+prim4.txt: run=1 elapsed=3.00s
+  original  -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=42.00
+  condensed -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=27.09
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-14.92
+  words: 1820 -> 1090 (reduced by 730, 40.1%)
+prim40.txt: run=1 elapsed=2.64s
+  original  -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=58.00
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=35.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-23.00
+  words: 1697 -> 865 (reduced by 832, 49.0%)
+prim41.txt: run=1 elapsed=3.02s
+  original  -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=43.00
+  condensed -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=31.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.00 groundedness(soap->transcript)=-12.00
+  words: 1807 -> 1273 (reduced by 534, 29.6%)
+prim42.txt: run=1 elapsed=2.81s
+  original  -- omission(transcript->soap)=2.00 groundedness(soap->transcript)=66.00
+  condensed -- omission(transcript->soap)=2.01 groundedness(soap->transcript)=52.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.01 groundedness(soap->transcript)=-14.00
+  words: 1930 -> 1357 (reduced by 573, 29.7%)
+prim43.txt: run=1 elapsed=3.58s
+  original  -- omission(transcript->soap)=2.00 groundedness(soap->transcript)=33.00
+  condensed -- omission(transcript->soap)=2.01 groundedness(soap->transcript)=22.06
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.01 groundedness(soap->transcript)=-10.94
+  words: 1934 -> 1055 (reduced by 879, 45.4%)
+prim44.txt: run=1 elapsed=3.33s
+  original  -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=44.00
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=35.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-9.00
+  words: 1883 -> 1374 (reduced by 509, 27.0%)
+prim45.txt: run=1 elapsed=3.34s
+  original  -- omission(transcript->soap)=2.01 groundedness(soap->transcript)=54.00
+  condensed -- omission(transcript->soap)=2.02 groundedness(soap->transcript)=42.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.02 groundedness(soap->transcript)=-12.00
+  words: 1864 -> 1268 (reduced by 596, 32.0%)
+prim46.txt: run=1 elapsed=2.55s
+  original  -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=36.00
+  condensed -- omission(transcript->soap)=4.01 groundedness(soap->transcript)=22.03
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.01 groundedness(soap->transcript)=-13.97
+  words: 1369 -> 785 (reduced by 584, 42.7%)
+prim47.txt: run=1 elapsed=2.62s
+  original  -- omission(transcript->soap)=2.00 groundedness(soap->transcript)=10.00
+  condensed -- omission(transcript->soap)=2.02 groundedness(soap->transcript)=7.17
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.02 groundedness(soap->transcript)=-2.83
+  words: 1228 -> 731 (reduced by 497, 40.5%)
+prim48.txt: run=1 elapsed=3.28s
+  original  -- omission(transcript->soap)=6.00 groundedness(soap->transcript)=62.04
+  condensed -- omission(transcript->soap)=6.00 groundedness(soap->transcript)=43.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.00 groundedness(soap->transcript)=-19.04
+  words: 2512 -> 1548 (reduced by 964, 38.4%)
+prim49.txt: run=1 elapsed=2.95s
+  original  -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=44.00
+  condensed -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=28.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-16.00
+  words: 1410 -> 822 (reduced by 588, 41.7%)
+prim5.txt: run=1 elapsed=2.76s
+  original  -- omission(transcript->soap)=6.00 groundedness(soap->transcript)=40.00
+  condensed -- omission(transcript->soap)=6.00 groundedness(soap->transcript)=35.01
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-4.99
+  words: 1763 -> 1369 (reduced by 394, 22.3%)
+prim50.txt: run=1 elapsed=2.28s
+  original  -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=22.02
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=18.04
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-3.98
+  words: 1044 -> 590 (reduced by 454, 43.5%)
+prim51.txt: run=1 elapsed=2.91s
+  original  -- omission(transcript->soap)=3.08 groundedness(soap->transcript)=51.00
+  condensed -- omission(transcript->soap)=3.10 groundedness(soap->transcript)=43.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.02 groundedness(soap->transcript)=-8.00
+  words: 1665 -> 1179 (reduced by 486, 29.2%)
+prim52.txt: run=1 elapsed=2.60s
+  original  -- omission(transcript->soap)=4.01 groundedness(soap->transcript)=37.00
+  condensed -- omission(transcript->soap)=4.08 groundedness(soap->transcript)=26.01
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.07 groundedness(soap->transcript)=-10.99
+  words: 1367 -> 847 (reduced by 520, 38.0%)
+prim53.txt: run=1 elapsed=2.96s
+  original  -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=34.00
+  condensed -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=26.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-8.00
+  words: 1436 -> 830 (reduced by 606, 42.2%)
+prim54.txt: run=1 elapsed=2.66s
+  original  -- omission(transcript->soap)=7.00 groundedness(soap->transcript)=38.01
+  condensed -- omission(transcript->soap)=7.00 groundedness(soap->transcript)=29.08
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-8.93
+  words: 1502 -> 969 (reduced by 533, 35.5%)
+prim55.txt: run=1 elapsed=2.80s
+  original  -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=44.00
+  condensed -- omission(transcript->soap)=5.00 groundedness(soap->transcript)=34.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-10.00
+  words: 1715 -> 1226 (reduced by 489, 28.5%)
+prim56.txt: run=1 elapsed=3.25s
+  original  -- omission(transcript->soap)=7.00 groundedness(soap->transcript)=67.00
+  condensed -- omission(transcript->soap)=7.00 groundedness(soap->transcript)=51.00
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-16.00
+  words: 2122 -> 1487 (reduced by 635, 29.9%)
+prim57.txt: run=1 elapsed=1.90s
+  original  -- omission(transcript->soap)=3.01 groundedness(soap->transcript)=21.18
+  condensed -- omission(transcript->soap)=3.05 groundedness(soap->transcript)=16.04
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.04 groundedness(soap->transcript)=-5.14
+  words: 906 -> 505 (reduced by 401, 44.3%)
+prim6.txt: run=1 elapsed=3.89s
+  original  -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=60.00
+  condensed -- omission(transcript->soap)=3.02 groundedness(soap->transcript)=42.04
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.02 groundedness(soap->transcript)=-17.96
+  words: 2028 -> 1350 (reduced by 678, 33.4%)
+prim7.txt: run=1 elapsed=4.70s
+  original  -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=56.00
+  condensed -- omission(transcript->soap)=4.00 groundedness(soap->transcript)=36.01
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-19.99
+  words: 2974 -> 1742 (reduced by 1232, 41.4%)
+prim8.txt: run=1 elapsed=2.58s
+  original  -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=34.00
+  condensed -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=22.03
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=-0.00 groundedness(soap->transcript)=-11.97
+  words: 1324 -> 816 (reduced by 508, 38.4%)
+prim9.txt: run=1 elapsed=2.60s
+  original  -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=34.02
+  condensed -- omission(transcript->soap)=3.00 groundedness(soap->transcript)=20.23
+  diff (condensed - original, positive = improved) -- omission(transcript->soap)=0.00 groundedness(soap->transcript)=-13.79
+  words: 1722 -> 1049 (reduced by 673, 39.1%)
+[run 1] avg_elapsed=2.81s avg_diff_transcript_to_soap=0.01 avg_diff_groundedness_soap_in_transcript=-12.41 avg_percent_reduced=35.27
+
+=== NegspacyCondenser Results ===
+Files processed: 57
+Average elapsed time: 2.81s
+Note: diff_* is (condensed - original); positive means condensing IMPROVED that direction (lower raw scores are the stronger signal), negative means it got worse.
+Average Original omission (transcript->soap): 4.44
+Average Original groundedness (soap->transcript): 45.17
+Average Condensed omission (transcript->soap): 4.45
+Average Condensed groundedness (soap->transcript): 32.76
+Average Diff omission (transcript->soap): 0.01
+Average Diff groundedness (soap->transcript): -12.41
+Average Original word count: 1631.96
+Average Condensed word count: 1061.67
+Average Words reduced: 570.30
+Average Percent reduced: 35.27

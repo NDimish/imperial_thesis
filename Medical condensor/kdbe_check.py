@@ -130,3 +130,144 @@ def check_omissions(text_i, text_o, n_components=5):
         "omission_transcript_to_soap": omission_transcript_to_soap,
         "groundedness_soap_in_transcript": groundedness_soap_in_transcript,
     }
+
+
+def check_omissions_cosine(text_i, text_o):
+    """Nearest-neighbor cosine-similarity alternative to check_omissions, added
+    after check_omissions was found to have a severe length bias: a genuinely
+    excellent, clinically-complete manual condensation (real transcripts,
+    real SOAP notes) that removed ~45-60% of words scored FAR worse
+    (avg diff -20.00 across 10 files) than several of this project's
+    automated condensers, purely because check_omissions refits a KDE from
+    scratch on however many words survive -- fewer points structurally
+    yields lower density estimates at any given query point, independent of
+    whether the removed words were meaningless filler or vital content.
+    Confirmed via controlled tests: fixing the embedding projection space
+    didn't help (same result to 3 decimal places); neither did replacing the
+    normalizing floor with a percentile instead of a strict minimum (same
+    qualitative pattern at every percentile). The bias is intrinsic to
+    density estimation over small point clouds, not a fixable implementation
+    detail of check_omissions.
+
+    This function sidesteps that entirely: no density estimate is fit at
+    all. For each word in text_o (typically the SOAP note), it finds that
+    word's single most similar word in text_i (typically the transcript or
+    condensed transcript) by cosine similarity, then averages those
+    best-match scores across every word in text_o. A "best match" for a
+    given SOAP word exists as long as at least one semantically similar word
+    survives anywhere in text_i -- the size of text_i otherwise barely
+    matters, which is exactly the property check_omissions lacked.
+
+    Validated on the same real 10-file test: the manual condensation's
+    average coverage barely moved (0.8360 -> 0.8265, -0.0095), while random
+    word deletion at the SAME retention percentage dropped much further
+    (0.8360 -> 0.7800, -0.0560) -- in every one of the 10 files, not just on
+    average. That's the behavior a coverage metric should have: content-aware
+    condensing should cost little, careless deletion should cost more, and
+    neither should be dominated by how much text is left.
+
+    Returns a dict with "cosine_coverage" -- UNLIKE check_omissions, this is
+    a genuine coverage score where HIGHER is better (not an inverted
+    omission signal), or {"cosine_coverage": None} if either text has too
+    few recognized words to compare. Since removing words can only hold
+    coverage steady or reduce it, 0 is the realistic ceiling for a
+    condensed-vs-original diff, not some positive target -- see
+    check_omissions_bidirectional_cosine for the precision-side counterpart.
+    """
+    xi = _embed_words(text_i)
+    xo = _embed_words(text_o)
+    if len(xi) < 3 or len(xo) < 3:
+        return {"cosine_coverage": None}
+
+    xi_vectors = xi.to_numpy()
+    xo_vectors = xo.to_numpy()
+    xi_unit = xi_vectors / np.linalg.norm(xi_vectors, axis=1, keepdims=True)
+    xo_unit = xo_vectors / np.linalg.norm(xo_vectors, axis=1, keepdims=True)
+
+    similarity_matrix = xo_unit @ xi_unit.T
+    best_match_per_word = similarity_matrix.max(axis=1)
+
+    return {"cosine_coverage": float(best_match_per_word.mean())}
+
+
+def check_omissions_bidirectional_cosine(transcript, soap_ground):
+    """cosine_coverage only checks recall: is every SOAP word matched
+    somewhere in the transcript? It can't tell a condenser that keeps every
+    SOAP-relevant word AND a pile of unrelated junk apart from one that keeps
+    only the relevant words -- both would score the same cosine_coverage.
+
+    This adds the mirror direction -- precision: for each word in the
+    TRANSCRIPT, find its best cosine match anywhere in the SOAP note, and
+    average those best-match scores. A condenser that keeps a lot of content
+    unrelated to anything in the SOAP note (the transcript's own filler,
+    tangents, admin chatter) will show a LOWER precision even if its
+    coverage/recall is perfect, because that filler's best match in the SOAP
+    note's vocabulary is a poor one. Combines the two into an F1-style
+    harmonic mean, same idea as ROUGE/BERTScore precision-recall-F1 triples.
+
+    Returns a dict with "cosine_recall" (same value as check_omissions_cosine's
+    "cosine_coverage", recomputed here for a single shared similarity matrix),
+    "cosine_precision", and "cosine_f1". All three are higher-is-better, and
+    all three have 0 as the ceiling for a condensed-vs-original diff, for the
+    same reason as cosine_coverage. Returns all None if either text has too
+    few recognized words to compare.
+    """
+    xi = _embed_words(transcript)
+    xo = _embed_words(soap_ground)
+    if len(xi) < 3 or len(xo) < 3:
+        return {"cosine_recall": None, "cosine_precision": None, "cosine_f1": None}
+
+    xi_vectors = xi.to_numpy()
+    xo_vectors = xo.to_numpy()
+    xi_unit = xi_vectors / np.linalg.norm(xi_vectors, axis=1, keepdims=True)
+    xo_unit = xo_vectors / np.linalg.norm(xo_vectors, axis=1, keepdims=True)
+
+    similarity_matrix = xo_unit @ xi_unit.T  # (n_soap_words, n_transcript_words)
+
+    recall = float(similarity_matrix.max(axis=1).mean())  # each SOAP word's best transcript match
+    precision = float(similarity_matrix.max(axis=0).mean())  # each transcript word's best SOAP match
+    f1 = (2 * precision * recall / (precision + recall)) if (precision + recall) > 0 else 0.0
+
+    return {"cosine_recall": recall, "cosine_precision": precision, "cosine_f1": float(f1)}
+
+
+def check_omissions_rouge1(transcript, soap_ground):
+    """Pure lexical (no embeddings at all) cross-check on the cosine metrics
+    above: standard multiset-overlap ROUGE-1 between the transcript and the
+    SOAP note, using the same word tokenization as the rest of this module
+    (lowercased, alphabetic, length > 2) for consistency with the other
+    scores here.
+
+    This exists to answer a specific question: are the cosine-based
+    conclusions in this project an artifact of GloVe's particular embedding
+    geometry, or does a completely different, decades-old, embedding-free
+    method tell the same story? ROUGE-1 shares no machinery with cosine_*
+    or check_omissions -- no vectors, no learned representations, just exact
+    word-overlap counts -- so agreement between it and the cosine metrics is
+    real independent triangulation, not two views of the same computation.
+
+    recall = how much of the SOAP note's words appear in the transcript
+    (the direct lexical analogue of cosine_recall/cosine_coverage).
+    precision = how much of the transcript's words also appear in the SOAP
+    note (the lexical analogue of cosine_precision). f1 is their harmonic
+    mean. All are higher-is-better with 0 as the diff ceiling, same as the
+    cosine metrics, and for the same reason (removing words can't manufacture
+    new overlap).
+    """
+    from collections import Counter
+
+    transcript_counts = Counter(_clean_words(transcript))
+    soap_counts = Counter(_clean_words(soap_ground))
+
+    total_soap_words = sum(soap_counts.values())
+    total_transcript_words = sum(transcript_counts.values())
+    if total_soap_words == 0 or total_transcript_words == 0:
+        return {"rouge1_recall": None, "rouge1_precision": None, "rouge1_f1": None}
+
+    overlap = sum(min(count, transcript_counts.get(word, 0)) for word, count in soap_counts.items())
+
+    recall = overlap / total_soap_words
+    precision = overlap / total_transcript_words
+    f1 = (2 * precision * recall / (precision + recall)) if (precision + recall) > 0 else 0.0
+
+    return {"rouge1_recall": recall, "rouge1_precision": precision, "rouge1_f1": f1}

@@ -4,7 +4,12 @@ import sys
 from datetime import datetime
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from kdbe_check import check_omissions
+from kdbe_check import (
+    check_omissions,
+    check_omissions_bidirectional_cosine,
+    check_omissions_cosine,
+    check_omissions_rouge1,
+)
 
 
 class NlpEvaluate:
@@ -27,6 +32,46 @@ class NlpEvaluate:
     stronger signal (see kdbe_check.py), so a POSITIVE diff means condensing
     IMPROVED that direction (reduced the signal), and a NEGATIVE diff means it
     got WORSE -- the opposite of the usual "a bigger number is worse" reading.
+
+    A third, independent metric is also tracked: cosine_coverage (see
+    kdbe_check.check_omissions_cosine), added after check_omissions was found
+    to have a severe length bias -- a genuinely excellent, clinically-complete
+    manual condensation of real transcripts scored FAR worse than several
+    automated condensers here, purely because check_omissions refits a KDE
+    from scratch on however many words survive condensing, and density
+    estimates over small point clouds are intrinsically lower regardless of
+    content quality. cosine_coverage sidesteps that (no density estimate at
+    all -- just each SOAP word's best cosine match anywhere in the
+    transcript), and was validated across 10 real files to track content
+    quality instead of raw word count: a careful condensation barely lost
+    coverage, random word deletion at the same retention lost far more.
+    Unlike the KDE metrics, cosine_coverage's raw score is HIGHER-is-better
+    (it's a genuine coverage score, not an inverted omission signal) -- but
+    diff_cosine_coverage (condensed - original) keeps the same sign
+    convention as the others: positive still means condensing improved that
+    direction, negative still means it got worse. Both metrics are kept side
+    by side rather than one replacing the other, since they were validated on
+    different things (KDE: original repo's calibration; cosine: this
+    project's own 10-file manual-condensation test) and each remains useful
+    to compare against the other's blind spots.
+
+    Two more metrics extend the cosine idea to close specific gaps in it:
+      - cosine_precision (see check_omissions_bidirectional_cosine): the
+        mirror direction of cosine_coverage/cosine_recall. Coverage alone
+        can't tell a condenser that keeps every SOAP-relevant word AND a
+        pile of unrelated filler apart from one that keeps only the
+        relevant words -- both would score identically on coverage.
+        Precision checks whether the transcript's own surviving words are
+        actually SOAP-relevant. cosine_f1 is their harmonic mean.
+      - rouge1_recall/precision/f1 (see check_omissions_rouge1): the same
+        recall/precision/F1 idea, but via exact word-overlap counts with no
+        embeddings at all. This shares no machinery with the cosine or KDE
+        metrics, so agreement between it and them is real independent
+        triangulation rather than two views of the same computation.
+    All five of these (cosine_recall/precision/f1, rouge1_recall/precision/f1)
+    are higher-is-better with 0 as the realistic ceiling for a
+    condensed-vs-original diff -- removing words can only hold a score
+    steady or reduce it, never manufacture new overlap/similarity.
 
     Every individual record is kept (and persisted to JSON) regardless of run.
     A checkpoint -- one averaged snapshot -- is taken once per run via
@@ -61,6 +106,12 @@ class NlpEvaluate:
         """
         original_scores = check_omissions(transcript, soap_ground)
         condensed_scores = check_omissions(condensed_transcript, soap_ground)
+        original_cosine = check_omissions_cosine(transcript, soap_ground)
+        condensed_cosine = check_omissions_cosine(condensed_transcript, soap_ground)
+        original_bidir = check_omissions_bidirectional_cosine(transcript, soap_ground)
+        condensed_bidir = check_omissions_bidirectional_cosine(condensed_transcript, soap_ground)
+        original_rouge = check_omissions_rouge1(transcript, soap_ground)
+        condensed_rouge = check_omissions_rouge1(condensed_transcript, soap_ground)
 
         diff_transcript_to_soap = self._diff(
             condensed_scores["omission_transcript_to_soap"], original_scores["omission_transcript_to_soap"]
@@ -68,6 +119,16 @@ class NlpEvaluate:
         diff_groundedness_soap_in_transcript = self._diff(
             condensed_scores["groundedness_soap_in_transcript"], original_scores["groundedness_soap_in_transcript"]
         )
+        diff_cosine_coverage = self._diff(
+            condensed_cosine["cosine_coverage"], original_cosine["cosine_coverage"]
+        )
+        diff_cosine_precision = self._diff(
+            condensed_bidir["cosine_precision"], original_bidir["cosine_precision"]
+        )
+        diff_cosine_f1 = self._diff(condensed_bidir["cosine_f1"], original_bidir["cosine_f1"])
+        diff_rouge1_recall = self._diff(condensed_rouge["rouge1_recall"], original_rouge["rouge1_recall"])
+        diff_rouge1_precision = self._diff(condensed_rouge["rouge1_precision"], original_rouge["rouge1_precision"])
+        diff_rouge1_f1 = self._diff(condensed_rouge["rouge1_f1"], original_rouge["rouge1_f1"])
 
         original_word_count = len(transcript.split())
         condensed_word_count = len(condensed_transcript.split())
@@ -85,6 +146,24 @@ class NlpEvaluate:
             "condensed_groundedness_soap_in_transcript": condensed_scores["groundedness_soap_in_transcript"],
             "diff_transcript_to_soap": diff_transcript_to_soap,
             "diff_groundedness_soap_in_transcript": diff_groundedness_soap_in_transcript,
+            "original_cosine_coverage": original_cosine["cosine_coverage"],
+            "condensed_cosine_coverage": condensed_cosine["cosine_coverage"],
+            "diff_cosine_coverage": diff_cosine_coverage,
+            "original_cosine_precision": original_bidir["cosine_precision"],
+            "condensed_cosine_precision": condensed_bidir["cosine_precision"],
+            "diff_cosine_precision": diff_cosine_precision,
+            "original_cosine_f1": original_bidir["cosine_f1"],
+            "condensed_cosine_f1": condensed_bidir["cosine_f1"],
+            "diff_cosine_f1": diff_cosine_f1,
+            "original_rouge1_recall": original_rouge["rouge1_recall"],
+            "condensed_rouge1_recall": condensed_rouge["rouge1_recall"],
+            "diff_rouge1_recall": diff_rouge1_recall,
+            "original_rouge1_precision": original_rouge["rouge1_precision"],
+            "condensed_rouge1_precision": condensed_rouge["rouge1_precision"],
+            "diff_rouge1_precision": diff_rouge1_precision,
+            "original_rouge1_f1": original_rouge["rouge1_f1"],
+            "condensed_rouge1_f1": condensed_rouge["rouge1_f1"],
+            "diff_rouge1_f1": diff_rouge1_f1,
             "original_word_count": original_word_count,
             "condensed_word_count": condensed_word_count,
             "words_reduced": words_reduced,
@@ -101,7 +180,11 @@ class NlpEvaluate:
             f"groundedness(soap->transcript)={self._fmt(condensed_scores['groundedness_soap_in_transcript'])}\n"
             f"  diff (condensed - original, positive = improved) -- "
             f"omission(transcript->soap)={self._fmt(diff_transcript_to_soap)} "
-            f"groundedness(soap->transcript)={self._fmt(diff_groundedness_soap_in_transcript)}\n"
+            f"groundedness(soap->transcript)={self._fmt(diff_groundedness_soap_in_transcript)} "
+            f"cosine_coverage={self._fmt(diff_cosine_coverage)} "
+            f"cosine_precision={self._fmt(diff_cosine_precision)} "
+            f"cosine_f1={self._fmt(diff_cosine_f1)} "
+            f"rouge1_f1={self._fmt(diff_rouge1_f1)}\n"
             f"  words: {original_word_count} -> {condensed_word_count} "
             f"(reduced by {words_reduced}, {percent_reduced:.1f}%)"
         )
@@ -132,6 +215,24 @@ class NlpEvaluate:
             "condensed_groundedness_soap_in_transcript",
             "diff_transcript_to_soap",
             "diff_groundedness_soap_in_transcript",
+            "original_cosine_coverage",
+            "condensed_cosine_coverage",
+            "diff_cosine_coverage",
+            "original_cosine_precision",
+            "condensed_cosine_precision",
+            "diff_cosine_precision",
+            "original_cosine_f1",
+            "condensed_cosine_f1",
+            "diff_cosine_f1",
+            "original_rouge1_recall",
+            "condensed_rouge1_recall",
+            "diff_rouge1_recall",
+            "original_rouge1_precision",
+            "condensed_rouge1_precision",
+            "diff_rouge1_precision",
+            "original_rouge1_f1",
+            "condensed_rouge1_f1",
+            "diff_rouge1_f1",
             "words_reduced",
             "percent_reduced",
         ):
@@ -145,6 +246,9 @@ class NlpEvaluate:
             f"[run {run}] avg_elapsed={self._fmt(checkpoint['avg_elapsed'])}s "
             f"avg_diff_transcript_to_soap={self._fmt(checkpoint['avg_diff_transcript_to_soap'])} "
             f"avg_diff_groundedness_soap_in_transcript={self._fmt(checkpoint['avg_diff_groundedness_soap_in_transcript'])} "
+            f"avg_diff_cosine_coverage={self._fmt(checkpoint['avg_diff_cosine_coverage'])} "
+            f"avg_diff_cosine_f1={self._fmt(checkpoint['avg_diff_cosine_f1'])} "
+            f"avg_diff_rouge1_f1={self._fmt(checkpoint['avg_diff_rouge1_f1'])} "
             f"avg_percent_reduced={self._fmt(checkpoint['avg_percent_reduced'])}"
         )
         return checkpoint
@@ -176,8 +280,13 @@ class NlpEvaluate:
 
         self._log_(
             "Note: diff_* is (condensed - original); positive means condensing "
-            "IMPROVED that direction (lower raw scores are the stronger signal), "
-            "negative means it got worse."
+            "IMPROVED that direction, negative means it got worse. For the KDE "
+            "metrics, lower raw scores are the stronger signal; for every "
+            "cosine_*/rouge1_* metric, higher raw scores are better (genuine "
+            "coverage/precision/F1 scores, not inverted omission signals), and "
+            "0 is the realistic ceiling for their diffs, not a positive number "
+            "-- removing words can only hold a score steady or reduce it. The "
+            "diff sign convention (positive=improved) is the same for all of them."
         )
 
         self._log_average("Original omission (transcript->soap)", "original_transcript_to_soap")
@@ -186,6 +295,30 @@ class NlpEvaluate:
         self._log_average("Condensed groundedness (soap->transcript)", "condensed_groundedness_soap_in_transcript")
         self._log_average("Diff omission (transcript->soap)", "diff_transcript_to_soap")
         self._log_average("Diff groundedness (soap->transcript)", "diff_groundedness_soap_in_transcript")
+
+        self._log_average("Original cosine coverage/recall", "original_cosine_coverage")
+        self._log_average("Condensed cosine coverage/recall", "condensed_cosine_coverage")
+        self._log_average("Diff cosine coverage/recall", "diff_cosine_coverage")
+
+        self._log_average("Original cosine precision", "original_cosine_precision")
+        self._log_average("Condensed cosine precision", "condensed_cosine_precision")
+        self._log_average("Diff cosine precision", "diff_cosine_precision")
+
+        self._log_average("Original cosine F1", "original_cosine_f1")
+        self._log_average("Condensed cosine F1", "condensed_cosine_f1")
+        self._log_average("Diff cosine F1", "diff_cosine_f1")
+
+        self._log_average("Original ROUGE-1 recall", "original_rouge1_recall")
+        self._log_average("Condensed ROUGE-1 recall", "condensed_rouge1_recall")
+        self._log_average("Diff ROUGE-1 recall", "diff_rouge1_recall")
+
+        self._log_average("Original ROUGE-1 precision", "original_rouge1_precision")
+        self._log_average("Condensed ROUGE-1 precision", "condensed_rouge1_precision")
+        self._log_average("Diff ROUGE-1 precision", "diff_rouge1_precision")
+
+        self._log_average("Original ROUGE-1 F1", "original_rouge1_f1")
+        self._log_average("Condensed ROUGE-1 F1", "condensed_rouge1_f1")
+        self._log_average("Diff ROUGE-1 F1", "diff_rouge1_f1")
 
         self._log_average("Original word count", "original_word_count")
         self._log_average("Condensed word count", "condensed_word_count")

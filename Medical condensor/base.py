@@ -3,15 +3,19 @@ from abc import ABC, abstractmethod
 
 TURN_PATTERN = re.compile(r"^(d|p):\s*(.*)$", re.IGNORECASE)
 # <UNSURE>...</UNSURE> wraps text the transcriber wasn't fully confident about --
-# strip the tags but keep the enclosed words. <UNIN/> marks a stretch of
-# genuinely unintelligible speech -- self-closing, no content to keep.
-# Left unstripped, the literal tag names get fed straight into NLP models --
-# confirmed via direct QuickUMLS inspection that the word "UNSURE" itself
-# coincidentally matches a real UMLS concept (T033, Finding) at similarity=1.0,
-# which is exactly why greeting/sign-off turns kept surviving the clinical-
-# relevance filter no matter how the matching thresholds were tuned.
+# strip the tags but keep the enclosed words. <UNIN/> and <INAUDIBLE_SPEECH/>
+# both mark a stretch of genuinely unintelligible speech -- self-closing, no
+# content to keep. Left unstripped, the literal tag names get fed straight
+# into NLP models -- confirmed via direct QuickUMLS inspection that the word
+# "UNSURE" itself coincidentally matches a real UMLS concept (T033, Finding)
+# at similarity=1.0, which is exactly why greeting/sign-off turns kept
+# surviving the clinical-relevance filter no matter how the matching
+# thresholds were tuned. <INAUDIBLE_SPEECH/> was found the same way later --
+# present in 56 of 57 transcript files and, until this fix, getting tagged as
+# a literal "ENTITY" by scispacy's NER (confirmed directly on prim28.txt).
 UNSURE_TAG_PATTERN = re.compile(r"<UNSURE>(.*?)</UNSURE>", re.IGNORECASE | re.DOTALL)
 UNIN_TAG_PATTERN = re.compile(r"<UNIN\s*/>", re.IGNORECASE)
+INAUDIBLE_SPEECH_TAG_PATTERN = re.compile(r"<INAUDIBLE_SPEECH\s*/>", re.IGNORECASE)
 
 # en_core_sci_sm (used by SciSpacyCondenser and NegspacyCondenser) exposes only
 # one flat entity label ("ENTITY") -- there's no semantic-type filter available
@@ -46,12 +50,14 @@ class CondenserModule(ABC):
 
 
 def clean_transcript(text):
-    """Strips transcription-annotation tags (<UNSURE>...</UNSURE>, <UNIN/>) from
-    raw transcript text, keeping the enclosed words for <UNSURE> and dropping
-    <UNIN/> entirely. Collapses the extra spacing left behind, without merging
-    across lines (turn boundaries)."""
+    """Strips transcription-annotation tags (<UNSURE>...</UNSURE>, <UNIN/>,
+    <INAUDIBLE_SPEECH/>) from raw transcript text, keeping the enclosed words
+    for <UNSURE> and dropping the two self-closing tags entirely. Collapses
+    the extra spacing left behind, without merging across lines (turn
+    boundaries)."""
     text = UNSURE_TAG_PATTERN.sub(r"\1", text)
     text = UNIN_TAG_PATTERN.sub("", text)
+    text = INAUDIBLE_SPEECH_TAG_PATTERN.sub("", text)
     text = re.sub(r"[ \t]{2,}", " ", text)
     return text
 
