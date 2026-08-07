@@ -1,10 +1,14 @@
 [
   {
     "type": "hallucination",
-    "detail": "\"UTD\" was swapped for \"CRT\" (from note 19)"
+    "detail": "\"UTD\" was swapped for \"SOB\" (from note 4)"
   },
   {
     "type": "hallucination",
-    "detail": "\"GP\" was swapped for \"SOB\" (from note 19)"
+    "detail": "\"GP\" was swapped for \"SOB\" (from note 4)"
+  },
+  {
+    "type": "omission",
+    "detail": "Pmhx: nil of note, back pain- under physiotherapy, working diagnosis?"
   }
 ]

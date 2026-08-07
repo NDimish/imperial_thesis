@@ -1,0 +1,67 @@
+d: Can I confirm your name and your age please?
+p: It's Adriana Katherine, and I'm twenty six years old.
+d: How can I help you this afternoon?
+p: I have this really crazy headache that's been going on for a few days, and it really annoys me.
+d: When did it exactly start?
+p: Around three days ago.
+d: Whereabout in your head is this pain?
+p: It kind of feels all over my head, but mainly around my right eye.
+d: Is the headache there all the time, or does it come and go?
+p: It kind of comes and goes, but it is there all the time, sometimes it's stronger.
+d: On a scale of one to ten, how would you rate this headache?
+p: Probably an eight.
+d: Describe the nature of the pain -- sharp, dull, crampy, throbbing?
+p: It's dull but sometimes gets a bit sharper. It developed gradually, started the first day when I was at work, by the end of the day it was pretty bad, and when I woke up the next morning it was even worse.
+d: The headache is getting worse over the last three days?
+p: Yeah.
+d: Have you tried anything which has made the headache better?
+p: I tried Ibuprofen, a few for the last two days, but it doesn't really help. In the past it did help me, which is why I decided to try it.
+d: Except for the headaches, any other symptoms? Any problems with your eyesight or vision?
+p: Not really, but when it started I got these weird shooting lights, and now light is quite annoying to my eyes, it hurts to look at bright lights.
+d: Any loss of vision or blurry vision?
+p: Not loss of vision, just some shooting lights.
+d: Any nausea or vomiting?
+p: I feel sick with the headache, but no vomiting.
+d: Any neck pain or neck stiffness?
+p: No.
+d: Any difficulty with speaking?
+p: No.
+d: Any weakness in your arms and legs?
+p: No, it's hard to focus though, I had to take a couple of days off work.
+d: Any recent head injuries?
+p: No.
+d: Have you had anything like this before?
+p: Yeah, headaches, but usually after I take Ibuprofen it goes away. This time it's just not.
+d: Any temperatures or fevers?
+p: No.
+d: Any rashes on your skin?
+p: No, not that I've noticed.
+d: Are you otherwise fit and well? Any other medical history?
+p: Yeah, it's just the headache.
+d: Any history of migraines?
+p: Not myself, I've never had a migraine, but my sister and my mom have them quite frequently.
+d: Do you take any regular medication? Are you on the pill?
+p: No.
+d: Do you have any allergies to any medications?
+p: Not that I know of.
+d: Your mother and sister both have migraines -- is that normally well-controlled?
+p: My sister's is better, very rare. My mom's is quite bad, usually when the season is changing, takes her out for a few days.
+d: Socially, who lives at home with you?
+p: I live with three housemates, so we're four.
+d: Are you working at the moment? You mentioned this impacting your work.
+p: I work in IT, with computers a lot, so it's difficult to focus, I had to reduce the brightness of my screen.
+d: Do you wear glasses? Have you had a recent eye test?
+p: Yes, I've worn them since I was five, no recent eye test.
+d: Something to bear in mind if your eyes are straining, worth a repeat eye test. Have you been feeling more stressed or anxious at work recently?
+p: It's been a bit stressful, kicking off a new project, but nothing out of the ordinary.
+d: Regarding smoking or alcohol, do you drink or smoke at all?
+p: I socially smoke, and drink only socially.
+d: Do you have any ideas as to what could be causing your symptoms?
+p: At first I thought it's stress, or maybe I didn't drink enough water, because sometimes when I don't drink enough water I get headaches. But I don't think that's it, and I'm worried it's a migraine, because I know what it's like from my mom and sister, and I know it's genetic.
+d: Is there anything in particular you were hoping I could do for you today?
+p: Maybe if you have any recommendation of something stronger, because Ibuprofen doesn't help me. Usually it resolves after one or two days, but currently it didn't help.
+d: How many tablets did you take of Ibuprofen?
+p: Three a day.
+d: What I think is going on here -- unfortunately I do think this could be a headache very similar to a migraine, because the history is very suggestive, given your mum and sister also have migraines. I'm not saying it's going to keep happening, it may just be a one-off, but it's certainly worth treating today with stronger analgesia. You tried Ibuprofen, but I'm not sure you're taking the correct dose -- you can take up to two tablets, three times a day. Or I can prescribe you something stronger, like Naproxen, another anti-inflammatory. We can also add in other painkillers like Paracetamol or Codeine.
+p: I think that's what my mom takes for her migraines.
+d: Certainly worth looking into that, I can give you a prescription for that today. Over the next few days it may be worth keeping a headache diary so we can try and work out if there's any triggers. I'd like you to come back and see me in about a week to two weeks' time. If you're having more frequent episodes we can think about giving you medications as prophylactic, to stop you having these headaches regularly, but we can discuss that next time. In the meantime if your headaches aren't getting any better, or are getting worse, I want you to give me a call or come back sooner. If you're having any problems with your vision, or weakness in your arms and legs, or you're just not feeling very well, give me a call and come back and see me.

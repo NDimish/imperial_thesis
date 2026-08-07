@@ -1,0 +1,51 @@
+d: Could I confirm your full name and date of birth?
+p: Mary Richards, I'm forty years old.
+d: How can I help you today?
+p: I've been having some problems with my hearing, I can't really hear very well, and I've noticed that my face has been feeling a bit numb recently.
+d: How long has this been going on for?
+p: A few weeks now, about three weeks.
+d: Is this just on one side, or both?
+p: Just one side, my left side, the hearing's kind of gone down a bit.
+d: Where exactly is the numbness, which part of your face?
+p: The left side, around my left ear and along my jawline, it's all feeling a bit numb.
+d: Has anything else happened, any other symptoms?
+p: Not that I've noticed, occasionally a ringing in my ear.
+d: Have you had any weakness or numbness in the rest of the body at all?
+p: No, nothing like that.
+d: Any difficulty swallowing?
+p: No.
+d: Any difficulty speaking?
+p: No.
+d: Any problems with your vision?
+p: No, that's all good.
+d: Do you have the numbness present right now?
+p: Yeah, it's there quite often, right now it doesn't feel like when I touch this side of my face.
+d: Going back to the ear, any discharge coming from it?
+p: No, nothing coming out.
+d: Any pain in the ear?
+p: No, don't think so.
+d: Any fever at all?
+p: No, nothing like that.
+d: Do you use cotton buds to clean your ears out?
+p: No, don't use cotton buds.
+d: Do you have any other illnesses at all?
+p: I've been told I have polyps in my nose in the past, occasionally get them playing up, I take a spray for that if needed, and Rennies if I need it. I also had something called labyrinthitis ages ago, but nothing ongoing.
+d: Are you on any regular medication?
+p: Just the spray for my nose when I need it, and Rennies from the chemist.
+d: Where do you get the nose spray from, is it from a doctor?
+p: Yeah, prescribed ages ago, I don't remember the name of it.
+d: You're not on any other medication at all?
+p: No.
+d: Do you have any allergies to any medication?
+p: Just Latex.
+d: In terms of your family, any illnesses within your family?
+p: My brother had Neurofibromatosis, everyone else is OK.
+d: Are you working at the moment?
+p: I'm a jockey, but because of these symptoms, especially when I get the ringing I can feel a bit dizzy, I've had to do far less training, it's impacting work a little bit now.
+d: Do you live alone?
+p: No, I live with my partner.
+d: Do you have any pets at home?
+p: No pets.
+d: Is there anything else you wanted to tell me about what's been going on recently?
+p: No, just the ringing occasionally, and when I get that I can feel a bit dizzy, but the main thing is really the lack of hearing and the numbness, no idea what's going on there. I panicked and looked online and got a bit frantic -- is there something particularly serious that will need to be sorted? Hopefully nothing so serious I will die from it, I think I've got myself in a pickle.
+d: We're limited in terms of assessment via the video portal. From what you've told me, this doesn't seem to be anything you're going to die from. However, I would like you to be assessed in a clinic today, I'd like a GP to assess you -- what you're describing might be something called Bell's Palsy, if that's confirmed on physical examination, but that's not usually a life-threatening problem. Part of the reason I'd like you to come in is so we can do a neurological examination to make sure there's nothing else going on and confirm that diagnosis, and have a look inside the ear to see if there's anything to see. In answer to your question, I don't think you need to worry about that, preliminarily I can reassure you, however in order to definitively reassure you, you need a physical examination today. I'm going to send a message to our admin team to book you in for a face-to-face appointment in one of our clinics within Central London, and you can ring the support team number, I'll leave that in your notes, after five minutes, and they'll slot you in somewhere convenient. Someone will see you and hopefully reassure you further, but please make sure the appointment gets done today.

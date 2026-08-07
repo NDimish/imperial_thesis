@@ -1,0 +1,232 @@
+<title>A Deterministic, Concept-Level Hallucination/Omission Checker</title>
+<style>
+  :root {
+    --bg: #F3F5F4; --surface: #FFFFFF; --surface-soft: #EBEFEE;
+    --ink: #17262A; --ink-soft: #51686C; --ink-faint: #7C8E90;
+    --accent: #1F6F78; --accent-soft: #DCEAEA;
+    --before: #B5502A; --before-soft: #F5E4DA;
+    --after: #3E7A56; --after-soft: #DFEBE2;
+    --border: #D9E1DF; --code-bg: #EEF1F0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #101A1C; --surface: #162224; --surface-soft: #1C2A2C;
+      --ink: #E7EDEC; --ink-soft: #9FB4B3; --ink-faint: #71898A;
+      --accent: #59B4B8; --accent-soft: #1D3436;
+      --before: #E2915F; --before-soft: #33261E;
+      --after: #7BC79A; --after-soft: #1E3128;
+      --border: #2A3A3B; --code-bg: #10191A;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #101A1C; --surface: #162224; --surface-soft: #1C2A2C;
+    --ink: #E7EDEC; --ink-soft: #9FB4B3; --ink-faint: #71898A;
+    --accent: #59B4B8; --accent-soft: #1D3436;
+    --before: #E2915F; --before-soft: #33261E;
+    --after: #7BC79A; --after-soft: #1E3128;
+    --border: #2A3A3B; --code-bg: #10191A;
+  }
+  :root[data-theme="light"] {
+    --bg: #F3F5F4; --surface: #FFFFFF; --surface-soft: #EBEFEE;
+    --ink: #17262A; --ink-soft: #51686C; --ink-faint: #7C8E90;
+    --accent: #1F6F78; --accent-soft: #DCEAEA;
+    --before: #B5502A; --before-soft: #F5E4DA;
+    --after: #3E7A56; --after-soft: #DFEBE2;
+    --border: #D9E1DF; --code-bg: #EEF1F0;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
+    line-height: 1.55; -webkit-font-smoothing: antialiased;
+  }
+  .page { max-width: 940px; margin: 0 auto; padding: 4rem 1.5rem 6rem; }
+  header.masthead { max-width: 720px; margin: 0 0 3.5rem; }
+  .eyebrow {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.72rem;
+    color: var(--accent); font-weight: 600; margin: 0 0 0.9rem;
+  }
+  h1 { font-size: 2.2rem; line-height: 1.15; margin: 0 0 1rem; text-wrap: balance; font-weight: 400; }
+  .dek {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink-soft); font-size: 1.03rem; max-width: 66ch; margin: 0;
+  }
+  .meta-row {
+    display: flex; gap: 1.5rem; flex-wrap: wrap; margin-top: 1.6rem;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.85rem; color: var(--ink-faint);
+  }
+  .meta-row strong { color: var(--ink-soft); font-weight: 600; }
+  section.block {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 4px;
+    padding: 2rem 2.2rem 2.3rem; margin-bottom: 2.6rem;
+  }
+  section.block h2 { font-size: 1.5rem; font-weight: 400; margin: 0 0 0.4rem; text-wrap: balance; }
+  section.block .subtitle {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink-faint); font-size: 0.86rem; margin: 0 0 1.4rem;
+  }
+  section.block p { max-width: 74ch; margin: 0 0 1rem; }
+  .overflow-x { overflow-x: auto; }
+  code {
+    font-family: "SF Mono", "Cascadia Code", Consolas, "Liberation Mono", monospace;
+    background: var(--code-bg); padding: 0.1rem 0.35rem; border-radius: 3px; font-size: 0.88em;
+  }
+  pre {
+    font-family: "SF Mono", "Cascadia Code", Consolas, "Liberation Mono", monospace;
+    background: var(--code-bg); border-radius: 4px; padding: 1rem 1.2rem; overflow-x: auto;
+    font-size: 0.82rem; line-height: 1.5; margin: 1rem 0;
+  }
+  table.data {
+    width: 100%; border-collapse: collapse;
+    font-family: "SF Mono", "Cascadia Code", Consolas, "Liberation Mono", monospace;
+    font-size: 0.8rem; margin: 1rem 0;
+  }
+  table.data th {
+    text-align: left; padding: 0.5rem 0.8rem;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.05em;
+    color: var(--ink-faint); border-bottom: 1px solid var(--border);
+  }
+  table.data td { padding: 0.5rem 0.8rem; border-top: 1px solid var(--border); font-variant-numeric: tabular-nums; vertical-align: top; }
+  table.data tr:first-child td { border-top: none; }
+  table.data td.name {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 600; white-space: nowrap;
+  }
+  table.data td.better { color: var(--after); }
+  table.data td.worse { color: var(--before); }
+  table.data td.prose { font-family: Georgia, serif; font-size: 0.88rem; }
+  .fix-card { border-left: 3px solid var(--accent); padding-left: 1.5rem; margin: 1.6rem 0; }
+  .fix-card h3 {
+    font-size: 1.05rem; font-weight: 600; margin: 0 0 0.5rem;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  }
+  .fix-card p { margin: 0 0 0.6rem; }
+  .fix-card p:last-child { margin-bottom: 0; }
+  .bug-story {
+    background: var(--before-soft); border-radius: 4px; padding: 1.3rem 1.5rem; margin: 1.3rem 0;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; font-size: 0.88rem;
+  }
+  .bug-story .label {
+    display: block; font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em;
+    font-weight: 700; color: var(--before); margin-bottom: 0.5rem;
+  }
+  .verified-banner {
+    display: flex; align-items: center; gap: 0.9rem;
+    background: var(--after-soft); border-radius: 4px; padding: 1rem 1.3rem; margin-top: 1.4rem;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; font-size: 0.87rem;
+  }
+  .verified-banner .check { flex: 0 0 auto; color: var(--after); font-weight: 700; font-size: 1.1rem; }
+  .verified-banner code { background: transparent; padding: 0; }
+  .verdict-tag {
+    display: inline-block; font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em;
+    background: var(--accent-soft); color: var(--accent); padding: 0.22rem 0.55rem; border-radius: 3px; margin-bottom: 0.9rem;
+  }
+  .evidence-pair {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; font-size: 0.85rem;
+  }
+  .evidence-pair > div { background: var(--surface-soft); border-radius: 4px; padding: 0.9rem 1.1rem; }
+  .evidence-pair .ep-label { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-faint); margin-bottom: 0.4rem; display: block; }
+  @media (max-width: 640px) { .evidence-pair { grid-template-columns: 1fr; } }
+  footer {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.8rem; color: var(--ink-faint);
+    border-top: 1px solid var(--border); padding-top: 1.5rem; margin-top: 3rem;
+  }
+  footer p { max-width: 70ch; margin: 0 0 0.6rem; }
+  @media (max-width: 620px) {
+    .page { padding: 2.5rem 1.1rem 4rem; }
+    h1 { font-size: 1.8rem; }
+    section.block { padding: 1.5rem 1.3rem 1.8rem; }
+  }
+</style>
+
+<div class="page">
+
+  <header class="masthead">
+    <p class="eyebrow">Modules &middot; ConceptChecker</p>
+    <h1>A concept-level, deterministic checker &mdash; built, tested on 5 real files, and honestly evaluated</h1>
+    <p class="dek">Every existing checker in this project (AlignScore, FactKB, Kdbe, SummaC) scores isolated sentences against a whole other document using models trained on generic text. This module tries a structurally different, still fully deterministic approach: compare UMLS concepts and their negation status directly, reusing the same matcher and ConText machinery already built for this project's condensers. It works, sometimes -- and the real 5-file test surfaced exactly why it isn't there yet.</p>
+    <div class="meta-row">
+      <span><strong>Date</strong> 2026&#8209;08&#8209;05</span>
+      <span><strong>New file</strong> <code>Modules/concept_checker.py</code></span>
+      <span><strong>Tested on</strong> 5 real transcript/SOAP pairs, real ground-truth labels</span>
+    </div>
+  </header>
+
+  <section class="block">
+    <h2>Why a different architecture, staying fully deterministic</h2>
+    <p>A separate discussion this session concluded that per-sentence isolated-context NLI scoring (what every other checker here does) has three structural weaknesses for this task: it fragments conversational context, it's trained on the wrong domain (news/Wikipedia-style entailment, not clinical shorthand), and it can't synthesize a claim scattered across several transcript turns into one SOAP line. A whole-document LLM was the obvious fix for all three -- but non-determinism and an external API dependency ruled that out here. This is the deterministic alternative: instead of comparing sentence <em>text</em>, compare UMLS <em>concepts</em>.</p>
+    <p>Concepts are matched by CUI (UMLS's concept ID), not surface text, so "smoking" and "Nil smoking" resolve to the same underlying concept regardless of register -- directly targeting the domain-mismatch problem, since a CUI is phrasing-independent by construction. Each concept's assertion status (negated / affirmed / hypothetical) comes from medspacy's ConText, the same algorithm already validated for this project's condensers -- and SOAP notes are exactly ConText's intended domain ("denies fever", "nil smoking"), unlike the transcript side, where this project already found and fixed a real ConText/question mismatch.</p>
+    <p>The comparison logic: a concept is a <strong>hallucination</strong> if it's asserted in the SOAP note at some polarity with no matching CUI+polarity anywhere in the transcript. It's an <strong>omission</strong> if the reverse is true. Matching on CUI+polarity together, not just CUI, means "I smoke" and "I don't smoke" -- which can score deceptively close on raw embedding cosine similarity, since they're both "about smoking" -- are correctly treated as different facts.</p>
+  </section>
+
+  <section class="block">
+    <span class="verdict-tag">First smoke test</span>
+    <h2>One file, 75 flagged items, and a familiar problem</h2>
+    <p>Running the first working version on a single file (prim1.txt) found 75 flagged errors -- an implausibly high count. Inspecting them found the same coincidental-UMLS-collision problem already documented for this project's condensers, but worse here: words like <code>"hand"</code> (a real T023 Body Part entry), <code>"life"</code> (a real T060 Diagnostic Procedure entry), <code>"said"</code>/<code>"times"</code> (real T047 Disease/Syndrome entries) were being matched as clinical concepts. Checked directly -- every one is an exact similarity=1.0 match, not a borderline fuzzy one, so raising the match threshold wouldn't have helped.</p>
+    <div class="fix-card">
+      <h3>Two fixes applied, in order</h3>
+      <p><strong>1. Ngram-aware collision check</strong> (75 &rarr; 71 errors): checking both the matched canonical UMLS term and the raw surface text against the existing denylist, not just the term -- the same fix found and reverted for the condensers (there, it cost real recall; here, a junk match directly manufactures a spurious error, so the tradeoff runs the other way).</p>
+      <p><strong>2. A checker-scoped junk-concept denylist</strong> (71 &rarr; 40 errors): kept local to <code>concept_checker.py</code>, not added to the shared list the condensers use, specifically to avoid reopening their recall cost. Deliberately narrow -- "smoker", "vitamins", "triggers", "stools", "bowels", "back", "food", "eating" all also looked like noise in this same file, but were kept out of the denylist since they're genuinely clinical concepts; their appearance as false positives is a symptom of a different problem (see below), and denylisting them would have hidden it instead of fixing it.</p>
+    </div>
+    <div class="verified-banner">
+      <span class="check">&#10003;</span>
+      <span>75 &rarr; 40 flagged items on the same file, all from principled, tested fixes -- not by discarding awkward results.</span>
+    </div>
+  </section>
+
+  <section class="block">
+    <span class="verdict-tag">Real 5-file test</span>
+    <h2>The honest result: it works sometimes, and the measurement says otherwise</h2>
+    <p>Run through the same <code>main.py</code> pipeline and <code>Evaluate</code> harness used for every other checker this project has tuned, against the same 5 labeled files (prim1, 10&ndash;13):</p>
+    <div class="overflow-x">
+      <table class="data">
+        <tr><th>Checker</th><th>Precision</th><th>Recall</th><th>F1</th><th>TP</th><th>FP</th></tr>
+        <tr><td class="name">AlignScore</td><td>0.14</td><td>0.25</td><td>0.18</td><td>3</td><td>19</td></tr>
+        <tr><td class="name">FactKB</td><td>0.12</td><td>0.50</td><td>0.20</td><td>6</td><td>43</td></tr>
+        <tr><td class="name">Kdbe</td><td>0.17</td><td>0.25</td><td>0.20</td><td>3</td><td>15</td></tr>
+        <tr><td class="name">ConceptChecker (this)</td><td class="worse">0.01</td><td>0.33</td><td class="worse">0.02</td><td>4</td><td class="worse">344</td></tr>
+      </table>
+    </div>
+    <p>Read at face value, this is a clear loss against every existing checker. It would be dishonest to stop there without checking why -- especially since the smoke test had just shown the remaining flags looked plausible, not random.</p>
+    <div class="bug-story">
+      <span class="label">What was actually going on</span>
+      Cross-checking the "missed" (false-negative) real labels against the "added" (false-positive) flags in the same files found several clear matches that the scoring simply couldn't see:
+      <div class="evidence-pair">
+        <div><span class="ep-label">Real label (missed)</span>prim10.txt: &ldquo;Brief episode of haematuria, now resolved.&rdquo;</div>
+        <div><span class="ep-label">This checker flagged (added)</span>&ldquo;haematuria (negated)&rdquo;</div>
+      </div>
+      <div class="evidence-pair">
+        <div><span class="ep-label">Real label (missed)</span>prim11.txt: &ldquo;Lives with wife and children.&rdquo;</div>
+        <div><span class="ep-label">This checker flagged (added)</span>&ldquo;lives (affirmed)&rdquo;</div>
+      </div>
+      <div class="evidence-pair">
+        <div><span class="ep-label">Real label (missed)</span>prim13.txt: &ldquo;Had visual aura before onset of headaches &mdash; zigzag lines in field of vision.&rdquo;</div>
+        <div><span class="ep-label">This checker flagged (added)</span>&ldquo;visual aura (affirmed)&rdquo; <em>and</em> &ldquo;field of vision (affirmed)&rdquo;</div>
+      </div>
+      These are very plausibly the same real errors, described in a structurally different vocabulary. <code>Modules/evaluate.py</code>'s label matcher was built for the other checkers' output style (a verbatim sentence, close enough in phrasing to substring-match the label) -- and for hallucination-type predictions specifically, it <em>only</em> does substring matching, with no embedding-similarity fallback (that fallback exists only for omission-type predictions, and was itself only validated on one earlier example). A concept-and-polarity output like <code>"haematuria (negated)"</code> was never going to substring-match a full sentence, no matter how correct the underlying detection was.
+    </div>
+    <p>That explains some of the false positives, not most of them. Scanning the rest of the 344 flagged items, the large majority are still genuine noise -- <code>"usually"</code>, <code>"probably"</code>, <code>"definitely"</code>, <code>"maybe"</code>, <code>"history"</code>, <code>"confirm"</code>, <code>"worry"</code>, <code>"call"</code>, <code>"screen"</code>, <code>"thought"</code> -- the same coincidental-UMLS-collision problem the single-file smoke test's denylist was built from, except at 5-file scale it's clearly a much longer tail than one file could ever reveal. This is the same conclusion this project already reached for the condensers, now confirmed a second time in a different module: a hand-typed denylist, however well-reasoned each individual entry is, does not scale to covering this problem on its own.</p>
+  </section>
+
+  <section class="block">
+    <span class="verdict-tag">Honest verdict</span>
+    <h2>Real, but not yet usable as-is</h2>
+    <p>Two separate things are true at once. The architecture is sound and demonstrably catches errors the per-sentence checkers structurally cannot -- the haematuria, "lives", and visual-aura cases above are all real detections invisible to raw substring/NLI-on-isolated-sentences matching, because they only make sense once you already know "haematuria" is the same concept whether it's called that or described conversationally. But this specific first implementation isn't ready to trust: precision is far too low to use standalone, and worse, the current evaluation methodology can't even measure this checker fairly, since it was built around a different checker's output shape.</p>
+    <p>Two concrete next steps, not vague caveats:</p>
+    <ol style="max-width:74ch; font-family:-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-size:0.92rem; padding-left:1.3rem;">
+      <li style="margin-bottom:0.6rem;"><strong>A compatible evaluation adapter.</strong> Either extend <code>Evaluate._texts_match</code> to also try embedding-similarity matching for hallucination-type predictions (not just omission-type), or give concept-style outputs their own comparison path, so a correct detection in a different vocabulary isn't automatically scored as wrong.</li>
+      <li><strong>A systematic precision fix, not more denylist entries.</strong> The same principled levers already proven for the condensers this session -- narrowing accepted semantic types, or a stricter matcher instance tuned specifically for 1:1 fact comparison rather than reused as-is from the condensers' recall-first configuration -- are the right next move, not continuing to hand-expand a list that a 5-file test already showed doesn't generalize from 1 file.</li>
+    </ol>
+  </section>
+
+  <footer>
+    <p>All numbers above come from real runs of <code>main.py</code> over the same 5 labeled files (prim1, 10&ndash;13) used to calibrate this project's other checkers, scored through the same unmodified <code>Evaluate</code> class. The evidence pairs quoting "missed" and "added" entries are read directly from <code>Logs/evaluate_ConceptChecker_*.log</code>, not reconstructed after the fact.</p>
+  </footer>
+
+</div>

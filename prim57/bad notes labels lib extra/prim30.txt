@@ -1,0 +1,22 @@
+[
+  {
+    "type": "omission",
+    "detail": "History : having dizziness for the past few hours \nYou had sometime similar a month ago but only lasted 10 minutes \nYou feel as though you are in a boat \nThere is no recent viral illness \nThere is a buzzing noise in your ears \nThere is no hearing problems \nNo ear discharge or ear pain \nYou feel nauseous but not been sick \nThere is no weakness of the arms and legs \nPast medical history #\nYou have premature ovarian failure and take HRT\nThere is no allergies \nPlan we will prescribe some stemitil for symptom relief ."
+  },
+  {
+    "type": "omission",
+    "detail": "Please go to A & E"
+  },
+  {
+    "type": "omission",
+    "detail": "Most likely disgnosis is labrynthitis\nIf you will need to book a pace to face appointment to have your ears checked ."
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 27: \"You are having a headache for the past 4 days \nYou have been taking paracetamol and ibuprofen but no relief \nYou have just returned from Thailand a week ago and a friend of your is also unwell \nYou have had mosquito bites \nYou have a rash all over your body but this disappears when a glass is placed ( blanching)\nThere is no pain while you move your neck \nThere is no pain while looking at the light \nThere is no weakness of the muscles \nThere is no pins and needles \nYou do not have vomiting \nThere is no no cough, cold or ear pain\nThere is no bleeding spots over the skin \nYou have some generalized muscle aches \nPast medical history None\nNo allergies \nPlan : you have been advised to book an urgent appointment to see a doctor in the next few hours\nIf this is not possible you will need to go to A & E .\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"4\" to \"40\" in \"You are having a headache for the past 40 days \nYou have been taking paracetamol and ibuprofen but no relief \nYou have just returned from Thailand a week ago and a friend of your is also unwell \nYou have had mosquito bites \nYou have a rash all over your body but this disappears when a glass is placed ( blanching)\nThere is no pain while you move your neck \nThere is no pain while looking at the light \nThere is no weakness of the muscles \nThere is no pins and needles \nYou do not have vomiting \nThere is no no cough, cold or ear pain\nThere is no bleeding spots over the skin \nYou have some generalized muscle aches \nPast medical history None\nNo allergies \nPlan : you have been advised to book an urgent appointment to see a doctor in the next few hours\nIf this is not possible you will need to go to A & E .\""
+  }
+]

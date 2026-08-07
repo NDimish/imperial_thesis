@@ -1,10 +1,10 @@
 [
   {
-    "type": "hallucination",
-    "detail": "inserted sentence from note 16: \"One previous similar episode in the past- resolved spontaneously.\""
+    "type": "omission",
+    "detail": "Most likely disgnosis is labrynthitis\nIf you will need to book a pace to face appointment to have your ears checked ."
   },
   {
-    "type": "hallucination",
-    "detail": "inserted sentence from note 16: \"One previous similar episode in the past- resolved spontaneously.\""
+    "type": "omission",
+    "detail": "If you develop any weakness of arms and legs, vomiting ."
   }
 ]

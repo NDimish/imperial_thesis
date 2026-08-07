@@ -1,0 +1,32 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "number edit",
+    "detail": "Imp: need to exclude impacted wax in ear canal first\nPln: for face to face GP appointment in 50 days to examine ear\nPt to read about tinnitus in the meantime via following link: www.patient.co.uk/tinnitus\nIf any problems in interim to ring us back\nPt happy with and understands plan"
+  },
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "No discharge/ fever/ itchiness/ pain\nDoesn't use cotton wool buds\nNo Pmhx of note\nEx: Looks well, in pain."
+  },
+  {
+    "type": "hallucination",
+    "severity": "low",
+    "detail_type": "entity swap",
+    "detail": "Imp: need to exclude impacted wax in ear canal first \n Pln: for face to face Bell appointment in 50 days to examine ear \n Pt to read about tinnitus in the meantime via following link: www.patient.co.uk/tinnitus \n If any problems in interim to ring us back \n Pt happy with and understands plan"
+  },
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "discharge/ fever/ itchiness/ pain Doesn't use cotton wool buds No Pmhx of note Ex: Looks well, in pain."
+  },
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "number edit",
+    "detail": "History: \n Hx of difficulty hearing left ear for 60 weeks with tinnitus and slight nausea/ dizziness."
+  }
+]

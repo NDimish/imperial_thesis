@@ -1,18 +1,6 @@
 [
   {
-    "type": "omission",
-    "detail": "WE will need to r/o more serious conditions like malaria, Dengue and meningitis"
-  },
-  {
     "type": "hallucination",
-    "detail": "\"Thailand\" was swapped for \"Vietnam\" (from note 23)"
-  },
-  {
-    "type": "hallucination",
-    "detail": "inserted sentence from note 23: \"No diarrhea, no neck stiffness, no headache (no more than usual- normal headache on top of head through looking at screen).\""
-  },
-  {
-    "type": "hallucination",
-    "detail": "inserted sentence from note 31: \"It might be just urticaria ( Hives)Call the ambulance to r/o possible anaphylactic reaction\""
+    "detail": "inserted sentence from note 23: \"Recent foreign travel- returned from Vietnam, took malaria prevention daily- cant remember medication, present there for a few weeks, rural and urban tourism, trekking and cycling.\""
   }
 ]

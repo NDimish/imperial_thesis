@@ -1,0 +1,8 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "number edit",
+    "detail": "BP last checked 10 yr ago was normal."
+  }
+]

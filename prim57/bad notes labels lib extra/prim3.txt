@@ -1,0 +1,18 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"1\" to \"10\" in \"Nil smoking/etOH hx\n\nImp: migraine\n\nPlan:\n10.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"1\" to \"10\" in \"Review in 10w to discuss prophylactic Rx, or earlier if worsening sx (headaches, vomiting, vision sx) or any concerns\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"COCP\" was swapped for \"UTI\" (from note 5)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 5: \"Nil smoking, social EtOH \n\nImp: ?UTI.\""
+  }
+]

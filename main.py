@@ -9,9 +9,9 @@ from Modules.evaluate import Evaluate
 sys.path.insert(0, "Medical condensor")
 from base import clean_transcript
 from medspacy_condenser import MedspacyCondenser
-from negspacy_condenser import NegspacyCondenser
-from quickumls_condenser import QuickUMLSCondenser
-from scispacy_condenser import SciSpacyCondenser
+# from negspacy_condenser import NegspacyCondenser
+# from quickumls_condenser import QuickUMLSCondenser
+# from scispacy_condenser import SciSpacyCondenser
 
 INPUT_DIR = "prim57/cleaned transcripts"  # "Input"
 OUTPUT_DIR = "prim57/bad notes lib"  # "Output"
@@ -38,35 +38,93 @@ def load_checker_modules():
     """
     modules = []
 
-    try:
-        from Modules.AI_checker import AIChecker
-        modules.append(AIChecker())
-    except Exception as e:
-        print(f"Skipping AIChecker: {e}")
+    # AIChecker disabled for this batch: out of scope (this pass is about
+    # tuning AlignScore/FactKB/Kdbe specifically), it's a Gemini API call
+    # subject to transient outages (hit a 503 "high demand" error mid-run),
+    # and its results aren't directly comparable to the other checkers'
+    # anyway since it's a free-form LLM call, not a deterministic scorer with
+    # a tunable threshold. Re-enable by uncommenting.
+    # try:
+    #     from Modules.AI_checker import AIChecker
+    #     modules.append(AIChecker())
+    # except Exception as e:
+    #     print(f"Skipping AIChecker: {e}")
+
+    # Hashed out for a HighRiskChecker-only run -- re-enable by uncommenting.
+    # try:
+    #     from Modules.alignscore_checker import AlignScoreChecker
+    #     modules.append(AlignScoreChecker())
+    # except Exception as e:
+    #     print(f"Skipping AlignScoreChecker: {e}")
 
     try:
-        from Modules.alignscore_checker import AlignScoreChecker
-        modules.append(AlignScoreChecker())
+        from Modules.high_risk_checker import HighRiskChecker
+        modules.append(HighRiskChecker())
     except Exception as e:
-        print(f"Skipping AlignScoreChecker: {e}")
+        print(f"Skipping HighRiskChecker: {e}")
 
-    try:
-        from Modules.summac_checker import SummaCChecker
-        modules.append(SummaCChecker())
-    except Exception as e:
-        print(f"Skipping SummaCChecker: {e}")
+    # SummaCChecker disabled: a real 5-file run measured it at ~1,829s/file
+    # average (one file took 71 minutes) -- a full 57-file run would take
+    # roughly a day for this checker alone. That's a real performance bug
+    # (almost certainly re-loading or re-running its model per sentence
+    # rather than batching), not something to wait out. Left importable but
+    # commented out here until that's actually fixed; re-enable by
+    # uncommenting once it's been profiled and sped up.
+    # try:
+    #     from Modules.summac_checker import SummaCChecker
+    #     modules.append(SummaCChecker())
+    # except Exception as e:
+    #     print(f"Skipping SummaCChecker: {e}")
 
-    try:
-        from Modules.factkb_checker import FactKBChecker
-        modules.append(FactKBChecker())
-    except Exception as e:
-        print(f"Skipping FactKBChecker: {e}")
+    # Hashed out for an AlignScoreChecker-only run (per request) -- re-enable
+    # by uncommenting.
+    # try:
+    #     from Modules.factkb_checker import FactKBChecker
+    #     modules.append(FactKBChecker())
+    # except Exception as e:
+    #     print(f"Skipping FactKBChecker: {e}")
 
-    try:
-        from Modules.kdbe_checker import KdbeChecker
-        modules.append(KdbeChecker())
-    except Exception as e:
-        print(f"Skipping KdbeChecker: {e}")
+    # try:
+    #     from Modules.old.kdbe_checker import KdbeChecker
+    #     modules.append(KdbeChecker())
+    # except Exception as e:
+    #     print(f"Skipping KdbeChecker: {e}")
+
+    # try:
+    #     from Modules.embedkde_checker import EmbedKdeChecker
+    #     modules.append(EmbedKdeChecker())
+    # except Exception as e:
+    #     print(f"Skipping EmbedKdeChecker: {e}")
+
+    # try:
+    #     from Modules.concept_checker import ConceptChecker
+    #     modules.append(ConceptChecker())
+    # except Exception as e:
+    #     print(f"Skipping ConceptChecker: {e}")
+
+    # try:
+    #     from Modules.deterministic_checker import DeterministicChecker
+    #     modules.append(DeterministicChecker())
+    # except Exception as e:
+    #     print(f"Skipping DeterministicChecker: {e}")
+
+    # try:
+    #     from Modules.medspacy_umls_checker import MedspacyUmlsChecker
+    #     modules.append(MedspacyUmlsChecker())
+    # except Exception as e:
+    #     print(f"Skipping MedspacyUmlsChecker: {e}")
+
+    # try:
+    #     from Modules.metamap_cui_checker import MetaMapCuiChecker
+    #     modules.append(MetaMapCuiChecker())
+    # except Exception as e:
+    #     print(f"Skipping MetaMapCuiChecker: {e}")
+
+    # try:
+    #     from Modules.cql_checker import CqlChecker
+    #     modules.append(CqlChecker())
+    # except Exception as e:
+    #     print(f"Skipping CqlChecker: {e}")
 
     return modules
 
@@ -79,8 +137,8 @@ def read_input_file(filename, condenser):
     with open(path, "r", encoding="utf-8") as f:
         transcript = clean_transcript(f.read())
 
-    condensed, _ = condenser.condense(transcript)
-    return condensed
+    #condensed, _ = condenser.condense(transcript)
+    return transcript
 
 
 def read_output_file(filename):
@@ -90,48 +148,6 @@ def read_output_file(filename):
         return f.read()
 
 
-def plot_trends(all_checkpoints):
-    """Plots per-module per-run trends: precision, recall, f1, and elapsed time.
-    One line per module, fixed categorical color order, four stacked single-axis
-    panels (never dual-axis). One point per run (e.g. 5 runs = 5 points).
-    """
-    metrics = [
-        ("precision", "Precision"),
-        ("recall", "Recall"),
-        ("f1", "F1"),
-        ("avg_elapsed", "Avg elapsed time (s)"),
-    ]
-
-    fig, axes = plt.subplots(len(metrics), 1, figsize=(9, 11), sharex=True)
-    fig.suptitle("Checker modules: per-module trends (one point per run)", y=0.995)
-
-    for module_index, (module_name, checkpoints) in enumerate(all_checkpoints.items()):
-        if not checkpoints:
-            continue
-        color = MODULE_COLORS[module_index % len(MODULE_COLORS)]
-        x = [c["run"] for c in checkpoints]
-
-        for ax, (key, _) in zip(axes, metrics):
-            y = [c.get(key) for c in checkpoints]
-            ax.plot(x, y, marker="o", markersize=6, linewidth=2, color=color, label=module_name)
-
-    for ax, (_, title) in zip(axes, metrics):
-        ax.set_title(title, fontsize=10, loc="left")
-        ax.grid(True, color="#e1e0d9", linewidth=0.8)
-        ax.spines["top"].set_visible(False)
-        ax.spines["right"].set_visible(False)
-
-    axes[-1].set_xlabel("Run")
-    handles, labels = axes[0].get_legend_handles_labels()
-    fig.legend(
-        handles, labels, loc="upper center", bbox_to_anchor=(0.5, 0.965),
-        ncol=min(len(labels), 4), frameon=False, fontsize=8,
-    )
-    fig.tight_layout(rect=[0, 0, 1, 0.90])
-
-    os.makedirs(os.path.dirname(PLOT_PATH), exist_ok=True)
-    fig.savefig(PLOT_PATH, dpi=150)
-    print(f"\nSaved trend plot to {PLOT_PATH}")
 
 
 def main(limit=None):
@@ -146,7 +162,6 @@ def main(limit=None):
     condenser = CONDENSER()
     print(f"Using {condenser.__class__.__name__} to condense transcripts.")
 
-    all_checkpoints = {}
 
     for module in modules:
         module_name = module.__class__.__name__
@@ -161,24 +176,41 @@ def main(limit=None):
                 transcript = read_input_file(input_filename, condenser)
                 soap_note = read_output_file(output_filename)
 
-                errors, elapsed = module.check(transcript, soap_note)
+                try:
+                    errors, elapsed = module.check(transcript, soap_note)
+                except Exception as e:
+                    # A single file/module failure (e.g. a transient upstream
+                    # API outage) used to kill the entire run, including
+                    # every checker after this one that hadn't run yet.
+                    # Skip just this file instead -- report it loudly so a
+                    # real pattern of failures doesn't pass unnoticed, but
+                    # let the other files and checkers still complete.
+                    print(f"\n=== {module_name} on {input_filename} (run {run}/{RUNS_PER_MODULE}) -- FAILED ===")
+                    print(f"  {type(e).__name__}: {e}")
+                    continue
 
                 print(f"\n=== {module_name} on {input_filename} (run {run}/{RUNS_PER_MODULE}) ===")
-                for error_type, error in errors:
-                    print(f"{error_type}: {error}")
+                for error in errors:
+                    # HighRiskChecker (and any future severity-aware checker) returns
+                    # (type, severity, detail_type, detail, section) 5-tuples instead
+                    # of the (type, detail) 2-tuples every other checker here returns.
+                    if len(error) == 5:
+                        error_type, severity, detail_type, detail, section = error
+                        print(f"{error_type} [{severity}/{detail_type}/{section}]: {detail}")
+                    elif len(error) == 4:
+                        error_type, severity, detail_type, detail = error
+                        print(f"{error_type} [{severity}/{detail_type}]: {detail}")
+                    else:
+                        error_type, detail = error
+                        print(f"{error_type}: {detail}")
                 print(f"Time to complete: {elapsed:.2f}s")
 
-                evaluator.compare(errors, input_filename, elapsed, run=run)
+                evaluator.compare(errors, input_filename, elapsed)
 
-            evaluator.checkpoint_run(run)
 
         evaluator.results()
-        all_checkpoints[module_name] = evaluator.checkpoints
 
-    if any(all_checkpoints.values()):
-        plot_trends(all_checkpoints)
-    else:
-        print("\nNo completed runs -- skipping plot.")
+
 
 
 if __name__ == "__main__":

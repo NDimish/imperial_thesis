@@ -1,0 +1,22 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"7\" to \"70\" in \"Plan: Advised 3/70 course Abx.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"2\" to \"20\" in \"Last BO 20 hrs ago.\""
+  },
+  {
+    "type": "omission",
+    "detail": "Will pick up from pharmacy."
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"No dysuria/freq.\" to \"dysuria/freq.\""
+  },
+  {
+    "type": "omission",
+    "detail": "No blood in stool."
+  }
+]

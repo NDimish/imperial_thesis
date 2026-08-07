@@ -1,0 +1,44 @@
+d: Could you please tell me your first name and your date of birth.
+p: My name is John Smith, born on the fifth of April, nineteen seventy three.
+d: Tell me a bit about what's been happening, you've got a problem with your elbow?
+p: I just noticed about a week ago a weird swelling on my elbow, noticed it in the shower. It's not painful at all, I feel fine, but it's a bit weird to see. It's slightly warm, and I can feel like a little bit of fluid inside.
+d: Was it the left elbow or the right?
+p: The left elbow.
+d: Have you banged that elbow, any kind of injury?
+p: No, not really, not that I know of, I can actually move it normally.
+d: In terms of your job, do you do anything physical?
+p: Not really, I just sit at a desk.
+d: Has this happened before?
+p: No, I haven't noticed that before, I don't have any history of seeing this.
+d: Has anyone in your family got any rheumatology diseases, like rheumatoid arthritis or lupus?
+p: No, well I think I have something like osteoarthritis, it sometimes hurts my joints, but in my family I'm not sure.
+d: Has anyone ever confirmed you've got osteoarthritis?
+p: Yes, a few years ago, a GP.
+d: Can I double-check how old you are?
+p: I'm fifty three.
+d: Do you have any other illnesses at all?
+p: Not really, I'm allergic to peanuts, that's pretty much all for my medical history.
+d: Are you allergic to any medication?
+p: No, not that I know of.
+d: Are you on any medication on a regular basis?
+p: No.
+d: Are you normally fit and well, mobile and active?
+p: Yeah, I run regularly, two, three times a week, I think I'm healthy.
+d: Is it possible for me to have a look at your elbow now?
+p: Sure.
+d: If you can raise your elbow up so I can see the underside, and bring it round so I can see the other side. If you can touch the tip of your elbow with your fingers -- is it hot compared to the surrounding skin?
+p: It's a bit warm, yes.
+d: Is it very tender when you press on it?
+p: On the tip it's OK, just next to it where the swelling is, it feels a bit weird.
+d: I noticed the skin was a bit dry on the tip of the elbow, do you have dry skin anywhere else on the body?
+p: No, not really.
+d: Do you suffer from eczema at all?
+p: No.
+d: What I think we should do with regards to your elbow problem -- this seems like what we call Bursitis, an inflammation of one of the fluid sacs around the joint. I think you should be on some anti-inflammatory medication in the first instance, and I would also like to get some blood tests done to check for other types of causes of joint swelling. We're going to arrange blood test forms to be sent out to your house, with instructions about where to go to get the tests done, checking for inflammatory markers, infection, rheumatological antibodies, and a full screen including gout. The results will come back after about five or six days. I'd suggest we arrange a follow-up appointment in one of our clinics where we can have a look at your joint, feel it, and review the blood tests. In terms of your joint right now, it doesn't look like septic arthritis, an acutely infected joint. However, if the elbow was to become very red, very painful, and the redness was to spread or become more intense, then you need to get on the phone or have a video appointment with one of us as soon as possible, as that would be an emergency requiring more immediate assessment and treatment.
+p: Do you think it's something dangerous, could I die from that?
+d: No, I don't think this is anything dangerous, you don't need to worry. I'm just outlining the worst case scenario if things were to develop -- this is not the case right now, right now it looks quite straightforward, nothing sinister or life-threatening. I'm just saying in case things worsen, these are the things we'd be looking out for. But you don't have that now, and I don't think you're going to have it.
+d: Did you have any questions?
+p: I just wanted to know about this, it feels a bit better now, but that's it, thank you.
+d: I would take Ibuprofen regularly, over the counter, four hundred milligrams, two times a day, after food, not on an empty stomach. If you get any heartburn, stop taking it. I'll get the forms sent out to you, and we're going to arrange a follow-up appointment -- it doesn't have to be face-to-face, we can do it over the phone or video if that's more convenient, that's your call. Contact us after you've had the blood test done, and we can review things then.
+p: That sounds good, I'll do that, and if I see it's getting worse I'll probably ask for a physical appointment.
+d: That's a good idea. I'll sort those bits and pieces out and we'll get them sent to you, and review you after the tests.

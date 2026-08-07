@@ -1,0 +1,258 @@
+
+prim1.txt
+  [FALSE] omission: Um, probably like six or seven times a day? Yeah.
+  [FALSE] omission: Uh...no, just maybe my stomach.
+  [FALSE] omission: And was your vomit, I know it's not a nice thing to talk about,
+  [FALSE] omission: was it just normal food colour Yeah.
+  [FALSE] omission: Um, I had a loss of appetite, um, so I haven't been eating as much,
+  [FALSE] omission: I just, yeah, use an inhaler, and uh that's under control.
+  [FALSE] omission: Uh, no, no other medications.
+  [FALSE] omission: having listened to your story, sir, I think uh, um, just to recap for the last three days you've been having loose stool, diarrhea, a bit of tummy pain uh mainly on the left-hand side, um and vomiting and fever and you're quite weak and lethargic um, you mentioned you had this Chinese takeaway as little as three days ago and I wondered whether that might be the cause of your problems.
+  [FALSE] omission: Um, it seems like you may have something, uh, called gastroenteritis, which essentially just a tummy bug or infection of your uh of your tummy.
+  [FALSE] omission: So, um, I don't think you need anything like antibiotics.
+  [FALSE] omission: It's really just, um, making sure you're well hydrated, so drinking fluids.
+  [FALSE] omission: Um, there are things like Dioralyte you can get from the pharmacy, which uh it's um it helps helps replenish your minerals and vitamins.
+  [FALSE] omission: Um, there are things like Dioralyte you can get from the pharmacy, which uh it's um it helps helps replenish your minerals and vitamins.
+  [FALSE] hallucination: Associated LLQ pain - crampy, intermittent, nil radiation.
+  [FALSE] hallucination: PMH: Asthma
+  [TRUE] hallucination: smoking/etOH hx Imp: gastroenteritis Plan
+  [FALSE] hallucination: Conservative management - rest, push fluids, paracetamol if feverish.
+  [FALSE] status_flip: etoh: smoking/etOH hx Imp: gastroenteritis Plan
+  [FN] hallucination: other unwell contacts.
+  [FN] omission: Opening bowels x6/day.
+
+prim10.txt
+  [FALSE] omission: Um, I wouldn't describe it as crampy I don't think it's like a period pain, it's a bit different, it's, it's hard to say, an achey pain I suppose.
+  [FALSE] omission: Um, I wouldn't describe it as crampy I don't think it's like a period pain, it's a bit different, it's, it's hard to say, an achey pain I suppose.
+  [FALSE] omission: Uh yeah, uh I'm um on the pill.
+  [FALSE] omission: Um, yeah I think there was an antibiotic, um, called Clindamycin mycin .
+  [FALSE] omission: the fact that I, I I think it's, um, probably just a simple what we'd say a UTI or a cystitis, bladder infection.
+  [FALSE] omission: the fact that I, I I think it's, um, probably just a simple what we'd say a UTI or a cystitis, bladder infection.
+  [FALSE] omission: Um, so we've got a choice of two antibiotics something called Trimethoprim or, Nitrofurantoin which is a three day course.
+  [FALSE] omission: Um, start the antibiotics, make sure you're well hydrated, drink plenty of fluids.
+  [FALSE] hallucination: Currently sexually active-long-term partner.
+  [TRUE] hallucination: DH: COCP, mebeverine
+  [FALSE] hallucination: SH: lives in student halls, nil smoking, social EtOH
+  [FALSE] hallucination: Plan:
+  [FALSE] hallucination: Allergic to clindamycin
+  [FALSE] hallucination: today: duration 7 day(s) -- 1/52 hx of dysuria, frequency and suprapubic pain. Noticed urine today was pink, nil frank haematuria. Suprapubic pain on PU-aching pain, nil radiating
+  [FALSE] hallucination: active: duration 14 day(s) -- Currently sexually active-long-term partner. LMP 2/52
+  [FN] omission: Review in 1/52 INB, or earlier if worsening sx (fever, back pain, vomiting)
+  [FN] hallucination: Simple analgesia
+50.
+  [FN] omission: Nil PV discharge.
+  [FN] hallucination: Push fluids 
+40.
+
+prim11.txt
+  [FALSE] omission: Yeah, so I mean I'm , I'm trying to drink a lot of water.
+  [FALSE] omission: And when I like, I think it's maybe something to do with like, whenever I have like milk or something like that, I just feel like I want to vomit.
+  [FALSE] omission: And, and you said that, you mentioned, three days ago was when it all kicked off.
+  [FALSE] omission: Um so, I had some, I mean I had some lunch today. Um
+  [FALSE] omission: I'll take it you don't take any regular medications, then.
+  [FALSE] omission: uh, I haven't been, I'm not on any regular medication or anything like that.
+  [FALSE] omission: Um bowel, so would, would bowel like, is is the colon like something that
+  [FALSE] omission: So it could be anything from the mouth anus.
+  [FALSE] omission: And I, I don't exactly know the full things of like the steps of cancer, and all that kind of thing.
+  [FALSE] omission: bit of a basic infection of your tummy. .
+  [FALSE] omission: I am obviously worried about the fact that you are losing minerals and vitamins.
+  [FALSE] omission: You can use soft diet, things like soup, mash.
+  [FALSE] hallucination: Assoc crampy abdo pain - central, intermittent, severity 6/10.
+  [FALSE] hallucination: Feeling feverish, hot/cold
+  [FALSE] hallucination: Plan:
+  [FALSE] status_flip: gastroenteritis: Imp: gastroenteritis
+  [FALSE] omission: Um, so I don't have any allergies that I know of.
+  [FALSE] hallucination: NKDA
+  [FN] omission: Review in 48 hours, or earlier if worsening sx
+  [FN] hallucination: Unprotected SI 2/7 ago.
+  [FN] hallucination: Unprotected SI 2/7 ago.
+
+prim12.txt
+  [FALSE] omission: And uh, uh, so it started with vomiting, so I vomited a couple of times.
+  [FALSE] omission: OK. And uh uh can you tell me, I know it's not nice to talk about,
+  [FALSE] omission: You said
+  [FALSE] omission: Um, so, my father has, high uh, well used to have high blood pressure.
+  [FALSE] omission: He actually, so he actually died, of, bowel cancer, like ten years ago.
+  [FALSE] omission: Ohh yes, so uh, probably is worth mentioning uh, she has diabetes.
+  [FALSE] omission: It's an infection of your, your tummy.
+  [FALSE] omission: Uh you can get things from the pharmacy, which is called Dioralyte, which can help replenish any uh minerals and vitamins you may have lost.
+  [FALSE] omission: Uh you can get things from the pharmacy, which is called Dioralyte, which can help replenish any uh minerals and vitamins you may have lost.
+  [FALSE] hallucination: DH: salbutamol PRN
+  [FALSE] hallucination: mother - diabetes Type 2
+  [FALSE] hallucination: Plan:
+  [FALSE] status_flip: gastroenteritis: Imp: gastroenteritis
+  [FALSE] hallucination: NKDA
+  [FN] omission: No abdo pain.
+  [FN] omission: Has now developed diarrhea - 5-6x/day.
+  [FN] hallucination: Lives with wife and children.
+
+prim13.txt
+  [FALSE] omission: Not loss of vision, I wouldn't say.
+  [FALSE] omission: Um at first I thought it's stress, or maybe I didn't drink enough water.
+  [FALSE] omission: it's certainly worth treating it today stronger analgesia or painkillers.
+  [FALSE] omission: it's certainly worth treating it today stronger analgesia or painkillers.
+  [FALSE] omission: You can take up to two tablets, three times a day.
+  [FALSE] omission: Or, I can prescribe you something stronger, like Naproxen, which is another anti-inflammatory, which can be helpful.
+  [FALSE] omission: Or, I can prescribe you something stronger, like Naproxen, which is another anti-inflammatory, which can be helpful.
+  [FALSE] omission: Um, we can also add in other, painkillers like, Paracetamol, or Codeine.
+  [FALSE] omission: We can think about giving you medications as, prophylactic.
+  [FALSE] hallucination: Has tried ibuprofen with limited relief.
+  [FALSE] hallucination: Visual aura prior to headaches.
+  [FALSE] hallucination: ICE: ?related to stress/dehydration.
+  [FALSE] hallucination: Plan:
+  [FALSE] hallucination: Paracetamol/NSAIDs regular
+  [TRUE] hallucination: NKDA
+  [FN] hallucination: Review in 10/52 - discuss prophylactic Rx if necessary
+4.
+  [FN] hallucination: Review in 10/520 - discuss prophylactic Rx if necessary
+4.
+  [FN] hallucination: Started few hours ago, gradual onset.
+
+prim14.txt
+  [FALSE] omission: And my nose is running.
+  [FALSE] omission: No, OK. So it keeps you up at night. Um you mentioned uh the cold symptoms as well, the runny nose.
+  [FALSE] omission: You know just, just my throat is irritated from coughing.
+  [FALSE] omission: And kept adding more sweaters on, and I was still cold.
+  [FALSE] omission: I just like, my stomach wasn't feeling great.
+  [FALSE] omission: I, I drank loads of water, when I started having the diarrhea.
+  [FALSE] omission: Especially like in my arms, my legs, like just everywhere basically.
+  [FALSE] omission: Uh, well I have type two diabetes.
+  [FALSE] omission: And I have quite high blood pressure.
+  [FALSE] omission: Like I, I have it under control.
+  [FALSE] omission: And since I've started taking this medication, I've just been like regularly checking that it, it's under control.
+  [FALSE] omission: not too active a job.
+  [FALSE] omission: So, you know things you can do to help yourself in the meantime is to, you know get some nice, good rest.
+  [FALSE] omission: Keep yourself well-hydrated.
+  [FALSE] omission: And if you are still feeling feverish, um and your cough isn't getting any better, then we may look to give you some antibiotics for your chest.
+  [FALSE] omission: some of the uh uh common source of infection. Um
+  [FALSE] hallucination: PMH: Type 2 diabetes, HTN
+  [FALSE] hallucination: Social EtOH <14 units/week
+  [FALSE] hallucination: Plan:
+  [FALSE] status_flip: sore throat: Runny nose, no ear pain, no sore throat.
+  [FALSE] omission: Zinopril. OK, fine. Any allergies at all, to medications?
+  [FALSE] hallucination: NKDA
+  [FALSE] hallucination: sore throat: duration 5 day(s) -- 5/7 hx of cough and runny nose. Dry cough, keeps pt up at night. Runny nose, no ear pain, no sore throat. No SOB/chest pain
+  [FALSE] hallucination: stress: duration 180 day(s) -- SH: lives with partner, works IT, denies stress. Ex-smoker - stopped 6/12 ago. Social EtOH <14 units/week
+  [FALSE] hallucination: stress: dosage 14.0unit -- SH: lives with partner, works IT, denies stress. Ex-smoker - stopped 6/12 ago. Social EtOH <14 units/week
+  [FALSE] hallucination: etoh: duration 180 day(s) -- SH: lives with partner, works IT, denies stress. Ex-smoker - stopped 6/12 ago. Social EtOH <14 units/week
+  [FALSE] hallucination: etoh: dosage 14.0unit -- SH: lives with partner, works IT, denies stress. Ex-smoker - stopped 6/12 ago. Social EtOH <14 units/week
+  [FN] omission: Feeling shivery, hot/cold, ?fever 
+No nausea/vomiting 
+Appetite maintained.
+
+prim15.txt
+  [FALSE] omission: It's just you know, I've always, you know, I don't hydrate very much. So
+  [FALSE] omission: I have diabetes.
+  [FALSE] omission: Um, Mrs. Parkinson, so I think um, based on your story, I I think you might have something called dermatitis or contact dermatitis.
+  [FALSE] omission: In your case, I strongly recommend that you wear gloves when cleaning at all times.
+  [FALSE] hallucination: PMH: Type 2 diabetes
+  [TRUE] hallucination: Minimal etOH Has tried E45 cream and antihistamines with minimal relief Imp: contact dermatitis Plan
+  [FALSE] hallucination: Minimal etOH Has tried E45 cream and antihistamines with minimal relief Imp: contact dermatitis Plan
+  [FALSE] hallucination: NKDA
+  [FALSE] hallucination: steroid: frequency 2x/day -- 1. Steroid cream BD
+  [FALSE] hallucination: steroid: frequency 2x/day -- 1. Steroid cream BD
+  FN - none
+
+prim16.txt
+  [FALSE] omission: Well, nice to see you this morning.
+  [FALSE] omission: Um, I occasionally get like a ringing in my left ear, uh just on the one side and um there's actually been a few times when I felt kind of a bit sick or a bit dizzy as well.
+  [FALSE] omission: lead to muffled hearing.
+  [FALSE] omission: just, just a little bit kind of off balance.
+  [FALSE] omission: and Tinnitus is something actually that medicine doctors, we don't really understand it fully.
+  [FALSE] omission: So, um, bear with me five minutes and then you can ring the support team, I'll leave the number in the notes for this appointment.
+  [TRUE] hallucination: Tingling present on left side of face over the same period (1 hour)
+  [FALSE] hallucination: Difficulty swallowing water- dribbled water
+  [FALSE] hallucination: Difficulty swallowing water- dribbled water
+  [FALSE] hallucination: DH: metformin, losartan, amlodipine
+  [FALSE] hallucination: DH: metformin, losartan, amlodipine
+  [FALSE] hallucination: DH: metformin, losartan, amlodipine
+  [FALSE] hallucination: Allergic to penicillin
+  [FALSE] hallucination: FH: father hs ‘heart disease
+  [FALSE] hallucination: SH: lives alone, ex smoker, mild- moderate alcohol intake.
+  [TRUE] hallucination: Doesn't use cotton wool buds
+  [FALSE] hallucination: Pln: for face to face GP appointment in 5 days to examine ear
+  [FALSE] hallucination: Pt happy with and understands plan
+  [FALSE] status_flip: impacted: Imp: need to exclude impacted wax in ear canal first
+  [FALSE] hallucination: Allergic to penicillin
+  [FN] hallucination: Hx: 1 week history of left side difficulty hearing and facial numbness
+No dysphagia, dysarthria, no unilateral weakness/numbness in the rest of the body, no visual disturbances 
+No ear pain, ear discharge, fever, itchiness or cotton bud use.
+
+prim17.txt
+  [FALSE] omission: Nice to see you.
+  [FALSE] omission: Before we start your appointment, could you please tell me your first name and your date of birth.
+  [FALSE] omission: You said you mentioned in the notes that you've got a problem with your elbow.
+  [FALSE] omission: Um, no, well I, I do, well I think, I think I have something like uh, osteoarthritis. Um
+  [FALSE] omission: I run regularly, like two, three times a week.
+  [FALSE] omission: So, that's an inflammation of one of the fluid sacs around the joint.
+  [FALSE] omission: Um, what I think we should do is, I think you should be on some anti-inflammatory medication, in the, in the first instance.
+  [FALSE] omission: And, that will involve you, um, having some tests done to check for inflammatory markers, infection, rheumatological antibodies.
+  [FALSE] omission: And, that will involve you, um, having some tests done to check for inflammatory markers, infection, rheumatological antibodies.
+  [FALSE] omission: So we'll do a full screen, and also check for things like Gout as well, OK. Um.
+  [FALSE] omission: It doesn't look like, to me that's something called, excuse me, septic arthritis.
+  [FALSE] omission: So, we're worried sometimes that someone might have an acutely infected joint.
+  [FALSE] omission: OK. So, I, I would take Ibuprofen regularly, OK. You can get that , over the counter.
+  [FALSE] omission: And you should take, take that after food, not on an empty stomach.
+  [FALSE] omission: And you should take, take that after food, not on an empty stomach.
+  [FALSE] omission: Maybe within a um, actually you know, the follow-up appointment doesn't have to be face-to-face, if it's more convenient for you do, to do it over the phone, we can do that over the phone, uh, over video.
+  [TRUE] hallucination: SH: exercises regularly, active
+  [FALSE] hallucination: Mild erythema and minimal swelling (if any) around olecranon process left elbow
+  [FALSE] hallucination: Plan: for NSAIDs- usual advice re SE
+  [TRUE] hallucination: Doesn't use cotton wool buds
+  [FALSE] status_flip: medication: DH: not on any medication, allergic to peanuts
+  [FALSE] status_flip: bursitis: Imp: possible bursitis
+  [FALSE] hallucination: DH: not on any medication, allergic to peanuts
+  [FN] omission: No trauma.
+  [FN] hallucination: Hx: 10 week history of spontaneous elbow swelling left.
+
+prim18.txt
+  [FALSE] omission: Hi. . Nice to meet you.
+  [FALSE] omission: Um, I've, well I've got kind of, been told I have polyps in my nose in the past and, occasionally get them kind of .
+  [FALSE] omission: Um, that, that's all fine and, you know I take a Rennie's if I need to, and if my nose polyps are playing up I've got a spray. Um.
+  [FALSE] omission: Other than that I think they said, ages ago, I had something called, can't quite remember
+  [FALSE] omission: My brother had, Neurofibromatosis, I think it is.
+  [FALSE] omission: what you're, what you're describing might be something called Bell's Palsy.
+  [FALSE] hallucination: No dysphagia, dysarthria, no unilateral weakness/numbness in the rest of the body, no visual disturbances
+  [FALSE] hallucination: No ear pain, ear discharge, fever, itchiness or cotton bud use.
+  [FALSE] hallucination: Slight tinnitus at times in this period- not continuous
+  [FALSE] hallucination: Slight tinnitus at times in this period- not continuous
+  [TRUE] hallucination: Plan: for face to face review today for neurological examination and ear examination
+  [FALSE] hallucination: Allergies: latex allergy
+  FN - none
+
+=== Evaluation Results ===
+prim1.txt: precision=0.06 recall=0.33 f1=0.10 accuracy=0.05 (TP=1 FP=17 FN=2)
+prim10.txt: precision=0.07 recall=0.20 f1=0.10 accuracy=0.05 (TP=1 FP=14 FN=4)
+prim11.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=18 FN=3)
+prim12.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=14 FN=3)
+prim13.txt: precision=0.07 recall=0.25 f1=0.11 accuracy=0.06 (TP=1 FP=14 FN=3)
+prim14.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=27 FN=1)
+prim15.txt: precision=0.10 recall=1.00 f1=0.18 accuracy=0.10 (TP=1 FP=9 FN=0)
+prim16.txt: precision=0.10 recall=0.67 f1=0.17 accuracy=0.10 (TP=2 FP=18 FN=1)
+prim17.txt: precision=0.09 recall=0.50 f1=0.15 accuracy=0.08 (TP=2 FP=21 FN=2)
+prim18.txt: precision=0.08 recall=1.00 f1=0.15 accuracy=0.08 (TP=1 FP=11 FN=0)
+
+Overall (all types): precision=0.05 recall=0.32 f1=0.09 accuracy=0.05 (TP=9 FP=163 FN=19)
+
+By type:
+  hallucination: precision=0.14 recall=0.45 f1=0.21 accuracy=0.12 (TP=9 FP=55 FN=11)
+  omission: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=101 FN=8)
+  status_flip: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=7 FN=0)
+
+Average elapsed time: 4.64s
+
+By severity (recall -- are we catching the risky ones?):
+  critical: 5/5 caught (recall=1.00)
+  high: 3/11 caught (recall=0.27)
+  low: 1/8 caught (recall=0.12)
+  moderate: 0/4 caught (recall=0.00)
+  accuracy on matched errors (predicted value == label value): 0.67 (6/9)
+  mean absolute error (severity rank): 0.56
+
+By detail type (recall -- are we catching this corruption category?):
+  entity swap: 1/1 caught (recall=1.00)
+  inserted sentence: 2/7 caught (recall=0.29)
+  negation flip: 5/6 caught (recall=0.83)
+  number edit: 1/6 caught (recall=0.17)
+  omitted detail: 0/8 caught (recall=0.00)
+  accuracy on matched errors (predicted value == label value): 0.00 (0/9)

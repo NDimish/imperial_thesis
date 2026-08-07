@@ -1,0 +1,26 @@
+[
+  {
+    "type": "omission",
+    "severity": "high",
+    "detail_type": "omitted detail",
+    "detail": "PC : sobar pmhx of childhood asthma and hayfever."
+  },
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "number edit",
+    "detail": "20 day history of wheezing and SOBAR, after cleaning dusty environment\nNo chest pain."
+  },
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "Dhx : allergy nils regular medications."
+  },
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "inserted sentence",
+    "detail": "No of blood thinners."
+  }
+]

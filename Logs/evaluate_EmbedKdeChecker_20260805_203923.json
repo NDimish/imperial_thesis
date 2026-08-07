@@ -1,0 +1,65 @@
+{
+  "module": "EmbedKdeChecker",
+  "overall": {
+    "tp": 0,
+    "fp": 17,
+    "fn": 3,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "accuracy": 0.0
+  },
+  "by_type": {
+    "hallucination": {
+      "tp": 0,
+      "fp": 3,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0
+    },
+    "omission": {
+      "tp": 0,
+      "fp": 14,
+      "fn": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0
+    }
+  },
+  "records": [
+    {
+      "filename": "prim1.txt",
+      "elapsed": 7.424360699951649,
+      "tp": 0,
+      "fp": 17,
+      "fn": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "by_type": {
+        "hallucination": {
+          "tp": 0,
+          "fp": 3,
+          "fn": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "accuracy": 0.0
+        },
+        "omission": {
+          "tp": 0,
+          "fp": 14,
+          "fn": 2,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "accuracy": 0.0
+        }
+      }
+    }
+  ]
+}

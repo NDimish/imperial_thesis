@@ -1,0 +1,18 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "\"E&D\" was swapped for \"A&E\" (from note 51)"
+  },
+  {
+    "type": "omission",
+    "detail": "Urgent examination booked with Dr."
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"A&E\" was swapped for \"MSU \n 3\" (from note 5)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"MSU \n \" was swapped for \"Abdo\" (from note 50)"
+  }
+]

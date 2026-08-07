@@ -1,0 +1,222 @@
+prim1.txt
+  missed - hallucination: inserted sentence from note 11: "No blood in stools."
+  added - hallucination: pmh: asthma
+dh: inhalers
+sh: works as an accountant.
+  added - hallucination: nil smoking/etoh hx
+
+imp: gastroenteritis 
+
+plan:
+conservative management - rest, push fluids, paracetamol if feverish.
+  added - omission: or are your stools more loose?
+  added - omission: d: okay.
+  added - omission: yeah.
+  added - omission: d: okay.
+  added - omission: d: okay.
+  added - omission: does the pain move anywhere else, for example towards your back?
+  added - omission: d: okay, fine.
+  added - omission: p: um, yeah, it doesn't feel like -- yeah, it just makes me feel weak.
+  added - omission: d: okay.
+  added - omission: d: you stopped vomiting, okay.
+  added - omission: p: yeah, yeah, just normal vomit, yeah.
+  added - omission: yeah.
+  added - omission: d: no, okay.
+  added - omission: so you mentioned tummy pain, you mentioned diarrhea, you mentioned your vomiting, uh, anything else that comes to mind?
+  added - omission: p: yep.
+  added - omission: d: okay, so you're drinking fluids.
+  added - omission: d: okay.
+  added - omission: fine.
+  added - omission: d: do you remember where you ate?
+  added - omission: d: okay, okay.
+  added - omission: fine.
+  added - omission: um, alright.
+  added - omission: d: okay.
+  added - omission: d: fine.
+  added - omission: d: no, okay.
+  added - omission: d: okay, fine.
+  added - omission: yeah.
+  added - omission: d: okay.
+  added - omission: d: fine.
+  added - omission: d: right, alright.
+  added - omission: um, do you smoke at all?
+  added - omission: d: okay.
+  added - omission: d: um, it seems like you may have something, uh, called gastroenteritis, which essentially just a tummy bug or infection of your uh of your tummy.
+  added - omission: so, um, i don't think you need anything like antibiotics.
+prim10.txt
+  missed - hallucination: inserted sentence from note 9: "Nil bowel sx
+Currently sexually active - with regular partner for 2/12."
+  missed - hallucination: inserted sentence from note 9: "Abdo pain - cramping, nil radiating 
+Nil nausea/vomiting."
+  added - hallucination: nil pv discharge.
+  added - hallucination: lmp 2/52 
+e+d well 
+
+pmh: ibs
+dh: cocp, mebeverine 
+allergic to clindamycin 
+fh: nil
+sh: lives in student halls, nil smoking, social etoh
+
+imp: uti
+
+plan:
+1.
+  added - hallucination: push fluids 
+4.
+  added - omission: d: right excellent, before i go any further, can i confirm your name and your age please?
+  added - omission: p: yeah i can hear you, hi.
+  added - omission: d: right ok.
+  added - omission: i mean red blood at all, in your urine?
+  added - omission: towards your sides?
+  added - omission: are your bowels working ok?
+  added - omission: p: um, i think i have, um, ibs, um, so i just kinda pass, uh, my bowels like quite, quite a lot.
+  added - omission: no, no, no new symptoms in your bowels?
+  added - omission: um, and amanda sometimes we have to ask quite sensitive questions as you can imagine.
+  added - omission: um, uh, can i ask?
+  added - omission: p: uh yeah, uh i'm um on the pill.
+  added - omission: what kind of pill is it?
+  added - omission: is it combined pill or the mini-pill?
+  added - omission: p: uh, combined pill.
+  added - omission: p: i dunno we've just kind of agreed, uh, so um i guess, a week ago, two weeks ago , quite quite .
+  added - omission: p: uh, yeah, yeah eating drinking ok.
+  added - omission: um, just for your, just for your general health moving forwards, ok?
+  added - omission: d: um, fine.
+  added - omission: d: no, ok great.
+  added - omission: um it begins with an m, it's pretty hard to pronounce like something , maybe.
+  added - omission: p: um, so i am living in halls at the moment, uh at uni um, so uh, uh, i'm just living with a flatmate i suppose, um.
+  added - omission: uh ,i drink occasionally, um, kind of socially, um, with friends .
+  added - omission: p: i kind of was a little bit tipsy so, probably wasn't thinking quite straight.
+  added - omission: um, but yeah i, i completely agree it's not something i wanna get into on a regular basis.
+  added - omission: great, um, fine so, at this stage i wouldn't normally examine you, but i think based on your story i think, um, you know, uh, i'm reassured.
+  added - omission: um, so it's something we can treat quite readily with antibiotics.
+  added - omission: p: ok, ok uh great.
+prim11.txt
+  missed - hallucination: inserted sentence from note 1: "Lives with wife and children."
+  added - hallucination: no weight loss.
+  added - hallucination: works in office.
+  added - hallucination: smokes socially, etoh - socially 
+
+imp: gastroenteritis 
+
+plan:
+1.
+  added - hallucination: otc diarolyte 
+3.
+  added - hallucination: encourage soft diet
+4.
+  added - hallucination: review in 48 hours, or earlier if worsening sx
+  added - omission: so
+d: wow, no.
+  added - omission: sorry to hear.
+  added - omission: d: alright, wow.
+  added - omission: p: yeah, so i mean i'm , i'm trying to drink a lot of water.
+  added - omission: p: uh it's, yeah i i, i think i i feel like it's just, just fluids coming out.
+  added - omission: p: so i, no i don't, i don't remember anything, like, no i , i think it's just i, nothing like that.
+  added - omission: p: yeah.
+  added - omission: i mean i, it, i feel, i feel a cramp.
+  added - omission: p: what do you mean by, uh pain?
+  added - omission: p: i i guess so.
+  added - omission: alright, good.
+  added - omission: p: um, yeah i definitely, i definitely feel kind of nauseous.
+  added - omission: ok, alright.
+  added - omission: d: ok, so you're feeling hoarse.
+  added - omission: p: um yeah a bit, i guess less frequently maybe.
+  added - omission: d: ok, alright.
+  added - omission: d: ok, alright.
+  added - omission: are you having anything to eat or drink?
+  added - omission: are you keeping your fluids down?
+  added - omission: um
+d: ok, alright.
+  added - omission: i um
+p: yeah i mean i, i'm an ok weight.
+  added - omission: i feel like i i just want to go, um when i can.
+  added - omission: so , ok right.
+  added - omission: do you smoke, or do you drink much in the way of alcohol?
+  added - omission: d: bit of a basic infection of your tummy.
+  added - omission: drink, make sure you drink plenty of fluids, ok?
+  added - omission: d: because um, you know if you are getting dehydrated then we need to do further investigations, ok?
+  added - omission: you can use soft diet, things like soup, mash.
+  added - omission: d: absolutely.
+  added - omission: if you are having, if you've got a bit of tummy pain, if you're feeling feverish, then i think paracetamol is very sensible.
+  added - omission: p: alright.
+  added - omission: thank you very much.
+prim12.txt
+  missed - hallucination: inserted sentence from note 4: "Finding work slightly stressful."
+  added - hallucination: no abdo pain.
+  added - hallucination: reduced oral intake.
+  added - hallucination: appetite reduced.
+  added - hallucination: unaware of triggers.
+  added - hallucination: no unwell contacts 
+
+pmh: asthma 
+dh: salbutamol prn 
+nkda
+fh: father - htn, died of bowel ca.
+  added - hallucination: nil smoking, social etoh
+
+imp: gastroenteritis 
+
+plan:
+1.
+  added - hallucination: supportive mx - rest, fluids
+2.
+  added - hallucination: otc diarolyte 
+3.
+  added - hallucination: review in 3-5d inb, or earlier if worsening sx (diarrhea, vomiting, abdo pain, reduced oral intake)
+  added - omission: alright.
+  added - omission: d: ok, alright.
+  added - omission: d: yeah.
+  added - omission: p: um, so i, i do suffer of asthma.
+  added - omission: ok, alright.
+  added - omission: d: ok, alright.
+prim13.txt
+  missed - hallucination: inserted sentence from note 5: "Rx empirically with Abx for UTI
+4."
+  missed - hallucination: inserted sentence from note 3: "Had visual aura before onset of headaches - zigzag lines in field of vision."
+  added - hallucination: progressively worsening.
+  added - hallucination: socially smoke/etoh 
+
+ice: ?related to stress/dehydration.
+  added - hallucination: review in 1/52 - discuss prophylactic rx if necessary
+4.
+  added - hallucination: patient aware of red flag sx - knows to seek urgent medical attention if present
+  added - omission: , hello?
+  added - omission: d: ohh dear, ok.
+  added - omission: is it throbbing?
+  added - omission: so basically it like, it developed gradually, i guess.
+  added - omission: d: so, example any, problems your eyesight or your vision?
+  added - omission: d: so when you say annoying, does it hurt to look, uh, look at bright lights?
+  added - omission: p: not loss of vision, i wouldn't say.
+  added - omission: d: mmm, , ok.
+  added - omission: d: when you say sick, you mean you feel sick?
+  added - omission: d: ohh really?
+  added - omission: p: yeah.
+  added - omission: p: yeah, i think so.
+  added - omission: um, fine.
+  added - omission: it's, yeah.
+  added - omission: d: ohh right, ok, fine.
+  added - omission: p: yeah so i work, well i work in it.
+  added - omission: great.
+  added - omission: um, regarding smoking or alcohol.
+  added - omission: p: mm, yeah.
+
+ [run 1] precision=0.03 recall=0.42 f1=0.06 avg_elapsed=22.676067540002986
+
+ 
+=== Evaluation Results ===
+
+ prim1.txt: precision=0.05 recall=0.67 f1=0.10 accuracy=0.05 (TP=2 FP=36 FN=1)
+
+ prim10.txt: precision=0.03 recall=0.33 f1=0.06 accuracy=0.03 (TP=1 FP=30 FN=2)
+
+ prim11.txt: precision=0.03 recall=0.50 f1=0.05 accuracy=0.03 (TP=1 FP=38 FN=1)
+
+ prim12.txt: precision=0.06 recall=0.50 f1=0.11 accuracy=0.06 (TP=1 FP=15 FN=1)
+
+ prim13.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=23 FN=2)
+
+ 
+Overall: precision=0.03 recall=0.42 f1=0.06 accuracy=0.03 (TP=5 FP=142 FN=7)
+
+ Average elapsed time: 22.68s

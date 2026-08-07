@@ -1,0 +1,32 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "History : Red sore rash for the past few days All over the chest hands and arms Worse especially in the inside of the arms There is no scratch marks No thickened skin\nRash is dry and itchy\nNo fever and joint pains\nUsed hydrocortisone and cetirizine better\nPMH : asthma , eczema\nMedication: diprobase, dermol , hydrocortisone, salbutamol\nFH Hypothyroidism No allergies Plan : advised will prescribe fexofenatidine and Betnovate for eczema."
+  },
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "If your symptoms are better in the next 2 weeks please book another appointment with the doctor."
+  },
+  {
+    "type": "hallucination",
+    "severity": "moderate",
+    "detail_type": "inserted sentence",
+    "detail": "No spread elsewhere."
+  },
+  {
+    "type": "omission",
+    "severity": "critical",
+    "detail_type": "omitted detail",
+    "detail": "Need to use steroid cream sparingly ."
+  },
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "drug switch",
+    "detail": "History: Red sore rash for the past few days All over the chest hands and arms Worse especially in the inside of the arms There is no scratch marks No thickened skin \n Rash is dry and itchy \n No fever and joint pains \n Used hydrocortisone and cetirizine better \n PMH: asthma, eczema \n Medication: diprobase, dermol, hydrocortisone, salbutamol \n FH Hypothyroidism No allergies Plan: advised will prescribe fexofenatidine and Sx for eczema."
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "type": "omission",
+    "severity": "low",
+    "detail_type": "omitted detail",
+    "detail": "Feels nauseous, has vomited occasionally."
+  }
+]

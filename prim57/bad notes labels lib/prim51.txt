@@ -1,0 +1,14 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "low",
+    "detail_type": "entity swap",
+    "detail": "Advised to continue taking small sips E&D constantly."
+  },
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "number edit",
+    "detail": "Last 10 hr ago."
+  }
+]

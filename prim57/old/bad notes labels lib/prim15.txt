@@ -1,10 +1,14 @@
 [
   {
     "type": "omission",
-    "detail": "No pain \nWorks as a cleaner and does not always wear gloves - possible trigger\nNo fever\nNo bowel/urinary sx\nAppetite maintained \n\nPMH: Type 2 diabetes\nDH: metformin \nNKDA\nFH: Type 2 diabetes, \nSH: works as a housekeeper, recently changed jobs 4/12 ago, works in a hotel."
+    "detail": "Steroid cream BD\n2."
+  },
+  {
+    "type": "omission",
+    "detail": "Review in 10-14d INB, or earlier if worsening sx"
   },
   {
     "type": "hallucination",
-    "detail": "inserted sentence from note 2: \"Steroid cream - Betnovate BD\n2.\""
+    "detail": "inserted sentence from note 8: \"Emollients - regular use QDS\n3.\""
   }
 ]

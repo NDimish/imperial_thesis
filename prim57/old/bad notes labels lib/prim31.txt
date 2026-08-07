@@ -1,6 +1,10 @@
 [
   {
+    "type": "omission",
+    "detail": "History : breathing difficulty for past 20 minutes after being bitten by wasp \nThere is some blotching rash seen \ntingling feeling around your lips \nno closing of the throat feeling \nno previous similar history \nPast medical history:\nEczema \nAllergic to penicillin\nPlan : advised to start on antihistamines straight away."
+  },
+  {
     "type": "hallucination",
-    "detail": "inserted sentence from note 21: \"No rash seen on arm\nImp: localized inflammatory reaction to insect bite, no evidence of acute anaphylactic reaction or cellulitis\nPlan: for OTC antihistamines\n Warned re red flags sings/ symptoms- if these occur to get urgent medical review\nNo need for allergy testing on a one-off episode\nTo ring back if any concerns/ anxiety- may need more reassurance\""
+    "detail": "inserted sentence from note 26: \"I have advised Mom to call the ambulance as a 999 call as we are suspecting an anaphylactic reaction\nAfter discharge from hospital please book a review with the doctor to consider prescribing an epipen\""
   }
 ]

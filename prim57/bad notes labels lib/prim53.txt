@@ -1,0 +1,8 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "low",
+    "detail_type": "entity swap",
+    "detail": "No GP."
+  }
+]

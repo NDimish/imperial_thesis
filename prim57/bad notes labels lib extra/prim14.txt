@@ -1,0 +1,22 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"Review 5/7 if no better, or earlier if worsening sx (fever, SOB, chest pain)\" to \"Review 5/7 if better, or earlier if worsening sx (fever, SOB, chest pain)\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"1\" to \"10\" in \"Social EtOH <14 units/week\n\nImp: viral URTI \n\nPlan:\n10.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"14\" to \"140\" in \"Social EtOH <140 units/week\n\nImp: viral URTI \n\nPlan:\n10.\""
+  },
+  {
+    "type": "omission",
+    "detail": "Feeling shivery, hot/cold, ?fever \nNo nausea/vomiting \nAppetite maintained."
+  },
+  {
+    "type": "omission",
+    "detail": "No SOB/chest pain\nFeeling tired, weak and myalgia."
+  }
+]

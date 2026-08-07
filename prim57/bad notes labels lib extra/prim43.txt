@@ -1,0 +1,22 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"No suicidal ideation \n\nNew job - 2 months ago.\" to \"suicidal ideation New job - 2 months ago.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 45: \"Constipated 1 weeks.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 44: \"Slight cough.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"DOB\" was swapped for \"Clinil\" (from note 44)"
+  },
+  {
+    "type": "omission",
+    "detail": "Mother well \n No brothers or sisters."
+  }
+]

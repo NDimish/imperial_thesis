@@ -1,0 +1,20 @@
+[
+  {
+    "type": "omission",
+    "severity": "critical",
+    "detail_type": "omitted detail",
+    "detail": "WE will need to r/o more serious conditions like malaria, Dengue and meningitis"
+  },
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "inserted sentence",
+    "detail": "muscular/ posture\nFh: father has MI at age 68\nDH: on cerazette\nNil allergies, hayfever\nSH: works as a nurse, UTD with hep B etc, non smoker, moderate alcohol intake, moderate physical exercise\nImp: PUO, need to exclude malaria\nPlan: for f2f appointment with GP today\nThereafter, for blood tests including crp, esr, thick and thin blood films (possibly routine, possibly via a/e- depending on second GP's assessment)"
+  },
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "muscular/ posture\nFh: father has MI at age 68\nDH: on cerazette allergies, hayfever\nSH: works as a nurse, UTD with hep B etc, non smoker, moderate alcohol intake, moderate physical exercise\nImp: PUO, need to exclude malaria\nPlan: for f2f appointment with GP today\nThereafter, for blood tests including crp, esr, thick and thin blood films (possibly routine, possibly via a/e- depending on second GP's assessment) You are having a headache for the past 4 days You have been taking paracetamol and ibuprofen but no relief You have just returned from Thailand a week ago and a friend of your is also unwell You have had mosquito bites You have a rash all over your body but this disappears when a glass is placed ( blanching)\nThere is no pain while you move your neck There is no pain while looking at the light There is no weakness of the muscles There is no pins and needles You do not have vomiting There is no no cough, cold or ear pain\nThere is no bleeding spots over the skin You have some generalized muscle aches Past medical history None\nNo allergies Plan : you have been advised to book an urgent appointment to see a doctor in the next few hours\nIf this is not possible you will need to go to A & E ."
+  }
+]

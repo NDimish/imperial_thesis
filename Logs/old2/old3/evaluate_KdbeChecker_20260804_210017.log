@@ -1,0 +1,135 @@
+prim1.txt
+  missed - hallucination: inserted sentence from note 11: "No blood in stools."
+  missed - omission: Associated LLQ pain - crampy, intermittent, nil radiation.
+  added - hallucination: pmh: asthma
+dh: inhalers
+sh: works as an accountant.
+  added - omission: d: okay, so you're drinking fluids.
+prim10.txt
+  missed - hallucination: inserted sentence from note 9: "Nil bowel sx
+Currently sexually active - with regular partner for 2/12."
+  missed - hallucination: inserted sentence from note 9: "Abdo pain - cramping, nil radiating 
+Nil nausea/vomiting."
+  added - omission: p: uh, combined pill.
+  added - omission: p: uh, yeah, yeah eating drinking ok.
+  added - omission: d: no, ok great.
+  added - omission: p: ok, ok uh great.
+prim11.txt
+  missed - hallucination: inserted sentence from note 1: "Lives with wife and children."
+  added - hallucination: smokes socially, etoh - socially 
+
+imp: gastroenteritis 
+
+plan:
+1.
+  added - hallucination: review in 48 hours, or earlier if worsening sx
+  added - omission: so
+d: wow, no.
+  added - omission: p: i i guess so.
+  added - omission: so , ok right.
+prim12.txt
+  missed - omission: No headaches/muscle pain.
+  missed - hallucination: inserted sentence from note 4: "Finding work slightly stressful."
+  added - hallucination: nil smoking, social etoh
+
+imp: gastroenteritis 
+
+plan:
+1.
+prim13.txt
+  missed - hallucination: inserted sentence from note 5: "Rx empirically with Abx for UTI
+4."
+  missed - hallucination: inserted sentence from note 3: "Had visual aura before onset of headaches - zigzag lines in field of vision."
+  added - hallucination: patient aware of red flag sx - knows to seek urgent medical attention if present
+  added - omission: d: ohh dear, ok.
+  added - omission: d: mmm, , ok.
+prim14.txt
+  missed - hallucination: inserted sentence from note 7: "Conservative mx - rest, fluids, regular paracetamol 
+2."
+  missed - hallucination: "HTN 
+ DH" was swapped for "URTI" (from note 4)
+  added - omission: do you ears feel blocked or?
+  added - omission: p: um, i don't think so.
+  added - omission: d: day to day when you walk around, uh you don't feel breathless do you?
+  added - omission: p: i don't feel restless.
+  added - omission: d: uh your your waterworks, your urine.
+  added - omission: d: you're passing urine ok.
+  added - omission: p: um, that just checks up on it.
+  added - omission: i don't think it's related to stress.
+  added - omission: so yeah, i don't think it's related.
+  added - omission: um, right so uh just as we wrap up really, um april i think based on your story, i think uh essentially i think you're, you're going through a bit of a bit of a viral illness.
+  added - omission: we can check you over.
+  added - omission: um
+d: yeah so i think you know , really i think it depends on you.
+prim15.txt
+  missed - hallucination: inserted sentence from note 2: "Steroid cream - Betnovate BD
+2."
+  added - hallucination: review in 10-14d inb, or earlier if worsening sx steroid cream - betnovate bd
+2.
+  added - omission: d: um, ok alright.
+prim16.txt
+  missed - omission: One previous similar episode in the past- resolved spontaneously.
+  missed - omission: History: 
+Hx of difficulty hearing left ear for 6 weeks with tinnitus and slight nausea/ dizziness.
+  missed - omission: No discharge/ fever/ itchiness/ pain
+Doesn't use cotton wool buds
+No Pmhx of note
+Ex: Looks well, not in pain.
+  added - omission: can you find
+d: yeah, ok, great.
+  added - omission: d: right, ok, ok.
+  added - omission: d: right, right, ok.
+  added - omission: d: ok, fine, alright.
+prim17.txt
+  missed - omission: Not painful.
+  missed - hallucination: "FH" was swapped for "HTN 
+ DH" (from note 24)
+  missed - hallucination: "OA" was swapped for "HTN 
+ DH" (from note 24)
+  added - none
+prim18.txt
+  missed - hallucination: inserted sentence from note 30: "History : having dizziness for the past few hours 
+You had sometime similar a month ago but only lasted 10 minutes 
+You feel as though you are in a boat 
+There is no recent viral illness 
+There is a buzzing noise in your ears 
+There is no hearing problems 
+No ear discharge or ear pain 
+You feel nauseous but not been sick 
+There is no weakness of the arms and legs 
+Past medical history #
+You have premature ovarian failure and take HRT
+There is no allergies 
+Plan we will prescribe some stemitil for symptom relief ."
+  missed - hallucination: inserted sentence from note 30: "Please go to A & E"
+  added - none
+
+ [run 1] precision=0.15 recall=0.23 f1=0.18 avg_elapsed=111.97749636999797
+
+ 
+=== Evaluation Results ===
+
+ prim1.txt: precision=0.33 recall=0.33 f1=0.33 accuracy=0.20 (TP=1 FP=2 FN=2)
+
+ prim10.txt: precision=0.20 recall=0.33 f1=0.25 accuracy=0.14 (TP=1 FP=4 FN=2)
+
+ prim11.txt: precision=0.17 recall=0.50 f1=0.25 accuracy=0.14 (TP=1 FP=5 FN=1)
+
+ prim12.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=1 FN=2)
+
+ prim13.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=3 FN=2)
+
+ prim14.txt: precision=0.14 recall=0.50 f1=0.22 accuracy=0.12 (TP=2 FP=12 FN=2)
+
+ prim15.txt: precision=0.33 recall=0.50 f1=0.40 accuracy=0.25 (TP=1 FP=2 FN=1)
+
+ prim16.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=4 FN=3)
+
+ prim17.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=0 FN=3)
+
+ prim18.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=0 FN=2)
+
+ 
+Overall: precision=0.15 recall=0.23 f1=0.18 accuracy=0.10 (TP=6 FP=33 FN=20)
+
+ Average elapsed time: 111.98s

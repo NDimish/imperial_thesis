@@ -1,0 +1,32 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "low",
+    "detail_type": "entity swap",
+    "detail": "muscular/ posture \n Fh: father has MI at age 68 \n DH: on cerazette \n Nil allergies, hayfever \n SH: works as a nurse, UTD with hep B etc, non smoker, moderate alcohol intake, moderate physical exercise \n Imp: PUO, need to exclude malaria \n Plan: for f2f appointment with SOB today \n Thereafter, for blood tests including crp, esr, thick and thin blood films (possibly routine, possibly via a / e- depending on second GP's assessment)"
+  },
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "number edit",
+    "detail": "muscular/ posture \n Fh: father has MI at age 68 \n DH: on cerazette \n Nil allergies, hayfever \n SH: works as a nurse, UTD with hep B etc, non smoker, moderate alcohol intake, moderate physical exercise \n Imp: PUO, need to exclude malaria \n Plan: for f20f appointment with SOB today \n Thereafter, for blood tests including crp, esr, thick and thin blood films (possibly routine, possibly via a / e- depending on second GP's assessment)"
+  },
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "diarrhea, no neck stiffness, no headache (no more than usual- normal headache on top of head through looking at screen)."
+  },
+  {
+    "type": "omission",
+    "severity": "low",
+    "detail_type": "omitted detail",
+    "detail": "Pmhx: nil of note, back pain- under physiotherapy, working diagnosis?"
+  },
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "inserted sentence",
+    "detail": "WE will need to r/o more serious conditions like malaria, Dengue and meningitis"
+  }
+]

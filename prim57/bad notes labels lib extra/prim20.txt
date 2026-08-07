@@ -1,0 +1,10 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 25: \"Mood is stable-  pmhx of anxiety for 2 years, on sertraline.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 25: \"Hx: Has had headache upon waking from this morning on left side  head- pain woke pt up at 530am\nHeadache still present now\n Has had hx of headaches less severe and in front of the head in past\nNo neck stiffness, no fever\nSome sensitivity to bright lights now, no nausea now\nFelt dizzy this morning,  but not now\nNo FH of migraines\nWork is stressful, late nights at work- ongoing for a few months.\""
+  }
+]

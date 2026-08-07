@@ -1,0 +1,14 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "inserted sentence",
+    "detail": "This will look at aneamia, thyoids, liver, kidney and vitamin levels \nYou will need to book in for another appointment after you receive a text message from Babylon."
+  },
+  {
+    "type": "omission",
+    "severity": "critical",
+    "detail_type": "omitted detail",
+    "detail": "DHx allergies - nil\nThyroxine."
+  }
+]

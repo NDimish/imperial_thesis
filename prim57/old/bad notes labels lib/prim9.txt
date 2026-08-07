@@ -1,14 +1,10 @@
 [
   {
     "type": "hallucination",
-    "detail": "\"UTI\" was swapped for \"MSU \n 3\" (from note 5)"
+    "detail": "inserted sentence from note 10: \"Review in 1/52 INB, or earlier if worsening sx (fever, back pain, vomiting)\""
   },
   {
-    "type": "hallucination",
-    "detail": "\"MSU \n  3\" was swapped for \"MSU \n 2\" (from note 10)"
-  },
-  {
-    "type": "hallucination",
-    "detail": "inserted sentence from note 5: \"Urinary sx - noticed some pink coloured urine, no frank haematuria, nil dysuria.\""
+    "type": "omission",
+    "detail": "Trial cranberry juice \n4."
   }
 ]

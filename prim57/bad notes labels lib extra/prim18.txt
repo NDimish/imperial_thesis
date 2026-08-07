@@ -1,0 +1,14 @@
+[
+  {
+    "type": "omission",
+    "detail": "Hx: 1 week history of left side difficulty hearing and facial numbness\nNo dysphagia, dysarthria, no unilateral weakness/numbness in the rest of the body, no visual disturbances \nNo ear pain, ear discharge, fever, itchiness or cotton bud use."
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"Slight tinnitus at times in this period- not continuous\nNumbness and difficulty hearing present now \nPmhx: labyrinthitis, heart burn, nasal polyps\nDH: Rennies PRN OTC, nasal spray PRN (pt not sure of name)\nAllergies: latex allergy\nNo FH of note\nEx: no facial asymmetry, looks well, normal facial expressions and movements\nImp: ?\" to \"Slight tinnitus at times in this period- continuous\nNumbness and difficulty hearing present now Pmhx: labyrinthitis, heart burn, nasal polyps\nDH: Rennies PRN OTC, nasal spray PRN (pt not sure of name)\nAllergies: latex allergy\nNo FH of note\nEx: no facial asymmetry, looks well, normal facial expressions and movements\nImp: ?\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"Slight tinnitus at times in this period- continuous\nNumbness and difficulty hearing present now Pmhx: labyrinthitis, heart burn, nasal polyps\nDH: Rennies PRN OTC, nasal spray PRN (pt not sure of name)\nAllergies: latex allergy\nNo FH of note\nEx: no facial asymmetry, looks well, normal facial expressions and movements\nImp: ?\" to \"Slight tinnitus at times in this period- continuous\nNumbness and difficulty hearing present now Pmhx: labyrinthitis, heart burn, nasal polyps\nDH: Rennies PRN OTC, nasal spray PRN (pt sure of name)\nAllergies: latex allergy\nNo FH of note\nEx: no facial asymmetry, looks well, normal facial expressions and movements\nImp: ?\""
+  }
+]

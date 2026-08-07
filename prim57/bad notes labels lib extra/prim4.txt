@@ -1,0 +1,22 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"No nausea/vomiting.\" to \"nausea/vomiting.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"2\" to \"20\" in \"No rashes\n\nPMH: Nil \nDH: nil \nNKDA\nFH: Grandmother - type 20 diabetes\nSH: lives alone, works as an accountant.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"No mood sx.\" to \"mood sx.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"2\" to \"20\" in \"Conservative mx - rest, push fluids, regular paracetamol/ibuprofen, monitor temp\n20.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"20\" to \"29\" in \"No rashes\n\nPMH: Nil \nDH: nil \nNKDA\nFH: Grandmother - type 29 diabetes\nSH: lives alone, works as an accountant.\""
+  }
+]

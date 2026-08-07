@@ -1,0 +1,1213 @@
+[
+  {
+    "term": "hand",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 6,
+    "count_soap_note": 4,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...s, this is Doctor Deen Mirza from GP at [[Hand]].\np: I do.\nd: All right. So before we st...",
+      "[transcript] ...s, this is Doctor Deen Mirza from GP at [[Hand]].\np: I do.\nd: All right. So before we st...",
+      "[transcript] ... um, is there any discoloration in your [[hand]]?\np: Um, no.\nd: K, um, does your hand fe..."
+    ],
+    "label": false
+  },
+  {
+    "term": "feels",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...d?\np: Mmm, no, really the, mmm, the arm [[feels]] fine, apart from me not being able to m...",
+      "[transcript] ...d?\np: Mmm, no, really the, mmm, the arm [[feels]] fine, apart from me not being able to m...",
+      "[transcript] ...it, um, sounds normally?\np: Um, yeah it [[feels]] a, a bit harder . It's more complicated..."
+    ],
+    "label": false
+  },
+  {
+    "term": "move",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 5,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ning, about an hour ago, and I couldn't [[move]] my left arm any more.\nd: \nd: OK. Uh, an...",
+      "[transcript] ...ike, I feel no pain but just, uh, can't [[move]] it.\nd: That you still can't move. And, ...",
+      "[transcript] ... can't move it.\nd: That you still can't [[move]]. And, and what time did you wake up? Yo..."
+    ],
+    "label": false
+  },
+  {
+    "term": "move",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 5,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ning, about an hour ago, and I couldn't [[move]] my left arm any more.\nd: \nd: OK. Uh, an...",
+      "[transcript] ...ike, I feel no pain but just, uh, can't [[move]] it.\nd: That you still can't move. And, ...",
+      "[transcript] ... can't move it.\nd: That you still can't [[move]]. And, and what time did you wake up? Yo..."
+    ],
+    "label": false
+  },
+  {
+    "term": "symptoms",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 1,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...our on your left side. Have you had any [[symptoms]] in your left leg at all?\np: No, but um,...",
+      "[transcript] ... um, I'm I'm concerned that some of the [[symptoms]] you've got may be, um, symptoms of a st...",
+      "[transcript] ... of the symptoms you've got may be, um, [[symptoms]] of a stroke.\np: Hmm, wow.\nd: OK? So, um..."
+    ],
+    "label": false
+  },
+  {
+    "term": "medication",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ressure.\nd: OK. And, um, are you on any [[medication]] for that?\np: Um, I'm taking Metformin l...",
+      "[transcript] ...ressure.\nd: OK. And, um, are you on any [[medication]] for that?\np: Um, I'm taking Metformin l...",
+      "[transcript] ... you have any, um, uh, allergies to any [[medication]]?\np: Um, only penicillin, I believe.\nd: ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "feel cold",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...nd?\np: Um, no.\nd: K, um, does your hand [[feel cold]]?\np: Mmm, no, really the, mmm, the arm f...",
+      "[transcript] ...nd?\np: Um, no.\nd: K, um, does your hand [[feel cold]]?\np: Mmm, no, really the, mmm, the arm f...",
+      "[soap_note] ...\nNo discolouration in hand, arm doesn't [[feel cold]]\nSymptoms limited to left arm, not in le..."
+    ],
+    "label": true
+  },
+  {
+    "term": "tingling",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... at all?\np: No, but um, I feel a bit of [[tingling]] on the left side of my face.\nd: Right, ...",
+      "[transcript] ...d: Right, OK. Um, and how long has that [[tingling]] been there for?\np: Uh, since I woke up....",
+      "[transcript] ...rlier and I'd be bold a bit and and the [[tingling]] on, on the left side.\nd: OK. So, um, yo..."
+    ],
+    "label": true
+  },
+  {
+    "term": "tingling",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... at all?\np: No, but um, I feel a bit of [[tingling]] on the left side of my face.\nd: Right, ...",
+      "[transcript] ...d: Right, OK. Um, and how long has that [[tingling]] been there for?\np: Uh, since I woke up....",
+      "[transcript] ...rlier and I'd be bold a bit and and the [[tingling]] on, on the left side.\nd: OK. So, um, yo..."
+    ],
+    "label": true
+  },
+  {
+    "term": "alcohol",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... all?\np: Uh, I used to.\nd: OK. How much [[alcohol]] do you drink?\np: Uh, I will have a few ...",
+      "[transcript] ... all?\np: Uh, I used to.\nd: OK. How much [[alcohol]] do you drink?\np: Uh, I will have a few ...",
+      "[soap_note] ... lives alone, ex smoker, mild- moderate [[alcohol]] intake.\nImp: ? CVA\nLAS called- blue lig..."
+    ],
+    "label": true
+  },
+  {
+    "term": "speech",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...Um, yeah.\nd: OK. Any problems with your [[speech]]? Is your, is your, is your speech diffe...",
+      "[transcript] ... your speech? Is your, is your, is your [[speech]] different to how it, um, sounds normall...",
+      "[transcript] ...he arm still can't move and I think the [[speech]] is getting a bit harder.\nd: OK, all rig..."
+    ],
+    "label": true
+  },
+  {
+    "term": "birth",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...ease confirm your full name and date of [[birth]]?\np: Yes, uh, my name is Jack Armani.\nd:...",
+      "[transcript] ...ease confirm your full name and date of [[birth]]?\np: Yes, uh, my name is Jack Armani.\nd:...",
+      "[transcript] ...t's great, thank you.\np: And my date of [[birth]] is\np: twelve August nineteen fifty eigh..."
+    ],
+    "label": false
+  },
+  {
+    "term": "face",
+    "semtypes": [
+      "T029"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... bit of tingling on the left side of my [[face]].\nd: Right, OK. Um, and how long has tha...",
+      "[transcript] ... bit of tingling on the left side of my [[face]].\nd: Right, OK. Um, and how long has tha...",
+      "[transcript] ...iced any kind of, um, asymmetry in your [[face]], or did your face expression look diffe..."
+    ],
+    "label": true
+  },
+  {
+    "term": "left arm",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...out an hour ago, and I couldn't move my [[left arm]] any more.\nd: \nd: OK. Uh, and how's your...",
+      "[soap_note] ...Hx:  Difficulty moving [[left arm]], occurred upon waking this morning\nFeel...",
+      "[soap_note] ...m doesn't feel cold\nSymptoms limited to [[left arm]], not in left leg\nTingling present on le..."
+    ],
+    "label": true
+  },
+  {
+    "term": "maybe",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...t harder . It's more complicated maybr, [[maybe]] um, be more slow. I need to think more ...",
+      "[transcript] ...ot access to you when you come. So, um, [[maybe]] you could, uh, leave the front door, um...",
+      "[transcript] ...have a few drinks over the weekend. Um, [[maybe]] a, a couple more during the week.\nd: So..."
+    ],
+    "label": false
+  },
+  {
+    "term": "feel",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...r arm right now?\np: Um.\np: Well like, I [[feel]] no pain but just, uh, can't move it.\nd:...",
+      "[transcript] ... your left leg at all?\np: No, but um, I [[feel]] a bit of tingling on the left side of m...",
+      "[transcript] ...since I woke up. Um, since I started to [[feel]] the , since, since the the arm really i..."
+    ],
+    "label": false
+  },
+  {
+    "term": "call",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...gency in a hospital.\np: Would, should I [[call]] , would you be able to call the ambulan...",
+      "[transcript] ...d, should I call , would you be able to [[call]] the ambulance for me?\nd: Yeah I'm, I'm ...",
+      "[transcript] ...one of my colleagues next to me to, um, [[call]] an ambulance to your home address now.\n..."
+    ],
+    "label": false
+  },
+  {
+    "term": "normal",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 3,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ... previous similar episodes\nSlept as per [[normal]] last night\nNo discolouration in hand, a...",
+      "[soap_note] ... previous similar episodes\nSlept as per [[normal]] last night\nNo discolouration in hand, a...",
+      "[soap_note] ... previous similar episodes\nSlept as per [[normal]] last night\nNo discolouration in hand, a..."
+    ],
+    "label": false
+  },
+  {
+    "term": "heart disease",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...mily at all?\np: Uh, my dad has got, um, [[heart disease]].\np: But, uh, but don't, I don't know mo...",
+      "[soap_note] ...e\nAllergic to penicillin\nFH: father hs \u2018[[heart disease]]'\nSH: lives alone, ex smoker, mild- mode..."
+    ],
+    "label": true
+  },
+  {
+    "term": "penicillin",
+    "semtypes": [
+      "T109",
+      "T195"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...llergies to any medication?\np: Um, only [[penicillin]], I believe.\nd: OK.\nd: Um, are there any...",
+      "[soap_note] ...ormin, losartan, amlodipine\nAllergic to [[penicillin]]\nFH: father hs \u2018heart disease'\nSH: lives..."
+    ],
+    "label": true
+  },
+  {
+    "term": "feel cold",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...nd?\np: Um, no.\nd: K, um, does your hand [[feel cold]]?\np: Mmm, no, really the, mmm, the arm f...",
+      "[soap_note] ...\nNo discolouration in hand, arm doesn't [[feel cold]]\nSymptoms limited to left arm, not in le..."
+    ],
+    "label": true
+  },
+  {
+    "term": "feel cold",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...nd?\np: Um, no.\nd: K, um, does your hand [[feel cold]]?\np: Mmm, no, really the, mmm, the arm f...",
+      "[soap_note] ...\nNo discolouration in hand, arm doesn't [[feel cold]]\nSymptoms limited to left arm, not in le..."
+    ],
+    "label": true
+  },
+  {
+    "term": "illnesses",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...?\np: Sure.\nd: OK. Do you have any other [[illnesses]] at all?\np: Um.\np: I have, uh, type two ...",
+      "[transcript] ... I believe.\nd: OK.\nd: Um, are there any [[illnesses]] in your family at all?\np: Uh, my dad ha..."
+    ],
+    "label": true
+  },
+  {
+    "term": "metformin",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... medication for that?\np: Um, I'm taking [[Metformin]] losartan and Amlodipine.\nd: OK. Do you ...",
+      "[soap_note] ...t home with patient\nPmhx: T2dm, HTN\nDH: [[metformin]], losartan, amlodipine\nAllergic to penic..."
+    ],
+    "label": true
+  },
+  {
+    "term": "treatment",
+    "semtypes": [
+      "T061"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...er they can give you any kind of, um\nd: [[Treatment]] for that OK? So no worry. They're they'...",
+      "[transcript] ...er they can give you any kind of, um\nd: [[Treatment]] for that OK? So no worry. They're they'..."
+    ],
+    "label": false
+  },
+  {
+    "term": "left leg",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...side. Have you had any symptoms in your [[left leg]] at all?\np: No, but um, I feel a bit of ...",
+      "[soap_note] ...ld\nSymptoms limited to left arm, not in [[left leg]]\nTingling present on left side of face o..."
+    ],
+    "label": true
+  },
+  {
+    "term": "diabetes",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... at all?\np: Um.\np: I have, uh, type two [[diabetes]] and, uh, high blood pressure.\nd: OK. An...",
+      "[transcript] ... at all?\np: Um.\np: I have, uh, type two [[diabetes]] and, uh, high blood pressure.\nd: OK. An..."
+    ],
+    "label": true
+  },
+  {
+    "term": "worried",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... you'll tell . Yeah.\np: Uh so I'm a bit [[worried]] 'cause I woke up this morning, about an...",
+      "[transcript] ...: OK. \np: Is this something I should be [[worried]] about?\nd: Um, well, um, I'm I'm concern..."
+    ],
+    "label": false
+  },
+  {
+    "term": "stroke",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ms you've got may be, um, symptoms of a [[stroke]].\np: Hmm, wow.\nd: OK? So, um, that's som...",
+      "[transcript] ...they will ring through for the, um, the [[stroke]] doctor to assess you, to see whether th..."
+    ],
+    "label": true
+  },
+  {
+    "term": "stroke",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ms you've got may be, um, symptoms of a [[stroke]].\np: Hmm, wow.\nd: OK? So, um, that's som...",
+      "[transcript] ...they will ring through for the, um, the [[stroke]] doctor to assess you, to see whether th..."
+    ],
+    "label": true
+  },
+  {
+    "term": "speak",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...u in a private place where you're OK to [[speak]] at the moment?\np: Yes, I am.\nd: OK. So,...",
+      "[transcript] ...: So that's being done right now, as we [[speak]]. Uh, while we're waiting for that, I'm ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "think",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...aybr, maybe um, be more slow. I need to [[think]] more about it.\nd: OK. Is there anyone a...",
+      "[transcript] ...yes. The the arm still can't move and I [[think]] the speech is getting a bit harder.\nd: ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "date",
+    "semtypes": [
+      "T121",
+      "T129"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...uld I please confirm your full name and [[date]] of birth?\np: Yes, uh, my name is Jack A...",
+      "[transcript] ....\nd: That's great, thank you.\np: And my [[date]] of birth is\np: twelve August nineteen f..."
+    ],
+    "label": false
+  },
+  {
+    "term": "well",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...and how's your arm right now?\np: Um.\np: [[Well]] like, I feel no pain but just, uh, can'...",
+      "[transcript] ...thing I should be worried about?\nd: Um, [[well]], um, I'm I'm concerned that some of the..."
+    ],
+    "label": false
+  },
+  {
+    "term": "like",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...ow's your arm right now?\np: Um.\np: Well [[like]], I feel no pain but just, uh, can't mov...",
+      "[transcript] ...o, not really, it's just.\np: Uh, having [[like]] a bit of issues like, uh, I was trying ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "pain",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ght now?\np: Um.\np: Well like, I feel no [[pain]] but just, uh, can't move it.\nd: That yo...",
+      "[soap_note] ...urred upon waking this morning\nFeels no [[pain]], but still can't move it\nNo previous si..."
+    ],
+    "label": true
+  },
+  {
+    "term": "pain",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ght now?\np: Um.\np: Well like, I feel no [[pain]] but just, uh, can't move it.\nd: That yo...",
+      "[soap_note] ...urred upon waking this morning\nFeels no [[pain]], but still can't move it\nNo previous si..."
+    ],
+    "label": true
+  },
+  {
+    "term": "able",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...arm feels fine, apart from me not being [[able]] to move it.\nd: OK. And it's to your on ...",
+      "[transcript] ...\np: Would, should I call , would you be [[able]] to call the ambulance for me?\nd: Yeah I..."
+    ],
+    "label": false
+  },
+  {
+    "term": "face",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... bit of tingling on the left side of my [[face]].\nd: Right, OK. Um, and how long has tha...",
+      "[transcript] ...iced any kind of, um, asymmetry in your [[face]], or did your face expression look diffe..."
+    ],
+    "label": false
+  },
+  {
+    "term": "patient",
+    "semtypes": [
+      "T031"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...e of face over the same period (1 hour)\n[[Patient]] has not noticed any facial asymmetry\nDi...",
+      "[soap_note] ... \u2018harder' or \u2018slow'\nNo-one at home with [[patient]]\nPmhx: T2dm, HTN\nDH: metformin, losartan..."
+    ],
+    "label": false
+  },
+  {
+    "term": "difficulties swallowing",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...left side.\nd: OK. So, um, you have some [[difficulties swallowing]], is that right?\np: Um, yeah.\nd: OK. Any..."
+    ],
+    "label": true
+  },
+  {
+    "term": "losartan and amlodipine",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...n for that?\np: Um, I'm taking Metformin [[losartan and Amlodipine]].\nd: OK. Do you have any, um, uh, allerg..."
+    ],
+    "label": true
+  },
+  {
+    "term": "high blood pressure",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... I have, uh, type two diabetes and, uh, [[high blood pressure]].\nd: OK. And, um, are you on any medicat..."
+    ],
+    "label": true
+  },
+  {
+    "term": "high blood pressure",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... I have, uh, type two diabetes and, uh, [[high blood pressure]].\nd: OK. And, um, are you on any medicat..."
+    ],
+    "label": true
+  },
+  {
+    "term": "face expression",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...um, asymmetry in your face, or did your [[face expression]] look different on one side compared to ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "no, not really",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ything different at all?\np: Um.\np: Mmm, [[no, not really]], it's just.\np: Uh, having like a bit of..."
+    ],
+    "label": false
+  },
+  {
+    "term": "discoloration",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... usual.\nd: OK. Um, and um, is there any [[discoloration]] in your hand?\np: Um, no.\nd: K, um, does..."
+    ],
+    "label": true
+  },
+  {
+    "term": "double check",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...?\np: Yes.\nd: OK, um.\nd: Now, can I just [[double check]]? Has this ever happened before?\np: No. ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "i don't know",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ..., heart disease.\np: But, uh, but don't, [[I don't know]] more detail.\nd: OK, anyone else?\np: Not..."
+    ],
+    "label": false
+  },
+  {
+    "term": "living alone",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...Not really.\nd: And um, are you normally [[living alone]]?\np: Uh, yes.\nd: K. Do you smoke at all?..."
+    ],
+    "label": true
+  },
+  {
+    "term": "emergency",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...th, but it needs to be dealt with as an [[emergency]] in a hospital.\np: Would, should I call ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "emergency",
+    "semtypes": [
+      "T046"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...th, but it needs to be dealt with as an [[emergency]] in a hospital.\np: Would, should I call ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "allergies",
+    "semtypes": [
+      "T046"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...dipine.\nd: OK. Do you have any, um, uh, [[allergies]] to any medication?\np: Um, only penicill..."
+    ],
+    "label": true
+  },
+  {
+    "term": "allergies",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...dipine.\nd: OK. Do you have any, um, uh, [[allergies]] to any medication?\np: Um, only penicill..."
+    ],
+    "label": true
+  },
+  {
+    "term": "probably",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...nd what they're going to do is, they'll [[probably]] take you down to, um, the local hospita..."
+    ],
+    "label": false
+  },
+  {
+    "term": "confirm",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... start your appointment, could I please [[confirm]] your full name and date of birth?\np: Ye..."
+    ],
+    "label": false
+  },
+  {
+    "term": "address",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... to, um, call an ambulance to your home [[address]] now.\np: OK.\np: OK. OK. Thank you.\nd: So..."
+    ],
+    "label": false
+  },
+  {
+    "term": "believe",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...y medication?\np: Um, only penicillin, I [[believe]].\nd: OK.\nd: Um, are there any illnesses ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "talking",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...e week.\nd: So, what, what drinks are we [[talking]] about?\np: Uh, uh, beers, uh, like pints..."
+    ],
+    "label": false
+  },
+  {
+    "term": "feeling",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...d: OK.\nd: All right, um.\nd: How are you [[feeling]] now? Have you got the symptoms right no..."
+    ],
+    "label": false
+  },
+  {
+    "term": "moving",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ce, since the the arm really it stopped [[moving]], so an hour ago.\nd: OK, um.\nd: Now, um,..."
+    ],
+    "label": false
+  },
+  {
+    "term": "start",
+    "semtypes": [
+      "T061"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...nd.\np: I do.\nd: All right. So before we [[start]] your appointment, could I please confir..."
+    ],
+    "label": false
+  },
+  {
+    "term": "today",
+    "semtypes": [
+      "T109",
+      "T195"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...es, I am.\nd: OK. So, how can I help you [[today]]?\np: I am. So, I woke up, um, this morni..."
+    ],
+    "label": false
+  },
+  {
+    "term": "sleep",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...lly the first time.\nd: OK. And, did you [[sleep]], anything, in an awkward position, or i..."
+    ],
+    "label": true
+  },
+  {
+    "term": "happy",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... the ambulance for me?\nd: Yeah I'm, I'm [[happy]] to do that. Um, what we need to do is t..."
+    ],
+    "label": false
+  },
+  {
+    "term": "worry",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... of, um\nd: Treatment for that OK? So no [[worry]]. They're they're on their way, um, and ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "reach",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ..., I'm gonna stay on the line until they [[reach]] there. Just to make sure that you're OK..."
+    ],
+    "label": false
+  },
+  {
+    "term": "said",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...And, and what time did you wake up? You [[said]] it was an hour, you're sure about that?..."
+    ],
+    "label": false
+  },
+  {
+    "term": "bold",
+    "semtypes": [
+      "T060"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... was trying to drink earlier and I'd be [[bold]] a bit and and the tingling on, on the l..."
+    ],
+    "label": false
+  },
+  {
+    "term": "bold",
+    "semtypes": [
+      "T061"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... was trying to drink earlier and I'd be [[bold]] a bit and and the tingling on, on the l..."
+    ],
+    "label": false
+  },
+  {
+    "term": "else",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...I don't know more detail.\nd: OK, anyone [[else]]?\np: Not really.\nd: And um, are you norm..."
+    ],
+    "label": false
+  },
+  {
+    "term": "used",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...es.\nd: K. Do you smoke at all?\np: Uh, I [[used]] to.\nd: OK. How much alcohol do you drin..."
+    ],
+    "label": false
+  },
+  {
+    "term": "much",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ke at all?\np: Uh, I used to.\nd: OK. How [[much]] alcohol do you drink?\np: Uh, I will hav..."
+    ],
+    "label": false
+  },
+  {
+    "term": "difficulty swallowing",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...nt has not noticed any facial asymmetry\n[[Difficulty swallowing]] water- dribbled water\nSpeech seems \u2018har..."
+    ],
+    "label": true
+  },
+  {
+    "term": "difficulty moving",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...Hx:  [[Difficulty moving]] left arm, occurred upon waking this mor..."
+    ],
+    "label": true
+  },
+  {
+    "term": "left side of face",
+    "semtypes": [
+      "T029"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...rm, not in left leg\nTingling present on [[left side of face]] over the same period (1 hour)\nPatient h..."
+    ],
+    "label": true
+  },
+  {
+    "term": "facial asymmetry",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...od (1 hour)\nPatient has not noticed any [[facial asymmetry]]\nDifficulty swallowing water- dribbled w..."
+    ],
+    "label": true
+  },
+  {
+    "term": "discolouration",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...sodes\nSlept as per normal last night\nNo [[discolouration]] in hand, arm doesn't feel cold\nSymptoms..."
+    ],
+    "label": true
+  },
+  {
+    "term": "lives alone",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...illin\nFH: father hs \u2018heart disease'\nSH: [[lives alone]], ex smoker, mild- moderate alcohol inta..."
+    ],
+    "label": true
+  },
+  {
+    "term": "amlodipine",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...mhx: T2dm, HTN\nDH: metformin, losartan, [[amlodipine]]\nAllergic to penicillin\nFH: father hs \u2018h..."
+    ],
+    "label": true
+  },
+  {
+    "term": "ex smoker",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...her hs \u2018heart disease'\nSH: lives alone, [[ex smoker]], mild- moderate alcohol intake.\nImp: ? ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "losartan",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ... patient\nPmhx: T2dm, HTN\nDH: metformin, [[losartan]], amlodipine\nAllergic to penicillin\nFH: ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "moderate",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...ease'\nSH: lives alone, ex smoker, mild- [[moderate]] alcohol intake.\nImp: ? CVA\nLAS called- ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "present",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...d to left arm, not in left leg\nTingling [[present]] on left side of face over the same peri..."
+    ],
+    "label": false
+  },
+  {
+    "term": "period",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...sent on left side of face over the same [[period]] (1 hour)\nPatient has not noticed any fa..."
+    ],
+    "label": true
+  },
+  {
+    "term": "water",
+    "semtypes": [
+      "T121",
+      "T197"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...y\nDifficulty swallowing water- dribbled [[water]]\nSpeech seems \u2018harder' or \u2018slow'\nNo-one ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "light",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...hol intake.\nImp: ? CVA\nLAS called- blue [[light]], pt to keep front door open, will stay ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "blue",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ... alcohol intake.\nImp: ? CVA\nLAS called- [[blue]] light, pt to keep front door open, will..."
+    ],
+    "label": true
+  }
+]

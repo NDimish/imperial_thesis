@@ -1,0 +1,32 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "moderate",
+    "detail_type": "inserted sentence",
+    "detail": "Has now developed diarrhea - 5-6x/day."
+  },
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "visual sx/photophobia."
+  },
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "number edit",
+    "detail": "40/7 hx of generally unwell, mainly sore throat, runny nose, fatigue, myalgia and general joint pain."
+  },
+  {
+    "type": "omission",
+    "severity": "low",
+    "detail_type": "omitted detail",
+    "detail": "Has now developed diarrhea - 5-6x/day."
+  },
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "chest pain."
+  }
+]

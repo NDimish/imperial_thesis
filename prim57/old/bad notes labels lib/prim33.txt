@@ -1,6 +1,18 @@
 [
   {
     "type": "omission",
-    "detail": "History : \nCough and cold for 5 days \nCough is dry, no sputum , no blood\nNo wheeze \nNo breathlessness \nUsed paracetamol \nDiabetic and high blood pressure since 5-6 years\nMedication: metformin, lisinopril\nSugar levels and BP normal today \nDiagnosis: Upper respiratory tract infection\nPlan : ."
+    "detail": "If there is breathlessness, wheezying or cough more than 3 weeks to call back"
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"BP\" was swapped for \"UTD\" (from note 23)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"UTD\" was swapped for \"GP\" (from note 23)"
+  },
+  {
+    "type": "omission",
+    "detail": "History: \n  Cough and cold for 5 days \n  Cough is dry, no sputum, no blood \n  No wheeze \n  No breathlessness \n  Used paracetamol \n  Diabetic and high blood pressure since 5-6 years \n  Medication: metformin, lisinopril \n  Sugar levels and GP normal today \n  Diagnosis: Upper respiratory tract infection \n  Plan: ."
   }
 ]

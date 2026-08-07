@@ -1,0 +1,14 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"3\" to \"30\" in \"To review in 30-5d if symptoms not improving.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 7: \"Conservative mx - rest, fluids, regular paracetamol \n2.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 7: \"No chest pain.\""
+  }
+]

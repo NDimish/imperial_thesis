@@ -1,0 +1,26 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "low",
+    "detail_type": "entity swap",
+    "detail": "Hx: Difficulty moving left arm, occurred upon waking this morning \n Feels no pain, but still can't move it \n No previous similar episodes \n Slept as per normal last night \n No discolouration in hand, arm doesn't feel cold \n Symptoms limited to left arm, not in left leg \n Tingling present on left side of face over the same period (1 hour) \n Patient has not noticed any facial asymmetry \n Difficulty swallowing water- dribbled water \n Speech seems \u2018 harder' or \u2018 slow' \n No-one at home with patient \n CVA-: T2 dm, HTN \n DH: metformin, losartan, amlodipine \n Allergic to penicillin \n FH: father hs \u2018 heart disease' \n SH: lives alone, ex smoker, mild- moderate alcohol intake."
+  },
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "Hx: Difficulty moving left arm, occurred upon waking this morning Feels no pain, but still can't move it No previous similar episodes Slept as per normal last night No discolouration in hand, arm doesn't feel cold Symptoms limited to left arm, in left leg Tingling present on left side of face over the same period (1 hour) Patient has not noticed any facial asymmetry Difficulty swallowing water- dribbled water Speech seems \u2018 harder' or \u2018 slow' No-one at home with patient CVA-: T2 dm, HTN DH: metformin, losartan, amlodipine Allergic to penicillin FH: father hs \u2018 heart disease' SH: lives alone, ex smoker, mild- moderate alcohol intake."
+  },
+  {
+    "type": "hallucination",
+    "severity": "low",
+    "detail_type": "entity swap",
+    "detail": "Pmhx blue light, pt to keep front door open, will stay on line till LAS arrives and hand over."
+  },
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "inserted sentence",
+    "detail": "(the above consultation reason doesn't correlate with the patient's presentation)\nHx: episodes of unilateral right hand numbness/ pins and needles, with some right leg weakness and noticeable gait disturbances, ongoing for 1.5 months\noccurring with increasing frequency- initially once a week, now more often, occurring daily\n symptoms not present now\nno dysphagia, no dysphasia\nno Pmhx of CVA/TIA\nFather had CVA- appears to have had carotid endarterectomy\nNon smoker, normal blood tests for diabetes/ cholesterol when checked a few years ago\nPMHx and FH: otherwise nil of note\nDH PT IS TAKING Aspirin daily on his own accord due to his FH\nSH: pt is a medical doctor, plastic surgeon, lives with wife\nImp: TIAs- despite young age (need to exclude any systemic disease, eg antiphospholipid syndrome, that could be cause)\nPlan: needs to be seen urgently in TIA clinic- will fax referral now."
+  }
+]

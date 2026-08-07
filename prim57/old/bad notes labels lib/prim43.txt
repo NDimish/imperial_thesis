@@ -1,18 +1,18 @@
 [
   {
     "type": "hallucination",
-    "detail": "inserted sentence from note 48: \"Often has only 3-4 hrs sleep.\""
-  },
-  {
-    "type": "omission",
-    "detail": "Not eating \nDifficulty sleeping."
-  },
-  {
-    "type": "omission",
-    "detail": "Confirmed name \nDOB confrimed."
+    "detail": "inserted sentence from note 45: \"Regulalr boyfriend.\""
   },
   {
     "type": "hallucination",
-    "detail": "inserted sentence from note 45: \"Fhx -Brther Type 1 dm.\""
+    "detail": "\"NKDA \n\n Shx - \n\n Fhx \n\" was swapped for \"NKDA \n\n Fhx - Mother - Excema\" (from note 44)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 44: \"Slight cough.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"NKDA\" was swapped for \"Clinil\" (from note 44)"
   }
 ]

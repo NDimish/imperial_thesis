@@ -1,0 +1,2096 @@
+[
+  {
+    "term": "bright",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 16,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...t, you know sit at a desk. Um, yeah.\nd: [[Right]]. OK. , and um, has this happened before...",
+      "[transcript] ...st?\np: a a GP. Um, yeah.\nd: GP, OK, all [[right]]. Um, look can I just, uh, sorry can I j...",
+      "[transcript] ...ree.\nd: Fifty three, OK. Fantastic. All [[right]]. Um, and, do you have any other illness..."
+    ],
+    "label": false
+  },
+  {
+    "term": "fright",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 16,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...t, you know sit at a desk. Um, yeah.\nd: [[Right]]. OK. , and um, has this happened before...",
+      "[transcript] ...st?\np: a a GP. Um, yeah.\nd: GP, OK, all [[right]]. Um, look can I just, uh, sorry can I j...",
+      "[transcript] ...ree.\nd: Fifty three, OK. Fantastic. All [[right]]. Um, and, do you have any other illness..."
+    ],
+    "label": false
+  },
+  {
+    "term": "think",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 11,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...e that?\np: Um, no, well I, I do, well I [[think]], I think I have something like uh, oste...",
+      "[transcript] ...: Um, no, well I, I do, well I think, I [[think]] I have something like uh, osteoarthriti...",
+      "[transcript] ...No.\nd: Sure. , so you know you said you [[think]] you've got , uh, osteoarthritis. Has an..."
+    ],
+    "label": false
+  },
+  {
+    "term": "well",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 10,
+    "count_soap_note": 1,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...lupus or anything like that?\np: Um, no, [[well]] I, I do, well I think, I think I have s...",
+      "[transcript] ...ing like that?\np: Um, no, well I, I do, [[well]] I think, I think I have something like ...",
+      "[transcript] ...e any other illnesses at all?\np: Um,\np: [[Well]] not, not really, no. Um, I'm, I'm aller..."
+    ],
+    "label": false
+  },
+  {
+    "term": "elbow",
+    "semtypes": [
+      "T029"
+    ],
+    "count_transcript": 10,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...tes that you've got a problem with your [[elbow]].\np: Yeah. Um, I just noticed this like ...",
+      "[transcript] ...ave like a weird swelling on, on, on my [[elbow]]. I noticed that when I was in the showe...",
+      "[transcript] ...t elbow, OK. , and have you banged that [[elbow]]? Do you have any kind of injury?\np: No,..."
+    ],
+    "label": true
+  },
+  {
+    "term": "medication",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 6,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ..., are you, are, are you allergic to any [[medication]]?\np: Uh, no. Not that I know of.\nd: No.\n...",
+      "[transcript] ..., are you, are, are you allergic to any [[medication]]?\np: Uh, no. Not that I know of.\nd: No.\n...",
+      "[transcript] ...re. , and um, do you um, are you on any [[medication]] on a regular basis?\np: Uh, no.\nd: No, O..."
+    ],
+    "label": true
+  },
+  {
+    "term": "medications",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 6,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ..., are you, are, are you allergic to any [[medication]]?\np: Uh, no. Not that I know of.\nd: No.\n...",
+      "[transcript] ..., are you, are, are you allergic to any [[medication]]?\np: Uh, no. Not that I know of.\nd: No.\n...",
+      "[transcript] ...re. , and um, do you um, are you on any [[medication]] on a regular basis?\np: Uh, no.\nd: No, O..."
+    ],
+    "label": true
+  },
+  {
+    "term": "like",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 8,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...elbow.\np: Yeah. Um, I just noticed this [[like]] about a week ago, or something? Um, hav...",
+      "[transcript] ...bout a week ago, or something? Um, have [[like]] a weird swelling on, on, on my elbow. I...",
+      "[transcript] ...wer. Uh,\np: It's not painful at all, or [[like]], I I feel fine. But it's just, just a b..."
+    ],
+    "label": false
+  },
+  {
+    "term": "history",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 3,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... that before. Um, I don't have any like [[history]] of, of seeing this. I don't remember .\n...",
+      "[transcript] ... that before. Um, I don't have any like [[history]] of, of seeing this. I don't remember .\n...",
+      "[transcript] ... that before. Um, I don't have any like [[history]] of, of seeing this. I don't remember .\n..."
+    ],
+    "label": false
+  },
+  {
+    "term": "feels",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 6,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... it's just, I , I can just see that. It [[feels]] a bit strange, a bit\nd: Sure, OK. , and...",
+      "[transcript] ... it's just, I , I can just see that. It [[feels]] a bit strange, a bit\nd: Sure, OK. , and...",
+      "[transcript] ...e, the swelling is, it's a bit, yeah it [[feels]] weird.\nd: OK. All right. Um, well, um, ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "back",
+    "semtypes": [
+      "T029"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...that, will be um, the results will come [[back]] to us after about five or six days. Um....",
+      "[transcript] ...that, will be um, the results will come [[back]] to us after about five or six days. Um....",
+      "[transcript] ...by the time that we're expecting result [[back]], you know one or two days after that, w..."
+    ],
+    "label": false
+  },
+  {
+    "term": "disappointment",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 6,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...to see you.\nd: OK. Before we start your [[appointment]], could you please tell me your first na...",
+      "[transcript] ...suggest, is, we can arrange a follow-up [[appointment]] for you, in one of our clinics, where w...",
+      "[transcript] ...o get on the phone or get, have a video [[appointment]] , with one of us as soon as possible.\np..."
+    ],
+    "label": false
+  },
+  {
+    "term": "lupus",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 5,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...diseases, like rheumatoid arthritis, or [[lupus]] or anything like that?\np: Um, no, well ...",
+      "[transcript] ...diseases, like rheumatoid arthritis, or [[lupus]] or anything like that?\np: Um, no, well ...",
+      "[transcript] ...diseases, like rheumatoid arthritis, or [[lupus]] or anything like that?\np: Um, no, well ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "septic arthritis",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... me that's something called, excuse me, [[septic arthritis]]. So, we're worried sometimes that someo...",
+      "[transcript] ... me that's something called, excuse me, [[septic arthritis]]. So, we're worried sometimes that someo...",
+      "[soap_note] ...tion/concerns- pt warned re symptoms of [[septic arthritis]]\n..."
+    ],
+    "label": true
+  },
+  {
+    "term": "left elbow",
+    "semtypes": [
+      "T029"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...h .\nd: , and so, did you say it was the [[left elbow]] or the right elbow?\np: Um, it's the, th...",
+      "[transcript] ...r the right elbow?\np: Um, it's the, the [[left elbow]].\nd: Left elbow, OK. , and have you bang...",
+      "[transcript] ...ow?\np: Um, it's the, the left elbow.\nd: [[Left elbow]], OK. , and have you banged that elbow? ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "medication 2",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ..., are you, are, are you allergic to any [[medication]]?\np: Uh, no. Not that I know of.\nd: No.\n...",
+      "[transcript] ...re. , and um, do you um, are you on any [[medication]] on a regular basis?\np: Uh, no.\nd: No, O...",
+      "[transcript] ...you should be on some anti-inflammatory [[medication]], in the, in the first instance.\np: OK.\n..."
+    ],
+    "label": false
+  },
+  {
+    "term": "medication 3",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ..., are you, are, are you allergic to any [[medication]]?\np: Uh, no. Not that I know of.\nd: No.\n...",
+      "[transcript] ...re. , and um, do you um, are you on any [[medication]] on a regular basis?\np: Uh, no.\nd: No, O...",
+      "[transcript] ...you should be on some anti-inflammatory [[medication]], in the, in the first instance.\np: OK.\n..."
+    ],
+    "label": false
+  },
+  {
+    "term": "medication 1",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ..., are you, are, are you allergic to any [[medication]]?\np: Uh, no. Not that I know of.\nd: No.\n...",
+      "[transcript] ...re. , and um, do you um, are you on any [[medication]] on a regular basis?\np: Uh, no.\nd: No, O...",
+      "[transcript] ...you should be on some anti-inflammatory [[medication]], in the, in the first instance.\np: OK.\n..."
+    ],
+    "label": false
+  },
+  {
+    "term": "skin",
+    "semtypes": [
+      "T031"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... is it hot, compared to the surrounding [[skin]], the adjacent skin?\np: Yeah.\np: It's a ...",
+      "[transcript] ...d to the surrounding skin, the adjacent [[skin]]?\np: Yeah.\np: It's a bit warm, yes.\nd: I...",
+      "[transcript] ... All right. Um, well, um, I noticed the [[skin]] was a bit dry, , on the tip of the elbo..."
+    ],
+    "label": true
+  },
+  {
+    "term": "face",
+    "semtypes": [
+      "T029"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ollow-up appointment doesn't have to be [[face]]-to-face, if it's more convenient for yo...",
+      "[transcript] ...ollow-up appointment doesn't have to be [[face]]-to-face, if it's more convenient for yo...",
+      "[transcript] ... appointment doesn't have to be face-to-[[face]], if it's more convenient for you do, to..."
+    ],
+    "label": true
+  },
+  {
+    "term": "blood tests",
+    "semtypes": [
+      "T059"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...what I would like to do, is to get some [[blood tests]] done, to check for other types of uh, c...",
+      "[transcript] ...at pack, about where to go to get those [[blood tests]] done.\nd: And, that will involve you, um...",
+      "[transcript] ...to you. And if you get the form get the [[blood tests]] done straight away, by the time that we..."
+    ],
+    "label": true
+  },
+  {
+    "term": "blood test",
+    "semtypes": [
+      "T059"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...do is, we're going to arrange some, um, [[blood test]] forms to be sent out to your house. And...",
+      "[transcript] ... your joint, feel it, we can review the [[blood test]].\np: OK.\nd: Uh, we can um, get a gauge a...",
+      "[transcript] ... you contact us, , after you've had the [[blood test]] done, and we can review things then, OK..."
+    ],
+    "label": true
+  },
+  {
+    "term": "swelling",
+    "semtypes": [
+      "T046"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...go, or something? Um, have like a weird [[swelling]] on, on, on my elbow. I noticed that whe...",
+      "[transcript] ...st like, next to it like where the, the [[swelling]] is, it's a bit, yeah it feels weird.\nd:...",
+      "[soap_note] ... not in pain. Mild erythema and minimal [[swelling]] (if any) around olecranon process left ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "swelling",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...go, or something? Um, have like a weird [[swelling]] on, on, on my elbow. I noticed that whe...",
+      "[transcript] ...st like, next to it like where the, the [[swelling]] is, it's a bit, yeah it feels weird.\nd:...",
+      "[soap_note] ... not in pain. Mild erythema and minimal [[swelling]] (if any) around olecranon process left ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "possible",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...basis. OK. Um, and um, uh, can I, is it [[possible]] for me to have a look at your elbow, no...",
+      "[transcript] ...appointment , with one of us as soon as [[possible]].\np: OK.\nd: 'Cause that would be an emer...",
+      "[soap_note] ...round olecranon process left elbow\nImp: [[possible]] bursitis\nPlan: for NSAIDs- usual advice..."
+    ],
+    "label": false
+  },
+  {
+    "term": "painful",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...en I was in the shower. Uh,\np: It's not [[painful]] at all, or like, I I feel fine. But it'...",
+      "[transcript] ... the elbow was to become very red, very [[painful]], uh, and the redness was to spread or b...",
+      "[soap_note] ...of spontaneous elbow swelling left. Not [[painful]]. No trauma. \nNo FH of rheumatological d..."
+    ],
+    "label": true
+  },
+  {
+    "term": "screen",
+    "semtypes": [
+      "T060"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...l antibodies.\np: \nd: So we'll do a full [[screen]], and also check for things like Gout as...",
+      "[transcript] ...l antibodies.\np: \nd: So we'll do a full [[screen]], and also check for things like Gout as...",
+      "[transcript] ...l antibodies.\np: \nd: So we'll do a full [[screen]], and also check for things like Gout as..."
+    ],
+    "label": false
+  },
+  {
+    "term": "feel",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...: It's not painful at all, or like, I I [[feel]] fine. But it's just, just a bit, a bit ...",
+      "[transcript] ...t's slightly warm. Um, and I, I, cannot [[feel]] like this, little bit fluid in inside, ...",
+      "[transcript] ...where we can have a look at your joint, [[feel]] it, we can review the blood test.\np: OK..."
+    ],
+    "label": false
+  },
+  {
+    "term": "osteoarthritis",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...o's confirmed that, and told you you've [[got osteoarthritis]]?\np: Um, yes. Yes, a few years ago.\nd: O...",
+      "[transcript] ... I think, I think I have something like [[uh, osteoarthritis]]. Um,\np: Uh, uh, it sometimes kind of hu...",
+      "[transcript] ...ou know you said you think you've got , [[uh, osteoarthritis]]. Has anyone ever told you that? Have yo..."
+    ],
+    "label": true
+  },
+  {
+    "term": "allergican",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... Well not, not really, no. Um, I'm, I'm [[allergic]] to, to peanuts. Um, but that's, that's ...",
+      "[transcript] ... OK. .\nd: OK. Uh, are you, are, are you [[allergic]] to any medication?\np: Uh, no. Not that ...",
+      "[soap_note] ... nil of note\nDH: not on any medication, [[allergic]] to peanuts\nSH: exercises regularly, act..."
+    ],
+    "label": false
+  },
+  {
+    "term": "trauma",
+    "semtypes": [
+      "T037"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 3,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...us elbow swelling left. Not painful. No [[trauma]]. \nNo FH of rheumatological disease- NB ...",
+      "[soap_note] ...us elbow swelling left. Not painful. No [[trauma]]. \nNo FH of rheumatological disease- NB ...",
+      "[soap_note] ...us elbow swelling left. Not painful. No [[trauma]]. \nNo FH of rheumatological disease- NB ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "blood",
+    "semtypes": [
+      "T031"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 3,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...or NSAIDs- usual advice re SE\nFor rheum [[bloods]]: esr, crp, fbc, rheum factor and urate\n...",
+      "[soap_note] ...or NSAIDs- usual advice re SE\nFor rheum [[bloods]]: esr, crp, fbc, rheum factor and urate\n...",
+      "[soap_note] ...or NSAIDs- usual advice re SE\nFor rheum [[bloods]]: esr, crp, fbc, rheum factor and urate\n..."
+    ],
+    "label": true
+  },
+  {
+    "term": "treatment",
+    "semtypes": [
+      "T061"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...re immediate assessment, more immediate [[treatment]]. OK?\np: do you, do you think it's somet...",
+      "[transcript] ...re immediate assessment, more immediate [[treatment]]. OK?\np: do you, do you think it's somet..."
+    ],
+    "label": false
+  },
+  {
+    "term": "physical",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...n terms of your job, do you do anything [[physical]]?\np: Not really. No, I just, you know si...",
+      "[transcript] ... getting worse, I'll probably ask for a [[physical]] appointment.\nd: Sure, sure that's a goo..."
+    ],
+    "label": false
+  },
+  {
+    "term": "bursitis",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... , this seems like uh, what we call the [[Bursitis]]. OK. So, that's an inflammation of one ...",
+      "[soap_note] ...cranon process left elbow\nImp: possible [[bursitis]]\nPlan: for NSAIDs- usual advice re SE\nFo..."
+    ],
+    "label": true
+  },
+  {
+    "term": "problem",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...entioned in the notes that you've got a [[problem]] with your elbow.\np: Yeah. Um, I just no...",
+      "[transcript] ...e should do, with regards to your elbow [[problem]]\nd: OK. Is um, I think, it would be wort..."
+    ],
+    "label": false
+  },
+  {
+    "term": "problem",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...entioned in the notes that you've got a [[problem]] with your elbow.\np: Yeah. Um, I just no...",
+      "[transcript] ...e should do, with regards to your elbow [[problem]]\nd: OK. Is um, I think, it would be wort..."
+    ],
+    "label": false
+  },
+  {
+    "term": "stomach",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ..., take that after food, not on an empty [[stomach]]. If you get any heartburn, stop taking ...",
+      "[transcript] ..., take that after food, not on an empty [[stomach]]. If you get any heartburn, stop taking ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "little",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...m. Um, and I, I, cannot feel like this, [[little]] bit fluid in inside, or, uh, um?\nd: Sur...",
+      "[transcript] ...d if you can just raise your elbow up a [[little]] bit like that, a bit higher, so I can j..."
+    ],
+    "label": false
+  },
+  {
+    "term": "active",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...e you normally fit and well? Mobile and [[active]]?\np: yeah. I do, I do, I do some sports....",
+      "[soap_note] ...gic to peanuts\nSH: exercises regularly, [[active]]\nEx: looks well, not in pain. Mild eryth..."
+    ],
+    "label": false
+  },
+  {
+    "term": "factive",
+    "semtypes": [
+      "T109",
+      "T195"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...e you normally fit and well? Mobile and [[active]]?\np: yeah. I do, I do, I do some sports....",
+      "[soap_note] ...gic to peanuts\nSH: exercises regularly, [[active]]\nEx: looks well, not in pain. Mild eryth..."
+    ],
+    "label": false
+  },
+  {
+    "term": "result",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... away, by the time that we're expecting [[result]] back, you know one or two days after th...",
+      "[transcript] ...he time frame for that, will be um, the [[results]] will come back to us after about five o..."
+    ],
+    "label": false
+  },
+  {
+    "term": "birth",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...ell me your first name and your date of [[birth]].\np: Yes. Uh, my name is John Smith. And...",
+      "[transcript] ...ell me your first name and your date of [[birth]].\np: Yes. Uh, my name is John Smith. And..."
+    ],
+    "label": false
+  },
+  {
+    "term": "basis",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... are you on any medication on a regular [[basis]]?\np: Uh, no.\nd: No, OK. And are you norm...",
+      "[transcript] ...ood that you're doing that on a regular [[basis]]. OK. Um, and um, uh, can I, is it possi..."
+    ],
+    "label": false
+  },
+  {
+    "term": "times",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ports. I run regularly, like two, three [[times]] a week. Um, yeah, no, I'm, think I'm he...",
+      "[transcript] ...Um, that's four hundred milligrams, two [[times]] a day. And you should take, take that a..."
+    ],
+    "label": false
+  },
+  {
+    "term": "tests",
+    "semtypes": [
+      "T059"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... that will involve you, um, having some [[tests]] done to check for inflammatory markers,...",
+      "[transcript] ...n we'll, we'll um, review you after the [[tests]], things goes well, OK.\np: \np: Thank you..."
+    ],
+    "label": false
+  },
+  {
+    "term": "etests",
+    "semtypes": [
+      "T059"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... that will involve you, um, having some [[tests]] done to check for inflammatory markers,...",
+      "[transcript] ...n we'll, we'll um, review you after the [[tests]], things goes well, OK.\np: \np: Thank you..."
+    ],
+    "label": false
+  },
+  {
+    "term": "maybe",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...e or two days after that, we're looking [[maybe]] six days.\nd: And, what I would suggest,...",
+      "[transcript] ... arrange a, a follow-up appointment.\nd: [[Maybe]] within a um, actually you know, the fol..."
+    ],
+    "label": false
+  },
+  {
+    "term": "hand",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...d: Um, I'm Doctor Deen Mirza from GP at [[Hand]]. Nice to see you.\np: Nice to see you.\nd...",
+      "[transcript] ...d: Um, I'm Doctor Deen Mirza from GP at [[Hand]]. Nice to see you.\np: Nice to see you.\nd..."
+    ],
+    "label": false
+  },
+  {
+    "term": "nice",
+    "semtypes": [
+      "T109",
+      "T195"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... I'm Doctor Deen Mirza from GP at Hand. [[Nice]] to see you.\np: Nice to see you.\nd: OK. ...",
+      "[transcript] ...za from GP at Hand. Nice to see you.\np: [[Nice]] to see you.\nd: OK. Before we start your..."
+    ],
+    "label": false
+  },
+  {
+    "term": "said",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... a bit about what's been happening? You [[said]] you mentioned in the notes that you've ...",
+      "[transcript] ...OK.\np: . No.\nd: Sure. , so you know you [[said]] you think you've got , uh, osteoarthrit..."
+    ],
+    "label": false
+  },
+  {
+    "term": "warm",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...to see that.\np: Um, it's, it's slightly [[warm]]. Um, and I, I, cannot feel like this, l...",
+      "[transcript] ...e adjacent skin?\np: Yeah.\np: It's a bit [[warm]], yes.\nd: It's a bit warmer. OK. Um, and..."
+    ],
+    "label": false
+  },
+  {
+    "term": "call",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...rthwhile. , this seems like uh, what we [[call]] the Bursitis. OK. So, that's an inflamm...",
+      "[transcript] ...an do that as well, that's, that's your [[call]]. But you contact us, , after you've had..."
+    ],
+    "label": false
+  },
+  {
+    "term": "form",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... From now, but it may take time for the [[form]] to come out to you. And if you get the ...",
+      "[transcript] ... to come out to you. And if you get the [[form]] get the blood tests done straight away,..."
+    ],
+    "label": false
+  },
+  {
+    "term": "face",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ollow-up appointment doesn't have to be [[face]]-to-face, if it's more convenient for yo...",
+      "[transcript] ... appointment doesn't have to be face-to-[[face]], if it's more convenient for you do, to..."
+    ],
+    "label": false
+  },
+  {
+    "term": "peanut",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...eally, no. Um, I'm, I'm allergic to, to [[peanuts]]. Um, but that's, that's pretty much all...",
+      "[soap_note] ...\nDH: not on any medication, allergic to [[peanuts]]\nSH: exercises regularly, active\nEx: loo..."
+    ],
+    "label": true
+  },
+  {
+    "term": "peanut",
+    "semtypes": [
+      "T121",
+      "T129"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...eally, no. Um, I'm, I'm allergic to, to [[peanuts]]. Um, but that's, that's pretty much all...",
+      "[soap_note] ...\nDH: not on any medication, allergic to [[peanuts]]\nSH: exercises regularly, active\nEx: loo..."
+    ],
+    "label": true
+  },
+  {
+    "term": "pleased",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...re we start your appointment, could you [[please]] tell me your first name and your date o...",
+      "[transcript] ...can I just double-check how old you are [[please]]?\np: I'm uh, fifty three.\nd: Fifty three..."
+    ],
+    "label": false
+  },
+  {
+    "term": "fluids",
+    "semtypes": [
+      "T031"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...I, I, cannot feel like this, little bit [[fluid]] in inside, or, uh, um?\nd: Sure.\nd: Sure...",
+      "[transcript] ...o, that's an inflammation of one of the [[fluid]] sacs around the joint.\nd: Um, what I th..."
+    ],
+    "label": true
+  },
+  {
+    "term": "note",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...ed before\nOtherwise well- \nPMHx: nil of [[note]]\nFH: nil of note\nDH: not on any medicati...",
+      "[soap_note] ...ise well- \nPMHx: nil of note\nFH: nil of [[note]]\nDH: not on any medication, allergic to ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "nsaids",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ... elbow\nImp: possible bursitis\nPlan: for [[NSAIDs-]] usual advice re SE\nFor rheum bloods: es...",
+      "[soap_note] ... elbow\nImp: possible bursitis\nPlan: for [[NSAIDs-]] usual advice re SE\nFor rheum bloods: es..."
+    ],
+    "label": true
+  },
+  {
+    "term": "anti-inflammatory",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ld do is, I think you should be on some [[anti-inflammatory]] medication, in the, in the first instan..."
+    ],
+    "label": true
+  },
+  {
+    "term": "medical history",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...tty much all I uh, have to say about my [[medical history]], yeah.\nd: Right, OK. .\nd: OK. Uh, are y..."
+    ],
+    "label": false
+  },
+  {
+    "term": "one or two days",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...t we're expecting result back, you know [[one or two days]] after that, we're looking maybe six day..."
+    ],
+    "label": false
+  },
+  {
+    "term": "no, not really",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...bow? Do you have any kind of injury?\np: [[No, not really]]. Um, not that I know of. I haven't noti..."
+    ],
+    "label": false
+  },
+  {
+    "term": "joint swelling",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... check for other types of uh, causes of [[joint swelling]]. K?\np: Alright.\nd: So, um, what we're g..."
+    ],
+    "label": true
+  },
+  {
+    "term": "infected joint",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...imes that someone might have an acutely [[infected joint]].\np: Mm-hmm.\nd: Um, and uh, your, your j..."
+    ],
+    "label": true
+  },
+  {
+    "term": "fit and well",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...Uh, no.\nd: No, OK. And are you normally [[fit and well]]? Mobile and active?\np: yeah. I do, I do..."
+    ],
+    "label": true
+  },
+  {
+    "term": "right elbow",
+    "semtypes": [
+      "T029"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...id you say it was the left elbow or the [[right elbow]]?\np: Um, it's the, the left elbow.\nd: Le..."
+    ],
+    "label": true
+  },
+  {
+    "term": "antibodies",
+    "semtypes": [
+      "T116",
+      "T121",
+      "T129"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ory markers, infection, rheumatological [[antibodies]].\np: \nd: So we'll do a full screen, and ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "arthritis",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...rheumatology, diseases, like rheumatoid [[arthritis]], or lupus or anything like that?\np: Um,..."
+    ],
+    "label": true
+  },
+  {
+    "term": "confirmed",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...that? Have you ever seen a doctor who's [[confirmed]] that, and told you you've got osteoarth..."
+    ],
+    "label": false
+  },
+  {
+    "term": "unconfirmed",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...that? Have you ever seen a doctor who's [[confirmed]] that, and told you you've got osteoarth..."
+    ],
+    "label": false
+  },
+  {
+    "term": "illnesses",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...l right. Um, and, do you have any other [[illnesses]] at all?\np: Um,\np: Well not, not really,..."
+    ],
+    "label": true
+  },
+  {
+    "term": "infection",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...done to check for inflammatory markers, [[infection]], rheumatological antibodies.\np: \nd: So ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "infections",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...done to check for inflammatory markers, [[infection]], rheumatological antibodies.\np: \nd: So ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "infection",
+    "semtypes": [
+      "T046"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...done to check for inflammatory markers, [[infection]], rheumatological antibodies.\np: \nd: So ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "reinfection",
+    "semtypes": [
+      "T046"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...done to check for inflammatory markers, [[infection]], rheumatological antibodies.\np: \nd: So ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "coinfection",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...done to check for inflammatory markers, [[infection]], rheumatological antibodies.\np: \nd: So ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "emergency",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ible.\np: OK.\nd: 'Cause that would be an [[emergency]]. That would require more immediate asse..."
+    ],
+    "label": true
+  },
+  {
+    "term": "emergency",
+    "semtypes": [
+      "T046"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ible.\np: OK.\nd: 'Cause that would be an [[emergency]]. That would require more immediate asse..."
+    ],
+    "label": true
+  },
+  {
+    "term": "cotreatment",
+    "semtypes": [
+      "T061"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...re immediate assessment, more immediate [[treatment]]. OK?\np: do you, do you think it's somet..."
+    ],
+    "label": false
+  },
+  {
+    "term": "retreatment",
+    "semtypes": [
+      "T061"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...re immediate assessment, more immediate [[treatment]]. OK?\np: do you, do you think it's somet..."
+    ],
+    "label": false
+  },
+  {
+    "term": "ibuprofen",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...l right. Um.\nd: OK. So, I, I would take [[Ibuprofen]] regularly, OK. You can get that , over ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "heartburn",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...not on an empty stomach. If you get any [[heartburn]], stop taking it. OK.\np: OK.\np: Sure. th..."
+    ],
+    "label": true
+  },
+  {
+    "term": "heartburn",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...not on an empty stomach. If you get any [[heartburn]], stop taking it. OK.\np: OK.\np: Sure. th..."
+    ],
+    "label": true
+  },
+  {
+    "term": "remember",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ike history of, of seeing this. I don't [[remember]] .\nd: Sure, OK. Uh, and can I um, can I ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "diseases",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... family, got any, kind of rheumatology, [[diseases]], like rheumatoid arthritis, or lupus or..."
+    ],
+    "label": true
+  },
+  {
+    "term": "not sure",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...h, my joints. But uh, in my family, I'm [[not sure]].\nd: OK.\np: . No.\nd: Sure. , so you know..."
+    ],
+    "label": false
+  },
+  {
+    "term": "dry skin",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...e tip of the elbow. Do you, do you have [[dry skin]] anywhere else on the body?\np: Uh, no no..."
+    ],
+    "label": true
+  },
+  {
+    "term": "dry skin",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...e tip of the elbow. Do you, do you have [[dry skin]] anywhere else on the body?\np: Uh, no no..."
+    ],
+    "label": true
+  },
+  {
+    "term": "probably",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... if I see that it's getting worse, I'll [[probably]] ask for a physical appointment.\nd: Sure..."
+    ],
+    "label": false
+  },
+  {
+    "term": "worried",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... excuse me, septic arthritis. So, we're [[worried]] sometimes that someone might have an ac..."
+    ],
+    "label": false
+  },
+  {
+    "term": "redness",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ome very red, very painful, uh, and the [[redness]] was to spread or become uh, you know mo..."
+    ],
+    "label": true
+  },
+  {
+    "term": "redness",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ome very red, very painful, uh, and the [[redness]] was to spread or become uh, you know mo..."
+    ],
+    "label": true
+  },
+  {
+    "term": "nothing",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...ard.\np: OK.\np: Yeah, OK, I see.\nd: It's [[nothing]] , sinister or life-threatening. Um, wha..."
+    ],
+    "label": false
+  },
+  {
+    "term": "stomach",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ..., take that after food, not on an empty [[stomach]]. If you get any heartburn, stop taking ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "injury",
+    "semtypes": [
+      "T037"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ged that elbow? Do you have any kind of [[injury]]?\np: No, not really. Um, not that I know..."
+    ],
+    "label": true
+  },
+  {
+    "term": "seeing",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...m, I don't have any like history of, of [[seeing]] this. I don't remember .\nd: Sure, OK. U..."
+    ],
+    "label": false
+  },
+  {
+    "term": "mobile",
+    "semtypes": [
+      "T060"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... OK. And are you normally fit and well? [[Mobile]] and active?\np: yeah. I do, I do, I do s..."
+    ],
+    "label": true
+  },
+  {
+    "term": "suffer",
+    "semtypes": [
+      "T048"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...in really dry now.\nd: , do you , do you [[suffer]] from eczema at all?\np: No.\nd: No. Alrig..."
+    ],
+    "label": false
+  },
+  {
+    "term": "eczema",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...y now.\nd: , do you , do you suffer from [[eczema]] at all?\np: No.\nd: No. Alright.\nd: OK. S..."
+    ],
+    "label": true
+  },
+  {
+    "term": "screen",
+    "semtypes": [
+      "T059"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...l antibodies.\np: \nd: So we'll do a full [[screen]], and also check for things like Gout as..."
+    ],
+    "label": false
+  },
+  {
+    "term": "worsen",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...oing is I'm just saying, in case things [[worsen]], these are the things that we'd be look..."
+    ],
+    "label": false
+  },
+  {
+    "term": "start",
+    "semtypes": [
+      "T061"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...u.\np: Nice to see you.\nd: OK. Before we [[start]] your appointment, could you please tell..."
+    ],
+    "label": false
+  },
+  {
+    "term": "speak",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...u in a private place where you're OK to [[speak]] freely?\np: Yes. .\nd: OK, OK, great. OK,..."
+    ],
+    "label": false
+  },
+  {
+    "term": "touch",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ntastic. All right. And if you can just [[touch]] the tip of your elbow with your fingers..."
+    ],
+    "label": false
+  },
+  {
+    "term": "nerve",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ery tender when you're pressing on that [[nerve]]? Is it, if you, if you give it a press,..."
+    ],
+    "label": true
+  },
+  {
+    "term": "worry",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...is is anything dangerous. don't need to [[worry]]. OK? What I'm doing, is I'm just outlin..."
+    ],
+    "label": false
+  },
+  {
+    "term": "worse",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...do that. And if I see that it's getting [[worse]], I'll probably ask for a physical appoi..."
+    ],
+    "label": false
+  },
+  {
+    "term": "date",
+    "semtypes": [
+      "T121",
+      "T129"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...please tell me your first name and your [[date]] of birth.\np: Yes. Uh, my name is John S..."
+    ],
+    "label": false
+  },
+  {
+    "term": "born",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...s. Uh, my name is John Smith. And I was [[born]] on the fifth of April, uh, nineteen sev..."
+    ],
+    "label": true
+  },
+  {
+    "term": "move",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...t noticed anything. I can actually like [[move]] it normally. Um, it's just, I , I can j..."
+    ],
+    "label": false
+  },
+  {
+    "term": "move",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...t noticed anything. I can actually like [[move]] it normally. Um, it's just, I , I can j..."
+    ],
+    "label": false
+  },
+  {
+    "term": "much",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... peanuts. Um, but that's, that's pretty [[much]] all I uh, have to say about my medical ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "else",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] .... Do you, do you have dry skin anywhere [[else]] on the body?\np: Uh, no not really. I ha..."
+    ],
+    "label": false
+  },
+  {
+    "term": "sacs",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...t's an inflammation of one of the fluid [[sacs]] around the joint.\nd: Um, what I think w..."
+    ],
+    "label": false
+  },
+  {
+    "term": "gout",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... screen, and also check for things like [[Gout]] as well, OK. Um.\np: OK.\nd: The time fra..."
+    ],
+    "label": true
+  },
+  {
+    "term": "life",
+    "semtypes": [
+      "T060"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...K, I see.\nd: It's nothing , sinister or [[life]]-threatening. Um, what I'm doing is I'm ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "food",
+    "semtypes": [
+      "T121",
+      "T129"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...y. And you should take, take that after [[food]], not on an empty stomach. If you get an..."
+    ],
+    "label": false
+  },
+  {
+    "term": "sort",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...So , look just leave that with me, I'll [[sort]] all those bits and pieces out, and then..."
+    ],
+    "label": false
+  },
+  {
+    "term": "not cased",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... to, to develop. K? So, , this, this is [[not the case]] right now. Right now, it looks quite st..."
+    ],
+    "label": false
+  },
+  {
+    "term": "foot osteoarthritis",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...o's confirmed that, and told you you've [[got osteoarthritis]]?\np: Um, yes. Yes, a few years ago.\nd: O..."
+    ],
+    "label": true
+  },
+  {
+    "term": "construction",
+    "semtypes": [
+      "T061"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ent out to your house. And, there'll be [[instructions]] within that pack, about where to go to ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "op instructions",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ent out to your house. And, there'll be [[instructions]] within that pack, about where to go to ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "instructions",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ent out to your house. And, there'll be [[instructions]] within that pack, about where to go to ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "cns inflammation",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... what we call the Bursitis. OK. So, that[['s an inflammation]] of one of the fluid sacs around the joi..."
+    ],
+    "label": false
+  },
+  {
+    "term": "anus inflammation",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... what we call the Bursitis. OK. So, that[['s an inflammation]] of one of the fluid sacs around the joi..."
+    ],
+    "label": false
+  },
+  {
+    "term": "eyes inflammation",
+    "semtypes": [
+      "T046"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... what we call the Bursitis. OK. So, that[['s an inflammation]] of one of the fluid sacs around the joi..."
+    ],
+    "label": true
+  },
+  {
+    "term": "inflammation",
+    "semtypes": [
+      "T046"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... what we call the Bursitis. OK. So, that[['s an inflammation]] of one of the fluid sacs around the joi..."
+    ],
+    "label": true
+  },
+  {
+    "term": "finger",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...t touch the tip of your elbow with your [[fingers]].\nd: There's, , is it, is it hot, compar..."
+    ],
+    "label": true
+  },
+  {
+    "term": "fingers",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...t touch the tip of your elbow with your [[fingers]].\nd: There's, , is it, is it hot, compar..."
+    ],
+    "label": true
+  },
+  {
+    "term": "noninflammatory",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...um, having some tests done to check for [[inflammatory]] markers, infection, rheumatological ant..."
+    ],
+    "label": true
+  },
+  {
+    "term": "depressing",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ..., and um, is it very tender when you're [[pressing]] on that nerve? Is it, if you, if you gi..."
+    ],
+    "label": false
+  },
+  {
+    "term": "raiser",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...cond.\nd: Right, OK. And if you can just [[raise]] your elbow up a little bit like that, a..."
+    ],
+    "label": false
+  },
+  {
+    "term": "therex",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...tip of your elbow with your fingers.\nd: [[There]]'s, , is it, is it hot, compared to the ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "housed",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...blood test forms to be sent out to your [[house]]. And, there'll be instructions within t..."
+    ],
+    "label": false
+  },
+  {
+    "term": "exercises regularly",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...any medication, allergic to peanuts\nSH: [[exercises regularly]], active\nEx: looks well, not in pain. Mi..."
+    ],
+    "label": false
+  },
+  {
+    "term": "olecranon process",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...ma and minimal swelling (if any) around [[olecranon process]] left elbow\nImp: possible bursitis\nPlan:..."
+    ],
+    "label": true
+  },
+  {
+    "term": "left olecranon process",
+    "semtypes": [
+      "T029"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...ma and minimal swelling (if any) around [[olecranon process]] left elbow\nImp: possible bursitis\nPlan:..."
+    ],
+    "label": true
+  },
+  {
+    "term": "elbow swelling",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...Hx: 1 week history of spontaneous [[elbow swelling]] left. Not painful. No trauma. \nNo FH of..."
+    ],
+    "label": true
+  },
+  {
+    "term": "confirm",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...has OA previously by doctors- ? need to [[confirm]] this\nWorks in a desk job\nNot happened b..."
+    ],
+    "label": false
+  },
+  {
+    "term": "urate",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...bloods: esr, crp, fbc, rheum factor and [[urate]]\nReview thereafter in person/ via video\n..."
+    ],
+    "label": false
+  },
+  {
+    "term": "pain",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...egularly, active\nEx: looks well, not in [[pain]]. Mild erythema and minimal swelling (if..."
+    ],
+    "label": true
+  },
+  {
+    "term": "pain",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...egularly, active\nEx: looks well, not in [[pain]]. Mild erythema and minimal swelling (if..."
+    ],
+    "label": true
+  },
+  {
+    "term": "plan",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...ocess left elbow\nImp: possible bursitis\n[[Plan]]: for NSAIDs- usual advice re SE\nFor rhe..."
+    ],
+    "label": false
+  },
+  {
+    "term": "disease",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...l. No trauma. \nNo FH of rheumatological [[disease-]] NB pt says he has been old he has OA pr..."
+    ],
+    "label": false
+  },
+  {
+    "term": "person",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...m factor and urate\nReview thereafter in [[person/]] via video\nTo contact us back in interim..."
+    ],
+    "label": false
+  },
+  {
+    "term": "ulerythema",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...ctive\nEx: looks well, not in pain. Mild [[erythema]] and minimal swelling (if any) around ol..."
+    ],
+    "label": false
+  },
+  {
+    "term": "erythema",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...ctive\nEx: looks well, not in pain. Mild [[erythema]] and minimal swelling (if any) around ol..."
+    ],
+    "label": true
+  },
+  {
+    "term": "b-symptoms",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...ny deterioration/concerns- pt warned re [[symptoms]] of septic arthritis\n..."
+    ],
+    "label": true
+  },
+  {
+    "term": "symptoms",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[soap_note] ...ny deterioration/concerns- pt warned re [[symptoms]] of septic arthritis\n..."
+    ],
+    "label": false
+  },
+  {
+    "term": "symptom",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[soap_note] ...ny deterioration/concerns- pt warned re [[symptoms]] of septic arthritis\n..."
+    ],
+    "label": false
+  }
+]

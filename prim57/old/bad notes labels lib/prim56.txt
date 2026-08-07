@@ -1,18 +1,18 @@
 [
   {
     "type": "hallucination",
-    "detail": "inserted sentence from note 54: \"No coryzal symptoms.\""
+    "detail": "\"GI\" was swapped for \"BP\" (from note 54)"
   },
   {
     "type": "hallucination",
-    "detail": "\"Xanax\" was swapped for \"GI - Dec\" (from note 54)"
+    "detail": "inserted sentence from note 49: \"Allergic to amoxicillin\nSH; Teacher, has been able to work as usual.\""
   },
   {
     "type": "hallucination",
-    "detail": "\"GI\" was swapped for \"GI - Dec\" (from note 54)"
+    "detail": "inserted sentence from note 54: \"Well before this episode.\""
   },
   {
-    "type": "hallucination",
-    "detail": "inserted sentence from note 54: \"No illicit drugs, 3 beers/week.\""
+    "type": "omission",
+    "detail": "kidney stones."
   }
 ]

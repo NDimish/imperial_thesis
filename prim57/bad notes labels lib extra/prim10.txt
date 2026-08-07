@@ -1,0 +1,14 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"Suprapubic pain on PU - aching pain, nil radiating \nNil nausea/vomiting \nNil fevers \nNil new bowel sx \nCurrently sexually active - long-term partner.\" to \"Suprapubic pain on PU - aching pain, radiating Nil nausea/vomiting Nil fevers Nil new bowel sx Currently sexually active - long-term partner.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"1\" to \"10\" in \"Review in 10/52 INB, or earlier if worsening sx (fever, back pain, vomiting)\""
+  },
+  {
+    "type": "omission",
+    "detail": "LMP 2/52 \nE+D well \n\nPMH: IBS\nDH: COCP, mebeverine \nAllergic to clindamycin \nFH: nil\nSH: lives in student halls, nil smoking, social EtOH\n\nImp: UTI\n\nPlan:\n1."
+  }
+]

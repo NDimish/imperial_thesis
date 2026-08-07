@@ -1,6 +1,14 @@
 [
   {
-    "type": "omission",
-    "detail": "Has been taking ORT regularly, difficulty keeping down."
+    "type": "hallucination",
+    "detail": "inserted sentence from note 49: \"Urgent examination booked with Dr.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"ORT\" was swapped for \"BP\" (from note 55)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"BP\" was swapped for \"N&V\" (from note 50)"
   }
 ]

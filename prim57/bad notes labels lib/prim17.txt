@@ -1,0 +1,8 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "painful."
+  }
+]

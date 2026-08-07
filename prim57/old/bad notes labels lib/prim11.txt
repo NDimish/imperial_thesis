@@ -1,10 +1,14 @@
 [
   {
     "type": "hallucination",
-    "detail": "inserted sentence from note 1: \"Lives with wife and children.\""
+    "detail": "inserted sentence from note 5: \"Urinary sx - noticed some pink coloured urine, no frank haematuria, nil dysuria.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 12: \"Nil smoking, social EtOH\n\nImp: gastroenteritis \n\nPlan:\n1.\""
   },
   {
     "type": "omission",
-    "detail": "3/7 hx of diarrhea - watery stools, opening bowels every hour."
+    "detail": "Review in 48 hours, or earlier if worsening sx"
   }
 ]

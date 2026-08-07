@@ -1,10 +1,14 @@
 [
   {
-    "type": "omission",
-    "detail": "No headaches/muscle pain."
+    "type": "hallucination",
+    "detail": "inserted sentence from note 4: \"Now developed a cough -mainly dry, constant.\""
   },
   {
     "type": "hallucination",
-    "detail": "inserted sentence from note 4: \"Finding work slightly stressful.\""
+    "detail": "inserted sentence from note 11: \"Works in office.\""
+  },
+  {
+    "type": "omission",
+    "detail": "Appetite reduced."
   }
 ]

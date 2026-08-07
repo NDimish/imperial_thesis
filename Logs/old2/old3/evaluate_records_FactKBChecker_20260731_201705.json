@@ -1,0 +1,76 @@
+{
+  "module": "FactKBChecker",
+  "records": [
+    {
+      "filename": "prim1.txt",
+      "run": 1,
+      "tp": 0,
+      "fp": 14,
+      "fn": 3,
+      "elapsed": 12.32121779996669,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0
+    },
+    {
+      "filename": "prim10.txt",
+      "run": 1,
+      "tp": 2,
+      "fp": 10,
+      "fn": 1,
+      "elapsed": 8.177906500000972,
+      "precision": 0.16666666666666666,
+      "recall": 0.6666666666666666,
+      "f1": 0.26666666666666666,
+      "accuracy": 0.15384615384615385
+    },
+    {
+      "filename": "prim11.txt",
+      "run": 1,
+      "tp": 0,
+      "fp": 11,
+      "fn": 2,
+      "elapsed": 11.339889299997594,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0
+    },
+    {
+      "filename": "prim12.txt",
+      "run": 1,
+      "tp": 1,
+      "fp": 14,
+      "fn": 1,
+      "elapsed": 14.194739400001708,
+      "precision": 0.06666666666666667,
+      "recall": 0.5,
+      "f1": 0.11764705882352941,
+      "accuracy": 0.0625
+    },
+    {
+      "filename": "prim13.txt",
+      "run": 1,
+      "tp": 2,
+      "fp": 14,
+      "fn": 0,
+      "elapsed": 11.387814299960155,
+      "precision": 0.125,
+      "recall": 1.0,
+      "f1": 0.2222222222222222,
+      "accuracy": 0.125
+    }
+  ],
+  "checkpoints": [
+    {
+      "run": 1,
+      "records_in_run": 5,
+      "avg_elapsed": 11.484313459985424,
+      "precision": 0.07352941176470588,
+      "recall": 0.4166666666666667,
+      "f1": 0.125,
+      "accuracy": 0.06666666666666667
+    }
+  ]
+}

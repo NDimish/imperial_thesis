@@ -1,0 +1,59 @@
+d: Can I please confirm your full name and date of birth?
+p: My name is Tracy Chapman, I'm forty five.
+d: Could you just confirm the first line of your address, and your postcode?
+p: Fifteen Babylon Street, W six five.
+d: Tell me what's been going on, you said you're a bit short of breath?
+p: Yeah, feeling very breathless recently. Whenever I breathe deeply, it sort of catches in the right-hand side of my back.
+d: How long has this been going on for?
+p: Just today really.
+d: Any other symptoms at the same time as this pain?
+p: I've got a bit of a slight fever, and I coughed up a bit of blood on two occasions.
+d: Yesterday, before all of this, were you completely fine?
+p: Yeah, kind of, I can sort of feel my heart beating, but other than that fine. I've also been feeling a bit tired at work, exercising has been a bit difficult because I've been feeling tired, and performing daily activities has been a bit harder than usual.
+d: How long has that been for, the tiredness and not wanting to exercise?
+p: Only for a couple of weeks or so.
+d: And the last day or so that's when you get the cough and the pain in the side, and you've coughed up blood. You said you felt a bit warm, have you measured your temperature at all?
+p: With the back of my hand, yes.
+d: Do you smoke at all?
+p: No.
+d: What do you work as?
+p: I work in an office, a desk job.
+d: Do you live alone?
+p: Yes, in a flat.
+d: Do you have any pets?
+p: A cat.
+d: Are you on any regular medication?
+p: Methotrexate.
+d: What are you on that for?
+p: I've got SLE.
+d: Do you have any other diagnoses, any other illnesses at all?
+p: No.
+d: Do you have any allergies to any medication, or any other allergies?
+p: No.
+d: When was the last time you had Methotrexate?
+p: This morning.
+d: Couple of things I'd like to do to get an idea of how unwell you are. First I'd like to measure your pulse -- try and locate the pulse in your wrist, tell me when you've got it.
+p: I've got it.
+d: I'll tell you when to start and stop counting.
+p: One, two, three, five, six, eight, ten.
+d: That was about eleven or twelve, so that would make your heart rate about sixty six to seventy four, that's OK, good. Next, squeeze the tip of your finger and let me see how quickly the redness comes back.
+p: You look like you've got very good circulation.
+d: I'd like to try and have a look down your throat -- position your device up above your head, put your head back, mouth open wide, and say ah.
+p: Ah.
+d: Last thing, feel inside your neck on the sides, by your Adam's apple, tell me whether you can feel any enlarged glands or not.
+p: No, they feel pretty normal to me.
+d: So Doris, this sounds like you might have a chest infection. If you're coughing up blood and feeling your heart racing, I think you need to be examined today, someone needs to listen to your chest and maybe check your blood pressure as well, check that you're stable. From what limited examination I could do online, you don't seem acutely unstable. However, if you've got this kind of pain when taking a deep breath in and you're coughing up blood, we do need to assess you to figure out whether you have pneumonia or a chest infection, and that would involve someone listening to your chest with a stethoscope, and you may need an antibiotic. Have you been on any long-haul flight recently?
+p: No.
+d: Have you ever had any clots in your legs, or clots in your lung, blood clots?
+p: Not that I know of, no.
+d: Anyone in the family have that?
+p: No.
+d: What we'll do is arrange for you to get reviewed in a clinic today -- I'd like someone to listen to your chest, check your blood pressure, recheck your pulse, and check your temperature, make sure all those parameters are OK. You may well need an antibiotic. Do you have any allergies to any antibiotics?
+p: No.
+d: I'm not going to prescribe anything for you now, because I think you need that basic assessment first. I'm going to leave the number in the notes for this appointment for you to ring our support team, and they'll book you in for a face-to-face appointment with one of our GPs today, do that assessment, and we'll take it from there.
+p: But we don't think I'm dying of lung cancer.
+d: Given the way you've presented, just one day, with a fever and this slight pain, concurrent with the blood in the phlegm, that's not usually how lung cancer is presented -- it's more insidious, over a longer period of time, with other symptoms. However, we might need to get some investigations to exclude that, depending on the examination finding when we see you. Are you worried about lung cancer?
+p: Well you start coughing up blood and you think you're gonna die of lung cancer.
+d: Just remind me how old you are again?
+p: Forty five.
+d: It's something we do need to be cognisant of. We may end up having to do a follow-up chest X-ray if things don't settle down, but at the moment it seems more like a chest infection rather than a lung cancer, which is easier to treat. But we still need to make sure things are OK because chest infections can become nasty as well, can lead to infection inside the body, we want to avoid that as well. Let's get you checked out today, and hopefully we can put your mind to rest and get you on the right course of treatment.

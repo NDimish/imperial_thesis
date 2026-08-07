@@ -1,0 +1,20 @@
+[
+  {
+    "type": "omission",
+    "severity": "critical",
+    "detail_type": "omitted detail",
+    "detail": "Pt has also tried antihistamines."
+  },
+  {
+    "type": "hallucination",
+    "severity": "moderate",
+    "detail_type": "inserted sentence",
+    "detail": "No spread elsewhere."
+  },
+  {
+    "type": "omission",
+    "severity": "low",
+    "detail_type": "omitted detail",
+    "detail": "Emollients - cetraben - use up to QDS\n3."
+  }
+]

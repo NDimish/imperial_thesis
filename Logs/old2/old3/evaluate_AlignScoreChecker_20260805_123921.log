@@ -1,0 +1,126 @@
+prim1.txt
+  missed - hallucination: inserted sentence from note 11: "No blood in stools."
+  missed - omission: No other unwell contacts.
+  added - none
+prim10.txt
+  missed - hallucination: inserted sentence from note 9: "Nil bowel sx
+Currently sexually active - with regular partner for 2/12."
+  missed - hallucination: inserted sentence from note 9: "Brief episode of haematuria, now resolved."
+  missed - hallucination: inserted sentence from note 9: "Abdo pain - cramping, nil radiating 
+Nil nausea/vomiting."
+  added - omission: d: right excellent, before i go any further, can i confirm your name and your age please?
+  added - omission: i mean red blood at all, in your urine?
+  added - omission: d: sure, uh, and obviously as your doctor i'm here to look after you so yeah i i would strongly recommend you, you know, to avoid if you can.
+  added - omission: it's probably worth giving us a urine sample today as well if you can, so we can send it off to the lab.
+prim11.txt
+  missed - hallucination: inserted sentence from note 1: "Lives with wife and children."
+  added - omission: there's nothing like that.
+  added - omission: but it just feels like it's going straight through.
+  added - omission: there's nothing to worry about.
+  added - omission: thank you very much.
+  added - omission: thanks, thanks for helping me out.
+prim12.txt
+  missed - hallucination: inserted sentence from note 4: "Finding work slightly stressful."
+  added - hallucination: mother - diabetes type 2
+sh: lives alone , software engineer.
+  added - omission: d: the things you can do to really help yourself get better soon, um are you can drink plenty of fluids.
+  added - omission: uh, thanks so much.
+  added - omission: thanks so much, for your time.
+prim13.txt
+  missed - hallucination: inserted sentence from note 5: "Rx empirically with Abx for UTI
+4."
+  missed - hallucination: inserted sentence from note 3: "Had visual aura before onset of headaches - zigzag lines in field of vision."
+  added - omission: um, thanks for, thanks for, being here.
+  added - omission: and then i was thinking ok, maybe i'll just go to sleep.
+  added - omission: um, any temperatures, or fevers?
+  added - omission: do you drink or smoke at all?
+  added - omission: because sometimes when i don't drink enough water, i i like get headaches.
+  added - omission: just give me a call, and come back and see me.
+prim14.txt
+  missed - hallucination: inserted sentence from note 7: "Conservative mx - rest, fluids, regular paracetamol 
+2."
+  missed - hallucination: "HTN 
+ DH" was swapped for "URTI" (from note 4)
+  added - omission: and he was completely warm and totally fine.
+  added - omission: and in terms of any other symptoms, so have you had any nausea?
+  added - omission: d: how's your appetite?
+  added - omission: i, i drank loads of water, when i started having the diarrhea.
+  added - omission: um so, to be honest, all i feel like doing is just lying in bed.
+  added - omission: d: uh fit and well.
+  added - omission: p: uh, yeah i am working.
+  added - omission: but it's not been fun.
+  added - omission: d: really ideally, the the the right answer is to cut down completely.
+  added - omission: um, i don't think there's anything to worry about.
+  added - omission: thank you very much.
+prim15.txt
+  missed - hallucination: inserted sentence from note 2: "Steroid cream - Betnovate BD
+2."
+  added - omission: what were you doing at the time when it all started?
+  added - omission: d: diabetes as well.
+  added - omission: is it mainly residential, or is it commercial?
+  added - omission: thank you very much.
+prim16.txt
+  missed - none
+  added - omission: can you find
+d: yeah, ok, great.
+  added - omission: well, nice to see you this morning.
+  added - omission: d: that's perfect, thank you, john.
+  added - omission: p: uh, not specifically apart from the dizziness so much.
+  added - omission: d: and then after that, we can consider other potential possibilities.
+  added - omission: it's not an emergency.
+  added - omission: d: ok, fine, alright.
+  added - omission: i think that will be the, the most sensible thing to do.
+  added - omission: if there's any problem, any issues between now and when the clinic appointment is, just book another appointment and you can speak to one of us over video, ok?
+  added - omission: nice to see you this morning.
+prim17.txt
+  missed - hallucination: "FH" was swapped for "HTN 
+ DH" (from note 24)
+  missed - hallucination: "OA" was swapped for "HTN 
+ DH" (from note 24)
+  added - none
+prim18.txt
+  missed - hallucination: inserted sentence from note 30: "History : having dizziness for the past few hours 
+You had sometime similar a month ago but only lasted 10 minutes 
+You feel as though you are in a boat 
+There is no recent viral illness 
+There is a buzzing noise in your ears 
+There is no hearing problems 
+No ear discharge or ear pain 
+You feel nauseous but not been sick 
+There is no weakness of the arms and legs 
+Past medical history #
+You have premature ovarian failure and take HRT
+There is no allergies 
+Plan we will prescribe some stemitil for symptom relief ."
+  missed - hallucination: inserted sentence from note 30: "Please go to A & E"
+  added - none
+
+ [run 1] precision=0.19 recall=0.38 f1=0.25 avg_elapsed=137.39832956998143
+
+ 
+=== Evaluation Results ===
+
+ prim1.txt: precision=1.00 recall=0.33 f1=0.50 accuracy=0.33 (TP=1 FP=0 FN=2)
+
+ prim10.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=4 FN=3)
+
+ prim11.txt: precision=0.17 recall=0.50 f1=0.25 accuracy=0.14 (TP=1 FP=5 FN=1)
+
+ prim12.txt: precision=0.20 recall=0.50 f1=0.29 accuracy=0.17 (TP=1 FP=4 FN=1)
+
+ prim13.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=6 FN=2)
+
+ prim14.txt: precision=0.15 recall=0.50 f1=0.24 accuracy=0.13 (TP=2 FP=11 FN=2)
+
+ prim15.txt: precision=0.20 recall=0.50 f1=0.29 accuracy=0.17 (TP=1 FP=4 FN=1)
+
+ prim16.txt: precision=0.23 recall=1.00 f1=0.38 accuracy=0.23 (TP=3 FP=10 FN=0)
+
+ prim17.txt: precision=1.00 recall=0.33 f1=0.50 accuracy=0.33 (TP=1 FP=0 FN=2)
+
+ prim18.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=0 FN=2)
+
+ 
+Overall: precision=0.19 recall=0.38 f1=0.25 accuracy=0.14 (TP=10 FP=44 FN=16)
+
+ Average elapsed time: 137.40s

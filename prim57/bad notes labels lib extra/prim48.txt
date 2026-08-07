@@ -1,0 +1,6 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"No panic attacks, not missed work.\" to \"No panic attacks, missed work.\""
+  }
+]

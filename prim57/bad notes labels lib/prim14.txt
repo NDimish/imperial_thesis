@@ -1,0 +1,14 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "number edit",
+    "detail": "Social EtOH <140 units/week\n\nImp: viral URTI \n\nPlan:\n1."
+  },
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "Initial diarrhea - but now resolved Nil urinary symptoms\nNo rashes PMH: Type 2 diabetes, HTN\nDH: metformin, lisinopril NKDA\nFH: Father - type 2 diabetes SH: lives with partner, works IT, reports stress."
+  }
+]

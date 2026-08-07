@@ -1,0 +1,75 @@
+prim1.txt
+  missed - hallucination: inserted sentence from note 11: "No blood in stools."
+  added - omission: and was your vomit, i know it's not a nice thing to talk about, but was it just normal food colour yeah.
+  added - omission: p: um, just soups, and, uh, yeah, light foods.
+  added - omission: p: yeah, so i had takeaway about four days ago, um, uh, but other than that i've, yeah, been, uh, eating normally.
+prim10.txt
+  missed - hallucination: inserted sentence from note 9: "Nil bowel sx
+Currently sexually active - with regular partner for 2/12."
+  missed - hallucination: inserted sentence from note 9: "Brief episode of haematuria, now resolved."
+  missed - hallucination: inserted sentence from note 9: "Abdo pain - cramping, nil radiating 
+Nil nausea/vomiting."
+  added - omission: d: right excellent, before i go any further, can i confirm your name and your age please?
+  added - omission: p: yeah i can hear you, hi.
+  added - omission: i mean red blood at all, in your urine?
+  added - omission: p: um, i think i have, um, ibs, um, so i just kinda pass, uh, my bowels like quite, quite a lot.
+  added - omission: d: ok, all right but, and you've noticed no new symptoms?
+  added - omission: no, no, no new symptoms in your bowels?
+  added - omission: p: i dunno we've just kind of agreed, uh, so um i guess, a week ago, two weeks ago , quite quite .
+  added - omission: d: what i'm trying get at is whether um, uh there's any chance you could be pregnant at all.
+  added - omission: d: fine, in terms of your general health otherwise at the moment are you, uh eating and drinking ok?
+  added - omission: p: uh, yeah, yeah eating drinking ok.
+  added - omission: d: no, ok great.
+  added - omission: p: um, so i am living in halls at the moment, uh at uni um, so uh, uh, i'm just living with a flatmate i suppose, um.
+  added - omission: p: uh, as i admitted before i tried weed for the first time, uh, but, uh, i don't smoke.
+  added - omission: d: sure, uh, and obviously as your doctor i'm here to look after you so yeah i i would strongly recommend you, you know, to avoid if you can.
+  added - omission: d: uh, you know you haven't got any other symptoms that, suggest to me that there's anything to worry about, so things like fevers and back pain.
+  added - omission: it's probably worth giving us a urine sample today as well if you can, so we can send it off to the lab.
+  added - omission: if you have any of those give me a call, ok?
+prim11.txt
+  missed - hallucination: inserted sentence from note 1: "Lives with wife and children."
+  added - omission: have you got any blood in your stools?
+  added - omission: there's nothing like that.
+  added - omission: are you keeping your fluids down?
+  added - omission: but it just feels like it's going straight through.
+  added - omission: and um, i i can't think of any related medical history.
+  added - omission: there's nothing to worry about.
+  added - omission: you can use soft diet, things like soup, mash.
+  added - omission: thank you very much.
+  added - omission: thanks, thanks for helping me out.
+prim12.txt
+  missed - hallucination: inserted sentence from note 4: "Finding work slightly stressful."
+  added - hallucination: no fever/temp, but feels warm.
+  added - hallucination: mother - diabetes type 2
+sh: lives alone , software engineer.
+  added - omission: um with your um, the vomiting has now stopped.
+  added - omission: d: the things you can do to really help yourself get better soon, um are you can drink plenty of fluids.
+  added - omission: uh, thanks so much.
+  added - omission: p: um, no i think that's fine.
+  added - omission: p: thanks a lot.
+  added - omission: thanks so much, for your time.
+prim13.txt
+  missed - hallucination: inserted sentence from note 5: "Rx empirically with Abx for UTI
+4."
+  missed - hallucination: inserted sentence from note 3: "Had visual aura before onset of headaches - zigzag lines in field of vision."
+  added - omission: um, thanks for, thanks for, being here.
+  added - omission: it's like the first day it just started when i was at work.
+  added - omission: p: and by the end of the day it was like pretty, pretty, like it was a lot, basically.
+  added - omission: and then i was thinking ok, maybe i'll just go to sleep.
+  added - omission: it's just like some lights from, shooting lights .
+  added - omission: so, i i had to take a couple of days off work, actually.
+  added - omission: um, any recent head injuries at all?
+  added - omission: um, any temperatures, or fevers?
+  added - omission: d: any rashes at all, on your skin?
+  added - omission: d: you fit and well?
+  added - omission: do you have any allergies to any medications?
+  added - omission: but my mom's is like quite bad, um usually when there's like a season changing and stuff like that.
+  added - omission: d: have you had any, uh, have you had any recent eye check, done?
+  added - omission: um i would always recommend having a repeat eye test done.
+  added - omission: do you drink or smoke at all?
+  added - omission: um at first i thought it's stress, or maybe i didn't drink enough water.
+  added - omission: because sometimes when i don't drink enough water, i i like get headaches.
+  added - omission: d: how many tablets did you take of ibuprofen?
+  added - omission: just give me a call, and come back and see me.
+
+ [run 1] precision=0.07 recall=0.33 f1=0.11 avg_elapsed=0.0

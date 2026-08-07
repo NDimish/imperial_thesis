@@ -1,0 +1,10 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 9: \"Nil bowel sx\nCurrently sexually active - with regular partner for 2/12.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"2 days \nFeeling sick \nNo vomiting \nAche - Lower tummy.\" to \"2 days Feeling sick vomiting Ache - Lower tummy.\""
+  }
+]

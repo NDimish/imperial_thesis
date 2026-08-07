@@ -1,0 +1,22 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"No etOH\n\nImp: exacerbation of heart failure\n\nPlan:\n1.\" to \"etOH Imp: exacerbation of heart failure Plan:\n1.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 14: \"5/7 hx of cough and runny nose.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"SOB\" was swapped for \"URTI\" (from note 4)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"BNP \n  3\" was swapped for \"URTI\" (from note 4)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"No chest pain / palpitations.\" to \"chest pain / palpitations.\""
+  }
+]

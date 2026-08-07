@@ -1,0 +1,20 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "Suprapubic pain on PU - aching pain, radiating Nil nausea/vomiting Nil fevers Nil new bowel sx Currently sexually active - long-term partner."
+  },
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "inserted sentence",
+    "detail": "Regular paracetamol for pain \n5."
+  },
+  {
+    "type": "hallucination",
+    "severity": "moderate",
+    "detail_type": "inserted sentence",
+    "detail": "Nil neck stiffness."
+  }
+]

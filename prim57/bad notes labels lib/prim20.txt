@@ -1,0 +1,26 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "Pt to contact them via PALS/ clinic to ensure f/u\nIf any prolonged symptoms occur- to attend A/E"
+  },
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "inserted sentence",
+    "detail": "Pt has taken paracetamol- not helped\nPmhx: nil, has not had BP checked\nFH: mother has anxiety\nDH: sertraline\nNkda\nSH: live with partner\nNon smoker\nHss cat\nGood exercise, reasonable diet\nImp: tension type headache +/- migraine\nPlan: for ibuprofen first line as per SIGN 2018 migraine guidelines\n1.5-2 litres water hydration daily\n To sleep 7-8 hours minimum daily\nConsider time off- to self certify for a few days to see if this helps\nSelf referral to IAPTs\nReview in a week\nIf any red flag symptoms as per www.patient.co.uk/ headache, to ring back sooner\nPatient understands and is happy with plan"
+  },
+  {
+    "type": "hallucination",
+    "severity": "moderate",
+    "detail_type": "inserted sentence",
+    "detail": "Imp: ?"
+  },
+  {
+    "type": "omission",
+    "severity": "critical",
+    "detail_type": "omitted detail",
+    "detail": "Pt to contact them via PALS/ clinic to ensure f/u\nIf any prolonged symptoms occur- to attend A/E Pt has taken paracetamol- not helped\nPmhx: nil, has not had BP checked\nFH: mother has anxiety\nDH: sertraline\nNkda\nSH: live with partner\nNon smoker\nHss cat\nGood exercise, reasonable diet\nImp: tension type headache +/- migraine\nPlan: for ibuprofen first line as per SIGN 2018 migraine guidelines\n1.5-2 litres water hydration daily\n To sleep 7-8 hours minimum daily\nConsider time off- to self certify for a few days to see if this helps\nSelf referral to IAPTs\nReview in a week\nIf any red flag symptoms as per www.patient.co.uk/ headache, to ring back sooner\nPatient understands and is happy with plan Imp: ?"
+  }
+]

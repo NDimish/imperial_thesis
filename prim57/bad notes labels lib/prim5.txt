@@ -1,0 +1,20 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "moderate",
+    "detail_type": "inserted sentence",
+    "detail": "3/7 hx of diarrhea - watery stools, opening bowels every hour."
+  },
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "Review in 24-48 hours if sx improving, or earlier if worsening sx (fever, abdo pain, vomiting)"
+  },
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "number edit",
+    "detail": "Review in 28-48 hours if sx improving, or earlier if worsening sx (fever, abdo pain, vomiting)"
+  }
+]

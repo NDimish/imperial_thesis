@@ -1,0 +1,344 @@
+{
+  "module": "Pipeline_Merged_HighConfidence",
+  "overall": {
+    "tp": 4,
+    "fp": 348,
+    "fn": 13,
+    "precision": 0.011363636363636364,
+    "recall": 0.23529411764705882,
+    "f1": 0.02168021680216802,
+    "accuracy": 0.010958904109589041
+  },
+  "by_type": {
+    "hallucination": {
+      "tp": 4,
+      "fp": 65,
+      "fn": 4,
+      "precision": 0.057971014492753624,
+      "recall": 0.5,
+      "f1": 0.10389610389610389,
+      "accuracy": 0.0547945205479452
+    },
+    "omission": {
+      "tp": 0,
+      "fp": 283,
+      "fn": 9,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0
+    }
+  },
+  "records": [
+    {
+      "filename": "prim1.txt",
+      "elapsed": null,
+      "tp": 0,
+      "fp": 25,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "by_type": {
+        "omission": {
+          "tp": 0,
+          "fp": 23,
+          "fn": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "accuracy": 0.0
+        },
+        "hallucination": {
+          "tp": 0,
+          "fp": 2,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "accuracy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "prim10.txt",
+      "elapsed": null,
+      "tp": 1,
+      "fp": 44,
+      "fn": 0,
+      "precision": 0.022222222222222223,
+      "recall": 1.0,
+      "f1": 0.04347826086956522,
+      "accuracy": 0.022222222222222223,
+      "by_type": {
+        "omission": {
+          "tp": 0,
+          "fp": 35,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "accuracy": 0.0
+        },
+        "hallucination": {
+          "tp": 1,
+          "fp": 9,
+          "fn": 0,
+          "precision": 0.1,
+          "recall": 1.0,
+          "f1": 0.18181818181818182,
+          "accuracy": 0.1
+        }
+      }
+    },
+    {
+      "filename": "prim11.txt",
+      "elapsed": null,
+      "tp": 1,
+      "fp": 36,
+      "fn": 2,
+      "precision": 0.02702702702702703,
+      "recall": 0.3333333333333333,
+      "f1": 0.05,
+      "accuracy": 0.02564102564102564,
+      "by_type": {
+        "omission": {
+          "tp": 0,
+          "fp": 31,
+          "fn": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "accuracy": 0.0
+        },
+        "hallucination": {
+          "tp": 1,
+          "fp": 5,
+          "fn": 1,
+          "precision": 0.16666666666666666,
+          "recall": 0.5,
+          "f1": 0.25,
+          "accuracy": 0.14285714285714285
+        }
+      }
+    },
+    {
+      "filename": "prim12.txt",
+      "elapsed": null,
+      "tp": 0,
+      "fp": 20,
+      "fn": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "by_type": {
+        "omission": {
+          "tp": 0,
+          "fp": 14,
+          "fn": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "accuracy": 0.0
+        },
+        "hallucination": {
+          "tp": 0,
+          "fp": 6,
+          "fn": 2,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "accuracy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "prim13.txt",
+      "elapsed": null,
+      "tp": 1,
+      "fp": 45,
+      "fn": 1,
+      "precision": 0.021739130434782608,
+      "recall": 0.5,
+      "f1": 0.041666666666666664,
+      "accuracy": 0.02127659574468085,
+      "by_type": {
+        "omission": {
+          "tp": 0,
+          "fp": 34,
+          "fn": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "accuracy": 0.0
+        },
+        "hallucination": {
+          "tp": 1,
+          "fp": 11,
+          "fn": 0,
+          "precision": 0.08333333333333333,
+          "recall": 1.0,
+          "f1": 0.15384615384615385,
+          "accuracy": 0.08333333333333333
+        }
+      }
+    },
+    {
+      "filename": "prim14.txt",
+      "elapsed": null,
+      "tp": 0,
+      "fp": 55,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "by_type": {
+        "omission": {
+          "tp": 0,
+          "fp": 45,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "accuracy": 0.0
+        },
+        "hallucination": {
+          "tp": 0,
+          "fp": 10,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "accuracy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "prim15.txt",
+      "elapsed": null,
+      "tp": 0,
+      "fp": 29,
+      "fn": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "by_type": {
+        "omission": {
+          "tp": 0,
+          "fp": 23,
+          "fn": 2,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "accuracy": 0.0
+        },
+        "hallucination": {
+          "tp": 0,
+          "fp": 6,
+          "fn": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "accuracy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "prim16.txt",
+      "elapsed": null,
+      "tp": 0,
+      "fp": 30,
+      "fn": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "by_type": {
+        "omission": {
+          "tp": 0,
+          "fp": 27,
+          "fn": 2,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "accuracy": 0.0
+        },
+        "hallucination": {
+          "tp": 0,
+          "fp": 3,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "accuracy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "prim17.txt",
+      "elapsed": null,
+      "tp": 1,
+      "fp": 35,
+      "fn": 0,
+      "precision": 0.027777777777777776,
+      "recall": 1.0,
+      "f1": 0.05405405405405406,
+      "accuracy": 0.027777777777777776,
+      "by_type": {
+        "omission": {
+          "tp": 0,
+          "fp": 30,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "accuracy": 0.0
+        },
+        "hallucination": {
+          "tp": 1,
+          "fp": 5,
+          "fn": 0,
+          "precision": 0.16666666666666666,
+          "recall": 1.0,
+          "f1": 0.2857142857142857,
+          "accuracy": 0.16666666666666666
+        }
+      }
+    },
+    {
+      "filename": "prim18.txt",
+      "elapsed": null,
+      "tp": 0,
+      "fp": 29,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "by_type": {
+        "omission": {
+          "tp": 0,
+          "fp": 21,
+          "fn": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "accuracy": 0.0
+        },
+        "hallucination": {
+          "tp": 0,
+          "fp": 8,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "accuracy": 0.0
+        }
+      }
+    }
+  ]
+}

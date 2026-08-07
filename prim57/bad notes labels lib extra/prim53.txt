@@ -1,0 +1,10 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 44: \"Still symotoms of cold and cough has stayed.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"4\" to \"40\" in \"Stopped medication 3-40 years ago but sometimes takes salbutamol still every few weeks.\""
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"10\" to \"17\" in \"8/17 severity.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"E&D\" was swapped for \"A&E\" (from note 55)"
+  }
+]

@@ -1,14 +1,18 @@
 [
   {
-    "type": "hallucination",
-    "detail": "inserted sentence from note 8: \"Antihistamines \n4.\""
+    "type": "omission",
+    "detail": "Used steroid cream OTC last night with minimal effect."
   },
   {
     "type": "hallucination",
-    "detail": "inserted sentence from note 32: \"If your symptoms are not better in the next 2 weeks please book another appointment with the doctor.\""
+    "detail": "inserted sentence from note 32: \"If your symptoms are getting worse or there is an allergic reaction please speak with doctor urgently.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 8: \"Appetite maintained, nil nausea/vomiting \nNil bowel/urinary sx \n\nPMH: Lactose intolerance\nDH: microgynon\nNKDA\nFH:  Father - asthma, Mother - hayfever \nSH: - lives alone, nil smoker/etOH/recreational drugs , works as primary school teacher.\""
   },
   {
     "type": "omission",
-    "detail": "Non-smoker, social EtOH."
+    "detail": "No concerns\n\nImp: flare up of eczema\n\nPlan:\n1."
   }
 ]

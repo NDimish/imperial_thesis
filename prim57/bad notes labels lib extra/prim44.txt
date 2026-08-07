@@ -1,0 +1,6 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "\"Clinil\" was swapped for \"e+d\" (from note 39)"
+  }
+]

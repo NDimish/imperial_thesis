@@ -1,0 +1,42 @@
+
+prim1.txt
+  [FALSE] hallucination: Fever on first day, nil since.
+  [FALSE] hallucination: PMH: Asthma
+DH: Inhalers
+SH: works as an accountant.
+  [FALSE] hallucination: Nil smoking/etOH hx
+
+Imp: gastroenteritis 
+
+Plan:
+Conservative management - rest, push fluids, paracetamol if feverish.
+  [FALSE] omission: d: Sorry to hear that.
+  [FALSE] omission: d: Six, seven times a day.
+  [FALSE] omission: d: Come and go.
+  [FALSE] omission: d: 
+d: You measure your temperature then?
+  [FALSE] omission: d: You stopped vomiting, okay.
+  [FALSE] omission: d: Okay, so you're drinking fluids.
+  [FALSE] omission: d: Do you remember where you ate?
+  [FALSE] omission: d: And have you, are you currently working at the moment?
+  [FALSE] omission: d: Would, would work.
+  [FALSE] omission: d: And do you drink much in the way of alcohol?
+  [FALSE] omission: d: Because if it is ongoing then we have to wonder whether something else caused your symptoms.
+  [FALSE] omission: p: 
+d: Um, etcetera etcetera.
+  [FALSE] omission: d: How's that sound?
+  [FALSE] omission: d: Do you have any questions for me?
+  [FN] hallucination: inserted sentence from note 11: "No blood in stools."
+  [FN] omission: Associated LLQ pain - crampy, intermittent, nil radiation.
+  [FN] omission: No other unwell contacts.
+
+=== Evaluation Results ===
+prim1.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=17 FN=3)
+
+Overall (all types): precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=17 FN=3)
+
+By type:
+  hallucination: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=3 FN=1)
+  omission: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=14 FN=2)
+
+Average elapsed time: 7.42s

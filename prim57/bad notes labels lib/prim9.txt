@@ -1,0 +1,20 @@
+[
+  {
+    "type": "omission",
+    "severity": "low",
+    "detail_type": "omitted detail",
+    "detail": "Brief episode of haematuria, now resolved."
+  },
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "frequency."
+  },
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "number edit",
+    "detail": "LMP 2/59 ago."
+  }
+]

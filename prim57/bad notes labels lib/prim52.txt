@@ -1,0 +1,26 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "low",
+    "detail_type": "entity swap",
+    "detail": "No SOB / inspiratory pain / wheeze."
+  },
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "number edit",
+    "detail": "PMH: Hypertension \n T2 DM \n\n DH: Lisinopril \n Metformin \n\n Height- 50 ft 5 in \n Weight-65 kg \n\n SH: Non smoker, odd sherry."
+  },
+  {
+    "type": "hallucination",
+    "severity": "low",
+    "detail_type": "entity swap",
+    "detail": "URTI \n\n Plan ok."
+  },
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "Feels hot, has measured temperature."
+  }
+]

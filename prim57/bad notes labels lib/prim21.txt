@@ -1,0 +1,20 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "Worried about difficulty breathing and lip swelling, also localized rash PMHx of anaphylaxis, no use of epipen in past\nHas had anxiety in past- felt panicked now\nNo Fh of note SH: software engineer, has cat at home\nEx: Now: no lip swelling seen, speaking normally, no airways compromise."
+  },
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "Worried about difficulty breathing and lip swelling, also localized rash PMHx of anaphylaxis, use of epipen in past\nHas had anxiety in past- felt panicked now\nNo Fh of note SH: software engineer, has cat at home\nEx: Now: no lip swelling seen, speaking normally, no airways compromise."
+  },
+  {
+    "type": "omission",
+    "severity": "critical",
+    "detail_type": "omitted detail",
+    "detail": "Worried about difficulty breathing and lip swelling, also localized rash PMHx of anaphylaxis, use of epipen in past\nHas had anxiety in past- felt panicked now\nNo Fh of note SH: software engineer, has cat at home\nEx: Now: no lip swelling seen, speaking normally, no airways compromise."
+  }
+]

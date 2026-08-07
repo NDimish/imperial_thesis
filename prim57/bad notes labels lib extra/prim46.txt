@@ -1,0 +1,10 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 25: \"Mood is stable-  pmhx of anxiety for 2 years, on sertraline.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"2\" to \"20\" in \"Mood is stable-  pmhx of anxiety for 20 years, on sertraline.\""
+  }
+]

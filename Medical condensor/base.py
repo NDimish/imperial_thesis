@@ -1,7 +1,31 @@
 import re
 from abc import ABC, abstractmethod
 
-TURN_PATTERN = re.compile(r"^(d|p):\s*(.*)$", re.IGNORECASE)
+TURN_PATTERN = re.compile(r"^(d|p|speaker\s*\d+)\s*:\s*(.*)$", re.IGNORECASE)
+# "Speaker 0:"/"Speaker 1:" -- confirmed directly on extra/temp/prim1.txt (a
+# newer transcript that doesn't use this project's usual "d:"/"p:" tagging)
+# that turns are still one-per-line, just with a different speaker token,
+# and that speaker 0/1 map consistently to doctor/patient the same way "d:"
+# always opens every other transcript in this dataset: Speaker 0 asks "how
+# can I help you this morning?", Speaker 1 reports symptoms. Normalized to
+# "d"/"p" here -- the single shared parsing point every checker/condenser
+# already imports split_turns from -- rather than duplicating a second
+# speaker-role convention through every caller that currently does
+# `speaker.lower() == "d"`/`"p"`. A speaker number other than 0/1 (a
+# hypothetical third party) is left as its own normalized token rather than
+# guessed into doctor or patient, so callers checking specifically for "d"/
+# "p" simply treat it as an unrecognized speaker, same as an unmatched line.
+_SPEAKER_NUMBER_ROLE = {"0": "d", "1": "p"}
+
+
+def _normalize_speaker(raw):
+    raw = raw.strip().lower()
+    if raw in ("d", "p"):
+        return raw
+    match = re.match(r"speaker\s*(\d+)", raw)
+    if match:
+        return _SPEAKER_NUMBER_ROLE.get(match.group(1), raw.replace(" ", ""))
+    return raw
 # <UNSURE>...</UNSURE> wraps text the transcriber wasn't fully confident about --
 # strip the tags but keep the enclosed words. <UNIN/> and <INAUDIBLE_SPEECH/>
 # both mark a stretch of genuinely unintelligible speech -- self-closing, no

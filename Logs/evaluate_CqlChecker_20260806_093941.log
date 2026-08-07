@@ -1,0 +1,88 @@
+
+prim1.txt
+  flagged - none
+  [FN] omission: Associated LLQ pain - crampy, intermittent, nil radiation.
+
+prim10.txt
+  flagged - none
+  [FN] hallucination: inserted sentence from note 9: "Brief episode of haematuria, now resolved."
+
+prim11.txt
+  flagged - none
+  [FN] hallucination: inserted sentence from note 5: "Urinary sx - noticed some pink coloured urine, no frank haematuria, nil dysuria."
+  [FN] hallucination: inserted sentence from note 12: "Nil smoking, social EtOH
+
+Imp: gastroenteritis 
+
+Plan:
+1."
+  [FN] omission: Review in 48 hours, or earlier if worsening sx
+
+prim12.txt
+  flagged - none
+  [FN] hallucination: inserted sentence from note 4: "Now developed a cough -mainly dry, constant."
+  [FN] hallucination: inserted sentence from note 11: "Works in office."
+  [FN] omission: Appetite reduced.
+
+prim13.txt
+  flagged - none
+  [FN] omission: Paracetamol/NSAIDs regular 
+2.
+  [FN] hallucination: inserted sentence from note 4: "Occasional smoker/etOH."
+
+prim14.txt
+  flagged - none
+  FN - none
+
+prim15.txt
+  flagged - none
+  [FN] omission: Steroid cream BD
+2.
+  [FN] omission: Review in 10-14d INB, or earlier if worsening sx
+  [FN] hallucination: inserted sentence from note 8: "Emollients - regular use QDS
+3."
+
+prim16.txt
+  flagged - none
+  [FN] omission: Imp: need to exclude impacted wax in ear canal first
+Pln: for face to face GP appointment in 5 days to examine ear
+Pt to read about tinnitus in the meantime via following link: www.patient.co.uk/tinnitus
+If any problems in interim to ring us back
+Pt happy with and understands plan
+  [FN] omission: History: 
+Hx of difficulty hearing left ear for 6 weeks with tinnitus and slight nausea/ dizziness.
+
+prim17.txt
+  flagged - none
+  [FN] hallucination: inserted sentence from note 24: "Imp: ?"
+
+prim18.txt
+  flagged - none
+  [FN] omission: Slight tinnitus at times in this period- not continuous
+Numbness and difficulty hearing present now 
+Pmhx: labyrinthitis, heart burn, nasal polyps
+DH: Rennies PRN OTC, nasal spray PRN (pt not sure of name)
+Allergies: latex allergy
+No FH of note
+Ex: no facial asymmetry, looks well, normal facial expressions and movements
+Imp: ?
+
+=== Evaluation Results ===
+prim1.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=0 FN=1)
+prim10.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=0 FN=1)
+prim11.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=0 FN=3)
+prim12.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=0 FN=3)
+prim13.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=0 FN=2)
+prim14.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=1.00 (TP=0 FP=0 FN=0)
+prim15.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=0 FN=3)
+prim16.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=0 FN=2)
+prim17.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=0 FN=1)
+prim18.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=0 FN=1)
+
+Overall (all types): precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=0 FN=17)
+
+By type:
+  hallucination: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=0 FN=8)
+  omission: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=0 FN=9)
+
+Average elapsed time: 1.00s

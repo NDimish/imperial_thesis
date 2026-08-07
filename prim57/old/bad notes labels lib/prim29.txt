@@ -1,18 +1,10 @@
 [
   {
-    "type": "omission",
-    "detail": "your last asthma attack was 3 years ago \nYou have never needed anitibiotics or steroids \nYou have never been hospitalized because of your asthma \nYour normal peak flow reading is 380\nYou don't have any allergies \nMedication : you also use hydrocortisone and cetraban for eczema\nPlan : you have been advised to increase you brown inhaler to 4 puffs twice daily and can use the blue inhalers upto every 2-4 hrs \nYou will need your chest reviewed by a doctor in the next 2 days \nIf you were to get increasingly breathless with the treatment that has been advised and not seen a doctor yet, please go to A & E"
+    "type": "hallucination",
+    "detail": "inserted sentence from note 53: \"Has missed a few days of work.\""
   },
   {
     "type": "hallucination",
-    "detail": "inserted sentence from note 26: \"I have advised Mom to call the ambulance as a 999 call as we are suspecting an anaphylactic reaction\nAfter discharge from hospital please book a review with the doctor to consider prescribing an epipen\""
-  },
-  {
-    "type": "hallucination",
-    "detail": "inserted sentence from note 32: \"If your symptoms are not better in the next 2 weeks please book another appointment with the doctor.\""
-  },
-  {
-    "type": "hallucination",
-    "detail": "inserted sentence from note 32: \"If your symptoms are getting worse or there is an allergic reaction please speak with doctor urgently.\""
+    "detail": "inserted sentence from note 53: \"what.\""
   }
 ]

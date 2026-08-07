@@ -1,0 +1,6 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 55: \"Works from home.\""
+  }
+]

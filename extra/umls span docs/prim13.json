@@ -1,0 +1,2634 @@
+[
+  {
+    "term": "like",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 17,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...ou this afternoon?\np: Well, I have this [[like]] really crazy headache that's been going...",
+      "[transcript] ...ad, is this pain?\np: Um, it's basically [[like]], it kind of feels all over my head, but...",
+      "[transcript] ...t, I mean it is there all the time, but [[like]] sometimes it's stronger.\nd: OK, so it c..."
+    ],
+    "label": false
+  },
+  {
+    "term": "headache",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 13,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...\np: Well, I have this like really crazy [[headache]] that's been going on for a few days. An...",
+      "[transcript] ..., when, when did it exactly start, this [[headache]]?\np: Eh, around three days ago, maybe.\nd...",
+      "[transcript] ... right eye. Um\nd: , OK. Um, and is the, [[headache]] there all the time, or does it come and..."
+    ],
+    "label": true
+  },
+  {
+    "term": "bright",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 10,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ying, does it hurt to look, uh, look at [[bright]] lights?\np: Yeah, yeah. It hurts. So\nd: ...",
+      "[transcript] ...why I decided to try it. But\nd: OK, all [[right]]. And except for the headaches, any othe...",
+      "[transcript] ...s time it's just not. .\nd: not, OK. All [[right]]. Um, any temperatures, or fevers?\np: No..."
+    ],
+    "label": false
+  },
+  {
+    "term": "think",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 10,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...rse basically. So\nd: Mm-hmm.\nd: So, you [[think]] the headache is getting worse over the ...",
+      "[transcript] ...e any other medical history?\np: Yeah, I [[think]] so. It's just the headache.\nd: Any hist...",
+      "[transcript] ...eadaches. Um\nd: Mm-hmm.\np: But, I don't [[think]] that's it. And I'm like worried, it's, ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "fright",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 9,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...why I decided to try it. But\nd: OK, all [[right]]. And except for the headaches, any othe...",
+      "[transcript] ...s time it's just not. .\nd: not, OK. All [[right]]. Um, any temperatures, or fevers?\np: No...",
+      "[transcript] ...r out for a few days, basically.\nd: Ohh [[right]], OK, fine. Um, socially, tell me a bit ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "medications",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 8,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...d: OK. Do you have any allergies to any [[medications]]?\np: Mm not that I know of.\nd: OK. So yo...",
+      "[transcript] ...d: OK. Do you have any allergies to any [[medications]]?\np: Mm not that I know of.\nd: OK. So yo...",
+      "[transcript] ...eadaches. We can think about giving you [[medications]] as, prophylactic. Which basically means..."
+    ],
+    "label": true
+  },
+  {
+    "term": "headaches",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 7,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ut\nd: OK, all right. And except for the [[headaches]], any other symptoms at all?\np: Um\nd: So...",
+      "[transcript] ...his before in the past?\np: Yeah I mean, [[headaches]], you mean.\nd: Or, uh, or similar, simil...",
+      "[transcript] ... don't drink enough water, I I like get [[headaches]]. Um\nd: Mm-hmm.\np: But, I don't think th..."
+    ],
+    "label": true
+  },
+  {
+    "term": "well",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 8,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...d how can I help you this afternoon?\np: [[Well]], I have this like really crazy headache...",
+      "[transcript] ... OK. Any nausea or any vomiting?\np: Um, [[well]] I'm like basically, I I'm sick with the...",
+      "[transcript] ....\nd: Ohh really? OK. OK, yeah probably, [[well]] I'll, I'll ask you a bit more about you..."
+    ],
+    "label": false
+  },
+  {
+    "term": "other",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 4,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...I know of.\nd: OK. So you mentioned your [[mother]] and sister both have migraines.\np: Yeah...",
+      "[transcript] ...I know of.\nd: OK. So you mentioned your [[mother]] and sister both have migraines.\np: Yeah...",
+      "[transcript] ...I know of.\nd: OK. So you mentioned your [[mother]] and sister both have migraines.\np: Yeah..."
+    ],
+    "label": false
+  },
+  {
+    "term": "migraines",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 3,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...'s just the headache.\nd: Any history of [[migraines]] at all?\np: Not myself, I've never had a...",
+      "[transcript] ...tioned your mother and sister both have [[migraines]].\np: Yeah.\nd: Are they, is that normally...",
+      "[transcript] ...it, given your mum and your sister also [[migraines]]. I think it's something for us to think..."
+    ],
+    "label": true
+  },
+  {
+    "term": "medications",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 6,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...d: OK. Do you have any allergies to any [[medications]]?\np: Mm not that I know of.\nd: OK. So yo...",
+      "[transcript] ...d: OK. Do you have any allergies to any [[medications]]?\np: Mm not that I know of.\nd: OK. So yo...",
+      "[transcript] ...eadaches. We can think about giving you [[medications]] as, prophylactic. Which basically means..."
+    ],
+    "label": true
+  },
+  {
+    "term": "ibuprofen",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 5,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...he headache better?\np: Um so I tried uh [[Ibuprofen]]. Um so I took, like a few. Um for the l...",
+      "[transcript] ...n I had. But, usually after I I take uh [[Ibuprofen]] it kind of goes away. So, but this time...",
+      "[transcript] ...something stronger. Because apparently, [[Ibuprofen]] doesn't help me. Uh\nd: OK.\np: Usually i..."
+    ],
+    "label": true
+  },
+  {
+    "term": "history",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 6,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...hink so. It's just the headache.\nd: Any [[history]] of migraines at all?\np: Not myself, I'v...",
+      "[transcript] ...hink so. It's just the headache.\nd: Any [[history]] of migraines at all?\np: Not myself, I'v...",
+      "[transcript] ...hink so. It's just the headache.\nd: Any [[history]] of migraines at all?\np: Not myself, I'v..."
+    ],
+    "label": false
+  },
+  {
+    "term": "back",
+    "semtypes": [
+      "T029"
+    ],
+    "count_transcript": 6,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...And, and, you know I'd like you to come [[back]] and see me, in about uh, a week's time,...",
+      "[transcript] ...And, and, you know I'd like you to come [[back]] and see me, in about uh, a week's time,...",
+      "[transcript] ..., I want you to give me a call, or come [[back]] and see me sooner. OK?\np: OK. Yeah.\nd: ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "smoker",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ing smoking or alcohol. Do you drink or [[smoke]] at all?\np: I socially smoke. And I drin...",
+      "[transcript] ...ing smoking or alcohol. Do you drink or [[smoke]] at all?\np: I socially smoke. And I drin...",
+      "[transcript] ...ou drink or smoke at all?\np: I socially [[smoke]]. And I drink only socially.\nd: But only..."
+    ],
+    "label": true
+  },
+  {
+    "term": "light",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 5,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...eird shooting lights. And like now like [[light]] is quite annoying, my eyes.\nd: So when ...",
+      "[transcript] ...arted, I I got this like weird shooting [[lights]]. And like now like light is quite annoy...",
+      "[transcript] ...oes it hurt to look, uh, look at bright [[lights]]?\np: Yeah, yeah. It hurts. So\nd: , OK. A..."
+    ],
+    "label": false
+  },
+  {
+    "term": "mean",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 5,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...s, it kind of comes and goes. Um but, I [[mean]] it is there all the time, but like some...",
+      "[transcript] ... no vomiting.\nd: When you say sick, you [[mean]] you feel sick? OK. Yeah, no vomiting, O...",
+      "[transcript] ...like this before in the past?\np: Yeah I [[mean]], headaches, you mean.\nd: Or, uh, or sim..."
+    ],
+    "label": false
+  },
+  {
+    "term": "difficulty",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...iffness?\np: Yeah.\np: No.\nd: OK. And any [[difficulty]] with speaking or, um, speech?\np: No.\nd:...",
+      "[transcript] ... speaking or, um, speech?\np: No.\nd: Any [[difficulty]] , with weakness in your arms and legs?\n...",
+      "[transcript] ... well-controlled or are they um, having [[difficulty]], controlling their symptoms?\np: Um so m..."
+    ],
+    "label": false
+  },
+  {
+    "term": "difficult",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...iffness?\np: Yeah.\np: No.\nd: OK. And any [[difficulty]] with speaking or, um, speech?\np: No.\nd:...",
+      "[transcript] ... speaking or, um, speech?\np: No.\nd: Any [[difficulty]] , with weakness in your arms and legs?\n...",
+      "[transcript] ... well-controlled or are they um, having [[difficulty]], controlling their symptoms?\np: Um so m..."
+    ],
+    "label": false
+  },
+  {
+    "term": "weakness",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...speech?\np: No.\nd: Any difficulty , with [[weakness]] in your arms and legs?\np: No, it's hard...",
+      "[transcript] ...speech?\np: No.\nd: Any difficulty , with [[weakness]] in your arms and legs?\np: No, it's hard...",
+      "[transcript] ...aving any problems with your vision, or [[weakness]] in your arms and legs, or you're just n..."
+    ],
+    "label": true
+  },
+  {
+    "term": "rashes",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... temperatures, or fevers?\np: No.\nd: Any [[rashes]] at all, on your skin?\np: Mm, no not tha...",
+      "[transcript] ... temperatures, or fevers?\np: No.\nd: Any [[rashes]] at all, on your skin?\np: Mm, no not tha...",
+      "[soap_note] ...g weakness\nNo head injury \nNo fevers\nNo [[rashes]] \n\nPMH: Nil \nDH: Nil\nNKDA\nFH: mother and..."
+    ],
+    "label": true
+  },
+  {
+    "term": "maybe",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...headache?\np: Eh, around three days ago, [[maybe]].\nd: Three days ago, OK. And whereabout ...",
+      "[transcript] ... basically. And then I was thinking OK, [[maybe]] I'll just go to sleep. And when I woke ...",
+      "[transcript] .... Um at first I thought it's stress, or [[maybe]] I didn't drink enough water. Because so..."
+    ],
+    "label": false
+  },
+  {
+    "term": "feels",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...\np: Um, it's basically like, it kind of [[feels]] all over my head, but like mainly, um, ...",
+      "[transcript] ...\np: Um, it's basically like, it kind of [[feels]] all over my head, but like mainly, um, ...",
+      "[soap_note] ... prior to headaches. Some photophobia. \n[[Feels]] nauseous, no vomiting\nNo neck pain/stif..."
+    ],
+    "label": false
+  },
+  {
+    "term": "worse",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...he next morning like, it was even, even [[worse]] basically. So\nd: Mm-hmm.\nd: So, you thi...",
+      "[transcript] ...: So, you think the headache is getting [[worse]] over the last three days?\np: Yeah.\nd: O...",
+      "[transcript] ...uld be causing your headaches to become [[worse]].\np: Mm-hmm.\nd: And, and, you know I'd l..."
+    ],
+    "label": false
+  },
+  {
+    "term": "blights",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...arted, I I got this like weird shooting [[lights]]. And like now like light is quite annoy...",
+      "[transcript] ...oes it hurt to look, uh, look at bright [[lights]]?\np: Yeah, yeah. It hurts. So\nd: , OK. A...",
+      "[transcript] ...on, I wouldn't say. It's just like some [[lights]] from, shooting lights .\nd: Mmm, , OK. A..."
+    ],
+    "label": false
+  },
+  {
+    "term": "other",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...I know of.\nd: OK. So you mentioned your [[mother]] and sister both have migraines.\np: Yeah...",
+      "[transcript] ...I know of.\nd: OK. So you mentioned your [[mother]] and sister both have migraines.\np: Yeah...",
+      "[soap_note] ...\nNo rashes \n\nPMH: Nil \nDH: Nil\nNKDA\nFH: [[mother]] and sister - migraines\nSH: lives with h..."
+    ],
+    "label": false
+  },
+  {
+    "term": "premedications",
+    "semtypes": [
+      "T061"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...d: OK. Do you have any allergies to any [[medications]]?\np: Mm not that I know of.\nd: OK. So yo...",
+      "[transcript] ...eadaches. We can think about giving you [[medications]] as, prophylactic. Which basically means...",
+      "[transcript] ...s, prophylactic. Which basically means, [[medications]] to stop you from having these headaches..."
+    ],
+    "label": true
+  },
+  {
+    "term": "iv medications",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...d: OK. Do you have any allergies to any [[medications]]?\np: Mm not that I know of.\nd: OK. So yo...",
+      "[transcript] ...eadaches. We can think about giving you [[medications]] as, prophylactic. Which basically means...",
+      "[transcript] ...s, prophylactic. Which basically means, [[medications]] to stop you from having these headaches..."
+    ],
+    "label": true
+  },
+  {
+    "term": "very well",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ms and legs, or you're just not feeling [[very well]]. Just give me a call, and come back and...",
+      "[transcript] ...ms and legs, or you're just not feeling [[very well]]. Just give me a call, and come back and...",
+      "[transcript] ...ms and legs, or you're just not feeling [[very well]]. Just give me a call, and come back and..."
+    ],
+    "label": false
+  },
+  {
+    "term": "vomiting",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...I I'm sick with the headache. But I, no [[vomiting]].\nd: When you say sick, you mean you fee...",
+      "[transcript] ...k, you mean you feel sick? OK. Yeah, no [[vomiting]], OK. Any neck pain or neck stiffness?\np...",
+      "[soap_note] .... Some photophobia. \nFeels nauseous, no [[vomiting]]\nNo neck pain/stiffness\nNo speech distur..."
+    ],
+    "label": true
+  },
+  {
+    "term": "migraine",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...at all?\np: Not myself, I've never had a [[migraine]]. But my sister and my mom have them qui...",
+      "[transcript] ... worried, it's, I don't want it to be a [[migraine]]. Because I know what it's like, from my...",
+      "[transcript] ... could be, a headache very similar to a [[migraine]].\np: \nd: Um, the reason I say that is be..."
+    ],
+    "label": true
+  },
+  {
+    "term": "usually",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...headache, ?\np: Yeah. I mean I had. But, [[usually]] after I I take uh Ibuprofen it kind of ...",
+      "[transcript] ...are. But my mom's is like quite bad, um [[usually]] when there's like a season changing and...",
+      "[transcript] ...Ibuprofen doesn't help me. Uh\nd: OK.\np: [[Usually]] it gets resolved if I have headache in ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "screen",
+    "semtypes": [
+      "T060"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...to like reduce the uh, brightness of my [[screen]].\nd: Mmm. OK. Do you wear glasses?\np: Ye...",
+      "[transcript] ...to like reduce the uh, brightness of my [[screen]].\nd: Mmm. OK. Do you wear glasses?\np: Ye...",
+      "[transcript] ...to like reduce the uh, brightness of my [[screen]].\nd: Mmm. OK. Do you wear glasses?\np: Ye..."
+    ],
+    "label": false
+  },
+  {
+    "term": "stress",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... Not really. Um at first I thought it's [[stress]], or maybe I didn't drink enough water. ...",
+      "[soap_note] ...tes, works in IT, wears glasses, denies [[stress]]. Socially smoke/EtOH \n\nICE: ?related to...",
+      "[soap_note] ... Socially smoke/EtOH \n\nICE: ?related to [[stress]]/dehydration. Concerned about migraines...."
+    ],
+    "label": true
+  },
+  {
+    "term": "stress",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... Not really. Um at first I thought it's [[stress]], or maybe I didn't drink enough water. ...",
+      "[soap_note] ...tes, works in IT, wears glasses, denies [[stress]]. Socially smoke/EtOH \n\nICE: ?related to...",
+      "[soap_note] ... Socially smoke/EtOH \n\nICE: ?related to [[stress]]/dehydration. Concerned about migraines...."
+    ],
+    "label": true
+  },
+  {
+    "term": "stress",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... Not really. Um at first I thought it's [[stress]], or maybe I didn't drink enough water. ...",
+      "[soap_note] ...tes, works in IT, wears glasses, denies [[stress]]. Socially smoke/EtOH \n\nICE: ?related to...",
+      "[soap_note] ... Socially smoke/EtOH \n\nICE: ?related to [[stress]]/dehydration. Concerned about migraines...."
+    ],
+    "label": true
+  },
+  {
+    "term": "today",
+    "semtypes": [
+      "T109",
+      "T195"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ular you were hoping I could do for you [[today]]?\np: Yeah maybe just kinda, if you have ...",
+      "[transcript] ...f. But it's certainly worth treating it [[today]] stronger analgesia or painkillers.\nd: U...",
+      "[transcript] ... can give you a , prescription for that [[today]]. Um, with regards to um, the next few d..."
+    ],
+    "label": false
+  },
+  {
+    "term": "head",
+    "semtypes": [
+      "T029"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ee days ago, OK. And whereabout in your [[head]], is this pain?\np: Um, it's basically li...",
+      "[transcript] ...ally like, it kind of feels all over my [[head]], but like mainly, um, around my right e...",
+      "[soap_note] ... hx developed headache - all over of my [[head]] and mainly over right eye. Constant, se..."
+    ],
+    "label": true
+  },
+  {
+    "term": "pain",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...K. And whereabout in your head, is this [[pain]]?\np: Um, it's basically like, it kind of...",
+      "[transcript] ...to ten, um, ten being the worst type of [[pain]] you ever had. How would you rate this h...",
+      "[transcript] ...o me, um, in terms of the nature of the [[pain]]. Is it sharp? Is it dull? Is it crampy?..."
+    ],
+    "label": true
+  },
+  {
+    "term": "pain",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...K. And whereabout in your head, is this [[pain]]?\np: Um, it's basically like, it kind of...",
+      "[transcript] ...to ten, um, ten being the worst type of [[pain]] you ever had. How would you rate this h...",
+      "[transcript] ...o me, um, in terms of the nature of the [[pain]]. Is it sharp? Is it dull? Is it crampy?..."
+    ],
+    "label": true
+  },
+  {
+    "term": "dull",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... nature of the pain. Is it sharp? Is it [[dull]]? Is it crampy? Is it throbbing?\np: Um, ...",
+      "[transcript] ...it throbbing?\np: Um, it's kind of, it's [[dull]] but sometimes it gets a bit sharper. So...",
+      "[soap_note] ...ver right eye. Constant, severity 8/10, [[dull]] ache with associated sharp pain, gradua..."
+    ],
+    "label": true
+  },
+  {
+    "term": "loss of vision",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...s. So\nd: , OK. And um, have you had any [[loss of vision]] or blurry vision?\np: Not loss of vision...",
+      "[transcript] ...loss of vision or blurry vision?\np: Not [[loss of vision]], I wouldn't say. It's just like some li..."
+    ],
+    "label": true
+  },
+  {
+    "term": "loss of vision",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...s. So\nd: , OK. And um, have you had any [[loss of vision]] or blurry vision?\np: Not loss of vision...",
+      "[transcript] ...loss of vision or blurry vision?\np: Not [[loss of vision]], I wouldn't say. It's just like some li..."
+    ],
+    "label": true
+  },
+  {
+    "term": "loss of vision",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...s. So\nd: , OK. And um, have you had any [[loss of vision]] or blurry vision?\np: Not loss of vision...",
+      "[transcript] ...loss of vision or blurry vision?\np: Not [[loss of vision]], I wouldn't say. It's just like some li..."
+    ],
+    "label": true
+  },
+  {
+    "term": "arms and legs",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... Any difficulty , with weakness in your [[arms and legs]]?\np: No, it's hard to focus though. So, ...",
+      "[transcript] ...s with your vision, or weakness in your [[arms and legs]], or you're just not feeling very well. ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "fit and well",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...just moving forwards. Are you otherwise [[fit and well]], Adriana?\np: Am I what, sorry?\nd: You f...",
+      "[transcript] ...l, Adriana?\np: Am I what, sorry?\nd: You [[fit and well]]? , do you have any other medical histor..."
+    ],
+    "label": true
+  },
+  {
+    "term": "prophylactic",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... think about giving you medications as, [[prophylactic]]. Which basically means, medications to ...",
+      "[soap_note] ...dache diary\n3.\tReview in 1/52 - discuss [[prophylactic]] Rx if necessary\n4.\tPatient aware of red..."
+    ],
+    "label": true
+  },
+  {
+    "term": "painkillers",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...treating it today stronger analgesia or [[painkillers]].\nd: Um, now moving forward, we have som...",
+      "[transcript] ...m-hmm.\nd: Um, we can also add in other, [[painkillers]] like, Paracetamol, or Codeine. Which mi..."
+    ],
+    "label": true
+  },
+  {
+    "term": "paracetamol",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...an also add in other, painkillers like, [[Paracetamol]], or Codeine. Which might be helpful as ...",
+      "[soap_note] ... migraines. \n\nImp: migraines \n\nPlan:\n1.\t[[Paracetamol]]/NSAIDs regular \n2.\tHeadache diary\n3.\tRe..."
+    ],
+    "label": true
+  },
+  {
+    "term": "medication",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...her, can I ask, do you take any regular [[medication]]?\np: Uh, no no.\nd: Are you on the pill?\n...",
+      "[transcript] ...her, can I ask, do you take any regular [[medication]]?\np: Uh, no no.\nd: Are you on the pill?\n..."
+    ],
+    "label": true
+  },
+  {
+    "term": "right eye",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...my head, but like mainly, um, around my [[right eye]]. Um\nd: , OK. Um, and is the, headache t...",
+      "[soap_note] ...e - all over of my head and mainly over [[right eye]]. Constant, severity 8/10, dull ache wit..."
+    ],
+    "label": true
+  },
+  {
+    "term": "feel sick",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ing.\nd: When you say sick, you mean you [[feel sick]]? OK. Yeah, no vomiting, OK. Any neck pa...",
+      "[transcript] ...ing.\nd: When you say sick, you mean you [[feel sick]]? OK. Yeah, no vomiting, OK. Any neck pa..."
+    ],
+    "label": true
+  },
+  {
+    "term": "neck pain",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...el sick? OK. Yeah, no vomiting, OK. Any [[neck pain]] or neck stiffness?\np: Yeah.\np: No.\nd: O...",
+      "[soap_note] ...phobia. \nFeels nauseous, no vomiting\nNo [[neck pain]]/stiffness\nNo speech disturbances \nNo ar..."
+    ],
+    "label": true
+  },
+  {
+    "term": "analgesic",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...tainly worth treating it today stronger [[analgesia]] or painkillers.\nd: Um, now moving forwa...",
+      "[transcript] ...tainly worth treating it today stronger [[analgesia]] or painkillers.\nd: Um, now moving forwa..."
+    ],
+    "label": true
+  },
+  {
+    "term": "analgesia",
+    "semtypes": [
+      "T061"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...tainly worth treating it today stronger [[analgesia]] or painkillers.\nd: Um, now moving forwa...",
+      "[transcript] ...tainly worth treating it today stronger [[analgesia]] or painkillers.\nd: Um, now moving forwa..."
+    ],
+    "label": true
+  },
+  {
+    "term": "probably",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...uld you rate this headache?\np: Ohh it's [[probably]] a eight.\nd: Eight. And if I was to ask ...",
+      "[transcript] ..., actually.\nd: Ohh really? OK. OK, yeah [[probably]], well I'll, I'll ask you a bit more abo..."
+    ],
+    "label": false
+  },
+  {
+    "term": "feeling",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...repeat eye test done. Um, have you been [[feeling]] more stressed or anxious at work recent...",
+      "[transcript] ... your arms and legs, or you're just not [[feeling]] very well. Just give me a call, and com..."
+    ],
+    "label": false
+  },
+  {
+    "term": "alcohol",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... right. Great. Um, regarding smoking or [[alcohol]]. Do you drink or smoke at all?\np: I soc...",
+      "[transcript] ... right. Great. Um, regarding smoking or [[alcohol]]. Do you drink or smoke at all?\np: I soc..."
+    ],
+    "label": true
+  },
+  {
+    "term": "thought",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ple?\np: Um\np: Not really. Um at first I [[thought]] it's stress, or maybe I didn't drink en...",
+      "[transcript] ...rms and legs?\np: No, it's hard to focus [[though]]. So, I I had to take a couple of days o..."
+    ],
+    "label": false
+  },
+  {
+    "term": "vision",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ple any, problems your eyesight or your [[vision]]?\np: Not really, but just when it starte...",
+      "[transcript] ...if you're having any problems with your [[vision]], or weakness in your arms and legs, or ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "vision",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ple any, problems your eyesight or your [[vision]]?\np: Not really, but just when it starte...",
+      "[transcript] ...if you're having any problems with your [[vision]], or weakness in your arms and legs, or ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "fevers",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...OK. All right. Um, any temperatures, or [[fevers]]?\np: No.\nd: Any rashes at all, on your s...",
+      "[soap_note] ... arm or leg weakness\nNo head injury \nNo [[fevers]]\nNo rashes \n\nPMH: Nil \nDH: Nil\nNKDA\nFH: ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "fever",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...OK. All right. Um, any temperatures, or [[fevers]]?\np: No.\nd: Any rashes at all, on your s...",
+      "[soap_note] ... arm or leg weakness\nNo head injury \nNo [[fevers]]\nNo rashes \n\nPMH: Nil \nDH: Nil\nNKDA\nFH: ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "moving",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... not that I've noticed.\nd: OK. And just [[moving]] forwards. Are you otherwise fit and wel...",
+      "[transcript] ...er analgesia or painkillers.\nd: Um, now [[moving]] forward, we have some options which we ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "lives",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...side of, um, outside of, work. So , who [[lives]] at home with you?\np: Uh I live with hou...",
+      "[soap_note] ...A\nFH: mother and sister - migraines\nSH: [[lives]] with housemates, works in IT, wears gla..."
+    ],
+    "label": true
+  },
+  {
+    "term": "water",
+    "semtypes": [
+      "T121",
+      "T197"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... stress, or maybe I didn't drink enough [[water]]. Because sometimes when I don't drink e...",
+      "[transcript] ...use sometimes when I don't drink enough [[water]], I I like get headaches. Um\nd: Mm-hmm.\n..."
+    ],
+    "label": false
+  },
+  {
+    "term": "eyes",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ke now like light is quite annoying, my [[eyes]].\nd: So when you say annoying, does it h...",
+      "[transcript] ... in mind if you feel that you are, your [[eyes]] are straining. Um I would always recomm..."
+    ],
+    "label": false
+  },
+  {
+    "term": "eyes",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ke now like light is quite annoying, my [[eyes]].\nd: So when you say annoying, does it h...",
+      "[transcript] ... in mind if you feel that you are, your [[eyes]] are straining. Um I would always recomm..."
+    ],
+    "label": true
+  },
+  {
+    "term": "sick",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...?\np: Um, well I'm like basically, I I'm [[sick]] with the headache. But I, no vomiting.\n...",
+      "[transcript] ...he. But I, no vomiting.\nd: When you say [[sick]], you mean you feel sick? OK. Yeah, no v..."
+    ],
+    "label": true
+  },
+  {
+    "term": "test",
+    "semtypes": [
+      "T034"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...you had any recent eye check, done? Eye [[test]]?\np: No, uh I've been wearing them since...",
+      "[transcript] ...ld always recommend having a repeat eye [[test]] done. Um, have you been feeling more st..."
+    ],
+    "label": false
+  },
+  {
+    "term": "test",
+    "semtypes": [
+      "T029"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...you had any recent eye check, done? Eye [[test]]?\np: No, uh I've been wearing them since...",
+      "[transcript] ...ld always recommend having a repeat eye [[test]] done. Um, have you been feeling more st..."
+    ],
+    "label": false
+  },
+  {
+    "term": "test",
+    "semtypes": [
+      "T059"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...you had any recent eye check, done? Eye [[test]]?\np: No, uh I've been wearing them since...",
+      "[transcript] ...ld always recommend having a repeat eye [[test]] done. Um, have you been feeling more st..."
+    ],
+    "label": false
+  },
+  {
+    "term": "call",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] .... Um, you know, I want you to give me a [[call]], or come back and see me sooner. OK?\np:...",
+      "[transcript] ...t not feeling very well. Just give me a [[call]], and come back and see me.\np: OK.\nd: Al..."
+    ],
+    "label": false
+  },
+  {
+    "term": "problem",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...ptoms at all?\np: Um\nd: So, example any, [[problems]] your eyesight or your vision?\np: Not re...",
+      "[transcript] ...: OK. Yeah.\nd: So, if you're having any [[problems]] with your vision, or weakness in your a..."
+    ],
+    "label": false
+  },
+  {
+    "term": "problem",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...ptoms at all?\np: Um\nd: So, example any, [[problems]] your eyesight or your vision?\np: Not re...",
+      "[transcript] ...: OK. Yeah.\nd: So, if you're having any [[problems]] with your vision, or weakness in your a..."
+    ],
+    "label": false
+  },
+  {
+    "term": "leg weakness",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...fness\nNo speech disturbances \nNo arm or [[leg weakness]]\nNo head injury \nNo fevers\nNo rashes \n\nP...",
+      "[soap_note] ...fness\nNo speech disturbances \nNo arm or [[leg weakness]]\nNo head injury \nNo fevers\nNo rashes \n\nP..."
+    ],
+    "label": true
+  },
+  {
+    "term": "nsaids",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...\n\nImp: migraines \n\nPlan:\n1.\tParacetamol/[[NSAIDs]] regular \n2.\tHeadache diary\n3.\tReview in...",
+      "[soap_note] ...\n\nImp: migraines \n\nPlan:\n1.\tParacetamol/[[NSAIDs]] regular \n2.\tHeadache diary\n3.\tReview in..."
+    ],
+    "label": true
+  },
+  {
+    "term": "ache",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...ight eye. Constant, severity 8/10, dull [[ache]] with associated sharp pain, gradual ons...",
+      "[soap_note] ...ight eye. Constant, severity 8/10, dull [[ache]] with associated sharp pain, gradual ons..."
+    ],
+    "label": true
+  },
+  {
+    "term": "nausea or vomiting",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...om, shooting lights .\nd: Mmm, , OK. Any [[nausea or any vomiting]]?\np: Um, well I'm like basically, I I'm ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "have nausea or vomiting",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...om, shooting lights .\nd: Mmm, , OK. Any [[nausea or any vomiting]]?\np: Um, well I'm like basically, I I'm ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "anti-inflammatory",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ronger, like Naproxen, which is another [[anti-inflammatory]], which can be helpful.\np: Mm-hmm.\nd: Um..."
+    ],
+    "label": true
+  },
+  {
+    "term": "medical history",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...u fit and well? , do you have any other [[medical history]]?\np: Yeah, I think so. It's just the hea..."
+    ],
+    "label": false
+  },
+  {
+    "term": "one or two days",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... if I have headache in like, after like [[one or two days]]. But currently it, it didn't help me.\nd..."
+    ],
+    "label": false
+  },
+  {
+    "term": "other symptoms",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ight. And except for the headaches, any [[other symptoms]] at all?\np: Um\nd: So, example any, probl..."
+    ],
+    "label": false
+  },
+  {
+    "term": "neck stiffness",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...Yeah, no vomiting, OK. Any neck pain or [[neck stiffness]]?\np: Yeah.\np: No.\nd: OK. And any difficu..."
+    ],
+    "label": true
+  },
+  {
+    "term": "i didn't drink",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...t first I thought it's stress, or maybe [[I didn't drink]] enough water. Because sometimes when I ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "blurry vision",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... um, have you had any loss of vision or [[blurry vision]]?\np: Not loss of vision, I wouldn't say...."
+    ],
+    "label": true
+  },
+  {
+    "term": "head injuries",
+    "semtypes": [
+      "T037"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...bout your work later on. Um, any recent [[head injuries]] at all?\np: Uh, no.\nd: OK. And have you ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "come and go",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...headache there all the time, or does it [[come and go]]?\np: Um it's, it kind of comes and goes...."
+    ],
+    "label": true
+  },
+  {
+    "term": "controlling",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...lled or are they um, having difficulty, [[controlling]] their symptoms?\np: Um so my sister's, l..."
+    ],
+    "label": false
+  },
+  {
+    "term": "didn't help",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...e one or two days. But currently it, it [[didn't help]] me.\nd: How many tablets did you take of..."
+    ],
+    "label": true
+  },
+  {
+    "term": "medication 2",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...her, can I ask, do you take any regular [[medication]]?\np: Uh, no no.\nd: Are you on the pill?\n..."
+    ],
+    "label": false
+  },
+  {
+    "term": "medication 3",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...her, can I ask, do you take any regular [[medication]]?\np: Uh, no no.\nd: Are you on the pill?\n..."
+    ],
+    "label": false
+  },
+  {
+    "term": "medication 1",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...her, can I ask, do you take any regular [[medication]]?\np: Uh, no no.\nd: Are you on the pill?\n..."
+    ],
+    "label": false
+  },
+  {
+    "term": "controlled",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...eah.\nd: Are they, is that normally well-[[controlled]] or are they um, having difficulty, cont..."
+    ],
+    "label": false
+  },
+  {
+    "term": "controll",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...eah.\nd: Are they, is that normally well-[[controlled]] or are they um, having difficulty, cont..."
+    ],
+    "label": false
+  },
+  {
+    "term": "don't know",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...etic. So I've researched that. Um but I [[don't know]] if that is the case. So, yeah.\nd: OK. I..."
+    ],
+    "label": false
+  },
+  {
+    "term": "i don't know",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...etic. So I've researched that. Um but I [[don't know]] if that is the case. So, yeah.\nd: OK. I..."
+    ],
+    "label": false
+  },
+  {
+    "term": "definitely",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... day.\np: Ohh right.\nd: So, so , there's [[definitely]] room for, improvement there. Or, I can ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "discussion",
+    "semtypes": [
+      "T061"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...n a regular basis. But we can have that [[discussion]] next time.\np: Mm, OK.\nd: OK. In the mea..."
+    ],
+    "label": false
+  },
+  {
+    "term": "allergies",
+    "semtypes": [
+      "T046"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...you on the pill?\nd: OK. Do you have any [[allergies]] to any medications?\np: Mm not that I kn..."
+    ],
+    "label": true
+  },
+  {
+    "term": "allergies",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...you on the pill?\nd: OK. Do you have any [[allergies]] to any medications?\np: Mm not that I kn..."
+    ],
+    "label": true
+  },
+  {
+    "term": "very rare",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...s, like better. Like it's kind of, it's [[very rare]]. But my mom's is like quite bad, um usu..."
+    ],
+    "label": false
+  },
+  {
+    "term": "analgesia",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...tainly worth treating it today stronger [[analgesia]] or painkillers.\nd: Um, now moving forwa..."
+    ],
+    "label": true
+  },
+  {
+    "term": "analgesia",
+    "semtypes": [
+      "T048"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...tainly worth treating it today stronger [[analgesia]] or painkillers.\nd: Um, now moving forwa..."
+    ],
+    "label": false
+  },
+  {
+    "term": "analgesin",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...tainly worth treating it today stronger [[analgesia]] or painkillers.\nd: Um, now moving forwa..."
+    ],
+    "label": false
+  },
+  {
+    "term": "your age",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...urther, can I uh, confirm your name and [[your age]] please?\np: Yes, it's um Adriana Katheri..."
+    ],
+    "label": false
+  },
+  {
+    "term": "thinking",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...it was a lot, basically. And then I was [[thinking]] OK, maybe I'll just go to sleep. And wh..."
+    ],
+    "label": false
+  },
+  {
+    "term": "stressed",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...st done. Um, have you been feeling more [[stressed]] or anxious at work recently?\np: \np: Wel..."
+    ],
+    "label": true
+  },
+  {
+    "term": "distressed",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...st done. Um, have you been feeling more [[stressed]] or anxious at work recently?\np: \np: Wel..."
+    ],
+    "label": false
+  },
+  {
+    "term": "resolved",
+    "semtypes": [
+      "T046"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...t help me. Uh\nd: OK.\np: Usually it gets [[resolved]] if I have headache in like, after like ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "resolve",
+    "semtypes": [
+      "T060"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...t help me. Uh\nd: OK.\np: Usually it gets [[resolved]] if I have headache in like, after like ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "not sure",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...e Ibuprofen. Now, my only worry is, I'm [[not sure]] whether you're taking, the correct dose..."
+    ],
+    "label": false
+  },
+  {
+    "term": "triggers",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...rk out what's, you know, if there's any [[triggers]] which could be causing your headaches t..."
+    ],
+    "label": true
+  },
+  {
+    "term": "confirm",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... Um, before I go any further, can I uh, [[confirm]] your name and your age please?\np: Yes, ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "anxious",
+    "semtypes": [
+      "T048"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... have you been feeling more stressed or [[anxious]] at work recently?\np: \np: Well, it's bee..."
+    ],
+    "label": true
+  },
+  {
+    "term": "nothing",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...kicking off a new project. But um, yeah [[nothing]] out of the ordinary, really.\nd: OK, all..."
+    ],
+    "label": false
+  },
+  {
+    "term": "worried",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ..., I don't think that's it. And I'm like [[worried]], it's, I don't want it to be a migraine..."
+    ],
+    "label": false
+  },
+  {
+    "term": "codeine",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ther, painkillers like, Paracetamol, or [[Codeine]]. Which might be helpful as well.\np: Mm,..."
+    ],
+    "label": true
+  },
+  {
+    "term": "crampy",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...he pain. Is it sharp? Is it dull? Is it [[crampy]]? Is it throbbing?\np: Um, it's kind of, ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "cramp",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...he pain. Is it sharp? Is it dull? Is it [[crampy]]? Is it throbbing?\np: Um, it's kind of, ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "speech",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...nd any difficulty with speaking or, um, [[speech]]?\np: No.\nd: Any difficulty , with weakne..."
+    ],
+    "label": true
+  },
+  {
+    "term": "screen",
+    "semtypes": [
+      "T059"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...to like reduce the uh, brightness of my [[screen]].\nd: Mmm. OK. Do you wear glasses?\np: Ye..."
+    ],
+    "label": false
+  },
+  {
+    "term": "always",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...re, your eyes are straining. Um I would [[always]] recommend having a repeat eye test done..."
+    ],
+    "label": false
+  },
+  {
+    "term": "hoping",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] .... Is it anything in particular you were [[hoping]] I could do for you today?\np: Yeah maybe..."
+    ],
+    "label": true
+  },
+  {
+    "term": "start",
+    "semtypes": [
+      "T061"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...h dear, OK. , when, when did it exactly [[start]], this headache?\np: Eh, around three day..."
+    ],
+    "label": false
+  },
+  {
+    "term": "sharp",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... terms of the nature of the pain. Is it [[sharp]]? Is it dull? Is it crampy? Is it throbb..."
+    ],
+    "label": false
+  },
+  {
+    "term": "blight",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...eird shooting lights. And like now like [[light]] is quite annoying, my eyes.\nd: So when ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "slight",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...eird shooting lights. And like now like [[light]] is quite annoying, my eyes.\nd: So when ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "ideas",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...Right. Now um, Adriana, do you have any [[ideas]] as to what could be causing your sympto..."
+    ],
+    "label": true
+  },
+  {
+    "term": "worry",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ..., you tried the Ibuprofen. Now, my only [[worry]] is, I'm not sure whether you're taking,..."
+    ],
+    "label": false
+  },
+  {
+    "term": "times",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] .... You can take up to two tablets, three [[times]] a day.\np: Ohh right.\nd: So, so , there'..."
+    ],
+    "label": false
+  },
+  {
+    "term": "basis",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...rom having these headaches on a regular [[basis]]. But we can have that discussion next t..."
+    ],
+    "label": false
+  },
+  {
+    "term": "skin",
+    "semtypes": [
+      "T031"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...s?\np: No.\nd: Any rashes at all, on your [[skin]]?\np: Mm, no not that I've noticed.\nd: OK..."
+    ],
+    "label": true
+  },
+  {
+    "term": "pill",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...cation?\np: Uh, no no.\nd: Are you on the [[pill]]?\nd: OK. Do you have any allergies to an..."
+    ],
+    "label": true
+  },
+  {
+    "term": "life",
+    "semtypes": [
+      "T060"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...socially, tell me a bit more about your [[life]], outside of, um, outside of, work. So ,..."
+    ],
+    "label": false
+  },
+  {
+    "term": "mind",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...all right. Something for you to bear in [[mind]] if you feel that you are, your eyes are..."
+    ],
+    "label": false
+  },
+  {
+    "term": "feel",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...omething for you to bear in mind if you [[feel]] that you are, your eyes are straining. ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "read",
+    "semtypes": [
+      "T059"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...using your symptoms? Have you, have you [[read]] anything online, or spoken to people?\np..."
+    ],
+    "label": false
+  },
+  {
+    "term": "prescriptions",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ooking into that, so I can give you a , [[prescription]] for that today. Um, with regards to um,..."
+    ],
+    "label": true
+  },
+  {
+    "term": "nonprescription",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ooking into that, so I can give you a , [[prescription]] for that today. Um, with regards to um,..."
+    ],
+    "label": true
+  },
+  {
+    "term": "incorrect dose",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...I'm not sure whether you're taking, the [[correct dose]]. You can take up to two tablets, three ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "hanging",
+    "semtypes": [
+      "T037"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ..., um usually when there's like a season [[changing]] and stuff like that. It's, yeah.\nd: Mm-..."
+    ],
+    "label": false
+  },
+  {
+    "term": "unchanging",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ..., um usually when there's like a season [[changing]] and stuff like that. It's, yeah.\nd: Mm-..."
+    ],
+    "label": false
+  },
+  {
+    "term": "swearing",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ck, done? Eye test?\np: No, uh I've been [[wearing]] them since I was five , five year old. ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "pleased",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...an I uh, confirm your name and your age [[please]]?\np: Yes, it's um Adriana Katherine . An..."
+    ],
+    "label": false
+  },
+  {
+    "term": "couplet",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... to focus though. So, I I had to take a [[couple]] of days off work, actually.\nd: Ohh real..."
+    ],
+    "label": false
+  },
+  {
+    "term": "reduced",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...is difficult to focus. Um I had to like [[reduce]] the uh, brightness of my screen.\nd: Mmm..."
+    ],
+    "label": false
+  },
+  {
+    "term": "odour symptoms",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...e any ideas as to what could be causing [[your symptoms]]? Have you, have you read anything onlin..."
+    ],
+    "label": false
+  },
+  {
+    "term": "no improvement",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...: So, so , there's definitely room for, [[improvement]] there. Or, I can prescribe you somethin..."
+    ],
+    "label": false
+  },
+  {
+    "term": "b-symptoms",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...m, having difficulty, controlling their [[symptoms]]?\np: Um so my sister's, like better. Lik..."
+    ],
+    "label": true
+  },
+  {
+    "term": "symptoms",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...m, having difficulty, controlling their [[symptoms]]?\np: Um so my sister's, like better. Lik..."
+    ],
+    "label": false
+  },
+  {
+    "term": "symptom",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...m, having difficulty, controlling their [[symptoms]]?\np: Um so my sister's, like better. Lik..."
+    ],
+    "label": false
+  },
+  {
+    "term": "cinaproxen",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... prescribe you something stronger, like [[Naproxen]], which is another anti-inflammatory, wh..."
+    ],
+    "label": true
+  },
+  {
+    "term": "naproxen",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... prescribe you something stronger, like [[Naproxen]], which is another anti-inflammatory, wh..."
+    ],
+    "label": true
+  },
+  {
+    "term": "therex",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...d: [[There]]'s no . , hello?\np: . Hi there.\nd: Hello..."
+    ],
+    "label": false
+  },
+  {
+    "term": "scales",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... fine, OK. And if I was to ask you on a [[scale]] of one to ten, um, ten being the worst ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "asleep",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... was thinking OK, maybe I'll just go to [[sleep]]. And when I woke up the next morning li..."
+    ],
+    "label": false
+  },
+  {
+    "term": "sleep",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... was thinking OK, maybe I'll just go to [[sleep]]. And when I woke up the next morning li..."
+    ],
+    "label": true
+  },
+  {
+    "term": "sleepy",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... was thinking OK, maybe I'll just go to [[sleep]]. And when I woke up the next morning li..."
+    ],
+    "label": true
+  },
+  {
+    "term": "speech disturbances",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ..., no vomiting\nNo neck pain/stiffness\nNo [[speech disturbances]] \nNo arm or leg weakness\nNo head injury ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "speech disturbance nec",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ..., no vomiting\nNo neck pain/stiffness\nNo [[speech disturbances]] \nNo arm or leg weakness\nNo head injury ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "speech disturbance",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ..., no vomiting\nNo neck pain/stiffness\nNo [[speech disturbances]] \nNo arm or leg weakness\nNo head injury ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "wears glasses",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...SH: lives with housemates, works in IT, [[wears glasses]], denies stress. Socially smoke/EtOH \n\nI..."
+    ],
+    "label": true
+  },
+  {
+    "term": "visual aura",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...ofen with limited relief. \nNo visual sx\n[[Visual aura]] prior to headaches. Some photophobia. \n..."
+    ],
+    "label": true
+  },
+  {
+    "term": "photophobia",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...sx\nVisual aura prior to headaches. Some [[photophobia]]. \nFeels nauseous, no vomiting\nNo neck p..."
+    ],
+    "label": true
+  },
+  {
+    "term": "head injury",
+    "semtypes": [
+      "T037"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...disturbances \nNo arm or leg weakness\nNo [[head injury]] \nNo fevers\nNo rashes \n\nPMH: Nil \nDH: Ni..."
+    ],
+    "label": true
+  },
+  {
+    "term": "dehydration",
+    "semtypes": [
+      "T059"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...ly smoke/EtOH \n\nICE: ?related to stress/[[dehydration]]. Concerned about migraines. \n\nImp: migr..."
+    ],
+    "label": true
+  },
+  {
+    "term": "hydration",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...ly smoke/EtOH \n\nICE: ?related to stress/[[dehydration]]. Concerned about migraines. \n\nImp: migr..."
+    ],
+    "label": true
+  },
+  {
+    "term": "dehydration",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...ly smoke/EtOH \n\nICE: ?related to stress/[[dehydration]]. Concerned about migraines. \n\nImp: migr..."
+    ],
+    "label": true
+  },
+  {
+    "term": "rehydration",
+    "semtypes": [
+      "T061"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...ly smoke/EtOH \n\nICE: ?related to stress/[[dehydration]]. Concerned about migraines. \n\nImp: migr..."
+    ],
+    "label": true
+  },
+  {
+    "term": "sharp pain",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...everity 8/10, dull ache with associated [[sharp pain]], gradual onset. Progressively worsening..."
+    ],
+    "label": true
+  },
+  {
+    "term": "stiffness",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...eels nauseous, no vomiting\nNo neck pain/[[stiffness]]\nNo speech disturbances \nNo arm or leg w..."
+    ],
+    "label": true
+  },
+  {
+    "term": "attention",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ... flag sx - knows to seek urgent medical [[attention]] if present \n..."
+    ],
+    "label": false
+  },
+  {
+    "term": "inattention",
+    "semtypes": [
+      "T048"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ... flag sx - knows to seek urgent medical [[attention]] if present \n..."
+    ],
+    "label": false
+  },
+  {
+    "term": "nauseous",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ... to headaches. Some photophobia. \nFeels [[nauseous]], no vomiting\nNo neck pain/stiffness\nNo ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "related",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...ies stress. Socially smoke/EtOH \n\nICE: ?[[related]] to stress/dehydration. Concerned about ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "elated",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...ies stress. Socially smoke/EtOH \n\nICE: ?[[related]] to stress/dehydration. Concerned about ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "patient",
+    "semtypes": [
+      "T031"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...discuss prophylactic Rx if necessary\n4.\t[[Patient]] aware of red flag sx - knows to seek ur..."
+    ],
+    "label": false
+  },
+  {
+    "term": "present",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...ows to seek urgent medical attention if [[present]] \n..."
+    ],
+    "label": false
+  },
+  {
+    "term": "relief",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...ening. Has tried ibuprofen with limited [[relief]]. \nNo visual sx\nVisual aura prior to hea..."
+    ],
+    "label": false
+  },
+  {
+    "term": "relief",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...ening. Has tried ibuprofen with limited [[relief]]. \nNo visual sx\nVisual aura prior to hea..."
+    ],
+    "label": false
+  },
+  {
+    "term": "prelief",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...ening. Has tried ibuprofen with limited [[relief]]. \nNo visual sx\nVisual aura prior to hea..."
+    ],
+    "label": false
+  },
+  {
+    "term": "urelief",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...ening. Has tried ibuprofen with limited [[relief]]. \nNo visual sx\nVisual aura prior to hea..."
+    ],
+    "label": false
+  },
+  {
+    "term": "nsaid",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...\n\nImp: migraines \n\nPlan:\n1.\tParacetamol/[[NSAIDs]] regular \n2.\tHeadache diary\n3.\tReview in..."
+    ],
+    "label": false
+  },
+  {
+    "term": "saids",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...\n\nImp: migraines \n\nPlan:\n1.\tParacetamol/[[NSAIDs]] regular \n2.\tHeadache diary\n3.\tReview in..."
+    ],
+    "label": false
+  },
+  {
+    "term": "aware",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[soap_note] ...prophylactic Rx if necessary\n4.\tPatient [[aware]] of red flag sx - knows to seek urgent m..."
+    ],
+    "label": false
+  },
+  {
+    "term": "etoh",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ... glasses, denies stress. Socially smoke/[[EtOH]] \n\nICE: ?related to stress/dehydration. ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "plan",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...ned about migraines. \n\nImp: migraines \n\n[[Plan]]:\n1.\tParacetamol/NSAIDs regular \n2.\tHead..."
+    ],
+    "label": false
+  },
+  {
+    "term": "flag",
+    "semtypes": [
+      "T061"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...Rx if necessary\n4.\tPatient aware of red [[flag]] sx - knows to seek urgent medical atten..."
+    ],
+    "label": false
+  },
+  {
+    "term": "constantt",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...r of my head and mainly over right eye. [[Constant]], severity 8/10, dull ache with associat..."
+    ],
+    "label": false
+  },
+  {
+    "term": "aprior",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...mited relief. \nNo visual sx\nVisual aura [[prior]] to headaches. Some photophobia. \nFeels ..."
+    ],
+    "label": false
+  }
+]

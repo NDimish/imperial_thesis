@@ -1,0 +1,40 @@
+prim1.txt
+  missed - hallucination: inserted sentence from note 11: "No blood in stools."
+  missed - omission: No other unwell contacts.
+  added - none
+prim10.txt
+  missed - hallucination: inserted sentence from note 9: "Nil bowel sx
+Currently sexually active - with regular partner for 2/12."
+  missed - hallucination: inserted sentence from note 9: "Brief episode of haematuria, now resolved."
+  missed - hallucination: inserted sentence from note 9: "Abdo pain - cramping, nil radiating 
+Nil nausea/vomiting."
+  added - omission: d: right excellent, before i go any further, can i confirm your name and your age please?
+  added - omission: i mean red blood at all, in your urine?
+  added - omission: d: sure, uh, and obviously as your doctor i'm here to look after you so yeah i i would strongly recommend you, you know, to avoid if you can.
+  added - omission: it's probably worth giving us a urine sample today as well if you can, so we can send it off to the lab.
+prim11.txt
+  missed - hallucination: inserted sentence from note 1: "Lives with wife and children."
+  added - omission: there's nothing like that.
+  added - omission: but it just feels like it's going straight through.
+  added - omission: there's nothing to worry about.
+  added - omission: thank you very much.
+  added - omission: thanks, thanks for helping me out.
+prim12.txt
+  missed - hallucination: inserted sentence from note 4: "Finding work slightly stressful."
+  added - hallucination: mother - diabetes type 2
+sh: lives alone , software engineer.
+  added - omission: d: the things you can do to really help yourself get better soon, um are you can drink plenty of fluids.
+  added - omission: uh, thanks so much.
+  added - omission: thanks so much, for your time.
+prim13.txt
+  missed - hallucination: inserted sentence from note 5: "Rx empirically with Abx for UTI
+4."
+  missed - hallucination: inserted sentence from note 3: "Had visual aura before onset of headaches - zigzag lines in field of vision."
+  added - omission: um, thanks for, thanks for, being here.
+  added - omission: and then i was thinking ok, maybe i'll just go to sleep.
+  added - omission: um, any temperatures, or fevers?
+  added - omission: do you drink or smoke at all?
+  added - omission: because sometimes when i don't drink enough water, i i like get headaches.
+  added - omission: just give me a call, and come back and see me.
+
+ [run 1] precision=0.14 recall=0.25 f1=0.18 avg_elapsed=0.0

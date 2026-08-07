@@ -1,0 +1,1300 @@
+[
+  {
+    "term": "dizziness",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 6,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...\np: Uh, not specifically apart from the [[dizziness]] so much.\nd: Right, OK. And, um, has you...",
+      "[transcript] ...\np: Uh, not specifically apart from the [[dizziness]] so much.\nd: Right, OK. And, um, has you...",
+      "[transcript] ...n, OK? Um, can I just double check, the [[dizziness]] that you've been getting, um, how sever..."
+    ],
+    "label": true
+  },
+  {
+    "term": "face",
+    "semtypes": [
+      "T029"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 4,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...o is, um, maybe if we book you in for a [[face]]-to-face appointment in one of our clini...",
+      "[transcript] ...o is, um, maybe if we book you in for a [[face]]-to-face appointment in one of our clini...",
+      "[transcript] ..., maybe if we book you in for a face-to-[[face]] appointment in one of our clinics. It's..."
+    ],
+    "label": true
+  },
+  {
+    "term": "left ear",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 5,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...I occasionally get like a ringing in my [[left ear]], uh just on the one side and um there's...",
+      "[transcript] ... hearing, is that both ears or just the [[left ear]]?\np: Uh just the left ear, yeah.\nd: Alri...",
+      "[transcript] ...rs or just the left ear?\np: Uh just the [[left ear]], yeah.\nd: Alright, so your right ear is..."
+    ],
+    "label": true
+  },
+  {
+    "term": "tinnitus",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... that you've got, it's something called [[Tinnitus]]. OK? Um\np: Right.\nd: and Tinnitus is so...",
+      "[transcript] ...alled Tinnitus. OK? Um\np: Right.\nd: and [[Tinnitus]] is something actually that medicine doc...",
+      "[transcript] ...pecific cause for why some patients get [[Tinnitus]] and some patients don't. It can be trig..."
+    ],
+    "label": true
+  },
+  {
+    "term": "well",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 5,
+    "count_soap_note": 1,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...: Yep. Can you find\nd: Yeah, OK, great. [[Well]], nice to see you this morning. Um, befo...",
+      "[transcript] ..., so I just feel I can't really hear as [[well]] as I used to, like my hearing is kind o...",
+      "[transcript] ...lt kind of a bit sick or a bit dizzy as [[well]].\nd: Right, OK. Uh, uh, um, just to clar..."
+    ],
+    "label": false
+  },
+  {
+    "term": "blockage",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... figure out\nd: whether there's physical [[blockage]] or whether there's something else going...",
+      "[transcript] ... figure out\nd: whether there's physical [[blockage]] or whether there's something else going...",
+      "[transcript] ...to exclude whether there's \nd: physical [[blockage]] first and trying to deal with that if t..."
+    ],
+    "label": true
+  },
+  {
+    "term": "hearing",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...been saying there's a problem with your [[hearing]]. Is that right?\np: Yeah, so I just feel...",
+      "[transcript] ...ally hear as well as I used to, like my [[hearing]] is kind of deteriorating in some way.\nd...",
+      "[transcript] ...o clarify, the difficulty you've got in [[hearing]], is that both ears or just the left ear..."
+    ],
+    "label": false
+  },
+  {
+    "term": "cotton",
+    "semtypes": [
+      "T121",
+      "T129"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...tchy at all?\np: \nd: OK. Now, do you use [[cotton]] ball buds to try and clean out wax from...",
+      "[transcript] ...tchy at all?\np: \nd: OK. Now, do you use [[cotton]] ball buds to try and clean out wax from...",
+      "[soap_note] ...rge/ fever/ itchiness/ pain\nDoesn't use [[cotton]] wool buds\nNo Pmhx of note\nEx: Looks wel..."
+    ],
+    "label": false
+  },
+  {
+    "term": "back",
+    "semtypes": [
+      "T029"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...hat. Doesn't clean up wax, it pushes it [[back]] in. Alright, um, the first thing that w...",
+      "[transcript] ...hat. Doesn't clean up wax, it pushes it [[back]] in. Alright, um, the first thing that w...",
+      "[soap_note] ...s\nIf any problems in interim to ring us [[back]]\nPt happy with and understands plan\n..."
+    ],
+    "label": false
+  },
+  {
+    "term": "face",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...o is, um, maybe if we book you in for a [[face]]-to-face appointment in one of our clini...",
+      "[transcript] ..., maybe if we book you in for a face-to-[[face]] appointment in one of our clinics. It's...",
+      "[soap_note] ...mpacted wax in ear canal first\nPln: for [[face]] to face GP appointment in 5 days to exa..."
+    ],
+    "label": false
+  },
+  {
+    "term": "problem",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ... going on. You've been saying there's a [[problem]] with your hearing. Is that right?\np: Ye...",
+      "[transcript] ...h way we \nd: It might be that there's a [[problem]] inside the drum or the balance system w...",
+      "[transcript] ...K brilliant.\nd: Alright. If there's any [[problem]], any issues between now and when the cl..."
+    ],
+    "label": false
+  },
+  {
+    "term": "problem",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ... going on. You've been saying there's a [[problem]] with your hearing. Is that right?\np: Ye...",
+      "[transcript] ...h way we \nd: It might be that there's a [[problem]] inside the drum or the balance system w...",
+      "[transcript] ...K brilliant.\nd: Alright. If there's any [[problem]], any issues between now and when the cl..."
+    ],
+    "label": false
+  },
+  {
+    "term": "severe",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...iness that you've been getting, um, how [[severe]] is it?\np: OK.\np: Yeah.\np: Uh nothing ma...",
+      "[transcript] ...iness that you've been getting, um, how [[severe]] is it?\np: OK.\np: Yeah.\np: Uh nothing ma...",
+      "[transcript] ...iness that you've been getting, um, how [[severe]] is it?\np: OK.\np: Yeah.\np: Uh nothing ma..."
+    ],
+    "label": true
+  },
+  {
+    "term": "ears",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...lty you've got in hearing, is that both [[ears]] or just the left ear?\np: Uh just the le...",
+      "[transcript] ...buds to try and clean out wax from your [[ears]]?\np: Uh nah I'll do it.\nd: No, OK. Well,...",
+      "[transcript] ...uestion is, which is just to check your [[ears]]. Is that OK?\np: OK.\np: Yeah it sounds g..."
+    ],
+    "label": true
+  },
+  {
+    "term": "pain",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ight, OK. Um, and, um, have you had any [[pain]] from the ear at all?\np: Uh no my left e...",
+      "[soap_note] ...eously.\nNo discharge/ fever/ itchiness/ [[pain]]\nDoesn't use cotton wool buds\nNo Pmhx of...",
+      "[soap_note] ...\nNo Pmhx of note\nEx: Looks well, not in [[pain]].\nImp: need to exclude impacted wax in e..."
+    ],
+    "label": true
+  },
+  {
+    "term": "pain",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ight, OK. Um, and, um, have you had any [[pain]] from the ear at all?\np: Uh no my left e...",
+      "[soap_note] ...eously.\nNo discharge/ fever/ itchiness/ [[pain]]\nDoesn't use cotton wool buds\nNo Pmhx of...",
+      "[soap_note] ...\nNo Pmhx of note\nEx: Looks well, not in [[pain]].\nImp: need to exclude impacted wax in e..."
+    ],
+    "label": true
+  },
+  {
+    "term": "link",
+    "semtypes": [
+      "T121",
+      "T197"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ent, I'm going to, uh, put\nd: paste the [[link]] for a leaflet about Tinnitus, um, in th...",
+      "[transcript] ...clear, OK? So, um, I'm going to paste a [[link]] to that, um, and you can read about tha...",
+      "[soap_note] ... tinnitus in the meantime via following [[link]]: www.patient.co.uk/tinnitus\nIf any prob..."
+    ],
+    "label": false
+  },
+  {
+    "term": "history",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 3,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...[[History]]: \nHx of difficulty hearing left ear for...",
+      "[soap_note] ...[[History]]: \nHx of difficulty hearing left ear for...",
+      "[soap_note] ...[[History]]: \nHx of difficulty hearing left ear for..."
+    ],
+    "label": false
+  },
+  {
+    "term": "difficulty hearing",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... be yeah.\nd: OK. So you've had ringing, [[difficulty hearing]] in your left ear, and feeling slightly ...",
+      "[soap_note] ...History: \nHx of [[difficulty hearing]] left ear for 6 weeks with tinnitus and ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "something else",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...'s physical blockage or whether there's [[something else]] going on, OK? Um, can I just double che...",
+      "[transcript] ...'s physical blockage or whether there's [[something else]] going on, OK? Um, can I just double che..."
+    ],
+    "label": false
+  },
+  {
+    "term": "discharge",
+    "semtypes": [
+      "T031"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...t all?\np: Uh no my left ear.\nd: OK. Any [[discharge]] coming out of the ear? No, OK. Um, have...",
+      "[transcript] ...t all?\np: Uh no my left ear.\nd: OK. Any [[discharge]] coming out of the ear? No, OK. Um, have..."
+    ],
+    "label": true
+  },
+  {
+    "term": "physical",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...e ear and figure out\nd: whether there's [[physical]] blockage or whether there's something e...",
+      "[transcript] ...ust need to exclude whether there's \nd: [[physical]] blockage first and trying to deal with ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "balance",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...but just, just a little bit kind of off [[balance]].\nd: \nd: Right, right, OK. Have, have yo...",
+      "[transcript] ...here's a problem inside the drum or the [[balance]] system within the ear. But, we just nee..."
+    ],
+    "label": true
+  },
+  {
+    "term": "balance",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...but just, just a little bit kind of off [[balance]].\nd: \nd: Right, right, OK. Have, have yo...",
+      "[transcript] ...here's a problem inside the drum or the [[balance]] system within the ear. But, we just nee..."
+    ],
+    "label": false
+  },
+  {
+    "term": "balance",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...but just, just a little bit kind of off [[balance]].\nd: \nd: Right, right, OK. Have, have yo...",
+      "[transcript] ...here's a problem inside the drum or the [[balance]] system within the ear. But, we just nee..."
+    ],
+    "label": true
+  },
+  {
+    "term": "nausea",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... not the kind of dizziness you get with [[nausea]], like uh not, not proper room spinning ...",
+      "[transcript] ... not the kind of dizziness you get with [[nausea]], like uh not, not proper room spinning ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "start",
+    "semtypes": [
+      "T061"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ... to see you this morning. Um, before we [[start]] your appointment, could I confirm your ...",
+      "[transcript] .... I'd really appreciate it if you could [[start]] reading about it.\np: OK.\np: Sure.\nd: OK..."
+    ],
+    "label": false
+  },
+  {
+    "term": "birth",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...ld I confirm your full name and date of [[birth]] please?\np: Uh yeah, uh Jack Smith, uh t...",
+      "[transcript] ...ld I confirm your full name and date of [[birth]] please?\np: Uh yeah, uh Jack Smith, uh t..."
+    ],
+    "label": false
+  },
+  {
+    "term": "speak",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...u in a private place where you're OK to [[speak]] at the moment?\np: I am, yes\nd: OK, grea...",
+      "[transcript] ...st book another appointment and you can [[speak]] to one of us over video, OK?\np: OK.\nd: ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "maybe",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...g problem at all?\np: Um I had something [[maybe]], about a year ago, but it only lasted a...",
+      "[transcript] ...o, um, what I think we could do is, um, [[maybe]] if we book you in for a face-to-face ap..."
+    ],
+    "label": false
+  },
+  {
+    "term": "think",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ... inside the ear drum.\nd: So, um, what I [[think]] we could do is, um, maybe if we book yo...",
+      "[transcript] ...m, so let's get your ear checked out. I [[think]] that will be the, the most sensible thi..."
+    ],
+    "label": false
+  },
+  {
+    "term": "heart",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...it?\np: \np: No.\nd: No. Any palpitations, [[heart]] beating fast?\np: \nd: OK, fine, alright....",
+      "[transcript] ...it?\np: \np: No.\nd: No. Any palpitations, [[heart]] beating fast?\np: \nd: OK, fine, alright...."
+    ],
+    "label": true
+  },
+  {
+    "term": "nice",
+    "semtypes": [
+      "T109",
+      "T195"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... Can you find\nd: Yeah, OK, great. Well, [[nice]] to see you this morning. Um, before we ...",
+      "[transcript] ... OK?\np: OK.\nd: Alright then. Take care. [[Nice]] to see you this morning. OK. Bye bye.\np..."
+    ],
+    "label": false
+  },
+  {
+    "term": "sick",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...n a few times when I felt kind of a bit [[sick]] or a bit dizzy as well.\nd: Right, OK. U...",
+      "[transcript] ... in your left ear, and feeling slightly [[sick]].\np: Mh-mm.\nd: Um, that's been, on and o..."
+    ],
+    "label": true
+  },
+  {
+    "term": "like",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ... kind of dizziness you get with nausea, [[like]] uh not, not proper room spinning or any...",
+      "[transcript] ...hat the sort of thing that can cause uh [[like]] this uh ringing I've got in my ear, 'ca..."
+    ],
+    "label": false
+  },
+  {
+    "term": "read",
+    "semtypes": [
+      "T059"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...o paste a link to that, um, and you can [[read]] about that and\nd: what we'll do is we'l...",
+      "[soap_note] ...ointment in 5 days to examine ear\nPt to [[read]] about tinnitus in the meantime via foll..."
+    ],
+    "label": false
+  },
+  {
+    "term": "ringing in ear",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...to music or something that'll solve the [[ringing in the ear]].\nd: Right, OK. Um, and, um, have you ha..."
+    ],
+    "label": false
+  },
+  {
+    "term": "treatment options",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...h, awareness of what it is and what the [[treatment options]] are, and there are limited options\nd: u..."
+    ],
+    "label": false
+  },
+  {
+    "term": "hearing problem",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...K. Um, and before that have you had any [[hearing problem]] at all?\np: Um I had something maybe, ab..."
+    ],
+    "label": true
+  },
+  {
+    "term": "hearing problem",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...K. Um, and before that have you had any [[hearing problem]] at all?\np: Um I had something maybe, ab..."
+    ],
+    "label": true
+  },
+  {
+    "term": "deteriorating",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...s I used to, like my hearing is kind of [[deteriorating]] in some way.\nd: Right, OK. How long has..."
+    ],
+    "label": false
+  },
+  {
+    "term": "room spinning",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...et with nausea, like uh not, not proper [[room spinning]] or anything like that but just, just a ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "ear symptoms",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ing else happen? Have you had any other [[ear symptoms]] at all?\np: Um, I occasionally get like ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "impacted wax",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ht be wax. You know. Someone might have [[impacted wax]], blocking the tube going into the eardr..."
+    ],
+    "label": true
+  },
+  {
+    "term": "double check",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...thing else going on, OK? Um, can I just [[double check]], the dizziness that you've been getting..."
+    ],
+    "label": false
+  },
+  {
+    "term": "palpitations",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...est pain with it?\np: \np: No.\nd: No. Any [[palpitations]], heart beating fast?\np: \nd: OK, fine, a..."
+    ],
+    "label": true
+  },
+  {
+    "term": "difficulty",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...t, OK. Uh, uh, um, just to clarify, the [[difficulty]] you've got in hearing, is that both ear..."
+    ],
+    "label": false
+  },
+  {
+    "term": "chest pain",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ight, right, OK. Have, have you had any [[chest pain]] with it?\np: \np: No.\nd: No. Any palpitat..."
+    ],
+    "label": true
+  },
+  {
+    "term": "chest pain",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ight, right, OK. Have, have you had any [[chest pain]] with it?\np: \np: No.\nd: No. Any palpitat..."
+    ],
+    "label": true
+  },
+  {
+    "term": "understand",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... that medicine doctors, we don't really [[understand]] it fully. We haven't\np: OK.\nd: Uh, peop..."
+    ],
+    "label": false
+  },
+  {
+    "term": "right ear",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...the left ear, yeah.\nd: Alright, so your [[right ear]] is fine.\np: It seems be yeah.\nd: OK. So..."
+    ],
+    "label": true
+  },
+  {
+    "term": "discharge",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...t all?\np: Uh no my left ear.\nd: OK. Any [[discharge]] coming out of the ear? No, OK. Um, have..."
+    ],
+    "label": true
+  },
+  {
+    "term": "emergency",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ment in one of our clinics. It's not an [[emergency]].\nd: It can be done within the next four..."
+    ],
+    "label": true
+  },
+  {
+    "term": "emergency",
+    "semtypes": [
+      "T046"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ment in one of our clinics. It's not an [[emergency]].\nd: It can be done within the next four..."
+    ],
+    "label": true
+  },
+  {
+    "term": "awareness",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... Sure.\nd: OK. And often that, that, uh, [[awareness]] of what it is and what the treatment op..."
+    ],
+    "label": false
+  },
+  {
+    "term": "blocking",
+    "semtypes": [
+      "T048"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... know. Someone might have impacted wax, [[blocking]] the tube going into the eardrum, which ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "ear drum",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... that we need to have a look inside the [[ear drum]].\nd: So, um, what I think we could do is..."
+    ],
+    "label": true
+  },
+  {
+    "term": "medicine",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...and Tinnitus is something actually that [[medicine]] doctors, we don't really understand it ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "confirm",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...fore we start your appointment, could I [[confirm]] your full name and date of birth please..."
+    ],
+    "label": false
+  },
+  {
+    "term": "feeling",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ifficulty hearing in your left ear, and [[feeling]] slightly sick.\np: Mh-mm.\nd: Um, that's ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "trigger",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...'s kind of on and off. Like some things [[trigger]] it as well. So, for example, if I'm wat..."
+    ],
+    "label": true
+  },
+  {
+    "term": "eardrum",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...d wax, blocking the tube going into the [[eardrum]], which can\np: OK.\nd: lead to muffled he..."
+    ],
+    "label": true
+  },
+  {
+    "term": "nothing",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...how severe is it?\np: OK.\np: Yeah.\np: Uh [[nothing]] major it's just kind of uh it's, it's n..."
+    ],
+    "label": false
+  },
+  {
+    "term": "reading",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...really appreciate it if you could start [[reading]] about it.\np: OK.\np: Sure.\nd: OK. And of..."
+    ],
+    "label": false
+  },
+  {
+    "term": "support",
+    "semtypes": [
+      "T109",
+      "T121",
+      "T127"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... five minutes and then you can ring the [[support]] team, I'll leave the number in the note..."
+    ],
+    "label": false
+  },
+  {
+    "term": "support",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... five minutes and then you can ring the [[support]] team, I'll leave the number in the note..."
+    ],
+    "label": false
+  },
+  {
+    "term": "period",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ight, OK, OK. And, um, in this six week [[period]], have you had anything else happen? Hav..."
+    ],
+    "label": true
+  },
+  {
+    "term": "listen",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... So, for example, if I'm watching TV or [[listen]] to music or something that'll solve the..."
+    ],
+    "label": false
+  },
+  {
+    "term": "pushes",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...be doing that. Doesn't clean up wax, it [[pushes]] it back in. Alright, um, the first thin..."
+    ],
+    "label": false
+  },
+  {
+    "term": "nausea",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... not the kind of dizziness you get with [[nausea]], like uh not, not proper room spinning ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "little",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... or anything like that but just, just a [[little]] bit kind of off balance.\nd: \nd: Right, ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "times",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...side and um there's actually been a few [[times]] when I felt kind of a bit sick or a bit..."
+    ],
+    "label": false
+  },
+  {
+    "term": "dizzy",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...when I felt kind of a bit sick or a bit [[dizzy]] as well.\nd: Right, OK. Uh, uh, um, just..."
+    ],
+    "label": true
+  },
+  {
+    "term": "fever",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...m, have, have you been experiencing any [[fever]]?\np: \np: Uh, not specifically apart from..."
+    ],
+    "label": true
+  },
+  {
+    "term": "fever",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...m, have, have you been experiencing any [[fever]]?\np: \np: Uh, not specifically apart from..."
+    ],
+    "label": true
+  },
+  {
+    "term": "itchy",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...: Right, OK. And, um, has your ear been [[itchy]] at all?\np: \nd: OK. Now, do you use cott..."
+    ],
+    "label": true
+  },
+  {
+    "term": "find",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...\nd: Can you hear me OK?\np: Yep. Can you [[find]]\nd: Yeah, OK, great. Well, nice to see y..."
+    ],
+    "label": false
+  },
+  {
+    "term": "date",
+    "semtypes": [
+      "T121",
+      "T129"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ent, could I confirm your full name and [[date]] of birth please?\np: Uh yeah, uh Jack Sm..."
+    ],
+    "label": false
+  },
+  {
+    "term": "feel",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ring. Is that right?\np: Yeah, so I just [[feel]] I can't really hear as well as I used t..."
+    ],
+    "label": false
+  },
+  {
+    "term": "used",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...t feel I can't really hear as well as I [[used]] to, like my hearing is kind of deterior..."
+    ],
+    "label": false
+  },
+  {
+    "term": "else",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ... six week period, have you had anything [[else]] happen? Have you had any other ear symp..."
+    ],
+    "label": false
+  },
+  {
+    "term": "much",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...pecifically apart from the dizziness so [[much]].\nd: Right, OK. And, um, has your ear be..."
+    ],
+    "label": false
+  },
+  {
+    "term": "lead",
+    "semtypes": [
+      "T121",
+      "T197"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...g into the eardrum, which can\np: OK.\nd: [[lead]] to muffled hearing. Um, if that's the c..."
+    ],
+    "label": false
+  },
+  {
+    "term": "lead",
+    "semtypes": [
+      "T060"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...g into the eardrum, which can\np: OK.\nd: [[lead]] to muffled hearing. Um, if that's the c..."
+    ],
+    "label": false
+  },
+  {
+    "term": "easy",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... the case, that that's something that's [[easy]] fixable. But, um, so we need to exclude..."
+    ],
+    "label": false
+  },
+  {
+    "term": "fast",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...\nd: No. Any palpitations, heart beating [[fast]]?\np: \nd: OK, fine, alright. Um, so let's..."
+    ],
+    "label": false
+  },
+  {
+    "term": "sort",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...'s the case, OK? Um, but\np: is that the [[sort]] of thing that can cause uh like this uh..."
+    ],
+    "label": false
+  },
+  {
+    "term": "wax in ear canal",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ... in pain.\nImp: need to exclude impacted [[wax in ear canal]] first\nPln: for face to face GP appointm..."
+    ],
+    "label": true
+  },
+  {
+    "term": "understands",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...terim to ring us back\nPt happy with and [[understands]] plan\n..."
+    ],
+    "label": false
+  },
+  {
+    "term": "resolved",
+    "semtypes": [
+      "T046"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...e previous similar episode in the past- [[resolved]] spontaneously.\nNo discharge/ fever/ itc..."
+    ],
+    "label": false
+  },
+  {
+    "term": "impacted",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...well, not in pain.\nImp: need to exclude [[impacted]] wax in ear canal first\nPln: for face to..."
+    ],
+    "label": false
+  },
+  {
+    "term": "slight",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ... left ear for 6 weeks with tinnitus and [[slight]] nausea/ dizziness. \nOne previous simila..."
+    ],
+    "label": false
+  },
+  {
+    "term": "happy",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ... problems in interim to ring us back\nPt [[happy]] with and understands plan\n..."
+    ],
+    "label": false
+  },
+  {
+    "term": "note",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...Doesn't use cotton wool buds\nNo Pmhx of [[note]]\nEx: Looks well, not in pain.\nImp: need ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "plan",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...g us back\nPt happy with and understands [[plan]]\n..."
+    ],
+    "label": false
+  }
+]

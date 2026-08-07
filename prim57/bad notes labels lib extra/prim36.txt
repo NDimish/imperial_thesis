@@ -1,0 +1,6 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"7\" to \"70\" in \"PC: acute onset left sided chest discomfort / pressure, feels like someone sitting on his chest 70/10, radiating to the left shoulder and arm.\""
+  }
+]

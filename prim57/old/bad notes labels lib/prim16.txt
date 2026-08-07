@@ -1,14 +1,10 @@
 [
   {
     "type": "omission",
-    "detail": "One previous similar episode in the past- resolved spontaneously."
+    "detail": "Imp: need to exclude impacted wax in ear canal first\nPln: for face to face GP appointment in 5 days to examine ear\nPt to read about tinnitus in the meantime via following link: www.patient.co.uk/tinnitus\nIf any problems in interim to ring us back\nPt happy with and understands plan"
   },
   {
     "type": "omission",
     "detail": "History: \nHx of difficulty hearing left ear for 6 weeks with tinnitus and slight nausea/ dizziness."
-  },
-  {
-    "type": "omission",
-    "detail": "No discharge/ fever/ itchiness/ pain\nDoesn't use cotton wool buds\nNo Pmhx of note\nEx: Looks well, not in pain."
   }
 ]

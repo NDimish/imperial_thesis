@@ -1,0 +1,61 @@
+d: Can I confirm your name and your age?
+p: My name is Dan Choudhry, I am twenty seven.
+d: How can I help you this afternoon?
+p: I've just been having some troubles, feeling not so great. I think it's diarrhoea, it's just coming out, loads of it, super watery, doesn't feel very solid, just pouring straight out. It hasn't been getting better.
+d: When did it all start?
+p: About three days now.
+d: How many times are you going a day?
+p: Almost every hour when I'm awake.
+d: Have you got any blood in your stools?
+p: No, nothing like that.
+d: Any tummy pain?
+p: Yeah, I feel a cramp, and then I know it's time to go, around every hour.
+d: Where is this crampy pain, which part of your tummy?
+p: At the bottom -- actually, in the middle, not on any side, left or right.
+d: Does the pain come and go, or is it there constantly?
+p: It comes and goes.
+d: On a scale of one to ten, how bad is this pain?
+p: When I get it I can pretend I don't feel it, I can still sit down and cover it up. Maybe a six or seven.
+d: And apart from the pain and diarrhea, any other symptoms like nausea, vomiting?
+p: Yeah, I definitely feel kind of nauseous, and I have vomited. Whenever I have milk I feel like I want to vomit -- one time I had some milk and completely vomited it.
+d: And the vomiting is not as pronounced as the diarrhea?
+p: No, it's not.
+d: Any other symptoms, like fevers or temperatures?
+p: I feel kind of really hot all the time, pretty sure I'm burning up. I haven't actually done any temperature reading.
+d: In terms of your waterworks, are you passing urine OK?
+p: A bit less frequently maybe, but it seems to be OK.
+d: Are you aware of any triggers -- takeaway food, or been around anyone else with diarrhea?
+p: My brother has had something like this too, for five days as well. I can't think of what the trigger is for me.
+d: Is your brother now better?
+p: He's been like this for five days, I think he's getting better, but not really sure.
+d: Are you keeping fluids down?
+p: The fluids do go down, but it just feels like it's going straight through.
+d: When was the last time you had anything solid to eat, and kept it in?
+p: I had some lunch today, but it just came out pretty loose.
+d: Are you otherwise fit and well, or do you have any other medical history?
+p: I think otherwise I'm fit and well, I'm an OK weight, I can't think of any related medical history.
+d: I'll take it you don't take any regular medications, then.
+p: I've been taking some Paracetamol lately, but I'm not on any regular medication.
+d: Do you have any allergies to any medications?
+p: I don't have any allergies that I know of.
+d: What about any family history of bowel problems?
+p: My dad actually has colon cancer at the moment.
+d: I'm very sorry to hear that. How is he?
+p: I don't speak to him that often so I don't know the exact details, he's sort of in his third stage. He's kind of weaker, it's affecting him a lot, he's had it for a little while now.
+d: Socially, tell me more about your home situation. Who's at home with you?
+p: I live with my sister and my mum, my brother doesn't live with me.
+d: In general day-to-day life are you managing OK?
+p: It's been tricky, going to work with all of this, I dislike taking time off work. I don't normally eat with my family, so I don't think it's affected them, and I haven't really gone into detail with my sister and my mom about it.
+d: You mentioned work, what is it you do?
+p: I work at an office in Central London, in government.
+d: Smoking and alcohol, do you do either?
+p: I smoke socially, not regularly, maybe a cigarette on a Friday. For alcohol, I might have a beer during the weekdays, not that many, on Fridays I have more. Once or twice a month I'll go out with friends and drink a lot.
+d: Your symptoms are suggestive of something called gastroenteritis, a basic infection of your tummy. There's nothing to worry about, I suspect this will just settle down in the next few days, just like it did for your brother. Drink plenty of fluids.
+p: Should I just drink normal water? Every time I drink it's just coming out.
+d: Fluid is probably best, but I am worried about the fact that you are losing minerals and vitamins. You can get things like Dioralyte, a fluid replacement from the pharmacy.
+p: Do I need a prescription for that?
+d: No, you can get that over the counter. You can try regular Paracetamol if you are feeling feverish. But if your symptoms aren't settling down in the next forty eight hours, I want you to give me a call back, because if you are getting dehydrated then we need to do further investigations. Let's see how you are in the next one to two days.
+p: I'll try and buy this Dioralyte. What should I do in terms of food? Should I just focus on fluids?
+d: Clear fluids, you can use a soft diet, things like soup, mash, and then gradually build up as much as your body can tolerate. Let's try and keep yourself well-hydrated first.
+p: Is it OK for me to carry on having Paracetamol and things like that?
+d: Absolutely. If you've got a bit of tummy pain, if you're feeling feverish, then Paracetamol is very sensible. Try and avoid alcohol if you can.

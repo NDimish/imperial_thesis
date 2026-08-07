@@ -1,0 +1,102 @@
+prim1.txt
+  missed - hallucination: inserted sentence from note 11: "No blood in stools."
+  added - hallucination: also vomiting - mainly bilous.
+  added - hallucination: wife and children also unwell with vomiting, but no diarrhea.
+  added - hallucination: sh: works as an accountant.
+prim10.txt
+  missed - hallucination: inserted sentence from note 9: "Nil bowel sx
+Currently sexually active - with regular partner for 2/12."
+  missed - hallucination: inserted sentence from note 9: "Brief episode of haematuria, now resolved."
+  missed - hallucination: inserted sentence from note 9: "Abdo pain - cramping, nil radiating 
+Nil nausea/vomiting."
+  added - omission: so i i smoked, uh this is quite bad, but i smoked weed for the first time.
+  added - hallucination: currently sexually active - with regular partner for 2/12. brief episode of haematuria, now resolved.
+prim11.txt
+  missed - none
+  added - omission: and actually, yeah one time i just like had some milk, and i just completely vomited it.
+prim13.txt
+  missed - hallucination: inserted sentence from note 5: "Rx empirically with Abx for UTI
+4."
+  missed - hallucination: inserted sentence from note 3: "Had visual aura before onset of headaches - zigzag lines in field of vision."
+  added - hallucination: no visual sx
+  added - hallucination: sh: lives with housemates, works in it, wears glasses, denies stress. socially smoke/etoh
+  added - hallucination: 1. had visual aura before onset of headaches - zigzag lines in field of vision. paracetamol/nsaids regular
+  added - hallucination: 4. rx empirically with abx for uti
+  added - omission: so, i i had to take a couple of days off work, actually.
+  added - omission: you can take up to two tablets, three times a day.
+  added - omission: or, i can prescribe you something stronger, like naproxen, which is another anti-inflammatory, which can be helpful.
+prim14.txt
+  missed - hallucination: inserted sentence from note 7: "Conservative mx - rest, fluids, regular paracetamol 
+2."
+  missed - hallucination: "HTN 
+ DH" was swapped for "URTI" (from note 4)
+  added - hallucination: pmh: type 2 diabetes, urti: metformin, lisinopril
+  added - hallucination: sh: lives with partner, works it, denies stress. social etoh < 14 units / week
+  added - hallucination: 2. review 5/7 if no better, or earlier if worsening sx (fever, sob, chest pain )
+prim15.txt
+  missed - hallucination: inserted sentence from note 2: "Steroid cream - Betnovate BD
+2."
+  added - omission: d: metformin, ok.
+  added - hallucination: has tried e45 cream and antihistamines with minimal relief
+prim16.txt
+  missed - none
+  added - omission: uh just the left ear, yeah.
+  added - omission: uh nothing major it's just kind of uh it's, it's not the kind of dizziness you get with nausea, like uh not, not proper room spinning or anything like that but just, just a little bit kind of off balance.
+  added - hallucination: pln: for face to face gp appointment in 5 days to examine ear
+  added - hallucination: pt to read about tinnitus in the meantime via following link: www.patient.co.uk/tinnitus
+prim17.txt
+  missed - hallucination: "FH" was swapped for "HTN 
+ DH" (from note 24)
+  missed - hallucination: "OA" was swapped for "HTN 
+ DH" (from note 24)
+  added - lasa: htn
+  added - hallucination: works in a desk job
+  added - hallucination: not happened before
+  added - omission: um, that's four hundred milligrams, two times a day.
+prim18.txt
+  missed - hallucination: inserted sentence from note 30: "Please go to A & E"
+  added - omission: my brother had, neurofibromatosis, i think it is.
+  added - omission: yeah, so i'm a, i'm a jockey, um, but, because of all the kind of, these symptoms i've been getting, especially sometimes when i get a ringing, i can feel a bit dizzy.
+  added - hallucination: please go to a & e hx: 1 week history of left side difficulty hearing and facial numbness
+  added - hallucination: no fh of note
+  added - hallucination: ex: no facial asymmetry, looks well, normal facial expressions and movements
+  added - hallucination: you had sometime similar a month ago but only lasted 10 minutes
+  added - hallucination: you feel as though you are in a boat
+  added - hallucination: there is no recent viral illness
+  added - hallucination: there is a buzzing noise in your ears
+  added - hallucination: there is no hearing problems
+  added - hallucination: no ear discharge or ear pain
+  added - hallucination: you feel nauseous but not been sick
+  added - hallucination: there is no weakness of the arms and legs
+  added - hallucination: past medical history #
+  added - hallucination: you have premature ovarian failure and take hrt
+  added - hallucination: there is no allergies
+  added - hallucination: plan we will prescribe some stemitil for symptom relief .
+
+ [run 1] precision=0.22 recall=0.50 f1=0.30 avg_elapsed=27.847233055547502
+
+ 
+=== Evaluation Results ===
+
+ prim1.txt: precision=0.40 recall=0.67 f1=0.50 accuracy=0.33 (TP=2 FP=3 FN=1)
+
+ prim10.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=2 FN=3)
+
+ prim11.txt: precision=0.67 recall=1.00 f1=0.80 accuracy=0.67 (TP=2 FP=1 FN=0)
+
+ prim13.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=7 FN=2)
+
+ prim14.txt: precision=0.40 recall=0.50 f1=0.44 accuracy=0.29 (TP=2 FP=3 FN=2)
+
+ prim15.txt: precision=0.33 recall=0.50 f1=0.40 accuracy=0.25 (TP=1 FP=2 FN=1)
+
+ prim16.txt: precision=0.43 recall=1.00 f1=0.60 accuracy=0.43 (TP=3 FP=4 FN=0)
+
+ prim17.txt: precision=0.20 recall=0.33 f1=0.25 accuracy=0.14 (TP=1 FP=4 FN=2)
+
+ prim18.txt: precision=0.06 recall=0.50 f1=0.10 accuracy=0.05 (TP=1 FP=17 FN=1)
+
+ 
+Overall: precision=0.22 recall=0.50 f1=0.30 accuracy=0.18 (TP=12 FP=43 FN=12)
+
+ Average elapsed time: 27.85s

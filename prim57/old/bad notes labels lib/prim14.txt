@@ -1,18 +1,6 @@
 [
   {
     "type": "hallucination",
-    "detail": "inserted sentence from note 7: \"Conservative mx - rest, fluids, regular paracetamol \n2.\""
-  },
-  {
-    "type": "hallucination",
-    "detail": "\"HTN \n DH\" was swapped for \"URTI\" (from note 4)"
-  },
-  {
-    "type": "omission",
-    "detail": "Runny nose, no ear pain, no sore throat."
-  },
-  {
-    "type": "omission",
-    "detail": "Ex-smoker-stopped 6/12 ago."
+    "detail": "\"URTI \n\n Plan\" was swapped for \"NKDA \n SH\" (from note 7)"
   }
 ]

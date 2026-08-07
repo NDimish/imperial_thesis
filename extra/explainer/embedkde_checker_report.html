@@ -1,0 +1,417 @@
+<title>Porting EmbedKDECheck</title>
+<style>
+  :root {
+    --bg: #F3F5F4;
+    --surface: #FFFFFF;
+    --surface-soft: #EBEFEE;
+    --ink: #17262A;
+    --ink-soft: #51686C;
+    --ink-faint: #7C8E90;
+    --accent: #1F6F78;
+    --accent-soft: #DCEAEA;
+    --before: #B5502A;
+    --before-soft: #F5E4DA;
+    --after: #3E7A56;
+    --after-soft: #DFEBE2;
+    --border: #D9E1DF;
+    --code-bg: #EEF1F0;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #101A1C;
+      --surface: #162224;
+      --surface-soft: #1C2A2C;
+      --ink: #E7EDEC;
+      --ink-soft: #9FB4B3;
+      --ink-faint: #71898A;
+      --accent: #59B4B8;
+      --accent-soft: #1D3436;
+      --before: #E2915F;
+      --before-soft: #33261E;
+      --after: #7BC79A;
+      --after-soft: #1E3128;
+      --border: #2A3A3B;
+      --code-bg: #10191A;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #101A1C; --surface: #162224; --surface-soft: #1C2A2C;
+    --ink: #E7EDEC; --ink-soft: #9FB4B3; --ink-faint: #71898A;
+    --accent: #59B4B8; --accent-soft: #1D3436;
+    --before: #E2915F; --before-soft: #33261E;
+    --after: #7BC79A; --after-soft: #1E3128;
+    --border: #2A3A3B; --code-bg: #10191A;
+  }
+
+  :root[data-theme="light"] {
+    --bg: #F3F5F4; --surface: #FFFFFF; --surface-soft: #EBEFEE;
+    --ink: #17262A; --ink-soft: #51686C; --ink-faint: #7C8E90;
+    --accent: #1F6F78; --accent-soft: #DCEAEA;
+    --before: #B5502A; --before-soft: #F5E4DA;
+    --after: #3E7A56; --after-soft: #DFEBE2;
+    --border: #D9E1DF; --code-bg: #EEF1F0;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .sans { font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+  .mono { font-family: "SF Mono", "Cascadia Code", Consolas, "Liberation Mono", monospace; }
+
+  .page { max-width: 900px; margin: 0 auto; padding: 4rem 1.5rem 6rem; }
+
+  header.masthead { max-width: 700px; margin: 0 0 3.5rem; }
+
+  .eyebrow {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.72rem;
+    color: var(--accent); font-weight: 600; margin: 0 0 0.9rem;
+  }
+
+  h1 { font-size: 2.3rem; line-height: 1.15; margin: 0 0 1rem; text-wrap: balance; font-weight: 400; }
+
+  .dek {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink-soft); font-size: 1.05rem; max-width: 64ch; margin: 0;
+  }
+
+  .meta-row {
+    display: flex; gap: 1.5rem; flex-wrap: wrap; margin-top: 1.6rem;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.85rem; color: var(--ink-faint);
+  }
+  .meta-row strong { color: var(--ink-soft); font-weight: 600; }
+
+  code {
+    font-family: "SF Mono", "Cascadia Code", Consolas, "Liberation Mono", monospace;
+    background: var(--code-bg); padding: 0.1rem 0.35rem; border-radius: 3px; font-size: 0.88em;
+  }
+
+  .overflow-x { overflow-x: auto; }
+
+  h2.section-title { font-size: 1.55rem; font-weight: 400; margin: 0 0 0.6rem; text-wrap: balance; }
+  p.section-dek {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink-soft); font-size: 0.95rem; max-width: 68ch; margin: 0 0 1.4rem;
+  }
+
+  section.block { margin-bottom: 3.4rem; }
+
+  /* ---- paper summary card ---- */
+
+  .paper-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 1.8rem 2rem;
+    margin-bottom: 1.6rem;
+  }
+  .paper-card .citation {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.82rem; color: var(--ink-faint); margin: 0 0 1.1rem;
+    padding-bottom: 1.1rem; border-bottom: 1px solid var(--border);
+  }
+  .paper-card .citation strong { color: var(--ink-soft); }
+  .paper-card p { margin: 0 0 0.9rem; max-width: 70ch; }
+  .paper-card p:last-child { margin-bottom: 0; }
+  .paper-card .formula {
+    display: block;
+    font-family: "SF Mono", "Cascadia Code", Consolas, "Liberation Mono", monospace;
+    font-size: 0.85rem;
+    background: var(--code-bg);
+    border-radius: 4px;
+    padding: 0.9rem 1.1rem;
+    margin: 1rem 0;
+    color: var(--accent);
+    overflow-x: auto;
+    white-space: pre;
+  }
+
+  /* ---- generic data table (reused for results + comparison) ---- */
+
+  table.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.85rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  table.data-table th {
+    text-align: left;
+    padding: 0.65rem 1rem;
+    font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.05em;
+    color: var(--ink-faint);
+    background: var(--surface-soft);
+    border-bottom: 1px solid var(--border);
+  }
+  table.data-table td {
+    padding: 0.6rem 1rem;
+    border-top: 1px solid var(--border);
+    vertical-align: top;
+  }
+  table.data-table tr:first-child td { border-top: none; }
+  table.data-table td.num {
+    font-family: "SF Mono", "Cascadia Code", Consolas, "Liberation Mono", monospace;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  table.data-table tr.highlight td { background: var(--accent-soft); font-weight: 700; }
+  table.data-table tr.highlight td.num { color: var(--accent); }
+
+  /* ---- paper vs. port comparison ---- */
+
+  table.compare-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.86rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  table.compare-table th {
+    text-align: left;
+    padding: 0.7rem 1.1rem;
+    font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.05em;
+    color: var(--ink-faint);
+    background: var(--surface-soft);
+    border-bottom: 1px solid var(--border);
+    width: 15%;
+  }
+  table.compare-table td {
+    padding: 0.85rem 1.1rem;
+    border-top: 1px solid var(--border);
+    vertical-align: top;
+    width: 42.5%;
+  }
+  table.compare-table tr:first-child td { border-top: none; }
+  table.compare-table td.dim {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.04em;
+    color: var(--ink-faint); font-weight: 600; width: 15%;
+  }
+  table.compare-table td.paper-col { border-right: 1px solid var(--border); }
+  table.compare-table code { font-size: 0.83em; }
+
+  /* ---- attempt boxes (debugging journey) ---- */
+
+  .attempt {
+    margin: 1.5rem 0;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    overflow: hidden;
+    background: var(--surface);
+  }
+  .attempt-head {
+    display: flex; align-items: baseline; justify-content: space-between;
+    padding: 0.8rem 1.1rem;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.82rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em;
+  }
+  .attempt.failed .attempt-head { background: var(--before-soft); color: var(--before); }
+  .attempt.worked .attempt-head { background: var(--after-soft); color: var(--after); }
+  .attempt-head span.verdict { text-transform: none; letter-spacing: 0; font-weight: 400; opacity: 0.85; }
+  .attempt-body { padding: 1.1rem 1.1rem 1.3rem; }
+  .attempt-body p { margin: 0 0 0.8rem; max-width: 68ch; }
+  .attempt-body p:last-child { margin-bottom: 0; }
+
+  .flag-stat {
+    display: flex; gap: 2rem; flex-wrap: wrap;
+    font-family: "SF Mono", "Cascadia Code", Consolas, "Liberation Mono", monospace;
+    font-size: 1.5rem; font-weight: 700;
+    margin: 0.2rem 0 1rem;
+  }
+  .flag-stat .unit {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.72rem; font-weight: 400; text-transform: uppercase; letter-spacing: 0.05em;
+    color: var(--ink-faint); display: block; margin-top: 0.2rem;
+  }
+  .attempt.failed .flag-stat { color: var(--before); }
+  .attempt.worked .flag-stat { color: var(--after); }
+
+  .caveat {
+    background: var(--before-soft);
+    border-radius: 4px;
+    padding: 1rem 1.2rem;
+    margin-top: 1.6rem;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.85rem;
+  }
+
+  .verified-banner {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    background: var(--after-soft);
+    border-radius: 4px;
+    padding: 1rem 1.3rem;
+    margin-top: 1.7rem;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.88rem;
+  }
+  .verified-banner .check { flex: 0 0 auto; color: var(--after); font-weight: 700; font-size: 1.1rem; }
+  .verified-banner code { background: transparent; padding: 0; }
+
+  footer {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.8rem; color: var(--ink-faint);
+    border-top: 1px solid var(--border);
+    padding-top: 1.5rem; margin-top: 3.5rem;
+  }
+  footer p { max-width: 70ch; margin: 0 0 0.6rem; }
+
+  @media (max-width: 620px) {
+    .page { padding: 2.5rem 1.1rem 4rem; }
+    h1 { font-size: 1.85rem; }
+    .attempt-head { flex-direction: column; align-items: flex-start; gap: 0.2rem; }
+    table.compare-table td.paper-col { border-right: none; border-bottom: 1px dashed var(--border); }
+    table.compare-table, table.compare-table tbody, table.compare-table tr, table.compare-table td {
+      display: block; width: 100% !important;
+    }
+    table.compare-table td.dim { padding-bottom: 0.2rem; }
+    table.data-table { font-size: 0.78rem; }
+  }
+</style>
+
+<div class="page">
+
+  <header class="masthead">
+    <p class="eyebrow">Modules/embedkde_checker.py &middot; paper comparison</p>
+    <h1>Porting EmbedKDECheck to this project</h1>
+    <p class="dek"><code>EmbedKdeChecker</code> is a port of Oukelmoun et al.'s EmbedKDECheck. This walks through what the paper actually specifies, where the port deliberately diverges from it, and a threshold bug in the self-density anchor that swung the checker from flagging almost everything to flagging almost nothing before landing somewhere real.</p>
+    <div class="meta-row">
+      <span><strong>Date</strong> 2026&#8209;08&#8209;05</span>
+      <span><strong>Verified</strong> real runs against <code>prim57/cleaned&nbsp;transcripts/prim1.txt</code> + <code>prim57/bad&nbsp;notes&nbsp;lib/prim1.txt</code>, real GloVe embeddings &mdash; not simulated</span>
+    </div>
+  </header>
+
+  <section class="block">
+    <h2 class="section-title">What the paper actually does</h2>
+    <p class="section-dek">Modules/old/kdbe_checker.py already credits this same paper/repo as its source. This port follows it more literally.</p>
+
+    <div class="paper-card">
+      <p class="citation"><strong>Oukelmoun, Semmar, de Chalendar, Cormi, Oukelmoun, Vibert &amp; Allard.</strong> &ldquo;Detecting Omissions in LLM-Generated Medical Summaries.&rdquo; <em>EMNLP 2025, Industry Track</em>, pp.&nbsp;325&ndash;337. Code: <code>github.com/achok7893/EmbedKDECheck_hallucination_detection</code>.</p>
+
+      <p>Given an <strong>input</strong> (report) and an <strong>output</strong> (summary), EmbedKDECheck embeds every word of both with a lightweight word-level model (the paper's own FTW2V &mdash; FastText+Word2Vec, fine-tuned on a 32M-word French medical corpus), reduces dimensionality with PCA, and fits a Kernel Density Estimate <strong>on the output's words only</strong>. Every input word is then scored against that KDE:</p>
+
+      <span class="formula">OMscore(word) = min density over the output's own words
+                 &divide; KDE density of that word</span>
+
+      <p>A high OMscore means a word is less typical of the output than the output's own least-typical word &mdash; evidence the source content around it never made it into the summary. The paper's headline number for a whole document is the <strong>maximum</strong> token-level OMscore across it, with near-max tokens surfaced as the ones responsible for the flagged omission. This is deliberately <strong>one direction only</strong> (input&nbsp;&rarr;&nbsp;output, omission) &mdash; hallucination detection is named explicitly as future work (Section&nbsp;6).</p>
+
+      <p>Validated on 1,348 expert-labeled French medical report/summary/label triplets (80/20 split, threshold + PCA components + bandwidth tuned by random search on the validation set). Benchmarked against SelfCheckGPT, ChainPoll, G-Eval and GPTScore &mdash; all GPT-based.</p>
+    </div>
+
+    <div class="overflow-x">
+      <table class="data-table">
+        <tr><th>Algorithm</th><th>Recall</th><th>Precision</th><th>F1</th><th>Est. TeraFLOPS</th></tr>
+        <tr><td>SelfCheck&#8209;gpt3&#8209;turbo</td><td class="num">0.79</td><td class="num">0.77</td><td class="num">0.78</td><td class="num">1,545</td></tr>
+        <tr><td>ChainPoll&#8209;gpt4</td><td class="num">0.99</td><td class="num">0.68</td><td class="num">0.80</td><td class="num">4,404</td></tr>
+        <tr><td>G&#8209;Eval&#8209;gpt4</td><td class="num">0.99</td><td class="num">0.68</td><td class="num">0.80</td><td class="num">2,936</td></tr>
+        <tr><td>GPTScore</td><td class="num">0.80</td><td class="num">0.79</td><td class="num">0.80</td><td class="num">2.14</td></tr>
+        <tr class="highlight"><td>EmbedKDECheck</td><td class="num">0.88</td><td class="num">0.93</td><td class="num">0.91</td><td class="num">0.11</td></tr>
+      </table>
+    </div>
+    <p class="section-dek" style="margin-top: 0.9rem;">The frugality gap (0.11 vs. thousands of TeraFLOPS) is the actual reason this method fits this project: CPU-only, deterministic, no API calls &mdash; the same reason <code>main.py</code> disables <code>AIChecker</code>'s Gemini calls for these runs (rate limits, transient outages, non-determinism).</p>
+  </section>
+
+  <section class="block">
+    <h2 class="section-title">Where this port diverges</h2>
+    <p class="section-dek">Five deliberate deviations, each needed to fit this project's <code>CheckerModule</code> interface or its available tooling &mdash; not accidents.</p>
+
+    <div class="overflow-x">
+      <table class="compare-table">
+        <tr><th>Dimension</th><th>Paper</th><th>This port</th></tr>
+        <tr>
+          <td class="dim">Embeddings</td>
+          <td class="paper-col">FTW2V &mdash; FastText+Word2Vec, fine-tuned on a 32M-word French medical corpus.</td>
+          <td>GloVe <code>glove-wiki-gigaword-100</code>, general English web-crawl. Reused from this project's other port of the same paper (<code>kdbe_checker.py</code>) rather than a new dependency. Known limitation, documented elsewhere in this repo: GloVe's vocabulary doesn't cover clinical shorthand like &ldquo;LLQ&rdquo;.</td>
+        </tr>
+        <tr>
+          <td class="dim">Direction</td>
+          <td class="paper-col">Omission only: input&nbsp;&rarr;&nbsp;output.</td>
+          <td>Both directions &mdash; hallucination (SOAP&nbsp;&rarr;&nbsp;transcript) added alongside omission (transcript&nbsp;&rarr;&nbsp;SOAP). This is exactly the extension the paper names as future work.</td>
+        </tr>
+        <tr>
+          <td class="dim">Output unit</td>
+          <td class="paper-col">A single global document score, plus per-token scores as supporting evidence.</td>
+          <td>A <code>(type, sentence)</code> flag per candidate sentence &mdash; the shape every other checker here returns (<code>AlignScoreChecker</code>, <code>FactKBChecker</code>, <code>KdbeChecker</code>). A sentence's score is the max OMscore among its own words, the direct per-sentence analogue of the paper's per-document max.</td>
+        </tr>
+        <tr>
+          <td class="dim">Self-density anchor</td>
+          <td class="paper-col">Literal &ldquo;min density over output words,&rdquo; computed in-sample, over whole medical reports (hundreds of words).</td>
+          <td>Leave-one-out, 10th percentile &mdash; needed once reference sets shrank to transcript/SOAP-sentence size (dozens of words). Full story below.</td>
+        </tr>
+        <tr>
+          <td class="dim">Calibration</td>
+          <td class="paper-col">Threshold, PCA components, and bandwidth tuned by random search on a held-out validation split of 1,348 labeled triplets.</td>
+          <td>Still uncalibrated &mdash; the same starting point every checker in this repo has carried before its own labeled threshold sweep (see <code>kdbe_checker.py</code>, <code>AlignScoreChecker</code>, <code>FactKBChecker</code>'s own <code>THRESHOLD</code> comments).</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2 class="section-title">Debugging the self-density anchor</h2>
+    <p class="section-dek">The paper's formula divides by a word's KDE density &mdash; so whatever the numerator (the anchor) is set to determines almost everything about how trigger-happy the checker is. Three attempts, same file (<code>prim1.txt</code>: 15 SOAP sentences, 113 transcript sentences, 128 candidates total) each time.</p>
+
+    <div class="attempt failed">
+      <div class="attempt-head"><span>Attempt 1 &mdash; literal paper formula</span><span class="verdict">in-sample min, threshold&nbsp;=&nbsp;1.0</span></div>
+      <div class="attempt-body">
+        <div class="flag-stat">112 / 128<span class="unit">candidates flagged (87.5%)</span></div>
+        <p>The anchor was the reference's own words scored under a KDE that includes each word's own kernel contribution &mdash; which inflates its density (the point boosts its own score). An unseen candidate word never gets that same self-boost, so comparing its density against that inflated in-sample floor is structurally unfair: almost any candidate word, including well-matched ones, scores below it. Combined with max-aggregation, one such word sinks the whole sentence &mdash; &ldquo;if it's not one-for-one it fails.&rdquo;</p>
+      </div>
+    </div>
+
+    <div class="attempt failed">
+      <div class="attempt-head"><span>Attempt 2 &mdash; leave-one-out min</span><span class="verdict">overcorrected</span></div>
+      <div class="attempt-body">
+        <div class="flag-stat">0 / 128<span class="unit">candidates flagged (0%)</span></div>
+        <p>Scoring each reference word under a KDE fit on every <em>other</em> reference word removes the self-inflation &mdash; but anchoring on the strict minimum is still fragile once the reference set is small. A transcript/SOAP sentence is dozens of words, not the paper's whole medical report (hundreds), so the anchor ends up dominated by whichever single reference word happens to be the most unusual one, in or out of sample.</p>
+      </div>
+    </div>
+
+    <div class="attempt worked">
+      <div class="attempt-head"><span>Attempt 3 &mdash; leave-one-out, 10th percentile</span><span class="verdict">shipped</span></div>
+      <div class="attempt-body">
+        <div class="flag-stat">64 / 128<span class="unit">candidates flagged (50%)</span></div>
+        <div class="overflow-x">
+          <table class="data-table" style="margin-bottom: 1rem;">
+            <tr><th>Direction</th><th>Flagged</th><th>Candidates</th></tr>
+            <tr><td>Hallucination (SOAP&nbsp;&rarr;&nbsp;transcript)</td><td class="num">6</td><td class="num">15</td></tr>
+            <tr><td>Omission (transcript&nbsp;&rarr;&nbsp;SOAP)</td><td class="num">58</td><td class="num">113</td></tr>
+          </table>
+        </div>
+        <p>Same leave-one-out fix, anchored to the 10th percentile of those scores instead of the strict min &mdash; keeps the paper's &ldquo;near the floor&rdquo; intent without being hostage to one outlier word. The omission-heavy skew is expected, not a bug: the transcript is dozens of conversational turns against a short, condensed SOAP note, so most turns genuinely won't resemble the note's clinical register &mdash; the same recall/precision imbalance this project's other checkers hit before their own threshold sweeps (see <code>evaluate_fixes_report.html</code>).</p>
+      </div>
+    </div>
+
+    <div class="caveat">
+      <strong>Still uncalibrated:</strong> both <code>THRESHOLD&nbsp;=&nbsp;1.0</code> and <code>SELF_DENSITY_PERCENTILE&nbsp;=&nbsp;10</code> are principled starting points, not swept values &mdash; there's no labeled threshold sweep behind them yet, the same state every other checker here started in before its own.
+    </div>
+  </section>
+
+  <div class="verified-banner">
+    <span class="check">&#10003;</span>
+    <span>Every number above is a real call to <code>EmbedKdeChecker.check()</code> against <code>prim57/cleaned&nbsp;transcripts/prim1.txt</code> and <code>prim57/bad&nbsp;notes&nbsp;lib/prim1.txt</code>, using the real <code>glove-wiki-gigaword-100</code> vectors &mdash; not illustrative or estimated.</span>
+  </div>
+
+  <footer>
+    <p>Paper figures (Table&nbsp;1, Table&nbsp;2, the OMscore formula, and the dataset/validation description) are drawn directly from Oukelmoun et al., EMNLP 2025 Industry Track, pp.&nbsp;325&ndash;337. All <code>EmbedKdeChecker</code> figures are from this project's own code at <code>Modules/embedkde_checker.py</code>, run against real files in <code>prim57/</code>.</p>
+  </footer>
+
+</div>

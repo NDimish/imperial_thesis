@@ -1,0 +1,22 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 5: \"Pregnancy test\n2.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"LRTI \n\n Plan\" was swapped for \"URTI \n\n Plan\" (from note 14)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 4: \"No rashes\n\nPMH: Nil \nDH: nil \nNKDA\nFH: Grandmother - type 2 diabetes\nSH: lives alone, works as an accountant.\""
+  },
+  {
+    "type": "omission",
+    "detail": "Mainly dry cough."
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"14\" to \"15\" in \"No unwell contacts \n No nausea / vomiting \n No bowel symptoms \n\n\n PMH: obesity, diabetes-type 2, hypertension \n DH: metformin, lisinopril, aspirin, \n NKDA \n SH: lives with wife, works in factory / manufacturing, smoking socially, etOH-> 15 units / week \n\n Imp: viral URTI/?\""
+  }
+]

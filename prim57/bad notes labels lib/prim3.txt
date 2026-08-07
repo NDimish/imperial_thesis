@@ -1,0 +1,14 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "low",
+    "detail_type": "entity swap",
+    "detail": "Change UTI to POP \n 2."
+  },
+  {
+    "type": "hallucination",
+    "severity": "low",
+    "detail_type": "entity swap",
+    "detail": "Nil smoking / etOH hx \n\n  UTI: migraine \n\n  Plan: \n  1."
+  }
+]

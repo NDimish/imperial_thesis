@@ -1,0 +1,22 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"No fever, no chills, non positional.\" to \"fever, no chills, non positional.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 39: \"PC : sobar pmhx of childhood asthma and hayfever.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 39: \"HPC.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"fever, no chills, non positional.\" to \"fever, chills, non positional.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"3\" to \"30\" in \"No chest pain, no pain on inspiration\n\nC section 2-30 weeks ago.\""
+  }
+]

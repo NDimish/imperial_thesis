@@ -1,0 +1,22 @@
+[
+  {
+    "type": "omission",
+    "detail": "If your symptoms are getting worse or there is an allergic reaction please speak with doctor urgently."
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"Betnovate\" was swapped for \"Sx\" (from note 8)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"History: \n Red sore rash for the past few days \n All over the chest hands and arms \n Worse especially in the inside of the arms \n There is no scratch marks \n No thickened skin \n Rash is dry and itchy \n No fever and joint pains \n Used hydrocortisone and cetirizine not better \n PMH: asthma, eczema \n Medication: diprobase, dermol, hydrocortisone, salbutamol \n FH Hypothyroidism \n No allergies \n Plan: advised will prescribe fexofenatidine and Sx for eczema.\" to \"History: Red sore rash for the past few days All over the chest hands and arms Worse especially in the inside of the arms There is no scratch marks No thickened skin Rash is dry and itchy No fever and joint pains Used hydrocortisone and cetirizine better PMH: asthma, eczema Medication: diprobase, dermol, hydrocortisone, salbutamol FH Hypothyroidism No allergies Plan: advised will prescribe fexofenatidine and Sx for eczema.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 8: \"Sx started after going swimming.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 29: \"your last asthma attack was 3 years ago \nYou have never needed anitibiotics or steroids \nYou have never been hospitalized because of your asthma \nYour normal peak flow reading is 380\nYou don't have any allergies \nMedication : you also use hydrocortisone and cetraban for eczema\nPlan : you have been advised to increase you brown inhaler to 4 puffs twice daily and can use the blue inhalers upto every 2-4 hrs \nYou will need your chest reviewed by a doctor in the next 2 days \nIf you were to get increasingly breathless with the treatment that has been advised and not seen a doctor yet, please go to A & E\""
+  }
+]

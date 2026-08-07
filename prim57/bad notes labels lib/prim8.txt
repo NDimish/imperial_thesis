@@ -1,0 +1,8 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "Appetite maintained, nausea/vomiting Nil bowel/urinary sx PMH: Lactose intolerance\nDH: microgynon\nNKDA\nFH: Father - asthma, Mother - hayfever SH: - lives alone, nil smoker/etOH/recreational drugs , works as primary school teacher."
+  }
+]

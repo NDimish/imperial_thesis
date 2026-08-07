@@ -2,5 +2,17 @@
   {
     "type": "hallucination",
     "detail": "\"Sx\" was swapped for \"UTI\" (from note 9)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 9: \"PMH: IBS\nDH: Nil regular \nAllergic to clindamycin \nFH: Nil regular \nSH: lives in a flat with friends, student in Biology, nil smoking, social EtOH at weekends\n\nImp: UTI/cystitis \n\nPlan:\n1.\""
+  },
+  {
+    "type": "omission",
+    "detail": "Recent stress + + \n\n Imp: dermatitis \n\n Plan: \n 1."
+  },
+  {
+    "type": "omission",
+    "detail": "No fevers."
   }
 ]

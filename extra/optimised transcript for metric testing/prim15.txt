@@ -1,0 +1,62 @@
+d: Can I confirm your name and your age please?
+p: Laura Parkinson, I'm forty five.
+d: How can I help you this afternoon?
+p: I have soreness in my fingers, the skin on my hands is kind of cracked.
+d: When did this all start?
+p: A couple of months ago, three, four months ago.
+d: Is it the skin on your hand mainly that's dry?
+p: Yeah. I have dryness in other parts too, like my legs, but not severe, I don't hydrate very much. It's very bad in my hands though.
+d: Why have you come to see me today, has it got worse recently?
+p: It's gotten to a point where it hurts a lot, and I can't really do my job, so I thought I should get it checked out.
+d: Which part of your hands are affected mainly?
+p: The palm.
+d: Any itchiness in your palms?
+p: Yeah, it's itchy, not all the time, but it does get itchy.
+d: Any bleeding at all?
+p: When I scratch it, it has bled sometimes, but otherwise it hasn't bled on its own.
+d: You mentioned the skin is quite cracked as well?
+p: Yes.
+d: Do you remember how it all started, what were you doing at the time?
+p: I work as a housekeeper, and I'm not always very good about wearing gloves, so that could be related. I switched jobs four months ago. I've been working as a housekeeper for a while, but that's the only thing I can think of.
+d: I think that might be quite important, maybe a correlation there. You mentioned general dryness in your legs as well, is that something you've had for a while?
+p: Yeah, it's not really major, just literally grinding my legs.
+d: Some brief yes or no questions -- any other symptoms, fever or temperatures?
+p: No.
+d: Any nausea or vomiting?
+p: No.
+d: Any problem with your bowels?
+p: No.
+d: Any problem with your urine or waterworks?
+p: No.
+d: Otherwise you feel well, eating, drinking, appetite well-maintained?
+p: Yeah.
+d: In terms of your past medical history, any other conditions?
+p: I have diabetes, type two.
+d: Anything else? Any skin problems, eczema, dermatitis?
+p: No, not that I know of, I haven't been diagnosed.
+d: Which medications do you take?
+p: Metformin.
+d: Do you have any allergies, to medications or in general?
+p: No.
+d: Family history-wise, anything I should be aware of?
+p: Diabetes.
+d: Any skin problems, asthma, or bowel problems in the family?
+p: No, not that I know of.
+d: In terms of social history, you work as a housekeeper and you're not always good at wearing gloves, and you've recently changed jobs -- residential or commercial?
+p: At a hotel, I have to do the whole thing, bedrooms, bathrooms.
+d: Do you think there might be a relationship between the products you're using and your symptoms?
+p: I usually use those for bathrooms, but bedrooms and corridors not always.
+d: Have your symptoms stopped you from doing any work, have you had to take time off recently?
+p: Yeah, the past three days I haven't been able to go to work.
+d: Do you smoke at all?
+p: No.
+d: Do you drink much in the way of alcohol?
+p: A couple of pints a week.
+d: Very minimal alcohol there. Have you tried anything for your symptoms, anything over the counter, any creams?
+p: I tried E45, it didn't really do anything. I also tried an antihistamine, but it didn't help either.
+d: Based on your story, I think you might have something called dermatitis or contact dermatitis, very common in people in your field using cleaning products without gloves -- sometimes you get a reaction between the chemicals and your skin. Moving forward there's a couple of options. Firstly we try and avoid the triggers -- I strongly recommend you wear gloves when cleaning at all times. In terms of helping the dryness and cracking, we can try some steroid creams to help with the inflammation, as well as some stronger emollients, which you need to coat on three to four times a day for the next couple of weeks to help with moisturizing your skin. If it still hasn't got better in about a week to two weeks, I need you to come back and see me again, and we can think about other things we can give you.
+d: Do you have any questions for me?
+p: Where do I get the medicine from?
+d: I'll do a prescription for you now and send it over to your pharmacy.
+p: So you said a couple of weeks it should get better?
+d: I think minimum a couple of weeks, ten to fourteen days. If it still hasn't got better, or it's getting worse, spreading, or the dryness is getting worse, come back and see me sooner.

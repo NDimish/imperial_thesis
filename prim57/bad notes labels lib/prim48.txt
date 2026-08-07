@@ -1,0 +1,20 @@
+[
+  {
+    "type": "omission",
+    "severity": "low",
+    "detail_type": "omitted detail",
+    "detail": "Dreads work every morning."
+  },
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "number edit",
+    "detail": "PC: Anxiety symptoms\nHPC: 20/12 hx feeling anxious all the time."
+  },
+  {
+    "type": "hallucination",
+    "severity": "low",
+    "detail_type": "entity swap",
+    "detail": "In meantime advised to access online SOBAR: attached info."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "type": "omission",
+    "severity": "critical",
+    "detail_type": "omitted detail",
+    "detail": "Delayed script for amoxicillin abx - to start in 24-48 hours if sx not improving\n3."
+  },
+  {
+    "type": "hallucination",
+    "severity": "moderate",
+    "detail_type": "inserted sentence",
+    "detail": "Review in 5-7d INB\n3."
+  },
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "inserted sentence",
+    "detail": "LMP 2/52 ago \n\nNo chest pain/SOB/palpitations\nNo headches/visual sx\n\nPMH: nil\nPSH: nil \nDH: implanon , otherwise nil\nFH: nil \nSH: roomshare with 2 flatmates, works as an accountant."
+  },
+  {
+    "type": "hallucination",
+    "severity": "moderate",
+    "detail_type": "inserted sentence",
+    "detail": "Finding work slightly stressful."
+  }
+]

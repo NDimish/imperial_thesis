@@ -1,0 +1,143 @@
+{
+  "module": "HighRiskChecker",
+  "overall": {
+    "tp": 0,
+    "fp": 5,
+    "fn": 5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "accuracy": 0.0
+  },
+  "by_type": {
+    "hallucination": {
+      "tp": 0,
+      "fp": 5,
+      "fn": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0
+    },
+    "omission": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0
+    }
+  },
+  "by_severity": {
+    "by_value": {
+      "critical": {
+        "total": 1,
+        "caught": 0,
+        "recall": 0.0
+      },
+      "high": {
+        "total": 1,
+        "caught": 0,
+        "recall": 0.0
+      },
+      "low": {
+        "total": 3,
+        "caught": 0,
+        "recall": 0.0
+      }
+    },
+    "accuracy": null,
+    "mae": null
+  },
+  "by_severity_by_type": {
+    "hallucination": {
+      "critical": {
+        "total": 1,
+        "caught": 0,
+        "recall": 0.0
+      },
+      "high": {
+        "total": 1,
+        "caught": 0,
+        "recall": 0.0
+      }
+    },
+    "omission": {
+      "low": {
+        "total": 3,
+        "caught": 0,
+        "recall": 0.0
+      }
+    }
+  },
+  "by_detail_type": {
+    "by_value": {
+      "negation flip": {
+        "total": 1,
+        "caught": 0,
+        "recall": 0.0
+      },
+      "number edit": {
+        "total": 1,
+        "caught": 0,
+        "recall": 0.0
+      },
+      "omitted detail": {
+        "total": 3,
+        "caught": 0,
+        "recall": 0.0
+      }
+    },
+    "accuracy": null,
+    "mae": null
+  },
+  "by_section": {
+    "hallucination": {
+      "subjective": {
+        "tp": 0,
+        "fp": 4
+      },
+      "plan": {
+        "tp": 0,
+        "fp": 1
+      }
+    }
+  },
+  "critical_caught_by_section": {},
+  "avg_flags_per_round": 5.0,
+  "file_count": 1,
+  "records": [
+    {
+      "filename": "prim1.txt",
+      "elapsed": 6.079166999901645,
+      "tp": 0,
+      "fp": 5,
+      "fn": 5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "by_type": {
+        "hallucination": {
+          "tp": 0,
+          "fp": 5,
+          "fn": 2,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "accuracy": 0.0
+        },
+        "omission": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 3,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "accuracy": 0.0
+        }
+      }
+    }
+  ]
+}

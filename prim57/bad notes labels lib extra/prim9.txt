@@ -1,0 +1,18 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 5: \"Urine dip and MSU\n3.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"7\" to \"70\" in \"3/70 hx of dysuria and suprapubic pain.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"4\" to \"40\" in \"Trial cranberry juice \n40.\""
+  },
+  {
+    "type": "omission",
+    "detail": "3/70 hx of dysuria and suprapubic pain."
+  }
+]

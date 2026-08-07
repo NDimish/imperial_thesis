@@ -1,6 +1,6 @@
 [
   {
     "type": "hallucination",
-    "detail": "\"SOBAR\" was swapped for \"PE\" (from note 36)"
+    "detail": "\"SOBOE\" was swapped for \"SOBAR\" (from note 38)"
   }
 ]

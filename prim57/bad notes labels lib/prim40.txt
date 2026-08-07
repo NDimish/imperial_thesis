@@ -1,0 +1,14 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "number edit",
+    "detail": "No fevers\n\nHPC:\nDiarrhea +++ 50-6 per day (more) only fluid no blood, feels as if there incomplete evacuation."
+  },
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "fevers HPC:\nDiarrhea +++ 50-6 per day (more) only fluid no blood, feels as if there incomplete evacuation."
+  }
+]

@@ -1,0 +1,49 @@
+prim1.txt
+  missed - hallucination: inserted sentence from note 11: "No blood in stools."
+  added - hallucination: also vomiting - mainly bilous.
+  added - hallucination: wife and children also unwell with vomiting, but no diarrhea.
+  added - hallucination: works as an accountant.
+prim10.txt
+  missed - hallucination: inserted sentence from note 9: "Abdo pain - cramping, nil radiating 
+Nil nausea/vomiting."
+  added - omission: so i i smoked, uh this is quite bad, but i smoked weed for the first time.
+prim11.txt
+  missed - none
+  added - hallucination: lives with sister and mum.
+  added - hallucination: works in office.
+prim12.txt
+  missed - hallucination: inserted sentence from note 4: "Finding work slightly stressful."
+  added - hallucination: fh: father - htn, died of bowel ca. mother - diabetes type 2
+  added - hallucination: sh: lives alone , software engineer. nil smoking, social etoh
+  added - hallucination: 1. finding work slightly stressful. supportive mx - rest, fluids
+  added - lasa: diarolyte
+prim13.txt
+  missed - hallucination: inserted sentence from note 5: "Rx empirically with Abx for UTI
+4."
+  missed - hallucination: inserted sentence from note 3: "Had visual aura before onset of headaches - zigzag lines in field of vision."
+  added - omission: so, i i had to take a couple of days off work, actually.
+  added - omission: um i had to like reduce the uh, brightness of my screen.
+  added - hallucination: no visual sx
+  added - hallucination: sh: lives with housemates, works in it, wears glasses, denies stress. socially smoke/etoh
+  added - hallucination: 1. had visual aura before onset of headaches - zigzag lines in field of vision. paracetamol/nsaids regular
+  added - hallucination: 4. rx empirically with abx for uti
+
+ [run 1] precision=0.30 recall=0.58 f1=0.40 avg_elapsed=27.478161379985977
+
+ 
+=== Evaluation Results ===
+
+ prim1.txt: precision=0.40 recall=0.67 f1=0.50 accuracy=0.33 (TP=2 FP=3 FN=1)
+
+ prim10.txt: precision=0.67 recall=0.67 f1=0.67 accuracy=0.50 (TP=2 FP=1 FN=1)
+
+ prim11.txt: precision=0.50 recall=1.00 f1=0.67 accuracy=0.50 (TP=2 FP=2 FN=0)
+
+ prim12.txt: precision=0.20 recall=0.50 f1=0.29 accuracy=0.17 (TP=1 FP=4 FN=1)
+
+ prim13.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=6 FN=2)
+
+ 
+Overall: precision=0.30 recall=0.58 f1=0.40 accuracy=0.25 (TP=7 FP=16 FN=5)
+
+ Average elapsed time: 27.48s

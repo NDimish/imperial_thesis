@@ -1,0 +1,14 @@
+[
+  {
+    "type": "omission",
+    "detail": "Emollients - cetraben - use up to QDS\n3."
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 32: \"If your symptoms are not better in the next 2 weeks please book another appointment with the doctor.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"2\" to \"20\" in \"Steroid cream - Betnovate BD\n20.\""
+  }
+]

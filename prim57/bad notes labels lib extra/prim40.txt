@@ -1,0 +1,6 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 11: \"Smokes socially, EtOH - socially \n\nImp: gastroenteritis \n\nPlan:\n1.\""
+  }
+]

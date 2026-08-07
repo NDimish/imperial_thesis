@@ -1,0 +1,76 @@
+{
+  "module": "ConceptChecker",
+  "records": [
+    {
+      "filename": "prim1.txt",
+      "run": 1,
+      "tp": 2,
+      "fp": 38,
+      "fn": 1,
+      "elapsed": 2.2262627999298275,
+      "precision": 0.05,
+      "recall": 0.6666666666666666,
+      "f1": 0.09302325581395349,
+      "accuracy": 0.04878048780487805
+    },
+    {
+      "filename": "prim10.txt",
+      "run": 1,
+      "tp": 0,
+      "fp": 75,
+      "fn": 3,
+      "elapsed": 2.4328785999678075,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0
+    },
+    {
+      "filename": "prim11.txt",
+      "run": 1,
+      "tp": 1,
+      "fp": 77,
+      "fn": 1,
+      "elapsed": 2.9623661999357864,
+      "precision": 0.01282051282051282,
+      "recall": 0.5,
+      "f1": 0.025,
+      "accuracy": 0.012658227848101266
+    },
+    {
+      "filename": "prim12.txt",
+      "run": 1,
+      "tp": 1,
+      "fp": 58,
+      "fn": 1,
+      "elapsed": 1.6983310000505298,
+      "precision": 0.01694915254237288,
+      "recall": 0.5,
+      "f1": 0.03278688524590164,
+      "accuracy": 0.016666666666666666
+    },
+    {
+      "filename": "prim13.txt",
+      "run": 1,
+      "tp": 0,
+      "fp": 96,
+      "fn": 2,
+      "elapsed": 2.7379016999620944,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0
+    }
+  ],
+  "checkpoints": [
+    {
+      "run": 1,
+      "records_in_run": 5,
+      "avg_elapsed": 2.411548059969209,
+      "precision": 0.011494252873563218,
+      "recall": 0.3333333333333333,
+      "f1": 0.022222222222222223,
+      "accuracy": 0.011235955056179775
+    }
+  ]
+}

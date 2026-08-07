@@ -1,0 +1,294 @@
+
+prim1.txt
+  [FALSE] omission: Yeah, so it's like loose and watery stool, going to the toilet quite often, uh and like some pain in my, like, lower stomach? (stools: affirmed)
+  [FALSE] omission: So in my lower abdomen, so, uh, like, um...yeah, just to one side. (lower abdomen: affirmed)
+  [FALSE] omission: Yeah, it feels, um, like a cramp, like a muscular cramp, and, um, yeah i feel a bit uh weak and shaky. (pain: affirmed)
+  [FALSE] omission: Yeah, it feels, um, like a cramp, like a muscular cramp, and, um, yeah i feel a bit uh weak and shaky. (cramp: affirmed)
+  [FALSE] omission: Um, I had a loss of appetite, um, so I haven't been eating as much, but I've been able to hold down fluids. (loss of appetite: affirmed)
+  [FALSE] omission: Um, I had a loss of appetite, um, so I haven't been eating as much, but I've been able to hold down fluids. (eating: negated)
+  [FALSE] omission: Like smoothies and, yeah, liquid foods mainly. (liquid: affirmed)
+  [FALSE] omission: so um, er normally at this stage I like to um, examine you if that's okay, but um, um, but but having listened to your story, sir, I think uh, um, just to recap for the last three days you've been having loose stool, diarrhea, a bit of tummy pain uh mainly on the left-hand side, um and vomiting and fever and you're quite weak and lethargic um, you mentioned you had this Chinese takeaway as little as three days ago and I wondered whether that might be the cause of your problems. (loose stool: affirmed)
+  [FALSE] omission: Um, it seems like you may have something, uh, called gastroenteritis, which essentially just a tummy bug or infection of your uh of your tummy. (infection: affirmed)
+  [FALSE] omission: So, um, I don't think you need anything like antibiotics. (antibiotics: negated)
+  [FALSE] omission: It's really just, um, making sure you're well hydrated, so drinking fluids. (hydrated: affirmed)
+  [FALSE] omission: It's really just, um, making sure you're well hydrated, so drinking fluids. (drinking: affirmed)
+  [FALSE] omission: Um, there are things like Dioralyte you can get from the pharmacy, which uh it's um it helps helps replenish your minerals and vitamins. (dioralyte: affirmed)
+  [FALSE] omission: Um, there are things like Dioralyte you can get from the pharmacy, which uh it's um it helps helps replenish your minerals and vitamins. (pharmacy: affirmed)
+  [FALSE] omission: Um, there are things like Dioralyte you can get from the pharmacy, which uh it's um it helps helps replenish your minerals and vitamins. (vitamins: affirmed)
+  [FALSE] omission: Um, I'll admit if your symptoms haven't got better, you know, in in three to four days, I'd like to come and see you again. (admit: affirmed)
+  [FALSE] omission: Uh, and we may need to do further tests like um taking a sample of your stool so we can test that. (tests: affirmed)
+  [FALSE] omission: Uh, and we may need to do further tests like um taking a sample of your stool so we can test that. (sample: affirmed)
+  [FALSE] hallucination: Opening bowels x6/day. (bowels: affirmed)
+  [FALSE] hallucination: No other unwell contacts. (contacts: negated)
+  [FALSE] hallucination: Conservative management - rest, push fluids, paracetamol if feverish. (paracetamol: affirmed)
+  [FN] omission: Associated LLQ pain - crampy, intermittent, nil radiation.
+
+prim10.txt
+  [FALSE] omission: Um, and yeah I notice a sort of burning, stinging, when I when I go to the toilet, yeah. (burning: affirmed)
+  [FALSE] omission: Um, and yeah I notice a sort of burning, stinging, when I when I go to the toilet, yeah. (stinging: affirmed)
+  [FALSE] omission: Yeah, I think just today . (blood: affirmed)
+  [FALSE] omission: Uh yeah, uh I'm um on the pill. (contraception: affirmed)
+  [FALSE] omission: Uh yeah, uh I'm um on the pill. (pill: affirmed)
+  [FALSE] omission: Uh, yeah, yeah eating drinking OK. Um, I did have one kinda concern I dunno (drinking: affirmed)
+  [FALSE] omission: Uh, yeah, yeah eating drinking OK. Um, I did have one kinda concern I dunno (general: affirmed)
+  [FALSE] omission: Uh, yeah, yeah eating drinking OK. Um, I did have one kinda concern I dunno (eating: affirmed)
+  [FALSE] omission: So I I smoked, uh this is quite bad, but I smoked weed for the first time. (weed: affirmed)
+  [FALSE] omission: Uh, like a week and a half ago, I I just wondered whether it's related at all, probably not but I just thought I'd get some advice from you. (advice: affirmed)
+  [FALSE] omission: Um, yeah I think there was an antibiotic, um, called Clindamycin mycin . (medications: affirmed)
+  [FALSE] omission: Um, yeah I think there was an antibiotic, um, called Clindamycin mycin . (allergy: affirmed)
+  [FALSE] omission: Um, yeah I think there was an antibiotic, um, called Clindamycin mycin . (antibiotic: affirmed)
+  [FALSE] omission: Uh, as I admitted before I tried weed for the first time, uh, but, uh, I don't smoke. (admitted: affirmed)
+  [FALSE] omission: But the fact that I, I I think it's, um, probably just a simple what we'd say a UTI or a cystitis, bladder infection. (cystitis: uncertain)
+  [FALSE] omission: But the fact that I, I I think it's, um, probably just a simple what we'd say a UTI or a cystitis, bladder infection. (bladder infection: uncertain)
+  [FALSE] omission: Uh, you know you haven't got any other symptoms that, suggest to me that there's anything to worry about, so things like fevers and back pain. (other symptoms: affirmed)
+  [FALSE] omission: Uh, you know you haven't got any other symptoms that, suggest to me that there's anything to worry about, so things like fevers and back pain. (and back pain: negated)
+  [FALSE] omission: Um, so we've got a choice of two antibiotics something called Trimethoprim or, Nitrofurantoin which is a three day course. (trimethoprim: affirmed)
+  [FALSE] omission: Um, start the antibiotics, make sure you're well hydrated, drink plenty of fluids. (hydrated: affirmed)
+  [FALSE] omission: Either back pain, vomiting, great OK. (vomiting: affirmed)
+  [FALSE] hallucination: 1/52 hx of dysuria, frequency and suprapubic pain. (dysuria: affirmed)
+  [FALSE] hallucination: 1/52 hx of dysuria, frequency and suprapubic pain. (suprapubic pain: affirmed)
+  [FALSE] hallucination: Noticed urine today was pink, nil frank haematuria. (haematuria: affirmed)
+  [FALSE] hallucination: Suprapubic pain on PU - aching pain, nil radiating (aching pain: affirmed)
+  [FALSE] hallucination: Nil nausea/vomiting (nausea/vomiting: affirmed)
+  [FALSE] hallucination: Nil PV discharge. (discharge: affirmed)
+  [TRUE] hallucination: Brief episode of haematuria, now resolved. (resolved: affirmed)
+  [FALSE] hallucination: DH: COCP, mebeverine (mebeverine: affirmed)
+  [FALSE] hallucination: Simple analgesia (analgesia: affirmed)
+  FN - none
+
+prim11.txt
+  [FALSE] omission: Yeah, so I mean I'm , I'm trying to drink a lot of water. (water: affirmed)
+  [FALSE] omission: Um, yeah I definitely, I definitely feel kind of nauseous. Um (other symptoms: affirmed)
+  [FALSE] omission: And when I like, I think it's maybe something to do with like, whenever I have like milk or something like that, I just feel like I want to vomit. (milk: affirmed)
+  [FALSE] omission: Um so I, yeah I think I am pretty, I feel kind of really hot all the time. And uh I'm pretty sure I'm burning up. I haven't actually done any temperature reading, or anything like that. But it's, I, yeah I've, I've sure I'm, I'm not a, like not a normal temperature. (fevers: negated)
+  [FALSE] omission: And uh I'm pretty sure I'm burning up. (burning: affirmed)
+  [FALSE] omission: Um so, I had some, I mean I had some lunch today. Um (today: affirmed)
+  [FALSE] omission: Yeah I mean I, I'm an OK weight. And um, I I can't think of any related medical history. (moving: affirmed)
+  [FALSE] omission: So it could be anything from the mouth anus. (mouth: affirmed)
+  [FALSE] omission: So it could be anything from the mouth anus. (anus: affirmed)
+  [FALSE] omission: I think at, at home, uh yeah I just haven't really um (home: affirmed)
+  [FALSE] omission: bit of a basic infection of your tummy. . (infection: affirmed)
+  [FALSE] omission: Um so, you can get things like Diarolyte, which is um, a fluid replacement you can get from the pharmacy. (pharmacy: affirmed)
+  [FALSE] omission: You can use soft diet, things like soup, mash. (mash: affirmed)
+  [FALSE] hallucination: No blood in stools. (blood: negated)
+  [FALSE] hallucination: No blood in stools. (stools: negated)
+  [FALSE] hallucination: Feeling feverish, hot/cold (feeling feverish: affirmed)
+  [FALSE] hallucination: Feeling feverish, hot/cold (cold: affirmed)
+  [FALSE] hallucination: Nil urinary sx - passing less urine . no weight loss. (urine: affirmed)
+  [TRUE] hallucination: Urinary sx - noticed some pink coloured urine, no frank haematuria, nil dysuria. (haematuria: negated)
+  [FALSE] hallucination: Urinary sx - noticed some pink coloured urine, no frank haematuria, nil dysuria. (dysuria: negated)
+  [FN] hallucination: inserted sentence from note 12: "Nil smoking, social EtOH
+
+Imp: gastroenteritis 
+
+Plan:
+1."
+  [FN] omission: Review in 48 hours, or earlier if worsening sx
+
+prim12.txt
+  [FALSE] omission: Yeah, just felt, like some nausea and I had to, to vomit, and then I had some diarrhoea, straight after that. (nausea: affirmed)
+  [FALSE] omission: Um, so I, I do suffer of asthma. (suffer: affirmed)
+  [FALSE] omission: It's an infection of your, your tummy. (infection: affirmed)
+  [FALSE] omission: Uh you can get things from the pharmacy, which is called Dioralyte, which can help replenish any uh minerals and vitamins you may have lost. (pharmacy: affirmed)
+  [FALSE] omission: Uh you can get things from the pharmacy, which is called Dioralyte, which can help replenish any uh minerals and vitamins you may have lost. (dioralyte: affirmed)
+  [FALSE] omission: Uh you can get things from the pharmacy, which is called Dioralyte, which can help replenish any uh minerals and vitamins you may have lost. (vitamins: affirmed)
+  [FALSE] hallucination: No blood in stools. (blood: negated)
+  [FALSE] hallucination: No fever/temp, but feels warm. (temp: negated)
+  [FALSE] hallucination: No unwell contacts (contacts: negated)
+  [FALSE] hallucination: DH: salbutamol PRN (salbutamol: affirmed)
+  [FN] hallucination: inserted sentence from note 4: "Now developed a cough -mainly dry, constant."
+  [FN] hallucination: inserted sentence from note 11: "Works in office."
+  [FN] omission: Appetite reduced.
+
+prim13.txt
+  [FALSE] omission: And then I was thinking OK, maybe I'll just go to sleep. (sleep: affirmed)
+  [FALSE] omission: Not really, but just when it started, I I got this like weird shooting lights. And like now like light is quite annoying, my eyes. (vision: negated)
+  [FALSE] omission: And like now like light is quite annoying, my eyes. (eyes: affirmed)
+  [FALSE] omission: Um, well I'm like basically, I I'm sick with the headache. (sick: affirmed)
+  [FALSE] omission: Um at first I thought it's stress, or maybe I didn't drink enough water. (water: negated)
+  [FALSE] omission: Yeah maybe just kinda, if you have any recommendations of that I can take something stronger. Because apparently, Ibuprofen doesn't help me. Uh (today: affirmed)
+  [FALSE] omission: Usually it gets resolved if I have headache in like, after like one or two days. (resolved: affirmed)
+  [FALSE] omission: But it's certainly worth treating it today stronger analgesia or painkillers. (analgesia: affirmed)
+  [FALSE] omission: But it's certainly worth treating it today stronger analgesia or painkillers. (painkillers: affirmed)
+  [FALSE] omission: Um, now moving forward, we have some options which we can discuss. (moving: affirmed)
+  [FALSE] omission: Or, I can prescribe you something stronger, like Naproxen, which is another anti-inflammatory, which can be helpful. (prescribe: affirmed)
+  [FALSE] omission: Or, I can prescribe you something stronger, like Naproxen, which is another anti-inflammatory, which can be helpful. (naproxen: affirmed)
+  [FALSE] omission: Or, I can prescribe you something stronger, like Naproxen, which is another anti-inflammatory, which can be helpful. (anti-inflammatory: affirmed)
+  [FALSE] omission: Um, we can also add in other, painkillers like, Paracetamol, or Codeine. (paracetamol: affirmed)
+  [FALSE] omission: Um, we can also add in other, painkillers like, Paracetamol, or Codeine. (codeine: affirmed)
+  [FALSE] omission: OK. And I think it's , certainly worth looking into that, so I can give you a , prescription for that today. Um, with regards to um, the next few days. (prescription: affirmed)
+  [FALSE] omission: But we can have that discussion next time. (discussion: affirmed)
+  [FALSE] hallucination: Constant, severity 8/10, dull ache with associated sharp pain, gradual onset. (ache: affirmed)
+  [FALSE] hallucination: Constant, severity 8/10, dull ache with associated sharp pain, gradual onset. (sharp pain: affirmed)
+  [TRUE] hallucination: Occasional smoker/etOH. Progressively worsening. Has tried ibuprofen with limited relief. (relief: affirmed)
+  [FALSE] hallucination: Some photophobia. (photophobia: affirmed)
+  [FALSE] hallucination: No neck pain / stiffness (stiffness: negated)
+  [FALSE] hallucination: No fevers (fevers: negated)
+  [FALSE] hallucination: No rashes (rashes: negated)
+  [FALSE] hallucination: ICE: ? related to stress / dehydration. (dehydration: affirmed)
+  [FN] omission: Paracetamol/NSAIDs regular 
+2.
+
+prim14.txt
+  [FALSE] omission: And my nose is running. (nose: affirmed)
+  [FALSE] omission: Um you're not bringing up any uh, mucky phlegm or anything like that. (phlegm: negated)
+  [FALSE] omission: You know just, just my throat is irritated from coughing. (throat: affirmed)
+  [FALSE] omission: No.They feel OK, actually. Yeah. . Nothing, nothing on the ears. (ears: negated)
+  [FALSE] omission: I don't feel restless. No, I feel you know, generally tired. (breathless: negated)
+  [FALSE] omission: I don't feel restless. (feel restless: affirmed)
+  [FALSE] omission: You know like, when you, when you go to sleep and, and you feel like I I should be warm. (sleep: affirmed)
+  [FALSE] omission: I just like, my stomach wasn't feeling great. (stomach: affirmed)
+  [FALSE] omission: Uh your your waterworks, your urine. (urine: affirmed)
+  [FALSE] omission: you're passing urine OK. You're drinking plenty of fluids, and passing urine OK. (passing urine: affirmed)
+  [FALSE] omission: you're passing urine OK. You're drinking plenty of fluids, and passing urine OK. (drinking: affirmed)
+  [FALSE] omission: I, I drank loads of water, when I started having the diarrhea. (water: affirmed)
+  [FALSE] omission: My muscle was really hurting. (muscle: affirmed)
+  [FALSE] omission: Especially like in my arms, my legs, like just everywhere basically. (arms: affirmed)
+  [FALSE] omission: Especially like in my arms, my legs, like just everywhere basically. (legs: affirmed)
+  [FALSE] omission: Uh, well I have type two diabetes. (diabetes: affirmed)
+  [FALSE] omission: And I have quite high blood pressure. (high blood pressure: affirmed)
+  [FALSE] omission: And since I've started taking this medication, I've just been like regularly checking that it, it's under control. (medication: affirmed)
+  [FALSE] omission: Ohh, so you work in the IT field. (field: affirmed)
+  [FALSE] omission: And I rarely get like properly drunk, or anything. (drunk: affirmed)
+  [FALSE] omission: Um, right so uh just as we wrap up really, um April I think based on your story, I think uh essentially I think you're, you're going through a bit of a bit of a viral illness. (illness: affirmed)
+  [FALSE] omission: You know you've had a bit of a cough, bit of a runny nose, feeling quite weak and lethargic. (lethargic: affirmed)
+  [FALSE] omission: Keep yourself well-hydrated. (hydrated: affirmed)
+  [FALSE] omission: And if you are still feeling feverish, um and your cough isn't getting any better, then we may look to give you some antibiotics for your chest. (feeling feverish: affirmed)
+  [FALSE] omission: And if you are still feeling feverish, um and your cough isn't getting any better, then we may look to give you some antibiotics for your chest. (antibiotics: negated)
+  [FALSE] omission: some of the uh uh common source of infection. Um (infection: affirmed)
+  [FALSE] hallucination: Runny nose, no ear pain, no sore throat. (ear pain: negated)
+  [FALSE] hallucination: Feeling tired, weak and myalgia. (myalgia: affirmed)
+  [FALSE] hallucination: Feeling shivery, hot / cold, ? fever (fever: affirmed)
+  [FALSE] hallucination: No nausea / vomiting (nausea: negated)
+  [FALSE] hallucination: No nausea / vomiting (vomiting: negated)
+  [FALSE] hallucination: Initial diarrhea-but now resolved (resolved: affirmed)
+  [FALSE] hallucination: Nil urinary symptoms (urinary symptoms: affirmed)
+  [FALSE] hallucination: No rashes (rashes: negated)
+  [FALSE] hallucination: PMH: Type 2 diabetes, HTN (type 2 diabetes: affirmed)
+  FN - none
+
+prim15.txt
+  [FALSE] omission: So I have uh soreness in my fingers, my finger, like, the skin on my hands is kind of cracked. (fingers: affirmed)
+  [FALSE] omission: I mean, I have dryness, like you know, in other parts, like my legs. (legs: affirmed)
+  [FALSE] omission: It's just you know, I've always, you know, I don't hydrate very much. So (hydrate: negated)
+  [FALSE] omission: Uh the palm. (palm: affirmed)
+  [FALSE] omission: Uh yeah it's just like literally grinding my legs. (grinding: affirmed)
+  [FALSE] omission: I have diabetes. (diabetes: affirmed)
+  [FALSE] omission: Which is very common in, particularly people in your in your in your field, who are using cleaning products, not using gloves. (field: affirmed)
+  [FALSE] omission: Um, so moving forward there's a couple of options. (moving: affirmed)
+  [FALSE] omission: And in terms of helping your dryness and the cracking of your skin, um we can try some steroid creams to help with the inflammation. (steroid: affirmed)
+  [FALSE] omission: And in terms of helping your dryness and the cracking of your skin, um we can try some steroid creams to help with the inflammation. (inflammation: affirmed)
+  [FALSE] omission: As well as some stronger emollients, um which you really need to kind of coat on, three four times a day, for the next couple of weeks, just to help with the moisturizing of your skin. (coat: affirmed)
+  [FALSE] omission: I'll I'll I'll do a prescription for you now, and send it over to your pharmacy. (prescription: affirmed)
+  [FALSE] omission: I'll I'll I'll do a prescription for you now, and send it over to your pharmacy. (pharmacy: affirmed)
+  [FALSE] hallucination: No pain (pain: negated)
+  [FALSE] hallucination: No fever (fever: negated)
+  [FALSE] hallucination: No bowel/urinary sx (bowel: negated)
+  [FALSE] hallucination: PMH: Type 2 diabetes (type 2 diabetes: affirmed)
+  [FALSE] hallucination: Has tried E45 cream and antihistamines with minimal relief (cream: affirmed)
+  [FALSE] hallucination: Has tried E45 cream and antihistamines with minimal relief (relief: affirmed)
+  [FN] omission: Steroid cream BD
+2.
+  [FN] omission: Review in 10-14d INB, or earlier if worsening sx
+  [FN] hallucination: inserted sentence from note 8: "Emollients - regular use QDS
+3."
+
+prim16.txt
+  [FALSE] omission: Um, I occasionally get like a ringing in my left ear, uh just on the one side and um there's actually been a few times when I felt kind of a bit sick or a bit dizzy as well. (left ear: affirmed)
+  [FALSE] omission: Um, I occasionally get like a ringing in my left ear, uh just on the one side and um there's actually been a few times when I felt kind of a bit sick or a bit dizzy as well. (sick: affirmed)
+  [FALSE] omission: Um, I occasionally get like a ringing in my left ear, uh just on the one side and um there's actually been a few times when I felt kind of a bit sick or a bit dizzy as well. (dizzy: affirmed)
+  [FALSE] omission: Alright, so your right ear is fine. (right ear: affirmed)
+  [FALSE] omission: Uh, not specifically apart from the dizziness so much. (fever: negated)
+  [FALSE] omission: Someone might have impacted wax, blocking the tube going into the eardrum, which can (impacted: affirmed)
+  [FALSE] omission: Someone might have impacted wax, blocking the tube going into the eardrum, which can (blocking: affirmed)
+  [FALSE] omission: Someone might have impacted wax, blocking the tube going into the eardrum, which can (eardrum: affirmed)
+  [FALSE] omission: lead to muffled hearing. (lead: affirmed)
+  [FALSE] omission: It's not an emergency. (emergency: negated)
+  [FALSE] omission: Uh nothing major it's just kind of uh it's, it's not the kind of dizziness you get with nausea, like uh not, not proper room spinning or anything like that but just, just a little bit kind of off balance. (dizziness: negated)
+  [FALSE] omission: Uh nothing major it's just kind of uh it's, it's not the kind of dizziness you get with nausea, like uh not, not proper room spinning or anything like that but just, just a little bit kind of off balance. (nausea: negated)
+  [FALSE] omission: Uh nothing major it's just kind of uh it's, it's not the kind of dizziness you get with nausea, like uh not, not proper room spinning or anything like that but just, just a little bit kind of off balance. (room spinning: negated)
+  [FALSE] omission: Uh nothing major it's just kind of uh it's, it's not the kind of dizziness you get with nausea, like uh not, not proper room spinning or anything like that but just, just a little bit kind of off balance. (balance: affirmed)
+  [FALSE] omission: The ringing that you got, that you've got, it's something called Tinnitus. (tinnitus: affirmed)
+  [FALSE] omission: and Tinnitus is something actually that medicine doctors, we don't really understand it fully. (medicine: affirmed)
+  [FALSE] omission: paste the link for a leaflet about Tinnitus, um, in the notes for this appointment. (link: affirmed)
+  [FALSE] omission: So, um, I'm going to paste a link to that, um, and you can read about that and (read: affirmed)
+  [FALSE] hallucination: One previous similar episode in the past- resolved spontaneously. (resolved: affirmed)
+  [FALSE] hallucination: No discharge/ fever/ itchiness/ pain (pain: negated)
+  [FALSE] hallucination: Doesn't use cotton wool buds (cotton: negated)
+  [FN] omission: Imp: need to exclude impacted wax in ear canal first
+Pln: for face to face GP appointment in 5 days to examine ear
+Pt to read about tinnitus in the meantime via following link: www.patient.co.uk/tinnitus
+If any problems in interim to ring us back
+Pt happy with and understands plan
+  [FN] omission: History: 
+Hx of difficulty hearing left ear for 6 weeks with tinnitus and slight nausea/ dizziness.
+
+prim17.txt
+  [FALSE] omission: Before we start your appointment, could you please tell me your first name and your date of birth. (date: affirmed)
+  [FALSE] omission: And I was born on the fifth of April, uh, nineteen seventy three. (born: affirmed)
+  [FALSE] omission: Yeah. Um, I just noticed this like about a week ago, or something? Um, have like a weird swelling on, on, on my elbow. I noticed that when I was in the shower. Uh, (place: affirmed)
+  [FALSE] omission: Um, it's the, the left elbow. (left elbow: affirmed)
+  [FALSE] omission: No, not really. Um, not that I know of. I haven't noticed anything. I can actually like move it normally. Um, it's just, I , I can just see that. It feels a bit strange, a bit (injury: negated)
+  [FALSE] omission: Well not, not really, no. Um, I'm, I'm allergic to, to peanuts. Um, but that's, that's pretty much all I uh, have to say about my medical history, yeah. (illnesses: negated)
+  [FALSE] omission: So, that's an inflammation of one of the fluid sacs around the joint. (inflammation: affirmed)
+  [FALSE] omission: So, that's an inflammation of one of the fluid sacs around the joint. (sacs: affirmed)
+  [FALSE] omission: Um, what I think we should do is, I think you should be on some anti-inflammatory medication, in the, in the first instance. (anti-inflammatory: affirmed)
+  [FALSE] omission: So, um, what we're going to do is, we're going to arrange some, um, blood test forms to be sent out to your house. (blood test: affirmed)
+  [FALSE] omission: And, that will involve you, um, having some tests done to check for inflammatory markers, infection, rheumatological antibodies. (tests: affirmed)
+  [FALSE] omission: And, that will involve you, um, having some tests done to check for inflammatory markers, infection, rheumatological antibodies. (infection: affirmed)
+  [FALSE] omission: And, that will involve you, um, having some tests done to check for inflammatory markers, infection, rheumatological antibodies. (antibodies: affirmed)
+  [FALSE] omission: So we'll do a full screen, and also check for things like Gout as well, OK. Um. (gout: affirmed)
+  [FALSE] omission: It doesn't look like, to me that's something called, excuse me, septic arthritis. (septic arthritis: negated)
+  [FALSE] omission: So, we're worried sometimes that someone might have an acutely infected joint. (infected joint: affirmed)
+  [FALSE] omission: OK. So, I, I would take Ibuprofen regularly, OK. You can get that , over the counter. (ibuprofen: affirmed)
+  [FALSE] omission: And you should take, take that after food, not on an empty stomach. (food: affirmed)
+  [FALSE] omission: And you should take, take that after food, not on an empty stomach. (stomach: negated)
+  [FALSE] omission: Maybe within a um, actually you know, the follow-up appointment doesn't have to be face-to-face, if it's more convenient for you do, to do it over the phone, we can do that over the phone, uh, over video. (face: negated)
+  [FALSE] hallucination: Not painful. (painful: negated)
+  [FALSE] hallucination: No trauma. (trauma: negated)
+  [FALSE] hallucination: SH: exercises regularly, active (exercises: affirmed)
+  [TRUE] hallucination: Imp: ? Mild erythema and minimal swelling (if any) around olecranon process left elbow (erythema: affirmed)
+  [FALSE] hallucination: Plan: for NSAIDs- usual advice re SE (advice: affirmed)
+  FN - none
+
+prim18.txt
+  [FALSE] omission: Yeah, so again it's the left side, it's kind of like around my left ear, and kind of, along here. So like, my jawline's just all feeling a bit numb round here. (finger: affirmed)
+  [FALSE] omission: Yeah, so again it's the left side, it's kind of like around my left ear, and kind of, along here. (left ear: affirmed)
+  [FALSE] omission: Um, I've, well I've got kind of, been told I have polyps in my nose in the past and, occasionally get them kind of . (nose: affirmed)
+  [FALSE] omission: Um, that, that's all fine and, you know I take a Rennie's if I need to, and if my nose polyps are playing up I've got a spray. Um. (rennie: affirmed)
+  [FALSE] omission: Other than that I think they said, ages ago, I had something called, can't quite remember but, labyrinthitis, something like that, but again, nothing, nothing ongoing. (labyrinthitis: affirmed)
+  [FALSE] omission: Uh, yeah, they gave me a prescription ages ago. (prescription: affirmed)
+  [FALSE] omission: Yeah, so I'm a, I'm a jockey, um, but, because of all the kind of, these symptoms I've been getting, especially sometimes when I get a ringing, I can feel a bit dizzy. (dizzy: affirmed)
+  [FALSE] omission: so um, uh, obviously we're limited in terms of assessment via the video, uh, portal. (assessment: affirmed)
+  [FALSE] omission: so um, uh, obviously we're limited in terms of assessment via the video, uh, portal. (portal: affirmed)
+  [FALSE] omission: However, , in order to definitively reassure you, I, I think you need a physical examination today, OK. (physical examination: affirmed)
+  [FALSE] omission: And you can ring them after five minutes, and then they'll slot you in to a place that's convenient for you, OK. (place: affirmed)
+  [FALSE] hallucination: Hx: 1 week history of left side difficulty hearing and facial numbness (facial numbness: affirmed)
+  [FALSE] hallucination: No dysphagia, dysarthria, no unilateral weakness/numbness in the rest of the body, no visual disturbances (dysarthria: negated)
+  [FALSE] hallucination: Plan: for face to face review today for neurological examination and ear examination (ear examination: affirmed)
+  [FN] omission: Slight tinnitus at times in this period- not continuous
+Numbness and difficulty hearing present now 
+Pmhx: labyrinthitis, heart burn, nasal polyps
+DH: Rennies PRN OTC, nasal spray PRN (pt not sure of name)
+Allergies: latex allergy
+No FH of note
+Ex: no facial asymmetry, looks well, normal facial expressions and movements
+Imp: ?
+
+=== Evaluation Results ===
+prim1.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=21 FN=1)
+prim10.txt: precision=0.03 recall=1.00 f1=0.06 accuracy=0.03 (TP=1 FP=29 FN=0)
+prim11.txt: precision=0.05 recall=0.33 f1=0.09 accuracy=0.05 (TP=1 FP=19 FN=2)
+prim12.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=10 FN=3)
+prim13.txt: precision=0.04 recall=0.50 f1=0.07 accuracy=0.04 (TP=1 FP=24 FN=1)
+prim14.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=35 FN=0)
+prim15.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=19 FN=3)
+prim16.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=21 FN=2)
+prim17.txt: precision=0.04 recall=1.00 f1=0.08 accuracy=0.04 (TP=1 FP=24 FN=0)
+prim18.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=14 FN=1)
+
+Overall (all types): precision=0.02 recall=0.24 f1=0.03 accuracy=0.02 (TP=4 FP=216 FN=13)
+
+By type:
+  hallucination: precision=0.07 recall=0.50 f1=0.12 accuracy=0.07 (TP=4 FP=53 FN=4)
+  omission: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=163 FN=9)

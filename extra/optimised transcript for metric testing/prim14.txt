@@ -1,0 +1,64 @@
+d: Can I confirm your name and your date of birth?
+p: My name is April, and I'm fifty.
+d: How can I help you this afternoon?
+p: I've just been having this cough for quite a few days, and my nose is running, it's been super annoying and not going away.
+d: When did it all start?
+p: Maybe five or six days ago.
+d: Let's focus on your cough first, can you tell me a bit more?
+p: It's just so continuous, really frustrating, quite dry, all day, keeps me up at night as well.
+d: A dry cough, so you're not bringing up any mucky phlegm?
+p: No.
+d: Do you have a sore throat at all?
+p: The coughing is giving me a sore throat, my throat is irritated from coughing, but not that bad when I swallow.
+d: How are your ears, do they feel blocked?
+p: No, they feel OK, nothing on the ears, no pain, no discharge.
+d: In terms of your breathing, is it more laboured?
+p: I get laboured when I'm coughing and can't breathe, but not really otherwise.
+d: You don't feel breathless day to day?
+p: I don't feel breathless, I feel generally tired. Not anything special with my chest.
+d: Any pain in your chest?
+p: No, not that either.
+d: Have you felt feverish, had a temperature?
+p: I've been having shivers, even in bed, I should be warm but I'm still shivering. I haven't taken my temperature, but it feels like I probably had a fever, I was next to my boyfriend and he was completely warm, and I couldn't stop shivering, kept adding more sweaters on and was still cold.
+d: Any nausea, vomiting?
+p: No, nothing like that.
+d: How's your appetite?
+p: It's OK, at the beginning when the coughing started I had a little bit of diarrhea, but it didn't cut my appetite, my stomach just wasn't feeling great.
+d: Has that got better now, the diarrhea?
+p: Yeah, it got better, it started at the same time as the cough and then stopped, but the cough just kept going.
+d: Any problems with your waterworks, passing urine OK?
+p: It's fine. I drank loads of water when I had the diarrhea, now that it stopped I went back to normal.
+d: Any skin rashes, or problems with your muscles or joints?
+p: When I had the chills I was really cold, my muscles were really hurting, especially my arms and legs, everywhere basically. I do pilates sometimes but it's hurting me so much at the moment, all I feel like doing is lying in bed.
+d: Are you normally otherwise fit and well? Any other medical history?
+p: I have type two diabetes, and quite high blood pressure.
+d: What medications do you take on a regular basis?
+p: Metformin for the diabetes, and Lisinopril for the high blood pressure.
+d: Any allergies at all to medications?
+p: No allergies.
+d: Regarding any family history, is there anything I should be aware of?
+p: My dad also has type two diabetes.
+d: Who's looking after your diabetes?
+p: I regularly go see a doctor who checks up on it, same with the high blood pressure, I have it under control, regularly checking since I started the medication.
+d: In terms of your social situation, who lives at home with you?
+p: Just me and my partner.
+d: Is your partner well at the moment?
+p: Yeah, he has none of this, I was a bit worried I'd pass it to him, but he's fine.
+d: Are you working at the moment?
+p: Yeah, I skipped the first day because I felt too rough, but then went back because I had so much to do.
+d: What is it that you do for work?
+p: I'm a developer, work in IT, not too active a job.
+d: Has it been quite stressful recently?
+p: Not more than usual, I don't think it's related to stress, I've been able to take a day off to try and recover.
+d: Do you smoke at all?
+p: I used to, but I've stopped for about six months now.
+d: What about alcohol?
+p: I don't drink more than about three evenings a week, wine mostly, maybe two or three glasses on those nights, rarely get properly drunk.
+d: You're probably just about under the recommended limit. Something to think about in terms of your blood pressure and diabetes, maybe cut down if you can -- ideally cut down completely, but in practice maybe cut down to two glasses a week for the first few weeks, then try and cut down altogether if you're coping OK.
+d: As we wrap up, based on your story I think you're going through a bit of a viral illness, I don't think there's anything to worry about -- a bit of a cough, runny nose, feeling weak and lethargic. It's been five days, I'm hoping you're maybe over the worst of it, it normally lasts about a week to ten days.
+p: What should I do if it keeps going on, say four more days?
+d: Things you can do to help yourself in the meantime -- get some good rest, drink plenty of fluids, keep yourself well-hydrated, you can take regular Paracetamol. If you're still not getting any better in two to three days, it's probably worth coming back to see me again, we can check you over. If you are still feeling feverish and your cough isn't getting any better, we may look to give you antibiotics for your chest.
+p: Do you think I should keep going to work?
+d: It depends on you -- if you are coughing there's a theoretical risk you're maybe slightly infectious still, so I'd say maybe take a day or two off work if you can, get some good bed rest, and think about work early next week. But if your cough isn't getting any better, or your breathing is getting worse, I want you to come back and see me sooner.
+p: Otherwise I don't need to worry?
+d: Nothing to worry about otherwise.

@@ -1,0 +1,6 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "\"Mebeverine\" was swapped for \"Mum\" (from note 50)"
+  }
+]

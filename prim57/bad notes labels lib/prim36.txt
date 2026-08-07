@@ -1,0 +1,14 @@
+[
+  {
+    "type": "omission",
+    "severity": "critical",
+    "detail_type": "omitted detail",
+    "detail": "1-2 hours in duration, acute onset, 1st presentation started while gardening."
+  },
+  {
+    "type": "hallucination",
+    "severity": "low",
+    "detail_type": "entity swap",
+    "detail": "\u2105 nausea no vomiting since presentation \n SOBAR \n\n HPC."
+  }
+]

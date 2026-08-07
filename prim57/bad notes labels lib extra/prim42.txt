@@ -1,0 +1,6 @@
+[
+  {
+    "type": "omission",
+    "detail": "If no better for further medical reveiw at that time."
+  }
+]

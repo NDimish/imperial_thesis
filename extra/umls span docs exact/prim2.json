@@ -1,0 +1,1506 @@
+[
+  {
+    "term": "like",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 20,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...s. So, it's been a few days now. I have [[like]] a sore, and a red skin. It's kind of, i...",
+      "[transcript] ...y, and it's like super annoying. So I'd [[like]] to find something quick to solve it.\nd:...",
+      "[transcript] ...y like my chest, my, my hands, my arms. [[Like]], like really, it's it's super annoying...."
+    ],
+    "label": false
+  },
+  {
+    "term": "chest",
+    "semtypes": [
+      "T029"
+    ],
+    "count_transcript": 12,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...n is it affected?\np: Uh, mostly like my [[chest]], my, my hands, my arms. Like, like real...",
+      "[transcript] ...n is it affected?\np: Uh, mostly like my [[chest]], my, my hands, my arms. Like, like real...",
+      "[transcript] ...ly in the arm. But now it's also on the [[chest]]. And in the on the, on the hands as wel..."
+    ],
+    "label": true
+  },
+  {
+    "term": "symptoms",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 12,
+    "count_soap_note": 1,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...I mean, at that time yes. That's, those [[symptoms]], like these symptoms appear like, when ...",
+      "[transcript] ...yes. That's, those symptoms, like these [[symptoms]] appear like, when the symptoms appeared...",
+      "[transcript] ...ke these symptoms appear like, when the [[symptoms]] appeared again, I tried those and it di..."
+    ],
+    "label": false
+  },
+  {
+    "term": "eczema",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 9,
+    "count_soap_note": 3,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...Uh earlier I was like prescribed for my [[eczema]].\nd: OK.\np: And they gave me like some c...",
+      "[transcript] ...these symptoms are very similar to your [[eczema]] symptoms, or different?\np: Um\np: it's m...",
+      "[transcript] ...Um\np: it's much more like itchy. And my [[eczema]] was more like only in the arm. But now ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "well",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 9,
+    "count_soap_note": 1,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...d: Hello?\np: Hello. Can you hear me [[well]]?\nd: Uh uh yes. I think. It's a bit bett...",
+      "[transcript] ...est. And in the on the, on the hands as [[well]].\nd: OK.\np: Like pretty, yeah when, like...",
+      "[transcript] ...h is very very annoying.\nd: Yes.\nd: No. [[Well]] OK. That's so you mentioned the itchine..."
+    ],
+    "label": false
+  },
+  {
+    "term": "skin",
+    "semtypes": [
+      "T031"
+    ],
+    "count_transcript": 7,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...days now. I have like a sore, and a red [[skin]]. It's kind of, it's really itchy, and i...",
+      "[transcript] ...m happy to help. Um whereabouts in your [[skin]] is it affected?\np: Uh, mostly like my c...",
+      "[transcript] ...om your skins?\np: . OK.\np: No. Um so my [[skin]] is a bit cracked in some parts, like ki..."
+    ],
+    "label": true
+  },
+  {
+    "term": "steroid",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 5,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... tried a few things. Like I bought a, a [[steroid]] cream at the pharmacy last night. But i...",
+      "[transcript] ... the name of the cream you bought?\np: A [[steroid]] cream.\nd: OK, steroid, OK. um would you...",
+      "[transcript] ... you bought?\np: A steroid cream.\nd: OK, [[steroid]], OK. um would you say these symptoms ar..."
+    ],
+    "label": true
+  },
+  {
+    "term": "steroid",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 5,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... tried a few things. Like I bought a, a [[steroid]] cream at the pharmacy last night. But i...",
+      "[transcript] ... the name of the cream you bought?\np: A [[steroid]] cream.\nd: OK, steroid, OK. um would you...",
+      "[transcript] ... you bought?\np: A steroid cream.\nd: OK, [[steroid]], OK. um would you say these symptoms ar..."
+    ],
+    "label": true
+  },
+  {
+    "term": "think",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 7,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] .... Can you hear me well?\nd: Uh uh yes. I [[think]]. It's a bit better. It's a bit, it's a ...",
+      "[transcript] ...I'm in a meeting and I have to, like uh [[think]] about my work, I can't focus, I can't a...",
+      "[transcript] ...eally annoying because I can't actually [[think]] about, uh, what I have to say. I'm alwa..."
+    ],
+    "label": false
+  },
+  {
+    "term": "antihistamines",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ....\np: OK.\nd: Um it's also worth um using [[antihistamines]], which you can sometimes buy over count...",
+      "[transcript] ... an eczema CU.\np: OK. Yes, I have tried [[antihistamines]], uh lately, but it didn't really help.\n...",
+      "[transcript] ...y that again, sorry?\np: I have tried uh [[antihistamines]], but uh but it didn't really help.\nd: O..."
+    ],
+    "label": true
+  },
+  {
+    "term": "itchy",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 6,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...d a red skin. It's kind of, it's really [[itchy]], and it's like super annoying. So I'd l...",
+      "[transcript] ...different?\np: Um\np: it's much more like [[itchy]]. And my eczema was more like only in th...",
+      "[transcript] ...temperature or fevers?\np: No. just very [[itchy]]. Nothing else.\nd: Itchy. OK. So your, y..."
+    ],
+    "label": true
+  },
+  {
+    "term": "cream",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...a.\nd: OK.\np: And they gave me like some [[cream]], and something to, uh when I like showe...",
+      "[transcript] ... few things. Like I bought a, a steroid [[cream]] at the pharmacy last night. But it appa...",
+      "[transcript] ... OK.\nd: Do you remember the name of the [[cream]] you bought?\np: A steroid cream.\nd: OK, ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "face",
+    "semtypes": [
+      "T029"
+    ],
+    "count_transcript": 6,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...bows. Yeah.\nd: \nd: OK. anything on your [[face]] at all?\np: Am I what?\nd: On your face?\n...",
+      "[transcript] ...bows. Yeah.\nd: \nd: OK. anything on your [[face]] at all?\np: Am I what?\nd: On your face?\n...",
+      "[transcript] ...r face at all?\np: Am I what?\nd: On your [[face]]?\np: On my face? No.\nd: No, OK. And apar..."
+    ],
+    "label": true
+  },
+  {
+    "term": "rash",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 6,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...I like to examine you. Um\nd: To see the [[rash]] itself, to see exactly what type of ras...",
+      "[transcript] ...I like to examine you. Um\nd: To see the [[rash]] itself, to see exactly what type of ras...",
+      "[transcript] ...ash itself, to see exactly what type of [[rash]] it is. But from what you've told me, yo..."
+    ],
+    "label": true
+  },
+  {
+    "term": "back",
+    "semtypes": [
+      "T029"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...'s mainly affecting your chest and your [[back]].\nd: Um and uh, having looked at your sk...",
+      "[transcript] ...'s mainly affecting your chest and your [[back]].\nd: Um and uh, having looked at your sk...",
+      "[transcript] ...ully control your symptoms. But do come [[back]] and see me next week, if things don't g..."
+    ],
+    "label": false
+  },
+  {
+    "term": "discharge",
+    "semtypes": [
+      "T031"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ou, have you noticed any uh bleeding or [[discharge]] from your skins?\np: . OK.\np: No. Um so ...",
+      "[transcript] ...ou, have you noticed any uh bleeding or [[discharge]] from your skins?\np: . OK.\np: No. Um so ...",
+      "[soap_note] ...s also sore and cracked. No bleeding or [[discharge]]. No spread elsewhere. Not aware of any ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "allergies",
+    "semtypes": [
+      "T046"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...t?\np: Uh no.\nd: No, OK. Do you have any [[allergies]] to anything?\np: I like some , sorry? Ye...",
+      "[transcript] ...? Yeah?\nd: sorry I said do you have any [[allergies]] to anything?\nd: \nd: Hello?\np: Hello? Ye...",
+      "[transcript] ...alright I think it . Uh do you have any [[allergies]] at all?\np: Ohh, allergies. Uh, no.\nd: N..."
+    ],
+    "label": true
+  },
+  {
+    "term": "allergies",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...t?\np: Uh no.\nd: No, OK. Do you have any [[allergies]] to anything?\np: I like some , sorry? Ye...",
+      "[transcript] ...? Yeah?\nd: sorry I said do you have any [[allergies]] to anything?\nd: \nd: Hello?\np: Hello? Ye...",
+      "[transcript] ...alright I think it . Uh do you have any [[allergies]] at all?\np: Ohh, allergies. Uh, no.\nd: N..."
+    ],
+    "label": true
+  },
+  {
+    "term": "today",
+    "semtypes": [
+      "T109",
+      "T195"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... help, because it's still itching a lot [[today]]. Uh, yeah.\nd: OK.\nd: OK.\nd: Do you reme...",
+      "[transcript] ...Uh, which I'm happy to prescribe to you [[today]]. As well as, I'm going to give you some...",
+      "[transcript] ...ive you something a little bit stronger [[today]] as well.\nd: Um, something like Fexofena..."
+    ],
+    "label": false
+  },
+  {
+    "term": "mean",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] .... But um\nd: OK.\nd: Did it help?\np: Um I [[mean]], at that time yes. That's, those sympto...",
+      "[transcript] ...like kind of cracked, if you see what I [[mean]]. But uh, yeah.\nd: OK.\nd: You've not, ha...",
+      "[transcript] .... Um\nd: It's always good to know. So, I [[mean]], do you have any ideas as to what could..."
+    ],
+    "label": false
+  },
+  {
+    "term": "triggers",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ou, four days ago. Are you aware of any [[triggers]], or anything that you may have done, th...",
+      "[transcript] ... it's also worth keeping a diary of any [[triggers]] which are affecting your symptoms, anyt...",
+      "[soap_note] .... No spread elsewhere. Not aware of any [[triggers]]. Used steroid cream OTC last night with..."
+    ],
+    "label": true
+  },
+  {
+    "term": "itching",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ly, it's it's super annoying. Like it's [[itching]] a lot, like all the time. And\np: I can'...",
+      "[transcript] ...arently didn't help, because it's still [[itching]] a lot today. Uh, yeah.\nd: OK.\nd: OK.\nd:...",
+      "[transcript] ... day to be able to, cannot uh ease this [[itching]] part, which is very very annoying.\nd: Y..."
+    ],
+    "label": true
+  },
+  {
+    "term": "cracked",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...\np: . OK.\np: No. Um so my skin is a bit [[cracked]] in some parts, like kind of cracked, if...",
+      "[transcript] ...bit cracked in some parts, like kind of [[cracked]], if you see what I mean. But uh, yeah.\n...",
+      "[soap_note] ...n chest and back. Skin is also sore and [[cracked]]. No bleeding or discharge. No spread el..."
+    ],
+    "label": true
+  },
+  {
+    "term": "nothing",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...ture or fevers?\np: No. just very itchy. [[Nothing]] else.\nd: Itchy. OK. So your, your bowel...",
+      "[transcript] ...ew beers per week. Something like this. [[Nothing]], nothing crazy. I used to drink a lot m...",
+      "[transcript] ...per week. Something like this. Nothing, [[nothing]] crazy. I used to drink a lot more when ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "hands",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ed?\np: Uh, mostly like my chest, my, my [[hands]], my arms. Like, like really, it's it's ...",
+      "[transcript] ...on the chest. And in the on the, on the [[hands]] as well.\nd: OK.\np: Like pretty, yeah wh...",
+      "[transcript] ...ll?\np: Yeah.\np: Uh, no. Just the chest, [[hands]] and like, like inside the elbows. Yeah...."
+    ],
+    "label": false
+  },
+  {
+    "term": "blood",
+    "semtypes": [
+      "T031"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ot, haven't uh seen any other uh pus or [[blood]], coming out of your skin.\np: No.\nd: No....",
+      "[transcript] ...ot, haven't uh seen any other uh pus or [[blood]], coming out of your skin.\np: No.\nd: No....",
+      "[transcript] ...ot, haven't uh seen any other uh pus or [[blood]], coming out of your skin.\np: No.\nd: No...."
+    ],
+    "label": true
+  },
+  {
+    "term": "aware",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 1,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...ago.\nd: Are you, four days ago. Are you [[aware]] of any triggers, or anything that you m...",
+      "[transcript] ... any other medical problems I should be [[aware]] of?\np: Uh, no. I just had asthma in the...",
+      "[soap_note] ... or discharge. No spread elsewhere. Not [[aware]] of any triggers. Used steroid cream OTC..."
+    ],
+    "label": false
+  },
+  {
+    "term": "sore",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...it's been a few days now. I have like a [[sore]], and a red skin. It's kind of, it's rea...",
+      "[transcript] .... Um you also mentioned it's been quite [[sore]].\np: Yeah.\nd: Um have you, have you noti...",
+      "[soap_note] ... mainly on chest and back. Skin is also [[sore]] and cracked. No bleeding or discharge. ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "face",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...bows. Yeah.\nd: \nd: OK. anything on your [[face]] at all?\np: Am I what?\nd: On your face?\n...",
+      "[transcript] ...r face at all?\np: Am I what?\nd: On your [[face]]?\np: On my face? No.\nd: No, OK. And apar...",
+      "[transcript] ...p: Am I what?\nd: On your face?\np: On my [[face]]? No.\nd: No, OK. And apart from this, an..."
+    ],
+    "label": false
+  },
+  {
+    "term": "breathing difficulties",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...g OK?\nd: Your chest is OK? No cough, no [[breathing difficulties]]?\np: No.\nd: You're passing urine OK.\np: ...",
+      "[transcript] ...g OK?\nd: Your chest is OK? No cough, no [[breathing difficulties]]?\np: No.\nd: You're passing urine OK.\np: ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "pharmaceutical",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...o you do for work?\np: Uh I work uh at a [[pharmaceutical]] company.\np: So it's been a, it's been a...",
+      "[soap_note] ...DA\nSH: lives with flatmates, works as a [[pharmaceutical]] manager. Non-smoker, social EtOH. \nICE:..."
+    ],
+    "label": false
+  },
+  {
+    "term": "pharmaceutical",
+    "semtypes": [
+      "T061"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...o you do for work?\np: Uh I work uh at a [[pharmaceutical]] company.\np: So it's been a, it's been a...",
+      "[soap_note] ...DA\nSH: lives with flatmates, works as a [[pharmaceutical]] manager. Non-smoker, social EtOH. \nICE:..."
+    ],
+    "label": false
+  },
+  {
+    "term": "medications",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...nymore, OK. And do you take any regular [[medications]] at the moment?\np: Uh no.\nd: No, OK. Do ...",
+      "[transcript] ...nymore, OK. And do you take any regular [[medications]] at the moment?\np: Uh no.\nd: No, OK. Do ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "medications",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...nymore, OK. And do you take any regular [[medications]] at the moment?\np: Uh no.\nd: No, OK. Do ...",
+      "[transcript] ...nymore, OK. And do you take any regular [[medications]] at the moment?\np: Uh no.\nd: No, OK. Do ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "itchy skin",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...For the last four days, you've had very [[itchy skin]], very sore skin all over your body, mai...",
+      "[soap_note] ...4/7 hx of dry [[itchy skin]], mainly on chest and back. Skin is also..."
+    ],
+    "label": true
+  },
+  {
+    "term": "definitely",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ch use in the bath and shower. And it's [[definitely]] worth um using that for the first seven...",
+      "[transcript] ...ne, which I can give to you today. It's [[definitely]] worth trying, and it's not going to do ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "itchiness",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...o. Well OK. That's so you mentioned the [[itchiness]]. Um you also mentioned it's been quite ...",
+      "[transcript] ...ratadine or Piriton, which can help the [[itchiness]] of your skin.\np: OK.\nd: And uh, um it's..."
+    ],
+    "label": true
+  },
+  {
+    "term": "discharge",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ou, have you noticed any uh bleeding or [[discharge]] from your skins?\np: . OK.\np: No. Um so ...",
+      "[soap_note] ...s also sore and cracked. No bleeding or [[discharge]]. No spread elsewhere. Not aware of any ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "very much",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... for me?\np: Uh, no that's it. Thank you [[very much]]. Bye. Thank you as well. Bye.\nd: OK. We...",
+      "[transcript] ... for me?\np: Uh, no that's it. Thank you [[very much]]. Bye. Thank you as well. Bye.\nd: OK. We..."
+    ],
+    "label": false
+  },
+  {
+    "term": "bleeding",
+    "semtypes": [
+      "T046"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...d: Um have you, have you noticed any uh [[bleeding]] or discharge from your skins?\np: . OK.\n...",
+      "[soap_note] ...back. Skin is also sore and cracked. No [[bleeding]] or discharge. No spread elsewhere. Not ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "disease",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... I'm always like, uh, disturbed by this [[disease]].\nd: Yeah.\nd: \nd: No no, OK. I'm certain...",
+      "[transcript] ...m so I had eczema before. So maybe it's [[disease]], but it seems like more uh, like uh my ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "alcohol",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...No. And do you drink much in the way of [[alcohol]]?\np: \np: Uh you know, once in a while I ...",
+      "[transcript] ...No. And do you drink much in the way of [[alcohol]]?\np: \np: Uh you know, once in a while I ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "always",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...hink about, uh, what I have to say. I'm [[always]] like, uh, disturbed by this disease.\nd:...",
+      "[transcript] ... I think so.\nd: OK, alright. Um\nd: It's [[always]] good to know. So, I mean, do you have a..."
+    ],
+    "label": false
+  },
+  {
+    "term": "fevers",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...le, have you noticed any temperature or [[fevers]]?\np: No. just very itchy. Nothing else.\n...",
+      "[soap_note] ...ines. \nSystemically well otherwise - no [[fevers]], no vomiting, no SOB/cough. No bowel sx..."
+    ],
+    "label": true
+  },
+  {
+    "term": "asthma",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ould be aware of?\np: Uh, no. I just had [[asthma]] in the past. But not anymore.\nd: OK. No...",
+      "[soap_note] ... SOB/cough. No bowel sx. \n\nPMH: Eczema, [[Asthma]] \nDHx: Nil regular\nNKDA\nSH: lives with f..."
+    ],
+    "label": true
+  },
+  {
+    "term": "start",
+    "semtypes": [
+      "T061"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...ontinue anyway.\np: OK.\nd: Uh, OK. Let's [[start]] again. So how can I help you sir?\np: Ye...",
+      "[transcript] ..., that may have caused your symptoms to [[start]]?\np: Four days ago.\nd: So for example, h..."
+    ],
+    "label": false
+  },
+  {
+    "term": "happy",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...solve it.\nd: OK.\nd: No, no problem. I'm [[happy]] to help. Um whereabouts in your skin is...",
+      "[transcript] ...oid may be beneficial.\nd: Uh, which I'm [[happy]] to prescribe to you today. As well as, ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "maybe",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...y annoying, because I'm thinking about, [[maybe]] I should change something. Because I I ...",
+      "[transcript] ...ptoms?\np: Um so I had eczema before. So [[maybe]] it's disease, but it seems like more uh..."
+    ],
+    "label": false
+  },
+  {
+    "term": "cough",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...are working OK?\nd: Your chest is OK? No [[cough]], no breathing difficulties?\np: No.\nd: Y...",
+      "[soap_note] ...erwise - no fevers, no vomiting, no SOB/[[cough]]. No bowel sx. \n\nPMH: Eczema, Asthma \nDH..."
+    ],
+    "label": true
+  },
+  {
+    "term": "ideas",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...od to know. So, I mean, do you have any [[ideas]] as to what could be causing your sympto...",
+      "[transcript] ...sing your symptoms?\np: Any what?\nd: Any [[ideas]], as to what could be causing your sympt..."
+    ],
+    "label": true
+  },
+  {
+    "term": "stage",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... OK. That's OK. So um, normally at this [[stage]] I like to examine you. Um\nd: To see the...",
+      "[transcript] ...\nd: OK. OK. OK I've got to say, at this [[stage]] I've got to say this sound quality is n..."
+    ],
+    "label": false
+  },
+  {
+    "term": "flare",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...d Sarah , I do wonder whether this is a [[flare]]-up of your eczema. Um\np: \nd: The reason...",
+      "[soap_note] ...be related to eczema. No concerns\n\nImp: [[flare]] up of eczema\n\nPlan:\n1.\tSteroid cream - ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "flare",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...d Sarah , I do wonder whether this is a [[flare]]-up of your eczema. Um\np: \nd: The reason...",
+      "[soap_note] ...be related to eczema. No concerns\n\nImp: [[flare]] up of eczema\n\nPlan:\n1.\tSteroid cream - ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "arms",
+    "semtypes": [
+      "T191"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... mostly like my chest, my, my hands, my [[arms]]. Like, like really, it's it's super ann...",
+      "[transcript] ...e uh, like uh my eczema was only on the [[arms]]. So, I'm I'm not sure. I I really have ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "arms",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... mostly like my chest, my, my hands, my [[arms]]. Like, like really, it's it's super ann...",
+      "[transcript] ...e uh, like uh my eczema was only on the [[arms]]. So, I'm I'm not sure. I I really have ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "arms",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... mostly like my chest, my, my hands, my [[arms]]. Like, like really, it's it's super ann...",
+      "[transcript] ...e uh, like uh my eczema was only on the [[arms]]. So, I'm I'm not sure. I I really have ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "much",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...a symptoms, or different?\np: Um\np: it's [[much]] more like itchy. And my eczema was more...",
+      "[transcript] ... at all?\np: No.\nd: No. And do you drink [[much]] in the way of alcohol?\np: \np: Uh you kn..."
+    ],
+    "label": false
+  },
+  {
+    "term": "else",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...lothing?\nd: Have you been around anyone [[else]]?\np: No I . It's actually like, it's rea...",
+      "[transcript] ...fevers?\np: No. just very itchy. Nothing [[else]].\nd: Itchy. OK. So your, your bowels are..."
+    ],
+    "label": false
+  },
+  {
+    "term": "said",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...: I like some , sorry? Yeah?\nd: sorry I [[said]] do you have any allergies to anything?\n...",
+      "[transcript] ...ma. Um\np: \nd: The reason being that you [[said]] it was quite itchy. Um it's mainly affe..."
+    ],
+    "label": false
+  },
+  {
+    "term": "used",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ng like this. Nothing, nothing crazy. I [[used]] to drink a lot more when I was younger....",
+      "[soap_note] ...d elsewhere. Not aware of any triggers. [[Used]] steroid cream OTC last night with minim..."
+    ],
+    "label": false
+  },
+  {
+    "term": "other symptoms",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...No.\nd: No, OK. And apart from this, any [[other symptoms]] have you noticed? For example, have you..."
+    ],
+    "label": false
+  },
+  {
+    "term": "arms and legs",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ur chest. And did you also mention your [[arms and legs]] as well?\np: Yeah.\np: Uh, no. Just the c..."
+    ],
+    "label": true
+  },
+  {
+    "term": "passing urine",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...reathing difficulties?\np: No.\nd: You're [[passing urine]] OK.\np: I I think so.\nd: OK, alright. Um..."
+    ],
+    "label": true
+  },
+  {
+    "term": "other medical",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... apart from the eczema, do you have any [[other medical]] problems I should be aware of?\np: Uh, n..."
+    ],
+    "label": false
+  },
+  {
+    "term": "cracked skin",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ..., you've got some dry skin and some, uh [[cracked skin]] as well.\nd: Uh and has been very itchy...."
+    ],
+    "label": true
+  },
+  {
+    "term": "fexofenadine",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...er today as well.\nd: Um, something like [[Fexofenadine]], which I can give to you today. It's de..."
+    ],
+    "label": true
+  },
+  {
+    "term": "didn't help",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... pharmacy last night. But it apparently [[didn't help]], because it's still itching a lot today..."
+    ],
+    "label": true
+  },
+  {
+    "term": "interesting",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...few years now. Uh it's uh, it's kind of [[interesting]]. We're working I'm a, like a kind of pr..."
+    ],
+    "label": false
+  },
+  {
+    "term": "understand",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...thing. Because I I haven't, and I don't [[understand]] I cannot, um afraid of asking people ar..."
+    ],
+    "label": false
+  },
+  {
+    "term": "loratadine",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...etimes buy over counter.\nd: Things like [[Loratadine]] or Piriton, which can help the itchines..."
+    ],
+    "label": true
+  },
+  {
+    "term": "discussion",
+    "semtypes": [
+      "T061"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...g your symptoms, then we need to have a [[discussion]] about an eczema CU.\np: OK. Yes, I have ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "sore skin",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... days, you've had very itchy skin, very [[sore skin]] all over your body, mainly your chest. ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "remember",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...oday. Uh, yeah.\nd: OK.\nd: OK.\nd: Do you [[remember]] the name of the cream you bought?\np: A ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "thinking",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...like, it's really annoying, because I'm [[thinking]] about, maybe I should change something...."
+    ],
+    "label": false
+  },
+  {
+    "term": "not sure",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...czema was only on the arms. So, I'm I'm [[not sure]]. I I really have no idea.\nd: \nd: OK. Th..."
+    ],
+    "label": false
+  },
+  {
+    "term": "dry skin",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...me, you mentioned it's, you've got some [[dry skin]] and some, uh cracked skin as well.\nd: U..."
+    ],
+    "label": true
+  },
+  {
+    "term": "dry skin",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...me, you mentioned it's, you've got some [[dry skin]] and some, uh cracked skin as well.\nd: U..."
+    ],
+    "label": true
+  },
+  {
+    "term": "decision",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...n days.\np: OK.\nd: Uh before we make the [[decision]] on whether it's working or not.\np: OK.\n..."
+    ],
+    "label": false
+  },
+  {
+    "term": "steroids",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...arm.\np: OK.\nd: Um but I think using the [[steroids]] and the emollients, um on a regular bas..."
+    ],
+    "label": true
+  },
+  {
+    "term": "problem",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...ing quick to solve it.\nd: OK.\nd: No, no [[problem]]. I'm happy to help. Um whereabouts in y..."
+    ],
+    "label": false
+  },
+  {
+    "term": "problem",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...ing quick to solve it.\nd: OK.\nd: No, no [[problem]]. I'm happy to help. Um whereabouts in y..."
+    ],
+    "label": false
+  },
+  {
+    "term": "painful",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...do that last weekend. And because super [[painful]], and I I have to take like showers ever..."
+    ],
+    "label": true
+  },
+  {
+    "term": "hanging",
+    "semtypes": [
+      "T037"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...you know, once in a while I can, I like [[hanging]] out with people once in a while. So yea..."
+    ],
+    "label": false
+  },
+  {
+    "term": "piriton",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...r counter.\nd: Things like Loratadine or [[Piriton]], which can help the itchiness of your s..."
+    ],
+    "label": true
+  },
+  {
+    "term": "control",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...next week to ten days, should hopefully [[control]] your symptoms. But do come back and see..."
+    ],
+    "label": false
+  },
+  {
+    "term": "sorted",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...we'll try our very best to get get this [[sorted]] out for you. Um, have you had anything ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "change",
+    "semtypes": [
+      "T061"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ause I'm thinking about, maybe I should [[change]] something. Because I I haven't, and I d..."
+    ],
+    "label": false
+  },
+  {
+    "term": "afraid",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...'t, and I don't understand I cannot, um [[afraid]] of asking people around me because it's..."
+    ],
+    "label": false
+  },
+  {
+    "term": "bowels",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...thing else.\nd: Itchy. OK. So your, your [[bowels]] are working OK?\nd: Your chest is OK? No..."
+    ],
+    "label": true
+  },
+  {
+    "term": "living",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... I'm I have a full time job. And so I'm [[living]] with a few people to save money.\nd: OK...."
+    ],
+    "label": false
+  },
+  {
+    "term": "affect",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... I want to ask you, which can sometimes [[affect]] your symptoms, is, do you smoke at all?..."
+    ],
+    "label": false
+  },
+  {
+    "term": "little",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ihistamines. I can give you something a [[little]] bit stronger today as well.\nd: Um, some..."
+    ],
+    "label": false
+  },
+  {
+    "term": "sleep",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... like all the time. And\np: I can't even [[sleep]] at night. I really need something quick..."
+    ],
+    "label": true
+  },
+  {
+    "term": "basis",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ids and the emollients, um on a regular [[basis]]\nd: Uh over the next week to ten days, s..."
+    ],
+    "label": false
+  },
+  {
+    "term": "find",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...t's like super annoying. So I'd like to [[find]] something quick to solve it.\nd: OK.\nd: ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "able",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ve to take like showers every day to be [[able]] to, cannot uh ease this itching part, w..."
+    ],
+    "label": false
+  },
+  {
+    "term": "ease",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...wers every day to be able to, cannot uh [[ease]] this itching part, which is very very a..."
+    ],
+    "label": false
+  },
+  {
+    "term": "feel",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ecause it's cannot you know um, I don't [[feel]] really comfortable asking about these q..."
+    ],
+    "label": false
+  },
+  {
+    "term": "non-smoker",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...tes, works as a pharmaceutical manager. [[Non-smoker]], social EtOH. \nICE: pt thinks might be ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "betnovate",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ... up of eczema\n\nPlan:\n1.\tSteroid cream - [[Betnovate]] BD\n2.\tEmollients - cetraben - use up to..."
+    ],
+    "label": true
+  },
+  {
+    "term": "vomiting",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...emically well otherwise - no fevers, no [[vomiting]], no SOB/cough. No bowel sx. \n\nPMH: Ecze..."
+    ],
+    "label": true
+  },
+  {
+    "term": "related",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ..., social EtOH. \nICE: pt thinks might be [[related]] to eczema. No concerns\n\nImp: flare up o..."
+    ],
+    "label": false
+  },
+  {
+    "term": "trigger",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ... to QDS\n3.\tTrial antihistamines\n4.\tKeep [[trigger]] diary \n5.\tReview in 10-14d if symptoms ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "thinks",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...ager. Non-smoker, social EtOH. \nICE: pt [[thinks]] might be related to eczema. No concerns..."
+    ],
+    "label": false
+  },
+  {
+    "term": "bowel",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...o fevers, no vomiting, no SOB/cough. No [[bowel]] sx. \n\nPMH: Eczema, Asthma \nDHx: Nil reg..."
+    ],
+    "label": true
+  },
+  {
+    "term": "lives",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...zema, Asthma \nDHx: Nil regular\nNKDA\nSH: [[lives]] with flatmates, works as a pharmaceutic..."
+    ],
+    "label": true
+  },
+  {
+    "term": "etoh",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...rmaceutical manager. Non-smoker, social [[EtOH]]. \nICE: pt thinks might be related to ec..."
+    ],
+    "label": true
+  },
+  {
+    "term": "plan",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] .... No concerns\n\nImp: flare up of eczema\n\n[[Plan]]:\n1.\tSteroid cream - Betnovate BD\n2.\tEmo..."
+    ],
+    "label": false
+  }
+]

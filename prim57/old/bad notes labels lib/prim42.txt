@@ -1,10 +1,14 @@
 [
   {
-    "type": "omission",
-    "detail": "No blood."
+    "type": "hallucination",
+    "detail": "\"NKDA \n Shx - No\" was swapped for \"Clinil\" (from note 44)"
   },
   {
     "type": "hallucination",
-    "detail": "\"Lung Ca\" was swapped for \"Clinil\" (from note 44)"
+    "detail": "\"DOB\" was swapped for \"HTN \n DH\" (from note 14)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 14: \"Initial diarrhea - but now resolved \nNil urinary symptoms\nNo rashes \n\nPMH: Type 2 diabetes, HTN\nDH: metformin, lisinopril \nNKDA\nFH: Father - type 2 diabetes \nSH: lives with partner, works IT, denies stress.\""
   }
 ]

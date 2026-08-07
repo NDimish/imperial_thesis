@@ -1,18 +1,10 @@
 [
   {
-    "type": "omission",
-    "detail": "Cough - worse at night."
+    "type": "hallucination",
+    "detail": "inserted sentence from note 53: \"Stopped medication 3-4 years ago but sometimes takes salbutamol still every few weeks.\""
   },
   {
     "type": "hallucination",
-    "detail": "inserted sentence from note 53: \"Lives with partner.\""
-  },
-  {
-    "type": "hallucination",
-    "detail": "\"NKDA \n\n Fhx - Mother - Excema\" was swapped for \"Lung Ca\" (from note 42)"
-  },
-  {
-    "type": "omission",
-    "detail": "Still symotoms of cold and cough has stayed."
+    "detail": "inserted sentence from note 42: \"Gradually improving.\""
   }
 ]

@@ -1,0 +1,20 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "moderate",
+    "detail_type": "inserted sentence",
+    "detail": "No abdo pain."
+  },
+  {
+    "type": "omission",
+    "severity": "high",
+    "detail_type": "omitted detail",
+    "detail": "Start with crackers, soups and mash ."
+  },
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "inserted sentence",
+    "detail": "Hx of fever for a week with associated sweatiness, body/muscle aches, nausea, fatigue, night sweats, hot/cold episodes\nDrinking less cf normal\n Taking ibuprofen and paracetamol otc- not helping, helps with temp slightly\nNo cough, sore throat, runny nose, ear pain."
+  }
+]

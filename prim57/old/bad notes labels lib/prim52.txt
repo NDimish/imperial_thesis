@@ -1,14 +1,14 @@
 [
   {
-    "type": "omission",
-    "detail": "PC: Cough and cold."
-  },
-  {
-    "type": "omission",
-    "detail": "Thinks last BP was fine, can't remember when last BP/DM check up was."
-  },
-  {
     "type": "hallucination",
-    "detail": "\"Imp\" was swapped for \"LRTI\" (from note 19)"
+    "detail": "\"BP / DM\" was swapped for \"HTN \n DH\" (from note 14)"
+  },
+  {
+    "type": "omission",
+    "detail": "Feels hot, hasn't measured temperature."
+  },
+  {
+    "type": "omission",
+    "detail": "No vomiting."
   }
 ]

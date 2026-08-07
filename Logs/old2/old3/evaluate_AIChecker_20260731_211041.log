@@ -1,0 +1,56 @@
+prim1.txt
+  missed - hallucination: inserted sentence from note 11: "No blood in stools."
+  added - hallucination: also vomiting - mainly bilous.
+  added - hallucination: wife and children also unwell with vomiting, but no diarrhea.
+  added - hallucination: works as an accountant.
+  added - omission: d: i will certainly advise you to take some time off work, actually i know you're quite keen to work but i would say the next two, two to three days as the infection clears from your system to take some time off and rest.
+prim10.txt
+  missed - hallucination: inserted sentence from note 9: "Nil bowel sx
+Currently sexually active - with regular partner for 2/12."
+  missed - hallucination: inserted sentence from note 9: "Brief episode of haematuria, now resolved."
+  missed - hallucination: inserted sentence from note 9: "Abdo pain - cramping, nil radiating 
+Nil nausea/vomiting."
+  added - omission: so i i smoked, uh this is quite bad, but i smoked weed for the first time.
+  added - hallucination: currently sexually active - with regular partner for 2/12. brief episode of haematuria, now resolved.
+prim11.txt
+  missed - none
+  added - hallucination: sh: lives with sister and mum.
+  added - hallucination: works in office.
+  added - omission: and, and you said that, you mentioned, three days ago was when it all kicked off.
+prim12.txt
+  missed - hallucination: inserted sentence from note 4: "Finding work slightly stressful."
+  added - omission: normally you have to be diarrhea-free for about twenty four to forty eight hours, before you return back to work.
+  added - hallucination: mother - diabetes type 2
+  added - hallucination: sh: lives alone , software engineer.
+  added - hallucination: nil smoking, social etoh
+  added - hallucination: 1. finding work slightly stressful.
+prim13.txt
+  missed - hallucination: inserted sentence from note 5: "Rx empirically with Abx for UTI
+4."
+  missed - hallucination: inserted sentence from note 3: "Had visual aura before onset of headaches - zigzag lines in field of vision."
+  added - hallucination: no visual sx
+  added - hallucination: sh: lives with housemates, works in it, wears glasses, denies stress. socially smoke/etoh
+  added - hallucination: 1. had visual aura before onset of headaches - zigzag lines in field of vision. paracetamol/nsaids regular
+  added - hallucination: 4. rx empirically with abx for uti
+  added - omission: p: no, it's hard to focus though. so, i i had to take a couple of days off work, actually.
+  added - omission: p: yeah so i work, well i work in it. so i work with computers a lot. so it kind of is difficult to focus. um i had to like reduce the uh, brightness of my screen.
+
+ [run 1] precision=0.20 recall=0.42 f1=0.27 avg_elapsed=26.460612340003717
+
+ 
+=== Evaluation Results ===
+
+ prim1.txt: precision=0.33 recall=0.67 f1=0.44 accuracy=0.29 (TP=2 FP=4 FN=1)
+
+ prim10.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=2 FN=3)
+
+ prim11.txt: precision=0.40 recall=1.00 f1=0.57 accuracy=0.40 (TP=2 FP=3 FN=0)
+
+ prim12.txt: precision=0.17 recall=0.50 f1=0.25 accuracy=0.14 (TP=1 FP=5 FN=1)
+
+ prim13.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=6 FN=2)
+
+ 
+Overall: precision=0.20 recall=0.42 f1=0.27 accuracy=0.16 (TP=5 FP=20 FN=7)
+
+ Average elapsed time: 26.46s

@@ -1,0 +1,6 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"No giving way/locking.\" to \"giving way/locking.\""
+  }
+]

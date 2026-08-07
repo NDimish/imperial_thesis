@@ -1,0 +1,26 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "low",
+    "detail_type": "entity swap",
+    "detail": "GP's Palsy- need to rule out any other focal neurology \n Plan: for face to face review today for neurological examination and ear examination \n Pt to ring support line for GP F2f slot \n Pt understands and is happy with plan"
+  },
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "Hx: 1 week history of left side difficulty hearing and facial numbness dysphagia, dysarthria, no unilateral weakness / numbness in the rest of the body, no visual disturbances No ear pain, ear discharge, fever, itchiness or cotton bud use."
+  },
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "Slight tinnitus at times in this period- continuous Numbness and difficulty hearing present now Pmhx: labyrinthitis, heart burn, nasal polyps DH: Rennies PRN OTC, nasal spray PRN (pt not sure of name) Allergies: latex allergy No FH of note Ex: no facial asymmetry, looks well, normal facial expressions and movements Imp: ?"
+  },
+  {
+    "type": "hallucination",
+    "severity": "low",
+    "detail_type": "entity swap",
+    "detail": "Slight tinnitus at times in this period- continuous HTN \n DH and difficulty hearing present now Pmhx: labyrinthitis, heart burn, nasal polyps DH: Rennies PRN OTC, nasal spray PRN (pt not sure of name) Allergies: latex allergy No FH of note Ex: no facial asymmetry, looks well, normal facial expressions and movements Imp: ?"
+  }
+]

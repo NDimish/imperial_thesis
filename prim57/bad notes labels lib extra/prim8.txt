@@ -1,0 +1,22 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 9: \"Abdo pain - cramping, nil radiating \nNil nausea/vomiting.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"Sx\" was swapped for \"UTI\" (from note 9)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"No vomiting.\" to \"vomiting.\""
+  },
+  {
+    "type": "omission",
+    "detail": "No cracked skin."
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"Abdo\" was swapped for \"EtOH\" (from note 9)"
+  }
+]

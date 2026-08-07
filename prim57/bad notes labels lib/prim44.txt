@@ -1,0 +1,14 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "low",
+    "detail_type": "entity swap",
+    "detail": "Confirmed name \n DOB \n\n Tight chest. \n 3 hours \n Slight SOB \n Slight wheezy. \n Slight cough. \n Slight cold last week. Still symotoms of cold and cough has stayed. \n Non productive. \n Cough-worse at night. \n\n-\t When young-asthma exacerbation aged 16yrs. \n\n PMHx-Asthma. \n Hayfever \n Dust allergy. \n\n Medications \n Ventolin-\n Clenil modulate-\n\n NKDA \n Shx-No. \n Father Asthma \n\n ICE-Inhalers \n\n Imp- Asthma exacerbation. \n\n Plan \n Further salbutamol, Clinil \n With spacer. \n Read label-S / e warned. \n\n Pred-40 mg 5 days. \n S / e warned mood changes, hyperglycemia, nausea, \n\n Safety netted-If worsening SOB or concerns seek further medical attention. \n Confirmed name \n DOB \n\n Tight chest. \n 3 hours \n Slight SOB \n Slight wheezy. \n Slight cough. \n Slight cold last week. Still symotoms of cold and cough has stayed. \n Non productive. \n Cough-worse at night. \n\n-\t When young-asthma exacerbation aged 16yrs. \n\n PMHx-Asthma. \n Hayfever \n Dust allergy. \n\n Medications \n Ventolin-\n Clenil modulate-\n\n NKDA \n\n Fhx-Mother-Excema. \n Father Asthma \n\n ICE-Inhalers \n\n Imp- Asthma exacerbation. \n\n Plan \n Further salbutamol, Clinil \n With spacer. \n Read label-S / e warned. \n\n Pred-40 mg 5 days. \n S / e warned mood changes, hyperglycemia, nausea, \n\n Safety netted-If worsening SOB or concerns seek further medical attention."
+  },
+  {
+    "type": "hallucination",
+    "severity": "moderate",
+    "detail_type": "inserted sentence",
+    "detail": "Pharmacist can advise on usage."
+  }
+]

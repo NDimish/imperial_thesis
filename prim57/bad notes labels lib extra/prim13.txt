@@ -1,0 +1,22 @@
+[
+  {
+    "type": "omission",
+    "detail": "Patient aware of red flag sx - knows to seek urgent medical attention if present"
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"1\" to \"10\" in \"Imp: migraines \n\nPlan:\n10.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"Feels nauseous, no vomiting\nNo neck pain/stiffness\nNo speech disturbances \nNo arm or leg weakness\nNo head injury \nNo fevers\nNo rashes \n\nPMH: Nil \nDH: Nil\nNKDA\nFH: mother and sister - migraines\nSH: lives with housemates, works in IT, wears glasses, denies stress.\" to \"Feels nauseous, no vomiting\nNo neck pain/stiffness\nNo speech disturbances No arm or leg weakness\nNo head injury No fevers\nNo rashes PMH: Nil DH: Nil\nNKDA\nFH: mother and sister - migraines\nSH: lives with housemates, works in IT, wears glasses, reports stress.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 4: \"No rashes\n\nPMH: Nil \nDH: nil \nNKDA\nFH: Grandmother - type 2 diabetes\nSH: lives alone, works as an accountant.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"Imp\" was swapped for \"MSU \n 3\" (from note 5)"
+  }
+]

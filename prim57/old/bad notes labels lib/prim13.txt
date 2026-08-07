@@ -1,10 +1,14 @@
 [
   {
-    "type": "hallucination",
-    "detail": "inserted sentence from note 5: \"Rx empirically with Abx for UTI\n4.\""
+    "type": "omission",
+    "detail": "Paracetamol/NSAIDs regular \n2."
   },
   {
     "type": "hallucination",
-    "detail": "inserted sentence from note 3: \"Had visual aura before onset of headaches - zigzag lines in field of vision.\""
+    "detail": "\"Imp\" was swapped for \"SOB\" (from note 4)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 4: \"Occasional smoker/etOH.\""
   }
 ]

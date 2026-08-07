@@ -1,0 +1,26 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "drug switch",
+    "detail": "Mebeverine: Mum had breast cancer, now in remission."
+  },
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "number edit",
+    "detail": "PC: Abdo pain \n HPC: 20/7 hx lower abdominal pain, central location."
+  },
+  {
+    "type": "omission",
+    "severity": "low",
+    "detail_type": "omitted detail",
+    "detail": "SH: Lives with parents."
+  },
+  {
+    "type": "hallucination",
+    "severity": "low",
+    "detail_type": "entity swap",
+    "detail": "No MSU \n 3, no dyspepsia."
+  }
+]

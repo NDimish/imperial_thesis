@@ -1,0 +1,10 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"History : breathing difficulty for past 20 minutes after being bitten by wasp \nThere is some blotching rash seen \ntingling feeling around your lips \nno closing of the throat feeling \nno previous similar history \nPast medical history:\nEczema \nAllergic to penicillin\nPlan : advised to start on antihistamines straight away.\" to \"History : breathing difficulty for past 20 minutes after being bitten by wasp There is some blotching rash seen tingling feeling around your lips closing of the throat feeling no previous similar history Past medical history:\nEczema Allergic to penicillin\nPlan : advised to start on antihistamines straight away.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 26: \"I have advised Mom to call the ambulance as a 999 call as we are suspecting an anaphylactic reaction\nAfter discharge from hospital please book a review with the doctor to consider prescribing an epipen\""
+  }
+]

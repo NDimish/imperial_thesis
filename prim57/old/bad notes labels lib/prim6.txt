@@ -1,18 +1,14 @@
 [
   {
-    "type": "hallucination",
-    "detail": "\"BD\" was swapped for \"SOB\" (from note 4)"
+    "type": "omission",
+    "detail": "Blood tests, inc U+Es, FBC, BNP\n3."
+  },
+  {
+    "type": "omission",
+    "detail": "2/5 hx of SOB, worsening over the past 2/7."
   },
   {
     "type": "hallucination",
-    "detail": "\"BNP \n  3\" was swapped for \"SOB\" (from note 4)"
-  },
-  {
-    "type": "hallucination",
-    "detail": "\"NKDA \n   FH\" was swapped for \"URTI \n\n Plan\" (from note 14)"
-  },
-  {
-    "type": "hallucination",
-    "detail": "\"SOB\" was swapped for \"URTI\" (from note 4)"
+    "detail": "\"MI\" was swapped for \"INB\" (from note 7)"
   }
 ]

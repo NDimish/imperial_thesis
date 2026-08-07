@@ -1,0 +1,8 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "PMH: significant\nDH: Microgynon - no SEs, BP was normal when checked for last prescription ?"
+  }
+]

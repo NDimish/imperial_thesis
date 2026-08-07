@@ -1,0 +1,18 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"1\" to \"10\" in \"Hx: 10 week history of spontaneous elbow swelling left.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"10\" to \"1\" in \"Hx: 1 week history of spontaneous elbow swelling left.\""
+  },
+  {
+    "type": "omission",
+    "detail": "need to confirm this\nWorks in a desk job\nNot happened before\nOtherwise well- \nPMHx: nil of note\nFH: nil of note\nDH: not on any medication, allergic to peanuts\nSH: exercises regularly, active\nEx: looks well, not in pain."
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"FH\" was swapped for \"GP\" (from note 16)"
+  }
+]

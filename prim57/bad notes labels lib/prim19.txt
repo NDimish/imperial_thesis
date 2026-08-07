@@ -1,0 +1,26 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "inserted sentence",
+    "detail": "Avoid cough syrup but can take if unable to sleep at night."
+  },
+  {
+    "type": "omission",
+    "severity": "low",
+    "detail_type": "omitted detail",
+    "detail": "1 day hx of SOB, slight pleuritic pain (right side), feeling warm (not measured temperature), 2 episodes haemoptysis and palpitations."
+  },
+  {
+    "type": "hallucination",
+    "severity": "low",
+    "detail_type": "entity swap",
+    "detail": "No recent long haul flights \n No FH or PMHx of DVT / Pes \n Has been feeling TATT/ fatigue for the last few weeks preceding these symptoms \n Pmhx: SLE \n DH: on methotrexate \n No allergies \n SH lives alone, has cat, works in an office \n Ex: pulse around 66, normal GP, throat inspection normal, pt ca nt feel any LNs in neck, not SOB, looks well \n Imp: probable LRTI, possibly secondary to immunosuppression \n Plan: needs F2f gp assessment today to listen to chest and check BP / pulse/ temp \n May also need blood tests to check immune status in view of methotrexate"
+  },
+  {
+    "type": "omission",
+    "severity": "critical",
+    "detail_type": "omitted detail",
+    "detail": "Avoid cough syrup but can take if unable to sleep at night."
+  }
+]

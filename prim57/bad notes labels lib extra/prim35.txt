@@ -1,0 +1,10 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"3\" to \"30\" in \"Diarrhoea for 30 days \nAlso associated abdominal pain \nNo mucous, no blood \nVomiting once \nStill eating and drinking \nDiarrhea like water 4-5 times a day \nNo fever \nLoss od appetite \nDid not eat out \nNo foreign travel \nNo dehydration on examination \nPMH : asthma \nFH: Dad died of bowel cancer 10 years, HTN\nMedication ?\""
+  },
+  {
+    "type": "omission",
+    "detail": "Start with crackers, soups and mash ."
+  }
+]

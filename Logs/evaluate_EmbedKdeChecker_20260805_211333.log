@@ -1,0 +1,100 @@
+
+prim1.txt
+  [FALSE] hallucination: Fever on first day, nil since.
+  [FALSE] hallucination: PMH: Asthma
+DH: Inhalers
+SH: works as an accountant.
+  [FALSE] hallucination: Nil smoking/etOH hx
+
+Imp: gastroenteritis 
+
+Plan:
+Conservative management - rest, push fluids, paracetamol if feverish.
+  [FALSE] omission: d: Sorry to hear that.
+  [FALSE] omission: d: Six, seven times a day.
+  [FALSE] omission: d: Come and go.
+  [FALSE] omission: d: 
+d: You measure your temperature then?
+  [FALSE] omission: d: You stopped vomiting, okay.
+  [FALSE] omission: d: Okay, so you're drinking fluids.
+  [FALSE] omission: d: Do you remember where you ate?
+  [FALSE] omission: d: And have you, are you currently working at the moment?
+  [FALSE] omission: d: Would, would work.
+  [FALSE] omission: d: And do you drink much in the way of alcohol?
+  [FALSE] omission: d: Because if it is ongoing then we have to wonder whether something else caused your symptoms.
+  [FALSE] omission: p: 
+d: Um, etcetera etcetera.
+  [FALSE] omission: d: How's that sound?
+  [FALSE] omission: d: Do you have any questions for me?
+  [FN] hallucination: inserted sentence from note 11: "No blood in stools."
+  [FN] omission: Associated LLQ pain - crampy, intermittent, nil radiation.
+  [FN] omission: No other unwell contacts.
+
+prim10.txt
+  [FALSE] hallucination: 1/52 hx of dysuria, frequency and suprapubic pain.
+  [FALSE] hallucination: Noticed urine today was pink, nil frank haematuria.
+  [FALSE] hallucination: Suprapubic pain on PU - aching pain, nil radiating 
+Nil nausea/vomiting 
+Nil fevers 
+Nil new bowel sx 
+Currently sexually active - long-term partner.
+  [TRUE] hallucination: Abdo pain - cramping, nil radiating 
+Nil nausea/vomiting.
+  [FALSE] hallucination: LMP 2/52 
+E+D well 
+
+PMH: IBS
+DH: COCP, mebeverine 
+Allergic to clindamycin 
+FH: nil
+SH: lives in student halls, nil smoking, social EtOH
+
+Imp: UTI
+
+Plan:
+1.
+  [FALSE] hallucination: Urine dip and MSU
+2.
+  [TRUE] hallucination: Review in 1/52 INB, or earlier if worsening sx (fever, back pain, vomiting) Nil bowel sx
+Currently sexually active - with regular partner for 2/12.
+  [TRUE] hallucination: Brief episode of haematuria, now resolved.
+  [FALSE] omission: I've uh it quite hurts when I kind of pee.
+  [FALSE] omission: p: 
+p: 
+p: Mm-hmm.
+  FN - none
+
+prim11.txt
+  [FALSE] hallucination: Assoc crampy abdo pain - central, intermittent, severity 6/10.
+  [FALSE] hallucination: Feeling feverish, hot/cold
+Nil urinary sx - passing less urine .
+  [TRUE] hallucination: Lives with wife and children.
+  [FALSE] hallucination: Brother also had similar sx - improving 
+Tolerating oral intake 
+
+PMH: nil
+DH: nil regular 
+NKDA
+FH: father - colon Ca 
+SH: lives with sister and mum.
+  [FALSE] hallucination: Smokes socially, EtOH - socially 
+
+Imp: gastroenteritis 
+
+Plan:
+1.
+  [FALSE] hallucination: Review in 48 hours, or earlier if worsening sx
+  [FN] omission: 3/7 hx of diarrhea - watery stools, opening bowels every hour.
+
+=== Evaluation Results ===
+prim1.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=17 FN=3)
+prim10.txt: precision=0.30 recall=1.00 f1=0.46 accuracy=0.30 (TP=3 FP=7 FN=0)
+prim11.txt: precision=0.17 recall=0.50 f1=0.25 accuracy=0.14 (TP=1 FP=5 FN=1)
+
+Overall (all types): precision=0.12 recall=0.50 f1=0.20 accuracy=0.11 (TP=4 FP=29 FN=4)
+
+By type:
+  hallucination: precision=0.24 recall=0.80 f1=0.36 accuracy=0.22 (TP=4 FP=13 FN=1)
+  omission: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=16 FN=3)
+
+Average elapsed time: 6.34s

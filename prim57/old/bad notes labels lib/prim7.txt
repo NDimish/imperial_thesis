@@ -1,6 +1,6 @@
 [
   {
     "type": "hallucination",
-    "detail": "inserted sentence from note 14: \"Supportive mx - bed rest, fluids, regular paracetamol\n2.\""
+    "detail": "\"NKDA \n SH\" was swapped for \"URTI \n\n Plan\" (from note 14)"
   }
 ]

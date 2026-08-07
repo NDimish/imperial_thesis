@@ -1,0 +1,1477 @@
+prim1.txt
+  missed - hallucination: inserted sentence from note 11: "No blood in stools."
+  added - hallucination: pmh: asthma
+dh: inhalers
+sh: works as an accountant.
+  added - hallucination: nil smoking/etoh hx
+
+imp: gastroenteritis 
+
+plan:
+conservative management - rest, push fluids, paracetamol if feverish.
+  added - hallucination: to see earlier if feeling more unwell.
+  added - omission: do you mean you're going to the toilet more often?
+  added - omission: or are your stools more loose?
+  added - omission: and you mentioned you've had some pain in your tummy as well.
+  added - omission: whereabouts is the pain, exactly?
+  added - omission: p: so in my lower abdomen, so, uh, like, um...yeah, just to one side.
+  added - omission: okay, and can you describe the pain to me?
+  added - omission: p: yeah, it feels, um, like a cramp, like a muscular cramp, and, um, yeah i feel a bit uh weak and shaky.
+  added - omission: does the pain move anywhere else, for example towards your back?
+  added - omission: what do you mean by shaky?
+  added - omission: p: um, yeah, it doesn't feel like -- yeah, it just makes me feel weak.
+  added - omission: any other symptoms like sweating, or um, night sweats?
+  added - omission: d: you stopped vomiting, okay.
+  added - omission: and was your vomit, i know it's not a nice thing to talk about, but was it just normal food colour yeah.
+  added - omission: p: yeah, yeah, just normal vomit, yeah.
+  added - omission: so you mentioned tummy pain, you mentioned diarrhea, you mentioned your vomiting, uh, anything else that comes to mind?
+  added - omission: d: okay, so you're drinking fluids.
+  added - omission: um, what kind of foods have you managed to eat, if anything?
+  added - omission: p: um, just soups, and, uh, yeah, light foods.
+  added - omission: like smoothies and, yeah, liquid foods mainly.
+  added - omission: are you aware of any triggers which may have caused the symptoms uh to kick on.
+  added - omission: d: do you remember where you ate?
+  added - omission: and uh, in terms of your , your overall health, are you normally fit and well?
+  added - omission: or, uh
+p: um, yeah, i mean, other than um athsma, um i use an inhaler, everything uh else is fine.
+  added - omission: p: uh, yeah, that's fine.
+  added - omission: and you don't have any other tummy problem, bowel problems i should be aware of?
+  added - omission: that must be difficult for you then.
+  added - omission: um, just a couple of other question we need to ask, sir.
+  added - omission: um, do you smoke at all?
+  added - omission: d: um, it seems like you may have something, uh, called gastroenteritis, which essentially just a tummy bug or infection of your uh of your tummy.
+  added - omission: so, um, i don't think you need anything like antibiotics.
+  added - omission: it's really just, um, making sure you're well hydrated, so drinking fluids.
+  added - omission: d: um, there are things like dioralyte you can get from the pharmacy, which uh it's um it helps helps replenish your minerals and vitamins.
+  added - omission: d: because if it is ongoing then we have to wonder whether something else caused your symptoms.
+  added - omission: d: uh, and we may need to do further tests like um taking a sample of your stool so we can test that.
+prim10.txt
+  missed - hallucination: inserted sentence from note 9: "Nil bowel sx
+Currently sexually active - with regular partner for 2/12."
+  missed - hallucination: inserted sentence from note 9: "Abdo pain - cramping, nil radiating 
+Nil nausea/vomiting."
+  added - hallucination: lmp 2/52 
+e+d well 
+
+pmh: ibs
+dh: cocp, mebeverine 
+allergic to clindamycin 
+fh: nil
+sh: lives in student halls, nil smoking, social etoh
+
+imp: uti
+
+plan:
+1.
+  added - omission: d: right excellent, before i go any further, can i confirm your name and your age please?
+  added - omission: p: yeah i can hear you, hi.
+  added - omission: p: um, and it kind of hurts sometimes when i'm, like in at the bottom of my tummy as well.
+  added - omission: i'm sorry to hear there's a lot going on there and i can, see why it's affecting you.
+  added - omission: p: uh, yeah it's been going on for a little bit longer than three days i think actually, maybe just under a week.
+  added - omission: p: um, and yeah i notice a sort of burning, stinging, when i when i go to the toilet, yeah.
+  added - omission: d: are you noticing any, anything in your urine, predominantly blood or um, discolouration of urine?
+  added - omission: d: ok, uh of any kind of frank blood?
+  added - omission: i mean red blood at all, in your urine?
+  added - omission: p: yeah, i think just today .
+  added - omission: p: um, i think it was probably but i don't know it was pink so.
+  added - omission: um, fine we'll we'll have to definitely explore that in a little bit or detail later on.
+  added - omission: p: yeah it's kind of at the bottom of my tummy, um, uh mainly when i go to the loo, i think that's when it's worse.
+  added - omission: does it move towards your back?
+  added - omission: d: ok, all right.
+  added - omission: any temperatures or fevers?
+  added - omission: d: ok, all right.
+  added - omission: and how are your bowels at the moment?
+  added - omission: are your bowels working ok?
+  added - omission: p: uh i, i usually have a bit of problems with my bowels anyway, so i don't think it's any, different, from what it usually is.
+  added - omission: p: um, i think i have, um, ibs, um, so i just kinda pass, uh, my bowels like quite, quite a lot.
+  added - omission: d: ok, all right but, and you've noticed no new symptoms?
+  added - omission: no, no, no new symptoms in your bowels?
+  added - omission: um, and amanda sometimes we have to ask quite sensitive questions as you can imagine.
+  added - omission: um, uh, can i ask?
+  added - omission: p: uh uh yeah um, i have a, a long-term, um, boyfriend.
+  added - omission: so, from from the front passage?
+  added - omission: have you, do you use any form of contraception?
+  added - omission: p: uh yeah, uh i'm um on the pill.
+  added - omission: what kind of pill is it?
+  added - omission: is it combined pill or the mini-pill?
+  added - omission: p: uh, combined pill.
+  added - omission: p: i dunno we've just kind of agreed, uh, so um i guess, a week ago, two weeks ago , quite quite .
+  added - omission: uh, i know you're on the pill, but um we're we, nonetheless we do have to ask.
+  added - omission: um when was your last, when was your last period?
+  added - omission: d: two weeks ago ok, all right.
+  added - omission: just something for us, to bear in mind, if your symptoms don't get any better ok, um.
+  added - omission: d: fine, in terms of your general health otherwise at the moment are you, uh eating and drinking ok?
+  added - omission: p: uh, yeah, yeah eating drinking ok.
+  added - omission: um, i did have one kinda concern i dunno
+p: so i i smoked, uh this is quite bad, but i smoked weed for the first time.
+  added - omission: p: uh, like a week and a half ago, i i just wondered whether it's related at all, probably not but i just thought i'd get some advice from you.
+  added - omission: d: but, uh, you know i do strongly advise you to you know, um, make it a regular habit if you can.
+  added - omission: um, just for your, just for your general health moving forwards, ok?
+  added - omission: moving on, in terms of your health otherwise, do you have any other medical conditions , apart from the ibs, is there anything else i should be aware of?
+  added - omission: d: no, ok great.
+  added - omission: and what about any medications that you take on a regular basis, apart from the, um, combined pill?
+  added - omission: um it begins with an m, it's pretty hard to pronounce like something , maybe.
+  added - omission: d: yeah ok, and do you have any allergy to any medications?
+  added - omission: p: um, yeah i think there was an antibiotic, um, called clindamycin mycin .
+  added - omission: um, in terms of family history, any history of problems with the bladder or the kidneys?
+  added - omission: p: um, so i am living in halls at the moment, uh at uni um, so uh, uh, i'm just living with a flatmate i suppose, um.
+  added - omission: d: very good, very good, good.
+  added - omission: um, in terms of smoking and alcohol, do you, do you participate in either?
+  added - omission: p: uh, as i admitted before i tried weed for the first time, uh, but, uh, i don't smoke.
+  added - omission: uh ,i drink occasionally, um, kind of socially, um, with friends .
+  added - omission: p: i kind of was a little bit tipsy so, probably wasn't thinking quite straight.
+  added - omission: um, but yeah i, i completely agree it's not something i wanna get into on a regular basis.
+  added - omission: d: sure, uh, and obviously as your doctor i'm here to look after you so yeah i i would strongly recommend you, you know, to avoid if you can.
+  added - omission: great, um, fine so, at this stage i wouldn't normally examine you, but i think based on your story i think, um, you know, uh, i'm reassured.
+  added - omission: d: but the fact that i, i i think it's, um, probably just a simple what we'd say a uti or a cystitis, bladder infection.
+  added - omission: um, so it's something we can treat quite readily with antibiotics.
+  added - omission: um, so we've got a choice of two antibiotics something called trimethoprim or, nitrofurantoin which is a three day course.
+  added - omission: d: and normally they're usually quite effective, um, for your symptoms.
+  added - omission: it's probably worth giving us a urine sample today as well if you can, so we can send it off to the lab.
+  added - omission: d: um, we'll see what the urine sample shows.
+  added - omission: um, and if it is indeed positive, we'll know which antibiotics are the right ones.
+  added - omission: p: ok, ok uh great.
+  added - omission: yeah, i'll watch out for those.
+prim11.txt
+  missed - hallucination: inserted sentence from note 1: "Lives with wife and children."
+  added - hallucination: feeling feverish, hot/cold
+nil urinary sx - passing less urine .
+  added - hallucination: smokes socially, etoh - socially 
+
+imp: gastroenteritis 
+
+plan:
+1.
+  added - hallucination: encourage soft diet
+4.
+  added - hallucination: review in 48 hours, or earlier if worsening sx
+  added - omission: p: uh i can hear you, but i can't really see you.
+  added - omission: p: just connection on the screen.
+  added - omission: d: uh, now before i go any further, can i confirm your name and your age?
+  added - omission: and it's like just coming out, like loads of it.
+  added - omission: it so, it just, it's just pouring straight from my bum, and like just coming out.
+  added - omission: and like i just, it just kind of hasn't, doesn't feel like it's getting better.
+  added - omission: so
+d: wow, no.
+  added - omission: so, you mentioned watery stools.
+  added - omission: p: um so i , i feel like it's like almost every hour, when i'm awake.
+  added - omission: so you're losing a lot of, a lot of, you're using a lot of fluid there.
+  added - omission: p: yeah, so i mean i'm , i'm trying to drink a lot of water.
+  added - omission: p: uh it's, yeah i i, i think i i feel like it's just, just fluids coming out.
+  added - omission: have you got any blood in your stools?
+  added - omission: p: so i, no i don't, i don't remember anything, like, no i , i think it's just i, nothing like that.
+  added - omission: any, any, any pain in your tummy?
+  added - omission: i mean i, it, i feel, i feel a cramp.
+  added - omission: so, around every hour i just feel something come up.
+  added - omission: p: um i i think it it , it feels pretty , like in the middle, to me.
+  added - omission: not on any side, left or right.
+  added - omission: and if i was to ask you on a scale of one to ten, ten being the worst pain you ever had, how bad is this pain?
+  added - omission: p: what do you mean by, uh pain?
+  added - omission: so i, i think it's maybe a
+d: is it, is this pain as in making you double over?
+  added - omission: is it ten, is it ten out of ten, the worst pain you ever had?
+  added - omission: or is it more of a kind of a mild pain, like a three out of ten?
+  added - omission: p: i i guess so.
+  added - omission: i'm, when i think about it, like when i get it, i can pretend that i don't feel it.
+  added - omission: so i, i don't know what that means.
+  added - omission: p: um, yeah i definitely, i definitely feel kind of nauseous.
+  added - omission: and when i like, i think it's maybe something to do with like, whenever i have like milk or something like that, i just feel like i want to vomit.
+  added - omission: um, any other symptoms, like fevers or temperatures?
+  added - omission: p: um so i, yeah i think i am pretty, i feel kind of really hot all the time.
+  added - omission: and uh i'm pretty sure i'm burning up.
+  added - omission: i haven't actually done any temperature reading, or anything like that.
+  added - omission: but it's, i, yeah i've, i've sure i'm, i'm not a, like not a normal temperature.
+  added - omission: d: ok, so you're feeling hoarse.
+  added - omission: and in terms of your waterworks, are you passing urine ok?
+  added - omission: p: um yeah a bit, i guess less frequently maybe.
+  added - omission: um but yeah, it seems to be ok.
+  added - omission: are you aware of any triggers?
+  added - omission: i think he's getting better, but i'm not, i'm not really sure.
+  added - omission: are you having anything to eat or drink?
+  added - omission: have you, i can see you're drinking a coffee, but are you keeping it down?
+  added - omission: are you keeping your fluids down?
+  added - omission: but it just feels like it's going straight through.
+  added - omission: p: it just feels like it's going straight through.
+  added - omission: um
+d: ok, alright.
+  added - omission: p: um, so i um, yeah i think, i think otherwise i'm fit and well.
+  added - omission: i um
+p: yeah i mean i, i'm an ok weight.
+  added - omission: and um, i i can't think of any related medical history.
+  added - omission: do you have any family history of bowel problems?
+  added - omission: so what i mean by bowel is the whole gut.
+  added - omission: so it could be anything from the mouth anus.
+  added - omission: p: so my, yeah my, my dad actually has um colon cancer at the moment.
+  added - omission: p: so um, from what i heard he's kind of, so i don't i don't speak to him that often.
+  added - omission: so i don't, i don't know the exact details.
+  added - omission: but um, he's sort of in his third stage.
+  added - omission: so yeah it's, it's um, he's, yeah you can, yeah i can see he's kind of weaker, and it's affecting him a lot.
+  added - omission: d: in general day-to-day life are you managing ok?
+  added - omission: i feel like i i just want to go, um when i can.
+  added - omission: so , ok right.
+  added - omission: and just a couple last final couple, uh couple questions.
+  added - omission: uh, smoking and alcohol, do you do either?
+  added - omission: do you smoke, or do you drink much in the way of alcohol?
+  added - omission: that's really helpful to know.
+  added - omission: so um, dan, just as a a conclusion, uh um, just to wrap it all up, i think your symptoms are suggestive of something called gastroenteritis.
+  added - omission: d: bit of a basic infection of your tummy.
+  added - omission: d: just like you did for you brother.
+  added - omission: drink, make sure you drink plenty of fluids, ok?
+  added - omission: and you can
+p: should i just drink like normal water?
+  added - omission: i just feel like every time i drink it's just coming out.
+  added - omission: um
+d: fluid is probably best.
+  added - omission: um so, you can get things like diarolyte, which is um, a fluid replacement you can get from the pharmacy.
+  added - omission: d: um, you can try just you know regular paracetamol if you are feeling feverish.
+  added - omission: but if your symptoms aren't settling down in the next couple of days, so forty eight hours, i want you to give me a call back.
+  added - omission: d: because um, you know if you are getting dehydrated then we need to do further investigations, ok?
+  added - omission: but i think let's, let's see how you are in the next one to two days.
+  added - omission: should i just focus on fluids?
+  added - omission: you can use soft diet, things like soup, mash.
+  added - omission: and then gradually build up, um as much as your body can tolerate.
+  added - omission: if you are having, if you've got a bit of tummy pain, if you're feeling feverish, then i think paracetamol is very sensible.
+  added - omission: try and avoid alcohol if you can.
+  added - omission: thank you very much.
+  added - omission: thanks, thanks for helping me out.
+prim12.txt
+  missed - none
+  added - hallucination: no unwell contacts 
+
+pmh: asthma 
+dh: salbutamol prn 
+nkda
+fh: father - htn, died of bowel ca.
+  added - hallucination: mother - diabetes type 2
+sh: lives alone , software engineer.
+  added - hallucination: nil smoking, social etoh
+
+imp: gastroenteritis 
+
+plan:
+1.
+  added - hallucination: supportive mx - rest, fluids
+2.
+  added - hallucination: review in 3-5d inb, or earlier if worsening sx (diarrhea, vomiting, abdo pain, reduced oral intake)
+  added - omission: d: can you hear me ok?
+  added - omission: you said
+d: ok, alright.
+  added - omission: p: um, so i, i do suffer of asthma.
+  added - omission: do you have any allergies to medications?
+  added - omission: and any family history of any medical problems?
+  added - omission: um who, who's at home with you?
+  added - omission: d: who lives at home with you, sir?
+  added - omission: it's an infection of your, your tummy.
+  added - omission: um it's, it's a, it's a type of fluid replacement drink.
+prim13.txt
+  missed - hallucination: inserted sentence from note 5: "Rx empirically with Abx for UTI
+4."
+  missed - hallucination: inserted sentence from note 3: "Had visual aura before onset of headaches - zigzag lines in field of vision."
+  added - hallucination: no visual sx
+visual aura prior to headaches.
+  added - hallucination: socially smoke/etoh 
+
+ice: ?related to stress/dehydration.
+  added - hallucination: imp: migraines 
+
+plan:
+1.
+  added - hallucination: review in 1/52 - discuss prophylactic rx if necessary
+4.
+  added - hallucination: patient aware of red flag sx - knows to seek urgent medical attention if present
+  added - omission: d: ohh dear, ok.
+  added - omission: p: eh, around three days ago, maybe.
+  added - omission: d: three days ago, ok.
+  added - omission: p: ohh it's probably a eight.
+  added - omission: p: um, it's kind of, it's dull but sometimes it gets a bit sharper.
+  added - omission: so basically it like, it developed gradually, i guess.
+  added - omission: it's like the first day it just started when i was at work.
+  added - omission: and then i was thinking ok, maybe i'll just go to sleep.
+  added - omission: d: so, example any, problems your eyesight or your vision?
+  added - omission: p: not really, but just when it started, i i got this like weird shooting lights.
+  added - omission: and like now like light is quite annoying, my eyes.
+  added - omission: d: so when you say annoying, does it hurt to look, uh, look at bright lights?
+  added - omission: p: not loss of vision, i wouldn't say.
+  added - omission: it's just like some lights from, shooting lights .
+  added - omission: d: mmm, , ok.
+  added - omission: d: when you say sick, you mean you feel sick?
+  added - omission: yeah, no vomiting, ok.
+  added - omission: any neck pain or neck stiffness?
+  added - omission: so, i i had to take a couple of days off work, actually.
+  added - omission: ok, yeah probably, well i'll, i'll ask you a bit more about your work later on.
+  added - omission: p: yeah i mean, headaches, you mean.
+  added - omission: but, usually after i i take uh ibuprofen it kind of goes away.
+  added - omission: p: yeah, i think so.
+  added - omission: before i go any further, can i ask, do you take any regular medication?
+  added - omission: like it's kind of, it's very rare.
+  added - omission: d: ohh right, ok, fine.
+  added - omission: um, socially, tell me a bit more about your life, outside of, um, outside of, work.
+  added - omission: p: yeah so i work, well i work in it.
+  added - omission: um i had to like reduce the uh, brightness of my screen.
+  added - omission: um i would always recommend having a repeat eye test done.
+  added - omission: um, regarding smoking or alcohol.
+  added - omission: do you drink or smoke at all?
+  added - omission: p: i socially smoke.
+  added - omission: now um, adriana, do you have any ideas as to what could be causing your symptoms?
+  added - omission: um at first i thought it's stress, or maybe i didn't drink enough water.
+  added - omission: because sometimes when i don't drink enough water, i i like get headaches.
+  added - omission: p: yeah maybe just kinda, if you have any recommendations of that i can take something stronger.
+  added - omission: because apparently, ibuprofen doesn't help me.
+  added - omission: but currently it, it didn't help me.
+  added - omission: d: how many tablets did you take of ibuprofen?
+  added - omission: um, so uh, adriana, so um, really what i think is going on here.
+  added - omission: d: um, now i'm not saying it's gonna, keep happening, but, it may just be a one-off.
+  added - omission: but it's certainly worth treating it today stronger analgesia or painkillers.
+  added - omission: now, my only worry is, i'm not sure whether you're taking, the correct dose.
+
+ [run 1] precision=0.02 recall=0.50 f1=0.04 avg_elapsed=0.0
+prim1.txt
+  missed - hallucination: inserted sentence from note 11: "No blood in stools."
+  added - hallucination: pmh: asthma
+dh: inhalers
+sh: works as an accountant.
+  added - hallucination: affecting his adls as has to be near toilet often.
+  added - hallucination: nil smoking/etoh hx
+
+imp: gastroenteritis 
+
+plan:
+conservative management - rest, push fluids, paracetamol if feverish.
+  added - hallucination: to see earlier if feeling more unwell.
+  added - omission: do you mean you're going to the toilet more often?
+  added - omission: or are your stools more loose?
+  added - omission: p: yeah, so it's like loose and watery stool, going to the toilet quite often, uh and like some pain in my, like, lower stomach?
+  added - omission: have you noticed any other things, like blood in your stools?
+  added - omission: and you mentioned you've had some pain in your tummy as well.
+  added - omission: whereabouts is the pain, exactly?
+  added - omission: p: so in my lower abdomen, so, uh, like, um...yeah, just to one side.
+  added - omission: okay, and can you describe the pain to me?
+  added - omission: p: yeah, it feels, um, like a cramp, like a muscular cramp, and, um, yeah i feel a bit uh weak and shaky.
+  added - omission: does the pain move anywhere else, for example towards your back?
+  added - omission: what do you mean by shaky?
+  added - omission: p: um, yeah, it doesn't feel like -- yeah, it just makes me feel weak.
+  added - omission: i haven't had a fever, um, at the moment, but i did notice um a temperature when the symptoms started, so, um, yeah around about three or four days ago.
+  added - omission: any other symptoms like sweating, or um, night sweats?
+  added - omission: p: yeah, so um, i vomited at the start of the symptoms but now um i've stopped vomiting.
+  added - omission: d: you stopped vomiting, okay.
+  added - omission: and was your vomit, i know it's not a nice thing to talk about, but was it just normal food colour yeah.
+  added - omission: p: yeah, yeah, just normal vomit, yeah.
+  added - omission: so you mentioned tummy pain, you mentioned diarrhea, you mentioned your vomiting, uh, anything else that comes to mind?
+  added - omission: um, i had a loss of appetite, um, so i haven't been eating as much, but i've been able to hold down fluids.
+  added - omission: d: okay, so you're drinking fluids.
+  added - omission: um, what kind of foods have you managed to eat, if anything?
+  added - omission: p: um, just soups, and, uh, yeah, light foods.
+  added - omission: like smoothies and, yeah, liquid foods mainly.
+  added - omission: are you aware of any triggers which may have caused the symptoms uh to kick on.
+  added - omission: so for example, think like takeaway foods or eating out or being around other people with similar symptoms.
+  added - omission: d: do you remember where you ate?
+  added - omission: p: um, so no one else in the family, so a wife and two kids and one, um, child was vomiting, but they haven't got diarrhea.
+  added - omission: and uh, in terms of your , your overall health, are you normally fit and well?
+  added - omission: or, uh
+p: um, yeah, i mean, other than um athsma, um i use an inhaler, everything uh else is fine.
+  added - omission: and, is your asthma well-controlled?
+  added - omission: p: uh, yeah, that's fine.
+  added - omission: i just, yeah, use an inhaler, and uh that's under control.
+  added - omission: and you don't have any other tummy problem, bowel problems i should be aware of?
+  added - omission: um, and apart from the inhalers, do you take any other medications?
+  added - omission: p: uh, so, i need to stay close to the toilet 'cause i go quite frequently during the these past three days.
+  added - omission: um, yeah, other than that, it's uh, yeah, the main concern.
+  added - omission: d: and have you, are you currently working at the moment?
+  added - omission: p: uh, yeah, i've been going to work.
+  added - omission: yeah, it's been quite difficult.
+  added - omission: that must be difficult for you then.
+  added - omission: um, just a couple of other question we need to ask, sir.
+  added - omission: um, do you smoke at all?
+  added - omission: d: and do you drink much in the way of alcohol?
+  added - omission: so um, er normally at this stage i like to um, examine you if that's okay, but um, um, but but having listened to your story, sir, i think uh, um, just to recap for the last three days you've been having loose stool, diarrhea, a bit of tummy pain uh mainly on the left-hand side, um and vomiting and fever and you're quite weak and lethargic um, you mentioned you had this chinese takeaway as little as three days ago and i wondered whether that might be the cause of your problems.
+  added - omission: d: um, it seems like you may have something, uh, called gastroenteritis, which essentially just a tummy bug or infection of your uh of your tummy.
+  added - omission: so, um, i don't think you need anything like antibiotics.
+  added - omission: it's really just, um, making sure you're well hydrated, so drinking fluids.
+  added - omission: d: um, there are things like dioralyte you can get from the pharmacy, which uh it's um it helps helps replenish your minerals and vitamins.
+  added - omission: d: i will certainly advise you to take some time off work, actually i know you're quite keen to work but i would say the next two, two to three days as the infection clears from your system to take some time off and rest.
+  added - omission: d: um, i'll admit if your symptoms haven't got better, you know, in in three to four days, i'd like to come and see you again.
+  added - omission: d: because if it is ongoing then we have to wonder whether something else caused your symptoms.
+  added - omission: d: uh, and we may need to do further tests like um taking a sample of your stool so we can test that.
+  added - omission: d: okay, and is uh is the treatment plan clear?
+prim10.txt
+  missed - hallucination: inserted sentence from note 9: "Nil bowel sx
+Currently sexually active - with regular partner for 2/12."
+  missed - hallucination: inserted sentence from note 9: "Abdo pain - cramping, nil radiating 
+Nil nausea/vomiting."
+  added - hallucination: lmp 2/52 
+e+d well 
+
+pmh: ibs
+dh: cocp, mebeverine 
+allergic to clindamycin 
+fh: nil
+sh: lives in student halls, nil smoking, social etoh
+
+imp: uti
+
+plan:
+1.
+  added - omission: d: right excellent, before i go any further, can i confirm your name and your age please?
+  added - omission: p: yeah i can hear you, hi.
+  added - omission: p: um, and it kind of hurts sometimes when i'm, like in at the bottom of my tummy as well.
+  added - omission: i'm sorry to hear there's a lot going on there and i can, see why it's affecting you.
+  added - omission: um, so you mentioned it's been going on for last three days, mainly the burning pain when you pass urine.
+  added - omission: um, you said you're going to the toilet more often as well, that right?
+  added - omission: p: uh, yeah it's been going on for a little bit longer than three days i think actually, maybe just under a week.
+  added - omission: p: um, and yeah i notice a sort of burning, stinging, when i when i go to the toilet, yeah.
+  added - omission: d: are you noticing any, anything in your urine, predominantly blood or um, discolouration of urine?
+  added - omission: p: um, i think, well today i noticed, um, that it was like a bit pink.
+  added - omission: d: ok, uh of any kind of frank blood?
+  added - omission: i mean red blood at all, in your urine?
+  added - omission: p: yeah, i think just today .
+  added - omission: p: um, i think it was probably but i don't know it was pink so.
+  added - omission: um, fine we'll we'll have to definitely explore that in a little bit or detail later on.
+  added - omission: um, you also mentioned some tummy pain as well, can you tell me a bit more about that pain?
+  added - omission: p: yeah it's kind of at the bottom of my tummy, um, uh mainly when i go to the loo, i think that's when it's worse.
+  added - omission: um, can you describe it crampy pain?
+  added - omission: does it move towards your back?
+  added - omission: d: ok, all right.
+  added - omission: um, any other symptoms?
+  added - omission: any temperatures or fevers?
+  added - omission: d: ok, all right.
+  added - omission: and how are your bowels at the moment?
+  added - omission: are your bowels working ok?
+  added - omission: p: uh i, i usually have a bit of problems with my bowels anyway, so i don't think it's any, different, from what it usually is.
+  added - omission: p: um, i think i have, um, ibs, um, so i just kinda pass, uh, my bowels like quite, quite a lot.
+  added - omission: d: ok, all right but, and you've noticed no new symptoms?
+  added - omission: no, no, no new symptoms in your bowels?
+  added - omission: um, and amanda sometimes we have to ask quite sensitive questions as you can imagine.
+  added - omission: um, uh, can i ask?
+  added - omission: p: uh uh yeah um, i have a, a long-term, um, boyfriend.
+  added - omission: d: ok, and um, have you noticed any other discharge from down below?
+  added - omission: so, from from the front passage?
+  added - omission: have you, do you use any form of contraception?
+  added - omission: p: uh yeah, uh i'm um on the pill.
+  added - omission: what kind of pill is it?
+  added - omission: is it combined pill or the mini-pill?
+  added - omission: p: uh, combined pill.
+  added - omission: p: i dunno we've just kind of agreed, uh, so um i guess, a week ago, two weeks ago , quite quite .
+  added - omission: d: what i'm trying get at is whether um, uh there's any chance you could be pregnant at all.
+  added - omission: uh, i know you're on the pill, but um we're we, nonetheless we do have to ask.
+  added - omission: um when was your last, when was your last period?
+  added - omission: d: two weeks ago ok, all right.
+  added - omission: just something for us, to bear in mind, if your symptoms don't get any better ok, um.
+  added - omission: d: fine, in terms of your general health otherwise at the moment are you, uh eating and drinking ok?
+  added - omission: p: uh, yeah, yeah eating drinking ok.
+  added - omission: um, i did have one kinda concern i dunno
+p: so i i smoked, uh this is quite bad, but i smoked weed for the first time.
+  added - omission: p: uh, like a week and a half ago, i i just wondered whether it's related at all, probably not but i just thought i'd get some advice from you.
+  added - omission: d: but, uh, you know i do strongly advise you to you know, um, make it a regular habit if you can.
+  added - omission: um, just for your, just for your general health moving forwards, ok?
+  added - omission: moving on, in terms of your health otherwise, do you have any other medical conditions , apart from the ibs, is there anything else i should be aware of?
+  added - omission: d: no, ok great.
+  added - omission: and what about any medications that you take on a regular basis, apart from the, um, combined pill?
+  added - omission: p: apart from the pill, um, i take, um, something for the ibs as well.
+  added - omission: um it begins with an m, it's pretty hard to pronounce like something , maybe.
+  added - omission: d: yeah ok, and do you have any allergy to any medications?
+  added - omission: p: um, yeah i think there was an antibiotic, um, called clindamycin mycin .
+  added - omission: d: ritib, ok sure, i'll make a note of that.
+  added - omission: um, in terms of family history, any history of problems with the bladder or the kidneys?
+  added - omission: p: um, so i am living in halls at the moment, uh at uni um, so uh, uh, i'm just living with a flatmate i suppose, um.
+  added - omission: d: very good, very good, good.
+  added - omission: um, in terms of smoking and alcohol, do you, do you participate in either?
+  added - omission: p: uh, as i admitted before i tried weed for the first time, uh, but, uh, i don't smoke.
+  added - omission: uh ,i drink occasionally, um, kind of socially, um, with friends .
+  added - omission: p: i kind of was a little bit tipsy so, probably wasn't thinking quite straight.
+  added - omission: um, but yeah i, i completely agree it's not something i wanna get into on a regular basis.
+  added - omission: d: sure, uh, and obviously as your doctor i'm here to look after you so yeah i i would strongly recommend you, you know, to avoid if you can.
+  added - omission: great, um, fine so, at this stage i wouldn't normally examine you, but i think based on your story i think, um, you know, uh, i'm reassured.
+  added - omission: d: but the fact that i, i i think it's, um, probably just a simple what we'd say a uti or a cystitis, bladder infection.
+  added - omission: d: uh, you know you haven't got any other symptoms that, suggest to me that there's anything to worry about, so things like fevers and back pain.
+  added - omission: d: um, would be more worrying for me to hear.
+  added - omission: um, so it's something we can treat quite readily with antibiotics.
+  added - omission: um, so we've got a choice of two antibiotics something called trimethoprim or, nitrofurantoin which is a three day course.
+  added - omission: d: and normally they're usually quite effective, um, for your symptoms.
+  added - omission: it's probably worth giving us a urine sample today as well if you can, so we can send it off to the lab.
+  added - omission: d: and see exactly what's going on there.
+  added - omission: um, start the antibiotics, make sure you're well hydrated, drink plenty of fluids.
+  added - omission: d: um, if you are having some pain, simple paracetamol, um, would probably be advisable.
+  added - omission: d: um, we'll see what the urine sample shows.
+  added - omission: um, and if it is indeed positive, we'll know which antibiotics are the right ones.
+  added - omission: p: ok, ok uh great.
+  added - omission: um, with, with the urine sample, um, uh, how do i go about doing that, do you know?
+  added - omission: is it through the app?
+  added - omission: d: ok, do bear in mind those symptoms i mentioned about the fever and the back pain and vomiting.
+  added - omission: if you have any of those give me a call, ok?
+  added - omission: yeah, i'll watch out for those.
+prim11.txt
+  missed - hallucination: inserted sentence from note 1: "Lives with wife and children."
+  added - hallucination: no blood in stools.
+  added - hallucination: feeling feverish, hot/cold
+nil urinary sx - passing less urine .
+  added - hallucination: smokes socially, etoh - socially 
+
+imp: gastroenteritis 
+
+plan:
+1.
+  added - hallucination: encourage soft diet
+4.
+  added - hallucination: review in 48 hours, or earlier if worsening sx
+  added - omission: p: uh i can hear you, but i can't really see you.
+  added - omission: p: just connection on the screen.
+  added - omission: d: uh, now before i go any further, can i confirm your name and your age?
+  added - omission: p: um so i've just um, been having some troubles, basically in the uh, i guess it's been a little while now.
+  added - omission: and it's like just coming out, like loads of it.
+  added - omission: like i go to the toilet and it's just super watery and it
+p: yeah it doesn't feel very solid.
+  added - omission: it so, it just, it's just pouring straight from my bum, and like just coming out.
+  added - omission: and it's, uh,
+p: yeah it's just uh not, not been very pleasant.
+  added - omission: and like i just, it just kind of hasn't, doesn't feel like it's getting better.
+  added - omission: so
+d: wow, no.
+  added - omission: seems like there's a lot going on there.
+  added - omission: well, when did it all start, your symptoms?
+  added - omission: so, you mentioned watery stools.
+  added - omission: um
+d: how many times are you going a day, would you say?
+  added - omission: p: um so i , i feel like it's like almost every hour, when i'm awake.
+  added - omission: so you're losing a lot of, a lot of, you're using a lot of fluid there.
+  added - omission: p: yeah, so i mean i'm , i'm trying to drink a lot of water.
+  added - omission: p: uh it's, yeah i i, i think i i feel like it's just, just fluids coming out.
+  added - omission: have you got any blood in your stools?
+  added - omission: p: so i, no i don't, i don't remember anything, like, no i , i think it's just i, nothing like that.
+  added - omission: and any, any tummy pain?
+  added - omission: any, any, any pain in your tummy?
+  added - omission: i mean i, it, i feel, i feel a cramp.
+  added - omission: p: and then, and then i know it's time to go right?
+  added - omission: so, around every hour i just feel something come up.
+  added - omission: which part of your tummy?
+  added - omission: p: um i i think it it , it feels pretty , like in the middle, to me.
+  added - omission: not on any side, left or right.
+  added - omission: and if i was to ask you on a scale of one to ten, ten being the worst pain you ever had, how bad is this pain?
+  added - omission: p: what do you mean by, uh pain?
+  added - omission: so i, i think it's maybe a
+d: is it, is this pain as in making you double over?
+  added - omission: is it ten, is it ten out of ten, the worst pain you ever had?
+  added - omission: or is it more of a kind of a mild pain, like a three out of ten?
+  added - omission: p: i i guess so.
+  added - omission: i'm, when i think about it, like when i get it, i can pretend that i don't feel it.
+  added - omission: so i can still sit down and
+p: uh i can still like cover it up, and people don't really notice.
+  added - omission: so i, i don't know what that means.
+  added - omission: but maybe is that like a six, or a seven?
+  added - omission: um, and apart from the pain and diarrhea, any other symptoms like nausea, vomiting?
+  added - omission: p: um, yeah i definitely, i definitely feel kind of nauseous.
+  added - omission: and when i like, i think it's maybe something to do with like, whenever i have like milk or something like that, i just feel like i want to vomit.
+  added - omission: and actually, yeah one time i just like had some milk, and i just completely vomited it.
+  added - omission: d: and the vomiting is not as pronounced as the diarrhea.
+  added - omission: um, any other symptoms, like fevers or temperatures?
+  added - omission: p: um so i, yeah i think i am pretty, i feel kind of really hot all the time.
+  added - omission: and uh i'm pretty sure i'm burning up.
+  added - omission: i haven't actually done any temperature reading, or anything like that.
+  added - omission: but it's, i, yeah i've, i've sure i'm, i'm not a, like not a normal temperature.
+  added - omission: d: ok, so you're feeling hoarse.
+  added - omission: and in terms of your waterworks, are you passing urine ok?
+  added - omission: p: um yeah a bit, i guess less frequently maybe.
+  added - omission: um but yeah, it seems to be ok.
+  added - omission: and, and you said that, you mentioned, three days ago was when it all kicked off.
+  added - omission: are you aware of any triggers?
+  added - omission: i mean, have you for example gone out, had some takeaway food?
+  added - omission: um and i i've, i'm not, yeah i i can't think of what, what the trigger is for me.
+  added - omission: i mean, my brother normally can deal, deals with this stuff a lot better than me.
+  added - omission: i think he's getting better, but i'm not, i'm not really sure.
+  added - omission: he said, he said he had, he's had something for a little while as well.
+  added - omission: are you having anything to eat or drink?
+  added - omission: have you, i can see you're drinking a coffee, but are you keeping it down?
+  added - omission: are you keeping your fluids down?
+  added - omission: p: um so it just feels like the, the fluids do go down.
+  added - omission: but it just feels like it's going straight through.
+  added - omission: p: it just feels like it's going straight through.
+  added - omission: p: um so, i had some, i mean i had some lunch today.
+  added - omission: um
+d: ok, alright.
+  added - omission: um and and dan, moving forwards, are you otherwise fit and well, or do you have any other medical history?
+  added - omission: p: um, so i um, yeah i think, i think otherwise i'm fit and well.
+  added - omission: i um
+p: yeah i mean i, i'm an ok weight.
+  added - omission: and um, i i can't think of any related medical history.
+  added - omission: and do you have any allergies to any medications?
+  added - omission: and what about any family history?
+  added - omission: do you have any family history of bowel problems?
+  added - omission: p: um bowel, so would, would bowel like, is is the colon like something that
+d: yeah, yeah.
+  added - omission: so what i mean by bowel is the whole gut.
+  added - omission: so it could be anything from the mouth anus.
+  added - omission: p: so my, yeah my, my dad actually has um colon cancer at the moment.
+  added - omission: p: so um, from what i heard he's kind of, so i don't i don't speak to him that often.
+  added - omission: so i don't, i don't know the exact details.
+  added - omission: and i, i don't exactly know the full things of like the steps of cancer, and all that kind of thing.
+  added - omission: but um, he's sort of in his third stage.
+  added - omission: uh, i'm not sure what that means exactly.
+  added - omission: so yeah it's, it's um, he's, yeah you can, yeah i can see he's kind of weaker, and it's affecting him a lot.
+  added - omission: d: in general day-to-day life are you managing ok?
+  added - omission: um i dislike um, taking time off work.
+  added - omission: i feel like i i just want to go, um when i can.
+  added - omission: so i i try and go um
+p: yeah.
+  added - omission: i'd, i'd just rather deal with these things.
+  added - omission: so , ok right.
+  added - omission: and just a couple last final couple, uh couple questions.
+  added - omission: uh, smoking and alcohol, do you do either?
+  added - omission: do you smoke, or do you drink much in the way of alcohol?
+  added - omission: p: um so i i smoke um, i smoke uh, uh for like socially, but not like regularly.
+  added - omission: p: so alcohol, um uh you know i might have a a beer during the weekdays, maybe uh not that many, maybe um .
+  added - omission: on fridays i have more um alcohol um
+p: uh, honest, i suppose um, not every week, but maybe i'll once or twice a month, that yeah, i'll go out with my friends and drink a lot so that that's um, yeah um
+d: well thank you for me.
+  added - omission: that's really helpful to know.
+  added - omission: so um, dan, just as a a conclusion, uh um, just to wrap it all up, i think your symptoms are suggestive of something called gastroenteritis.
+  added - omission: d: bit of a basic infection of your tummy.
+  added - omission: there's nothing to worry about.
+  added - omission: uh um uh uh i suspect this will just settle down in the next few days.
+  added - omission: d: just like you did for you brother.
+  added - omission: drink, make sure you drink plenty of fluids, ok?
+  added - omission: and you can
+p: should i just drink like normal water?
+  added - omission: i just feel like every time i drink it's just coming out.
+  added - omission: um
+d: fluid is probably best.
+  added - omission: but i am obviously worried about the fact that you are losing minerals and vitamins.
+  added - omission: um so, you can get things like diarolyte, which is um, a fluid replacement you can get from the pharmacy.
+  added - omission: it's probably worth uh recommending that.
+  added - omission: p: do i need like a prescription for that?
+  added - omission: d: um, you can try just you know regular paracetamol if you are feeling feverish.
+  added - omission: but if your symptoms aren't settling down in the next couple of days, so forty eight hours, i want you to give me a call back.
+  added - omission: d: because um, you know if you are getting dehydrated then we need to do further investigations, ok?
+  added - omission: but i think let's, let's see how you are in the next one to two days.
+  added - omission: d: and uh, we'll catch up soon, ok?
+  added - omission: so you're saying that i should, i could, uh i'll try and buy this dioralyte.
+  added - omission: what, what should i do in terms of um, food and that kind of thing?
+  added - omission: should i just focus on fluids?
+  added - omission: you can use soft diet, things like soup, mash.
+  added - omission: and then gradually build up, um as much as your body can tolerate.
+  added - omission: d: um, but let's try and keep yourself well-hydrated first, ok?
+  added - omission: is it ok for me to carry on having like, um paracetamol and things like that?
+  added - omission: if you are having, if you've got a bit of tummy pain, if you're feeling feverish, then i think paracetamol is very sensible.
+  added - omission: try and avoid alcohol if you can.
+  added - omission: thank you very much.
+  added - omission: thanks, thanks for helping me out.
+prim12.txt
+  missed - none
+  added - hallucination: 3/7 hx ago developed vomiting.
+  added - hallucination: not drinking sufficient fluids.
+  added - hallucination: no fever/temp, but feels warm.
+  added - hallucination: no unwell contacts 
+
+pmh: asthma 
+dh: salbutamol prn 
+nkda
+fh: father - htn, died of bowel ca.
+  added - hallucination: mother - diabetes type 2
+sh: lives alone , software engineer.
+  added - hallucination: nil smoking, social etoh
+
+imp: gastroenteritis 
+
+plan:
+1.
+  added - hallucination: supportive mx - rest, fluids
+2.
+  added - hallucination: review in 3-5d inb, or earlier if worsening sx (diarrhea, vomiting, abdo pain, reduced oral intake)
+  added - omission: d: can you hear me ok?
+  added - omission: um, before i go any further, can i confirm you name and your age please?
+  added - omission: uh can you tell me a bit more about your diarrhoea?
+  added - omission: p: yes, it's definitely, definitely watery, uh, loose stools, yeah.
+  added - omission: any blood in your stools?
+  added - omission: uh, but i, i, i feel like, um, i can't, really drink too much, so i feel very dehydrated.
+  added - omission: when you say you can't drink too much, why is that?
+  added - omission: so just a little bit, but i don't feel, um, i don't really feel like, uh, i have appetite.
+  added - omission: you said
+d: ok, alright.
+  added - omission: have you had any other symptoms, like fever or temperature?
+  added - omission: any headaches or muscle pains?
+  added - omission: are you aware of any triggers?
+  added - omission: did you have any takeaway food, or any dodgy restaurant food?
+  added - omission: so moving on, um are you otherwise fit and well?
+  added - omission: and do you take any regular medications?
+  added - omission: p: um, so i, i do suffer of asthma.
+  added - omission: so, i do have my inhalers, uh, that i you know, i need, i use infrequently, let's say only when i have, uh, a bit of .
+  added - omission: any other medications that you take?
+  added - omission: do you have any allergies to medications?
+  added - omission: and any family history of any medical problems?
+  added - omission: p: um, so, my father has, high uh, well used to have high blood pressure.
+  added - omission: sorry to hear that.
+  added - omission: and um, just a little bit more about your life in general, sir.
+  added - omission: um who, who's at home with you?
+  added - omission: who lives at home with you?
+  added - omission: d: who lives at home with you, sir?
+  added - omission: are you currently working at the moment?
+  added - omission: d: what's your employment?
+  added - omission: p: uh, yes, yes i have, uh.
+  added - omission: and just the last couple of questions with, regarding your smoking and alcohol.
+  added - omission: d: having listened to your story, i think you're probably suffering from what we call gastroenteritis, uh which essentially is just a, a tummy bug.
+  added - omission: it's an infection of your, your tummy.
+  added - omission: d: the things you can do to really help yourself get better soon, um are you can drink plenty of fluids.
+  added - omission: really try and flush the toxins out of your body.
+  added - omission: d: uh you can get things from the pharmacy, which is called dioralyte, which can help replenish any uh minerals and vitamins you may have lost.
+  added - omission: um it's, it's a, it's a type of fluid replacement drink.
+  added - omission: d: um, you can take some paracetamol if you're feeling feverish and weak.
+  added - omission: d: and we can have another look at your symptoms, ok?
+  added - omission: uh, thanks so much.
+  added - omission: uh, yeah i'll, i'll try to , and drink , drink plenty of fluid and i hope it go away.
+  added - omission: p: thanks a lot.
+prim13.txt
+  missed - hallucination: inserted sentence from note 5: "Rx empirically with Abx for UTI
+4."
+  missed - hallucination: inserted sentence from note 3: "Had visual aura before onset of headaches - zigzag lines in field of vision."
+  added - hallucination: constant, severity 8/10, dull ache with associated sharp pain, gradual onset.
+  added - hallucination: no visual sx
+visual aura prior to headaches.
+  added - hallucination: socially smoke/etoh 
+
+ice: ?related to stress/dehydration.
+  added - hallucination: imp: migraines 
+
+plan:
+1.
+  added - hallucination: review in 1/52 - discuss prophylactic rx if necessary
+4.
+  added - hallucination: patient aware of red flag sx - knows to seek urgent medical attention if present
+  added - omission: um, before i go any further, can i uh, confirm your name and your age please?
+  added - omission: d: ohh dear, ok.
+  added - omission: , when, when did it exactly start, this headache?
+  added - omission: p: eh, around three days ago, maybe.
+  added - omission: d: three days ago, ok.
+  added - omission: p: um, it's basically like, it kind of feels all over my head, but like mainly, um, around my right eye.
+  added - omission: and if i was to ask you on a scale of one to ten, um, ten being the worst type of pain you ever had.
+  added - omission: how would you rate this headache?
+  added - omission: p: ohh it's probably a eight.
+  added - omission: p: um, it's kind of, it's dull but sometimes it gets a bit sharper.
+  added - omission: so basically it like, it developed gradually, i guess.
+  added - omission: it's like the first day it just started when i was at work.
+  added - omission: p: and by the end of the day it was like pretty, pretty, like it was a lot, basically.
+  added - omission: and then i was thinking ok, maybe i'll just go to sleep.
+  added - omission: and when i woke up the next morning like, it was even, even worse basically.
+  added - omission: so
+d: so, you think the headache is getting worse over the last three days?
+  added - omission: p: um so i tried uh ibuprofen.
+  added - omission: um so i took, like a few.
+  added - omission: um for the last two days, basically.
+  added - omission: d: so, example any, problems your eyesight or your vision?
+  added - omission: p: not really, but just when it started, i i got this like weird shooting lights.
+  added - omission: and like now like light is quite annoying, my eyes.
+  added - omission: d: so when you say annoying, does it hurt to look, uh, look at bright lights?
+  added - omission: p: not loss of vision, i wouldn't say.
+  added - omission: it's just like some lights from, shooting lights .
+  added - omission: d: mmm, , ok.
+  added - omission: any nausea or any vomiting?
+  added - omission: d: when you say sick, you mean you feel sick?
+  added - omission: yeah, no vomiting, ok.
+  added - omission: any neck pain or neck stiffness?
+  added - omission: p: no, it's hard to focus though.
+  added - omission: so, i i had to take a couple of days off work, actually.
+  added - omission: ok, yeah probably, well i'll, i'll ask you a bit more about your work later on.
+  added - omission: um, any recent head injuries at all?
+  added - omission: p: yeah i mean, headaches, you mean.
+  added - omission: but, usually after i i take uh ibuprofen it kind of goes away.
+  added - omission: so, but this time it's just not.
+  added - omission: um, any temperatures, or fevers?
+  added - omission: d: any rashes at all, on your skin?
+  added - omission: are you otherwise fit and well, adriana?
+  added - omission: p: yeah, i think so.
+  added - omission: i'll ask you a bit more about that in just a second.
+  added - omission: before i go any further, can i ask, do you take any regular medication?
+  added - omission: d: are you on the pill?
+  added - omission: do you have any allergies to any medications?
+  added - omission: p: um so my sister's, like better.
+  added - omission: like it's kind of, it's very rare.
+  added - omission: but my mom's is like quite bad, um usually when there's like a season changing and stuff like that.
+  added - omission: d: ohh right, ok, fine.
+  added - omission: um, socially, tell me a bit more about your life, outside of, um, outside of, work.
+  added - omission: p: yeah so i work, well i work in it.
+  added - omission: um i had to like reduce the uh, brightness of my screen.
+  added - omission: something for you to bear in mind if you feel that you are, your eyes are straining.
+  added - omission: um i would always recommend having a repeat eye test done.
+  added - omission: um, have you been feeling more stressed or anxious at work recently?
+  added - omission: um, regarding smoking or alcohol.
+  added - omission: do you drink or smoke at all?
+  added - omission: p: i socially smoke.
+  added - omission: now um, adriana, do you have any ideas as to what could be causing your symptoms?
+  added - omission: have you, have you read anything online, or spoken to people?
+  added - omission: um at first i thought it's stress, or maybe i didn't drink enough water.
+  added - omission: because sometimes when i don't drink enough water, i i like get headaches.
+  added - omission: and i'm like worried, it's, i don't want it to be a migraine.
+  added - omission: because i know what it's like, from my mom and my sister.
+  added - omission: is it anything in particular you were hoping i could do for you today?
+  added - omission: p: yeah maybe just kinda, if you have any recommendations of that i can take something stronger.
+  added - omission: because apparently, ibuprofen doesn't help me.
+  added - omission: uh
+p: usually it gets resolved if i have headache in like, after like one or two days.
+  added - omission: but currently it, it didn't help me.
+  added - omission: d: how many tablets did you take of ibuprofen?
+  added - omission: d: three a day, ok.
+  added - omission: um, so uh, adriana, so um, really what i think is going on here.
+  added - omission: i , uh, unfortunately i do think this could be, a headache very similar to a migraine.
+  added - omission: d: um, the reason i say that is because the history is very suggestive of it, given your mum and your sister also migraines.
+  added - omission: d: um, now i'm not saying it's gonna, keep happening, but, it may just be a one-off.
+  added - omission: but it's certainly worth treating it today stronger analgesia or painkillers.
+  added - omission: uh, you tried the ibuprofen.
+  added - omission: now, my only worry is, i'm not sure whether you're taking, the correct dose.
+  added - omission: you can take up to two tablets, three times a day.
+  added - omission: or, i can prescribe you something stronger, like naproxen, which is another anti-inflammatory, which can be helpful.
+  added - omission: d: um, we can also add in other, painkillers like, paracetamol, or codeine.
+  added - omission: which might be helpful as well.
+  added - omission: i think is what my mom takes for when she has um, um migraines.
+  added - omission: it may be worth keeping a headache diary so we can try and work out what's, you know, if there's any triggers which could be causing your headaches to become worse.
+  added - omission: d: if you are having , more frequent episodes of these type of headaches.
+  added - omission: we can think about giving you medications as, prophylactic.
+  added - omission: which basically means, medications to stop you from having these headaches on a regular basis.
+  added - omission: in the meantime if your headaches aren't getting any better, or they're getting worse.
+  added - omission: um, you know, i want you to give me a call, or come back and see me sooner.
+  added - omission: d: so, if you're having any problems with your vision, or weakness in your arms and legs, or you're just not feeling very well.
+
+ [run 1] precision=0.01 recall=0.50 f1=0.03 avg_elapsed=0.0
+prim1.txt
+  missed - none
+  added - hallucination: fever on first day, nil since.
+  added - hallucination: takeaway 4/7 ago - chinese restaurant.
+  added - hallucination: pmh: asthma
+dh: inhalers
+sh: works as an accountant.
+  added - hallucination: affecting his adls as has to be near toilet often.
+  added - hallucination: nil smoking/etoh hx
+
+imp: gastroenteritis 
+
+plan:
+conservative management - rest, push fluids, paracetamol if feverish.
+  added - hallucination: to review in 3-5d if symptoms not improving.
+  added - hallucination: to see earlier if feeling more unwell.
+  added - omission: d: sorry to hear that.
+  added - omission: um, and and when you say diarrhea, what'd you mean by diarrhea?
+  added - omission: do you mean you're going to the toilet more often?
+  added - omission: or are your stools more loose?
+  added - omission: p: yeah, so it's like loose and watery stool, going to the toilet quite often, uh and like some pain in my, like, lower stomach?
+  added - omission: and how many times a day are you going, let's say, in the last couple of days?
+  added - omission: and you mention it's mainly watery.
+  added - omission: have you noticed any other things, like blood in your stools?
+  added - omission: and you mentioned you've had some pain in your tummy as well.
+  added - omission: whereabouts is the pain, exactly?
+  added - omission: p: so in my lower abdomen, so, uh, like, um...yeah, just to one side.
+  added - omission: okay, and can you describe the pain to me?
+  added - omission: p: yeah, it feels, um, like a cramp, like a muscular cramp, and, um, yeah i feel a bit uh weak and shaky.
+  added - omission: and is the pain, is that, is it there all the time, or does it come and go?
+  added - omission: does the pain move anywhere else, for example towards your back?
+  added - omission: and you mentioned you've been feeling quite weak and shaky as well.
+  added - omission: what do you mean by shaky?
+  added - omission: do you mean you've been having, uh have you been feeling feverish, for example?
+  added - omission: p: um, yeah, it doesn't feel like -- yeah, it just makes me feel weak.
+  added - omission: i haven't had a fever, um, at the moment, but i did notice um a temperature when the symptoms started, so, um, yeah around about three or four days ago.
+  added - omission: any other symptoms like sweating, or um, night sweats?
+  added - omission: and, uh, any vomiting at all?
+  added - omission: p: yeah, so um, i vomited at the start of the symptoms but now um i've stopped vomiting.
+  added - omission: d: you stopped vomiting, okay.
+  added - omission: and was your vomit, i know it's not a nice thing to talk about, but was it just normal food colour yeah.
+  added - omission: and there was no blood in your vomit, is that right?
+  added - omission: p: yeah, yeah, just normal vomit, yeah.
+  added - omission: no no blood, no.
+  added - omission: um, and um, any any other symptoms at all?
+  added - omission: so you mentioned tummy pain, you mentioned diarrhea, you mentioned your vomiting, uh, anything else that comes to mind?
+  added - omission: um, i had a loss of appetite, um, so i haven't been eating as much, but i've been able to hold down fluids.
+  added - omission: d: okay, so you're drinking fluids.
+  added - omission: um, what kind of foods have you managed to eat, if anything?
+  added - omission: p: um, just soups, and, uh, yeah, light foods.
+  added - omission: like smoothies and, yeah, liquid foods mainly.
+  added - omission: um, and sir these started three days ago the symptoms.
+  added - omission: are you aware of any triggers which may have caused the symptoms uh to kick on.
+  added - omission: so for example, think like takeaway foods or eating out or being around other people with similar symptoms.
+  added - omission: p: yeah, so i had takeaway about four days ago, um, uh, but other than that i've, yeah, been, uh, eating normally.
+  added - omission: d: do you remember where you ate?
+  added - omission: p: um, so no one else in the family, so a wife and two kids and one, um, child was vomiting, but they haven't got diarrhea.
+  added - omission: there's no one with the same symptoms.
+  added - omission: and uh, in terms of your , your overall health, are you normally fit and well?
+  added - omission: or, uh
+p: um, yeah, i mean, other than um athsma, um i use an inhaler, everything uh else is fine.
+  added - omission: and, is your asthma well-controlled?
+  added - omission: p: uh, yeah, that's fine.
+  added - omission: i just, yeah, use an inhaler, and uh that's under control.
+  added - omission: and you don't have any other tummy problem, bowel problems i should be aware of?
+  added - omission: um, and apart from the inhalers, do you take any other medications?
+  added - omission: and in terms of just your day to day life, you said it's been affecting your life, um, in what way has it been affecting your life?
+  added - omission: p: uh, so, i need to stay close to the toilet 'cause i go quite frequently during the these past three days.
+  added - omission: um, yeah, other than that, it's uh, yeah, the main concern.
+  added - omission: d: and have you, are you currently working at the moment?
+  added - omission: p: uh, yeah, i've been going to work.
+  added - omission: yeah, it's been quite difficult.
+  added - omission: that must be difficult for you then.
+  added - omission: and you said, you mentioned you live with your wife and two children, is that right?
+  added - omission: um, just a couple of other question we need to ask, sir.
+  added - omission: um, do you smoke at all?
+  added - omission: d: and do you drink much in the way of alcohol?
+  added - omission: so um, er normally at this stage i like to um, examine you if that's okay, but um, um, but but having listened to your story, sir, i think uh, um, just to recap for the last three days you've been having loose stool, diarrhea, a bit of tummy pain uh mainly on the left-hand side, um and vomiting and fever and you're quite weak and lethargic um, you mentioned you had this chinese takeaway as little as three days ago and i wondered whether that might be the cause of your problems.
+  added - omission: d: um, it seems like you may have something, uh, called gastroenteritis, which essentially just a tummy bug or infection of your uh of your tummy.
+  added - omission: d: at this stage, uh, what, what we'd recommend is just what we say conservative management.
+  added - omission: so, um, i don't think you need anything like antibiotics.
+  added - omission: it's really just, um, making sure you're well hydrated, so drinking fluids.
+  added - omission: d: um, there are things like dioralyte you can get from the pharmacy, which uh it's um it helps helps replenish your minerals and vitamins.
+  added - omission: d: um, and if you are having vomiting diarrhea i would say recommend that in the first, you know, first couple of days.
+  added - omission: d: if you are feeling feverish and weak, eh taking some paracetamol, uh, two tablets up to four times a day for the first few days can also help.
+  added - omission: d: i will certainly advise you to take some time off work, actually i know you're quite keen to work but i would say the next two, two to three days as the infection clears from your system to take some time off and rest.
+  added - omission: d: um, i'll admit if your symptoms haven't got better, you know, in in three to four days, i'd like to come and see you again.
+  added - omission: d: because if it is ongoing then we have to wonder whether something else caused your symptoms.
+  added - omission: d: uh, and we may need to do further tests like um taking a sample of your stool so we can test that.
+  added - omission: d: okay, and is uh is the treatment plan clear?
+prim10.txt
+  missed - hallucination: inserted sentence from note 9: "Nil bowel sx
+Currently sexually active - with regular partner for 2/12."
+  added - hallucination: suprapubic pain on pu - aching pain, nil radiating 
+nil nausea/vomiting 
+nil fevers 
+nil new bowel sx 
+currently sexually active - long-term partner.
+  added - hallucination: lmp 2/52 
+e+d well 
+
+pmh: ibs
+dh: cocp, mebeverine 
+allergic to clindamycin 
+fh: nil
+sh: lives in student halls, nil smoking, social etoh
+
+imp: uti
+
+plan:
+1.
+  added - hallucination: review in 1/52 inb, or earlier if worsening sx (fever, back pain, vomiting) nil bowel sx
+currently sexually active - with regular partner for 2/12.
+  added - omission: d: right excellent, before i go any further, can i confirm your name and your age please?
+  added - omission: p: yeah i can hear you, hi.
+  added - omission: p: um, and it kind of hurts sometimes when i'm, like in at the bottom of my tummy as well.
+  added - omission: i'm sorry to hear there's a lot going on there and i can, see why it's affecting you.
+  added - omission: um, so you mentioned it's been going on for last three days, mainly the burning pain when you pass urine.
+  added - omission: um, you said you're going to the toilet more often as well, that right?
+  added - omission: p: uh, yeah it's been going on for a little bit longer than three days i think actually, maybe just under a week.
+  added - omission: p: um, and yeah i notice a sort of burning, stinging, when i when i go to the toilet, yeah.
+  added - omission: d: are you noticing any, anything in your urine, predominantly blood or um, discolouration of urine?
+  added - omission: p: um, i think, well today i noticed, um, that it was like a bit pink.
+  added - omission: p: the, the urine.
+  added - omission: d: ok, uh of any kind of frank blood?
+  added - omission: i mean red blood at all, in your urine?
+  added - omission: p: yeah, i think just today .
+  added - omission: p: um, i think it was probably but i don't know it was pink so.
+  added - omission: um, fine we'll we'll have to definitely explore that in a little bit or detail later on.
+  added - omission: um, you also mentioned some tummy pain as well, can you tell me a bit more about that pain?
+  added - omission: p: yeah it's kind of at the bottom of my tummy, um, uh mainly when i go to the loo, i think that's when it's worse.
+  added - omission: um, can you describe it crampy pain?
+  added - omission: is it more of a burning pain?
+  added - omission: and does the pain move anywhere else?
+  added - omission: does it move towards your back?
+  added - omission: d: ok, all right.
+  added - omission: um, any other symptoms?
+  added - omission: any temperatures or fevers?
+  added - omission: d: ok, all right.
+  added - omission: and how are your bowels at the moment?
+  added - omission: are your bowels working ok?
+  added - omission: p: uh i, i usually have a bit of problems with my bowels anyway, so i don't think it's any, different, from what it usually is.
+  added - omission: p: um, i think i have, um, ibs, um, so i just kinda pass, uh, my bowels like quite, quite a lot.
+  added - omission: d: ok, all right but, and you've noticed no new symptoms?
+  added - omission: no, no, no new symptoms in your bowels?
+  added - omission: um, and amanda sometimes we have to ask quite sensitive questions as you can imagine.
+  added - omission: um, uh, can i ask?
+  added - omission: are you currently uh, are you currently sexually active?
+  added - omission: p: uh uh yeah um, i have a, a long-term, um, boyfriend.
+  added - omission: d: ok, and um, have you noticed any other discharge from down below?
+  added - omission: so, from from the front passage?
+  added - omission: have you, do you use any form of contraception?
+  added - omission: p: uh yeah, uh i'm um on the pill.
+  added - omission: what kind of pill is it?
+  added - omission: is it combined pill or the mini-pill?
+  added - omission: p: uh, combined pill.
+  added - omission: p: i dunno we've just kind of agreed, uh, so um i guess, a week ago, two weeks ago , quite quite .
+  added - omission: d: what i'm trying get at is whether um, uh there's any chance you could be pregnant at all.
+  added - omission: uh, i know you're on the pill, but um we're we, nonetheless we do have to ask.
+  added - omission: um when was your last, when was your last period?
+  added - omission: d: two weeks ago ok, all right.
+  added - omission: just something for us, to bear in mind, if your symptoms don't get any better ok, um.
+  added - omission: d: fine, in terms of your general health otherwise at the moment are you, uh eating and drinking ok?
+  added - omission: p: uh, yeah, yeah eating drinking ok.
+  added - omission: um, i did have one kinda concern i dunno
+p: so i i smoked, uh this is quite bad, but i smoked weed for the first time.
+  added - omission: p: uh, like a week and a half ago, i i just wondered whether it's related at all, probably not but i just thought i'd get some advice from you.
+  added - omission: d: but, uh, you know i do strongly advise you to you know, um, make it a regular habit if you can.
+  added - omission: um, just for your, just for your general health moving forwards, ok?
+  added - omission: moving on, in terms of your health otherwise, do you have any other medical conditions , apart from the ibs, is there anything else i should be aware of?
+  added - omission: d: no, ok great.
+  added - omission: and what about any medications that you take on a regular basis, apart from the, um, combined pill?
+  added - omission: p: apart from the pill, um, i take, um, something for the ibs as well.
+  added - omission: um it begins with an m, it's pretty hard to pronounce like something , maybe.
+  added - omission: d: ok, and is that for the cramps, the crampy pain?
+  added - omission: d: yeah ok, and do you have any allergy to any medications?
+  added - omission: p: um, yeah i think there was an antibiotic, um, called clindamycin mycin .
+  added - omission: d: ritib, ok sure, i'll make a note of that.
+  added - omission: um, in terms of family history, any history of problems with the bladder or the kidneys?
+  added - omission: p: um, so i am living in halls at the moment, uh at uni um, so uh, uh, i'm just living with a flatmate i suppose, um.
+  added - omission: d: very good, very good, good.
+  added - omission: um, in terms of smoking and alcohol, do you, do you participate in either?
+  added - omission: p: uh, as i admitted before i tried weed for the first time, uh, but, uh, i don't smoke.
+  added - omission: uh ,i drink occasionally, um, kind of socially, um, with friends .
+  added - omission: p: i kind of was a little bit tipsy so, probably wasn't thinking quite straight.
+  added - omission: um, but yeah i, i completely agree it's not something i wanna get into on a regular basis.
+  added - omission: d: sure, uh, and obviously as your doctor i'm here to look after you so yeah i i would strongly recommend you, you know, to avoid if you can.
+  added - omission: great, um, fine so, at this stage i wouldn't normally examine you, but i think based on your story i think, um, you know, uh, i'm reassured.
+  added - omission: d: but the fact that i, i i think it's, um, probably just a simple what we'd say a uti or a cystitis, bladder infection.
+  added - omission: d: uh, you know you haven't got any other symptoms that, suggest to me that there's anything to worry about, so things like fevers and back pain.
+  added - omission: d: um, would be more worrying for me to hear.
+  added - omission: um, so it's something we can treat quite readily with antibiotics.
+  added - omission: um, so we've got a choice of two antibiotics something called trimethoprim or, nitrofurantoin which is a three day course.
+  added - omission: d: and normally they're usually quite effective, um, for your symptoms.
+  added - omission: it's probably worth giving us a urine sample today as well if you can, so we can send it off to the lab.
+  added - omission: d: and see exactly what's going on there.
+  added - omission: um, start the antibiotics, make sure you're well hydrated, drink plenty of fluids.
+  added - omission: d: um, if you are having some pain, simple paracetamol, um, would probably be advisable.
+  added - omission: d: um, we'll see what the urine sample shows.
+  added - omission: um, and if it is indeed positive, we'll know which antibiotics are the right ones.
+  added - omission: p: ok, ok uh great.
+  added - omission: um, with, with the urine sample, um, uh, how do i go about doing that, do you know?
+  added - omission: is it through the app?
+  added - omission: d: ok, do bear in mind those symptoms i mentioned about the fever and the back pain and vomiting.
+  added - omission: if you have any of those give me a call, ok?
+  added - omission: p: either back pain, vomiting, great ok.
+  added - omission: yeah, i'll watch out for those.
+prim11.txt
+  missed - hallucination: inserted sentence from note 1: "Lives with wife and children."
+  added - hallucination: no blood in stools.
+  added - hallucination: assoc crampy abdo pain - central, intermittent, severity 6/10.
+  added - hallucination: feels nauseous, has vomited occasionally.
+  added - hallucination: feeling feverish, hot/cold
+nil urinary sx - passing less urine .
+  added - hallucination: smokes socially, etoh - socially 
+
+imp: gastroenteritis 
+
+plan:
+1.
+  added - hallucination: encourage soft diet
+4.
+  added - hallucination: review in 48 hours, or earlier if worsening sx
+  added - omission: p: uh i can hear you, but i can't really see you.
+  added - omission: p: just connection on the screen.
+  added - omission: d: uh, now before i go any further, can i confirm your name and your age?
+  added - omission: p: um so i've just um, been having some troubles, basically in the uh, i guess it's been a little while now.
+  added - omission: and i've just been feeling not so great.
+  added - omission: and it's like just coming out, like loads of it.
+  added - omission: like i go to the toilet and it's just super watery and it
+p: yeah it doesn't feel very solid.
+  added - omission: it so, it just, it's just pouring straight from my bum, and like just coming out.
+  added - omission: and it's, uh,
+p: yeah it's just uh not, not been very pleasant.
+  added - omission: and like i just, it just kind of hasn't, doesn't feel like it's getting better.
+  added - omission: so
+d: wow, no.
+  added - omission: seems like there's a lot going on there.
+  added - omission: well, when did it all start, your symptoms?
+  added - omission: and is it mainly diarrhoea?
+  added - omission: so, you mentioned watery stools.
+  added - omission: um
+d: how many times are you going a day, would you say?
+  added - omission: p: um so i , i feel like it's like almost every hour, when i'm awake.
+  added - omission: so you're losing a lot of, a lot of, you're using a lot of fluid there.
+  added - omission: p: yeah, so i mean i'm , i'm trying to drink a lot of water.
+  added - omission: p: uh it's, yeah i i, i think i i feel like it's just, just fluids coming out.
+  added - omission: have you got any blood in your stools?
+  added - omission: p: so i, no i don't, i don't remember anything, like, no i , i think it's just i, nothing like that.
+  added - omission: there's nothing like that.
+  added - omission: and any, any tummy pain?
+  added - omission: any, any, any pain in your tummy?
+  added - omission: i mean i, it, i feel, i feel a cramp.
+  added - omission: p: and then, and then i know it's time to go right?
+  added - omission: so, around every hour i just feel something come up.
+  added - omission: and then i have to go.
+  added - omission: so, yeah i mean that's, that's the , kind of the first sign.
+  added - omission: d: where is this crampy pain?
+  added - omission: which part of your tummy?
+  added - omission: p: um i i think it it , it feels pretty , like in the middle, to me.
+  added - omission: not on any side, left or right.
+  added - omission: and does the pain come and go, or is it there constantly?
+  added - omission: and if i was to ask you on a scale of one to ten, ten being the worst pain you ever had, how bad is this pain?
+  added - omission: p: what do you mean by, uh pain?
+  added - omission: so i, i think it's maybe a
+d: is it, is this pain as in making you double over?
+  added - omission: is it ten, is it ten out of ten, the worst pain you ever had?
+  added - omission: or is it more of a kind of a mild pain, like a three out of ten?
+  added - omission: p: i i guess so.
+  added - omission: i'm, when i think about it, like when i get it, i can pretend that i don't feel it.
+  added - omission: so i can still sit down and
+p: uh i can still like cover it up, and people don't really notice.
+  added - omission: so i, i don't know what that means.
+  added - omission: but maybe is that like a six, or a seven?
+  added - omission: um, and apart from the pain and diarrhea, any other symptoms like nausea, vomiting?
+  added - omission: p: um, yeah i definitely, i definitely feel kind of nauseous.
+  added - omission: um
+p: like i and, like i've have vomited.
+  added - omission: and when i like, i think it's maybe something to do with like, whenever i have like milk or something like that, i just feel like i want to vomit.
+  added - omission: and actually, yeah one time i just like had some milk, and i just completely vomited it.
+  added - omission: d: and the vomiting is not as pronounced as the diarrhea.
+  added - omission: d: and the vomiting is not as, uh, prominent as the diarrhea.
+  added - omission: um, any other symptoms, like fevers or temperatures?
+  added - omission: p: um so i, yeah i think i am pretty, i feel kind of really hot all the time.
+  added - omission: and uh i'm pretty sure i'm burning up.
+  added - omission: i haven't actually done any temperature reading, or anything like that.
+  added - omission: but it's, i, yeah i've, i've sure i'm, i'm not a, like not a normal temperature.
+  added - omission: d: ok, so you're feeling hoarse.
+  added - omission: and in terms of your waterworks, are you passing urine ok?
+  added - omission: p: um yeah a bit, i guess less frequently maybe.
+  added - omission: um but yeah, it seems to be ok.
+  added - omission: and, and you said that, you mentioned, three days ago was when it all kicked off.
+  added - omission: are you aware of any triggers?
+  added - omission: i mean, have you for example gone out, had some takeaway food?
+  added - omission: have you been around anyone else, um with diarrhea, for example?
+  added - omission: p: um so i , so my um my brother has had, actually had something like this for um he has it as well for five days, as well.
+  added - omission: um and i i've, i'm not, yeah i i can't think of what, what the trigger is for me.
+  added - omission: i mean, my brother normally can deal, deals with this stuff a lot better than me.
+  added - omission: but , yeah i, that's why
+p: he, so he's been like this for five days.
+  added - omission: i think he's getting better, but i'm not, i'm not really sure.
+  added - omission: he said, he said he had, he's had something for a little while as well.
+  added - omission: are you having anything to eat or drink?
+  added - omission: have you, i can see you're drinking a coffee, but are you keeping it down?
+  added - omission: are you keeping your fluids down?
+  added - omission: p: um so it just feels like the, the fluids do go down.
+  added - omission: but it just feels like it's going straight through.
+  added - omission: p: it just feels like it's going straight through.
+  added - omission: p: um so, i had some, i mean i had some lunch today.
+  added - omission: um
+d: ok, alright.
+  added - omission: um and and dan, moving forwards, are you otherwise fit and well, or do you have any other medical history?
+  added - omission: p: um, so i um, yeah i think, i think otherwise i'm fit and well.
+  added - omission: i um
+p: yeah i mean i, i'm an ok weight.
+  added - omission: and um, i i can't think of any related medical history.
+  added - omission: and do you have any allergies to any medications?
+  added - omission: and what about any family history?
+  added - omission: do you have any family history of bowel problems?
+  added - omission: p: um bowel, so would, would bowel like, is is the colon like something that
+d: yeah, yeah.
+  added - omission: so what i mean by bowel is the whole gut.
+  added - omission: so it could be anything from the mouth anus.
+  added - omission: p: so my, yeah my, my dad actually has um colon cancer at the moment.
+  added - omission: p: so um, from what i heard he's kind of, so i don't i don't speak to him that often.
+  added - omission: so i don't, i don't know the exact details.
+  added - omission: and i, i don't exactly know the full things of like the steps of cancer, and all that kind of thing.
+  added - omission: but um, he's sort of in his third stage.
+  added - omission: uh, i'm not sure what that means exactly.
+  added - omission: p: um, and yeah.
+  added - omission: so yeah it's, it's um, he's, yeah you can, yeah i can see he's kind of weaker, and it's affecting him a lot.
+  added - omission: and um, that's it's quite, i i guess he's um, had it for a little while now.
+  added - omission: d: in general day-to-day life are you managing ok?
+  added - omission: p: going to work with all of this.
+  added - omission: um i dislike um, taking time off work.
+  added - omission: i feel like i i just want to go, um when i can.
+  added - omission: so i i try and go um
+p: yeah.
+  added - omission: i'd, i'd just rather deal with these things.
+  added - omission: so , ok right.
+  added - omission: and just a couple last final couple, uh couple questions.
+  added - omission: uh, smoking and alcohol, do you do either?
+  added - omission: do you smoke, or do you drink much in the way of alcohol?
+  added - omission: p: um so i i smoke um, i smoke uh, uh for like socially, but not like regularly.
+  added - omission: um
+d: and alcohol?
+  added - omission: p: so alcohol, um uh you know i might have a a beer during the weekdays, maybe uh not that many, maybe um .
+  added - omission: on fridays i have more um alcohol um
+p: uh, honest, i suppose um, not every week, but maybe i'll once or twice a month, that yeah, i'll go out with my friends and drink a lot so that that's um, yeah um
+d: well thank you for me.
+  added - omission: that's really helpful to know.
+  added - omission: so um, dan, just as a a conclusion, uh um, just to wrap it all up, i think your symptoms are suggestive of something called gastroenteritis.
+  added - omission: d: bit of a basic infection of your tummy.
+  added - omission: there's nothing to worry about.
+  added - omission: uh um uh uh i suspect this will just settle down in the next few days.
+  added - omission: d: just like you did for you brother.
+  added - omission: drink, make sure you drink plenty of fluids, ok?
+  added - omission: and you can
+p: should i just drink like normal water?
+  added - omission: i just feel like every time i drink it's just coming out.
+  added - omission: um
+d: fluid is probably best.
+  added - omission: but i am obviously worried about the fact that you are losing minerals and vitamins.
+  added - omission: um so, you can get things like diarolyte, which is um, a fluid replacement you can get from the pharmacy.
+  added - omission: it's probably worth uh recommending that.
+  added - omission: p: do i need like a prescription for that?
+  added - omission: d: um, you can try just you know regular paracetamol if you are feeling feverish.
+  added - omission: but if your symptoms aren't settling down in the next couple of days, so forty eight hours, i want you to give me a call back.
+  added - omission: d: because um, you know if you are getting dehydrated then we need to do further investigations, ok?
+  added - omission: but i think let's, let's see how you are in the next one to two days.
+  added - omission: d: and uh, we'll catch up soon, ok?
+  added - omission: so you're saying that i should, i could, uh i'll try and buy this dioralyte.
+  added - omission: what, what should i do in terms of um, food and that kind of thing?
+  added - omission: should i just focus on fluids?
+  added - omission: you can use soft diet, things like soup, mash.
+  added - omission: and then gradually build up, um as much as your body can tolerate.
+  added - omission: d: um, but let's try and keep yourself well-hydrated first, ok?
+  added - omission: is it ok for me to carry on having like, um paracetamol and things like that?
+  added - omission: if you are having, if you've got a bit of tummy pain, if you're feeling feverish, then i think paracetamol is very sensible.
+  added - omission: try and avoid alcohol if you can.
+  added - omission: thank you very much.
+  added - omission: thanks, thanks for helping me out.
+prim12.txt
+  missed - none
+  added - hallucination: 3/7 hx ago developed vomiting.
+  added - hallucination: has now developed diarrhea - 5-6x/day.
+  added - hallucination: no blood in stools.
+  added - hallucination: not drinking sufficient fluids.
+  added - hallucination: no fever/temp, but feels warm.
+  added - hallucination: no unwell contacts 
+
+pmh: asthma 
+dh: salbutamol prn 
+nkda
+fh: father - htn, died of bowel ca.
+  added - hallucination: mother - diabetes type 2
+sh: lives alone , software engineer.
+  added - hallucination: nil smoking, social etoh
+
+imp: gastroenteritis 
+
+plan:
+1.
+  added - hallucination: supportive mx - rest, fluids
+2.
+  added - hallucination: review in 3-5d inb, or earlier if worsening sx (diarrhea, vomiting, abdo pain, reduced oral intake)
+  added - omission: d: can you hear me ok?
+  added - omission: um, before i go any further, can i confirm you name and your age please?
+  added - omission: d: ok, well i'm sorry to hear that.
+  added - omission: uh can you tell me a bit more about your diarrhoea?
+  added - omission: p: yeah, so it's been a, very bad diarrhoea, so it keeps me like, i keep going back and forth, to, to the toilet very often.
+  added - omission: p: and uh, uh, so it started with vomiting, so i vomited a couple of times.
+  added - omission: uh, but then, that went away, and, uh, yeah it's just diarrhoea now.
+  added - omission: and you mentioned you've been um going to the toilet very often.
+  added - omission: how many times are you going a day?
+  added - omission: and uh uh can you tell me, i know it's not nice to talk about, but is it quite watery, your stools, loose?
+  added - omission: p: yes, it's definitely, definitely watery, uh, loose stools, yeah.
+  added - omission: any blood in your stools?
+  added - omission: and uh uh uh with the diarrhea have you noticed any other symptoms, like tummy pain?
+  added - omission: p: uh, not, not really, no.
+  added - omission: uh, but i, i, i feel like, um, i can't, really drink too much, so i feel very dehydrated.
+  added - omission: when you say you can't drink too much, why is that?
+  added - omission: p: uh, yeah because, really i, uh i, um, i'm like, i feel like i don't drink enough, like i'm, i'm drink, i'm trying to drink, but then i just go to the loo, and i like, i, uh i, i, i do everything and i feel dehydrated again.
+  added - omission: p: uh, not much, not much.
+  added - omission: so just a little bit, but i don't feel, um, i don't really feel like, uh, i have appetite.
+  added - omission: um with your um, the vomiting has now stopped.
+  added - omission: you said
+d: ok, alright.
+  added - omission: have you had any other symptoms, like fever or temperature?
+  added - omission: p: uh, so, not, really i , i feel a little bit warm, um, probably at, at the beginning i was feeling i had a bit of temperature, but now i feel, i feel kind of fine.
+  added - omission: p: i feel very weak though.
+  added - omission: any headaches or muscle pains?
+  added - omission: and you mentioned three days ago.
+  added - omission: what were you doing when the symptoms started?
+  added - omission: are you aware of any triggers?
+  added - omission: p: yeah, just felt, like some nausea and i had to, to vomit, and then i had some diarrhoea, straight after that.
+  added - omission: did you have any takeaway food, or any dodgy restaurant food?
+  added - omission: have you been around anyone unwell, with diarrhea recently, last week or so?
+  added - omission: so moving on, um are you otherwise fit and well?
+  added - omission: and do you take any regular medications?
+  added - omission: p: um, so i, i do suffer of asthma.
+  added - omission: so, i do have my inhalers, uh, that i you know, i need, i use infrequently, let's say only when i have, uh, a bit of .
+  added - omission: d: is that, is that inhaler?
+  added - omission: d: is that the blue inhaler?
+  added - omission: any other medications that you take?
+  added - omission: do you have any allergies to medications?
+  added - omission: and any family history of any medical problems?
+  added - omission: p: um, so, my father has, high uh, well used to have high blood pressure.
+  added - omission: he actually, so he actually died, of, bowel cancer, like ten years ago.
+  added - omission: sorry to hear that.
+  added - omission: and uh what about your mother?
+  added - omission: p: ohh yes, so uh, probably is worth mentioning uh, she has diabetes.
+  added - omission: do you know if that's type one or type two?
+  added - omission: and um, just a little bit more about your life in general, sir.
+  added - omission: um who, who's at home with you?
+  added - omission: who lives at home with you?
+  added - omission: d: who lives at home with you, sir?
+  added - omission: d: you live alone, ok.
+  added - omission: are you currently working at the moment?
+  added - omission: d: what's your employment?
+  added - omission: what do you do for work?
+  added - omission: p: uh, yes, yes i have, uh.
+  added - omission: uh, these last three days i've been feeling, really unwell, so i couldn't work.
+  added - omission: and just the last couple of questions with, regarding your smoking and alcohol.
+  added - omission: do you do either of those?
+  added - omission: d: having listened to your story, i think you're probably suffering from what we call gastroenteritis, uh which essentially is just a, a tummy bug.
+  added - omission: it's an infection of your, your tummy.
+  added - omission: um and normally lasts about three to five days, and gets better.
+  added - omission: d: the things you can do to really help yourself get better soon, um are you can drink plenty of fluids.
+  added - omission: really try and flush the toxins out of your body.
+  added - omission: d: uh you can get things from the pharmacy, which is called dioralyte, which can help replenish any uh minerals and vitamins you may have lost.
+  added - omission: uh, it's called dioralyte.
+  added - omission: um it's, it's a, it's a type of fluid replacement drink.
+  added - omission: d: um, you can take some paracetamol if you're feeling feverish and weak.
+  added - omission: d: i would probably advise you to continue taking time off work for next day or two, until you get better.
+  added - omission: d: normally you have to be diarrhea-free for about twenty four to forty eight hours, before you return back to work.
+  added - omission: d: and we can have another look at your symptoms, ok?
+  added - omission: p: that sounds good, that sounds good.
+  added - omission: uh, thanks so much.
+  added - omission: p: um, no i think that's fine.
+  added - omission: uh, yeah i'll, i'll try to , and drink , drink plenty of fluid and i hope it go away.
+  added - omission: uh, if it doesn't i'll uh, i'll call, i'll call back.
+  added - omission: d: i really hope you get better soon.
+  added - omission: p: thanks a lot.
+  added - omission: thanks so much, for your time.
+prim13.txt
+  missed - hallucination: inserted sentence from note 5: "Rx empirically with Abx for UTI
+4."
+  added - hallucination: constant, severity 8/10, dull ache with associated sharp pain, gradual onset.
+  added - hallucination: no visual sx
+visual aura prior to headaches.
+  added - hallucination: feels nauseous, no vomiting
+no neck pain/stiffness
+no speech disturbances 
+no arm or leg weakness
+no head injury 
+no fevers
+no rashes 
+
+pmh: nil 
+dh: nil
+nkda
+fh: mother and sister - migraines
+sh: lives with housemates, works in it, wears glasses, denies stress.
+  added - hallucination: socially smoke/etoh 
+
+ice: ?related to stress/dehydration.
+  added - hallucination: imp: migraines 
+
+plan:
+1.
+  added - hallucination: review in 1/52 - discuss prophylactic rx if necessary
+4.
+  added - hallucination: patient aware of red flag sx - knows to seek urgent medical attention if present
+  added - omission: um, thanks for, thanks for, being here.
+  added - omission: um, before i go any further, can i uh, confirm your name and your age please?
+  added - omission: p: well, i have this like really crazy headache that's been going on for a few days.
+  added - omission: and it really annoys me.
+  added - omission: d: ohh dear, ok.
+  added - omission: , when, when did it exactly start, this headache?
+  added - omission: p: eh, around three days ago, maybe.
+  added - omission: d: three days ago, ok.
+  added - omission: and whereabout in your head, is this pain?
+  added - omission: p: um, it's basically like, it kind of feels all over my head, but like mainly, um, around my right eye.
+  added - omission: d: ok, so it comes and, fine, ok.
+  added - omission: and if i was to ask you on a scale of one to ten, um, ten being the worst type of pain you ever had.
+  added - omission: how would you rate this headache?
+  added - omission: p: ohh it's probably a eight.
+  added - omission: and if i was to ask you describe the headache to me, um, in terms of the nature of the pain.
+  added - omission: p: um, it's kind of, it's dull but sometimes it gets a bit sharper.
+  added - omission: so basically it like, it developed gradually, i guess.
+  added - omission: it's like the first day it just started when i was at work.
+  added - omission: p: and by the end of the day it was like pretty, pretty, like it was a lot, basically.
+  added - omission: and then i was thinking ok, maybe i'll just go to sleep.
+  added - omission: and when i woke up the next morning like, it was even, even worse basically.
+  added - omission: so
+d: so, you think the headache is getting worse over the last three days?
+  added - omission: have you tried anything which has made the headache better?
+  added - omission: p: um so i tried uh ibuprofen.
+  added - omission: um so i took, like a few.
+  added - omission: um for the last two days, basically.
+  added - omission: d: ok, all right.
+  added - omission: and except for the headaches, any other symptoms at all?
+  added - omission: d: so, example any, problems your eyesight or your vision?
+  added - omission: p: not really, but just when it started, i i got this like weird shooting lights.
+  added - omission: and like now like light is quite annoying, my eyes.
+  added - omission: d: so when you say annoying, does it hurt to look, uh, look at bright lights?
+  added - omission: and um, have you had any loss of vision or blurry vision?
+  added - omission: p: not loss of vision, i wouldn't say.
+  added - omission: it's just like some lights from, shooting lights .
+  added - omission: d: mmm, , ok.
+  added - omission: any nausea or any vomiting?
+  added - omission: p: um, well i'm like basically, i i'm sick with the headache.
+  added - omission: but i, no vomiting.
+  added - omission: d: when you say sick, you mean you feel sick?
+  added - omission: yeah, no vomiting, ok.
+  added - omission: any neck pain or neck stiffness?
+  added - omission: d: any difficulty , with weakness in your arms and legs?
+  added - omission: p: no, it's hard to focus though.
+  added - omission: so, i i had to take a couple of days off work, actually.
+  added - omission: ok, yeah probably, well i'll, i'll ask you a bit more about your work later on.
+  added - omission: um, any recent head injuries at all?
+  added - omission: p: yeah i mean, headaches, you mean.
+  added - omission: d: or, uh, or similar, similar to, similar to this kind of headache, ?
+  added - omission: i mean i had.
+  added - omission: but, usually after i i take uh ibuprofen it kind of goes away.
+  added - omission: so, but this time it's just not.
+  added - omission: um, any temperatures, or fevers?
+  added - omission: d: any rashes at all, on your skin?
+  added - omission: and just moving forwards.
+  added - omission: are you otherwise fit and well, adriana?
+  added - omission: d: you fit and well?
+  added - omission: , do you have any other medical history?
+  added - omission: p: yeah, i think so.
+  added - omission: it's just the headache.
+  added - omission: d: any history of migraines at all?
+  added - omission: i'll ask you a bit more about that in just a second.
+  added - omission: before i go any further, can i ask, do you take any regular medication?
+  added - omission: d: are you on the pill?
+  added - omission: do you have any allergies to any medications?
+  added - omission: so you mentioned your mother and sister both have migraines.
+  added - omission: d: are they, is that normally well-controlled or are they um, having difficulty, controlling their symptoms?
+  added - omission: p: um so my sister's, like better.
+  added - omission: like it's kind of, it's very rare.
+  added - omission: but my mom's is like quite bad, um usually when there's like a season changing and stuff like that.
+  added - omission: d: ohh right, ok, fine.
+  added - omission: um, socially, tell me a bit more about your life, outside of, um, outside of, work.
+  added - omission: so , who lives at home with you?
+  added - omission: p: yeah so i work, well i work in it.
+  added - omission: so i work with computers a lot.
+  added - omission: so it kind of is difficult to focus.
+  added - omission: um i had to like reduce the uh, brightness of my screen.
+  added - omission: d: have you had any, uh, have you had any recent eye check, done?
+  added - omission: d: ok, all right.
+  added - omission: something for you to bear in mind if you feel that you are, your eyes are straining.
+  added - omission: um i would always recommend having a repeat eye test done.
+  added - omission: um, have you been feeling more stressed or anxious at work recently?
+  added - omission: d: ok, all right.
+  added - omission: um, regarding smoking or alcohol.
+  added - omission: do you drink or smoke at all?
+  added - omission: p: i socially smoke.
+  added - omission: and i drink only socially.
+  added - omission: now um, adriana, do you have any ideas as to what could be causing your symptoms?
+  added - omission: have you, have you read anything online, or spoken to people?
+  added - omission: um at first i thought it's stress, or maybe i didn't drink enough water.
+  added - omission: because sometimes when i don't drink enough water, i i like get headaches.
+  added - omission: um
+p: but, i don't think that's it.
+  added - omission: and i'm like worried, it's, i don't want it to be a migraine.
+  added - omission: because i know what it's like, from my mom and my sister.
+  added - omission: is it anything in particular you were hoping i could do for you today?
+  added - omission: p: yeah maybe just kinda, if you have any recommendations of that i can take something stronger.
+  added - omission: because apparently, ibuprofen doesn't help me.
+  added - omission: uh
+p: usually it gets resolved if i have headache in like, after like one or two days.
+  added - omission: but currently it, it didn't help me.
+  added - omission: d: how many tablets did you take of ibuprofen?
+  added - omission: d: three a day, ok.
+  added - omission: um, so uh, adriana, so um, really what i think is going on here.
+  added - omission: i , uh, unfortunately i do think this could be, a headache very similar to a migraine.
+  added - omission: d: um, the reason i say that is because the history is very suggestive of it, given your mum and your sister also migraines.
+  added - omission: i think it's something for us to think about.
+  added - omission: d: um, now i'm not saying it's gonna, keep happening, but, it may just be a one-off.
+  added - omission: but it's certainly worth treating it today stronger analgesia or painkillers.
+  added - omission: d: um, now moving forward, we have some options which we can discuss.
+  added - omission: uh, you tried the ibuprofen.
+  added - omission: now, my only worry is, i'm not sure whether you're taking, the correct dose.
+  added - omission: you can take up to two tablets, three times a day.
+  added - omission: d: so, so , there's definitely room for, improvement there.
+  added - omission: or, i can prescribe you something stronger, like naproxen, which is another anti-inflammatory, which can be helpful.
+  added - omission: d: um, we can also add in other, painkillers like, paracetamol, or codeine.
+  added - omission: which might be helpful as well.
+  added - omission: i think is what my mom takes for when she has um, um migraines.
+  added - omission: and i think it's , certainly worth looking into that, so i can give you a , prescription for that today.
+  added - omission: um, with regards to um, the next few days.
+  added - omission: it may be worth keeping a headache diary so we can try and work out what's, you know, if there's any triggers which could be causing your headaches to become worse.
+  added - omission: d: and, and, you know i'd like you to come back and see me, in about uh, a week's time, week to two weeks' time.
+  added - omission: d: if you are having , more frequent episodes of these type of headaches.
+  added - omission: we can think about giving you medications as, prophylactic.
+  added - omission: which basically means, medications to stop you from having these headaches on a regular basis.
+  added - omission: but we can have that discussion next time.
+  added - omission: in the meantime if your headaches aren't getting any better, or they're getting worse.
+  added - omission: um, you know, i want you to give me a call, or come back and see me sooner.
+  added - omission: d: so, if you're having any problems with your vision, or weakness in your arms and legs, or you're just not feeling very well.
+  added - omission: just give me a call, and come back and see me.
+
+ [run 1] precision=0.02 recall=0.75 f1=0.03 avg_elapsed=0.0

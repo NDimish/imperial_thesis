@@ -1,0 +1,14 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "inserted sentence",
+    "detail": "Hx:  Difficulty moving left arm, occurred upon waking this morning\nFeels no pain, but still can't move it\nNo previous similar episodes\nSlept as per normal last night\nNo discolouration in hand, arm doesn't feel cold\nSymptoms limited to left arm, not in left leg\nTingling present on left side of face over the same period (1 hour)\nPatient has not noticed any facial asymmetry\nDifficulty swallowing water- dribbled water\nSpeech seems \u2018harder' or \u2018slow'\nNo-one at home with patient\nPmhx: T2dm, HTN\nDH: metformin, losartan, amlodipine\nAllergic to penicillin\nFH: father hs \u2018heart disease'\nSH: lives alone, ex smoker, mild- moderate alcohol intake."
+  },
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "inserted sentence",
+    "detail": "Recent foreign travel- returned from Vietnam, took malaria prevention daily- cant remember medication, present there for a few weeks, rural and urban tourism, trekking and cycling."
+  }
+]

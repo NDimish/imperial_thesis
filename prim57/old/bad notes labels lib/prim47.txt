@@ -1,14 +1,6 @@
 [
   {
-    "type": "omission",
-    "detail": "E&D normally."
-  },
-  {
     "type": "hallucination",
-    "detail": "inserted sentence from note 50: \"No blood in stool.\""
-  },
-  {
-    "type": "omission",
-    "detail": "No recent change in BH/blood in stool."
+    "detail": "inserted sentence from note 5: \"Unprotected SI 2/7 ago.\""
   }
 ]

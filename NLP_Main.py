@@ -82,19 +82,24 @@ def plot_trends(all_checkpoints):
         overlap, no embeddings at all -- independent triangulation against the
         cosine-based metrics.
     None of these fit a density estimate, so none are subject to the KDE
-    metrics' small-sample bias. For every diff panel, positive = condensing
-    improved that direction, negative = it got worse -- but for the
-    cosine/ROUGE panels specifically, 0 is the realistic ceiling (removing
-    words can only hold a score steady or reduce it, never improve it).
+    metrics' small-sample bias. The two KDE diff panels use (original -
+    condensed) specifically so positive reads as "condensing made this
+    WORSE" (higher omission/hallucination-adjacent risk) without the reader
+    needing to know the raw scores are lower-is-stronger-signal underneath.
+    The cosine/ROUGE panels keep (condensed - original), where positive means
+    condensing IMPROVED that direction and 0 is the realistic ceiling
+    (removing words can only hold a score steady or reduce it, never improve
+    it) -- opposite subtraction order from the KDE panels, same reason: each
+    was chosen to match that metric's own better/worse direction.
     """
     metrics = [
         ("avg_elapsed", "Avg elapsed time (s)"),
         ("avg_percent_reduced", "Avg words reduced (%)"),
-        ("avg_diff_transcript_to_soap", "Avg diff, omission transcript->soap (condensed - original; +improved)"),
-        ("avg_diff_groundedness_soap_in_transcript", "Avg diff, groundedness soap->transcript (KDE, condensed - original; +improved)"),
-        ("avg_diff_cosine_coverage", "Avg diff, cosine coverage/recall (condensed - original; 0=ceiling)"),
-        ("avg_diff_cosine_f1", "Avg diff, cosine precision+recall F1 (condensed - original; 0=ceiling)"),
-        ("avg_diff_rouge1_f1", "Avg diff, ROUGE-1 F1, no embeddings (condensed - original; 0=ceiling)"),
+        ("avg_diff_transcript_to_soap", "Avg diff, omission transcript->soap (original - condensed; +worse/more omission risk)"),
+        ("avg_diff_groundedness_soap_in_transcript", "Avg diff, groundedness soap->transcript (KDE, original - condensed; +worse)"),
+        ("avg_diff_cosine_coverage", "Avg diff, cosine coverage/recall (condensed - original; +better, 0=ceiling)"),
+        ("avg_diff_cosine_f1", "Avg diff, cosine precision+recall F1 (condensed - original; +better, 0=ceiling)"),
+        ("avg_diff_rouge1_f1", "Avg diff, ROUGE-1 F1, no embeddings (condensed - original; +better, 0=ceiling)"),
     ]
 
     fig, axes = plt.subplots(len(metrics), 1, figsize=(9, 2.1 * len(metrics)), sharex=True)

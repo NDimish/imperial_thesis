@@ -1,0 +1,22 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"No rash seen on arm\nImp: localized inflammatory reaction to insect bite, no evidence of acute anaphylactic reaction or cellulitis\nPlan: for OTC antihistamines\n Warned re red flags sings/ symptoms- if these occur to get urgent medical review\nNo need for allergy testing on a one-off episode\nTo ring back if any concerns/ anxiety- may need more reassurance\nPt has had a bee/wasp bite a few minutes prior to appointment\nWorried about difficulty breathing and lip swelling, also localized rash\nNo PMHx of anaphylaxis, no use of epipen in past\nHas had anxiety in past- felt panicked now\nNo Fh of note\n SH: software engineer, has cat at home\nEx: Now: no lip swelling seen, speaking normally, no airways compromise.\" to \"rash seen on arm\nImp: localized inflammatory reaction to insect bite, no evidence of acute anaphylactic reaction or cellulitis\nPlan: for OTC antihistamines Warned re red flags sings/ symptoms- if these occur to get urgent medical review\nNo need for allergy testing on a one-off episode\nTo ring back if any concerns/ anxiety- may need more reassurance\nPt has had a bee/wasp bite a few minutes prior to appointment\nWorried about difficulty breathing and lip swelling, also localized rash\nNo PMHx of anaphylaxis, no use of epipen in past\nHas had anxiety in past- felt panicked now\nNo Fh of note SH: software engineer, has cat at home\nEx: Now: no lip swelling seen, speaking normally, no airways compromise.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 17: \"No trauma.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"Worried about difficulty breathing and lip swelling, also localized rash\nNo PMHx of anaphylaxis, no use of epipen in past\nHas had anxiety in past- felt panicked now\nNo Fh of note\n SH: software engineer, has cat at home\nEx: Now: no lip swelling seen, speaking normally, no airways compromise.\" to \"Worried about difficulty breathing and lip swelling, also localized rash PMHx of anaphylaxis, no use of epipen in past\nHas had anxiety in past- felt panicked now\nNo Fh of note SH: software engineer, has cat at home\nEx: Now: no lip swelling seen, speaking normally, no airways compromise.\""
+  },
+  {
+    "type": "omission",
+    "detail": "rash seen on arm\nImp: localized inflammatory reaction to insect bite, no evidence of acute anaphylactic reaction or cellulitis\nPlan: for OTC antihistamines Warned re red flags sings/ symptoms- if these occur to get urgent medical review\nNo need for allergy testing on a one-off episode\nTo ring back if any concerns/ anxiety- may need more reassurance\nPt has had a bee/wasp bite a few minutes prior to appointment\nWorried about difficulty breathing and lip swelling, also localized rash\nNo PMHx of anaphylaxis, no use of epipen in past\nHas had anxiety in past- felt panicked now\nNo Fh of note SH: software engineer, has cat at home\nEx: Now: no lip swelling seen, speaking normally, no airways compromise."
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 17: \"Hx: 1 week history of spontaneous elbow swelling left.\""
+  }
+]

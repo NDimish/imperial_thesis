@@ -1,14 +1,10 @@
 [
   {
     "type": "hallucination",
-    "detail": "\"GORD \n\n Plan\" was swapped for \"e+d\" (from note 39)"
+    "detail": "inserted sentence from note 37: \"Symptoms occur at random times of the day while at work, with no pre-symptoms, sometimes together, sometimes individually.\""
   },
   {
     "type": "hallucination",
-    "detail": "\"PE\" was swapped for \"SOBAR\" (from note 38)"
-  },
-  {
-    "type": "hallucination",
-    "detail": "inserted sentence from note 37: \"PC.\""
+    "detail": "\"SOBOE\" was swapped for \"SOBAR\" (from note 39)"
   }
 ]

@@ -1,18 +1,10 @@
 [
   {
     "type": "hallucination",
-    "detail": "inserted sentence from note 48: \"In meantime advised to access online CBT: attached info.\""
+    "detail": "inserted sentence from note 48: \"Low mood most of the time but denies any suicidal ideation.\""
   },
   {
     "type": "hallucination",
-    "detail": "\"Pmhx\" was swapped for \"Mum\" (from note 48)"
-  },
-  {
-    "type": "hallucination",
-    "detail": "inserted sentence from note 13: \"No visual sx\nVisual aura prior to headaches.\""
-  },
-  {
-    "type": "hallucination",
-    "detail": "inserted sentence from note 13: \"Progressively worsening.\""
+    "detail": "inserted sentence from note 48: \"Previously enjoyed running, tennis, socialising.\""
   }
 ]

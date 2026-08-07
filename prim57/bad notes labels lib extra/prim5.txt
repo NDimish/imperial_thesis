@@ -1,0 +1,22 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 10: \"LMP 2/52 \nE+D well \n\nPMH: IBS\nDH: COCP, mebeverine \nAllergic to clindamycin \nFH: nil\nSH: lives in student halls, nil smoking, social EtOH\n\nImp: UTI\n\nPlan:\n1.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"UTI\" was swapped for \"MSU \n 2\" (from note 10)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 9: \"Review in 3d if no better, or earlier if worsening sx (fevers, back pain, vomiting, more unwell)\""
+  },
+  {
+    "type": "omission",
+    "detail": "Urinary sx-noticed some pink coloured urine, no frank haematuria, nil dysuria."
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"1\" to \"10\" in \"LMP 2/52 \n E+D well \n\n PMH: IBS \n DH: COCP, mebeverine \n Allergic to clindamycin \n FH: nil \n SH: lives in student halls, nil smoking, social EtOH \n\n Imp: UTI \n\n Plan: \n 10.\""
+  }
+]

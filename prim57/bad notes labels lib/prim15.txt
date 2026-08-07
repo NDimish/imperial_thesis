@@ -1,0 +1,20 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "number edit",
+    "detail": "Nil smoking\nMinimal etOH\n\nHas tried E85 cream and antihistamines with minimal relief \n\nImp: contact dermatitis \n\nPlan:\n1."
+  },
+  {
+    "type": "hallucination",
+    "severity": "moderate",
+    "detail_type": "inserted sentence",
+    "detail": "Dry cough, keeps pt up at night."
+  },
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "No pain Works as a cleaner and does always wear gloves - possible trigger\nNo fever\nNo bowel/urinary sx\nAppetite maintained PMH: Type 2 diabetes\nDH: metformin NKDA\nFH: Type 2 diabetes, SH: works as a housekeeper, recently changed jobs 4/12 ago, works in a hotel."
+  }
+]

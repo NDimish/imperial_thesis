@@ -1,6 +1,10 @@
 [
   {
     "type": "hallucination",
-    "detail": "\"COCP\" was swapped for \"DOB\" (from note 41)"
+    "detail": "\"COCP\" was swapped for \"MSU \n 3\" (from note 5)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"Imp\" was swapped for \"DOB\" (from note 41)"
   }
 ]

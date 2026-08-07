@@ -1,0 +1,325 @@
+<title>MedspacyUmlsChecker — pipeline &amp; test run</title>
+<style>
+  :root {
+    --bg: #F2F4EF;
+    --surface: #FBFCFA;
+    --surface-2: #EAEEE6;
+    --ink: #16211C;
+    --ink-muted: #52625A;
+    --border: #D8DECF;
+    --accent: #1F6F5C;
+    --accent-soft: #E1EEE8;
+    --omission: #97600A;
+    --omission-soft: #F8EEDA;
+    --halluc: #AC3B2E;
+    --halluc-soft: #F8E4E0;
+    --flip: #5B4699;
+    --flip-soft: #ECE6F8;
+    --code-bg: #10201A;
+    --code-ink: #D9EDE3;
+    --shadow: 0 1px 2px rgba(22,33,28,0.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #10140F;
+      --surface: #171D17;
+      --surface-2: #1D2620;
+      --ink: #E7ECE6;
+      --ink-muted: #9CAB9E;
+      --border: #2A362D;
+      --accent: #57C0A2;
+      --accent-soft: #16332A;
+      --omission: #E1A94F;
+      --omission-soft: #2E2711;
+      --halluc: #E28378;
+      --halluc-soft: #33201B;
+      --flip: #B6A2EE;
+      --flip-soft: #26203C;
+      --code-bg: #0B1712;
+      --code-ink: #C9E8DA;
+      --shadow: 0 1px 2px rgba(0,0,0,0.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #10140F; --surface: #171D17; --surface-2: #1D2620; --ink: #E7ECE6;
+    --ink-muted: #9CAB9E; --border: #2A362D; --accent: #57C0A2; --accent-soft: #16332A;
+    --omission: #E1A94F; --omission-soft: #2E2711; --halluc: #E28378; --halluc-soft: #33201B;
+    --flip: #B6A2EE; --flip-soft: #26203C; --code-bg: #0B1712; --code-ink: #C9E8DA;
+    --shadow: 0 1px 2px rgba(0,0,0,0.35);
+  }
+  :root[data-theme="light"] {
+    --bg: #F2F4EF; --surface: #FBFCFA; --surface-2: #EAEEE6; --ink: #16211C;
+    --ink-muted: #52625A; --border: #D8DECF; --accent: #1F6F5C; --accent-soft: #E1EEE8;
+    --omission: #97600A; --omission-soft: #F8EEDA; --halluc: #AC3B2E; --halluc-soft: #F8E4E0;
+    --flip: #5B4699; --flip-soft: #ECE6F8; --code-bg: #10201A; --code-ink: #D9EDE3;
+    --shadow: 0 1px 2px rgba(22,33,28,0.06);
+  }
+
+  * { box-sizing: border-box; }
+  html { color-scheme: light dark; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 56px 24px 96px; }
+
+  h1, h2, h3 { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif; text-wrap: balance; color: var(--ink); }
+  code, .mono, .stat-num, td.num { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-variant-numeric: tabular-nums; }
+
+  /* ---- masthead ---- */
+  .masthead { border-bottom: 1px solid var(--border); padding-bottom: 28px; margin-bottom: 40px; }
+  .eyebrow {
+    font-family: ui-monospace, Menlo, Consolas, monospace;
+    font-size: 12.5px; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--accent); margin: 0 0 10px;
+  }
+  h1 { font-size: 34px; margin: 0 0 10px; font-weight: 600; }
+  .dek { font-size: 17px; color: var(--ink-muted); max-width: 62ch; margin: 0 0 26px; }
+  .stat-row { display: flex; flex-wrap: wrap; gap: 28px; }
+  .stat { min-width: 108px; }
+  .stat-num { display: block; font-size: 26px; font-weight: 600; color: var(--ink); }
+  .stat-label { font-size: 12.5px; color: var(--ink-muted); letter-spacing: 0.02em; }
+  .stat-num.om { color: var(--omission); }
+  .stat-num.ha { color: var(--halluc); }
+  .stat-num.fl { color: var(--flip); }
+
+  section { margin: 52px 0; }
+  h2 { font-size: 22px; margin: 0 0 6px; }
+  .section-note { color: var(--ink-muted); font-size: 15px; max-width: 66ch; margin: 0 0 22px; }
+  p { max-width: 68ch; }
+
+  /* ---- pipeline ---- */
+  .pipeline { display: flex; gap: 14px; align-items: stretch; flex-wrap: wrap; }
+  .step {
+    flex: 1 1 260px; background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; padding: 20px 20px 22px; box-shadow: var(--shadow);
+    display: flex; flex-direction: column; gap: 10px;
+  }
+  .step-index {
+    font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 12px;
+    color: var(--accent); letter-spacing: 0.05em;
+  }
+  .step h3 { font-size: 17px; margin: 0; }
+  .step p { font-size: 14.5px; color: var(--ink-muted); margin: 0; max-width: none; }
+  .step pre {
+    margin: 4px 0 0; background: var(--code-bg); color: var(--code-ink);
+    padding: 12px 14px; border-radius: 7px; font-size: 12.5px; overflow-x: auto;
+    line-height: 1.5;
+  }
+  .arrow { display: flex; align-items: center; justify-content: center; color: var(--ink-muted); font-size: 20px; flex: 0 0 auto; }
+  @media (max-width: 760px) { .arrow { transform: rotate(90deg); } }
+
+  /* ---- judgment cards ---- */
+  .judgments { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  @media (max-width: 760px) { .judgments { grid-template-columns: 1fr; } }
+  .jcard { border: 1px solid var(--border); border-radius: 10px; padding: 18px 18px 20px; background: var(--surface); box-shadow: var(--shadow); }
+  .chip {
+    display: inline-block; font-family: ui-monospace, Menlo, Consolas, monospace;
+    font-size: 11.5px; letter-spacing: 0.03em; padding: 3px 9px; border-radius: 999px;
+    margin-bottom: 10px;
+  }
+  .chip.om { background: var(--omission-soft); color: var(--omission); }
+  .chip.ha { background: var(--halluc-soft); color: var(--halluc); }
+  .chip.fl { background: var(--flip-soft); color: var(--flip); }
+  .jcard h3 { font-size: 16px; margin: 0 0 8px; }
+  .jcard p { font-size: 14.5px; color: var(--ink-muted); margin: 0 0 12px; }
+  .example {
+    font-size: 13px; background: var(--surface-2); border-radius: 6px; padding: 9px 11px;
+    color: var(--ink);
+  }
+  .example .src { color: var(--ink-muted); font-size: 11.5px; display: block; margin-bottom: 3px; }
+
+  /* ---- status flip showcase ---- */
+  .flip-list { display: flex; flex-direction: column; gap: 8px; }
+  .flip-row {
+    display: grid; grid-template-columns: 130px 1fr auto 1fr; align-items: center; gap: 10px;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 10px 14px; font-size: 13.5px;
+  }
+  @media (max-width: 700px) { .flip-row { grid-template-columns: 1fr; } }
+  .flip-file { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 12px; color: var(--ink-muted); }
+  .flip-term { font-weight: 600; }
+  .side { padding: 3px 9px; border-radius: 6px; font-size: 12.5px; justify-self: start; }
+  .side.neg { background: var(--halluc-soft); color: var(--halluc); }
+  .side.aff { background: var(--accent-soft); color: var(--accent); }
+  .side.unc { background: var(--flip-soft); color: var(--flip); }
+  .side.fam { background: var(--omission-soft); color: var(--omission); }
+  .flip-mid { color: var(--ink-muted); font-size: 12px; text-align: center; justify-self: center; }
+
+  /* ---- results table ---- */
+  .table-scroll { overflow-x: auto; border: 1px solid var(--border); border-radius: 10px; }
+  table { width: 100%; border-collapse: collapse; background: var(--surface); font-size: 13.5px; }
+  th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid var(--border); white-space: nowrap; }
+  th { color: var(--ink-muted); font-weight: 600; font-size: 12px; letter-spacing: 0.03em; text-transform: uppercase; background: var(--surface-2); }
+  tr:last-child td { border-bottom: none; }
+  td.num { text-align: right; }
+  td.num.om { color: var(--omission); }
+  td.num.ha { color: var(--halluc); }
+  td.num.fl { color: var(--flip); }
+  tfoot td { font-weight: 600; border-top: 2px solid var(--border); border-bottom: none; }
+
+  .callout {
+    border-left: 3px solid var(--flip); background: var(--flip-soft);
+    border-radius: 0 8px 8px 0; padding: 14px 18px; font-size: 14.5px; color: var(--ink);
+    max-width: 68ch;
+  }
+  .callout strong { color: var(--flip); }
+  .limitation {
+    border-left: 3px solid var(--omission); background: var(--omission-soft);
+    border-radius: 0 8px 8px 0; padding: 14px 18px; font-size: 14.5px; color: var(--ink);
+    max-width: 68ch; margin-top: 14px;
+  }
+  .limitation strong { color: var(--omission); }
+
+  footer { border-top: 1px solid var(--border); padding-top: 22px; margin-top: 60px; color: var(--ink-muted); font-size: 13px; }
+  footer .mono { display: block; margin-top: 6px; }
+  a { color: var(--accent); }
+</style>
+
+<div class="wrap">
+
+  <div class="masthead">
+    <p class="eyebrow">Modules/medspacy_umls_checker.py — CheckerModule</p>
+    <h1>MedspacyUmlsChecker</h1>
+    <p class="dek">A deterministic SOAP-note QA checker: UMLS concept extraction, medspaCy ConText assertion tagging, then three independent judgments — including status flip, a check no other module in this project makes.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="stat-num">10</span><span class="stat-label">files tested</span></div>
+      <div class="stat"><span class="stat-num om">440</span><span class="stat-label">omissions found</span></div>
+      <div class="stat"><span class="stat-num ha">78</span><span class="stat-label">hallucinations found</span></div>
+      <div class="stat"><span class="stat-num fl">20</span><span class="stat-label">status flips found</span></div>
+      <div class="stat"><span class="stat-num">2.33s</span><span class="stat-label">avg. time / file</span></div>
+    </div>
+  </div>
+
+  <section>
+    <h2>Why a third judgment</h2>
+    <p class="section-note" style="margin-bottom:14px;">
+      The project's existing concept checker matches transcript and SOAP-note entities by <code>(CUI, is_negated)</code> as a single combined key. That's enough to catch a concept that's fully missing or fully invented — but when a concept flips polarity between documents, it can only ever report that as one hallucination <em>plus</em> one omission, never as the one fact that's actually true: the same concept, asserted with the opposite meaning.
+    </p>
+    <div class="callout">
+      <strong>status_flip</strong> matches by CUI first, then compares assertion state separately — so "patient denies diabetes" in the transcript against a SOAP note that asserts diabetes affirmed is reported as exactly one thing: a flipped concept, not two unrelated errors.
+    </div>
+  </section>
+
+  <section>
+    <h2>Pipeline</h2>
+    <p class="section-note">Three steps, run once per document, then compared.</p>
+    <div class="pipeline">
+      <div class="step">
+        <span class="step-index">STEP 1 — EXTRACTION</span>
+        <h3>UMLS concept spans</h3>
+        <p>The project's shared QuickUMLS matcher finds every disease, finding, procedure, and drug mention (T047/T121/T195/T200/…), independent of any hand-typed vocabulary.</p>
+        <pre>matches = self._matcher.match(
+    text, best_match=True,
+    ignore_syntax=False,
+)
+# (start, end, cui, term) per hit</pre>
+      </div>
+      <div class="arrow">→</div>
+      <div class="step">
+        <span class="step-index">STEP 2 — CONTEXT</span>
+        <h3>ConText assertion tagging</h3>
+        <p>Spans are injected as spaCy entities and run through medspaCy's <code>medspacy_context</code> pipe, which sets is_negated / is_uncertain / is_family per entity.</p>
+        <pre>doc.ents = spacy.util.filter_spans(
+    candidate_ents
+)
+nlp.get_pipe(
+  "medspacy_context"
+)(doc)</pre>
+      </div>
+      <div class="arrow">→</div>
+      <div class="step">
+        <span class="step-index">STEP 3 — JUDGING</span>
+        <h3>Three comparisons</h3>
+        <p>Transcript and SOAP-note concept sets are compared by CUI to raise omission, hallucination, and status_flip — independently, never double-counted.</p>
+        <pre>state = (
+  is_negated,
+  is_uncertain,
+  is_family,
+)</pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Three judgments</h2>
+    <p class="section-note">Real output from the test run below.</p>
+    <div class="judgments">
+      <div class="jcard">
+        <span class="chip om">omission</span>
+        <h3>In the transcript, not in the SOAP note</h3>
+        <p>Any CUI the patient/doctor asserted that has no match anywhere in the note.</p>
+        <div class="example"><span class="src">prim1.txt</span>loss of appetite (affirmed)</div>
+      </div>
+      <div class="jcard">
+        <span class="chip ha">hallucination</span>
+        <h3>In the SOAP note, not in the transcript</h3>
+        <p>Any CUI the note asserts that never occurs anywhere in the source transcript.</p>
+        <div class="example"><span class="src">prim14.txt</span>type 2 diabetes (affirmed)</div>
+      </div>
+      <div class="jcard">
+        <span class="chip fl">status_flip</span>
+        <h3>In both — but the polarity disagrees</h3>
+        <p>Same CUI on both sides, yet no transcript mention shares an assertion state with any SOAP-note mention.</p>
+        <div class="example"><span class="src">prim11.txt</span>nauseous: negated → affirmed</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Status flips caught in the test run</h2>
+    <p class="section-note">All 20 came from real transcript/SOAP-note pairs — nothing staged. Left side is what the transcript asserts; right is what the generated SOAP note asserts for the same concept.</p>
+    <div class="flip-list">
+      <div class="flip-row"><span class="flip-file">prim11.txt</span><span class="flip-term">nauseous</span><span class="side neg">negated</span><span class="flip-mid">→</span><span class="side aff">affirmed</span></div>
+      <div class="flip-row"><span class="flip-file">prim11.txt</span><span class="flip-term">gastroenteritis</span><span class="side unc">uncertain</span><span class="flip-mid">→</span><span class="side aff">affirmed</span></div>
+      <div class="flip-row"><span class="flip-file">prim12.txt</span><span class="flip-term">appetite</span><span class="side neg">negated</span><span class="flip-mid">→</span><span class="side aff">affirmed</span></div>
+      <div class="flip-row"><span class="flip-file">prim12.txt</span><span class="flip-term">feels warm</span><span class="side neg">negated</span><span class="flip-mid">→</span><span class="side aff">affirmed</span></div>
+      <div class="flip-row"><span class="flip-file">prim13.txt</span><span class="flip-term">head injury</span><span class="side aff">affirmed</span><span class="flip-mid">→</span><span class="side neg">negated</span></div>
+      <div class="flip-row"><span class="flip-file">prim13.txt</span><span class="flip-term">rashes</span><span class="side aff">affirmed</span><span class="flip-mid">→</span><span class="side neg">negated</span></div>
+      <div class="flip-row"><span class="flip-file">prim14.txt</span><span class="flip-term">weak</span><span class="side aff">affirmed</span><span class="flip-mid">→</span><span class="side neg">negated</span></div>
+      <div class="flip-row"><span class="flip-file">prim14.txt</span><span class="flip-term">lives</span><span class="side aff">affirmed</span><span class="flip-mid">→</span><span class="side fam">family hx</span></div>
+      <div class="flip-row"><span class="flip-file">prim18.txt</span><span class="flip-term">ear pain</span><span class="side aff">affirmed</span><span class="flip-mid">→</span><span class="side neg">negated</span></div>
+      <div class="flip-row"><span class="flip-file">prim18.txt</span><span class="flip-term">itchiness</span><span class="side aff">affirmed</span><span class="flip-mid">→</span><span class="side neg">negated</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Test run — 10 files</h2>
+    <p class="section-note"><code>prim57/cleaned transcripts/</code> vs. <code>prim57/bad notes lib/</code>, first 10 pairs, single pass, cold model load excluded from per-file timing.</p>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>File</th><th>Omission</th><th>Hallucination</th><th>Status flip</th><th>Time</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="mono">prim1.txt</td><td class="num om">29</td><td class="num ha">2</td><td class="num fl">—</td><td class="num">2.96s</td></tr>
+          <tr><td class="mono">prim10.txt</td><td class="num om">50</td><td class="num ha">11</td><td class="num fl">1</td><td class="num">2.82s</td></tr>
+          <tr><td class="mono">prim11.txt</td><td class="num om">50</td><td class="num ha">4</td><td class="num fl">4</td><td class="num">3.01s</td></tr>
+          <tr><td class="mono">prim12.txt</td><td class="num om">32</td><td class="num ha">4</td><td class="num fl">3</td><td class="num">1.63s</td></tr>
+          <tr><td class="mono">prim13.txt</td><td class="num om">55</td><td class="num ha">15</td><td class="num fl">2</td><td class="num">2.46s</td></tr>
+          <tr><td class="mono">prim14.txt</td><td class="num om">62</td><td class="num ha">6</td><td class="num fl">3</td><td class="num">2.63s</td></tr>
+          <tr><td class="mono">prim15.txt</td><td class="num om">42</td><td class="num ha">3</td><td class="num fl">—</td><td class="num">1.77s</td></tr>
+          <tr><td class="mono">prim16.txt</td><td class="num om">41</td><td class="num ha">3</td><td class="num fl">1</td><td class="num">1.78s</td></tr>
+          <tr><td class="mono">prim17.txt</td><td class="num om">51</td><td class="num ha">4</td><td class="num fl">4</td><td class="num">2.21s</td></tr>
+          <tr><td class="mono">prim18.txt</td><td class="num om">28</td><td class="num ha">26</td><td class="num fl">2</td><td class="num">2.04s</td></tr>
+        </tbody>
+        <tfoot>
+          <tr><td>Total</td><td class="num om">440</td><td class="num ha">78</td><td class="num fl">20</td><td class="num">23.32s</td></tr>
+        </tfoot>
+      </table>
+    </div>
+    <div class="limitation">
+      <strong>Known noise:</strong> most flagged omissions are conversational filler that happens to fuzzy-match a UMLS term ("confirm", "maybe", "sort", "your age") — the same class of false positive already documented and partly denylisted in the project's earlier concept checker. Precision on the omission/hallucination axis would benefit from the same iterative denylist tuning; the status_flip judgment is largely unaffected since it only fires on concepts both sides already agree are real.
+    </div>
+  </section>
+
+  <footer>
+    Deterministic throughout — QuickUMLS + medspaCy ConText only, no LLM call, no sampling. Same two inputs always produce the same concept sets and the same errors.
+    <span class="mono">Modules/medspacy_umls_checker.py · class MedspacyUmlsChecker(CheckerModule) · not yet wired into main.py's load_checker_modules()</span>
+  </footer>
+
+</div>

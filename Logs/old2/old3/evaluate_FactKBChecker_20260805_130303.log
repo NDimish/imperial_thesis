@@ -1,0 +1,303 @@
+prim1.txt
+  missed - hallucination: inserted sentence from note 11: "No blood in stools."
+  missed - omission: Associated LLQ pain - crampy, intermittent, nil radiation.
+  missed - omission: No other unwell contacts.
+  added - hallucination: 3/7 hx of diarrhea, mainly watery.
+  added - hallucination: also vomiting - mainly bilous.
+  added - hallucination: fever on first day, nil since.
+  added - hallucination: has been feeling lethargic and weak since.
+  added - hallucination: takeaway 4/7 ago - chinese restaurant.
+  added - hallucination: wife and children also unwell with vomiting, but no diarrhea.
+  added - hallucination: pmh: asthma
+dh: inhalers
+sh: works as an accountant.
+  added - hallucination: lives with wife and children.
+  added - hallucination: affecting his adls as has to be near toilet often.
+  added - hallucination: nil smoking/etoh hx
+
+imp: gastroenteritis 
+
+plan:
+conservative management - rest, push fluids, paracetamol if feverish.
+  added - hallucination: to review in 3-5d if symptoms not improving.
+  added - hallucination: to see earlier if feeling more unwell.
+prim10.txt
+  missed - hallucination: inserted sentence from note 9: "Nil bowel sx
+Currently sexually active - with regular partner for 2/12."
+  added - hallucination: 1/52 hx of dysuria, frequency and suprapubic pain.
+  added - hallucination: noticed urine today was pink, nil frank haematuria.
+  added - hallucination: suprapubic pain on pu - aching pain, nil radiating 
+nil nausea/vomiting 
+nil fevers 
+nil new bowel sx 
+currently sexually active - long-term partner.
+  added - hallucination: lmp 2/52 
+e+d well 
+
+pmh: ibs
+dh: cocp, mebeverine 
+allergic to clindamycin 
+fh: nil
+sh: lives in student halls, nil smoking, social etoh
+
+imp: uti
+
+plan:
+1.
+  added - hallucination: urine dip and msu
+2.
+  added - hallucination: start abx - nitrofurantoin abx for 3/7 
+3.
+  added - hallucination: review in 1/52 inb, or earlier if worsening sx (fever, back pain, vomiting) nil bowel sx
+currently sexually active - with regular partner for 2/12.
+prim11.txt
+  missed - omission: 3/7 hx of diarrhea - watery stools, opening bowels every hour.
+  added - hallucination: assoc crampy abdo pain - central, intermittent, severity 6/10.
+  added - hallucination: feeling feverish, hot/cold
+nil urinary sx - passing less urine .
+  added - hallucination: brother also had similar sx - improving 
+tolerating oral intake 
+
+pmh: nil
+dh: nil regular 
+nkda
+fh: father - colon ca 
+sh: lives with sister and mum.
+  added - hallucination: smokes socially, etoh - socially 
+
+imp: gastroenteritis 
+
+plan:
+1.
+  added - hallucination: encourage soft diet
+4.
+  added - hallucination: review in 48 hours, or earlier if worsening sx
+prim12.txt
+  missed - omission: No headaches/muscle pain.
+  added - hallucination: 3/7 hx ago developed vomiting.
+  added - hallucination: has now developed diarrhea - 5-6x/day.
+  added - hallucination: not drinking sufficient fluids.
+  added - hallucination: no fever/temp, but feels warm.
+  added - hallucination: no unwell contacts 
+
+pmh: asthma 
+dh: salbutamol prn 
+nkda
+fh: father - htn, died of bowel ca.
+  added - hallucination: mother - diabetes type 2
+sh: lives alone , software engineer.
+  added - hallucination: nil smoking, social etoh
+
+imp: gastroenteritis 
+
+plan:
+1.
+  added - hallucination: supportive mx - rest, fluids
+2.
+  added - hallucination: review in 3-5d inb, or earlier if worsening sx (diarrhea, vomiting, abdo pain, reduced oral intake)
+prim13.txt
+  missed - none
+  added - hallucination: 3/7 hx developed headache - all over of my head and mainly over right eye.
+  added - hallucination: constant, severity 8/10, dull ache with associated sharp pain, gradual onset.
+  added - hallucination: has tried ibuprofen with limited relief.
+  added - hallucination: no visual sx
+visual aura prior to headaches.
+  added - hallucination: feels nauseous, no vomiting
+no neck pain/stiffness
+no speech disturbances 
+no arm or leg weakness
+no head injury 
+no fevers
+no rashes 
+
+pmh: nil 
+dh: nil
+nkda
+fh: mother and sister - migraines
+sh: lives with housemates, works in it, wears glasses, denies stress.
+  added - hallucination: socially smoke/etoh 
+
+ice: ?related to stress/dehydration.
+  added - hallucination: imp: migraines 
+
+plan:
+1.
+  added - hallucination: review in 1/52 - discuss prophylactic rx if necessary
+4.
+  added - hallucination: patient aware of red flag sx - knows to seek urgent medical attention if present
+prim14.txt
+  missed - hallucination: inserted sentence from note 7: "Conservative mx - rest, fluids, regular paracetamol 
+2."
+  missed - hallucination: "HTN 
+ DH" was swapped for "URTI" (from note 4)
+  missed - omission: Runny nose, no ear pain, no sore throat.
+  missed - omission: Ex-smoker-stopped 6/12 ago.
+  added - hallucination: 5/7 hx of cough and runny nose.
+  added - hallucination: no sob / chest pain 
+ feeling tired, weak and myalgia.
+  added - hallucination: feeling shivery, hot / cold, ?
+  added - hallucination: fever 
+ no nausea / vomiting 
+ appetite maintained.
+  added - hallucination: initial diarrhea-but now resolved 
+ nil urinary symptoms 
+ no rashes 
+
+ pmh: type 2 diabetes, urti: metformin, lisinopril 
+ nkda 
+ fh: father-type 2 diabetes 
+ sh: lives with partner, works it, denies stress.
+  added - hallucination: social etoh < 14 units / week 
+
+ imp: viral urti 
+
+ plan: 
+ 1.
+  added - hallucination: conservative mx-rest, fluids, regular paracetamol 
+ 2.
+  added - hallucination: supportive mx-bed rest, fluids, regular paracetamol 
+ 2.
+  added - hallucination: review 5/7 if no better, or earlier if worsening sx (fever, sob, chest pain )
+prim15.txt
+  missed - omission: No pain 
+Works as a cleaner and does not always wear gloves - possible trigger
+No fever
+No bowel/urinary sx
+Appetite maintained 
+
+PMH: Type 2 diabetes
+DH: metformin 
+NKDA
+FH: Type 2 diabetes, 
+SH: works as a housekeeper, recently changed jobs 4/12 ago, works in a hotel.
+  missed - hallucination: inserted sentence from note 2: "Steroid cream - Betnovate BD
+2."
+  added - hallucination: 3-4/12 hx of sore and cracked skin on my hands - mainly palms.
+  added - hallucination: occasionally itchy and bleeding on scratching.
+  added - hallucination: nil smoking
+minimal etoh
+
+has tried e45 cream and antihistamines with minimal relief 
+
+imp: contact dermatitis 
+
+plan:
+1.
+  added - hallucination: steroid cream bd
+2.
+  added - hallucination: emollients - regular use 
+3.
+  added - hallucination: avoid trigger, wear cleaning gloves
+4.
+  added - hallucination: review in 10-14d inb, or earlier if worsening sx steroid cream - betnovate bd
+2.
+prim16.txt
+  missed - omission: One previous similar episode in the past- resolved spontaneously.
+  missed - omission: History: 
+Hx of difficulty hearing left ear for 6 weeks with tinnitus and slight nausea/ dizziness.
+  missed - omission: No discharge/ fever/ itchiness/ pain
+Doesn't use cotton wool buds
+No Pmhx of note
+Ex: Looks well, not in pain.
+  added - hallucination: imp: need to exclude impacted wax in ear canal first
+pln: for face to face gp appointment in 5 days to examine ear
+pt to read about tinnitus in the meantime via following link: www.patient.co.uk/tinnitus
+if any problems in interim to ring us back
+pt happy with and understands plan
+prim17.txt
+  missed - omission: Not painful.
+  missed - hallucination: "FH" was swapped for "HTN 
+ DH" (from note 24)
+  missed - hallucination: "OA" was swapped for "HTN 
+ DH" (from note 24)
+  added - hallucination: hx: 1 week history of spontaneous elbow swelling left.
+  added - hallucination: no htn 
+  dh of rheumatological disease- nb pt says he has been old he has htn 
+ dh previously by doctors-?
+  added - hallucination: need to confirm this 
+  works in a desk job 
+  not happened before 
+  otherwise well- 
+  pmhx: nil of note 
+  fh: nil of note 
+  dh: not on any medication, allergic to peanuts 
+  sh: exercises regularly, active 
+  ex: looks well, not in pain.
+  added - hallucination: mild erythema and minimal swelling (if any) around olecranon process left elbow 
+  imp: possible bursitis 
+  plan: for nsaids- usual advice re se 
+  for rheum bloods: esr, crp, fbc, rheum factor and urate 
+  review thereafter in person/ via video 
+  to contact us back in interim if any deterioration / concerns- pt warned re symptoms of septic arthritis
+prim18.txt
+  missed - hallucination: inserted sentence from note 30: "History : having dizziness for the past few hours 
+You had sometime similar a month ago but only lasted 10 minutes 
+You feel as though you are in a boat 
+There is no recent viral illness 
+There is a buzzing noise in your ears 
+There is no hearing problems 
+No ear discharge or ear pain 
+You feel nauseous but not been sick 
+There is no weakness of the arms and legs 
+Past medical history #
+You have premature ovarian failure and take HRT
+There is no allergies 
+Plan we will prescribe some stemitil for symptom relief ."
+  missed - hallucination: inserted sentence from note 30: "Please go to A & E"
+  added - hallucination: please go to a & e hx: 1 week history of left side difficulty hearing and facial numbness
+no dysphagia, dysarthria, no unilateral weakness/numbness in the rest of the body, no visual disturbances 
+no ear pain, ear discharge, fever, itchiness or cotton bud use.
+  added - hallucination: slight tinnitus at times in this period- not continuous
+numbness and difficulty hearing present now 
+pmhx: labyrinthitis, heart burn, nasal polyps
+dh: rennies prn otc, nasal spray prn (pt not sure of name)
+allergies: latex allergy
+no fh of note
+ex: no facial asymmetry, looks well, normal facial expressions and movements
+imp: ?
+  added - hallucination: bell's palsy- need to rule out any other focal neurology
+plan: for face to face review today for neurological examination and ear examination
+pt to ring support line for gp f2f slot
+pt understands and is happy with plan history : having dizziness for the past few hours 
+you had sometime similar a month ago but only lasted 10 minutes 
+you feel as though you are in a boat 
+there is no recent viral illness 
+there is a buzzing noise in your ears 
+there is no hearing problems 
+no ear discharge or ear pain 
+you feel nauseous but not been sick 
+there is no weakness of the arms and legs 
+past medical history #
+you have premature ovarian failure and take hrt
+there is no allergies 
+plan we will prescribe some stemitil for symptom relief .
+
+ [run 1] precision=0.08 recall=0.23 f1=0.12 avg_elapsed=5.93410308000166
+
+ 
+=== Evaluation Results ===
+
+ prim1.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=12 FN=3)
+
+ prim10.txt: precision=0.22 recall=0.67 f1=0.33 accuracy=0.20 (TP=2 FP=7 FN=1)
+
+ prim11.txt: precision=0.14 recall=0.50 f1=0.22 accuracy=0.12 (TP=1 FP=6 FN=1)
+
+ prim12.txt: precision=0.10 recall=0.50 f1=0.17 accuracy=0.09 (TP=1 FP=9 FN=1)
+
+ prim13.txt: precision=0.18 recall=1.00 f1=0.31 accuracy=0.18 (TP=2 FP=9 FN=0)
+
+ prim14.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=9 FN=4)
+
+ prim15.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=7 FN=2)
+
+ prim16.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=1 FN=3)
+
+ prim17.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=4 FN=3)
+
+ prim18.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=3 FN=2)
+
+ 
+Overall: precision=0.08 recall=0.23 f1=0.12 accuracy=0.06 (TP=6 FP=67 FN=20)
+
+ Average elapsed time: 5.93s

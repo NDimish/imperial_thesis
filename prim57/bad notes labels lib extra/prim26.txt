@@ -1,0 +1,6 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 31: \"It might be just urticaria ( Hives)Call the ambulance to r/o possible anaphylactic reaction\""
+  }
+]

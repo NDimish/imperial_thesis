@@ -1,0 +1,263 @@
+<title>How UMLS Matching Actually Works, and Why Its Precision Is Low</title>
+<style>
+  :root {
+    --bg: #F3F5F4; --surface: #FFFFFF; --surface-soft: #EBEFEE;
+    --ink: #17262A; --ink-soft: #51686C; --ink-faint: #7C8E90;
+    --accent: #1F6F78; --accent-soft: #DCEAEA;
+    --before: #B5502A; --before-soft: #F5E4DA;
+    --after: #3E7A56; --after-soft: #DFEBE2;
+    --border: #D9E1DF; --code-bg: #EEF1F0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #101A1C; --surface: #162224; --surface-soft: #1C2A2C;
+      --ink: #E7EDEC; --ink-soft: #9FB4B3; --ink-faint: #71898A;
+      --accent: #59B4B8; --accent-soft: #1D3436;
+      --before: #E2915F; --before-soft: #33261E;
+      --after: #7BC79A; --after-soft: #1E3128;
+      --border: #2A3A3B; --code-bg: #10191A;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #101A1C; --surface: #162224; --surface-soft: #1C2A2C;
+    --ink: #E7EDEC; --ink-soft: #9FB4B3; --ink-faint: #71898A;
+    --accent: #59B4B8; --accent-soft: #1D3436;
+    --before: #E2915F; --before-soft: #33261E;
+    --after: #7BC79A; --after-soft: #1E3128;
+    --border: #2A3A3B; --code-bg: #10191A;
+  }
+  :root[data-theme="light"] {
+    --bg: #F3F5F4; --surface: #FFFFFF; --surface-soft: #EBEFEE;
+    --ink: #17262A; --ink-soft: #51686C; --ink-faint: #7C8E90;
+    --accent: #1F6F78; --accent-soft: #DCEAEA;
+    --before: #B5502A; --before-soft: #F5E4DA;
+    --after: #3E7A56; --after-soft: #DFEBE2;
+    --border: #D9E1DF; --code-bg: #EEF1F0;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
+    line-height: 1.55; -webkit-font-smoothing: antialiased;
+  }
+  .page { max-width: 940px; margin: 0 auto; padding: 4rem 1.5rem 6rem; }
+  header.masthead { max-width: 720px; margin: 0 0 3.5rem; }
+  .eyebrow {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.72rem;
+    color: var(--accent); font-weight: 600; margin: 0 0 0.9rem;
+  }
+  h1 { font-size: 2.2rem; line-height: 1.15; margin: 0 0 1rem; text-wrap: balance; font-weight: 400; }
+  .dek {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink-soft); font-size: 1.03rem; max-width: 66ch; margin: 0;
+  }
+  .meta-row {
+    display: flex; gap: 1.5rem; flex-wrap: wrap; margin-top: 1.6rem;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.85rem; color: var(--ink-faint);
+  }
+  .meta-row strong { color: var(--ink-soft); font-weight: 600; }
+  section.block {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 4px;
+    padding: 2rem 2.2rem 2.3rem; margin-bottom: 2.6rem;
+  }
+  section.block h2 { font-size: 1.5rem; font-weight: 400; margin: 0 0 0.4rem; text-wrap: balance; }
+  section.block h3 { font-size: 1.1rem; font-weight: 600; margin: 1.6rem 0 0.6rem; font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+  section.block .subtitle {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink-faint); font-size: 0.86rem; margin: 0 0 1.4rem;
+  }
+  section.block p { max-width: 74ch; margin: 0 0 1rem; }
+  section.block ul, section.block ol { max-width: 74ch; margin: 0 0 1rem; padding-left: 1.3rem; }
+  section.block li { margin-bottom: 0.5rem; }
+  .overflow-x { overflow-x: auto; }
+  code {
+    font-family: "SF Mono", "Cascadia Code", Consolas, "Liberation Mono", monospace;
+    background: var(--code-bg); padding: 0.1rem 0.35rem; border-radius: 3px; font-size: 0.88em;
+  }
+  pre {
+    font-family: "SF Mono", "Cascadia Code", Consolas, "Liberation Mono", monospace;
+    background: var(--code-bg); border-radius: 4px; padding: 1rem 1.2rem; overflow-x: auto;
+    font-size: 0.8rem; line-height: 1.5; margin: 1rem 0;
+  }
+  table.data {
+    width: 100%; border-collapse: collapse;
+    font-family: "SF Mono", "Cascadia Code", Consolas, "Liberation Mono", monospace;
+    font-size: 0.8rem; margin: 1rem 0;
+  }
+  table.data th {
+    text-align: left; padding: 0.5rem 0.8rem;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.05em;
+    color: var(--ink-faint); border-bottom: 1px solid var(--border);
+  }
+  table.data td { padding: 0.5rem 0.8rem; border-top: 1px solid var(--border); font-variant-numeric: tabular-nums; vertical-align: top; }
+  table.data tr:first-child td { border-top: none; }
+  table.data td.name {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 600; white-space: nowrap;
+  }
+  table.data td.better { color: var(--after); }
+  table.data td.worse { color: var(--before); }
+  table.data td.prose { font-family: Georgia, serif; font-size: 0.88rem; }
+  .fix-card { border-left: 3px solid var(--accent); padding-left: 1.5rem; margin: 1.6rem 0; }
+  .fix-card h3 {
+    font-size: 1.05rem; font-weight: 600; margin: 0 0 0.5rem;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  }
+  .fix-card p { margin: 0 0 0.6rem; }
+  .fix-card p:last-child { margin-bottom: 0; }
+  .bug-story {
+    background: var(--before-soft); border-radius: 4px; padding: 1.3rem 1.5rem; margin: 1.3rem 0;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; font-size: 0.88rem;
+  }
+  .bug-story .label {
+    display: block; font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em;
+    font-weight: 700; color: var(--before); margin-bottom: 0.5rem;
+  }
+  .verified-banner {
+    display: flex; align-items: center; gap: 0.9rem;
+    background: var(--after-soft); border-radius: 4px; padding: 1rem 1.3rem; margin-top: 1.4rem;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; font-size: 0.87rem;
+  }
+  .verified-banner .check { flex: 0 0 auto; color: var(--after); font-weight: 700; font-size: 1.1rem; }
+  .verdict-tag {
+    display: inline-block; font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em;
+    background: var(--accent-soft); color: var(--accent); padding: 0.22rem 0.55rem; border-radius: 3px; margin-bottom: 0.9rem;
+  }
+  .stat-row { display: flex; gap: 1rem; flex-wrap: wrap; margin: 1.2rem 0; }
+  .stat-card {
+    background: var(--surface-soft); border-radius: 4px; padding: 1rem 1.3rem; flex: 1 1 160px;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  }
+  .stat-card .num { font-size: 1.6rem; font-weight: 700; color: var(--accent); font-variant-numeric: tabular-nums; line-height: 1.1; }
+  .stat-card .lbl { font-size: 0.72rem; color: var(--ink-faint); margin-top: 0.3rem; }
+  .caveat {
+    background: var(--surface-soft); border-radius: 4px; padding: 1rem 1.3rem; margin: 1.2rem 0;
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; font-size: 0.85rem; color: var(--ink-soft);
+    border-left: 3px solid var(--ink-faint);
+  }
+  footer {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.8rem; color: var(--ink-faint);
+    border-top: 1px solid var(--border); padding-top: 1.5rem; margin-top: 3rem;
+  }
+  footer p { max-width: 70ch; margin: 0 0 0.6rem; }
+  @media (max-width: 620px) {
+    .page { padding: 2.5rem 1.1rem 4rem; }
+    h1 { font-size: 1.8rem; }
+    section.block { padding: 1.5rem 1.3rem 1.8rem; }
+  }
+</style>
+
+<div class="page">
+
+  <header class="masthead">
+    <p class="eyebrow">Medical condensor &middot; umls_matching.py &amp; umls_checker.py</p>
+    <h1>How UMLS matching actually works, why its precision sits at 0.518, and what happens when fuzzy matching is switched off</h1>
+    <p class="dek">Every condenser and checker in this project depends on one shared component to answer "is this span a real clinical concept": <code>Medical condensor/umls_matching.py</code>, built on QuickUMLS. This had never been measured directly until now. This walks through exactly how it works, quantifies precisely why it's wrong roughly half the time using a hand-labeled 1177-term gold standard, then re-runs the whole evaluation with fuzzy matching disabled to see what that actually buys.</p>
+    <div class="meta-row">
+      <span><strong>Date</strong> 2026&#8209;08&#8209;05</span>
+      <span><strong>Gold standard</strong> 1177 unique (term, semtype) matches, hand-labeled across 20 files</span>
+      <span><strong>Scripts</strong> <code>umls_checker.py</code> extract/score</span>
+    </div>
+  </header>
+
+  <section class="block">
+    <h2>How the matching actually works</h2>
+    <p>QuickUMLS is an approximate-string-matching library over the UMLS Metathesaurus &mdash; a merged vocabulary of SNOMED CT, MeSH, RxNorm, and dozens of other clinical terminologies, containing millions of terms. Given a span of text, it looks for windows of words whose character-ngram profile is similar enough (by Jaccard similarity) to some UMLS term, and returns every sufficiently-similar candidate along with that term's CUI (Concept Unique Identifier) and semantic type(s).</p>
+    <p>This project wraps one shared, tuned matcher instance around that in <code>umls_matching.py</code>, so every condenser and checker answers "is this real" the same way instead of drifting separately:</p>
+    <pre>THRESHOLD = 0.75          # similarity floor for a fuzzy match to count
+MIN_MATCH_LENGTH = 4       # shortest span QuickUMLS will consider
+ACCEPTED_SEMTYPES = {      # 20 semantic types (of ~130 in UMLS) allowed through
+    "T023", "T029", "T031", "T033", "T034", "T037", "T040", "T041",
+    "T046", "T047", "T048", "T059", "T060", "T061", "T121", "T184",
+    "T191", "T195", "T200", "T201",
+}
+GENERIC_WORD_DENYLIST = {  # 21 words: real UMLS entries with no clinical use here
+    "start", "well", "good", "fine", "right", "help", "birth",
+    "like", "think", "mean", "talk", "don't know", "i don't know",
+    "nothing", "else", "aware", "symptom", "symptoms", "problem",
+    "problems", "medical history",
+}</pre>
+    <p>Three functions sit on top of the matcher, each used differently by the three condensers:</p>
+    <ul>
+      <li><code>has_real_concept(text)</code> &mdash; true/false, "does this turn/sentence contain at least one real clinical concept". <strong>QuickUMLSCondenser</strong> uses this directly per turn: keep the turn if true, drop it if false.</li>
+      <li><code>get_real_concept_spans(text)</code> &mdash; character offsets for every real match. <strong>MedspacyCondenser</strong> and <strong>NegspacyCondenser</strong> inject these spans as spaCy entities so their assertion-detection pipelines (ConText / negex) have something concrete to check negation/hypothetical status against &mdash; neither medspacy nor negspacy ships its own UMLS linker, so this is the only source of "which words are clinical" they have.</li>
+      <li><code>_is_common_match(m)</code> &mdash; checks both QuickUMLS's matched canonical <code>term</code> <em>and</em> the actual surface text (<code>ngram</code>) against the denylist, since they can differ (see below).</li>
+    </ul>
+    <p>The threshold and denylist values above aren't arbitrary &mdash; each was arrived at from a real full-dataset regression documented directly in the file's comments: raising the threshold to 0.85 (to kill false positives) instead cost real matches like <code>"smoke"&rarr;"smoker"</code> (similarity 0.75) and <code>"peanuts"&rarr;"peanut"</code> (0.80); the denylist exists because words like <code>"well"</code> and <code>"start"</code> are <em>exact</em> (similarity=1.0) UMLS entries, immune to any threshold.</p>
+  </section>
+
+  <section class="block">
+    <h2>How precision was measured</h2>
+    <p><code>umls_checker.py</code> runs the real matcher (same threshold, same semtypes) over 20 real transcript/SOAP pairs, aggregates every match by unique <code>(term, semtypes)</code> pair (annotating 7406 raw occurrences by hand isn't tractable; annotating the 1177 unique pairs they collapse to is), and asks: for each one, is this a genuine clinical concept in this dataset, or a coincidental collision? Every one of the 1177 was hand-judged against the same standard used to build the existing denylist &mdash; applied completely and systematically this time, not just to whatever happened to surface as an obvious problem before.</p>
+    <div class="stat-row">
+      <div class="stat-card"><div class="num">0.457</div><div class="lbl">Raw precision, before denylist</div></div>
+      <div class="stat-card"><div class="num">0.518</div><div class="lbl">Precision after current denylist</div></div>
+      <div class="stat-card"><div class="num">0.420</div><div class="lbl">Precision on transcript text</div></div>
+      <div class="stat-card"><div class="num">0.641</div><div class="lbl">Precision on SOAP note text</div></div>
+    </div>
+    <p>Recall was <strong>not</strong> measured &mdash; that would require reading raw text for concepts the matcher never found at all, a fundamentally different and much slower annotation task. This is a precision-only evaluation, stated as a scope limit rather than left implicit.</p>
+  </section>
+
+  <section class="block">
+    <span class="verdict-tag">Root causes, with numbers</span>
+    <h2>Why precision is only 0.518</h2>
+    <p>Of the 1177 unique matches, <strong>503 (43%) are false positives</strong> &mdash; 4025 of the 7406 total labeled occurrences. The existing denylist catches only <strong>18 of those 503 terms</strong> (880 occurrences); the other <strong>485 terms, 3145 occurrences, are completely unfiltered</strong>. That gap is most of why precision sits where it does. Three distinct mechanisms are responsible:</p>
+
+    <h3>1. UMLS genuinely contains ordinary English words as real clinical entries</h3>
+    <p>These aren't matching errors &mdash; QuickUMLS found a real, exact (similarity=1.0) CUI. The vocabulary is just enormous enough that everyday conversational words collide with it constantly:</p>
+    <div class="overflow-x">
+      <table class="data">
+        <tr><th>Term</th><th>Occurrences</th><th>Semtype</th><th>Why it's not clinical here</th></tr>
+        <tr><td class="name">back</td><td>100</td><td>T029 (body region)</td><td class="prose">Overwhelmingly "come back and see me", not anatomical back pain</td></tr>
+        <tr><td class="name">history</td><td>84</td><td>T033 (finding)</td><td class="prose">Meta-word, refers to a category with no specific content</td></tr>
+        <tr><td class="name">feel / feels / feeling</td><td>165</td><td>T041 (mental process)</td><td class="prose">Generic verb, not itself a symptom</td></tr>
+        <tr><td class="name">normal</td><td>69</td><td>T033</td><td class="prose">Generic modifier</td></tr>
+        <tr><td class="name">medication 1 / 2 / 3</td><td>87</td><td>T033</td><td class="prose">Parsing artifact from numbered SOAP plan items</td></tr>
+      </table>
+    </div>
+
+    <h3>2. Fuzzy-match corruption at the 0.75 boundary</h3>
+    <p>The single biggest offender in the entire dataset: <code>"right"</code> fuzzy-matches the completely unrelated canonical terms <code>"bright"</code> (231&times;) and <code>"fright"</code> (227&times;) &mdash; <strong>458 occurrences from one collision</strong>. The existing denylist already flags <code>"right"</code> itself, but never covers what it fuzzy-matches <em>into</em>, since those are different canonical terms. Same pattern elsewhere: <code>metforming&harr;metformin</code>, <code>penicilli&harr;penicillin</code>, <code>helpin&harr;helping</code>, <code>shearing&harr;hearing</code>.</p>
+
+    <h3>3. Broad semantic types are inherently promiscuous</h3>
+    <p><code>T033</code> ("Finding") and <code>T201</code> ("Clinical Attribute") are catch-all categories that also cover meta-words with zero discriminating content: <code>symptom(s)</code>, <code>problem(s)</code>, <code>plan</code>, <code>diagnosis</code>, <code>treatment</code>, <code>sign</code>. These are technically correct UMLS lookups &mdash; just useless for telling two documents apart.</p>
+
+    <p>The transcript/SOAP split (0.420 vs 0.641) is exactly what these three mechanisms predict: SOAP notes are already clinician-written shorthand, so most spans really are clinical; transcripts are conversational spoken English transcribed verbatim, exactly where a fuzzy general-purpose matcher collides most.</p>
+  </section>
+
+  <section class="block">
+    <span class="verdict-tag">Experiment</span>
+    <h2>What happens when fuzzy matching is switched off</h2>
+    <p>QuickUMLS has no separate "exact match" flag &mdash; its <code>threshold</code> parameter <em>is</em> the fuzzy-matching knob, from 0.0 (anything) to 1.0 (only spans whose character-ngram profile is identical to a UMLS term). Setting it to <strong>1.0</strong> is what "no fuzzy matching" means in this API. Re-ran <code>umls_checker.py extract --threshold 1.0</code> across the same 20 files into a separate directory, propagated the existing 1177-term human labels onto whatever survived (every match at threshold=1.0 is a subset of what existed at 0.75, so the vast majority already had a label), hand-labeled the 23 newly-surfaced multi-word phrases (<code>"family history"</code>, <code>"type 2 diabetes"</code>, <code>"rheumatoid arthritis"</code>, etc. &mdash; longer exact phrases that beat out a shorter fuzzy candidate once fuzzy competition was removed), then re-scored.</p>
+    <div class="overflow-x">
+      <table class="data">
+        <tr><th>Metric</th><th>Threshold 0.75 (fuzzy)</th><th>Threshold 1.0 (exact only)</th><th>Change</th></tr>
+        <tr><td class="name">Raw precision</td><td>0.457</td><td>0.512</td><td class="better">+0.055</td></tr>
+        <tr><td class="name">Precision after denylist</td><td>0.518</td><td>0.603</td><td class="better">+0.085</td></tr>
+        <tr><td class="name">Denylist's marginal contribution</td><td>+0.062</td><td>+0.090</td><td class="prose">denylist matters more once fuzzy noise is gone</td></tr>
+        <tr><td class="name">Transcript precision</td><td>0.420</td><td>0.474</td><td class="better">+0.054</td></tr>
+        <tr><td class="name">SOAP note precision</td><td>0.641</td><td>0.708</td><td class="better">+0.067</td></tr>
+        <tr><td class="name">Total labeled occurrences</td><td>7406</td><td>5350</td><td class="worse">&minus;2056 (&minus;27.8%)</td></tr>
+      </table>
+    </div>
+    <div class="verified-banner">
+      <span class="check">&#10003;</span>
+      <span>Precision (before denylist): <strong>0.512</strong>. After the current denylist: <strong>0.603</strong>.</span>
+    </div>
+    <div class="caveat">
+      <strong>"Accuracy"</strong> is not a separate number from precision here: this evaluation only ever sampled and labeled things the matcher <em>did</em> match (true positives + false positives). It never sampled the spans the matcher <em>skipped</em>, so there are no labeled true negatives or false negatives to fold into a real accuracy = (TP+TN)/(TP+TN+FP+FN). Reporting it anyway, with this caveat attached rather than a number that looks independent when it isn't: <strong>accuracy over the labeled sample = 0.512</strong>, identical to raw precision.
+    </div>
+    <p>The 27.8% drop in total matches found is the tradeoff, and it's the same one already documented in <code>umls_matching.py</code>'s own comments: threshold=0.75 exists specifically because raising it to 0.85 was already tested and found to cost real matches (<code>"smoke"&rarr;"smoker"</code>=0.75, <code>"peanuts"&rarr;"peanut"</code>=0.80, <code>"allergic"&rarr;"allergican"</code>=0.75) &mdash; all of which would also be lost at threshold=1.0. This experiment confirms that same precision/recall tradeoff on the measurement side: exact-only matching is meaningfully more precise, but not free.</p>
+    <p><strong>This change was NOT applied to the live matcher</strong> &mdash; <code>umls_matching.THRESHOLD</code> (used by all three condensers and every checker) is untouched at 0.75. The experiment ran through a threshold override in <code>umls_checker.py</code> alone, specifically so it could be measured as its own question without regressing the condensers' already-tuned recall.</p>
+  </section>
+
+  <footer>
+    <p>Precision/accuracy numbers above come from real runs of <code>umls_checker.py score</code> against the hand-labeled gold standard in <code>umls span docs/</code> (threshold=0.75) and <code>umls span docs exact/</code> (threshold=1.0). Plots: <code>Logs/umls_matching_precision.png</code> and <code>Logs/umls_matching_precision_exact.png</code>.</p>
+  </footer>
+
+</div>

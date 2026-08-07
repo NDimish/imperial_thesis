@@ -1,6 +1,14 @@
 [
   {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 27: \"WE will need to r/o more serious conditions like malaria, Dengue and meningitis\""
+  },
+  {
     "type": "omission",
-    "detail": "You do not remember the last time you had your last set of bloods\nPlan: you have been advised to contact support to help you to organize your blood test."
+    "detail": "Safety netting: If you develop chest pain with the palpitations, change in bowel habits you will need to contact us urgently"
+  },
+  {
+    "type": "omission",
+    "detail": "This will look at aneamia, thyoids, liver, kidney and vitamin levels \nYou will need to book in for another appointment after you receive a text message from Babylon."
   }
 ]

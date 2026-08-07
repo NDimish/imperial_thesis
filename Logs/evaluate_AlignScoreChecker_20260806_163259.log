@@ -1,0 +1,151 @@
+
+prim1.txt
+  [FALSE] hallucination: Takeaway 4/7 ago - Chinese restaurant.
+  [FALSE] hallucination: No other unwell contacts.
+  [FALSE] hallucination: PMH: Asthma
+DH: Inhalers
+SH: works as an accountant.
+  [FN] omission: Associated LLQ pain - crampy, intermittent, nil radiation.
+
+prim10.txt
+  flagged - none
+  [FN] hallucination: inserted sentence from note 9: "Brief episode of haematuria, now resolved."
+
+prim11.txt
+  [FALSE] hallucination: 3/7 hx of diarrhea - watery stools, opening bowels every hour.
+  [FALSE] hallucination: Brother also had similar sx - improving 
+Tolerating oral intake 
+
+PMH: nil
+DH: nil regular 
+NKDA
+FH: father - colon Ca 
+SH: lives with sister and mum.
+  [TRUE] hallucination: Urinary sx - noticed some pink coloured urine, no frank haematuria, nil dysuria.
+  [FN] hallucination: inserted sentence from note 12: "Nil smoking, social EtOH
+
+Imp: gastroenteritis 
+
+Plan:
+1."
+  [FN] omission: Review in 48 hours, or earlier if worsening sx
+
+prim12.txt
+  [FALSE] hallucination: No unwell contacts 
+
+PMH: asthma 
+DH: salbutamol PRN 
+NKDA
+FH: father - HTN, died of bowel Ca.
+  [FALSE] hallucination: Nil smoking, social EtOH
+
+Imp: gastroenteritis 
+
+Plan:
+1.
+  [FN] hallucination: inserted sentence from note 4: "Now developed a cough -mainly dry, constant."
+  [FN] hallucination: inserted sentence from note 11: "Works in office."
+  [FN] omission: Appetite reduced.
+
+prim13.txt
+  [FALSE] hallucination: SOB: migraines 
+
+ Plan: 
+ 1.
+  [FN] omission: Paracetamol/NSAIDs regular 
+2.
+  [FN] hallucination: inserted sentence from note 4: "Occasional smoker/etOH."
+
+prim14.txt
+  [FALSE] hallucination: Runny nose, no ear pain, no sore throat.
+  [FALSE] hallucination: No SOB / chest pain 
+ Feeling tired, weak and myalgia.
+  [FALSE] hallucination: Initial diarrhea-but now resolved 
+ Nil urinary symptoms 
+ No rashes 
+
+ PMH: Type 2 diabetes, HTN 
+ DH: metformin, lisinopril 
+ NKDA 
+ FH: Father-type 2 diabetes 
+ SH: lives with partner, works IT, denies stress.
+  [FALSE] hallucination: Social EtOH < 14 units / week 
+
+ Imp: viral NKDA 
+ SH: 
+ 1.
+  FN - none
+
+prim15.txt
+  [FALSE] hallucination: No pain 
+Works as a cleaner and does not always wear gloves - possible trigger
+No fever
+No bowel/urinary sx
+Appetite maintained 
+
+PMH: Type 2 diabetes
+DH: metformin 
+NKDA
+FH: Type 2 diabetes, 
+SH: works as a housekeeper, recently changed jobs 4/12 ago, works in a hotel.
+  [FN] omission: Steroid cream BD
+2.
+  [FN] omission: Review in 10-14d INB, or earlier if worsening sx
+  [FN] hallucination: inserted sentence from note 8: "Emollients - regular use QDS
+3."
+
+prim16.txt
+  [FALSE] hallucination: One previous similar episode in the past- resolved spontaneously.
+  [FN] omission: Imp: need to exclude impacted wax in ear canal first
+Pln: for face to face GP appointment in 5 days to examine ear
+Pt to read about tinnitus in the meantime via following link: www.patient.co.uk/tinnitus
+If any problems in interim to ring us back
+Pt happy with and understands plan
+  [FN] omission: History: 
+Hx of difficulty hearing left ear for 6 weeks with tinnitus and slight nausea/ dizziness.
+
+prim17.txt
+  [FALSE] hallucination: Hx: 1 week history of spontaneous elbow swelling left.
+  [FALSE] hallucination: No FH of rheumatological disease- NB pt says he has been old he has OA previously by doctors- ? need to confirm this
+Works in a desk job
+Not happened before
+Otherwise well- 
+PMHx: nil of note
+FH: nil of note
+DH: not on any medication, allergic to peanuts
+SH: exercises regularly, active
+Ex: looks well, not in pain.
+  [FN] hallucination: inserted sentence from note 24: "Imp: ?"
+
+prim18.txt
+  [FALSE] hallucination: Hx: 1 week history of left side difficulty hearing and facial numbness
+No dysphagia, dysarthria, no unilateral weakness/numbness in the rest of the body, no visual disturbances 
+No ear pain, ear discharge, fever, itchiness or cotton bud use.
+  [FN] omission: Slight tinnitus at times in this period- not continuous
+Numbness and difficulty hearing present now 
+Pmhx: labyrinthitis, heart burn, nasal polyps
+DH: Rennies PRN OTC, nasal spray PRN (pt not sure of name)
+Allergies: latex allergy
+No FH of note
+Ex: no facial asymmetry, looks well, normal facial expressions and movements
+Imp: ?
+
+=== Evaluation Results ===
+prim1.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=3 FN=1)
+prim10.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=0 FN=1)
+prim11.txt: precision=0.33 recall=0.33 f1=0.33 accuracy=0.20 (TP=1 FP=2 FN=2)
+prim12.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=2 FN=3)
+prim13.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=1 FN=2)
+prim14.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=4 FN=0)
+prim15.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=1 FN=3)
+prim16.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=1 FN=2)
+prim17.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=2 FN=1)
+prim18.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=1 FN=1)
+
+Overall (all types): precision=0.06 recall=0.06 f1=0.06 accuracy=0.03 (TP=1 FP=17 FN=16)
+
+By type:
+  hallucination: precision=0.06 recall=0.12 f1=0.08 accuracy=0.04 (TP=1 FP=17 FN=7)
+  omission: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=0 FN=9)
+
+Average elapsed time: 44.37s

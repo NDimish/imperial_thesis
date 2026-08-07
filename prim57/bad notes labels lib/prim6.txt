@@ -1,0 +1,20 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "Urinary - Polyuria, else PMH: Heart failure, ?unstable angina DH: furosemide, aspirin, bisoprolol, simvastatin\nNKDA\nFH - father died of MI early 60s , mother - osteoporosis SH: lives alone, 2 cats , works part time as a lorry driver."
+  },
+  {
+    "type": "hallucination",
+    "severity": "low",
+    "detail_type": "entity swap",
+    "detail": "unstable angina DH: furosemide, aspirin, bisoprolol, simvastatin \n NKDA \n FH-father died of INB early 60s, mother-osteoporosis SH: lives alone, 2 cats, works part time as a lorry driver."
+  },
+  {
+    "type": "hallucination",
+    "severity": "moderate",
+    "detail_type": "inserted sentence",
+    "detail": "Also myalgia and arthralgia - mainly stiffness in joints."
+  }
+]

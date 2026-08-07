@@ -1,0 +1,107 @@
+prim1.txt
+  missed - hallucination: inserted sentence from note 11: "No blood in stools."
+  missed - omission: Associated LLQ pain - crampy, intermittent, nil radiation.
+  missed - omission: No other unwell contacts.
+  added - none
+prim10.txt
+  missed - hallucination: inserted sentence from note 9: "Nil bowel sx
+Currently sexually active - with regular partner for 2/12."
+  missed - hallucination: inserted sentence from note 9: "Brief episode of haematuria, now resolved."
+  missed - hallucination: inserted sentence from note 9: "Abdo pain - cramping, nil radiating 
+Nil nausea/vomiting."
+  added - omission: p: uh, yeah, yeah eating drinking ok.
+prim11.txt
+  missed - hallucination: inserted sentence from note 1: "Lives with wife and children."
+  missed - omission: 3/7 hx of diarrhea - watery stools, opening bowels every hour.
+  added - none
+prim12.txt
+  missed - omission: No headaches/muscle pain.
+  missed - hallucination: inserted sentence from note 4: "Finding work slightly stressful."
+  added - none
+prim13.txt
+  missed - hallucination: inserted sentence from note 5: "Rx empirically with Abx for UTI
+4."
+  missed - hallucination: inserted sentence from note 3: "Had visual aura before onset of headaches - zigzag lines in field of vision."
+  added - none
+
+ [run 1] precision=0.00 recall=0.00 f1=0.00 avg_elapsed=0.0
+prim1.txt
+  missed - hallucination: inserted sentence from note 11: "No blood in stools."
+  missed - omission: Associated LLQ pain - crampy, intermittent, nil radiation.
+  missed - omission: No other unwell contacts.
+  added - none
+prim10.txt
+  missed - hallucination: inserted sentence from note 9: "Nil bowel sx
+Currently sexually active - with regular partner for 2/12."
+  missed - hallucination: inserted sentence from note 9: "Brief episode of haematuria, now resolved."
+  missed - hallucination: inserted sentence from note 9: "Abdo pain - cramping, nil radiating 
+Nil nausea/vomiting."
+  added - omission: p: uh, yeah, yeah eating drinking ok.
+prim11.txt
+  missed - hallucination: inserted sentence from note 1: "Lives with wife and children."
+  missed - omission: 3/7 hx of diarrhea - watery stools, opening bowels every hour.
+  added - hallucination: review in 48 hours, or earlier if worsening sx
+prim12.txt
+  missed - omission: No headaches/muscle pain.
+  missed - hallucination: inserted sentence from note 4: "Finding work slightly stressful."
+  added - hallucination: nil smoking, social etoh
+
+imp: gastroenteritis 
+
+plan:
+1.
+prim13.txt
+  missed - hallucination: inserted sentence from note 5: "Rx empirically with Abx for UTI
+4."
+  missed - hallucination: inserted sentence from note 3: "Had visual aura before onset of headaches - zigzag lines in field of vision."
+  added - hallucination: patient aware of red flag sx - knows to seek urgent medical attention if present
+  added - omission: d: mmm, , ok.
+
+ [run 1] precision=0.00 recall=0.00 f1=0.00 avg_elapsed=0.0
+prim1.txt
+  missed - hallucination: inserted sentence from note 11: "No blood in stools."
+  missed - omission: Associated LLQ pain - crampy, intermittent, nil radiation.
+  added - hallucination: pmh: asthma
+dh: inhalers
+sh: works as an accountant.
+  added - omission: d: okay, so you're drinking fluids.
+prim10.txt
+  missed - hallucination: inserted sentence from note 9: "Nil bowel sx
+Currently sexually active - with regular partner for 2/12."
+  missed - hallucination: inserted sentence from note 9: "Abdo pain - cramping, nil radiating 
+Nil nausea/vomiting."
+  added - omission: p: uh, combined pill.
+  added - omission: p: uh, yeah, yeah eating drinking ok.
+  added - omission: d: no, ok great.
+  added - omission: p: ok, ok uh great.
+prim11.txt
+  missed - hallucination: inserted sentence from note 1: "Lives with wife and children."
+  added - hallucination: smokes socially, etoh - socially 
+
+imp: gastroenteritis 
+
+plan:
+1.
+  added - hallucination: review in 48 hours, or earlier if worsening sx
+  added - omission: so
+d: wow, no.
+  added - omission: p: i i guess so.
+  added - omission: so , ok right.
+prim12.txt
+  missed - omission: No headaches/muscle pain.
+  missed - hallucination: inserted sentence from note 4: "Finding work slightly stressful."
+  added - hallucination: nil smoking, social etoh
+
+imp: gastroenteritis 
+
+plan:
+1.
+prim13.txt
+  missed - hallucination: inserted sentence from note 5: "Rx empirically with Abx for UTI
+4."
+  missed - hallucination: inserted sentence from note 3: "Had visual aura before onset of headaches - zigzag lines in field of vision."
+  added - hallucination: patient aware of red flag sx - knows to seek urgent medical attention if present
+  added - omission: d: ohh dear, ok.
+  added - omission: d: mmm, , ok.
+
+ [run 1] precision=0.17 recall=0.25 f1=0.20 avg_elapsed=0.0

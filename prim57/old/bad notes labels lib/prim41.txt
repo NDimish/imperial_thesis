@@ -1,6 +1,18 @@
 [
   {
     "type": "omission",
-    "detail": "Worse\nWhen moving sx."
+    "detail": "Name and DOB confirmed\nPC: presenting with headache - significant \nSx."
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"NKDA \n\n Fhx\" was swapped for \"Mum\" (from note 55)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"a&e\" was swapped for \"Mercilon\" (from note 55)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"Hypothyroidism \n\n   Video\" was swapped for \"Mum\" (from note 55)"
   }
 ]

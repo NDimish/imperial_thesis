@@ -1,0 +1,177 @@
+prim1.txt
+  missed - omission: Associated LLQ pain - crampy, intermittent, nil radiation.
+  missed - omission: No other unwell contacts.
+  added - hallucination: 3/7 hx of diarrhea, mainly watery.
+  added - hallucination: no blood in stool.
+  added - hallucination: opening bowels x6/day.
+  added - hallucination: also vomiting - mainly bilous.
+  added - hallucination: no blood in vomit.
+  added - hallucination: fever on first day, nil since.
+  added - hallucination: has been feeling lethargic and weak since.
+  added - hallucination: takeaway 4/7 ago - chinese restaurant.
+  added - hallucination: pmh: asthma
+dh: inhalers
+sh: works as an accountant.
+  added - hallucination: nil smoking/etoh hx
+
+imp: gastroenteritis 
+
+plan:
+conservative management - rest, push fluids, paracetamol if feverish.
+  added - hallucination: recommend otc diarolyte.
+prim10.txt
+  missed - hallucination: inserted sentence from note 9: "Nil bowel sx
+Currently sexually active - with regular partner for 2/12."
+  added - hallucination: 1/52 hx of dysuria, frequency and suprapubic pain.
+  added - hallucination: noticed urine today was pink, nil frank haematuria.
+  added - hallucination: suprapubic pain on pu - aching pain, nil radiating 
+nil nausea/vomiting 
+nil fevers 
+nil new bowel sx 
+currently sexually active - long-term partner.
+  added - hallucination: nil pv discharge.
+  added - hallucination: lmp 2/52 
+e+d well 
+
+pmh: ibs
+dh: cocp, mebeverine 
+allergic to clindamycin 
+fh: nil
+sh: lives in student halls, nil smoking, social etoh
+
+imp: uti
+
+plan:
+1.
+  added - hallucination: urine dip and msu
+2.
+  added - hallucination: start abx - nitrofurantoin abx for 3/7 
+3.
+  added - hallucination: push fluids 
+4.
+  added - hallucination: simple analgesia
+5.
+  added - hallucination: review in 1/52 inb, or earlier if worsening sx (fever, back pain, vomiting) nil bowel sx
+currently sexually active - with regular partner for 2/12.
+prim11.txt
+  missed - omission: 3/7 hx of diarrhea - watery stools, opening bowels every hour.
+  added - hallucination: no blood in stools.
+  added - hallucination: assoc crampy abdo pain - central, intermittent, severity 6/10.
+  added - hallucination: feels nauseous, has vomited occasionally.
+  added - hallucination: feeling feverish, hot/cold
+nil urinary sx - passing less urine .
+  added - hallucination: no weight loss.
+  added - hallucination: brother also had similar sx - improving 
+tolerating oral intake 
+
+pmh: nil
+dh: nil regular 
+nkda
+fh: father - colon ca 
+sh: lives with sister and mum.
+  added - hallucination: works in office.
+  added - hallucination: smokes socially, etoh - socially 
+
+imp: gastroenteritis 
+
+plan:
+1.
+  added - hallucination: push fluids 
+2.
+  added - hallucination: otc diarolyte 
+3.
+  added - hallucination: encourage soft diet
+4.
+  added - hallucination: regular paracetamol 
+5.
+  added - hallucination: review in 48 hours, or earlier if worsening sx
+prim12.txt
+  missed - omission: No headaches/muscle pain.
+  missed - hallucination: inserted sentence from note 4: "Finding work slightly stressful."
+  added - hallucination: 3/7 hx ago developed vomiting.
+  added - hallucination: has now developed diarrhea - 5-6x/day.
+  added - hallucination: no blood in stools.
+  added - hallucination: no abdo pain.
+  added - hallucination: reduced oral intake.
+  added - hallucination: appetite reduced.
+  added - hallucination: no fever/temp, but feels warm.
+  added - hallucination: feels weak.
+  added - hallucination: unaware of triggers.
+  added - hallucination: no unwell contacts 
+
+pmh: asthma 
+dh: salbutamol prn 
+nkda
+fh: father - htn, died of bowel ca.
+  added - hallucination: mother - diabetes type 2
+sh: lives alone , software engineer.
+  added - hallucination: nil smoking, social etoh
+
+imp: gastroenteritis 
+
+plan:
+1.
+  added - hallucination: supportive mx - rest, fluids
+2.
+  added - hallucination: otc diarolyte 
+3.
+  added - hallucination: regular paracetamol
+4.
+  added - hallucination: review in 3-5d inb, or earlier if worsening sx (diarrhea, vomiting, abdo pain, reduced oral intake)
+prim13.txt
+  missed - none
+  added - hallucination: 3/7 hx developed headache - all over of my head and mainly over right eye.
+  added - hallucination: constant, severity 8/10, dull ache with associated sharp pain, gradual onset.
+  added - hallucination: progressively worsening.
+  added - hallucination: has tried ibuprofen with limited relief.
+  added - hallucination: no visual sx
+visual aura prior to headaches.
+  added - hallucination: some photophobia.
+  added - hallucination: feels nauseous, no vomiting
+no neck pain/stiffness
+no speech disturbances 
+no arm or leg weakness
+no head injury 
+no fevers
+no rashes 
+
+pmh: nil 
+dh: nil
+nkda
+fh: mother and sister - migraines
+sh: lives with housemates, works in it, wears glasses, denies stress.
+  added - hallucination: socially smoke/etoh 
+
+ice: ?related to stress/dehydration.
+  added - hallucination: concerned about migraines.
+  added - hallucination: imp: migraines 
+
+plan:
+1.
+  added - hallucination: paracetamol/nsaids regular 
+2.
+  added - hallucination: headache diary
+3.
+  added - hallucination: review in 1/52 - discuss prophylactic rx if necessary
+4.
+  added - hallucination: patient aware of red flag sx - knows to seek urgent medical attention if present
+
+ [run 1] precision=0.09 recall=0.50 f1=0.15 avg_elapsed=1828.8500850800076
+
+ 
+=== Evaluation Results ===
+
+ prim1.txt: precision=0.08 recall=0.33 f1=0.13 accuracy=0.07 (TP=1 FP=11 FN=2)
+
+ prim10.txt: precision=0.17 recall=0.67 f1=0.27 accuracy=0.15 (TP=2 FP=10 FN=1)
+
+ prim11.txt: precision=0.07 recall=0.50 f1=0.12 accuracy=0.07 (TP=1 FP=13 FN=1)
+
+ prim12.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=16 FN=2)
+
+ prim13.txt: precision=0.12 recall=1.00 f1=0.22 accuracy=0.12 (TP=2 FP=14 FN=0)
+
+ 
+Overall: precision=0.09 recall=0.50 f1=0.15 accuracy=0.08 (TP=6 FP=64 FN=6)
+
+ Average elapsed time: 1828.85s

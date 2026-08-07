@@ -1,0 +1,2160 @@
+[
+  {
+    "term": "blood",
+    "semtypes": [
+      "T031"
+    ],
+    "count_transcript": 9,
+    "count_soap_note": 6,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...Have you noticed any other things, like [[blood]] in your stools?\np: No, no blood, yeah, ...",
+      "[transcript] ...Have you noticed any other things, like [[blood]] in your stools?\np: No, no blood, yeah, ...",
+      "[transcript] ...Have you noticed any other things, like [[blood]] in your stools?\np: No, no blood, yeah, ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "antibiotics",
+    "semtypes": [
+      "T195"
+    ],
+    "count_transcript": 9,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...m, I don't think you need anything like [[antibiotics]]. It's really just, um, making sure you'...",
+      "[transcript] ...m, I don't think you need anything like [[antibiotics]]. It's really just, um, making sure you'...",
+      "[transcript] ...m, I don't think you need anything like [[antibiotics]]. It's really just, um, making sure you'..."
+    ],
+    "label": true
+  },
+  {
+    "term": "b-symptoms",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 8,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... I did notice um a temperature when the [[symptoms]] started, so, um, yeah around about thre...",
+      "[transcript] ...h, so um, I vomited at the start of the [[symptoms]] but now um I've stopped vomiting.\nd: Yo...",
+      "[transcript] ...nd sir these started three days ago the [[symptoms]]. Are you aware of any triggers which ma..."
+    ],
+    "label": true
+  },
+  {
+    "term": "symptoms",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 8,
+    "count_soap_note": 1,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ... I did notice um a temperature when the [[symptoms]] started, so, um, yeah around about thre...",
+      "[transcript] ...h, so um, I vomited at the start of the [[symptoms]] but now um I've stopped vomiting.\nd: Yo...",
+      "[transcript] ...nd sir these started three days ago the [[symptoms]]. Are you aware of any triggers which ma..."
+    ],
+    "label": false
+  },
+  {
+    "term": "symptom",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 8,
+    "count_soap_note": 1,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ... I did notice um a temperature when the [[symptoms]] started, so, um, yeah around about thre...",
+      "[transcript] ...h, so um, I vomited at the start of the [[symptoms]] but now um I've stopped vomiting.\nd: Yo...",
+      "[transcript] ...nd sir these started three days ago the [[symptoms]]. Are you aware of any triggers which ma..."
+    ],
+    "label": false
+  },
+  {
+    "term": "diarrhea",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 6,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... you?\np: Oh hey, um, I've just had some [[diarrhea]] for the last three days, um, and it's b...",
+      "[transcript] ... to hear that. Um, and and when you say [[diarrhea]], what'd you mean by diarrhea? Do you me...",
+      "[transcript] ...en you say diarrhea, what'd you mean by [[diarrhea]]? Do you mean you're going to the toilet..."
+    ],
+    "label": true
+  },
+  {
+    "term": "diarrhea 6",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 6,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... you?\np: Oh hey, um, I've just had some [[diarrhea]] for the last three days, um, and it's b...",
+      "[transcript] ... to hear that. Um, and and when you say [[diarrhea]], what'd you mean by diarrhea? Do you me...",
+      "[transcript] ...en you say diarrhea, what'd you mean by [[diarrhea]]? Do you mean you're going to the toilet..."
+    ],
+    "label": false
+  },
+  {
+    "term": "diarrhea 9",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 6,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... you?\np: Oh hey, um, I've just had some [[diarrhea]] for the last three days, um, and it's b...",
+      "[transcript] ... to hear that. Um, and and when you say [[diarrhea]], what'd you mean by diarrhea? Do you me...",
+      "[transcript] ...en you say diarrhea, what'd you mean by [[diarrhea]]? Do you mean you're going to the toilet..."
+    ],
+    "label": false
+  },
+  {
+    "term": "vomiting",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 6,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ..., or um, night sweats? No? And, uh, any [[vomiting]] at all?\np: Uh, no.\np: Yeah, so um, I vo...",
+      "[transcript] ...of the symptoms but now um I've stopped [[vomiting]].\nd: You stopped vomiting, okay. And was...",
+      "[transcript] ...m I've stopped vomiting.\nd: You stopped [[vomiting]], okay. And was your vomit, I know it's ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "like",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 8,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...our stools more loose?\np: Yeah, so it's [[like]] loose and watery stool, going to the to...",
+      "[transcript] ...going to the toilet quite often, uh and [[like]] some pain in my, like, lower stomach?\nd...",
+      "[transcript] ...ite often, uh and like some pain in my, [[like]], lower stomach?\nd: \nd: Okay. And how ma..."
+    ],
+    "label": false
+  },
+  {
+    "term": "pain",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 8,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...he toilet quite often, uh and like some [[pain]] in my, like, lower stomach?\nd: \nd: Okay...",
+      "[transcript] ...Okay. And you mentioned you've had some [[pain]] in your tummy as well. Whereabouts is t...",
+      "[transcript] ... your tummy as well. Whereabouts is the [[pain]], exactly?\np: Yep.\np: So in my lower abd..."
+    ],
+    "label": true
+  },
+  {
+    "term": "pain",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 8,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...he toilet quite often, uh and like some [[pain]] in my, like, lower stomach?\nd: \nd: Okay...",
+      "[transcript] ...Okay. And you mentioned you've had some [[pain]] in your tummy as well. Whereabouts is t...",
+      "[transcript] ... your tummy as well. Whereabouts is the [[pain]], exactly?\np: Yep.\np: So in my lower abd..."
+    ],
+    "label": true
+  },
+  {
+    "term": "normal",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 6,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ce thing to talk about, but was it just [[normal]] food colour Yeah. And there was no bloo...",
+      "[transcript] ...ce thing to talk about, but was it just [[normal]] food colour Yeah. And there was no bloo...",
+      "[transcript] ...ce thing to talk about, but was it just [[normal]] food colour Yeah. And there was no bloo..."
+    ],
+    "label": false
+  },
+  {
+    "term": "bloody",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...Have you noticed any other things, like [[blood]] in your stools?\np: No, no blood, yeah, ...",
+      "[transcript] ...s, like blood in your stools?\np: No, no [[blood]], yeah, just watery and loose stool.\nd: ...",
+      "[transcript] ...rmal food colour Yeah. And there was no [[blood]] in your vomit, is that right?\np: Yeah, ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "mean",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 5,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...d and when you say diarrhea, what'd you [[mean]] by diarrhea? Do you mean you're going t...",
+      "[transcript] ...ea, what'd you mean by diarrhea? Do you [[mean]] you're going to the toilet more often? ...",
+      "[transcript] ...ite weak and shaky as well. What do you [[mean]] by shaky? Do you mean you've been havin..."
+    ],
+    "label": false
+  },
+  {
+    "term": "well",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 5,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...d you've had some pain in your tummy as [[well]]. Whereabouts is the pain, exactly?\np: Y...",
+      "[transcript] ...ve been feeling quite weak and shaky as [[well]]. What do you mean by shaky? Do you mean...",
+      "[transcript] ...e is fine.\nd: Okay. And, is your asthma [[well]]-controlled?\np: Uh, yeah, that's fine. I..."
+    ],
+    "label": false
+  },
+  {
+    "term": "weak",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ar cramp, and, um, yeah i feel a bit uh [[weak]] and shaky.\nd: Okay. And is the pain, is...",
+      "[transcript] ...you mentioned you've been feeling quite [[weak]] and shaky as well. What do you mean by ...",
+      "[transcript] ...and vomiting and fever and you're quite [[weak]] and lethargic um, you mentioned you had..."
+    ],
+    "label": true
+  },
+  {
+    "term": "else",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 5,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...ome and go. Does the pain move anywhere [[else]], for example towards your back?\np: Uh.....",
+      "[transcript] ...u mentioned your vomiting, uh, anything [[else]] that comes to mind?\np: Yep. Um, I had a...",
+      "[transcript] ...ant with friends. Yeah.\nd: Okay. Anyone [[else]] unwell with similar symptoms?\np: Um, so..."
+    ],
+    "label": false
+  },
+  {
+    "term": "stomach",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...h and like some pain in my, like, lower [[stomach]]?\nd: \nd: Okay. And how many times a day ...",
+      "[transcript] ...h and like some pain in my, like, lower [[stomach]]?\nd: \nd: Okay. And how many times a day ...",
+      "[transcript] ...ds your back?\np: Uh...no, just maybe my [[stomach]].\nd: Okay, fine. And you mentioned you'v..."
+    ],
+    "label": true
+  },
+  {
+    "term": "alcohol",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...\nd: And do you drink much in the way of [[alcohol]]?\np: Uh, no, I I don't drink alcohol, no...",
+      "[transcript] ...\nd: And do you drink much in the way of [[alcohol]]?\np: Uh, no, I I don't drink alcohol, no...",
+      "[transcript] ... of alcohol?\np: Uh, no, I I don't drink [[alcohol]], no. \nd: Okay. so um, er normally at th..."
+    ],
+    "label": true
+  },
+  {
+    "term": "stools",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...g to the toilet more often? Or are your [[stools]] more loose?\np: Yeah, so it's like loose...",
+      "[transcript] ...ed any other things, like blood in your [[stools]]?\np: No, no blood, yeah, just watery and...",
+      "[transcript] ...r tests like um taking a sample of your [[stool]] so we can test that.\np: \nd: Um, etceter..."
+    ],
+    "label": true
+  },
+  {
+    "term": "fluids",
+    "semtypes": [
+      "T031"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...s much, but I've been able to hold down [[fluids]].\nd: Okay.\nd: Okay, so you're drinking f...",
+      "[transcript] ...s.\nd: Okay.\nd: Okay, so you're drinking [[fluids]]. Um, what kind of foods have you manage...",
+      "[transcript] ... sure you're well hydrated, so drinking [[fluids]].\np: \np: Mm-hmm.\nd: Um, there are things..."
+    ],
+    "label": true
+  },
+  {
+    "term": "times",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ower stomach?\nd: \nd: Okay. And how many [[times]] a day are you going, let's say, in the ...",
+      "[transcript] ...days?\np: Um, probably like six or seven [[times]] a day? Yeah.\nd: Six, seven times a day....",
+      "[transcript] ... seven times a day? Yeah.\nd: Six, seven [[times]] a day. And you mention it's mainly wate..."
+    ],
+    "label": false
+  },
+  {
+    "term": "vomit",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ou stopped vomiting, okay. And was your [[vomit]], I know it's not a nice thing to talk a...",
+      "[transcript] ...ur Yeah. And there was no blood in your [[vomit]], is that right?\np: Yeah, yeah, just nor...",
+      "[transcript] ... that right?\np: Yeah, yeah, just normal [[vomit]], yeah. No no blood, no. Yeah.\nd: No, ok..."
+    ],
+    "label": true
+  },
+  {
+    "term": "vomit",
+    "semtypes": [
+      "T031"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ou stopped vomiting, okay. And was your [[vomit]], I know it's not a nice thing to talk a...",
+      "[transcript] ...ur Yeah. And there was no blood in your [[vomit]], is that right?\np: Yeah, yeah, just nor...",
+      "[transcript] ... that right?\np: Yeah, yeah, just normal [[vomit]], yeah. No no blood, no. Yeah.\nd: No, ok..."
+    ],
+    "label": true
+  },
+  {
+    "term": "smoker",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 4,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...uestion we need to ask, sir. Um, do you [[smoke]] at all?\np: Uh, no, I don't smoke.\nd: An...",
+      "[transcript] ...uestion we need to ask, sir. Um, do you [[smoke]] at all?\np: Uh, no, I don't smoke.\nd: An...",
+      "[transcript] ...do you smoke at all?\np: Uh, no, I don't [[smoke]].\nd: And do you drink much in the way of..."
+    ],
+    "label": true
+  },
+  {
+    "term": "feeling",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ay, fine. And you mentioned you've been [[feeling]] quite weak and shaky as well. What do y...",
+      "[soap_note] ...Fever on first day, nil since. Has been [[feeling]] lethargic and weak since. \n\nTakeaway 4/...",
+      "[soap_note] ...mptoms not improving. To see earlier if [[feeling]] more unwell. \n..."
+    ],
+    "label": false
+  },
+  {
+    "term": "eating",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...loss of appetite, um, so I haven't been [[eating]] as much, but I've been able to hold dow...",
+      "[transcript] ...r example, think like takeaway foods or [[eating]] out or being around other people with s...",
+      "[transcript] ...t other than that I've, yeah, been, uh, [[eating]] normally. Nothing unusual here.\nd: Okay..."
+    ],
+    "label": true
+  },
+  {
+    "term": "shaky",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... and, um, yeah i feel a bit uh weak and [[shaky]].\nd: Okay. And is the pain, is that, is ...",
+      "[transcript] ...oned you've been feeling quite weak and [[shaky]] as well. What do you mean by shaky? Do ...",
+      "[transcript] ... and shaky as well. What do you mean by [[shaky]]? Do you mean you've been having, uh hav..."
+    ],
+    "label": true
+  },
+  {
+    "term": "fever",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ust makes me feel weak. I haven't had a [[fever]], um, at the moment, but I did notice um...",
+      "[transcript] ...the left-hand side, um and vomiting and [[fever]] and you're quite weak and lethargic um,...",
+      "[soap_note] ...ing - mainly bilous. No blood in vomit. [[Fever]] on first day, nil since. Has been feeli..."
+    ],
+    "label": true
+  },
+  {
+    "term": "fever",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ust makes me feel weak. I haven't had a [[fever]], um, at the moment, but I did notice um...",
+      "[transcript] ...the left-hand side, um and vomiting and [[fever]] and you're quite weak and lethargic um,...",
+      "[soap_note] ...ing - mainly bilous. No blood in vomit. [[Fever]] on first day, nil since. Has been feeli..."
+    ],
+    "label": true
+  },
+  {
+    "term": "think",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...symptoms uh to kick on. So for example, [[think]] like takeaway foods or eating out or be...",
+      "[transcript] ...t having listened to your story, sir, I [[think]] uh, um, just to recap for the last thre...",
+      "[transcript] ...onservative management. So, um, I don't [[think]] you need anything like antibiotics. It'..."
+    ],
+    "label": false
+  },
+  {
+    "term": "life",
+    "semtypes": [
+      "T060"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...e. And in terms of just your day to day [[life]], you said it's been affecting your life...",
+      "[transcript] ...life, you said it's been affecting your [[life]], um, in what way has it been affecting ...",
+      "[transcript] ... in what way has it been affecting your [[life]]?\np: Yeah.\np: Uh, so, I need to stay clo..."
+    ],
+    "label": false
+  },
+  {
+    "term": "couplet",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...y are you going, let's say, in the last [[couple]] of days?\np: Um, probably like six or se...",
+      "[transcript] ...es, yeah.\nd: Right, alright. Um, just a [[couple]] of other question we need to ask, sir. ...",
+      "[transcript] ...mend that in the first, you know, first [[couple]] of days.\np: Yep.\nd: If you are feeling ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "water",
+    "semtypes": [
+      "T121",
+      "T197"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...imes a day. And you mention it's mainly [[watery]]. Have you noticed any other things, lik...",
+      "[transcript] ...our stools?\np: No, no blood, yeah, just [[watery]] and loose stool.\nd: Okay. And you menti...",
+      "[soap_note] ...3/7 hx of diarrhea, mainly [[watery]]. No blood in stool. Opening bowels x6/d..."
+    ],
+    "label": false
+  },
+  {
+    "term": "bright",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ere was no blood in your vomit, is that [[right]]?\np: Yeah, yeah, just normal vomit, yeah...",
+      "[transcript] ...ith your wife and two children, is that [[right]]?\np: Yes, yeah.\nd: Right, alright. Um, j...",
+      "[transcript] ...ildren, is that right?\np: Yes, yeah.\nd: [[Right]], alright. Um, just a couple of other qu..."
+    ],
+    "label": false
+  },
+  {
+    "term": "fright",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 3,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ere was no blood in your vomit, is that [[right]]?\np: Yeah, yeah, just normal vomit, yeah...",
+      "[transcript] ...ith your wife and two children, is that [[right]]?\np: Yes, yeah.\nd: Right, alright. Um, j...",
+      "[transcript] ...ildren, is that right?\np: Yes, yeah.\nd: [[Right]], alright. Um, just a couple of other qu..."
+    ],
+    "label": false
+  },
+  {
+    "term": "conservative management",
+    "semtypes": [
+      "T061"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...what we'd recommend is just what we say [[conservative management]]. So, um, I don't think you need anythin...",
+      "[soap_note] ...g/etOH hx\n\nImp: gastroenteritis \n\nPlan:\n[[Conservative management]] - rest, push fluids, paracetamol if fev..."
+    ],
+    "label": true
+  },
+  {
+    "term": "other medications",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...part from the inhalers, do you take any [[other medications]]?\np: Uh, no, no other medications.\nd: Ok...",
+      "[transcript] ...ke any other medications?\np: Uh, no, no [[other medications]].\nd: Okay, fine. And in terms of just yo..."
+    ],
+    "label": false
+  },
+  {
+    "term": "other medications",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...part from the inhalers, do you take any [[other medications]]?\np: Uh, no, no other medications.\nd: Ok...",
+      "[transcript] ...ke any other medications?\np: Uh, no, no [[other medications]].\nd: Okay, fine. And in terms of just yo..."
+    ],
+    "label": false
+  },
+  {
+    "term": "feeling feverish",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...an you've been having, uh have you been [[feeling feverish]], for example?\np: Yeah.\np: Um, yeah, it ...",
+      "[transcript] ...t couple of days.\np: Yep.\nd: If you are [[feeling feverish]] and weak, eh taking some paracetamol, u..."
+    ],
+    "label": true
+  },
+  {
+    "term": "other symptoms",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...it hot. And, y'know.\nd: Okay. Okay. Any [[other symptoms]] like sweating, or um, night sweats? No?...",
+      "[transcript] ... Yeah.\nd: No, okay. Um, and um, any any [[other symptoms]] at all? So you mentioned tummy pain, yo..."
+    ],
+    "label": false
+  },
+  {
+    "term": "something else",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... ongoing then we have to wonder whether [[something else]] caused your symptoms.\np: Yep.\nd: Uh, an...",
+      "[transcript] ... ongoing then we have to wonder whether [[something else]] caused your symptoms.\np: Yep.\nd: Uh, an..."
+    ],
+    "label": false
+  },
+  {
+    "term": "watery stool",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... loose?\np: Yeah, so it's like loose and [[watery stool]], going to the toilet quite often, uh an...",
+      "[transcript] ... loose?\np: Yeah, so it's like loose and [[watery stool]], going to the toilet quite often, uh an..."
+    ],
+    "label": true
+  },
+  {
+    "term": "loose stool",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...\np: No, no blood, yeah, just watery and [[loose stool]].\nd: Okay. And you mentioned you've had ...",
+      "[transcript] ... the last three days you've been having [[loose stool]], diarrhea, a bit of tummy pain uh mainl..."
+    ],
+    "label": true
+  },
+  {
+    "term": "loose stools",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...\np: No, no blood, yeah, just watery and [[loose stool]].\nd: Okay. And you mentioned you've had ...",
+      "[transcript] ... the last three days you've been having [[loose stool]], diarrhea, a bit of tummy pain uh mainl..."
+    ],
+    "label": true
+  },
+  {
+    "term": "come and go",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...t, is it there all the time, or does it [[come and go]]?\np: Uh, it comes and goes.\nd: Come and ...",
+      "[transcript] ...me and go?\np: Uh, it comes and goes.\nd: [[Come and go]]. Does the pain move anywhere else, for ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "paracetamol",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...eling feverish and weak, eh taking some [[paracetamol]], uh, two tablets up to four times a day...",
+      "[soap_note] ...rvative management - rest, push fluids, [[paracetamol]] if feverish. Recommend OTC diarolyte. T..."
+    ],
+    "label": true
+  },
+  {
+    "term": "controll",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...fine.\nd: Okay. And, is your asthma well-[[controlled]]?\np: Uh, yeah, that's fine. I just, yeah...",
+      "[transcript] ...ah, use an inhaler, and uh that's under [[control]].\nd: Fine. And you don't have any other ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "lethargic",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ing and fever and you're quite weak and [[lethargic]] um, you mentioned you had this Chinese ...",
+      "[soap_note] ... first day, nil since. Has been feeling [[lethargic]] and weak since. \n\nTakeaway 4/7 ago - Ch..."
+    ],
+    "label": true
+  },
+  {
+    "term": "infection",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ..., which essentially just a tummy bug or [[infection]] of your uh of your tummy.\np: \nd: Uh, ma...",
+      "[transcript] ... the next two, two to three days as the [[infection]] clears from your system to take some ti..."
+    ],
+    "label": true
+  },
+  {
+    "term": "infections",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ..., which essentially just a tummy bug or [[infection]] of your uh of your tummy.\np: \nd: Uh, ma...",
+      "[transcript] ... the next two, two to three days as the [[infection]] clears from your system to take some ti..."
+    ],
+    "label": true
+  },
+  {
+    "term": "infection",
+    "semtypes": [
+      "T046"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ..., which essentially just a tummy bug or [[infection]] of your uh of your tummy.\np: \nd: Uh, ma...",
+      "[transcript] ... the next two, two to three days as the [[infection]] clears from your system to take some ti..."
+    ],
+    "label": true
+  },
+  {
+    "term": "reinfection",
+    "semtypes": [
+      "T046"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ..., which essentially just a tummy bug or [[infection]] of your uh of your tummy.\np: \nd: Uh, ma...",
+      "[transcript] ... the next two, two to three days as the [[infection]] clears from your system to take some ti..."
+    ],
+    "label": false
+  },
+  {
+    "term": "coinfection",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ..., which essentially just a tummy bug or [[infection]] of your uh of your tummy.\np: \nd: Uh, ma...",
+      "[transcript] ... the next two, two to three days as the [[infection]] clears from your system to take some ti..."
+    ],
+    "label": false
+  },
+  {
+    "term": "treatment",
+    "semtypes": [
+      "T061"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...uestions, no.\nd: Okay, and is uh is the [[treatment]] plan clear?\np: Uh, yes, yeah, that's th...",
+      "[transcript] ...uestions, no.\nd: Okay, and is uh is the [[treatment]] plan clear?\np: Uh, yes, yeah, that's th..."
+    ],
+    "label": false
+  },
+  {
+    "term": "drinking",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...own fluids.\nd: Okay.\nd: Okay, so you're [[drinking]] fluids. Um, what kind of foods have you...",
+      "[transcript] ...m, making sure you're well hydrated, so [[drinking]] fluids.\np: \np: Mm-hmm.\nd: Um, there are..."
+    ],
+    "label": true
+  },
+  {
+    "term": "vitamins",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...helps helps replenish your minerals and [[vitamins]].\np: Okay.\nd: Um, and if you are having ...",
+      "[transcript] ...helps helps replenish your minerals and [[vitamins]].\np: Okay.\nd: Um, and if you are having ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "b vitamins",
+    "semtypes": [
+      "T109",
+      "T121",
+      "T127"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...helps helps replenish your minerals and [[vitamins]].\np: Okay.\nd: Um, and if you are having ...",
+      "[transcript] ...helps helps replenish your minerals and [[vitamins]].\np: Okay.\nd: Um, and if you are having ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "stomach",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...h and like some pain in my, like, lower [[stomach]]?\nd: \nd: Okay. And how many times a day ...",
+      "[transcript] ...ds your back?\np: Uh...no, just maybe my [[stomach]].\nd: Okay, fine. And you mentioned you'v..."
+    ],
+    "label": false
+  },
+  {
+    "term": "problem",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...ine. And you don't have any other tummy [[problem]], bowel problems I should be aware of?\np...",
+      "[transcript] ...whether that might be the cause of your [[problems]].\np: Yeah.\np: \np: Okay.\nd: Um, it seems ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "problem",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...ine. And you don't have any other tummy [[problem]], bowel problems I should be aware of?\np...",
+      "[transcript] ...whether that might be the cause of your [[problems]].\np: Yeah.\np: \np: Okay.\nd: Um, it seems ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "stools",
+    "semtypes": [
+      "T031"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...g to the toilet more often? Or are your [[stools]] more loose?\np: Yeah, so it's like loose...",
+      "[transcript] ...ed any other things, like blood in your [[stools]]?\np: No, no blood, yeah, just watery and..."
+    ],
+    "label": true
+  },
+  {
+    "term": "asthma",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... uh else is fine.\nd: Okay. And, is your [[asthma]] well-controlled?\np: Uh, yeah, that's fi...",
+      "[soap_note] ...rrhea. No other unwell contacts. \n\nPMH: [[Asthma]]\nDH: Inhalers\nSH: works as an accountant..."
+    ],
+    "label": true
+  },
+  {
+    "term": "start",
+    "semtypes": [
+      "T061"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...d: Hello? Hi. Um, should we [[start]]? Yeah, okay. Hello how um. Good morning...",
+      "[transcript] ...h, no.\np: Yeah, so um, I vomited at the [[start]] of the symptoms but now um I've stopped..."
+    ],
+    "label": false
+  },
+  {
+    "term": "close",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...d it's been affecting me I need to stay [[close]] to the toilet. And, um, yeah, it's been...",
+      "[transcript] ...ife?\np: Yeah.\np: Uh, so, I need to stay [[close]] to the toilet 'cause I go quite frequen..."
+    ],
+    "label": false
+  },
+  {
+    "term": "feels",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ou describe the pain to me?\np: Yeah, it [[feels]], um, like a cramp, like a muscular cram...",
+      "[transcript] ...ou describe the pain to me?\np: Yeah, it [[feels]], um, like a cramp, like a muscular cram..."
+    ],
+    "label": false
+  },
+  {
+    "term": "aware",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ...ed three days ago the symptoms. Are you [[aware]] of any triggers which may have caused t...",
+      "[transcript] ...mmy problem, bowel problems I should be [[aware]] of?\np: No.\nd: No, okay. Um, and apart f..."
+    ],
+    "label": false
+  },
+  {
+    "term": "stage",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...o. \nd: Okay. so um, er normally at this [[stage]] I like to um, examine you if that's oka...",
+      "[transcript] ...ptoms. Um.\np: Yeah.\np: Yeah.\nd: At this [[stage]], uh, what, what we'd recommend is just ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "feel",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... like a muscular cramp, and, um, yeah i [[feel]] a bit uh weak and shaky.\nd: Okay. And i...",
+      "[transcript] ...ample?\np: Yeah.\np: Um, yeah, it doesn't [[feel]] like -- yeah, it just makes me feel wea..."
+    ],
+    "label": false
+  },
+  {
+    "term": "back",
+    "semtypes": [
+      "T029"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...anywhere else, for example towards your [[back]]?\np: Uh...no, just maybe my stomach.\nd: ...",
+      "[transcript] ...anywhere else, for example towards your [[back]]?\np: Uh...no, just maybe my stomach.\nd: ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "much",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...petite, um, so I haven't been eating as [[much]], but I've been able to hold down fluids...",
+      "[transcript] ... no, I don't smoke.\nd: And do you drink [[much]] in the way of alcohol?\np: Uh, no, I I d..."
+    ],
+    "label": false
+  },
+  {
+    "term": "said",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...terms of just your day to day life, you [[said]] it's been affecting your life, um, in w...",
+      "[transcript] ...ifficult for you then.\nd: fine. And you [[said]], you mentioned you live with your wife ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "hand",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...bit of tummy pain uh mainly on the left-[[hand]] side, um and vomiting and fever and you...",
+      "[transcript] ...bit of tummy pain uh mainly on the left-[[hand]] side, um and vomiting and fever and you..."
+    ],
+    "label": false
+  },
+  {
+    "term": "plan",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...no.\nd: Okay, and is uh is the treatment [[plan]] clear?\np: Uh, yes, yeah, that's that's ...",
+      "[soap_note] ...smoking/etOH hx\n\nImp: gastroenteritis \n\n[[Plan]]:\nConservative management - rest, push f..."
+    ],
+    "label": false
+  },
+  {
+    "term": "difficulty",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ng to work. Yeah. Yeah, it's been quite [[difficult]].\nd: okay. That must be difficult for yo...",
+      "[transcript] ... quite difficult.\nd: okay. That must be [[difficult]] for you then.\nd: fine. And you said, yo..."
+    ],
+    "label": false
+  },
+  {
+    "term": "difficult",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ng to work. Yeah. Yeah, it's been quite [[difficult]].\nd: okay. That must be difficult for yo...",
+      "[transcript] ... quite difficult.\nd: okay. That must be [[difficult]] for you then.\nd: fine. And you said, yo..."
+    ],
+    "label": false
+  },
+  {
+    "term": "inhale",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...mean, other than um athsma, um I use an [[inhaler]], everything uh else is fine.\nd: Okay. A...",
+      "[transcript] ...yeah, that's fine. I just, yeah, use an [[inhaler]], and uh that's under control.\nd: Fine. ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "odour symptoms",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 2,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...\np: Okay.\np: Yeah.\nd: Um, I'll admit if [[your symptoms]] haven't got better, you know, in in thr...",
+      "[transcript] ...to wonder whether something else caused [[your symptoms]].\np: Yep.\nd: Uh, and we may need to do f..."
+    ],
+    "label": false
+  },
+  {
+    "term": "cmv gastroenteritis",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...like you may have something, uh, called [[gastroenteritis]], which essentially just a tummy bug or ...",
+      "[soap_note] ...oilet often. \nNil smoking/etOH hx\n\nImp: [[gastroenteritis]] \n\nPlan:\nConservative management - rest,..."
+    ],
+    "label": true
+  },
+  {
+    "term": "gastroenteritis",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...like you may have something, uh, called [[gastroenteritis]], which essentially just a tummy bug or ...",
+      "[soap_note] ...oilet often. \nNil smoking/etOH hx\n\nImp: [[gastroenteritis]] \n\nPlan:\nConservative management - rest,..."
+    ],
+    "label": true
+  },
+  {
+    "term": "crampy",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...in to me?\np: Yeah, it feels, um, like a [[cramp]], like a muscular cramp, and, um, yeah i...",
+      "[soap_note] ...ng bowels x6/day. Associated LLQ pain - [[crampy]], intermittent, nil radiation.  Also vom..."
+    ],
+    "label": true
+  },
+  {
+    "term": "cramp",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...in to me?\np: Yeah, it feels, um, like a [[cramp]], like a muscular cramp, and, um, yeah i...",
+      "[soap_note] ...ng bowels x6/day. Associated LLQ pain - [[crampy]], intermittent, nil radiation.  Also vom..."
+    ],
+    "label": true
+  },
+  {
+    "term": "stool",
+    "semtypes": [
+      "T031"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...r tests like um taking a sample of your [[stool]] so we can test that.\np: \nd: Um, etceter...",
+      "[soap_note] ...of diarrhea, mainly watery. No blood in [[stool]]. Opening bowels x6/day. Associated LLQ ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "radiation",
+    "semtypes": [
+      "T061"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 2,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...ed LLQ pain - crampy, intermittent, nil [[radiation]].  Also vomiting - mainly bilous. No blo...",
+      "[soap_note] ...ed LLQ pain - crampy, intermittent, nil [[radiation]].  Also vomiting - mainly bilous. No blo..."
+    ],
+    "label": true
+  },
+  {
+    "term": "three or four days",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...toms started, so, um, yeah around about [[three or four days]] ago.\nd: \nd: You measure your temperatur..."
+    ],
+    "label": false
+  },
+  {
+    "term": "vomiting diarrhea",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ....\np: Okay.\nd: Um, and if you are having [[vomiting diarrhea]] I would say recommend that in the first..."
+    ],
+    "label": true
+  },
+  {
+    "term": "loss of appetite",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...that comes to mind?\np: Yep. Um, I had a [[loss of appetite]], um, so I haven't been eating as much, ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "loss of appetite",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...that comes to mind?\np: Yep. Um, I had a [[loss of appetite]], um, so I haven't been eating as much, ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "loss of appetite",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...that comes to mind?\np: Yep. Um, I had a [[loss of appetite]], um, so I haven't been eating as much, ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "muscular cramp",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...eah, it feels, um, like a cramp, like a [[muscular cramp]], and, um, yeah i feel a bit uh weak and..."
+    ],
+    "label": true
+  },
+  {
+    "term": "overall health",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...lright. And uh, in terms of your , your [[overall health]], are you normally fit and well? Or, uh\n..."
+    ],
+    "label": true
+  },
+  {
+    "term": "bowel problems",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...you don't have any other tummy problem, [[bowel problems]] I should be aware of?\np: No.\nd: No, oka..."
+    ],
+    "label": true
+  },
+  {
+    "term": "lower abdomen",
+    "semtypes": [
+      "T029"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... the pain, exactly?\np: Yep.\np: So in my [[lower abdomen]], so, uh, like, um...yeah, just to one s..."
+    ],
+    "label": true
+  },
+  {
+    "term": "other things",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...t's mainly watery. Have you noticed any [[other things]], like blood in your stools?\np: No, no b..."
+    ],
+    "label": false
+  },
+  {
+    "term": "night sweats",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ny other symptoms like sweating, or um, [[night sweats]]? No? And, uh, any vomiting at all?\np: U..."
+    ],
+    "label": true
+  },
+  {
+    "term": "fit and well",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ..., your overall health, are you normally [[fit and well]]? Or, uh\np: Um, yeah, I mean, other than..."
+    ],
+    "label": true
+  },
+  {
+    "term": "quite often",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...e and watery stool, going to the toilet [[quite often]], uh and like some pain in my, like, low..."
+    ],
+    "label": false
+  },
+  {
+    "term": "no blood",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...p: Yeah, yeah, just normal vomit, yeah. [[No no blood]], no. Yeah.\nd: No, okay. Um, and um, any..."
+    ],
+    "label": true
+  },
+  {
+    "term": "controlled",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...fine.\nd: Okay. And, is your asthma well-[[controlled]]?\np: Uh, yeah, that's fine. I just, yeah..."
+    ],
+    "label": false
+  },
+  {
+    "term": "feel weak",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...n't feel like -- yeah, it just makes me [[feel weak]]. I haven't had a fever, um, at the mome..."
+    ],
+    "label": true
+  },
+  {
+    "term": "dioralyte",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...p: Mm-hmm.\nd: Um, there are things like [[Dioralyte]] you can get from the pharmacy, which uh..."
+    ],
+    "label": true
+  },
+  {
+    "term": "cotreatment",
+    "semtypes": [
+      "T061"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...uestions, no.\nd: Okay, and is uh is the [[treatment]] plan clear?\np: Uh, yes, yeah, that's th..."
+    ],
+    "label": false
+  },
+  {
+    "term": "retreatment",
+    "semtypes": [
+      "T061"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...uestions, no.\nd: Okay, and is uh is the [[treatment]] plan clear?\np: Uh, yes, yeah, that's th..."
+    ],
+    "label": false
+  },
+  {
+    "term": "probably",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...say, in the last couple of days?\np: Um, [[probably]] like six or seven times a day? Yeah.\nd:..."
+    ],
+    "label": false
+  },
+  {
+    "term": "sweating",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...\nd: Okay. Okay. Any other symptoms like [[sweating]], or um, night sweats? No? And, uh, any ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "triggers",
+    "semtypes": [
+      "T201"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... ago the symptoms. Are you aware of any [[triggers]] which may have caused the symptoms uh t..."
+    ],
+    "label": true
+  },
+  {
+    "term": "remember",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...othing unusual here.\nd: Okay.\nd: Do you [[remember]] where you ate?\np: Um, yeah, I ate at a ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "listened",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...that's okay, but um, um, but but having [[listened]] to your story, sir, I think uh, um, jus..."
+    ],
+    "label": false
+  },
+  {
+    "term": "hydrated",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...eally just, um, making sure you're well [[hydrated]], so drinking fluids.\np: \np: Mm-hmm.\nd: ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "dehydrated",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...eally just, um, making sure you're well [[hydrated]], so drinking fluids.\np: \np: Mm-hmm.\nd: ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "m vitamins",
+    "semtypes": [
+      "T109",
+      "T121",
+      "T127"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...helps helps replenish your minerals and [[vitamins]].\np: Okay.\nd: Um, and if you are having ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "b vitamins",
+    "semtypes": [
+      "T121",
+      "T127"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...helps helps replenish your minerals and [[vitamins]].\np: Okay.\nd: Um, and if you are having ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "k vitamins",
+    "semtypes": [
+      "T109",
+      "T121",
+      "T127"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...helps helps replenish your minerals and [[vitamins]].\np: Okay.\nd: Um, and if you are having ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "d vitamins",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...helps helps replenish your minerals and [[vitamins]].\np: Okay.\nd: Um, and if you are having ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "vitamins",
+    "semtypes": [
+      "T109",
+      "T121",
+      "T127"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...helps helps replenish your minerals and [[vitamins]].\np: Okay.\nd: Um, and if you are having ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "vomited",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ng at all?\np: Uh, no.\np: Yeah, so um, I [[vomited]] at the start of the symptoms but now um..."
+    ],
+    "label": true
+  },
+  {
+    "term": "nothing",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ... I've, yeah, been, uh, eating normally. [[Nothing]] unusual here.\nd: Okay.\nd: Do you rememb..."
+    ],
+    "label": false
+  },
+  {
+    "term": "control",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ah, use an inhaler, and uh that's under [[control]].\nd: Fine. And you don't have any other ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "liquid",
+    "semtypes": [
+      "T061"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... light foods. Like smoothies and, yeah, [[liquid]] foods mainly.\nd: Okay. Fine. Um, and si..."
+    ],
+    "label": true
+  },
+  {
+    "term": "liquid",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... light foods. Like smoothies and, yeah, [[liquid]] foods mainly.\nd: Okay. Fine. Um, and si..."
+    ],
+    "label": true
+  },
+  {
+    "term": "little",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...tioned you had this Chinese takeaway as [[little]] as three days ago and I wondered whethe..."
+    ],
+    "label": false
+  },
+  {
+    "term": "sample",
+    "semtypes": [
+      "T031"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ed to do further tests like um taking a [[sample]] of your stool so we can test that.\np: \n..."
+    ],
+    "label": true
+  },
+  {
+    "term": "sampled",
+    "semtypes": [
+      "T060"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ed to do further tests like um taking a [[sample]] of your stool so we can test that.\np: \n..."
+    ],
+    "label": false
+  },
+  {
+    "term": "lower",
+    "semtypes": [
+      "T029"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ten, uh and like some pain in my, like, [[lower]] stomach?\nd: \nd: Okay. And how many time..."
+    ],
+    "label": false
+  },
+  {
+    "term": "maybe",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...ple towards your back?\np: Uh...no, just [[maybe]] my stomach.\nd: Okay, fine. And you ment..."
+    ],
+    "label": false
+  },
+  {
+    "term": "light",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... Yep.\np: Um, just soups, and, uh, yeah, [[light]] foods. Like smoothies and, yeah, liquid..."
+    ],
+    "label": false
+  },
+  {
+    "term": "blight",
+    "semtypes": [
+      "T047"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... Yep.\np: Um, just soups, and, uh, yeah, [[light]] foods. Like smoothies and, yeah, liquid..."
+    ],
+    "label": false
+  },
+  {
+    "term": "slight",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... Yep.\np: Um, just soups, and, uh, yeah, [[light]] foods. Like smoothies and, yeah, liquid..."
+    ],
+    "label": false
+  },
+  {
+    "term": "recap",
+    "semtypes": [
+      "T116",
+      "T121",
+      "T126"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...our story, sir, I think uh, um, just to [[recap]] for the last three days you've been hav..."
+    ],
+    "label": false
+  },
+  {
+    "term": "tests",
+    "semtypes": [
+      "T059"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...p.\nd: Uh, and we may need to do further [[tests]] like um taking a sample of your stool s..."
+    ],
+    "label": false
+  },
+  {
+    "term": "etests",
+    "semtypes": [
+      "T059"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...p.\nd: Uh, and we may need to do further [[tests]] like um taking a sample of your stool s..."
+    ],
+    "label": false
+  },
+  {
+    "term": "move",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...and goes.\nd: Come and go. Does the pain [[move]] anywhere else, for example towards your..."
+    ],
+    "label": false
+  },
+  {
+    "term": "move",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...and goes.\nd: Come and go. Does the pain [[move]] anywhere else, for example towards your..."
+    ],
+    "label": false
+  },
+  {
+    "term": "nice",
+    "semtypes": [
+      "T109",
+      "T195"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] .... And was your vomit, I know it's not a [[nice]] thing to talk about, but was it just no..."
+    ],
+    "label": false
+  },
+  {
+    "term": "talk",
+    "semtypes": [
+      "T040"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ... vomit, I know it's not a nice thing to [[talk]] about, but was it just normal food colo..."
+    ],
+    "label": false
+  },
+  {
+    "term": "talk",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": true,
+    "example_contexts": [
+      "[transcript] ... vomit, I know it's not a nice thing to [[talk]] about, but was it just normal food colo..."
+    ],
+    "label": false
+  },
+  {
+    "term": "food",
+    "semtypes": [
+      "T121",
+      "T129"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...g to talk about, but was it just normal [[food]] colour Yeah. And there was no blood in ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "mind",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...miting, uh, anything else that comes to [[mind]]?\np: Yep. Um, I had a loss of appetite, ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "able",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...en't been eating as much, but I've been [[able]] to hold down fluids.\nd: Okay.\nd: Okay, ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "keen",
+    "semtypes": [
+      "T041"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ... off work, actually I know you're quite [[keen]] to work but I would say the next two, t..."
+    ],
+    "label": false
+  },
+  {
+    "term": "test",
+    "semtypes": [
+      "T034"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...taking a sample of your stool so we can [[test]] that.\np: \nd: Um, etcetera etcetera.\np: ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "test",
+    "semtypes": [
+      "T029"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...taking a sample of your stool so we can [[test]] that.\np: \nd: Um, etcetera etcetera.\np: ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "test",
+    "semtypes": [
+      "T059"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...taking a sample of your stool so we can [[test]] that.\np: \nd: Um, etcetera etcetera.\np: ..."
+    ],
+    "label": false
+  },
+  {
+    "term": "mexamine",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...er normally at this stage I like to um, [[examine]] you if that's okay, but um, um, but but..."
+    ],
+    "label": false
+  },
+  {
+    "term": "hexamine",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...er normally at this stage I like to um, [[examine]] you if that's okay, but um, um, but but..."
+    ],
+    "label": false
+  },
+  {
+    "term": "examined",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...er normally at this stage I like to um, [[examine]] you if that's okay, but um, um, but but..."
+    ],
+    "label": false
+  },
+  {
+    "term": "not currently working",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...Okay.\nd: Yeah.\nd: And have you, are you [[currently working]] at the moment? \np: Uh, yes, yeah. I I w..."
+    ],
+    "label": true
+  },
+  {
+    "term": "therex",
+    "semtypes": [
+      "T121"
+    ],
+    "count_transcript": 1,
+    "count_soap_note": 0,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[transcript] ...omiting, but they haven't got diarrhea. [[There]]'s no one with the same symptoms.\nd: Oka..."
+    ],
+    "label": false
+  },
+  {
+    "term": "llq pain",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...tool. Opening bowels x6/day. Associated [[LLQ pain]] - crampy, intermittent, nil radiation. ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "feverish",
+    "semtypes": [
+      "T184"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...ent - rest, push fluids, paracetamol if [[feverish]]. Recommend OTC diarolyte. To review in ..."
+    ],
+    "label": true
+  },
+  {
+    "term": "bowels",
+    "semtypes": [
+      "T023"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...inly watery. No blood in stool. Opening [[bowels]] x6/day. Associated LLQ pain - crampy, i..."
+    ],
+    "label": true
+  },
+  {
+    "term": "lives",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...H: Inhalers\nSH: works as an accountant. [[Lives]] with wife and children. Affecting his A..."
+    ],
+    "label": true
+  },
+  {
+    "term": "etoh",
+    "semtypes": [
+      "T109",
+      "T121"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...s to be near toilet often. \nNil smoking/[[etOH]] hx\n\nImp: gastroenteritis \n\nPlan:\nConser..."
+    ],
+    "label": true
+  },
+  {
+    "term": "intermittency",
+    "semtypes": [
+      "T033"
+    ],
+    "count_transcript": 0,
+    "count_soap_note": 1,
+    "currently_denylisted": false,
+    "example_contexts": [
+      "[soap_note] ...s x6/day. Associated LLQ pain - crampy, [[intermittent]], nil radiation.  Also vomiting - mainly..."
+    ],
+    "label": true
+  }
+]

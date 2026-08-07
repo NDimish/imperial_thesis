@@ -1,0 +1,18 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"No discharge/ fever/ itchiness/ pain\nDoesn't use cotton wool buds\nNo Pmhx of note\nEx: Looks well, not in pain.\" to \"No discharge/ fever/ itchiness/ pain\nDoesn't use cotton wool buds\nNo Pmhx of note\nEx: Looks well, in pain.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 24: \"Imp: ?\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "\"Imp\" was swapped for \"Pmhx\" (from note 24)"
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 18: \"Slight tinnitus at times in this period- not continuous\nNumbness and difficulty hearing present now \nPmhx: labyrinthitis, heart burn, nasal polyps\nDH: Rennies PRN OTC, nasal spray PRN (pt not sure of name)\nAllergies: latex allergy\nNo FH of note\nEx: no facial asymmetry, looks well, normal facial expressions and movements\nImp: ?\""
+  }
+]

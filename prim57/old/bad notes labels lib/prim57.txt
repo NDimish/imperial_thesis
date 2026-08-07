@@ -1,10 +1,10 @@
 [
   {
     "type": "hallucination",
-    "detail": "inserted sentence from note 55: \"No nausea/vomiting.\""
+    "detail": "\"E&D\" was swapped for \"BP\" (from note 55)"
   },
   {
     "type": "hallucination",
-    "detail": "\"E&D\" was swapped for \"BP\" (from note 46)"
+    "detail": "\"Imp\" was swapped for \"a&e \n\n Pmh\" (from note 41)"
   }
 ]

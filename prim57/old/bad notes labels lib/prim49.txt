@@ -1,18 +1,10 @@
 [
   {
     "type": "hallucination",
-    "detail": "\"E&D\" was swapped for \"ORT\" (from note 51)"
+    "detail": "\"E&D\" was swapped for \"A&E\" (from note 51)"
   },
   {
     "type": "hallucination",
-    "detail": "inserted sentence from note 5: \"Some nausea, no vomiting\nFeeling hot and sweaty\nCurrently sexually active with regular partner.\""
-  },
-  {
-    "type": "omission",
-    "detail": "No vomiting / diarrhoea."
-  },
-  {
-    "type": "hallucination",
-    "detail": "inserted sentence from note 50: \"Will pick up from pharmacy.\""
+    "detail": "\"A&E\" was swapped for \"UTI\" (from note 5)"
   }
 ]

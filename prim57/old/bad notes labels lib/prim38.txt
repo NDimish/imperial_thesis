@@ -1,10 +1,6 @@
 [
   {
-    "type": "omission",
-    "detail": "DDx: PE\n\nPlan : Further examination and investigation in acute setting."
-  },
-  {
     "type": "hallucination",
-    "detail": "\"SOBAR\" was swapped for \"SOBOE\" (from note 36)"
+    "detail": "inserted sentence from note 36: \"SHx - lives with wife at home, able to walk up stairs until previously\n\nDDx - MI, PE, GORD\n\nPlan - called ambulance ??\""
   }
 ]

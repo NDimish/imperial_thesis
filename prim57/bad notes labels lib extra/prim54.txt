@@ -1,0 +1,14 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"Not exercising due to lack of energy\nLS: Aching shoulder/legs/back.\" to \"exercising due to lack of energy\nLS: Aching shoulder/legs/back.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"Can be worse when stands up not when bends over/cough/sneeze.\" to \"Can be worse when stands up when bends over/cough/sneeze.\""
+  },
+  {
+    "type": "omission",
+    "detail": "Occ alcohol."
+  }
+]

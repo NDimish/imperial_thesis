@@ -1,10 +1,14 @@
 [
   {
-    "type": "hallucination",
-    "detail": "inserted sentence from note 23: \"Recent foreign travel- returned from Vietnam, took malaria prevention daily- cant remember medication, present there for a few weeks, rural and urban tourism, trekking and cycling.\""
+    "type": "omission",
+    "detail": "If there is diarrhea more than 8 episodes, you may get dehydrated please book an appointment."
   },
   {
-    "type": "hallucination",
-    "detail": "inserted sentence from note 40: \"FHx : father has history of stomach Ca.\""
+    "type": "omission",
+    "detail": "Diarrhoea for 3 days \nAlso associated abdominal pain \nNo mucous, no blood \nVomiting once \nStill eating and drinking \nDiarrhea like water 4-5 times a day \nNo fever \nLoss od appetite \nDid not eat out \nNo foreign travel \nNo dehydration on examination \nPMH : asthma \nFH: Dad died of bowel cancer 10 years, HTN\nMedication ?"
+  },
+  {
+    "type": "omission",
+    "detail": "Start with crackers, soups and mash ."
   }
 ]

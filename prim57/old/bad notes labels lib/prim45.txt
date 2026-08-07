@@ -1,6 +1,6 @@
 [
   {
-    "type": "hallucination",
-    "detail": "inserted sentence from note 9: \"Brief episode of haematuria, now resolved.\""
+    "type": "omission",
+    "detail": "Shx - Non smoker."
   }
 ]

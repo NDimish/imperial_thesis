@@ -1,0 +1,18 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 1: \"Nil smoking/etOH hx\n\nImp: gastroenteritis \n\nPlan:\nConservative management - rest, push fluids, paracetamol if feverish.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"3\" to \"30\" in \"OTC diarolyte \n30.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"2\" to \"20\" in \"Push fluids \n20.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"Feeling feverish, hot/cold\nNil urinary sx - passing less urine .\" to \"Feeling feverish, hot/cold urinary sx - passing less urine .\""
+  }
+]

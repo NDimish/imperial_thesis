@@ -1,0 +1,14 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "moderate",
+    "detail_type": "inserted sentence",
+    "detail": "No tingling/numbness/weakness/rash."
+  },
+  {
+    "type": "hallucination",
+    "severity": "low",
+    "detail_type": "entity swap",
+    "detail": "E&D last checked 1 yr ago was normal."
+  }
+]

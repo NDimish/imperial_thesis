@@ -1,0 +1,76 @@
+{
+  "module": "AlignScore_sweep",
+  "records": [
+    {
+      "filename": "prim1.txt",
+      "run": 1,
+      "tp": 3,
+      "fp": 72,
+      "fn": 0,
+      "elapsed": 0,
+      "precision": 0.04,
+      "recall": 1.0,
+      "f1": 0.07692307692307693,
+      "accuracy": 0.04
+    },
+    {
+      "filename": "prim10.txt",
+      "run": 1,
+      "tp": 1,
+      "fp": 98,
+      "fn": 2,
+      "elapsed": 0,
+      "precision": 0.010101010101010102,
+      "recall": 0.3333333333333333,
+      "f1": 0.019607843137254905,
+      "accuracy": 0.009900990099009901
+    },
+    {
+      "filename": "prim11.txt",
+      "run": 1,
+      "tp": 2,
+      "fp": 130,
+      "fn": 0,
+      "elapsed": 0,
+      "precision": 0.015151515151515152,
+      "recall": 1.0,
+      "f1": 0.02985074626865672,
+      "accuracy": 0.015151515151515152
+    },
+    {
+      "filename": "prim12.txt",
+      "run": 1,
+      "tp": 2,
+      "fp": 78,
+      "fn": 0,
+      "elapsed": 0,
+      "precision": 0.025,
+      "recall": 1.0,
+      "f1": 0.04878048780487806,
+      "accuracy": 0.025
+    },
+    {
+      "filename": "prim13.txt",
+      "run": 1,
+      "tp": 1,
+      "fp": 121,
+      "fn": 1,
+      "elapsed": 0,
+      "precision": 0.00819672131147541,
+      "recall": 0.5,
+      "f1": 0.016129032258064516,
+      "accuracy": 0.008130081300813009
+    }
+  ],
+  "checkpoints": [
+    {
+      "run": 1,
+      "records_in_run": 5,
+      "avg_elapsed": 0.0,
+      "precision": 0.017716535433070866,
+      "recall": 0.75,
+      "f1": 0.03461538461538462,
+      "accuracy": 0.01761252446183953
+    }
+  ]
+}

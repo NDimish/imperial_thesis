@@ -1,0 +1,32 @@
+[
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "History : breathing difficulty for past 20 minutes after being bitten by wasp There is some blotching rash seen tingling feeling around your lips closing of the throat feeling no previous similar history Past medical history:\nEczema Allergic to penicillin\nPlan : advised to start on antihistamines straight away."
+  },
+  {
+    "type": "hallucination",
+    "severity": "critical",
+    "detail_type": "negation flip",
+    "detail": "History : breathing difficulty for past 20 minutes after being bitten by wasp There is some blotching rash seen tingling feeling around your lips closing of the throat feeling previous similar history Past medical history:\nEczema Allergic to penicillin\nPlan : advised to start on antihistamines straight away."
+  },
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "inserted sentence",
+    "detail": "WE will need to r/o more serious conditions like malaria, Dengue and meningitis"
+  },
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "inserted sentence",
+    "detail": "Worried about difficulty breathing and lip swelling, also localized rash\nNo PMHx of anaphylaxis, no use of epipen in past\nHas had anxiety in past- felt panicked now\nNo Fh of note\n SH: software engineer, has cat at home\nEx: Now: no lip swelling seen, speaking normally, no airways compromise."
+  },
+  {
+    "type": "hallucination",
+    "severity": "high",
+    "detail_type": "number edit",
+    "detail": "History : breathing difficulty for past 2 minutes after being bitten by wasp There is some blotching rash seen tingling feeling around your lips closing of the throat feeling previous similar history Past medical history:\nEczema Allergic to penicillin\nPlan : advised to start on antihistamines straight away."
+  }
+]

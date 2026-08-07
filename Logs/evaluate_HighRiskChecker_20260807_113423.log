@@ -1,0 +1,978 @@
+
+prim1.txt
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No blood in stool.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Associated LLQ pain - crampy, intermittent, nil radiation.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Associated LLQ pain - crampy, intermittent, nil radiation.
+  [FALSE] hallucination [critical/drug switch/plan]: Conservative management - rest, push fluids, paracetamol if feverish.
+  [FALSE] hallucination [critical/negation flip/subjective]: etoh: Nil smoking/etOH hx
+  [FN] omission [low/omitted detail]: Takeaway 4/7 ago - Chinese restaurant.
+  [FN] omission [low/omitted detail]: 3/7 hx of diarrhea, mainly watery.
+  [FN] hallucination [critical/negation flip]: blood in vomit.
+  [FN] hallucination [high/number edit]: Opening bowels x60/day.
+  [FN] omission [low/omitted detail]: Wife and children also unwell with vomiting, but no diarrhea.
+
+prim10.txt
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: 1/52 hx of dysuria, frequency and suprapubic pain.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: 1/52 hx of dysuria, frequency and suprapubic pain.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Noticed urine today was pink, nil frank haematuria.
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: Suprapubic pain on PU - aching pain, radiating Nil nausea/vomiting Nil fevers Nil new bowel sx Currently sexually active - long-term partner.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Suprapubic pain on PU - aching pain, radiating Nil nausea/vomiting Nil fevers Nil new bowel sx Currently sexually active - long-term partner.
+  [FALSE] hallucination [critical/drug switch/subjective]: DH: COCP, mebeverine
+  [TRUE] hallucination [critical/drug switch/plan]: Regular paracetamol for pain
+  [TRUE] hallucination [high/diagnosis mismatch/plan]: Nil neck stiffness.
+  [FALSE] hallucination [critical/negation flip/subjective]: today: Noticed urine today was pink, nil frank haematuria.
+  [FALSE] hallucination [critical/negation flip/subjective]: aching: Suprapubic pain on PU - aching pain, radiating Nil nausea/vomiting Nil fevers Nil new bowel sx Currently sexually active - long-term partner.
+  [FALSE] hallucination [critical/negation flip/subjective]: active: Suprapubic pain on PU - aching pain, radiating Nil nausea/vomiting Nil fevers Nil new bowel sx Currently sexually active - long-term partner.
+  [FALSE] hallucination [critical/negation flip/subjective]: discharge: Nil PV discharge.
+  [FALSE] hallucination [critical/negation flip/plan]: pain: Regular paracetamol for pain
+  FN - none
+
+prim11.txt
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Feeling feverish, hot/cold
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Feeling feverish, hot/cold
+  [FALSE] hallucination [critical/negation flip/assessment]: gastroenteritis: Imp: gastroenteritis
+  [FN] omission [low/omitted detail]: Feels nauseous, has vomited occasionally.
+
+prim12.txt
+  [FALSE] hallucination [critical/drug switch/subjective]: DH: salbutamol PRN
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: mother - diabetes Type 2
+  [FALSE] hallucination [critical/negation flip/subjective]: fever: No fever/temp
+  [FALSE] hallucination [critical/negation flip/subjective]: headaches: No headaches/muscle pain.
+  [FALSE] hallucination [critical/negation flip/subjective]: etoh: Nil smoking, social EtOH
+  [FALSE] hallucination [critical/negation flip/assessment]: gastroenteritis: Imp: gastroenteritis
+  [FN] omission [low/omitted detail]: Has now developed diarrhea - 5-6x/day.
+
+prim13.txt
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Constant, severity 8/10, dull ache with associated sharp pain, gradual onset.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Constant, severity 8/10, dull ache with associated sharp pain, gradual onset.
+  [FALSE] hallucination [critical/drug switch/subjective]: Has tried ibuprofen with limited relief.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Visual aura prior to headaches.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Some photophobia.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No neck pain/stiffness
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No neck pain/stiffness
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: ICE: ?related to stress/dehydration.
+  [FALSE] hallucination [critical/drug switch/plan]: Paracetamol/NSAIDs regular
+  [FALSE] hallucination [critical/negation flip/subjective]: migraines: Imp: migraines
+  [FN] hallucination [moderate/inserted sentence]: Feeling stressed ++.
+  [FN] hallucination [moderate/inserted sentence]: No mood sx.
+
+prim14.txt
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Runny nose, no ear pain, no sore throat.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No SOB/chest pain
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Feeling tired, weak and myalgia.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No nausea/vomiting
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: now resolved Nil urinary symptoms
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No rashes PMH: Type 2 diabetes, HTN
+  [FALSE] hallucination [critical/negation flip/subjective]: sore throat: Runny nose, no ear pain, no sore throat.
+  [FALSE] hallucination [critical/negation flip/subjective]: diarrhea: Initial diarrhea
+  [FALSE] hallucination [critical/negation flip/subjective]: rashes: No rashes PMH: Type 2 diabetes, HTN
+  [FALSE] hallucination [critical/negation flip/subjective]: stress: FH: Father - type 2 diabetes SH: lives with partner, works IT, reports stress.
+  [FN] hallucination [critical/number edit]: Social EtOH <140 units/week
+
+Imp: viral URTI 
+
+Plan:
+1.
+
+prim15.txt
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: Dry cough, keeps pt up at night.
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: No pain Works as a cleaner and does always wear gloves - possible trigger
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No fever
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Appetite maintained PMH: Type 2 diabetes
+  [TRUE] hallucination [critical/drug switch/subjective]: Has tried E85 cream and antihistamines with minimal relief
+  [FALSE] hallucination [critical/drug switch/subjective]: Has tried E85 cream and antihistamines with minimal relief
+  [FALSE] hallucination [critical/negation flip/subjective]: metformin: DH: metformin NKDA
+  FN - none
+
+prim16.txt
+  [TRUE] hallucination [critical/drug switch/subjective]: discharge/ fever/ itchiness/ pain Doesn't use cotton wool buds No Pmhx of note Ex: Looks well, in pain.
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: Pln: for face to face Bell appointment in 50 days to examine ear
+  [FALSE] hallucination [critical/negation flip/subjective]: dizziness: Hx of difficulty hearing left ear for 60 weeks with tinnitus and slight nausea/ dizziness.
+  [FALSE] hallucination [critical/negation flip/subjective]: impacted: Imp: need to exclude impacted wax in ear canal first
+  [FN] hallucination [high/number edit]: Imp: need to exclude impacted wax in ear canal first
+Pln: for face to face GP appointment in 50 days to examine ear
+Pt to read about tinnitus in the meantime via following link: www.patient.co.uk/tinnitus
+If any problems in interim to ring us back
+Pt happy with and understands plan
+  [FN] hallucination [critical/negation flip]: discharge/ fever/ itchiness/ pain Doesn't use cotton wool buds No Pmhx of note Ex: Looks well, in pain.
+  [FN] hallucination [high/number edit]: History: 
+ Hx of difficulty hearing left ear for 60 weeks with tinnitus and slight nausea/ dizziness.
+
+prim17.txt
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Hx: 1 week history of spontaneous elbow swelling left.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Mild erythema and minimal swelling (if any) around olecranon process left elbow
+  [FALSE] hallucination [critical/negation flip/assessment]: bursitis: Imp: possible bursitis
+  [FALSE] hallucination [critical/allergy mismatch/subjective]: DH: not on any medication, allergic to peanuts
+  [FN] hallucination [critical/negation flip]: painful.
+
+prim18.txt
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: Hx: 1 week history of left side difficulty hearing and facial numbness dysphagia, dysarthria, no unilateral weakness / numbness in the rest of the body, no visual disturbances No ear pain, ear discharge, fever, itchiness or cotton bud use.
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: Slight tinnitus at times in this period- continuous HTN
+  [FALSE] hallucination [critical/negation flip/subjective]: dysphagia: Hx: 1 week history of left side difficulty hearing and facial numbness dysphagia, dysarthria, no unilateral weakness / numbness in the rest of the body, no visual disturbances No ear pain, ear discharge, fever, itchiness or cotton bud use.
+  [FALSE] hallucination [critical/negation flip/subjective]: cotton: Hx: 1 week history of left side difficulty hearing and facial numbness dysphagia, dysarthria, no unilateral weakness / numbness in the rest of the body, no visual disturbances No ear pain, ear discharge, fever, itchiness or cotton bud use.
+  [FN] hallucination [low/entity swap]: GP's Palsy- need to rule out any other focal neurology 
+ Plan: for face to face review today for neurological examination and ear examination 
+ Pt to ring support line for GP F2f slot 
+ Pt understands and is happy with plan
+  [FN] hallucination [critical/negation flip]: Slight tinnitus at times in this period- continuous Numbness and difficulty hearing present now Pmhx: labyrinthitis, heart burn, nasal polyps DH: Rennies PRN OTC, nasal spray PRN (pt not sure of name) Allergies: latex allergy No FH of note Ex: no facial asymmetry, looks well, normal facial expressions and movements Imp: ?
+
+prim19.txt
+  [TRUE] hallucination [high/diagnosis mismatch/assessment]: Imp: probable LRTI, possibly secondary to immunosuppression
+  [FALSE] hallucination [high/diagnosis mismatch/assessment]: Imp: probable LRTI, possibly secondary to immunosuppression
+  [FALSE] hallucination [high/diagnosis mismatch/assessment]: Imp: probable LRTI, possibly secondary to immunosuppression
+  [FN] hallucination [high/inserted sentence]: Avoid cough syrup but can take if unable to sleep at night.
+  [FN] omission [low/omitted detail]: 1 day hx of SOB, slight pleuritic pain (right side), feeling warm (not measured temperature), 2 episodes haemoptysis and palpitations.
+  [FN] omission [critical/omitted detail]: Avoid cough syrup but can take if unable to sleep at night.
+
+prim2.txt
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Systemically well otherwise - no fevers, no vomiting, no SOB/cough.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Systemically well otherwise - no fevers, no vomiting, no SOB/cough.
+  [FALSE] hallucination [critical/drug switch/plan]: - Betnovate BD
+  [FALSE] hallucination [critical/negation flip/subjective]: discharge: No bleeding or discharge.
+  [FALSE] hallucination [critical/negation flip/subjective]: fevers: Systemically well otherwise - no fevers, no vomiting, no SOB/cough.
+  [FN] omission [critical/omitted detail]: Pt has also tried antihistamines.
+  [FN] hallucination [moderate/inserted sentence]: No spread elsewhere.
+  [FN] omission [low/omitted detail]: Emollients - cetraben - use up to QDS
+3.
+
+prim20.txt
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: no dysphagia, no dysphasia
+  [TRUE] hallucination [high/diagnosis mismatch/assessment]: Imp: TIAs- despite young age (need to exclude any systemic disease, eg antiphospholipid syndrome, that could be cause)
+  [FALSE] hallucination [high/diagnosis mismatch/assessment]: Imp: TIAs- despite young age (need to exclude any systemic disease, eg antiphospholipid syndrome, that could be cause)
+  [FALSE] hallucination [critical/negation flip/subjective]: dysphagia: no dysphagia, no dysphasia
+  [FALSE] hallucination [critical/negation flip/subjective]: aspirin: DH PT IS TAKING Aspirin daily on his own accord due to his FH
+  [FN] hallucination [critical/negation flip]: Pt to contact them via PALS/ clinic to ensure f/u
+If any prolonged symptoms occur- to attend A/E
+  [FN] hallucination [high/inserted sentence]: Pt has taken paracetamol- not helped
+Pmhx: nil, has not had BP checked
+FH: mother has anxiety
+DH: sertraline
+Nkda
+SH: live with partner
+Non smoker
+Hss cat
+Good exercise, reasonable diet
+Imp: tension type headache +/- migraine
+Plan: for ibuprofen first line as per SIGN 2018 migraine guidelines
+1.5-2 litres water hydration daily
+ To sleep 7-8 hours minimum daily
+Consider time off- to self certify for a few days to see if this helps
+Self referral to IAPTs
+Review in a week
+If any red flag symptoms as per www.patient.co.uk/ headache, to ring back sooner
+Patient understands and is happy with plan
+  [FN] omission [critical/omitted detail]: Pt to contact them via PALS/ clinic to ensure f/u
+If any prolonged symptoms occur- to attend A/E Pt has taken paracetamol- not helped
+Pmhx: nil, has not had BP checked
+FH: mother has anxiety
+DH: sertraline
+Nkda
+SH: live with partner
+Non smoker
+Hss cat
+Good exercise, reasonable diet
+Imp: tension type headache +/- migraine
+Plan: for ibuprofen first line as per SIGN 2018 migraine guidelines
+1.5-2 litres water hydration daily
+ To sleep 7-8 hours minimum daily
+Consider time off- to self certify for a few days to see if this helps
+Self referral to IAPTs
+Review in a week
+If any red flag symptoms as per www.patient.co.uk/ headache, to ring back sooner
+Patient understands and is happy with plan Imp: ?
+
+prim21.txt
+  [FALSE] hallucination [critical/diagnosis mismatch/assessment]: Imp: localized inflammatory reaction to insect bite, no evidence of acute anaphylactic reaction or cellulitis
+  [FALSE] hallucination [critical/diagnosis mismatch/assessment]: Imp: localized inflammatory reaction to insect bite, no evidence of acute anaphylactic reaction or cellulitis
+  [TRUE] hallucination [high/diagnosis mismatch/plan]: Worried about difficulty breathing and lip swelling, also localized rash
+  [FALSE] hallucination [critical/negation flip/subjective]: rash: No rash seen on arm
+  [FALSE] hallucination [critical/negation flip/plan]: difficulty breathing: Worried about difficulty breathing and lip swelling, also localized rash
+  [FALSE] hallucination [critical/allergy mismatch/plan]: No need for allergy testing on a one-off episode
+  [FN] hallucination [critical/negation flip]: Worried about difficulty breathing and lip swelling, also localized rash PMHx of anaphylaxis, use of epipen in past
+Has had anxiety in past- felt panicked now
+No Fh of note SH: software engineer, has cat at home
+Ex: Now: no lip swelling seen, speaking normally, no airways compromise.
+  [FN] omission [critical/omitted detail]: Worried about difficulty breathing and lip swelling, also localized rash PMHx of anaphylaxis, use of epipen in past
+Has had anxiety in past- felt panicked now
+No Fh of note SH: software engineer, has cat at home
+Ex: Now: no lip swelling seen, speaking normally, no airways compromise.
+
+prim22.txt
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: No discolouration in hand, arm doesn't feel cold
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Tingling present on left side of face over the same period (1 hour)
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Difficulty swallowing water- dribbled water
+  [FALSE] hallucination [critical/drug switch/subjective]: Difficulty swallowing water- dribbled water
+  [FALSE] hallucination [critical/drug switch/subjective]: DH: metformin, losartan, amlodipine
+  [FALSE] hallucination [critical/drug switch/subjective]: DH: metformin, losartan, amlodipine
+  [FALSE] hallucination [critical/drug switch/subjective]: DH: metformin, losartan, amlodipine
+  [FALSE] hallucination [critical/drug switch/subjective]: Allergic to penicillin
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: FH: father hs ‘heart disease
+  [TRUE] hallucination [critical/drug switch/subjective]: Recent foreign travel- returned from Vietnam, took malaria prevention daily- cant remember medication, present there for a few weeks, rural and urban tourism, trekking and cycling.
+  [FALSE] hallucination [critical/drug switch/subjective]: Recent foreign travel- returned from Vietnam, took malaria prevention daily- cant remember medication, present there for a few weeks, rural and urban tourism, trekking and cycling.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Onset of chest pain earlier today during gardening (mild physical exertion)
+  [FALSE] hallucination [critical/negation flip/subjective]: today: Onset of chest pain earlier today during gardening (mild physical exertion)
+  [FALSE] hallucination [critical/allergy mismatch/subjective]: Allergic to penicillin
+  [FALSE] hallucination [critical/allergy mismatch/subjective]: DH: (mild) allergy to aspirin
+  FN - none
+
+prim23.txt
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Hx of fever for a week with associated sweatiness, body / muscle aches, nausea, fatigue, night sweats, hot / cold episodes
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Hx of fever for a week with associated sweatiness, body / muscle aches, nausea, fatigue, night sweats, hot / cold episodes
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No cough, sore throat, runny nose, ear pain.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No cough, sore throat, runny nose, ear pain.
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: WE will need to r/o more serious conditions like malaria, Dengue and meningitis Recent foreign travel- returned from Vietnam, took malaria prevention daily- ca nt remember medication, present there for a few weeks, rural and urban tourism, trekking and cycling.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: WE will need to r/o more serious conditions like malaria, Dengue and meningitis Recent foreign travel- returned from Vietnam, took malaria prevention daily- ca nt remember medication, present there for a few weeks, rural and urban tourism, trekking and cycling.
+  [FALSE] hallucination [critical/drug switch/subjective]: WE will need to r/o more serious conditions like malaria, Dengue and meningitis Recent foreign travel- returned from Vietnam, took malaria prevention daily- ca nt remember medication, present there for a few weeks, rural and urban tourism, trekking and cycling.
+  [TRUE] hallucination [critical/drug switch/subjective]: DH: on cerazette
+  [FALSE] hallucination [critical/negation flip/subjective]: cough: No cough, sore throat, runny nose, ear pain.
+  [TRUE] hallucination [critical/negation flip/subjective]: diarrhea: diarrhea, no neck stiffness, no headache (no more than usual- normal headache on top of head through looking at screen).
+  [FALSE] hallucination [critical/negation flip/subjective]: headache: diarrhea, no neck stiffness, no headache (no more than usual- normal headache on top of head through looking at screen).
+  [FALSE] hallucination [critical/negation flip/subjective]: back pain: No rash, no joint swelling (ongoing back pain), no dysuria or frequency.
+  [FALSE] hallucination [critical/negation flip/subjective]: dysuria: No rash, no joint swelling (ongoing back pain), no dysuria or frequency.
+  [FALSE] hallucination [critical/negation flip/assessment]: malaria: Imp: PUO, need to exclude malaria
+  [FN] hallucination [high/number edit]: muscular/ posture 
+ Fh: father has MI at age 68 
+ DH: on cerazette 
+ Nil allergies, hayfever 
+ SH: works as a nurse, UTD with hep B etc, non smoker, moderate alcohol intake, moderate physical exercise 
+ Imp: PUO, need to exclude malaria 
+ Plan: for f20f appointment with SOB today 
+ Thereafter, for blood tests including crp, esr, thick and thin blood films (possibly routine, possibly via a / e- depending on second GP's assessment)
+  [FN] omission [low/omitted detail]: Pmhx: nil of note, back pain- under physiotherapy, working diagnosis?
+
+prim24.txt
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: Hx: episodes of unilateral right hand numbness/ pins and needles, with some right leg weakness and noticeable gait disturbances, ongoing for 1.5 months
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Hx: episodes of unilateral right hand numbness/ pins and needles, with some right leg weakness and noticeable gait disturbances, ongoing for 1.5 months
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: no dysphagia, no dysphasia
+  [FALSE] hallucination [critical/drug switch/subjective]: DH PT IS TAKING Aspirin daily on his own accord due to his FH
+  [FALSE] hallucination [high/diagnosis mismatch/assessment]: Imp: TIAs- despite young age (need to exclude any systemic disease, eg antiphospholipid syndrome, that could be cause)
+  [FALSE] hallucination [high/diagnosis mismatch/assessment]: Imp: TIAs- despite young age (need to exclude any systemic disease, eg antiphospholipid syndrome, that could be cause)
+  [TRUE] hallucination [critical/diagnosis mismatch/plan]: still can't move it No previous similar episodes Slept as per normal last night No discolouration in hand, arm doesn't feel cold Symptoms limited to left arm, in left leg Tingling present on left side of face over the same period (1 hour) Patient has not noticed any facial asymmetry Difficulty swallowing water- dribbled water Speech seems ‘ harder' or ‘ slow' No-one at home with patient CVA-: T2 dm, HTN DH: metformin, losartan, amlodipine Allergic to penicillin FH: father hs ‘ heart disease' SH: lives alone, ex smoker, mild- moderate alcohol intake.
+  [FALSE] hallucination [critical/drug switch/plan]: still can't move it No previous similar episodes Slept as per normal last night No discolouration in hand, arm doesn't feel cold Symptoms limited to left arm, in left leg Tingling present on left side of face over the same period (1 hour) Patient has not noticed any facial asymmetry Difficulty swallowing water- dribbled water Speech seems ‘ harder' or ‘ slow' No-one at home with patient CVA-: T2 dm, HTN DH: metformin, losartan, amlodipine Allergic to penicillin FH: father hs ‘ heart disease' SH: lives alone, ex smoker, mild- moderate alcohol intake.
+  [FALSE] hallucination [critical/drug switch/plan]: still can't move it No previous similar episodes Slept as per normal last night No discolouration in hand, arm doesn't feel cold Symptoms limited to left arm, in left leg Tingling present on left side of face over the same period (1 hour) Patient has not noticed any facial asymmetry Difficulty swallowing water- dribbled water Speech seems ‘ harder' or ‘ slow' No-one at home with patient CVA-: T2 dm, HTN DH: metformin, losartan, amlodipine Allergic to penicillin FH: father hs ‘ heart disease' SH: lives alone, ex smoker, mild- moderate alcohol intake.
+  [FALSE] hallucination [critical/drug switch/plan]: still can't move it No previous similar episodes Slept as per normal last night No discolouration in hand, arm doesn't feel cold Symptoms limited to left arm, in left leg Tingling present on left side of face over the same period (1 hour) Patient has not noticed any facial asymmetry Difficulty swallowing water- dribbled water Speech seems ‘ harder' or ‘ slow' No-one at home with patient CVA-: T2 dm, HTN DH: metformin, losartan, amlodipine Allergic to penicillin FH: father hs ‘ heart disease' SH: lives alone, ex smoker, mild- moderate alcohol intake.
+  [FALSE] hallucination [critical/negation flip/plan]: dysphagia: still can't move it No previous similar episodes Slept as per normal last night No discolouration in hand, arm doesn't feel cold Symptoms limited to left arm, in left leg Tingling present on left side of face over the same period (1 hour) Patient has not noticed any facial asymmetry Difficulty swallowing water- dribbled water Speech seems ‘ harder' or ‘ slow' No-one at home with patient CVA-: T2 dm, HTN DH: metformin, losartan, amlodipine Allergic to penicillin FH: father hs ‘ heart disease' SH: lives alone, ex smoker, mild- moderate alcohol intake.
+  [FALSE] hallucination [critical/negation flip/plan]: tingling: still can't move it No previous similar episodes Slept as per normal last night No discolouration in hand, arm doesn't feel cold Symptoms limited to left arm, in left leg Tingling present on left side of face over the same period (1 hour) Patient has not noticed any facial asymmetry Difficulty swallowing water- dribbled water Speech seems ‘ harder' or ‘ slow' No-one at home with patient CVA-: T2 dm, HTN DH: metformin, losartan, amlodipine Allergic to penicillin FH: father hs ‘ heart disease' SH: lives alone, ex smoker, mild- moderate alcohol intake.
+  [FALSE] hallucination [critical/negation flip/plan]: metformin: still can't move it No previous similar episodes Slept as per normal last night No discolouration in hand, arm doesn't feel cold Symptoms limited to left arm, in left leg Tingling present on left side of face over the same period (1 hour) Patient has not noticed any facial asymmetry Difficulty swallowing water- dribbled water Speech seems ‘ harder' or ‘ slow' No-one at home with patient CVA-: T2 dm, HTN DH: metformin, losartan, amlodipine Allergic to penicillin FH: father hs ‘ heart disease' SH: lives alone, ex smoker, mild- moderate alcohol intake.
+  [FALSE] hallucination [critical/negation flip/plan]: penicillin: still can't move it No previous similar episodes Slept as per normal last night No discolouration in hand, arm doesn't feel cold Symptoms limited to left arm, in left leg Tingling present on left side of face over the same period (1 hour) Patient has not noticed any facial asymmetry Difficulty swallowing water- dribbled water Speech seems ‘ harder' or ‘ slow' No-one at home with patient CVA-: T2 dm, HTN DH: metformin, losartan, amlodipine Allergic to penicillin FH: father hs ‘ heart disease' SH: lives alone, ex smoker, mild- moderate alcohol intake.
+  [FALSE] hallucination [critical/negation flip/plan]: heart disease: still can't move it No previous similar episodes Slept as per normal last night No discolouration in hand, arm doesn't feel cold Symptoms limited to left arm, in left leg Tingling present on left side of face over the same period (1 hour) Patient has not noticed any facial asymmetry Difficulty swallowing water- dribbled water Speech seems ‘ harder' or ‘ slow' No-one at home with patient CVA-: T2 dm, HTN DH: metformin, losartan, amlodipine Allergic to penicillin FH: father hs ‘ heart disease' SH: lives alone, ex smoker, mild- moderate alcohol intake.
+  [FALSE] hallucination [critical/negation flip/plan]: alcohol: still can't move it No previous similar episodes Slept as per normal last night No discolouration in hand, arm doesn't feel cold Symptoms limited to left arm, in left leg Tingling present on left side of face over the same period (1 hour) Patient has not noticed any facial asymmetry Difficulty swallowing water- dribbled water Speech seems ‘ harder' or ‘ slow' No-one at home with patient CVA-: T2 dm, HTN DH: metformin, losartan, amlodipine Allergic to penicillin FH: father hs ‘ heart disease' SH: lives alone, ex smoker, mild- moderate alcohol intake.
+  [FN] hallucination [low/entity swap]: Hx: Difficulty moving left arm, occurred upon waking this morning 
+ Feels no pain, but still can't move it 
+ No previous similar episodes 
+ Slept as per normal last night 
+ No discolouration in hand, arm doesn't feel cold 
+ Symptoms limited to left arm, not in left leg 
+ Tingling present on left side of face over the same period (1 hour) 
+ Patient has not noticed any facial asymmetry 
+ Difficulty swallowing water- dribbled water 
+ Speech seems ‘ harder' or ‘ slow' 
+ No-one at home with patient 
+ CVA-: T2 dm, HTN 
+ DH: metformin, losartan, amlodipine 
+ Allergic to penicillin 
+ FH: father hs ‘ heart disease' 
+ SH: lives alone, ex smoker, mild- moderate alcohol intake.
+  [FN] hallucination [low/entity swap]: Pmhx blue light, pt to keep front door open, will stay on line till LAS arrives and hand over.
+
+prim25.txt
+  [FALSE] hallucination [critical/negation flip/subjective]: sertraline: DH: sertraline
+  [FN] omission [high/omitted detail]: Hx: Has had headache upon waking from this morning on left side  head- pain woke pt up at 530am
+Headache still present now
+ Has had hx of headaches less severe and in front of the head in past
+No neck stiffness, no fever
+Some sensitivity to bright lights now, no nausea now
+Felt dizzy this morning,  but not now
+No FH of migraines
+Work is stressful, late nights at work- ongoing for a few months.
+
+prim26.txt
+  [FALSE] hallucination [critical/drug switch/subjective]: After discharge from hospital please book a review with the doctor to consider prescribing an epipen
+  [FN] omission [critical/omitted detail]: History: you are having lip swelling for the past 1 hr
+It started after eating a prawn soup
+You initially had some weird feeling around your lips 
+The swelling started after half an hour 
+Now you are complaining of your throat closing 
+Your chest is tight at the moment with difficulty breathing 
+Examination : during the consultation, it looked like you were having some problems breathing and your lips appeared to be increasingly swelling
+Past medical history : you suffer from asthma 
+You have had an injection as a child for a peanut allergy 
+Medication: you are currently on salbutamol inhalers 
+Treatment: your Mom was around and I have advised that you use an antihistamine straight away.
+
+prim27.txt
+  [TRUE] hallucination [critical/drug switch/subjective]: muscular/ posture
+  [TRUE] hallucination [critical/drug switch/subjective]: DH: on cerazette allergies, hayfever
+  [FALSE] hallucination [critical/diagnosis mismatch/subjective]: DH: on cerazette allergies, hayfever
+  [FALSE] hallucination [critical/drug switch/subjective]: SH: works as a nurse, UTD with hep B etc, non smoker, moderate alcohol intake, moderate physical exercise
+  [FALSE] hallucination [critical/drug switch/assessment]: Imp: PUO, need to exclude malaria
+  [FALSE] hallucination [critical/drug switch/plan]: no relief You have just returned from Thailand a week ago and a friend of your is also unwell You have had mosquito bites You have a rash all over your body
+  [FALSE] hallucination [high/diagnosis mismatch/plan]: this disappears when a glass is placed ( blanching)
+  [FALSE] hallucination [high/diagnosis mismatch/plan]: There is no pain while you move your neck There is no pain while looking at the light There is no weakness of the muscles There is no pins and needles You do not have vomiting There is no no cough, cold or ear pain
+  [FALSE] hallucination [high/diagnosis mismatch/plan]: There is no bleeding spots over the skin You have some generalized muscle aches Past medical history None
+  [FALSE] hallucination [critical/negation flip/plan]: headache: Thereafter, for blood tests including crp, esr, thick and thin blood films (possibly routine, possibly via a/e- depending on second GP's assessment) You are having a headache for the past 4 days You have been taking paracetamol and ibuprofen
+  [FALSE] hallucination [critical/negation flip/plan]: rash: no relief You have just returned from Thailand a week ago and a friend of your is also unwell You have had mosquito bites You have a rash all over your body
+  [FALSE] hallucination [critical/negation flip/plan]: pain: There is no pain while you move your neck There is no pain while looking at the light There is no weakness of the muscles There is no pins and needles You do not have vomiting There is no no cough, cold or ear pain
+  [FALSE] hallucination [critical/negation flip/plan]: pins and needles: There is no pain while you move your neck There is no pain while looking at the light There is no weakness of the muscles There is no pins and needles You do not have vomiting There is no no cough, cold or ear pain
+  [FALSE] hallucination [critical/negation flip/plan]: cold: There is no pain while you move your neck There is no pain while looking at the light There is no weakness of the muscles There is no pins and needles You do not have vomiting There is no no cough, cold or ear pain
+  [FALSE] hallucination [critical/negation flip/plan]: muscle aches: There is no bleeding spots over the skin You have some generalized muscle aches Past medical history None
+  [FN] omission [critical/omitted detail]: WE will need to r/o more serious conditions like malaria, Dengue and meningitis
+
+prim28.txt
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: History : having lack of energy for the past 300 months
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: There is no vomiting
+  [FALSE] hallucination [critical/drug switch/plan]: This will look at aneamia, thyoids, liver, kidney and vitamin levels
+  [FALSE] hallucination [critical/negation flip/subjective]: chest pain: There is no chest pain
+  [FALSE] hallucination [critical/negation flip/subjective]: acid reflux: There is no history of acid reflux
+  [FALSE] hallucination [critical/negation flip/subjective]: thyroxine: Medications: you have not been using the thyroxine for a while since you changed practice .
+  [FN] hallucination [high/inserted sentence]: WE will need to r/o more serious conditions like malaria, Dengue and meningitis
+  [FN] hallucination [high/number edit]: History : having lack of energy for the past 300 months 
+You are also having loss of appetite 
+You are lacking motivation 
+You are complaining of breathlessness and some times associated with palpitations 
+There is no chest pain 
+You are not depressed or stressed 
+Your bowels are normal 
+You feel nauseous most of the time 
+There is no vomiting 
+You are also experiencing some weight loss in the past 60 months about a stone 
+There is no history of acid reflux 
+Past medical history: you suffer from underactive thyroid 
+Medications: you have not been using the thyroxine for a while since you changed practice .
+
+prim29.txt
+  [FALSE] hallucination [critical/negation flip/subjective]: hydrocortisone: You don't have any allergies Medication : you also use hydrocortisone and cetraban for eczema
+  [FALSE] hallucination [critical/negation flip/subjective]: eczema: You don't have any allergies Medication : you also use hydrocortisone and cetraban for eczema
+  [FN] hallucination [critical/negation flip]: your last asthma attack was 3 years ago You have never needed anitibiotics or steroids You have never been hospitalized because of your asthma Your normal peak flow reading is 380
+You don't have any allergies Medication : you also use hydrocortisone and cetraban for eczema
+Plan : you have been advised to increase you brown inhaler to 4 puffs twice daily and can use the blue inhalers upto every 2-4 hrs You will need your chest reviewed by a doctor in the next 2 days If you were to get increasingly breathless with the treatment that has been advised and seen a doctor yet, please go to A & E
+  [FN] omission [high/omitted detail]: History: Having breathlessness for 3-4 days 
+Having to use the blue inhalers twice a day 
+You normally use it only as and when 
+You are also on the clenil and taking it everyday 2 puff twice a day 
+You are having a cough but no sputum 
+There is some wheezing 
+Medical history : you had asthma since your childhood
+You suffer from eczema .
+  [FN] hallucination [high/number edit]: your last asthma attack was 3 years ago You have never needed anitibiotics or steroids You have never been hospitalized because of your asthma Your normal peak flow reading is 380
+You don't have any allergies Medication : you also use hydrocortisone and cetraban for eczema
+Plan : you have been advised to increase you brown inhaler to 4 puffs twice daily and can use the blue inhalers upto every 2-4 hrs You will need your chest reviewed by a doctor in the next 20 days If you were to get increasingly breathless with the treatment that has been advised and seen a doctor yet, please go to A & E
+  [FN] hallucination [high/number edit]: your last asthma attack was 3 years ago You have never needed anitibiotics or steroids You have never been hospitalized because of your asthma Your normal peak flow reading is 380
+You don't have any allergies Medication : you also use hydrocortisone and cetraban for eczema
+Plan : you have been advised to increase you brown inhaler to 4 puffs twice daily and can use the blue inhalers upto every 20-4 hrs You will need your chest reviewed by a doctor in the next 20 days If you were to get increasingly breathless with the treatment that has been advised and seen a doctor yet, please go to A & E
+
+prim3.txt
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Had visual aura before onset of headaches-zigzag lines in field of vision.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Also associated photophobia and blurred vision.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Nil neck stiffness.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No limb weakness or numbness
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No fever
+  [FALSE] hallucination [critical/drug switch/plan]: Regular paracetamol / NSAIDs
+  [FALSE] hallucination [critical/drug switch/plan]: Review in 1w to discuss prophylactic Rx, or earlier if worsening sx (headaches, vomiting, vision sx) or any concerns
+  [FALSE] hallucination [critical/negation flip/subjective]: brain ca: Pt worried about brain Ca.
+  [FALSE] hallucination [critical/negation flip/subjective]: etoh: Nil smoking / etOH hx
+  [FN] hallucination [low/entity swap]: Change UTI to POP 
+ 2.
+  [FN] hallucination [low/entity swap]: Nil smoking / etOH hx 
+
+  UTI: migraine 
+
+  Plan: 
+  1.
+
+prim30.txt
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: You are having a headache for the past 4 days
+  [TRUE] hallucination [critical/drug switch/subjective]: You have been taking paracetamol and ibuprofen
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: You have a rash all over your body
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: this disappears when a glass is placed ( blanching)
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: this disappears when a glass is placed ( blanching)
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: There is no pain while you move your neck
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: There is no pins and needles
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: You do not have vomiting
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: There is no bleeding spots over the skin
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: You have some generalized muscle aches
+  [FALSE] hallucination [high/diagnosis mismatch/plan]: No ear discharge or ear pain
+  [FALSE] hallucination [high/diagnosis mismatch/plan]: There is no weakness of the arms and legs
+  [FALSE] hallucination [critical/negation flip/plan]: ear pain: No ear discharge or ear pain
+  [FALSE] hallucination [critical/negation flip/plan]: illness: not been sick
+  [FN] hallucination [moderate/inserted sentence]: Safety netting: If you develop chest pain with the palpitations, change in bowel habits you will need to contact us urgently
+
+prim31.txt
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: History : breathing difficulty for past 2 minutes after being bitten by wasp There is some blotching rash seen tingling feeling around your lips closing of the throat feeling previous similar history Past medical history
+  [TRUE] hallucination [critical/diagnosis mismatch/plan]: It might be just urticaria ( Hives)Call the ambulance to r/o possible anaphylactic reaction WE will need to r/o more serious conditions like malaria, Dengue and meningitis Worried about difficulty breathing and lip swelling, also localized rash
+  [FALSE] hallucination [critical/drug switch/plan]: It might be just urticaria ( Hives)Call the ambulance to r/o possible anaphylactic reaction WE will need to r/o more serious conditions like malaria, Dengue and meningitis Worried about difficulty breathing and lip swelling, also localized rash
+  [FALSE] hallucination [critical/diagnosis mismatch/plan]: It might be just urticaria ( Hives)Call the ambulance to r/o possible anaphylactic reaction WE will need to r/o more serious conditions like malaria, Dengue and meningitis Worried about difficulty breathing and lip swelling, also localized rash
+  [FALSE] hallucination [critical/diagnosis mismatch/plan]: It might be just urticaria ( Hives)Call the ambulance to r/o possible anaphylactic reaction WE will need to r/o more serious conditions like malaria, Dengue and meningitis Worried about difficulty breathing and lip swelling, also localized rash
+  [FALSE] hallucination [critical/diagnosis mismatch/plan]: It might be just urticaria ( Hives)Call the ambulance to r/o possible anaphylactic reaction WE will need to r/o more serious conditions like malaria, Dengue and meningitis Worried about difficulty breathing and lip swelling, also localized rash
+  [FALSE] hallucination [critical/diagnosis mismatch/plan]: It might be just urticaria ( Hives)Call the ambulance to r/o possible anaphylactic reaction WE will need to r/o more serious conditions like malaria, Dengue and meningitis Worried about difficulty breathing and lip swelling, also localized rash
+  [TRUE] hallucination [critical/drug switch/plan]: No PMHx of anaphylaxis, no use of epipen in past
+  [FALSE] hallucination [critical/negation flip/subjective]: throat: History : breathing difficulty for past 2 minutes after being bitten by wasp There is some blotching rash seen tingling feeling around your lips closing of the throat feeling previous similar history Past medical history
+  [FN] hallucination [critical/negation flip]: History : breathing difficulty for past 20 minutes after being bitten by wasp There is some blotching rash seen tingling feeling around your lips closing of the throat feeling no previous similar history Past medical history:
+Eczema Allergic to penicillin
+Plan : advised to start on antihistamines straight away.
+  [FN] hallucination [critical/negation flip]: History : breathing difficulty for past 20 minutes after being bitten by wasp There is some blotching rash seen tingling feeling around your lips closing of the throat feeling previous similar history Past medical history:
+Eczema Allergic to penicillin
+Plan : advised to start on antihistamines straight away.
+
+prim32.txt
+  [TRUE] hallucination [critical/drug switch/subjective]: Used hydrocortisone and cetirizine better
+  [TRUE] hallucination [critical/drug switch/subjective]: Medication: diprobase, dermol, hydrocortisone, salbutamol
+  [FALSE] hallucination [critical/negation flip/subjective]: sore: History: Red sore rash for the past few days All over the chest hands and arms Worse especially in the inside of the arms There is no scratch marks No thickened skin
+  [FALSE] hallucination [critical/negation flip/subjective]: fever: No fever and joint pains
+  [FALSE] hallucination [critical/negation flip/subjective]: joint pains: No fever and joint pains
+  [FALSE] hallucination [critical/negation flip/subjective]: eczema: FH Hypothyroidism No allergies Plan: advised will prescribe fexofenatidine and Sx for eczema.
+  [FN] hallucination [critical/negation flip]: If your symptoms are better in the next 2 weeks please book another appointment with the doctor.
+  [FN] hallucination [moderate/inserted sentence]: No spread elsewhere.
+  [FN] omission [critical/omitted detail]: Need to use steroid cream sparingly .
+
+prim33.txt
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: Feels hot, hasn't measured temperature.
+  [TRUE] hallucination [high/number edit/subjective]: breathlessness: duration 2100 day(s) -- If there is breathlessness, wheezying or cough more than 300 weeks to call back
+  [FN] omission [critical/omitted detail]: History : 
+Cough and cold for 5 days 
+Cough is dry, no sputum , no blood
+No wheeze 
+No breathlessness 
+Used paracetamol 
+Diabetic and high blood pressure since 5-6 years
+Medication: metformin, lisinopril
+Sugar levels and BP normal today 
+Diagnosis: Upper respiratory tract infection
+Plan : .
+  [FN] hallucination [high/number edit]: If there is breathlessness, wheezying or cough more than 30 weeks to call back
+  [FN] omission [critical/omitted detail]: advised to use night and day nurse.
+
+prim34.txt
+  flagged - none
+  [FN] hallucination [high/number edit]: Numbness of the left arm for 2 weeks 
+Mild weakness on holding things and playing the piano 
+No neck pain 
+Visual disturbace in the left peripheral field lasting 20 minutes 20 weeks ago 
+you recently started some boxing lessons 
+had vomiting over a month ago for 2 weeks , started after a party 
+numbness over the left second, third and fourth finger 
+no fits 
+no weakness elsewhere, gait is normal
+Medication: ibuprofen, Vitamin D , iron tablets , melatonin
+FH : Dad - hypothyroidism
+MOM- diabetes , high cholesterol and high BP
+Plan : urgent neurology review 
+r/o MS 
+If there is progressing weakness of the arms and legs, vomiting, visual disturbances, fits you will need to go to A & E
+  [FN] hallucination [moderate/inserted sentence]: Nil radiating.
+  [FN] omission [critical/omitted detail]: Numbness of the left arm for 2 weeks 
+Mild weakness on holding things and playing the piano 
+No neck pain 
+Visual disturbace in the left peripheral field lasting 20 minutes 20 weeks ago 
+you recently started some boxing lessons 
+had vomiting over a month ago for 2 weeks , started after a party 
+numbness over the left second, third and fourth finger 
+no fits 
+no weakness elsewhere, gait is normal
+Medication: ibuprofen, Vitamin D , iron tablets , melatonin
+FH : Dad - hypothyroidism
+MOM- diabetes , high cholesterol and high BP
+Plan : urgent neurology review 
+r/o MS 
+If there is progressing weakness of the arms and legs, vomiting, visual disturbances, fits you will need to go to A & E
+  [FN] hallucination [critical/negation flip]: radiating.
+
+prim35.txt
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Vomiting once
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: No abdo pain.
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: Hx of fever for a week with associated sweatiness, body/muscle aches, nausea, fatigue, night sweats, hot/cold episodes
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Hx of fever for a week with associated sweatiness, body/muscle aches, nausea, fatigue, night sweats, hot/cold episodes
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Hx of fever for a week with associated sweatiness, body/muscle aches, nausea, fatigue, night sweats, hot/cold episodes
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Hx of fever for a week with associated sweatiness, body/muscle aches, nausea, fatigue, night sweats, hot/cold episodes
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Hx of fever for a week with associated sweatiness, body/muscle aches, nausea, fatigue, night sweats, hot/cold episodes
+  [FALSE] hallucination [critical/drug switch/subjective]: Taking ibuprofen and paracetamol otc- not helping, helps with temp slightly
+  [FALSE] hallucination [critical/drug switch/subjective]: Taking ibuprofen and paracetamol otc- not helping, helps with temp slightly
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No cough, sore throat, runny nose, ear pain.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No cough, sore throat, runny nose, ear pain.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No cough, sore throat, runny nose, ear pain.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No cough, sore throat, runny nose, ear pain.
+  [FALSE] hallucination [high/diagnosis mismatch/assessment]: Diagnosis: Gastroenteritis
+  [FALSE] hallucination [critical/negation flip/subjective]: diarrhoea: Diarrhea like water 4-5 times a day
+  [FALSE] hallucination [critical/negation flip/subjective]: dehydration: No dehydration on examination
+  [FALSE] hallucination [critical/negation flip/subjective]: bowel cancer: FH: Dad died of bowel cancer 10 years, HTN
+  [FALSE] hallucination [high/number edit/subjective]: diarrhoea: duration 3 day(s) -- Diarrhoea for 3 days
+  [FN] omission [high/omitted detail]: Start with crackers, soups and mash .
+
+prim36.txt
+  [FALSE] hallucination [critical/diagnosis mismatch/subjective]: DHx-allergies aspirin.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: DDx-MI, PE, GORD
+  [FALSE] hallucination [critical/negation flip/subjective]: chest discomfort: longer term hx of reduced ADLs due to SOBAR, walking up hills / stairs with no chest discomfort.
+  [FN] omission [critical/omitted detail]: 1-2 hours in duration, acute onset, 1st presentation started while gardening.
+  [FN] hallucination [low/entity swap]: ℅ nausea no vomiting since presentation 
+ SOBAR 
+
+ HPC.
+
+prim37.txt
+  [TRUE] hallucination [critical/drug switch/subjective]: This will look at aneamia, thyoids, liver, kidney and vitamin levels
+  [FALSE] hallucination [critical/drug switch/subjective]: This will look at aneamia, thyoids, liver, kidney and vitamin levels
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: -	Some nausea  no vomiting
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Pins and needles in both arms, no radiation to legs, maintains motor and sense, no loss of function
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Fevers with headaches
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: PMHx , hypothyroid.
+  [FN] omission [critical/omitted detail]: DHx allergies - nil
+Thyroxine.
+
+prim38.txt
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: fever, chills, non positional.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: fever, chills, non positional.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No chest pain, no pain on inspiration
+  [FALSE] hallucination [critical/drug switch/subjective]: No of blood thinners.
+  [FALSE] hallucination [critical/negation flip/subjective]: pain: No chest pain, no pain on inspiration
+  [FN] hallucination [critical/negation flip]: fever, no chills, non positional.
+
+prim39.txt
+  [TRUE] hallucination [critical/drug switch/subjective]: No of blood thinners.
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: No chest pain.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No nausea,no vomiting, no problems e+d
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No nausea,no vomiting, no problems e+d
+  [FALSE] hallucination [critical/negation flip/plan]: antihistamine: Plan : antihistamine and further examination and investigation.
+  [TRUE] hallucination [critical/allergy mismatch/subjective]: PMH: As above. Dhx : allergy nils regular medications. DDx : acute exacerbation of asthma, ?? allergy
+  [FN] omission [high/omitted detail]: PC : sobar pmhx of childhood asthma and hayfever.
+
+prim4.txt
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Also has nasal congestion.
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: chest pain.
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: visual sx/photophobia.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No nausea/vomiting.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Drinking fluids, reduced appetite.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: FH: Grandmother - type 2 diabetes
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Finding work slightly stressful.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Imp: viral URTI/influenza
+  [FALSE] hallucination [critical/negation flip/subjective]: headaches: Associated headaches - generalized, intermittent.
+  [FALSE] hallucination [critical/negation flip/subjective]: etoh: Occasional smoker/etOH.
+  [TRUE] hallucination [high/number edit/subjective]: sore throat: duration 40 day(s) -- 40/7 hx of generally unwell, mainly sore throat, runny nose, fatigue, myalgia and general joint pain.
+  [FN] hallucination [moderate/inserted sentence]: Has now developed diarrhea - 5-6x/day.
+  [FN] omission [low/omitted detail]: Has now developed diarrhea - 5-6x/day.
+
+prim40.txt
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: ℅ abdominal pain for since presentation, no radiation, mild to moderate tenderness, and cramping, E+D'ing causing nausea.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: ℅ abdominal pain for since presentation, no radiation, mild to moderate tenderness, and cramping, E+D'ing causing nausea.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Feels and looks dehydrated.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No problems with breathing, no chest pain, no headache.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: FHx : father has history of stomach Ca.
+  [FALSE] hallucination [critical/drug switch/plan]: Plan: fluids, paracetamol, advised if symptoms do not improve to visit the gp surgery.
+  [FALSE] hallucination [critical/negation flip/subjective]: fevers: fevers HPC
+  [FALSE] hallucination [critical/negation flip/subjective]: nausea: ℅ abdominal pain for since presentation, no radiation, mild to moderate tenderness, and cramping, E+D'ing causing nausea.
+  [FN] hallucination [high/number edit]: No fevers
+
+HPC:
+Diarrhea +++ 50-6 per day (more) only fluid no blood, feels as if there incomplete evacuation.
+  [FN] hallucination [critical/negation flip]: fevers HPC:
+Diarrhea +++ 50-6 per day (more) only fluid no blood, feels as if there incomplete evacuation.
+
+prim41.txt
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: Can be worse when stands up not when bends over/cough/sneeze.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Can be worse when stands up not when bends over/cough/sneeze.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Can be worse when stands up not when bends over/cough/sneeze.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Associated symptoms - dizzy / blurry vision - sudden onset headache - severity score - 6/10
+  [FN] hallucination [moderate/inserted sentence]: Severity 5-8/10.
+  [FN] hallucination [high/number edit]: Severity 5-80/10.
+  [FN] omission [critical/omitted detail]: Worse
+Has felt nauseous - and vomited x2
+No neurological symptoms
+
+Unlikely to be pregnant
+
+Worried re: brain cancer or a stroke - wondering if needs to go to a&e
+
+Pmh: renal stones
+
+Dhx: nil regular,
+NKDA
+
+Fhx: mother - migraines, Hypothyroidism
+
+Video assessment - appeared well - in a brightly lit environment - does not appear photophobic
+
+Plan - 1) ibuprofen + sugary drink + anti sickness to try until appointment
+Likely migraine however need to consider more serious differentials
+For review face to face as 1st onset of headache - to be seen today at earliest - earliest appointment available - will need neurological assessment - also to assess for neck stiffness and fever and rash
+  [FN] hallucination [moderate/inserted sentence]: Throbbing in nature.
+
+prim42.txt
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: Feeling unwell for 80 days.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Slight fever symptoms.
+  [FALSE] hallucination [critical/drug switch/subjective]: No Sig drug history
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Fhx - Mother Lung Ca nil else.
+  [FALSE] hallucination [critical/negation flip/subjective]: chest pain: No chest pain.
+  [FALSE] hallucination [critical/allergy mismatch/subjective]: Fhx - Mother Lung Ca nil else. NKDA
+  FN - none
+
+prim43.txt
+  flagged - none
+  [FN] omission [low/omitted detail]: Confirmed name 
+DOB confrimed.
+  [FN] hallucination [moderate/inserted sentence]: Previously enjoyed running, tennis, socialising.
+  [FN] hallucination [critical/negation flip]: eating Difficulty sleeping.
+  [FN] hallucination [high/number edit]: 80 weeks.
+  [FN] hallucination [critical/negation flip]: suicidal ideation New job - 2 months ago.
+
+prim44.txt
+  [TRUE] hallucination [critical/drug switch/subjective]: Still symotoms of cold and cough has stayed.
+  [FN] hallucination [moderate/inserted sentence]: Pharmacist can advise on usage.
+
+prim45.txt
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Drinks lots of water-Polyuria.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No dysuria.
+  [FALSE] hallucination [critical/drug switch/subjective]: Nil Meds.
+  [FALSE] hallucination [critical/negation flip/subjective]: vomiting: No vomiting
+  [FALSE] hallucination [critical/negation flip/subjective]: amox: PMhx-Amox
+  [FN] hallucination [moderate/inserted sentence]: Last BO 2 hrs ago.
+  [FN] hallucination [high/number edit]: Last BO 20 hrs ago.
+  [FN] hallucination [moderate/inserted sentence]: Nil frequency.
+  [FN] hallucination [low/entity swap]: Imp- Simple constipation, PID, STI, MSU 
+ 3 further examination and Ix.
+
+prim46.txt
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No tingling/numbness/weakness/rash.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No tingling/numbness/weakness/rash.
+  [FALSE] hallucination [critical/drug switch/subjective]: Some stress at work recently.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Tension headache/first episode migraine.
+  [FALSE] hallucination [critical/drug switch/subjective]: Advised to start regular ibuprofen with food.
+  [FALSE] hallucination [critical/negation flip/subjective]: headache: No hx headaches.
+  [FALSE] hallucination [critical/negation flip/subjective]: illness: No features meningitic illness
+  [FALSE] hallucination [critical/negation flip/subjective]: sore: No prodromal illness, no viral symptoms, sore ears/coryzal sx.
+  [FALSE] hallucination [critical/negation flip/subjective]: feverish: Doesn't feel feverish
+  [FALSE] hallucination [critical/negation flip/subjective]: tingling: No tingling/numbness/weakness/rash.
+  [FALSE] hallucination [critical/negation flip/subjective]: hypertension: FH: Mother has hypertension and migraines.
+  [FN] hallucination [critical/negation flip]: PMH: significant
+DH: Microgynon - no SEs, BP was normal when checked for last prescription ?
+
+prim47.txt
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: PC: Dysuria
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: HPC: 6/7 hx dysuria, burning stinging sensation when PUs.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: HPC: 6/7 hx dysuria, burning stinging sensation when PUs.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No new PV discharge.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No recent change in BH/blood in stool.
+  [FALSE] hallucination [critical/drug switch/subjective]: Plan: Nitrofurantoin 3/7 course.
+  [FALSE] hallucination [critical/allergy mismatch/subjective]: DH: Mebeverine 200mg TDS. NKDA. SH: Lives with friends. Works as support worker. Non smoker. Drinks 1 unit/week. Imp: Likely UTI. Plan: Nitrofurantoin 3/7 course. Advised patient to contact us if fever/back pain/persistent symptoms or if recurrent episodes of similar symptoms occurs.
+  [FN] hallucination [critical/negation flip]: PHx urine infections/similar sx.
+
+prim48.txt
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: PC: Anxiety symptoms
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Can feel irregular and chest discomfort.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Insomnia.
+  [FALSE] hallucination [critical/negation flip/subjective]: tired: Tired in the day.
+  [FALSE] hallucination [critical/negation flip/subjective]: chocolate: more chocolate.
+  [FN] omission [low/omitted detail]: Dreads work every morning.
+  [FN] hallucination [low/entity swap]: In meantime advised to access online SOBAR: attached info.
+
+prim49.txt
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No dysuria/frequency
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: No chest pain/SOB/palpitations
+  [TRUE] hallucination [critical/drug switch/subjective]: smoker/alcohol/drugs.
+  [FALSE] hallucination [critical/negation flip/subjective]: pain: No DIB/shoulder tip pain.
+  [FALSE] hallucination [critical/negation flip/subjective]: diarrhoea: No vomiting/diarrhoea.
+  [FN] hallucination [high/number edit]: Implanon 10 yr ago.
+  [FN] omission [low/omitted detail]: No other PV discharge.
+
+prim5.txt
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: 2/7 ago developed lower abdo pain/suprapubic pain, gradual onset, burning pain, constant, progressively worsening
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Urinary sx - noticed some pink coloured urine, no frank haematuria, nil dysuria.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Urinary sx - noticed some pink coloured urine, no frank haematuria, nil dysuria.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No chest pain/SOB/palpitations
+  [FALSE] hallucination [critical/negation flip/subjective]: vomiting: Some nausea, no vomiting
+  [FALSE] hallucination [critical/negation flip/subjective]: active: Currently sexually active with regular partner.
+  [FALSE] hallucination [critical/negation flip/subjective]: implanon: DH: implanon , otherwise nil
+  [FN] hallucination [moderate/inserted sentence]: 3/7 hx of diarrhea - watery stools, opening bowels every hour.
+  [FN] hallucination [critical/negation flip]: Review in 24-48 hours if sx improving, or earlier if worsening sx (fever, abdo pain, vomiting)
+  [FN] hallucination [high/number edit]: Review in 28-48 hours if sx improving, or earlier if worsening sx (fever, abdo pain, vomiting)
+
+prim50.txt
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: HPC: 20/7 hx lower abdominal pain, central location.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No dysuria / freq.
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: 3, no dyspepsia.
+  [TRUE] hallucination [critical/drug switch/subjective]: Mebeverine: Mum had breast cancer, now in remission.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Mebeverine: Mum had breast cancer, now in remission.
+  [FALSE] hallucination [critical/drug switch/subjective]: No drugs.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: To start asap.
+  [FALSE] hallucination [critical/negation flip/subjective]: pain: PC: Abdo pain
+  [FALSE] hallucination [critical/negation flip/subjective]: blood in stool: No blood in stool.
+  [FALSE] hallucination [critical/negation flip/subjective]: breast cancer: Mebeverine: Mum had breast cancer, now in remission.
+  [FN] omission [low/omitted detail]: SH: Lives with parents.
+
+prim51.txt
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Periumbilical cramps, comes in waves.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Feels hot
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Plan: As ongoing, fever needs stool culture sent to exclude bacterial origin.
+  [FALSE] hallucination [critical/negation flip/subjective]: diarrhoea: Watery stools.
+  [FALSE] hallucination [critical/negation flip/subjective]: vomiting: Vomiting, last vomited 1 hr ago.
+  [FN] hallucination [low/entity swap]: Advised to continue taking small sips E&D constantly.
+  [FN] hallucination [high/number edit]: Last 10 hr ago.
+
+prim52.txt
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: PC: Cough and cold.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: HPC: 4-5 day hx runny nose, dry cough.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: HPC: 4-5 day hx runny nose, dry cough.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No sputum / haemoptysis.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No epistaxis / sinus pain.
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: Feels hot, has measured temperature.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Aches and pains.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No hx chest problems / recurrent chest infections / wt loss.
+  [FALSE] hallucination [critical/drug switch/subjective]: Doesn't check blood sugars / urine at home.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No increased thirst / urinary freq.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Imp: Viral bronchitis.
+  [TRUE] hallucination [critical/negation flip/subjective]: wheeze: No SOB / inspiratory pain / wheeze.
+  [FALSE] hallucination [high/number edit/subjective]: cough: duration 14 day(s) -- May take 1-2 weeks to settle and cough can persist for up to a month
+  [FN] hallucination [high/number edit]: PMH: Hypertension 
+ T2 DM 
+
+ DH: Lisinopril 
+ Metformin 
+
+ Height- 50 ft 5 in 
+ Weight-65 kg 
+
+ SH: Non smoker, odd sherry.
+  [FN] hallucination [low/entity swap]: URTI 
+
+ Plan ok.
+
+prim53.txt
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Not coughing up sputum, no haemoptysis / CP.
+  [FALSE] hallucination [critical/drug switch/subjective]: sometimes takes salbutamol still every few weeks.
+  [FALSE] hallucination [critical/negation flip/subjective]: fever: No fever, has checked temp-37.
+  [FN] hallucination [low/entity swap]: No GP.
+
+prim54.txt
+  [FALSE] hallucination [critical/drug switch/subjective]: Did lots of walking in shorts in Yosemite, didn't notice bite.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Reduced appetite, no wt loss
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: SE: GI-Dec app, no change in BH, no blood in stool, no dyspepsia.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: SE: GI-Dec app, no change in BH, no blood in stool, no dyspepsia.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Neuro: General headache / no visual disturbance / altered sens / weakness.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Neuro: General headache / no visual disturbance / altered sens / weakness.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Yosemite Park.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: RS: No cough / sputum / CP / SOB.
+  [FALSE] hallucination [critical/drug switch/subjective]: ICS, does not take salbutamol regularly.
+  [FALSE] hallucination [critical/drug switch/subjective]: Cetirizine OD
+  [FALSE] hallucination [critical/drug switch/subjective]: Occ alcohol.
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: No tingling / numbness / weakness / rash.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No tingling / numbness / weakness / rash.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Can be worse when stands up not when bends over / cough / sneeze.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Can be worse when stands up not when bends over / cough / sneeze.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No nausea / vomiting.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No altered taste / smell.
+  [FALSE] hallucination [critical/drug switch/subjective]: Taking ibuprofen, eases slightly
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: not bad and associated symptoms / altered vision.
+  [FALSE] hallucination [critical/drug switch/subjective]: DH: Mercilon.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: FMHx: Mum has migraine.
+  [FALSE] hallucination [critical/drug switch/subjective]: No illicit drugs, 3 beers / week.
+  [FALSE] hallucination [critical/drug switch/subjective]: Advised regular paracetamol and naproxen with food (will prescribe).
+  [FALSE] hallucination [critical/drug switch/subjective]: Advised regular paracetamol and naproxen with food (will prescribe).
+  [FALSE] hallucination [critical/drug switch/subjective]: Advised regular paracetamol and naproxen with food (will prescribe).
+  [FALSE] hallucination [critical/negation flip/subjective]: rash: No rash.
+  [FALSE] hallucination [critical/negation flip/subjective]: fever: No fever.
+  [FALSE] hallucination [critical/negation flip/subjective]: sore throat: No coryzal sx / sore throat.
+  [FALSE] hallucination [critical/negation flip/subjective]: vomiting: No nausea / vomiting.
+  [FN] hallucination [low/entity swap]: E&D last checked 1 yr ago was normal.
+
+prim55.txt
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Can be worse when stands up not when bends over/cough/sneeze.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Can be worse when stands up not when bends over/cough/sneeze.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No nausea/vomiting.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No altered taste/smell.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No rash.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No tingling/numbness/weakness.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No tingling/numbness/weakness.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: not bad and associated symptoms/altered vision.
+  [FALSE] hallucination [critical/drug switch/subjective]: DH: Mercilon.
+  [FALSE] hallucination [critical/drug switch/subjective]: No illicit drugs, 3 beers/week.
+  [FALSE] hallucination [critical/drug switch/subjective]: Advised regular paracetamol and naproxen with food (will prescribe).
+  [FALSE] hallucination [critical/negation flip/subjective]: bends: Can be worse when stands up not when bends over/cough/sneeze.
+  [FALSE] hallucination [critical/negation flip/subjective]: fever: No fever.
+  [FALSE] hallucination [critical/negation flip/subjective]: migraine: Imp: Likely migraine
+  [FN] hallucination [high/number edit]: BP last checked 10 yr ago was normal.
+
+prim56.txt
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: PC: R knee pain
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No other jt pains, no general unwell / fever.
+  [FALSE] hallucination [critical/drug switch/subjective]: DHx: Vit D, melatonin, ibuprofen.
+  [FALSE] hallucination [critical/drug switch/subjective]: Xanax sometimes.
+  [FALSE] hallucination [critical/drug switch/subjective]: Plan: Advised replace ibuprofen with naproxen which I will prescribe.
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: Can be worse when stands up not when bends over/cough/sneeze.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Can be worse when stands up not when bends over/cough/sneeze.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Can be worse when stands up not when bends over/cough/sneeze.
+  [FALSE] hallucination [critical/negation flip/subjective]: tenderness: No specific area tenderness.
+  [FALSE] hallucination [critical/negation flip/subjective]: giving way: No giving way / locking.
+  [FALSE] hallucination [critical/negation flip/subjective]: tingling: Has had tingling R side forefoot which settled down.
+  [FALSE] hallucination [critical/negation flip/subjective]: ibuprofen: Plan: Advised replace ibuprofen with naproxen which I will prescribe.
+  [FN] hallucination [low/entity swap]: No hx TATT sx / asthma.
+  [FN] hallucination [low/entity swap]: No hx A&E sx / asthma.
+  [FN] hallucination [low/entity swap]: No hx GP sx / asthma.
+
+prim57.txt
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: HPC L sided posterior headache.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No visual disturbance/visual floaters/tingling/numbness/weakness/nausea/vomiting/fever/neck stiffness.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No visual disturbance/visual floaters/tingling/numbness/weakness/nausea/vomiting/fever/neck stiffness.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No visual disturbance/visual floaters/tingling/numbness/weakness/nausea/vomiting/fever/neck stiffness.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No visual disturbance/visual floaters/tingling/numbness/weakness/nausea/vomiting/fever/neck stiffness.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No visual disturbance/visual floaters/tingling/numbness/weakness/nausea/vomiting/fever/neck stiffness.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No worse cough/sneeze/bending.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No worse cough/sneeze/bending.
+  [FALSE] hallucination [critical/drug switch/subjective]: Plan: Advised prescribed naproxen to take instead of ibuprofen.
+  [FALSE] hallucination [critical/negation flip/subjective]: finding: Finding it hard to concentrate on work.
+  [FALSE] hallucination [critical/negation flip/subjective]: stress: No change in diet/liestyle/increased stress.
+  [FN] hallucination [critical/negation flip]: Did wake her up in the night, slept ok .
+
+prim6.txt
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: unstable angina DH: furosemide, aspirin, bisoprolol, simvastatin
+  [TRUE] hallucination [critical/drug switch/subjective]: unstable angina DH: furosemide, aspirin, bisoprolol, simvastatin
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: Also myalgia and arthralgia - mainly stiffness in joints.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Also myalgia and arthralgia - mainly stiffness in joints.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Also myalgia and arthralgia - mainly stiffness in joints.
+  [FALSE] hallucination [critical/negation flip/subjective]: chest pain: No chest pain / palpitations.
+  FN - none
+
+prim7.txt
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Mainly dry cough.
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: No chest pain.
+  [FALSE] hallucination [critical/drug switch/subjective]: DH: implanon , otherwise nil
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Also myalgia and arthralgia - mainly stiffness in joints.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No nausea/vomiting
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: PMH: obesity, diabetes - type 2 , hypertension
+  [FALSE] hallucination [critical/drug switch/subjective]: DH: metformin, lisinopril , aspirin
+  [FALSE] hallucination [high/diagnosis mismatch/assessment]: LRTI
+  [TRUE] hallucination [high/diagnosis mismatch/plan]: Finding work slightly stressful.
+  [FALSE] hallucination [critical/drug switch/plan]: Conservative mx - rest, fluids, regular paracetamol
+  [FALSE] hallucination [critical/negation flip/subjective]: fevers: No fevers.
+  [FALSE] hallucination [critical/negation flip/subjective]: etoh: SH: lives with wife, works in factory/manufacturing, smoking socially, etOH - >14 units/week
+  [FALSE] hallucination [critical/allergy mismatch/subjective]: NKDA
+  [FN] omission [critical/omitted detail]: Delayed script for amoxicillin abx - to start in 24-48 hours if sx not improving
+3.
+  [FN] hallucination [moderate/inserted sentence]: Review in 5-7d INB
+3.
+
+prim8.txt
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: Appetite maintained, nausea/vomiting Nil bowel/urinary sx PMH: Lactose intolerance
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Appetite maintained, nausea/vomiting Nil bowel/urinary sx PMH: Lactose intolerance
+  [FALSE] hallucination [critical/drug switch/plan]: Steroid cream BD
+  [FALSE] hallucination [critical/negation flip/subjective]: hayfever: FH: Father - asthma, Mother - hayfever SH: - lives alone, nil smoker/etOH/recreational drugs , works as primary school teacher.
+  [FALSE] hallucination [critical/negation flip/subjective]: etoh: FH: Father - asthma, Mother - hayfever SH: - lives alone, nil smoker/etOH/recreational drugs , works as primary school teacher.
+  [FALSE] hallucination [critical/negation flip/subjective]: drugs: FH: Father - asthma, Mother - hayfever SH: - lives alone, nil smoker/etOH/recreational drugs , works as primary school teacher.
+  FN - none
+
+prim9.txt
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: 3/7 hx of dysuria and suprapubic pain.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: 3/7 hx of dysuria and suprapubic pain.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Nil nausea/vomiting.
+  [FALSE] hallucination [high/diagnosis mismatch/assessment]: Imp: UTI/cystitis
+  [FALSE] hallucination [critical/negation flip/subjective]: cramping: Abdo pain - cramping, nil radiating
+  [FALSE] hallucination [critical/negation flip/subjective]: fever: Nil fever.
+  [FALSE] hallucination [critical/negation flip/subjective]: discharge: Nil PV discharge.
+  [FN] omission [low/omitted detail]: Brief episode of haematuria, now resolved.
+  [FN] hallucination [critical/negation flip]: frequency.
+  [FN] hallucination [high/number edit]: LMP 2/59 ago.
+
+=== Evaluation Results ===
+prim1.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=5 FN=5)
+prim10.txt: precision=0.23 recall=1.00 f1=0.38 accuracy=0.23 (TP=3 FP=10 FN=0)
+prim11.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=3 FN=1)
+prim12.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=6 FN=1)
+prim13.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=10 FN=2)
+prim14.txt: precision=0.10 recall=0.50 f1=0.17 accuracy=0.09 (TP=1 FP=9 FN=1)
+prim15.txt: precision=0.43 recall=1.00 f1=0.60 accuracy=0.43 (TP=3 FP=4 FN=0)
+prim16.txt: precision=0.50 recall=0.40 f1=0.44 accuracy=0.29 (TP=2 FP=2 FN=3)
+prim17.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=4 FN=1)
+prim18.txt: precision=0.50 recall=0.50 f1=0.50 accuracy=0.33 (TP=2 FP=2 FN=2)
+prim19.txt: precision=0.33 recall=0.25 f1=0.29 accuracy=0.17 (TP=1 FP=2 FN=3)
+prim2.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=5 FN=3)
+prim20.txt: precision=0.20 recall=0.25 f1=0.22 accuracy=0.12 (TP=1 FP=4 FN=3)
+prim21.txt: precision=0.17 recall=0.33 f1=0.22 accuracy=0.12 (TP=1 FP=5 FN=2)
+prim22.txt: precision=0.13 recall=1.00 f1=0.24 accuracy=0.13 (TP=2 FP=13 FN=0)
+prim23.txt: precision=0.21 recall=0.60 f1=0.32 accuracy=0.19 (TP=3 FP=11 FN=2)
+prim24.txt: precision=0.12 recall=0.50 f1=0.20 accuracy=0.11 (TP=2 FP=14 FN=2)
+prim25.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=1 FN=1)
+prim26.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=1 FN=1)
+prim27.txt: precision=0.13 recall=0.67 f1=0.22 accuracy=0.12 (TP=2 FP=13 FN=1)
+prim28.txt: precision=0.33 recall=0.50 f1=0.40 accuracy=0.25 (TP=2 FP=4 FN=2)
+prim29.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=2 FN=4)
+prim3.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=9 FN=2)
+prim30.txt: precision=0.21 recall=0.75 f1=0.33 accuracy=0.20 (TP=3 FP=11 FN=1)
+prim31.txt: precision=0.33 recall=0.60 f1=0.43 accuracy=0.27 (TP=3 FP=6 FN=2)
+prim32.txt: precision=0.33 recall=0.40 f1=0.36 accuracy=0.22 (TP=2 FP=4 FN=3)
+prim33.txt: precision=1.00 recall=0.40 f1=0.57 accuracy=0.40 (TP=2 FP=0 FN=3)
+prim34.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=0 FN=4)
+prim35.txt: precision=0.11 recall=0.67 f1=0.19 accuracy=0.11 (TP=2 FP=16 FN=1)
+prim36.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=3 FN=2)
+prim37.txt: precision=0.17 recall=0.50 f1=0.25 accuracy=0.14 (TP=1 FP=5 FN=1)
+prim38.txt: precision=0.20 recall=0.50 f1=0.29 accuracy=0.17 (TP=1 FP=4 FN=1)
+prim39.txt: precision=0.50 recall=0.75 f1=0.60 accuracy=0.43 (TP=3 FP=3 FN=1)
+prim4.txt: precision=0.27 recall=0.60 f1=0.37 accuracy=0.23 (TP=3 FP=8 FN=2)
+prim40.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=8 FN=2)
+prim41.txt: precision=0.25 recall=0.20 f1=0.22 accuracy=0.12 (TP=1 FP=3 FN=4)
+prim42.txt: precision=0.17 recall=1.00 f1=0.29 accuracy=0.17 (TP=1 FP=5 FN=0)
+prim43.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=0 FN=5)
+prim44.txt: precision=1.00 recall=0.50 f1=0.67 accuracy=0.50 (TP=1 FP=0 FN=1)
+prim45.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=5 FN=4)
+prim46.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=11 FN=1)
+prim47.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=7 FN=1)
+prim48.txt: precision=0.20 recall=0.33 f1=0.25 accuracy=0.14 (TP=1 FP=4 FN=2)
+prim49.txt: precision=0.40 recall=0.50 f1=0.44 accuracy=0.29 (TP=2 FP=3 FN=2)
+prim5.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=7 FN=3)
+prim50.txt: precision=0.30 recall=0.75 f1=0.43 accuracy=0.27 (TP=3 FP=7 FN=1)
+prim51.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=5 FN=2)
+prim52.txt: precision=0.15 recall=0.50 f1=0.24 accuracy=0.13 (TP=2 FP=11 FN=2)
+prim53.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=3 FN=1)
+prim54.txt: precision=0.03 recall=0.50 f1=0.06 accuracy=0.03 (TP=1 FP=28 FN=1)
+prim55.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=14 FN=1)
+prim56.txt: precision=0.17 recall=0.40 f1=0.24 accuracy=0.13 (TP=2 FP=10 FN=3)
+prim57.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=11 FN=1)
+prim6.txt: precision=0.50 recall=1.00 f1=0.67 accuracy=0.50 (TP=3 FP=3 FN=0)
+prim7.txt: precision=0.15 recall=0.50 f1=0.24 accuracy=0.13 (TP=2 FP=11 FN=2)
+prim8.txt: precision=0.17 recall=1.00 f1=0.29 accuracy=0.17 (TP=1 FP=5 FN=0)
+prim9.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=7 FN=3)
+
+Overall (all types): precision=0.15 recall=0.38 f1=0.22 accuracy=0.12 (TP=65 FP=367 FN=105)
+
+Average flags per round: 7.6 (432 flags / 57 files)
+
+By type:
+  hallucination: precision=0.15 recall=0.47 f1=0.23 accuracy=0.13 (TP=65 FP=367 FN=73)
+  omission: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=0 FN=32)
+
+Average elapsed time: 3.49s
+
+By severity (recall -- are we catching the risky ones?):
+  critical: 20/55 caught (recall=0.36)
+  high: 27/53 caught (recall=0.51)
+  low: 8/37 caught (recall=0.22)
+  moderate: 10/25 caught (recall=0.40)
+  accuracy on matched errors (predicted value == label value): 0.42 (27/65)
+  mean absolute error (severity rank): 0.77
+
+By detail type (recall -- are we catching this corruption category?):
+  drug switch: 2/2 caught (recall=1.00)
+  entity swap: 8/23 caught (recall=0.35)
+  inserted sentence: 24/42 caught (recall=0.57)
+  negation flip: 18/38 caught (recall=0.47)
+  number edit: 13/33 caught (recall=0.39)
+  omitted detail: 0/32 caught (recall=0.00)
+  accuracy on matched errors (predicted value == label value): 0.08 (5/65)
+
+By severity, split by label type:
+  hallucination:
+    critical: 20/41 caught (recall=0.49)
+    high: 27/49 caught (recall=0.55)
+    low: 8/23 caught (recall=0.35)
+    moderate: 10/25 caught (recall=0.40)
+  omission:
+    critical: 0/14 caught (recall=0.00)
+    high: 0/4 caught (recall=0.00)
+    low: 0/14 caught (recall=0.00)
+
+By SOAP section (predictions -- omissions have no section, they
+describe content missing FROM the note, always bucketed under "n/a"):
+  hallucination:
+    assessment: TP=2 FP=15
+    plan: TP=7 FP=41
+    subjective: TP=56 FP=311
+
+Critical-severity labels caught (TP), by section:
+  plan: 2
+  subjective: 18

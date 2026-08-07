@@ -1,0 +1,22 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"Nil smoking\nMinimal etOH\n\nHas tried E45 cream and antihistamines with minimal relief \n\nImp: contact dermatitis \n\nPlan:\n1.\" to \"smoking\nMinimal etOH Has tried E45 cream and antihistamines with minimal relief Imp: contact dermatitis Plan:\n1.\""
+  },
+  {
+    "type": "omission",
+    "detail": "3-4/12 hx of sore and cracked skin on my hands - mainly palms."
+  },
+  {
+    "type": "omission",
+    "detail": "Occasionally itchy and bleeding on scratching."
+  },
+  {
+    "type": "omission",
+    "detail": "No pain \nWorks as a cleaner and does not always wear gloves - possible trigger\nNo fever\nNo bowel/urinary sx\nAppetite maintained \n\nPMH: Type 2 diabetes\nDH: metformin \nNKDA\nFH: Type 2 diabetes, \nSH: works as a housekeeper, recently changed jobs 4/12 ago, works in a hotel."
+  },
+  {
+    "type": "omission",
+    "detail": "Review in 10-14d INB, or earlier if worsening sx"
+  }
+]

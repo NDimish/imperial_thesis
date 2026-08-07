@@ -1,0 +1,8 @@
+[
+  {
+    "type": "omission",
+    "severity": "low",
+    "detail_type": "omitted detail",
+    "detail": "Has now developed diarrhea - 5-6x/day."
+  }
+]

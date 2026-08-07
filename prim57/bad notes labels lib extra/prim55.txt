@@ -1,0 +1,18 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"3\" to \"30\" in \"No illicit drugs, 30 beers/week.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 57: \"PC: Headache\n\nHPC L sided posterior headache.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 57: \"If pain not settling/worse or new symptoms to contact dr asap.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"5\" to \"50\" in \"Severity 50-8/10.\""
+  }
+]

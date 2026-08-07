@@ -1,0 +1,59 @@
+d: Can I confirm your name and your age please?
+p: I'm Amanda Jackson and I'm nineteen years old.
+d: How can I help you this afternoon?
+p: It's been going on for a few days now, it's not happened before and I'm a bit worried. It quite hurts when I pee, and I'm going to the toilet a lot more, I can't go to uni properly, I'm constantly looking for the toilet. It kind of hurts sometimes at the bottom of my tummy as well.
+d: You mentioned it's been going on for the last three days, mainly burning pain when you pass urine, and going to the toilet more often?
+p: It's been going on for a little bit longer than three days, maybe just under a week. I notice a burning, stinging when I go to the toilet.
+d: Are you noticing anything in your urine, predominantly blood or discolouration?
+p: Today I noticed it was a bit pink.
+d: Any frank red blood at all in your urine?
+p: Just today, I think it was probably but I don't know, it was pink.
+d: You also mentioned some tummy pain, can you tell me more about that?
+p: It's at the bottom of my tummy, mainly when I go to the loo, that's when it's worse.
+d: Can you describe it -- crampy pain, or more of a burning pain?
+p: I wouldn't describe it as crampy, not like a period pain, it's hard to say, an achey pain I suppose.
+d: Does the pain move anywhere else, towards your back or sides?
+p: No.
+d: Any other symptoms, nausea, vomiting?
+p: No nausea, vomiting.
+d: Any temperatures or fevers?
+p: No, not that I've noticed.
+d: How are your bowels at the moment?
+p: I usually have a bit of problems with my bowels anyway, I don't think it's any different from what it usually is. I think I have IBS, so I pass my bowels quite a lot, sometimes it's a bit softer, sometimes a bit harder, kind of hard to predict.
+d: No new symptoms in your bowels?
+p: No.
+d: Are you currently sexually active?
+p: I have a long-term boyfriend.
+d: Have you noticed any other discharge from down below, from the front passage?
+p: No, I don't think so, nothing unusual.
+d: Do you use any form of contraception?
+p: I'm on the pill, the combined pill.
+d: When was the last time you had unprotected sex, as in no condoms?
+p: I don't really use condoms with my boyfriend, we've just kind of agreed. A week ago, two weeks ago.
+d: Whether there's any chance you could be pregnant at all -- when was your last period?
+p: Two weeks ago.
+d: Something for us to bear in mind if your symptoms don't get any better. In terms of your general health otherwise, are you eating and drinking OK?
+p: Yeah, eating drinking OK. I did have one concern -- I smoked weed for the first time, about a week and a half ago. I just wondered whether it's related at all, probably not, but I thought I'd get some advice.
+d: I don't think it's related to your symptoms, I think it's probably just pure coincidence. But I do strongly advise you to avoid making it a regular habit, for your general health moving forwards.
+d: Do you have any other medical conditions, apart from the IBS, is there anything else I should be aware of?
+p: No, nope.
+d: What about any medications you take on a regular basis, apart from the combined pill?
+p: I take something for the IBS as well, begins with an M.
+d: Is that for the cramps, the crampy pain?
+p: Yeah.
+d: Do you have any allergy to any medications?
+p: Yeah, I think there was an antibiotic called Clindamycin -- that didn't go too well with me.
+d: In terms of family history, any history of problems with the bladder or the kidneys?
+p: No.
+d: Tell me a bit more about your home situation, who's at home with you?
+p: I'm living in halls at uni, with a flatmate. My family live outside of London, not too far away, I see them now and then, they're OK generally.
+d: What are you studying at university?
+p: English. It's going well, I really enjoy it.
+d: In terms of smoking and alcohol, do you participate in either?
+p: I tried weed for the first time as I mentioned, but I don't smoke. I drink occasionally, socially with friends.
+d: What made you have your first joint last week?
+p: It was just a party, there were other people doing it, I was a little bit tipsy so probably wasn't thinking quite straight. I completely agree it's not something I want to get into on a regular basis.
+d: As your doctor I'm here to look after you, so I would strongly recommend you avoid it if you can. At this stage I wouldn't normally examine you, but based on your story I'm reassured. I think it's probably just a simple UTI or cystitis, bladder infection. You haven't got any other symptoms that suggest anything to worry about, things like fevers and back pain would be more worrying. It's something we can treat quite readily with antibiotics -- a choice of two, Trimethoprim or Nitrofurantoin, a three day course. They're usually quite effective. It's probably worth giving us a urine sample today as well, so we can send it off to the lab and see exactly what's going on. Start the antibiotics, make sure you're well hydrated, drink plenty of fluids. If you are having some pain, simple Paracetamol would probably be advisable. We'll see what the urine sample shows, and if it is positive we'll know which antibiotics are the right ones. If things are still not getting any better next week, come back and see me.
+p: With the urine sample, how do I go about doing that, is it through the app?
+d: I will organise for you to come in and drop off a sample at one of our practices, which we can test there and then, and send off to the lab -- we'll be in touch with the results. Bear in mind those symptoms I mentioned about the fever, back pain, and vomiting -- if you have any of those, give me a call.
+p: Either back pain, vomiting, I'll watch out for those.

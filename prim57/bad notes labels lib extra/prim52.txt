@@ -1,0 +1,10 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 14: \"Feeling shivery, hot/cold, ?fever \nNo nausea/vomiting \nAppetite maintained.\""
+  },
+  {
+    "type": "hallucination",
+    "detail": "inserted sentence from note 33: \"advised to use night and day nurse.\""
+  }
+]

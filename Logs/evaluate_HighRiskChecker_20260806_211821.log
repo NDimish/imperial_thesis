@@ -1,0 +1,322 @@
+
+prim1.txt
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Oh hey, um, I've just had some diarrhea for the last three days, um, and it's been affecting me I need to stay close to the toilet.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: watery stool
+  [FALSE] omission [high/diagnosis mismatch/n/a]: like some pain in my
+  [FALSE] omission [high/diagnosis mismatch/n/a]: like a cramp
+  [FALSE] omission [high/diagnosis mismatch/n/a]: just maybe my stomach.
+  [TRUE] omission [high/diagnosis mismatch/n/a]: no.
+  [FALSE] omission [critical/drug switch/n/a]: just normal vomit
+  [FALSE] omission [high/diagnosis mismatch/n/a]: I had a loss of appetite
+  [FALSE] omission [critical/drug switch/n/a]: no
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Um, it seems like you may have something, uh, called gastroenteritis, which essentially just a tummy bug or infection of your uh of your tummy.
+  [FALSE] omission [critical/drug switch/n/a]: It's really just, um, making sure you're well hydrated, so drinking fluids.
+  [FALSE] omission [critical/drug switch/n/a]: Um, there are things like Dioralyte you can get from the pharmacy, which uh it's um it helps helps replenish your minerals and vitamins.
+  [FALSE] omission [critical/drug switch/n/a]: Um, there are things like Dioralyte you can get from the pharmacy, which uh it's um it helps helps replenish your minerals and vitamins.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No blood in stool.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Associated LLQ pain - crampy, intermittent, nil radiation.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Associated LLQ pain - crampy, intermittent, nil radiation.
+  [FALSE] hallucination [critical/drug switch/plan]: Conservative management - rest, push fluids, paracetamol if feverish.
+  [FALSE] hallucination [critical/negation flip/subjective]: etoh: Nil smoking/etOH hx
+  [FN] omission [low/omitted detail]: Takeaway 4/7 ago - Chinese restaurant.
+  [FN] omission [low/omitted detail]: 3/7 hx of diarrhea, mainly watery.
+  [FN] hallucination [critical/negation flip]: blood in vomit.
+  [FN] hallucination [high/number edit]: Opening bowels x60/day.
+
+prim10.txt
+  [FALSE] omission [high/diagnosis mismatch/n/a]: yeah it's been going on for a little bit longer than three days I think actually
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Um, and yeah I notice a sort of burning, stinging, when I when I go to the toilet, yeah.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Um, and yeah I notice a sort of burning, stinging, when I when I go to the toilet, yeah.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: I wouldn't describe it as crampy I don't think it's like a period pain
+  [FALSE] omission [high/diagnosis mismatch/n/a]: I wouldn't describe it as crampy I don't think it's like a period pain
+  [FALSE] omission [high/diagnosis mismatch/n/a]: No
+  [FALSE] omission [high/diagnosis mismatch/n/a]: no nausea vomiting.
+  [FALSE] omission [critical/drug switch/n/a]: Uh yeah, uh I'm um on the pill.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Yeah
+  [FALSE] omission [high/diagnosis mismatch/n/a]: the fact that I, I I think it's, um, probably just a simple what we'd say a UTI or a cystitis, bladder infection.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: the fact that I, I I think it's, um, probably just a simple what we'd say a UTI or a cystitis, bladder infection.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Uh, you know you haven't got any other symptoms that, suggest to me that there's anything to worry about, so things like fevers and back pain.
+  [FALSE] omission [critical/drug switch/n/a]: Um, so we've got a choice of two antibiotics something called Trimethoprim or, Nitrofurantoin which is a three day course.
+  [FALSE] omission [critical/drug switch/n/a]: Um, start the antibiotics, make sure you're well hydrated, drink plenty of fluids.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: vomiting
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: 1/52 hx of dysuria, frequency and suprapubic pain.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: 1/52 hx of dysuria, frequency and suprapubic pain.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Noticed urine today was pink, nil frank haematuria.
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: Suprapubic pain on PU - aching pain, radiating Nil nausea/vomiting Nil fevers Nil new bowel sx Currently sexually active - long-term partner.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Suprapubic pain on PU - aching pain, radiating Nil nausea/vomiting Nil fevers Nil new bowel sx Currently sexually active - long-term partner.
+  [FALSE] hallucination [critical/drug switch/subjective]: DH: COCP, mebeverine
+  [TRUE] hallucination [critical/drug switch/plan]: Regular paracetamol for pain
+  [TRUE] hallucination [high/diagnosis mismatch/plan]: Nil neck stiffness.
+  [FALSE] hallucination [critical/negation flip/subjective]: today: Noticed urine today was pink, nil frank haematuria.
+  [FALSE] hallucination [critical/negation flip/subjective]: aching: Suprapubic pain on PU - aching pain, radiating Nil nausea/vomiting Nil fevers Nil new bowel sx Currently sexually active - long-term partner.
+  [FALSE] hallucination [critical/negation flip/subjective]: active: Suprapubic pain on PU - aching pain, radiating Nil nausea/vomiting Nil fevers Nil new bowel sx Currently sexually active - long-term partner.
+  [FALSE] hallucination [critical/negation flip/plan]: pain: Regular paracetamol for pain
+  [FALSE] hallucination [critical/allergy mismatch/subjective]: Allergic to clindamycin
+  FN - none
+
+prim11.txt
+  [FALSE] omission [critical/drug switch/n/a]: Yeah, so I mean I'm , I'm trying to drink a lot of water.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: I feel a cramp.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Um, yeah I definitely, I definitely feel kind of nauseous.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Like I and, like I've have vomited.
+  [FALSE] omission [critical/drug switch/n/a]: And when I like, I think it's maybe something to do with like, whenever I have like milk or something like that, I just feel like I want to vomit.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Um so I
+  [FALSE] omission [high/diagnosis mismatch/n/a]: yeah I think I am pretty
+  [FALSE] omission [high/diagnosis mismatch/n/a]: uh I'm pretty sure I'm burning up
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Um yeah a bit
+  [FALSE] omission [critical/drug switch/n/a]: Um so I
+  [FALSE] omission [critical/drug switch/n/a]: Um so, I had some, I mean I had some lunch today.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Um bowel, so would, would bowel like, is is the colon like something that
+  [FALSE] omission [high/diagnosis mismatch/n/a]: So it could be anything from the mouth anus.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: And I, I don't exactly know the full things of like the steps of cancer, and all that kind of thing.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: bit of a basic infection of your tummy.
+  [FALSE] omission [critical/drug switch/n/a]: I am obviously worried about the fact that you are losing minerals and vitamins.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: So you're saying that I should
+  [FALSE] omission [critical/drug switch/n/a]: buy this Dioralyte
+  [FALSE] omission [high/diagnosis mismatch/n/a]: You can use soft diet, things like soup, mash.
+  [FALSE] omission [critical/drug switch/n/a]: Is it OK for me to carry on having like
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Feeling feverish, hot/cold
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Feeling feverish, hot/cold
+  [FALSE] hallucination [critical/negation flip/assessment]: gastroenteritis: Imp: gastroenteritis
+  [FN] omission [low/omitted detail]: Feels nauseous, has vomited occasionally.
+
+prim12.txt
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Right, so, uh, I've been having, uh, diarrhoea, for like, let's say past three days, more or less.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: not really
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Yeah, just felt, like some nausea and I had to, to vomit, and then I had some diarrhoea, straight after that.
+  [FALSE] omission [critical/drug switch/n/a]: not that I remember
+  [FALSE] omission [critical/drug switch/n/a]: Yes it is
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Um, so, my father has, high uh, well used to have high blood pressure.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: He actually, so he actually died, of, bowel cancer, like ten years ago.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Ohh yes, so uh, probably is worth mentioning uh, she has diabetes.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: It's an infection of your, your tummy.
+  [FALSE] omission [critical/drug switch/n/a]: Uh you can get things from the pharmacy, which is called Dioralyte, which can help replenish any uh minerals and vitamins you may have lost.
+  [FALSE] omission [critical/drug switch/n/a]: Uh you can get things from the pharmacy, which is called Dioralyte, which can help replenish any uh minerals and vitamins you may have lost.
+  [FALSE] hallucination [critical/drug switch/subjective]: DH: salbutamol PRN
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: mother - diabetes Type 2
+  [FALSE] hallucination [critical/negation flip/subjective]: fever: No fever/temp
+  [FALSE] hallucination [critical/negation flip/subjective]: headaches: No headaches/muscle pain.
+  [FALSE] hallucination [critical/negation flip/subjective]: etoh: Nil smoking, social EtOH
+  [FALSE] hallucination [critical/negation flip/assessment]: gastroenteritis: Imp: gastroenteritis
+  [FN] omission [low/omitted detail]: Has now developed diarrhea - 5-6x/day.
+
+prim13.txt
+  [FALSE] omission [high/diagnosis mismatch/n/a]: it's basically like
+  [FALSE] omission [high/diagnosis mismatch/n/a]: it developed gradually
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Not loss of vision
+  [FALSE] omission [high/diagnosis mismatch/n/a]: I I'm sick with the headache
+  [FALSE] omission [critical/drug switch/n/a]: Mm not that I know of.
+  [FALSE] omission [critical/drug switch/n/a]: Um at first I thought it's stress, or maybe I didn't drink enough water.
+  [FALSE] omission [critical/drug switch/n/a]: Yeah maybe just kinda
+  [FALSE] omission [critical/drug switch/n/a]: it's certainly worth treating it today stronger analgesia or painkillers.
+  [FALSE] omission [critical/drug switch/n/a]: Or, I can prescribe you something stronger, like Naproxen, which is another anti-inflammatory, which can be helpful.
+  [FALSE] omission [critical/drug switch/n/a]: Or, I can prescribe you something stronger, like Naproxen, which is another anti-inflammatory, which can be helpful.
+  [FALSE] omission [critical/drug switch/n/a]: Um, we can also add in other, painkillers like, Paracetamol, or Codeine.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Constant, severity 8/10, dull ache with associated sharp pain, gradual onset.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Constant, severity 8/10, dull ache with associated sharp pain, gradual onset.
+  [FALSE] hallucination [critical/drug switch/subjective]: Has tried ibuprofen with limited relief.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Visual aura prior to headaches.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Some photophobia.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No neck pain/stiffness
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No neck pain/stiffness
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: ICE: ?related to stress/dehydration.
+  [FALSE] hallucination [critical/drug switch/plan]: Paracetamol/NSAIDs regular
+  [FALSE] hallucination [critical/negation flip/subjective]: rashes: No rashes
+  [FALSE] hallucination [critical/negation flip/subjective]: migraines: Imp: migraines
+  [FALSE] hallucination [critical/allergy mismatch/subjective]: NKDA
+  [FN] hallucination [moderate/inserted sentence]: Feeling stressed ++.
+  [FN] hallucination [moderate/inserted sentence]: No mood sx.
+
+prim14.txt
+  [FALSE] omission [critical/drug switch/n/a]: yeah
+  [FALSE] omission [high/diagnosis mismatch/n/a]: And my nose is running.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: I mean
+  [FALSE] omission [critical/drug switch/n/a]: just my throat is irritated from coughing
+  [FALSE] omission [high/diagnosis mismatch/n/a]: No pain, no discharge coming from your ears.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: No pain, no discharge coming from your ears.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: I don't feel restless
+  [FALSE] omission [high/diagnosis mismatch/n/a]: I don't feel restless
+  [FALSE] omission [high/diagnosis mismatch/n/a]: No
+  [FALSE] omission [high/diagnosis mismatch/n/a]: No
+  [FALSE] omission [high/diagnosis mismatch/n/a]: no nausea
+  [FALSE] omission [high/diagnosis mismatch/n/a]: I just like, my stomach wasn't feeling great.
+  [FALSE] omission [critical/drug switch/n/a]: I, I drank loads of water, when I started having the diarrhea.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: I had chills
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Especially like in my arms, my legs, like just everywhere basically.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Yeah
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Uh, well I have type two diabetes.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: And I have quite high blood pressure.
+  [FALSE] omission [critical/drug switch/n/a]: not too active a job.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Um, right so uh just as we wrap up really, um April I think based on your story, I think uh essentially I think you're, you're going through a bit of a bit of a viral illness.
+  [FALSE] omission [critical/drug switch/n/a]: Keep yourself well-hydrated.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: And if you are still feeling feverish, um and your cough isn't getting any better, then we may look to give you some antibiotics for your chest.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: some of the uh uh common source of infection.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Runny nose, no ear pain, no sore throat.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No SOB/chest pain
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Feeling tired, weak and myalgia.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No nausea/vomiting
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: now resolved Nil urinary symptoms
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No rashes PMH: Type 2 diabetes, HTN
+  [FALSE] hallucination [critical/negation flip/subjective]: sore throat: Runny nose, no ear pain, no sore throat.
+  [FALSE] hallucination [critical/negation flip/subjective]: diarrhea: Initial diarrhea
+  [FALSE] hallucination [critical/negation flip/subjective]: rashes: No rashes PMH: Type 2 diabetes, HTN
+  [FALSE] hallucination [critical/negation flip/subjective]: stress: FH: Father - type 2 diabetes SH: lives with partner, works IT, reports stress.
+  [FN] hallucination [critical/number edit]: Social EtOH <140 units/week
+
+Imp: viral URTI 
+
+Plan:
+1.
+
+prim15.txt
+  [FALSE] omission [critical/drug switch/n/a]: It's just you know, I've always, you know, I don't hydrate very much.
+  [FALSE] omission [critical/drug switch/n/a]: Yeah I mean
+  [FALSE] omission [high/diagnosis mismatch/n/a]: No.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: No.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: I have diabetes.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Not that I know of
+  [FALSE] omission [high/diagnosis mismatch/n/a]: No
+  [FALSE] omission [high/diagnosis mismatch/n/a]: no.
+  [FALSE] omission [critical/drug switch/n/a]: Uh yeah
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: Dry cough, keeps pt up at night.
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: No pain Works as a cleaner and does always wear gloves - possible trigger
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: No fever
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Appetite maintained PMH: Type 2 diabetes
+  [TRUE] hallucination [critical/drug switch/subjective]: Has tried E85 cream and antihistamines with minimal relief
+  [FALSE] hallucination [critical/drug switch/subjective]: Has tried E85 cream and antihistamines with minimal relief
+  [FALSE] hallucination [critical/negation flip/subjective]: metformin: DH: metformin NKDA
+  FN - none
+
+prim16.txt
+  [FALSE] omission [critical/drug switch/n/a]: Uh yeah
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Um I had something maybe
+  [FALSE] omission [high/diagnosis mismatch/n/a]: I occasionally get like a ringing in my left ear
+  [FALSE] omission [high/diagnosis mismatch/n/a]: um there's actually been a few times when I felt kind of a bit sick or a bit dizzy as well.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: not specifically apart from the dizziness so much.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Uh nah I'll do it.
+  [FALSE] omission [critical/drug switch/n/a]: lead to muffled hearing.
+  [FALSE] omission [critical/drug switch/n/a]: OK.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Uh nothing major it's just kind of uh it's, it's not the kind of dizziness you get with nausea, like uh not, not proper room spinning or anything like that
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Uh nothing major it's just kind of uh it's, it's not the kind of dizziness you get with nausea, like uh not, not proper room spinning or anything like that
+  [FALSE] omission [critical/drug switch/n/a]: just, just a little bit kind of off balance.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: No.
+  [FALSE] omission [critical/drug switch/n/a]: and Tinnitus is something actually that medicine doctors, we don't really understand it fully.
+  [FALSE] omission [critical/drug switch/n/a]: OK brilliant.
+  [TRUE] hallucination [critical/drug switch/subjective]: discharge/ fever/ itchiness/ pain Doesn't use cotton wool buds No Pmhx of note Ex: Looks well, in pain.
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: Pln: for face to face Bell appointment in 50 days to examine ear
+  [FALSE] hallucination [critical/negation flip/subjective]: dizziness: Hx of difficulty hearing left ear for 60 weeks with tinnitus and slight nausea/ dizziness.
+  [FALSE] hallucination [critical/negation flip/subjective]: impacted: Imp: need to exclude impacted wax in ear canal first
+  [FN] hallucination [high/number edit]: Imp: need to exclude impacted wax in ear canal first
+Pln: for face to face GP appointment in 50 days to examine ear
+Pt to read about tinnitus in the meantime via following link: www.patient.co.uk/tinnitus
+If any problems in interim to ring us back
+Pt happy with and understands plan
+  [FN] hallucination [critical/negation flip]: discharge/ fever/ itchiness/ pain Doesn't use cotton wool buds No Pmhx of note Ex: Looks well, in pain.
+  [FN] hallucination [high/number edit]: History: 
+ Hx of difficulty hearing left ear for 60 weeks with tinnitus and slight nausea/ dizziness.
+
+prim17.txt
+  [FALSE] omission [critical/drug switch/n/a]: Before we start your appointment, could you please tell me your first name and your date of birth.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: no
+  [FALSE] omission [high/diagnosis mismatch/n/a]: well I
+  [FALSE] omission [high/diagnosis mismatch/n/a]: I do
+  [FALSE] omission [high/diagnosis mismatch/n/a]: osteoarthritis
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Um,
+  [FALSE] omission [high/diagnosis mismatch/n/a]: no not really
+  [FALSE] omission [high/diagnosis mismatch/n/a]: No.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: So, that's an inflammation of one of the fluid sacs around the joint.
+  [FALSE] omission [critical/drug switch/n/a]: Um, what I think we should do is, I think you should be on some anti-inflammatory medication, in the, in the first instance.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: And, that will involve you, um, having some tests done to check for inflammatory markers, infection, rheumatological antibodies.
+  [FALSE] omission [critical/drug switch/n/a]: And, that will involve you, um, having some tests done to check for inflammatory markers, infection, rheumatological antibodies.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: So we'll do a full screen, and also check for things like Gout as well, OK.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: It doesn't look like, to me that's something called, excuse me, septic arthritis.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: So, we're worried sometimes that someone might have an acutely infected joint.
+  [FALSE] omission [critical/drug switch/n/a]: So, I, I would take Ibuprofen regularly, OK.
+  [FALSE] omission [critical/drug switch/n/a]: And you should take, take that after food, not on an empty stomach.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: And you should take, take that after food, not on an empty stomach.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Maybe within a um, actually you know, the follow-up appointment doesn't have to be face-to-face, if it's more convenient for you do, to do it over the phone, we can do that over the phone, uh, over video.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Hx: 1 week history of spontaneous elbow swelling left.
+  [FALSE] hallucination [high/diagnosis mismatch/subjective]: Mild erythema and minimal swelling (if any) around olecranon process left elbow
+  [FALSE] hallucination [critical/negation flip/assessment]: bursitis: Imp: possible bursitis
+  [FALSE] omission [critical/allergy mismatch/n/a]: Uh, no. Not that I know of.
+  [FALSE] hallucination [critical/allergy mismatch/subjective]: DH: not on any medication, allergic to peanuts
+  [FN] hallucination [critical/negation flip]: painful.
+
+prim18.txt
+  [FALSE] omission [critical/drug switch/n/a]: yeah
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Not that I
+  [FALSE] omission [high/diagnosis mismatch/n/a]: I've
+  [FALSE] omission [high/diagnosis mismatch/n/a]: been told I have polyps in my nose in the past
+  [FALSE] omission [critical/drug switch/n/a]: Um, that, that's all fine and, you know I take a Rennie's if I need to, and if my nose polyps are playing up I've got a spray.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: , labyrinthitis, something like that
+  [FALSE] omission [critical/drug switch/n/a]: No.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: Neurofibromatosis
+  [FALSE] omission [high/diagnosis mismatch/n/a]: , because of all the kind of, these symptoms I've been getting, especially sometimes when I get a ringing, I can feel a bit dizzy.
+  [FALSE] omission [high/diagnosis mismatch/n/a]: what you're, what you're describing might be something called Bell's Palsy.
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: Hx: 1 week history of left side difficulty hearing and facial numbness dysphagia, dysarthria, no unilateral weakness / numbness in the rest of the body, no visual disturbances No ear pain, ear discharge, fever, itchiness or cotton bud use.
+  [TRUE] hallucination [high/diagnosis mismatch/subjective]: Slight tinnitus at times in this period- continuous HTN
+  [FALSE] hallucination [critical/negation flip/subjective]: dysphagia: Hx: 1 week history of left side difficulty hearing and facial numbness dysphagia, dysarthria, no unilateral weakness / numbness in the rest of the body, no visual disturbances No ear pain, ear discharge, fever, itchiness or cotton bud use.
+  [FALSE] hallucination [critical/negation flip/subjective]: cotton: Hx: 1 week history of left side difficulty hearing and facial numbness dysphagia, dysarthria, no unilateral weakness / numbness in the rest of the body, no visual disturbances No ear pain, ear discharge, fever, itchiness or cotton bud use.
+  [FALSE] omission [critical/allergy mismatch/n/a]: Uh, no just Latex.
+  [FN] hallucination [low/entity swap]: GP's Palsy- need to rule out any other focal neurology 
+ Plan: for face to face review today for neurological examination and ear examination 
+ Pt to ring support line for GP F2f slot 
+ Pt understands and is happy with plan
+  [FN] hallucination [critical/negation flip]: Slight tinnitus at times in this period- continuous Numbness and difficulty hearing present now Pmhx: labyrinthitis, heart burn, nasal polyps DH: Rennies PRN OTC, nasal spray PRN (pt not sure of name) Allergies: latex allergy No FH of note Ex: no facial asymmetry, looks well, normal facial expressions and movements Imp: ?
+
+=== Evaluation Results ===
+prim1.txt: precision=0.06 recall=0.20 f1=0.09 accuracy=0.05 (TP=1 FP=17 FN=4)
+prim10.txt: precision=0.11 recall=1.00 f1=0.19 accuracy=0.11 (TP=3 FP=25 FN=0)
+prim11.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=23 FN=1)
+prim12.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=17 FN=1)
+prim13.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=23 FN=2)
+prim14.txt: precision=0.03 recall=0.50 f1=0.06 accuracy=0.03 (TP=1 FP=32 FN=1)
+prim15.txt: precision=0.19 recall=1.00 f1=0.32 accuracy=0.19 (TP=3 FP=13 FN=0)
+prim16.txt: precision=0.11 recall=0.40 f1=0.17 accuracy=0.10 (TP=2 FP=16 FN=3)
+prim17.txt: precision=0.00 recall=0.00 f1=0.00 accuracy=0.00 (TP=0 FP=24 FN=1)
+prim18.txt: precision=0.13 recall=0.50 f1=0.21 accuracy=0.12 (TP=2 FP=13 FN=2)
+
+Overall (all types): precision=0.06 recall=0.44 f1=0.10 accuracy=0.05 (TP=12 FP=203 FN=15)
+
+By type:
+  hallucination: precision=0.16 recall=0.50 f1=0.24 accuracy=0.14 (TP=11 FP=57 FN=11)
+  omission: precision=0.01 recall=0.20 f1=0.01 accuracy=0.01 (TP=1 FP=146 FN=4)
+
+Average elapsed time: 2.88s
+
+By severity (recall -- are we catching the risky ones?):
+  critical: 5/10 caught (recall=0.50)
+  high: 2/5 caught (recall=0.40)
+  low: 3/8 caught (recall=0.38)
+  moderate: 2/4 caught (recall=0.50)
+  accuracy on matched errors (predicted value == label value): 0.08 (1/12)
+  mean absolute error (severity rank): 1.17
+
+By detail type (recall -- are we catching this corruption category?):
+  entity swap: 2/3 caught (recall=0.67)
+  inserted sentence: 3/5 caught (recall=0.60)
+  negation flip: 5/9 caught (recall=0.56)
+  number edit: 1/5 caught (recall=0.20)
+  omitted detail: 1/5 caught (recall=0.20)
+  accuracy on matched errors (predicted value == label value): 0.00 (0/12)
+
+By severity, split by label type:
+  hallucination:
+    critical: 5/10 caught (recall=0.50)
+    high: 2/5 caught (recall=0.40)
+    low: 2/3 caught (recall=0.67)
+    moderate: 2/4 caught (recall=0.50)
+  omission:
+    low: 1/5 caught (recall=0.20)
+
+By SOAP section (predictions -- omissions have no section, they
+describe content missing FROM the note, always bucketed under "n/a"):
+  hallucination:
+    assessment: TP=0 FP=3
+    plan: TP=2 FP=3
+    subjective: TP=9 FP=51
+  omission:
+    n/a: TP=1 FP=146
+
+Critical-severity labels caught (TP), by section:
+  subjective: 5

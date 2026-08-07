@@ -1,0 +1,52 @@
+d: Can I confirm your name and your age please?
+p: My name is Robert, I'm forty eight.
+d: How can I help you this afternoon?
+p: I've been having diarrhoea for the past three days, more or less.
+d: Can you tell me a bit more about your diarrhoea?
+p: Very bad diarrhoea, I keep going back and forth to the toilet very often. It started three days ago with vomiting, a couple of times, but then that went away, and now it's just diarrhoea.
+d: How many times are you going a day?
+p: Five to six times a day.
+d: Is it quite watery, your stools, loose?
+p: Definitely watery, loose stools.
+d: Any blood in your stools?
+p: No, not that I could see.
+d: Have you noticed any other symptoms, like tummy pain?
+p: Not really, but I feel like I can't really drink too much, so I feel very dehydrated. I'm trying to drink but then I just go to the loo again and feel dehydrated again.
+d: Have you managed to eat anything, solids?
+p: Not much, I don't really feel like I have appetite.
+d: The vomiting has now stopped?
+p: Yes.
+d: Have you had any other symptoms, like fever or temperature?
+p: Not really, I feel a little bit warm, probably at the beginning I had a bit of temperature, but now I feel kind of fine. I feel very weak though.
+d: Any headaches or muscle pains?
+p: Not really, no.
+d: What were you doing when the symptoms started, three days ago? Are you aware of any triggers?
+p: Not that I remember, I was at home working on my computer, I just felt some nausea and had to vomit, then had diarrhoea straight after.
+d: Did you have any takeaway food, or any dodgy restaurant food?
+p: Not that I remember, no.
+d: Have you been around anyone unwell with diarrhea recently?
+p: Not that I know.
+d: Are you otherwise fit and well?
+p: Yeah.
+d: Do you take any regular medications?
+p: I do suffer from asthma, I have my inhalers, the blue inhaler, that I use infrequently.
+d: Any other medications you take?
+p: No, nothing.
+d: Do you have any allergies to medications?
+p: Not that I know of.
+d: Any family history of any medical problems?
+p: My father used to have high blood pressure, he actually died of bowel cancer about ten years ago. My mother has diabetes, type two.
+d: Who lives at home with you?
+p: I live alone.
+d: Are you currently working at the moment?
+p: I haven't been able to work in the past few days.
+d: What do you do for work?
+p: I'm a software engineer.
+d: Have you taken time off work recently?
+p: Yes, these last three days I've been feeling really unwell, so I couldn't work.
+d: Regarding your smoking and alcohol, do you do either of those?
+p: I drink infrequently, socially, and I don't smoke.
+d: Having listened to your story, I think you're probably suffering from gastroenteritis, essentially a tummy bug, an infection of your tummy, normally lasts about three to five days and gets better. Drink plenty of fluids, try and flush the toxins out of your body. You can get Dioralyte from the pharmacy, a type of fluid replacement drink, which can help replenish minerals and vitamins you may have lost. You can take some Paracetamol if you're feeling feverish and weak. I would advise you to continue taking time off work for a day or two until you get better -- normally you have to be diarrhea-free for about twenty four to forty eight hours before you return to work. Let's see how the next few days go, and if you're still not better next week, I want you to come back and see me.
+p: That sounds good, thanks so much.
+d: Do you have any questions for me?
+p: No, I think that's fine, I'll try to drink plenty of fluid and I hope it goes away. If it doesn't I'll call back, is that OK?

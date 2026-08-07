@@ -1,0 +1,6 @@
+[
+  {
+    "type": "hallucination",
+    "detail": "I have negated \"2 day history of wheezing and SOBAR, after cleaning dusty environment\nNo chest pain.\" to \"2 day history of wheezing and SOBAR, after cleaning dusty environment chest pain.\""
+  }
+]

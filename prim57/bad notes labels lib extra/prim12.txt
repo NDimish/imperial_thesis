@@ -1,0 +1,18 @@
+[
+  {
+    "type": "omission",
+    "detail": "Appetite reduced."
+  },
+  {
+    "type": "omission",
+    "detail": "Supportive mx - rest, fluids\n2."
+  },
+  {
+    "type": "omission",
+    "detail": "Has now developed diarrhea - 5-6x/day."
+  },
+  {
+    "type": "hallucination",
+    "detail": "I have edited number \"2\" to \"20\" in \"mother - diabetes Type 20\nSH: lives alone , software engineer.\""
+  }
+]

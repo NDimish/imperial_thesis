@@ -1,10 +1,14 @@
 [
   {
     "type": "hallucination",
-    "detail": "inserted sentence from note 54: \"If gets worse in meantime contact us straightaway or go to A&E is severe/unrelenting.\""
+    "detail": "inserted sentence from note 54: \"Reduced appetite, no wt loss, \n\nSE: GI - Dec app, no change in BH, no blood in stool, no dyspepsia.\""
   },
   {
     "type": "hallucination",
-    "detail": "\"A&E\" was swapped for \"TATT\" (from note 54)"
+    "detail": "inserted sentence from note 44: \"Non productive.\""
+  },
+  {
+    "type": "omission",
+    "detail": "Has missed a few days of work."
   }
 ]
