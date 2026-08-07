@@ -87,7 +87,8 @@ def clean_transcript(text):
 
 
 def split_turns(transcript):
-    """Splits a d:/p: tagged transcript into a list of (speaker, text) tuples."""
+    """Splits a d:/p: (or Speaker 0:/Speaker 1:) tagged transcript into a
+    list of (speaker, text) tuples, normalized to "d"/"p" either way."""
     turns = []
     for line in transcript.splitlines():
         line = line.strip()
@@ -95,7 +96,7 @@ def split_turns(transcript):
             continue
         match = TURN_PATTERN.match(line)
         if match:
-            turns.append((match.group(1).lower(), match.group(2)))
+            turns.append((_normalize_speaker(match.group(1)), match.group(2)))
         else:
             turns.append((None, line))
     return turns
