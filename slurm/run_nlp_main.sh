@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Runs NLP_Main.py -- the condenser-module side of the hospital clinical-
+# Runs run_condensers.py -- the condenser-module side of the hospital clinical-
 # documentation QA pipeline (Medspacy/SciSpacy/Negspacy/QuickUMLS condensers,
 # scored via KDE-based omission checking before/after condensing).
 #
@@ -21,6 +21,6 @@ export RESULTS_DIR
 
 LIMIT="${1:-}"
 
-echo "[$(date +%F' '%T)] Starting NLP_Main.py -- results: $RESULTS_DIR"
-python NLP_Main.py $LIMIT 2>&1 | tee -a "$RESULTS_DIR/nlp_main_run.log"
-echo "[$(date +%F' '%T)] NLP_Main.py finished."
+echo "[$(date +%F' '%T)] Starting run_condensers.py -- results: $RESULTS_DIR"
+python run_condensers.py $LIMIT 2>&1 | tee -a "$RESULTS_DIR/nlp_main_run.log"
+echo "[$(date +%F' '%T)] run_condensers.py finished."

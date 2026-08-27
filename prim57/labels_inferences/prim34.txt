@@ -1,0 +1,5 @@
+[
+  {"type": "inference", "detail_type": "timing synchronized to '2 weeks ago' for both symptoms -- patient describes the vision episode as 'a few weeks ago' separately from the arm numbness ('at least two weeks'), timelines are fuzzier in the transcript than the note's single figure implies", "detail": "Visual disturbace in the left peripheral field lasting 20 minutes 2 weeks ago"},
+  {"type": "clinical_word", "detail_type": "differential diagnosis (named explicitly by doctor)", "detail": "Plan : urgent neurology review \nr/o MS"},
+  {"type": "clinical_word", "detail_type": "family history condition", "detail": "FH : Dad - hypothyroidism\nMOM- diabetes , high cholesterol and high BP"}
+]

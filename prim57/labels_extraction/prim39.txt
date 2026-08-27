@@ -1,0 +1,6 @@
+[
+  {"type": "negation", "detail": "No chest pain."},
+  {"type": "negation", "detail": "No nausea,no vomiting, no problems e+d"},
+  {"type": "negation", "detail": "Dhx : allergy nils no regular medications."},
+  {"type": "inference", "detail": "DDx : acute exacerbation of asthma, ?? allergy"}
+]

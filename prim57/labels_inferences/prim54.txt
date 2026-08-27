@@ -1,0 +1,6 @@
+[
+  {"type": "inference", "detail_type": "specific place name given -- patient's answer to 'whereabouts were you in the States?' is unintelligible/inaudible in the transcript, 'Yosemite' is never actually said", "detail": "Did lots of walking in shorts in Yosemite, didn't notice bite."},
+  {"type": "inference", "detail_type": "'non smoker' asserted -- patient's answer to the smoking question is inaudible in the transcript, never actually captured", "detail": "Lives with wife. Non smoker. Occ alcohol."},
+  {"type": "clinical_word", "detail_type": "chronic condition (PMH)", "detail": "PMH: Asthma, hayfever"},
+  {"type": "clinical_word", "detail_type": "differential diagnosis (screening)", "detail": "Plan: Needs screening bloods for TATT including Lyme serology."}
+]

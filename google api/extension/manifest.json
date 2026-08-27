@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "DiSCaScribe Note Checklist & Capture",
+  "version": "0.1.0",
+  "description": "Flags things to double-check on the AI-drafted SOAP note and records clinician edits to a local research server.",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://discascribe.vercel.app/*",
+    "http://localhost:5000/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "DiSCaScribe capture"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://discascribe.vercel.app/consultations/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

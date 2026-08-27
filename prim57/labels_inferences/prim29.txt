@@ -1,0 +1,5 @@
+[
+  {"type": "clinical_word", "detail_type": "diagnosis (PMH)", "detail": "Medical history : you had asthma since your childhood"},
+  {"type": "clinical_word", "detail_type": "drug", "detail": "Medication : you also use hydrocortisone and cetraban for eczema"},
+  {"type": "clinical_word", "detail_type": "allergy status", "detail": "You don't have any allergies"}
+]

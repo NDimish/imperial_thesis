@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Runs main.py -- the checker-module side of the hospital clinical-
+# Runs run_checker_modules.py -- the checker-module side of the hospital clinical-
 # documentation QA pipeline (AIChecker, AlignScoreChecker, SummaCChecker,
 # FactKBChecker, KdbeChecker flagging omissions/hallucinations between each
 # transcript and its SOAP note).
@@ -22,6 +22,6 @@ export RESULTS_DIR
 
 LIMIT="${1:-}"
 
-echo "[$(date +%F' '%T)] Starting main.py -- results: $RESULTS_DIR"
-python main.py $LIMIT 2>&1 | tee -a "$RESULTS_DIR/main_run.log"
-echo "[$(date +%F' '%T)] main.py finished."
+echo "[$(date +%F' '%T)] Starting run_checker_modules.py -- results: $RESULTS_DIR"
+python run_checker_modules.py $LIMIT 2>&1 | tee -a "$RESULTS_DIR/main_run.log"
+echo "[$(date +%F' '%T)] run_checker_modules.py finished."

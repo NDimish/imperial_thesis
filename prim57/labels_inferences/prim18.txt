@@ -1,0 +1,6 @@
+[
+  {"type": "inference", "detail_type": "'heart burn' as a PMHx entry backward-inferred from the patient taking Rennie's (an antacid) PRN -- patient never names heartburn as a condition", "detail": "Pmhx: labyrinthitis, heart burn, nasal polyps"},
+  {"type": "inference", "detail_type": "video-consult exam finding never verbalized -- doctor never comments on observing the patient's face at all", "detail": "Ex: no facial asymmetry, looks well, normal facial expressions and movements"},
+  {"type": "clinical_word", "detail_type": "diagnosis (named by doctor)", "detail": "Imp: ? Bell's Palsy- need to rule out any other focal neurology"},
+  {"type": "clinical_word", "detail_type": "allergy", "detail": "Allergies: latex allergy"}
+]

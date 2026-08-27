@@ -1,0 +1,8 @@
+[
+  {"type": "inference", "detail_type": "'?unstable angina' is the note's own diagnostic categorization of the patient's vague self-description ('a small heart attack... it seemed like more than angina') -- patient never uses the term unstable angina", "detail": "PMH: Heart failure, ?unstable angina"},
+  {"type": "inference", "detail_type": "'simvastatin' added to the medication list -- patient names Furosemide, Aspirin, and Bisoprolol explicitly but never mentions a statin at all; standard cardioprotective add-on filled in by convention", "detail": "DH: furosemide, aspirin, bisoprolol, simvastatin"},
+  {"type": "inference", "detail_type": "'BNP' (heart-failure-specific blood marker) added -- doctor only mentions 'full blood count' and 'kidney function' tests, never names BNP", "detail": "Blood tests, inc U+Es, FBC, BNP"},
+  {"type": "clinical_word", "detail_type": "diagnosis", "detail": "Imp: exacerbation of heart failure"},
+  {"type": "clinical_word", "detail_type": "allergy status", "detail": "NKDA"},
+  {"type": "clinical_word", "detail_type": "family history condition", "detail": "FH - father died of MI early 60s , mother - osteoporosis"}
+]

@@ -1,0 +1,6 @@
+[
+  {"type": "inference", "detail_type": "specific lab test names (ESR, CRP, FBC, rheum factor, urate) translated from the doctor's plain-language description ('inflammatory markers', 'rheumatological antibodies', 'check for things like Gout') -- none of these exact test names are said aloud", "detail": "For rheum bloods: esr, crp, fbc, rheum factor and urate"},
+  {"type": "clinical_word", "detail_type": "diagnosis", "detail": "Imp: possible bursitis"},
+  {"type": "clinical_word", "detail_type": "allergy", "detail": "DH: not on any medication, allergic to peanuts"},
+  {"type": "clinical_word", "detail_type": "differential to exclude (named explicitly by doctor)", "detail": "pt warned re symptoms of septic arthritis"}
+]

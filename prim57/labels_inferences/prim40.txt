@@ -1,0 +1,6 @@
+[
+  {"type": "discrepancy", "detail_type": "note records a different cancer type -- patient explicitly says his father 'died...of bowel cancer', the note records 'stomach Ca'", "detail": "FHx : father has history of stomach Ca."},
+  {"type": "inference", "detail_type": "'paracetamol' added to the plan -- doctor only advises fluids, watching for fever, staying home, and avoiding antibiotics; no pain medication is discussed", "detail": "Plan: fluids, paracetamol, advised if symptoms do not improve to visit the gp surgery."},
+  {"type": "clinical_word", "detail_type": "diagnosis (named explicitly by doctor)", "detail": "DDx : gastroenteritis"},
+  {"type": "clinical_word", "detail_type": "chronic condition (PMHx)", "detail": "PMH: As above."}
+]

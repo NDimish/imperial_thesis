@@ -1,0 +1,11 @@
+[
+  {"type": "negation", "detail": "No mucous, no blood"},
+  {"type": "negation", "detail": "No fever"},
+  {"type": "negation", "detail": "Did not eat out"},
+  {"type": "negation", "detail": "No foreign travel"},
+  {"type": "negation", "detail": "No dehydration on examination"},
+  {"type": "negation", "detail": "No allergies"},
+  {"type": "medicine", "detail": "Lapriso"},
+  {"type": "inference", "detail": "Medication ? Lapriso"},
+  {"type": "inference", "detail": "Diagnosis: Gastroenteritis"}
+]

@@ -1,0 +1,14 @@
+[
+  {"type": "negation", "detail": "Runny nose, no ear pain, no sore throat."},
+  {"type": "negation", "detail": "No SOB/chest pain"},
+  {"type": "negation", "detail": "No nausea/vomiting"},
+  {"type": "negation", "detail": "Nil urinary symptoms"},
+  {"type": "negation", "detail": "No rashes"},
+  {"type": "negation", "detail": "NKDA"},
+  {"type": "negation", "detail": "SH: lives with partner, works IT, denies stress."},
+  {"type": "medicine", "detail": "metformin"},
+  {"type": "medicine", "detail": "lisinopril"},
+  {"type": "medicine", "detail": "paracetamol"},
+  {"type": "inference", "detail": "Feeling shivery, hot/cold, ?fever"},
+  {"type": "inference", "detail": "Imp: viral URTI"}
+]

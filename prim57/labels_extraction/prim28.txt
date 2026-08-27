@@ -1,0 +1,9 @@
+[
+  {"type": "negation", "detail": "There is no chest pain"},
+  {"type": "negation", "detail": "You are not depressed or stressed"},
+  {"type": "negation", "detail": "There is no vomiting"},
+  {"type": "negation", "detail": "There is no history of acid reflux"},
+  {"type": "negation", "detail": "you have not been using the thyroxine for a while since you changed practice ."},
+  {"type": "negation", "detail": "You do not remember the last time you had your last set of bloods"},
+  {"type": "medicine", "detail": "thyroxine"}
+]

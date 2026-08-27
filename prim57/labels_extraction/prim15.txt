@@ -1,0 +1,11 @@
+[
+  {"type": "negation", "detail": "No pain"},
+  {"type": "negation", "detail": "No fever"},
+  {"type": "negation", "detail": "No bowel/urinary sx"},
+  {"type": "negation", "detail": "NKDA"},
+  {"type": "negation", "detail": "Nil smoking"},
+  {"type": "medicine", "detail": "metformin"},
+  {"type": "medicine", "detail": "E45 cream"},
+  {"type": "medicine", "detail": "antihistamines"},
+  {"type": "inference", "detail": "Imp: contact dermatitis"}
+]

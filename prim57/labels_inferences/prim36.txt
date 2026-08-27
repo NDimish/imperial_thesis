@@ -1,0 +1,5 @@
+[
+  {"type": "inference", "detail_type": "specific allergy 'aspirin' filled in -- the patient's actual answer to the allergy question is inaudible in the transcript, never clearly captured", "detail": "DHx - allergies aspirin."},
+  {"type": "inference", "detail_type": "full differential list (MI, PE, GORD) added -- doctor only vaguely says 'I'm always worried about the heart first', never names these specific conditions", "detail": "DDx - MI, PE, GORD"},
+  {"type": "clinical_word", "detail_type": "chronic condition (PMHx)", "detail": "PMHx - high cholesterol and high blood pressure."}
+]

@@ -1,0 +1,12 @@
+[
+  {"type": "negation", "detail": "Feels no pain, but still can't move it"},
+  {"type": "negation", "detail": "No previous similar episodes"},
+  {"type": "negation", "detail": "No discolouration in hand, arm doesn't feel cold"},
+  {"type": "negation", "detail": "Symptoms limited to left arm, not in left leg"},
+  {"type": "negation", "detail": "Patient has not noticed any facial asymmetry"},
+  {"type": "negation", "detail": "No-one at home with patient"},
+  {"type": "medicine", "detail": "metformin"},
+  {"type": "medicine", "detail": "losartan"},
+  {"type": "medicine", "detail": "amlodipine"},
+  {"type": "inference", "detail": "Imp: ? CVA"}
+]

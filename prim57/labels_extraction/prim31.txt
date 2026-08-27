@@ -1,0 +1,6 @@
+[
+  {"type": "negation", "detail": "no closing of the throat feeling"},
+  {"type": "negation", "detail": "no previous similar history"},
+  {"type": "medicine", "detail": "antihistamines"},
+  {"type": "inference", "detail": "It might be just urticaria ( Hives)Call the ambulance to r/o possible anaphylactic reaction"}
+]

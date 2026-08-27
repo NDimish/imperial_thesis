@@ -1,0 +1,6 @@
+[
+  {"type": "inference", "detail_type": "specific differentials named -- doctor only ever says 'this could be a few different things', PID/STI/UTI are never verbalized", "detail": "Imp- Simple constipation, PID, STI, UTI"},
+  {"type": "inference", "detail_type": "'spotting' commits to a vaginal source -- patient actually describes ambiguous pink-tinged urine ('in my pee...a little bit pink'), unsure if period-related", "detail": "Spotting"},
+  {"type": "clinical_word", "detail_type": "allergy", "detail": "PMhx - Amox"},
+  {"type": "clinical_word", "detail_type": "family history condition", "detail": "Fhx -Brther Type 1 dm."}
+]

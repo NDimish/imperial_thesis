@@ -1,0 +1,14 @@
+[
+  {"type": "negation", "detail": "No bowel sx."},
+  {"type": "negation", "detail": "Urinary sx - noticed some pink coloured urine, no frank haematuria, nil dysuria."},
+  {"type": "negation", "detail": "Some nausea, no vomiting"},
+  {"type": "negation", "detail": "No chest pain/SOB/palpitations"},
+  {"type": "negation", "detail": "No headches/visual sx"},
+  {"type": "negation", "detail": "PMH: nil"},
+  {"type": "negation", "detail": "PSH: nil"},
+  {"type": "negation", "detail": "FH: nil"},
+  {"type": "negation", "detail": "Nil smoking, social EtOH"},
+  {"type": "medicine", "detail": "implanon"},
+  {"type": "medicine", "detail": "paracetamol"},
+  {"type": "inference", "detail": "Imp: ?UTI. also need to exclude pregnancy"}
+]

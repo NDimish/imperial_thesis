@@ -1,0 +1,11 @@
+[
+  {"type": "negation", "detail": "No pre aura,"},
+  {"type": "negation", "detail": "No radiation"},
+  {"type": "negation", "detail": "Some nausea  no vomiting,"},
+  {"type": "negation", "detail": "No pmhx of headache."},
+  {"type": "negation", "detail": "Pins and needles in both arms, no radiation to legs, maintains motor and sense, no loss of function"},
+  {"type": "negation", "detail": "Symptoms occur at random times of the day while at work, with no pre-symptoms, sometimes together, sometimes individually."},
+  {"type": "negation", "detail": "DHx allergies - nil"},
+  {"type": "medicine", "detail": "Thyroxine."},
+  {"type": "inference", "detail": "DDx ??hypothyroid?"}
+]

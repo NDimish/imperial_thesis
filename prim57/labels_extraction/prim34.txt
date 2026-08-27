@@ -1,0 +1,10 @@
+[
+  {"type": "negation", "detail": "No neck pain"},
+  {"type": "negation", "detail": "no fits"},
+  {"type": "negation", "detail": "no weakness elsewhere, gait is normal"},
+  {"type": "medicine", "detail": "ibuprofen"},
+  {"type": "medicine", "detail": "Vitamin D"},
+  {"type": "medicine", "detail": "iron tablets"},
+  {"type": "medicine", "detail": "melatonin"},
+  {"type": "inference", "detail": "r/o MS"}
+]

@@ -1,0 +1,16 @@
+[
+  {"type": "negation", "detail": "No chest pain."},
+  {"type": "negation", "detail": "No visual sx/photophobia."},
+  {"type": "negation", "detail": "No nausea/vomiting."},
+  {"type": "negation", "detail": "No bowel or urinary sx."},
+  {"type": "negation", "detail": "No rashes"},
+  {"type": "negation", "detail": "PMH: Nil"},
+  {"type": "negation", "detail": "DH: nil"},
+  {"type": "negation", "detail": "NKDA"},
+  {"type": "negation", "detail": "No mood sx."},
+  {"type": "medicine", "detail": "paracetamol"},
+  {"type": "medicine", "detail": "ibuprofen"},
+  {"type": "medicine", "detail": "paracetamol"},
+  {"type": "medicine", "detail": "ibuprofen"},
+  {"type": "inference", "detail": "Imp: viral URTI/influenza"}
+]

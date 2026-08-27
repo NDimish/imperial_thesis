@@ -1,0 +1,7 @@
+[
+  {"type": "discrepancy", "detail_type": "note names a different drug than the transcript -- patient explicitly says 'just Seroxat' (an antidepressant); the note instead records 'cerazette' (a contraceptive pill) -- not an inference, an apparent factual mismatch in the reference note itself", "detail": "DH: on cerazette"},
+  {"type": "inference", "detail_type": "'PUO' (pyrexia of unknown origin) is the formal clinical abbreviation for the doctor's own description ('fever...no apparent reason...outstanding question') -- the abbreviation itself is never said aloud", "detail": "Imp: PUO, need to exclude malaria"},
+  {"type": "inference", "detail_type": "specific test names (CRP, ESR) translated from the doctor's plain-language 'inflammatory markers and things like those'", "detail": "Thereafter, for blood tests including crp, esr, thick and thin blood films (possibly routine, possibly via a/e- depending on second GP's assessment)"},
+  {"type": "clinical_word", "detail_type": "allergy", "detail": "Nil allergies, hayfever"},
+  {"type": "clinical_word", "detail_type": "family history condition", "detail": "Fh: father has MI at age 68"}
+]

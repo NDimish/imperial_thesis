@@ -1,0 +1,14 @@
+[
+  {"type": "negation", "detail": "There is no pain while you move your neck"},
+  {"type": "negation", "detail": "There is no pain while looking at the light"},
+  {"type": "negation", "detail": "There is no weakness of the muscles"},
+  {"type": "negation", "detail": "There is no pins and needles"},
+  {"type": "negation", "detail": "You do not have vomiting"},
+  {"type": "negation", "detail": "There is no no cough, cold or ear pain"},
+  {"type": "negation", "detail": "There is no bleeding spots over the skin"},
+  {"type": "negation", "detail": "Past medical history None"},
+  {"type": "negation", "detail": "No allergies"},
+  {"type": "medicine", "detail": "paracetamol"},
+  {"type": "medicine", "detail": "ibuprofen"},
+  {"type": "inference", "detail": "WE will need to r/o more serious conditions like malaria, Dengue and meningitis"}
+]

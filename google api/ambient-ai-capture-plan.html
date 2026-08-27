@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Capturing &amp; monitoring an ambient AI scribe — extension, server, dashboard, drift</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{
+  --bg:#faf8f4; --bg-panel:#ffffff; --bg-sunken:#f1ede6; --bg-code:#1e2023;
+  --ink:#20211d; --ink-soft:#55554e; --ink-faint:#8a897f;
+  --line:#e2ddd1; --line-soft:#ede9de;
+  --accent:#0f5c56; --accent-soft:#d9ece9;
+  --warn:#c1440e; --warn-soft:#f6ddd0;
+  --tip:#3a6ea5; --tip-soft:#dce7f2;
+  --code-ink:#e6e6e0; --code-key:#7fc9bd; --code-str:#e3b95a; --code-com:#8a897f;
+  --shadow: 0 1px 2px rgba(30,25,10,.06), 0 8px 24px -12px rgba(30,25,10,.18);
+  --font-display: ui-serif, Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", Consolas, monospace;
+}
+:root[data-theme="dark"]{
+  --bg:#14171a; --bg-panel:#1b1f23; --bg-sunken:#101315; --bg-code:#0e1012;
+  --ink:#eae7de; --ink-soft:#b7b3a6; --ink-faint:#7d7a70;
+  --line:#2c3136; --line-soft:#22262a;
+  --accent:#5fc9bd; --accent-soft:#173430;
+  --warn:#e37c53; --warn-soft:#3a2015;
+  --tip:#7aa8d6; --tip-soft:#1c2c3c;
+  --code-ink:#e6e6e0; --code-key:#5fc9bd; --code-str:#e3b95a; --code-com:#7d7a70;
+  --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px -12px rgba(0,0,0,.5);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#14171a; --bg-panel:#1b1f23; --bg-sunken:#101315; --bg-code:#0e1012;
+    --ink:#eae7de; --ink-soft:#b7b3a6; --ink-faint:#7d7a70;
+    --line:#2c3136; --line-soft:#22262a;
+    --accent:#5fc9bd; --accent-soft:#173430;
+    --warn:#e37c53; --warn-soft:#3a2015;
+    --tip:#7aa8d6; --tip-soft:#1c2c3c;
+    --code-ink:#e6e6e0; --code-key:#5fc9bd; --code-str:#e3b95a; --code-com:#7d7a70;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px -12px rgba(0,0,0,.5);
+  }
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{background:var(--bg); color:var(--ink); font-family:var(--font-body); line-height:1.6; font-size:15.5px;}
+a{color:var(--accent);}
+.layout{display:grid; grid-template-columns:250px 1fr; max-width:1280px; margin:0 auto;}
+@media (max-width:900px){.layout{grid-template-columns:1fr;} nav.toc{display:none;}}
+
+nav.toc{position:sticky; top:0; align-self:start; height:100vh; overflow-y:auto; padding:28px 18px; border-right:1px solid var(--line);}
+nav.toc .brand{font-family:var(--font-mono); font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:var(--accent); font-weight:700; margin-bottom:18px;}
+nav.toc ol{list-style:none; margin:0; padding:0; counter-reset:sec;}
+nav.toc li{counter-increment:sec; margin-bottom:2px;}
+nav.toc a{display:block; padding:7px 10px; border-radius:7px; color:var(--ink-soft); text-decoration:none; font-size:13.5px;}
+nav.toc a:before{content:counter(sec) "  "; font-family:var(--font-mono); color:var(--ink-faint); font-size:11px;}
+nav.toc a:hover{background:var(--bg-sunken); color:var(--ink);}
+
+main{padding:44px 40px 120px;}
+header.top{margin-bottom:44px;}
+header.top .eyebrow{font-family:var(--font-mono); font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--accent); font-weight:600; margin-bottom:10px;}
+h1{font-family:var(--font-display); font-size:clamp(26px,3.4vw,38px); font-weight:600; margin:0 0 12px; text-wrap:balance; letter-spacing:-0.01em;}
+header.top p.sub{color:var(--ink-soft); font-size:16.5px; max-width:70ch; margin:0;}
+
+section{margin:0 0 56px; padding-top:20px; border-top:1px solid var(--line-soft);}
+section:first-of-type{border-top:none;}
+section h2{font-family:var(--font-display); font-size:24px; font-weight:600; margin:0 0 6px; text-wrap:balance;}
+section .lede{color:var(--ink-soft); max-width:74ch; margin:0 0 22px; font-size:15px;}
+section h3{font-family:var(--font-display); font-size:17.5px; margin:26px 0 8px;}
+p{max-width:74ch; color:var(--ink-soft); margin:0 0 14px;}
+strong{color:var(--ink); font-weight:600;}
+ul,ol.reg{max-width:74ch; color:var(--ink-soft); margin:0 0 16px; padding-left:22px;}
+li{margin-bottom:8px;}
+code{font-family:var(--font-mono); font-size:.88em; background:var(--bg-sunken); padding:1px 5px; border-radius:4px; color:var(--ink);}
+:root[data-theme="dark"] code{background:var(--bg-panel);}
+
+.codeblock{background:var(--bg-code); border-radius:10px; padding:16px 18px; margin:14px 0 20px; overflow-x:auto; box-shadow:var(--shadow); max-width:82ch;}
+.codeblock .fname{font-family:var(--font-mono); font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--code-com); margin-bottom:8px;}
+.codeblock pre{margin:0; font-family:var(--font-mono); font-size:12.6px; line-height:1.55; color:var(--code-ink); white-space:pre;}
+.codeblock .k{color:var(--code-key);} .codeblock .s{color:var(--code-str);} .codeblock .c{color:var(--code-com); font-style:italic;}
+
+.callout{border-left:3px solid var(--accent); background:var(--accent-soft); border-radius:0 8px 8px 0; padding:12px 16px; margin:16px 0; font-size:14px; max-width:74ch;}
+.callout.warn{border-color:var(--warn); background:var(--warn-soft);}
+.callout.tip{border-color:var(--tip); background:var(--tip-soft);}
+.callout p{margin:0; color:var(--ink);}
+.callout p+p{margin-top:8px;}
+
+.flow{display:flex; flex-wrap:wrap; align-items:center; gap:6px; margin:20px 0 24px; max-width:82ch;}
+.flow .box{background:var(--bg-panel); border:1px solid var(--line); border-radius:10px; padding:10px 14px; font-size:12.8px; box-shadow:var(--shadow); color:var(--ink); text-align:center;}
+.flow .arrow{color:var(--ink-faint); font-size:16px;}
+
+table.reftable{width:100%; border-collapse:collapse; font-size:13.5px; max-width:82ch; margin:10px 0 20px;}
+table.reftable th{text-align:left; font-size:11px; text-transform:uppercase; letter-spacing:.04em; color:var(--ink-faint); padding:6px 10px; border-bottom:1px solid var(--line);}
+table.reftable td{padding:9px 10px; border-bottom:1px solid var(--line-soft); color:var(--ink-soft); vertical-align:top;}
+table.reftable td.what{color:var(--ink); font-weight:600; font-size:13.8px;}
+
+.papercard{background:var(--bg-panel); border:1px solid var(--line); border-radius:10px; padding:14px 18px; margin:10px 0; box-shadow:var(--shadow); max-width:78ch;}
+.papercard .cite{font-size:13.8px; color:var(--ink); margin-bottom:4px;}
+.papercard .cite b{font-weight:600;}
+.papercard .why{font-size:13px; color:var(--ink-soft); margin:0;}
+.papercard .tag{display:inline-block; font-family:var(--font-mono); font-size:10px; text-transform:uppercase; letter-spacing:.04em; padding:2px 7px; border-radius:20px; background:var(--tip-soft); color:var(--tip); margin-bottom:6px;}
+
+footer{padding:36px 40px; color:var(--ink-faint); font-size:12.5px; border-top:1px solid var(--line);}
+</style>
+</head>
+<body>
+<div class="layout">
+
+<nav class="toc">
+  <div class="brand">Ambient AI capture</div>
+  <ol>
+    <li><a href="#overview">Overview / architecture</a></li>
+    <li><a href="#extension">Building the extension</a></li>
+    <li><a href="#connect">What you need to connect it</a></li>
+    <li><a href="#edits">Tracking edits, and where</a></li>
+    <li><a href="#server">A pseudo server to save to</a></li>
+    <li><a href="#dashboard">A basic dashboard</a></li>
+    <li><a href="#degradation">Tracking degradation</a></li>
+    <li><a href="#papers">Papers to read</a></li>
+  </ol>
+</nav>
+
+<main>
+<header class="top">
+  <div class="eyebrow">Planning doc · browser capture pipeline</div>
+  <h1>Capturing an ambient AI scribe's transcript + note, and watching it for drift</h1>
+  <p class="sub">A practical plan for a Chrome extension that sits on top of an ambient AI documentation tool (the kind that listens to a consult and drafts a SOAP note), captures the transcript and both the AI's raw draft and the clinician's edited final version, ships that to a small server, and surfaces it on a dashboard — with an eye toward the actual goal: noticing if the underlying model's quality degrades over time.</p>
+</header>
+
+<section id="overview">
+  <h2>1 · Overview / architecture</h2>
+  <p class="lede">Four pieces, each independently simple. The extension never talks to your server directly from the page context — everything routes through the background service worker, which sidesteps the target site's Content-Security-Policy and CORS restrictions.</p>
+  <div class="flow">
+    <div class="box"><b>Ambient AI web app</b><br>(transcript + note in the DOM)</div>
+    <div class="arrow">→</div>
+    <div class="box"><b>Content script</b><br>observes DOM, snapshots text</div>
+    <div class="arrow">→</div>
+    <div class="box"><b>Background service worker</b><br>batches, adds auth header</div>
+    <div class="arrow">→</div>
+    <div class="box"><b>Your server</b><br>Flask + SQLite, /events</div>
+    <div class="arrow">→</div>
+    <div class="box"><b>Dashboard</b><br>edit-rate trend, drill-down</div>
+  </div>
+  <p>Everything below assumes you're building this for your own research/monitoring use against a tool you (or your institution) already has legitimate access to — this is not a guide to scraping a product you don't have rights to use.</p>
+</section>
+
+<section id="extension">
+  <h2>2 · Building the extension</h2>
+  <p class="lede">Manifest V3, the current Chrome extension format. Three files to start: <code>manifest.json</code>, a content script that runs inside the ambient AI app's page, and a background service worker that relays captured data out.</p>
+
+  <h3>manifest.json</h3>
+  <div class="codeblock"><div class="fname">manifest.json</div><pre>{
+  <span class="k">"manifest_version"</span>: 3,
+  <span class="k">"name"</span>: <span class="s">"Ambient Note Capture"</span>,
+  <span class="k">"version"</span>: <span class="s">"0.1.0"</span>,
+  <span class="k">"description"</span>: <span class="s">"Captures transcript + generated note for research monitoring."</span>,
+  <span class="k">"permissions"</span>: [<span class="s">"storage"</span>, <span class="s">"scripting"</span>],
+  <span class="k">"host_permissions"</span>: [
+    <span class="s">"https://*.your-ambient-ai-vendor.example/*"</span>,
+    <span class="s">"http://localhost:5000/*"</span>
+  ],
+  <span class="k">"background"</span>: { <span class="k">"service_worker"</span>: <span class="s">"background.js"</span> },
+  <span class="k">"content_scripts"</span>: [
+    {
+      <span class="k">"matches"</span>: [<span class="s">"https://*.your-ambient-ai-vendor.example/*"</span>],
+      <span class="k">"js"</span>: [<span class="s">"content.js"</span>],
+      <span class="k">"run_at"</span>: <span class="s">"document_idle"</span>
+    }
+  ]
+}</pre></div>
+
+  <h3>Two ways to actually capture the content</h3>
+  <table class="reftable">
+    <tr><th>Approach</th><th>How</th><th>Trade-off</th></tr>
+    <tr><td class="what">DOM scraping</td><td>A <code>MutationObserver</code> on the note/transcript containers, reading <code>.innerText</code> when they change.</td><td>Works on any vendor with no cooperation needed. Brittle — a UI redesign breaks your selectors overnight.</td></tr>
+    <tr><td class="what">Network interception</td><td>Content script patches <code>window.fetch</code>/<code>XMLHttpRequest</code> before the page's own scripts run, logging request/response bodies for the note/transcript API calls the page itself makes.</td><td>More robust to visual redesigns (the underlying API usually changes less often than the UI). Needs you to reverse-engineer the page's own network calls once.</td></tr>
+    <tr><td class="what">Vendor API / webhook</td><td>If the vendor offers a developer or EHR-integration API, use that instead of either of the above.</td><td>The right long-term answer if it exists — ask. Everything else here is the fallback for when it doesn't.</td></tr>
+  </table>
+
+  <div class="codeblock"><div class="fname">content.js — DOM-scraping version</div><pre><span class="c">// Selectors are illustrative -- inspect the real page and swap these in.</span>
+<span class="k">const</span> NOTE_SELECTOR = <span class="s">'[data-testid="generated-note"]'</span>;
+<span class="k">const</span> TRANSCRIPT_SELECTOR = <span class="s">'[data-testid="live-transcript"]'</span>;
+<span class="k">const</span> SIGN_BUTTON_SELECTOR = <span class="s">'[data-testid="sign-note-button"]'</span>;
+
+<span class="k">let</span> baselineNote = <span class="k">null</span>;   <span class="c">// the AI's first, unedited draft</span>
+<span class="k">let</span> baselineCapturedAt = <span class="k">null</span>;
+
+<span class="k">function</span> snapshotNote() {
+  <span class="k">const</span> el = document.querySelector(NOTE_SELECTOR);
+  <span class="k">return</span> el ? el.innerText : <span class="k">null</span>;
+}
+<span class="k">function</span> snapshotTranscript() {
+  <span class="k">const</span> el = document.querySelector(TRANSCRIPT_SELECTOR);
+  <span class="k">return</span> el ? el.innerText : <span class="k">null</span>;
+}
+
+<span class="c">// Fires on every DOM change in the note panel -- take the FIRST</span>
+<span class="c">// non-empty snapshot as the untouched AI draft (see &sect;4).</span>
+<span class="k">const</span> observer = <span class="k">new</span> MutationObserver(() => {
+  <span class="k">const</span> current = snapshotNote();
+  <span class="k">if</span> (current && baselineNote === <span class="k">null</span>) {
+    baselineNote = current;
+    baselineCapturedAt = Date.now();
+  }
+});
+observer.observe(document.body, { childList: <span class="k">true</span>, subtree: <span class="k">true</span>, characterData: <span class="k">true</span> });
+
+<span class="c">// Fires when the clinician finalizes the note -- this is the "after" state.</span>
+document.addEventListener(<span class="s">'click'</span>, (e) => {
+  <span class="k">if</span> (!e.target.closest(SIGN_BUTTON_SELECTOR)) <span class="k">return</span>;
+  chrome.runtime.sendMessage({
+    type: <span class="s">'NOTE_FINALIZED'</span>,
+    payload: {
+      sessionId: crypto.randomUUID(),
+      transcript: snapshotTranscript(),
+      noteBefore: baselineNote,
+      noteAfter: snapshotNote(),
+      capturedAt: baselineCapturedAt,
+      finalizedAt: Date.now(),
+    },
+  });
+});</pre></div>
+
+  <div class="codeblock"><div class="fname">background.js</div><pre><span class="k">const</span> API_URL = <span class="s">'http://localhost:5000/events'</span>;
+<span class="k">const</span> API_KEY = <span class="s">'dev-only-key-replace-me'</span>;  <span class="c">// load from chrome.storage in real use</span>
+
+chrome.runtime.onMessage.addListener((message) => {
+  <span class="k">if</span> (message.type !== <span class="s">'NOTE_FINALIZED'</span>) <span class="k">return</span>;
+  fetch(API_URL, {
+    method: <span class="s">'POST'</span>,
+    headers: { <span class="s">'Content-Type'</span>: <span class="s">'application/json'</span>, <span class="s">'X-API-Key'</span>: API_KEY },
+    body: JSON.stringify(message.payload),
+  }).catch((err) => console.error(<span class="s">'capture upload failed'</span>, err));
+});</pre></div>
+</section>
+
+<section id="connect">
+  <h2>3 · What you'd need to connect this</h2>
+  <ul>
+    <li><strong>Host permissions</strong> in <code>manifest.json</code> for both the ambient AI app's domain (to inject the content script) and your own server's domain (so the background worker's <code>fetch</code> isn't blocked).</li>
+    <li><strong>Routing writes through the background worker, not the content script.</strong> A content script's <code>fetch</code> is subject to the target page's own Content-Security-Policy, which will often block a request to an origin the page didn't itself whitelist. The background service worker isn't a page at all, so it isn't bound by that CSP.</li>
+    <li><strong>An API key or token</strong> for your own server — a static key in <code>chrome.storage</code> is fine for a prototype; swap for a per-install token or OAuth if this ever handles real patient data.</li>
+    <li><strong>De-identification before anything leaves the browser</strong> if you're anywhere near real patient data: strip or hash name/DOB fields client-side, and treat this as PHI-handling that needs IRB/institutional sign-off — not a detail to defer. Everything in this project's own <code>prim57</code> dataset is synthetic for exactly this reason.</li>
+    <li><strong>A vendor developer account</strong>, if you go the API/webhook route instead of DOM scraping — most ambient scribe vendors (used in EHR integrations) have one; worth asking before building the scraping path.</li>
+  </ul>
+  <div class="callout warn">
+    <p><strong>Ask first, scrape second.</strong> Injecting a content script into a SaaS product's pages to read data back out sits in a legal and ToS gray area even when you have a legitimate account — check the vendor's terms of service and, ideally, tell them what you're doing. A developer API is the version of this that doesn't need a caveat.</p>
+  </div>
+</section>
+
+<section id="edits">
+  <h2>4 · Tracking edits, and where</h2>
+  <p class="lede">An "edit" here means: the difference between the AI's first, untouched draft and whatever the clinician actually signs. Two snapshots, one diff — the trick is reliably capturing the <em>first</em> one before anyone touches it.</p>
+
+  <h3>Where the "before" snapshot comes from</h3>
+  <p>The <code>MutationObserver</code> in §2 takes the <em>first</em> non-empty read of the note panel as <code>baselineNote</code> and then stops updating it — every later mutation is an edit, not a new baseline. This is the one part of the whole pipeline worth testing carefully: if the ambient AI streams the note in token-by-token, "first non-empty" will catch a half-written sentence, not the finished draft. In that case, debounce — wait for a short quiet period (e.g. 1.5s with no further mutations) before locking in the baseline, rather than taking the very first paint.</p>
+
+  <h3>Where the "after" snapshot comes from</h3>
+  <p>Either the explicit sign/finalize action (cleanest — one clear "this is final" event), or, if there isn't one, a periodic snapshot (every 30–60s) so you get an edit trail across the session rather than one before/after pair. The periodic version is more work to diff (many snapshots, not two) but tells you <em>when in the encounter</em> edits happen, which the single before/after pair can't.</p>
+
+  <h3>Where the diff/categorization happens</h3>
+  <p>Do the raw text diff on the server, not in the extension — keep the extension dumb (snapshot + ship), keep the logic somewhere you can iterate on without re-publishing a browser extension. <code>difflib.SequenceMatcher</code> (stdlib) is enough for a first pass at an edit ratio; for something more clinically meaningful, run this project's own <code>Modules/note_extractor.py</code> or <code>Modules/high_risk_checker.py</code> against <code>noteBefore</code> and check whether the clinician's actual edit overlaps the spans it flagged. That turns every real signed note into a free, continuous validation sample for the checker itself — the same question this whole project has been answering by hand on <code>prim57</code>, except live and ongoing.</p>
+  <div class="callout tip">
+    <p>This is the single highest-leverage integration point in the whole pipeline: every edited note is a natural experiment in "was the checker's flag right." A clinician deleting a sentence the checker flagged as a hallucination is about as good a ground-truth signal as this project's manual labeling sessions produced, and it costs nothing extra to collect once the capture pipeline exists.</p>
+  </div>
+</section>
+
+<section id="server">
+  <h2>5 · A pseudo server for the extension to save data to</h2>
+  <p class="lede">For a prototype, Flask + SQLite is the whole stack — no infrastructure to stand up, and it matches this project's existing Python tooling. One route to receive events, one to serve the dashboard.</p>
+  <div class="codeblock"><div class="fname">server.py</div><pre><span class="k">from</span> flask <span class="k">import</span> Flask, request, jsonify, render_template
+<span class="k">import</span> sqlite3, difflib, datetime, os
+
+app = Flask(__name__)
+DB_PATH = <span class="s">"capture.db"</span>
+API_KEY = os.environ.get(<span class="s">"CAPTURE_API_KEY"</span>, <span class="s">"dev-only-key-replace-me"</span>)
+
+<span class="k">def</span> get_db():
+    conn = sqlite3.connect(DB_PATH)
+    conn.row_factory = sqlite3.Row
+    <span class="k">return</span> conn
+
+<span class="k">def</span> init_db():
+    <span class="k">with</span> get_db() <span class="k">as</span> conn:
+        conn.execute(<span class="s">"""
+            CREATE TABLE IF NOT EXISTS sessions (
+                id TEXT PRIMARY KEY,
+                transcript TEXT,
+                note_before TEXT,
+                note_after TEXT,
+                edit_ratio REAL,
+                captured_at TEXT,
+                finalized_at TEXT
+            )
+        """</span>)
+
+<span class="k">@app.route</span>(<span class="s">"/events"</span>, methods=[<span class="s">"POST"</span>])
+<span class="k">def</span> capture_event():
+    <span class="k">if</span> request.headers.get(<span class="s">"X-API-Key"</span>) != API_KEY:
+        <span class="k">return</span> jsonify({<span class="s">"error"</span>: <span class="s">"unauthorized"</span>}), 401
+    data = request.get_json()
+    before, after = data.get(<span class="s">"noteBefore"</span>, <span class="s">""</span>), data.get(<span class="s">"noteAfter"</span>, <span class="s">""</span>)
+    edit_ratio = 1 - difflib.SequenceMatcher(<span class="k">None</span>, before, after).ratio()
+    <span class="k">with</span> get_db() <span class="k">as</span> conn:
+        conn.execute(
+            <span class="s">"INSERT OR REPLACE INTO sessions VALUES (?,?,?,?,?,?,?)"</span>,
+            (data[<span class="s">"sessionId"</span>], data.get(<span class="s">"transcript"</span>), before, after, edit_ratio,
+             datetime.datetime.utcfromtimestamp(data[<span class="s">"capturedAt"</span>]/1000).isoformat(),
+             datetime.datetime.utcfromtimestamp(data[<span class="s">"finalizedAt"</span>]/1000).isoformat()),
+        )
+    <span class="k">return</span> jsonify({<span class="s">"status"</span>: <span class="s">"ok"</span>})
+
+<span class="k">if</span> __name__ == <span class="s">"__main__"</span>:
+    init_db()
+    app.run(port=5000)</pre></div>
+  <p>Two things worth doing before this touches anything real: put it behind HTTPS (a local <code>ngrok</code> tunnel is enough for testing against a vendor app that requires secure origins), and swap the static API key for a per-install token once more than one machine is reporting in.</p>
+</section>
+
+<section id="dashboard">
+  <h2>6 · A basic dashboard, server-side</h2>
+  <p class="lede">One more route on the same Flask app, rendering a template. Keep the first version to three things: a session list with each one's edit ratio, a trend line of edit ratio over time (the actual drift signal — see §7), and a drill-down into a single session's before/after diff.</p>
+  <div class="codeblock"><div class="fname">server.py (add-on)</div><pre><span class="k">@app.route</span>(<span class="s">"/dashboard"</span>)
+<span class="k">def</span> dashboard():
+    <span class="k">with</span> get_db() <span class="k">as</span> conn:
+        rows = conn.execute(<span class="s">"SELECT * FROM sessions ORDER BY finalized_at DESC"</span>).fetchall()
+    <span class="k">return</span> render_template(<span class="s">"dashboard.html"</span>, sessions=rows)</pre></div>
+  <p>For the charts themselves, reuse the pattern already used across this project's own <code>extra/explainer/DESIGN__*.html</code> reports: dump the aggregates the dashboard route computes (daily/weekly mean edit ratio, edit-category counts) as a small JSON object embedded in the template, and draw them client-side with the same self-contained SVG bar-chart functions already written there — no charting library dependency, consistent look across every report this project produces.</p>
+  <div class="callout tip">
+    <p>Don't reach for a BI tool or a separate dashboard framework for a first version. A Flask template with one JSON blob and the SVG helpers already sitting in this repo gets you a working, versioned-in-git dashboard in under an hour — upgrade later only if the audience or scale actually demands it.</p>
+  </div>
+</section>
+
+<section id="degradation">
+  <h2>7 · Suggested ways to track degradation</h2>
+  <p class="lede">"Degradation" here means the ambient AI's output quality getting worse over time — usually from a silent vendor-side model update, not from anything on your end. None of these need to be sophisticated to be useful; the value is in having <em>any</em> continuous signal, since right now the alternative is finding out from a clinician complaint.</p>
+  <ul>
+    <li><strong>Edit-rate over time, as a control chart.</strong> The <code>edit_ratio</code> already computed in §5, aggregated daily or weekly, plotted with a rolling mean and control limits (e.g. ±2–3 standard deviations of the trailing baseline). A sudden jump outside the band — especially one that lines up with a date rather than drifting gradually — is the single strongest signal of a silent model change.</li>
+    <li><strong>Edit-category drift, not just edit volume.</strong> Run <code>note_extractor.py</code>/<code>high_risk_checker.py</code>-style categorization on every edit (was a drug name changed? a negation flipped? a whole differential added or removed?) and track the mix over time, not just the rate. A flat edit rate with a rising share of drug/negation corrections is a worse sign than a rising rate made up of stylistic rewording.</li>
+    <li><strong>Canary transcripts, replayed on a schedule.</strong> Keep a small fixed set of transcripts (this project's own <code>prim57</code> is exactly this kind of asset) and, wherever the vendor's interface allows a manual or API replay, run them through periodically and score the output against the existing checker pipeline — the same <code>main.py</code>/<code>main2.py</code> evaluation this project already runs, just repeated on a cadence instead of once.</li>
+    <li><strong>CUSUM or EWMA on the edit-rate series</strong> rather than a plain moving average, if the control chart above turns out too noisy to act on — these are built specifically to catch a slow drift that a simple rolling mean smooths away for too long before flagging it.</li>
+    <li><strong>Old-vs-new shadow comparison</strong> when the vendor ships a version bump you know about in advance (release notes, changelog) — run the same transcript through both and diff, rather than waiting to see if the edit-rate chart notices after the fact.</li>
+    <li><strong>A one-click clinician quality signal</strong> alongside the automatic tracking (e.g. "this draft needed real fixes" vs "just tidied wording") — edit ratio alone can't distinguish a clinician's house style from an actual AI mistake, and this cheaply calibrates which is which over time.</li>
+    <li><strong>Periodic human audit of a random sample</strong>, the same "double-check the flags" process used by hand throughout this project's <code>labels_inferences</code>/<code>labels_extraction</code> work — productionized as an ongoing weekly/monthly review of a small random slice rather than a one-off.</li>
+  </ul>
+</section>
+
+<section id="papers">
+  <h2>8 · Papers to read</h2>
+  <p class="lede">There isn't much literature yet specifically on monitoring ambient clinical-documentation AI for drift — it's too new a product category. The closest, well-established body of work is general ML production-monitoring and concept-drift literature, plus one directly relevant LLM-specific study. Worth reading in roughly this order.</p>
+
+  <div class="papercard">
+    <span class="tag">LLM-specific</span>
+    <div class="cite"><b>Chen, Zaharia &amp; Zou</b> — "How Is ChatGPT's Behavior Changing over Time?" (2023)</div>
+    <p class="why">Directly measures the same phenomenon this pipeline is built to catch: a hosted LLM's output quality and behavior changing release to release, with no announcement. The closest existing template for "canary prompts replayed on a schedule, diffed over time" in §7.</p>
+  </div>
+  <div class="papercard">
+    <span class="tag">ML monitoring in production</span>
+    <div class="cite"><b>Sculley et al.</b> — "Hidden Technical Debt in Machine Learning Systems" (NeurIPS, 2015)</div>
+    <p class="why">The standard reference for why a deployed ML system needs ongoing monitoring infrastructure at all, not just a one-time evaluation — makes the case for exactly this kind of capture pipeline as a first-class part of the system, not an afterthought.</p>
+  </div>
+  <div class="papercard">
+    <span class="tag">ML monitoring in production</span>
+    <div class="cite"><b>Breck et al.</b> — "The ML Test Score: A Rubric for ML Production Readiness and Technical Debt Reduction" (IEEE Big Data, 2017)</div>
+    <p class="why">A concrete checklist (Google's internal practice) for what "properly monitored" means for a production ML system — useful directly as a design checklist for §5/§6.</p>
+  </div>
+  <div class="papercard">
+    <span class="tag">Concept drift</span>
+    <div class="cite"><b>Gama, Žliobaitė, Bifet, Pechenizkiy &amp; Bouchachia</b> — "A Survey on Concept Drift Adaptation" (ACM Computing Surveys, 2014)</div>
+    <p class="why">The standard survey of drift-detection methods (including CUSUM/EWMA-style approaches referenced in §7) — background for choosing a real detection method once the edit-rate series exists.</p>
+  </div>
+  <div class="papercard">
+    <span class="tag">Dataset/distribution shift</span>
+    <div class="cite"><b>Quiñonero-Candela, Sugiyama, Schwaighofer &amp; Lawrence (eds.)</b> — <em>Dataset Shift in Machine Learning</em> (MIT Press, 2009)</div>
+    <p class="why">Foundational framing for why a model's real-world input distribution (here: real clinical encounters vs. whatever it was evaluated on) drifting is itself a cause of apparent "degradation" even with no model change at all — relevant context for interpreting a rising edit rate correctly.</p>
+  </div>
+  <div class="papercard">
+    <span class="tag">Silent failure modes</span>
+    <div class="cite"><b>D'Amour et al.</b> — "Underspecification Presents Challenges for Credibility in Modern Machine Learning" (JMLR, 2020)</div>
+    <p class="why">Explains why two model versions that look equally good on a benchmark can behave very differently in deployment — relevant to why a vendor's own eval numbers won't substitute for the canary-replay approach in §7.</p>
+  </div>
+
+  <p class="lede" style="margin-top:22px;">Search these by author/title/year (Google Scholar or arXiv) rather than trusting a pasted link — exact URLs weren't verified here.</p>
+</section>
+
+</main>
+</div>
+<footer>Planning doc · not implementation-ready code · verify vendor ToS and institutional data-handling approval before capturing any real clinical session.</footer>
+</body>
+</html>

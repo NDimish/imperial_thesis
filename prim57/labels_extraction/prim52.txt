@@ -1,0 +1,19 @@
+[
+  {"type": "negation", "detail": "No sputum/haemoptysis."},
+  {"type": "negation", "detail": "No epistaxis/sinus pain."},
+  {"type": "negation", "detail": "Feels hot, hasn't measured temperature."},
+  {"type": "negation", "detail": "No SOB/inspiratory pain/wheeze."},
+  {"type": "negation", "detail": "No vomiting."},
+  {"type": "negation", "detail": "No hx chest problems/recurrent chest infections/wt loss."},
+  {"type": "negation", "detail": "Thinks last BP was fine, can't remember when last BP/DM check up was."},
+  {"type": "negation", "detail": "Doesn't check blood sugars/urine at home."},
+  {"type": "negation", "detail": "No increased thirst/urinary freq."},
+  {"type": "negation", "detail": "SH: Non smoker, odd sherry."},
+  {"type": "negation", "detail": "Advised continue lemsips but no other paracetamol containing products."},
+  {"type": "negation", "detail": "May take 1-2 weeks to settle and cough can persist for up to a month but to contact us if symptoms not worse/fever persists - check with thermometer/coughing up phlegm/blood in sputum/nose bleeds."},
+  {"type": "medicine", "detail": "Lisinopril"},
+  {"type": "medicine", "detail": "Metformin"},
+  {"type": "medicine", "detail": "lemsips"},
+  {"type": "medicine", "detail": "cough syrup"},
+  {"type": "inference", "detail": "Imp: Viral bronchitis."}
+]

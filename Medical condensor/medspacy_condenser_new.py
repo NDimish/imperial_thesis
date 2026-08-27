@@ -231,8 +231,8 @@ class MedspacyCondenserNew(CondenserModule):
 
     7. The medspacy Preprocessor rules below duplicate base.clean_transcript
        (which already strips <UNSURE>/<UNIN/>/<INAUDIBLE_SPEECH/> upstream,
-       once, before any condenser sees the transcript -- see NLP_Main.py and
-       main.py). They're wired in anyway per the brief ("run preprocessing
+       once, before any condenser sees the transcript -- see run_condensers.py and
+       run_checker_modules.py). They're wired in anyway per the brief ("run preprocessing
        rule from medspacy"), and as a side benefit make this file safe to
        run standalone on raw, uncleaned transcript text -- but that's now
        two independently-maintained regex sets for the same three tags, and

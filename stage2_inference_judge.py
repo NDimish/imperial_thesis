@@ -32,25 +32,34 @@ import time
 
 from google import genai
 
+import gemini_rate_limiter
 from secrets_config import GEMINI_API_KEY
 
 # --- Global config -- edit these, not the functions below ---
 API_KEY = GEMINI_API_KEY  # see secrets_config.py; same key Modules/AI_checker.py uses
-MODEL = "gemini-3.6-flash"
+# gemini-3.6-flash (the original default here) hit a hard 20-requests/DAY
+# free-tier cap (quotaId GenerateRequestsPerDayPerProjectPerModel-FreeTier,
+# quotaValue 20) -- confirmed directly, a 20-file/~237-claim batch run
+# failed outright with every single call 429 RESOURCE_EXHAUSTED, having
+# burned the day's 20 on an earlier 2-file pilot check. That's a separate,
+# much stricter constraint than the RPM throttle below and isn't something
+# retrying can fix -- it resets on Google's own daily cycle. gemini-3.5-flash
+# -lite is a current (non-preview), non-deprecated model confirmed callable
+# on this key, and per Google's own free-tier documentation flash-lite tiers
+# get the more generous free daily quota (published around 1,500 req/day,
+# vs a handful for the newest preview models). CONFIRMED on this key, not
+# just claimed: a real 19-file/210-claim run completed on gemini-3.5-flash
+# -lite with zero quota errors of any kind -- comfortably inside whatever
+# its actual daily cap is, unlike gemini-3.6-flash's 20/day.
+MODEL = "gemini-3.5-flash-lite"
 INPUT_DIR = "prim57/cleaned transcripts"
 
-# Same RPM throttle as Modules/AI_checker.py -- same API key/quota.
-RPM = 5
-MIN_INTERVAL_SECONDS = 90 / RPM
-_last_call_at = 0.0
-
-
-def _throttle():
-    global _last_call_at
-    elapsed = time.monotonic() - _last_call_at
-    if elapsed < MIN_INTERVAL_SECONDS:
-        time.sleep(MIN_INTERVAL_SECONDS - elapsed)
-    _last_call_at = time.monotonic()
+# Cross-process-safe throttle (file-lock-backed, not just an in-memory
+# counter) -- see gemini_rate_limiter.py. Same RPM/quota as
+# Modules/AI_checker.py, and now actually coordinated with it (and with any
+# other stage2_inference_judge.py process) rather than each just hoping the other isn't
+# calling at the same moment.
+_throttle = gemini_rate_limiter.throttle
 
 
 # Ported directly from the paper's Section 4.3: Supported Claim Criteria,
@@ -126,10 +135,41 @@ Classify the claim into exactly one tier from this table:
   Tier 4  Speculated overreach (no inferential basis) -> HALLUCINATED
   Tier 5  Contradiction                            -> HALLUCINATED
 
-Respond with ONLY a JSON object, no markdown code fences, no commentary:
+If, and only if, the verdict is HALLUCINATED, ALSO classify it using this \
+project's own ground-truth error taxonomy (Modules/risk_taxonomy.py -- the \
+same one prim57's injected-error labels and Modules/high_risk_checker.py \
+both use), so this judge's output is directly comparable to those labels:
+
+  severity -- exactly one of: low, moderate, high, critical.
+    Rule: a wrong/unsupported medication, dose, frequency, or duration, or \
+an allergy-related error, is always "high" or "critical" (wrong substance \
+or dose is the shortest, most mechanistic path to real harm) -- everything \
+else scales with how clinically significant the specific unsupported \
+content is, not with how confident you are that it's wrong.
+
+  detail_type -- exactly one of: "drug switch", "number edit", "negation \
+flip", "entity swap", "inserted sentence", "omitted detail", "lasa \
+confusion", "diagnosis mismatch", "allergy mismatch". Pick whichever best \
+describes the SHAPE of the unsupported content itself (e.g. a medication \
+name with no basis in the transcript -> "drug switch"; a dose/frequency/day- \
+count with no basis -> "number edit"; a whole claim with no transcript basis \
+at all -> "inserted sentence"; a diagnosis/impression with no supporting \
+symptom picture -> "diagnosis mismatch").
+
+Respond with ONLY a JSON object, no markdown code fences, no commentary. \
+When the verdict is SUPPORTED, set type/severity/detail_type/detail to null \
+-- there's no error to classify. When the verdict is HALLUCINATED, "detail" \
+must be the claim text above, copied back EXACTLY character-for-character \
+(this project's own label files use this same "detail" field for the exact \
+erroneous sentence, and matching it verbatim is what lets this judge's \
+output be compared against them programmatically):
 {{"tier": "1|2a|2b|3|4|5", "verdict": "SUPPORTED|HALLUCINATED", "reason": \
 "<one sentence: cite the specific transcript evidence used, or explain what's \
-missing/contradicted>"}}
+missing/contradicted>", "type": "hallucination"|null, \
+"severity": "low|moderate|high|critical"|null, \
+"detail_type": "drug switch|number edit|negation flip|entity swap|inserted \
+sentence|omitted detail|lasa confusion|diagnosis mismatch|allergy mismatch"|null, \
+"detail": "<exact claim text, verbatim>"|null}}
 """
 
 

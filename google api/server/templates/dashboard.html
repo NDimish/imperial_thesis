@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>DiSCaScribe Capture Dashboard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{
+  --bg:#faf8f4; --bg-panel:#ffffff; --bg-sunken:#f1ede6;
+  --ink:#20211d; --ink-soft:#55554e; --ink-faint:#8a897f;
+  --line:#e2ddd1;
+  --accent:#0f5c56; --accent-soft:#d9ece9;
+  --critical:#c1440e; --critical-soft:#f6ddd0;
+  --ok:#3a6ea5; --ok-soft:#dce7f2;
+  --font-display: ui-serif, Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", Consolas, monospace;
+  --shadow: 0 1px 2px rgba(30,25,10,.06), 0 8px 24px -12px rgba(30,25,10,.18);
+}
+*{box-sizing:border-box;}
+body{margin:0; background:var(--bg); color:var(--ink); font-family:var(--font-body); line-height:1.5;}
+header{padding:28px 40px 8px;}
+header .eyebrow{font-family:var(--font-mono); font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--accent); font-weight:700;}
+header h1{font-family:var(--font-display); font-size:28px; font-weight:600; margin:6px 0 0;}
+main{padding:8px 40px 60px; max-width:1200px; margin:0 auto;}
+
+.stats{display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:14px; margin:24px 0;}
+.stat{background:var(--bg-panel); border:1px solid var(--line); border-radius:12px; padding:16px 18px; box-shadow:var(--shadow);}
+.stat .num{font-family:var(--font-display); font-size:28px; font-weight:600;}
+.stat .label{font-size:12px; color:var(--ink-faint); text-transform:uppercase; letter-spacing:.04em; margin-top:2px;}
+.stat.critical .num{color:var(--critical);}
+
+.panel{background:var(--bg-panel); border:1px solid var(--line); border-radius:14px; padding:20px 22px; box-shadow:var(--shadow); margin-bottom:24px;}
+.panel h2{font-family:var(--font-display); font-size:17px; font-weight:600; margin:0 0 4px;}
+.panel .sub{color:var(--ink-faint); font-size:12.5px; margin:0 0 14px;}
+.chart-empty{color:var(--ink-faint); font-size:13px; padding:30px 0; text-align:center;}
+
+table{width:100%; border-collapse:collapse; font-size:13px;}
+th{text-align:left; font-size:11px; text-transform:uppercase; letter-spacing:.04em; color:var(--ink-faint); padding:8px 10px; border-bottom:1px solid var(--line);}
+td{padding:9px 10px; border-bottom:1px solid var(--bg-sunken); vertical-align:top;}
+tr.session-row{cursor:pointer;}
+tr.session-row:hover{background:var(--bg-sunken);}
+.badge{display:inline-block; font-size:11px; font-weight:600; padding:2px 8px; border-radius:20px;}
+.badge.critical{background:var(--critical-soft); color:var(--critical);}
+.badge.ok{background:var(--ok-soft); color:var(--ok);}
+.mono{font-family:var(--font-mono); font-size:11.5px; color:var(--ink-soft);}
+
+.drill{display:none; background:var(--bg-sunken); border-radius:10px; padding:14px 16px; margin:4px 0 14px;}
+.drill.open{display:block;}
+.drill h4{margin:0 0 6px; font-size:12px; text-transform:uppercase; letter-spacing:.04em; color:var(--ink-faint);}
+.diff-line{font-family:var(--font-mono); font-size:12px; padding:4px 8px; border-radius:6px; margin-bottom:4px; white-space:pre-wrap;}
+.diff-line.crit{background:var(--critical-soft);}
+.diff-line.non{background:var(--bg-panel); border:1px solid var(--line);}
+.diff-line .tag{font-weight:700; text-transform:uppercase; font-size:10px; margin-right:6px;}
+</style>
+</head>
+<body>
+<header>
+  <div class="eyebrow">DiSCaScribe capture pipeline</div>
+  <h1>Edit-rate &amp; drift dashboard</h1>
+</header>
+<main>
+  <div class="stats">
+    <div class="stat"><div class="num">{{ stats.total }}</div><div class="label">Sessions captured</div></div>
+    <div class="stat"><div class="num">{{ (stats.avg_ratio * 100) | round(1) }}%</div><div class="label">Avg edit ratio</div></div>
+    <div class="stat critical"><div class="num">{{ stats.pct_critical }}%</div><div class="label">Critical edits</div></div>
+    <div class="stat critical"><div class="num">{{ stats.critical_count }}</div><div class="label">Critical sessions</div></div>
+    <div class="stat"><div class="num">{{ stats.low_edit_count }}</div><div class="label">Low-severity edit sessions</div></div>
+    <div class="stat"><div class="num">{{ stats.no_edit_count }}</div><div class="label">No-edit sessions</div></div>
+  </div>
+
+  <div class="panel">
+    <h2>Edit ratio over time</h2>
+    <p class="sub">Daily mean of 1 &minus; text similarity between the AI's draft and the clinician's saved edit. A sudden jump is the strongest signal of a silent model change.</p>
+    <div id="ratio-chart"></div>
+  </div>
+
+  <div class="panel">
+    <h2>Critical vs. non-critical changes per day</h2>
+    <p class="sub">Per changed span, judged by Modules/edit_diff_checker.py (drug switch / negation flip / number edit &rarr; critical).</p>
+    <div id="critical-chart"></div>
+  </div>
+
+  <div class="panel">
+    <h2>Changes by type over time</h2>
+    <p class="sub">Edit-category drift, not just edit volume &mdash; a flat edit rate with a rising share of drug/negation corrections is a worse sign than one made of stylistic rewording.</p>
+    <div id="type-chart"></div>
+  </div>
+
+  <div class="panel">
+    <h2>Recent sessions</h2>
+    <p class="sub">Click a row to see the changed spans.</p>
+    {% if events %}
+    <table>
+      <thead><tr><th>Time (UTC)</th><th>Version</th><th>Edit ratio</th><th>Changes</th><th>Critical</th></tr></thead>
+      <tbody>
+      {% for e in events %}
+        <tr class="session-row" data-session="{{ e.session_file }}">
+          <td class="mono">{{ e.timestamp[:19].replace('T',' ') }}</td>
+          <td class="mono">{{ e.version or '&mdash;' }}</td>
+          <td>{{ (e.edit_ratio | float * 100) | round(1) }}%</td>
+          <td>{{ e.num_changes }} <span class="mono">({{ e.num_critical }} critical)</span></td>
+          <td>{% if e.critical == 'True' %}<span class="badge critical">critical</span>{% else %}<span class="badge ok">clean</span>{% endif %}</td>
+        </tr>
+        <tr><td colspan="5" style="border:none; padding:0;"><div class="drill" id="drill-{{ e.session_file }}"></div></td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+    <div class="chart-empty">No sessions captured yet &mdash; save an edited note in the extension to see it here.</div>
+    {% endif %}
+  </div>
+</main>
+
+<script>
+const DAILY = {{ daily | tojson }};
+
+function svgLineChart(container, data, key, opts) {
+  opts = opts || {};
+  const w = 720, h = 180, pad = 32;
+  if (!data.length) { container.innerHTML = '<div class="chart-empty">No data yet.</div>'; return; }
+  const vals = data.map(d => d[key]);
+  const max = Math.max(...vals, opts.minMax || 0.0001);
+  const stepX = data.length > 1 ? (w - pad * 2) / (data.length - 1) : 0;
+  const points = data.map((d, i) => {
+    const x = pad + i * stepX;
+    const y = h - pad - (d[key] / max) * (h - pad * 2);
+    return [x, y];
+  });
+  const path = points.map((p, i) => (i === 0 ? 'M' : 'L') + p[0].toFixed(1) + ',' + p[1].toFixed(1)).join(' ');
+  const dots = points.map((p, i) =>
+    `<circle cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="3" fill="#0f5c56"><title>${data[i].date}: ${(data[i][key]*100).toFixed(1)}%</title></circle>`
+  ).join('');
+  container.innerHTML = `<svg viewBox="0 0 ${w} ${h}" width="100%" height="${h}">
+    <line x1="${pad}" y1="${h-pad}" x2="${w-pad}" y2="${h-pad}" stroke="#e2ddd1"/>
+    <path d="${path}" fill="none" stroke="#0f5c56" stroke-width="2"/>
+    ${dots}
+  </svg>`;
+}
+
+// Generic stacked bar chart -- series is [{label, color, extract(d)}, ...].
+// Used for both the 2-series critical/non-critical chart and the 6-series
+// per-type breakdown chart below, instead of a hardcoded 2-bar version of
+// each.
+function svgStackedBarChart(container, data, series) {
+  const w = 720, h = 190, pad = 32;
+  if (!data.length) { container.innerHTML = '<div class="chart-empty">No data yet.</div>'; return; }
+  const totals = data.map(d => series.reduce((sum, s) => sum + s.extract(d), 0));
+  const max = Math.max(...totals, 1);
+  const barW = Math.max(4, Math.min(28, (w - pad * 2) / data.length - 4));
+  const stepX = (w - pad * 2) / data.length;
+  let bars = '';
+  data.forEach((d, i) => {
+    const x = pad + i * stepX + (stepX - barW) / 2;
+    let yCursor = h - pad;
+    series.forEach(s => {
+      const val = s.extract(d);
+      if (!val) return;
+      const segH = (val / max) * (h - pad * 2);
+      const y = yCursor - segH;
+      bars += `<rect x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${barW}" height="${segH.toFixed(1)}" fill="${s.color}"><title>${d.date}: ${s.label} = ${val}</title></rect>`;
+      yCursor = y;
+    });
+  });
+  const legend = series.map(s => `<span style="color:${s.color};">&#9632;</span> ${s.label}`).join(' &nbsp; ');
+  container.innerHTML = `<svg viewBox="0 0 ${w} ${h}" width="100%" height="${h}">
+    <line x1="${pad}" y1="${h-pad}" x2="${w-pad}" y2="${h-pad}" stroke="#e2ddd1"/>
+    ${bars}
+  </svg>
+  <div style="font-size:11px;color:#8a897f;margin-top:6px;">${legend}</div>`;
+}
+
+const CRITICAL_SERIES = [
+  { label: 'critical', color: '#c1440e', extract: d => d.critical },
+  { label: 'non-critical', color: '#3a6ea5', extract: d => d.non_critical },
+];
+
+const TYPE_SERIES = [
+  { key: 'drug_switch', label: 'Drug switch', color: '#c1440e' },
+  { key: 'negation_flip', label: 'Negation flip', color: '#a8325c' },
+  { key: 'number_edit', label: 'Number edit', color: '#c97a1f' },
+  { key: 'inserted_sentence', label: 'Inserted', color: '#3a6ea5' },
+  { key: 'omitted_detail', label: 'Omitted', color: '#6d5a9c' },
+  { key: 'reworded', label: 'Reworded', color: '#9a9587' },
+].map(s => ({ ...s, extract: d => (d.types && d.types[s.key]) || 0 }));
+
+svgLineChart(document.getElementById('ratio-chart'), DAILY, 'avg_edit_ratio');
+svgStackedBarChart(document.getElementById('critical-chart'), DAILY, CRITICAL_SERIES);
+svgStackedBarChart(document.getElementById('type-chart'), DAILY, TYPE_SERIES);
+
+document.querySelectorAll('tr.session-row').forEach(row => {
+  row.addEventListener('click', async () => {
+    const sessionFile = row.dataset.session;
+    const drill = document.getElementById('drill-' + sessionFile);
+    if (drill.classList.contains('open')) { drill.classList.remove('open'); return; }
+    document.querySelectorAll('.drill.open').forEach(d => d.classList.remove('open'));
+    if (!drill.dataset.loaded) {
+      const res = await fetch('/dashboard/session/' + encodeURIComponent(sessionFile));
+      const data = await res.json();
+      let html = '';
+      if (!data.result.changes.length) {
+        html = '<div class="chart-empty">No line-level changes detected.</div>';
+      } else {
+        data.result.changes.forEach(c => {
+          const cls = c.critical ? 'crit' : 'non';
+          html += `<div class="diff-line ${cls}"><span class="tag">${c.detail_type}</span>${escapeHtml(c.before || '(nothing)')} &rarr; ${escapeHtml(c.after || '(nothing)')}</div>`;
+        });
+      }
+      drill.innerHTML = `<h4>Transcript</h4><div class="diff-line non" style="max-height:160px;overflow:auto;">${escapeHtml(data.transcript || '(none captured)')}</div><h4 style="margin-top:12px;">Changed spans</h4>${html}`;
+      drill.dataset.loaded = '1';
+    }
+    drill.classList.add('open');
+  });
+});
+
+function escapeHtml(s) {
+  return (s || '').replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+[
+  {"type": "inference", "detail_type": "formal diagnostic term 'Upper respiratory tract infection' -- doctor only says 'it looks like it's just a viral infection... just a cold and a cough', never uses this specific clinical phrase", "detail": "Diagnosis: Upper respiratory tract infection"},
+  {"type": "clinical_word", "detail_type": "drug", "detail": "Medication: metformin, lisinopril"},
+  {"type": "clinical_word", "detail_type": "chronic condition (PMH)", "detail": "Diabetic and high blood pressure since 5-6 years"}
+]

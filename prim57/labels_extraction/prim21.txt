@@ -1,0 +1,16 @@
+[
+  {"type": "negation", "detail": "No PMHx of anaphylaxis, no use of epipen in past"},
+  {"type": "negation", "detail": "No PMHx of anaphylaxis, no use of epipen in past"},
+  {"type": "negation", "detail": "No Fh of note"},
+  {"type": "negation", "detail": "No Fh of note"},
+  {"type": "negation", "detail": "Ex: Now: no lip swelling seen, speaking normally, no airways compromise."},
+  {"type": "negation", "detail": "Ex: Now: no lip swelling seen, speaking normally, no airways compromise."},
+  {"type": "negation", "detail": "No rash seen on arm"},
+  {"type": "negation", "detail": "No rash seen on arm"},
+  {"type": "negation", "detail": "No need for allergy testing on a one-off episode"},
+  {"type": "negation", "detail": "No need for allergy testing on a one-off episode"},
+  {"type": "medicine", "detail": "antihistamines"},
+  {"type": "medicine", "detail": "antihistamines"},
+  {"type": "inference", "detail": "Imp: localized inflammatory reaction to insect bite, no evidence of acute anaphylactic reaction or cellulitis"},
+  {"type": "inference", "detail": "Imp: localized inflammatory reaction to insect bite, no evidence of acute anaphylactic reaction or cellulitis"}
+]

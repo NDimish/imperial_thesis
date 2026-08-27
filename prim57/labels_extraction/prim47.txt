@@ -1,0 +1,14 @@
+[
+  {"type": "negation", "detail": "No problem with actually passing urine."},
+  {"type": "negation", "detail": "No new PV discharge."},
+  {"type": "negation", "detail": "No back/loin pain."},
+  {"type": "negation", "detail": "Not feverish but not checked temp.No obvious trigger, no hx dehydration/frequent SI."},
+  {"type": "negation", "detail": "No PHx urine infections/similar sx."},
+  {"type": "negation", "detail": "No recent change in BH/blood in stool."},
+  {"type": "negation", "detail": "FH: Nil"},
+  {"type": "negation", "detail": "NKDA."},
+  {"type": "negation", "detail": "Non smoker."},
+  {"type": "medicine", "detail": "Mebeverine"},
+  {"type": "medicine", "detail": "Nitrofurantoin"},
+  {"type": "inference", "detail": "Imp: Likely UTI."}
+]

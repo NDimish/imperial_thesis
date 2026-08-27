@@ -1,0 +1,88 @@
+ * Serving Flask app 'server'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-077-530
+127.0.0.1 - - [18/Aug/2026 14:50:15] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 14:50:30] "POST /api/check HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 14:50:31] "POST /events HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 14:50:42] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 14:50:43] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 14:57:00] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 15:08:10] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 15:08:10] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [18/Aug/2026 15:08:46] "POST /api/check HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 15:08:46] "POST /api/check HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 15:18:10] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 15:18:11] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [18/Aug/2026 15:18:32] "POST /api/check HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 15:18:35] "POST /api/check HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 15:18:36] "POST /api/check HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 15:18:39] "POST /events HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 15:18:40] "POST /api/check HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 15:18:41] "POST /api/check HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 15:18:46] "POST /api/check HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 15:19:11] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 15:19:21] "GET /dashboard/session/20260818T141839_c985ee06-ba29-4784-a86b-c8240ede4146.json HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 15:59:13] "POST /api/check HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 15:59:14] "POST /api/check HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 15:59:16] "POST /api/check HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 15:59:16] "POST /api/check HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 16:15:44] "POST /api/check HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 16:15:44] "POST /api/check HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 16:15:46] "POST /api/check HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 16:32:51] "POST /api/check HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 16:32:51] "POST /api/check HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 16:32:51] "POST /api/check HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 16:32:52] "POST /api/check HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 16:34:24] "POST /api/check HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 16:34:25] "POST /api/check HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 16:34:30] "POST /api/check HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 16:34:37] "POST /api/check HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 16:34:42] "GET /dashboard HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\natha\\OneDrive\\Documents\\Uni\\Impreial\\modules\\Thesis\\code\\project\\oogle api\\server\\server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-077-530
+127.0.0.1 - - [18/Aug/2026 16:39:22] "POST /api/check HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\natha\\OneDrive\\Documents\\Uni\\Impreial\\modules\\Thesis\\code\\project\\oogle api\\server\\server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-077-530
+127.0.0.1 - - [18/Aug/2026 16:40:19] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 16:40:35] "POST /events HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 16:40:35] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 16:40:35] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 16:41:05] "GET /dashboard/session/20260818T141839_c985ee06-ba29-4784-a86b-c8240ede4146.json HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 16:41:26] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2026 16:41:28] "GET /dashboard HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\natha\\OneDrive\\Documents\\Uni\\Impreial\\modules\\Thesis\\code\\project\\oogle api\\server\\server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-077-530
+127.0.0.1 - - [18/Aug/2026 17:07:08] "POST /api/check HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\natha\\OneDrive\\Documents\\Uni\\Impreial\\modules\\Thesis\\code\\project\\main.py', reloading
+Exception in thread Thread-1 (serve_forever):
+Traceback (most recent call last):
+  File "C:\Users\natha\miniconda3\envs\soap-checker\Lib\threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "C:\Users\natha\miniconda3\envs\soap-checker\Lib\threading.py", line 982, in run
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-077-530
+ * Detected change in 'C:\\Users\\natha\\OneDrive\\Documents\\Uni\\Impreial\\modules\\Thesis\\code\\project\\main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-077-530
+ * Detected change in 'C:\\Users\\natha\\OneDrive\\Documents\\Uni\\Impreial\\modules\\Thesis\\code\\project\\medspacy_umls_batch57.py', reloading
+Exception in thread Thread-1 (serve_forever):
+Traceback (most recent call last):
+  File "C:\Users\natha\miniconda3\envs\soap-checker\Lib\threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "C:\Users\natha\miniconda3\envs\soap-checker\Lib\threading.py", line 982, in run
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-077-530

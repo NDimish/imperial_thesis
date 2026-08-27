@@ -1,0 +1,11 @@
+[
+  {"type": "negation", "detail": "There is no recent viral illness"},
+  {"type": "negation", "detail": "There is no hearing problems"},
+  {"type": "negation", "detail": "No ear discharge or ear pain"},
+  {"type": "negation", "detail": "You feel nauseous but not been sick"},
+  {"type": "negation", "detail": "There is no weakness of the arms and legs"},
+  {"type": "negation", "detail": "There is no allergies"},
+  {"type": "medicine", "detail": "HRT"},
+  {"type": "medicine", "detail": "stemitil"},
+  {"type": "inference", "detail": "Most likely disgnosis is labrynthitis"}
+]

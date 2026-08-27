@@ -1,0 +1,9 @@
+[
+  {"type": "negation", "detail": "No fever, no chills, non positional."},
+  {"type": "negation", "detail": "No chest pain, no pain on inspiration"},
+  {"type": "negation", "detail": "No complications, baby well."},
+  {"type": "negation", "detail": "No symptoms."},
+  {"type": "negation", "detail": "No of blood thinners."},
+  {"type": "negation", "detail": "PMHx nill"},
+  {"type": "inference", "detail": "DDx: PE"}
+]

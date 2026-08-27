@@ -1,0 +1,5 @@
+[
+  {"type": "inference", "detail_type": "precise duration '8 days' given -- patient and doctor both only ever say 'about a week' (~7 days), no exact day count is stated", "detail": "Feeling unwell for 8 days."},
+  {"type": "inference", "detail_type": "uncertain answer turned into a negative assertion -- patient's actual answer was 'Don't know with asbestos', not a denial", "detail": "Shx - No asbestos exposure."},
+  {"type": "clinical_word", "detail_type": "family history condition", "detail": "Fhx - Mother Lung Ca nil else."}
+]

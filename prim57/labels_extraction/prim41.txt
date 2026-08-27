@@ -1,0 +1,10 @@
+[
+  {"type": "negation", "detail": "Has tried paracetamol 3 hours ago- no improvement"},
+  {"type": "negation", "detail": "No neurological symptoms"},
+  {"type": "negation", "detail": "Dhx: nil regular,"},
+  {"type": "negation", "detail": "NKDA"},
+  {"type": "negation", "detail": "Video assessment - appeared well - in a brightly lit environment - does not appear photophobic"},
+  {"type": "medicine", "detail": "paracetamol"},
+  {"type": "medicine", "detail": "ibuprofen"},
+  {"type": "inference", "detail": "Likely migraine however need to consider more serious differentials"}
+]

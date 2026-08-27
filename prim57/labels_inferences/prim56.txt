@@ -1,0 +1,5 @@
+[
+  {"type": "inference", "detail_type": "'no specific area tenderness' asserted -- patient's actual answer to the tenderness question started with 'yes, well it's... probably some fluid', not a clear denial", "detail": "Pain in front of knee and right side. No specific area tenderness."},
+  {"type": "clinical_word", "detail_type": "chronic condition (PMHx)", "detail": "PMH:  LASIK, ? kidney stones."},
+  {"type": "clinical_word", "detail_type": "drug", "detail": "DHx: Vit D, melatonin, ibuprofen. Xanax sometimes ."}
+]

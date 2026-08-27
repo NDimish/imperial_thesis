@@ -1,0 +1,8 @@
+[
+  {"type": "negation", "detail": "No panic attacks, not missed work."},
+  {"type": "negation", "detail": "Low mood most of the time but denies any suicidal ideation."},
+  {"type": "negation", "detail": "PMH: Nil Past Psych hx/significant anxiety."},
+  {"type": "negation", "detail": "Drinks Fri/sat, not sure of amount but sometimes overdoes it."},
+  {"type": "negation", "detail": "Smokes occ, no illicit drugs."},
+  {"type": "inference", "detail": "Imp: Work related anxiety. Insomnia."}
+]

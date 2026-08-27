@@ -1,0 +1,7 @@
+[
+  {"type": "negation", "detail": "No discharge/ fever/ itchiness/ pain"},
+  {"type": "negation", "detail": "Doesn't use cotton wool buds"},
+  {"type": "negation", "detail": "No Pmhx of note"},
+  {"type": "negation", "detail": "Ex: Looks well, not in pain."},
+  {"type": "inference", "detail": "Imp: need to exclude impacted wax in ear canal first"}
+]

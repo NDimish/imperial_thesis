@@ -1,0 +1,4 @@
+[
+  {"type": "clinical_word", "detail_type": "differential diagnoses (named explicitly by doctor)", "detail": "WE will need to r/o more serious conditions like malaria, Dengue and meningitis"},
+  {"type": "clinical_word", "detail_type": "allergy status", "detail": "No allergies"}
+]

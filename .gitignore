@@ -2,3 +2,16 @@ secrets_config.py
 Clean Transcripts/
 venv
 .venv
+__pycache__/
+*.pyc
+Logs/
+generator files/
+figures/
+extra/
+assets/
+.claude/
+# Captured consultation data from the browser-extension pipeline -- real
+# transcripts/notes if this is ever pointed at anything beyond synthetic
+# test data, so never committed.
+google api/server/data/
+google api/docs/

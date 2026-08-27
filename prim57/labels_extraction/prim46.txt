@@ -1,0 +1,17 @@
+[
+  {"type": "negation", "detail": "Non positional."},
+  {"type": "negation", "detail": "Not woken her up."},
+  {"type": "negation", "detail": "No altered smell/taste."},
+  {"type": "negation", "detail": "No prodromal illness, no viral symptoms, sore ears/coryzal sx."},
+  {"type": "negation", "detail": "Doesn't feel feverish but hasn't checked temperature."},
+  {"type": "negation", "detail": "No N&V."},
+  {"type": "negation", "detail": "No tingling/numbness/weakness/rash."},
+  {"type": "negation", "detail": "Worse with light but vision not altered."},
+  {"type": "negation", "detail": "No hx headaches."},
+  {"type": "negation", "detail": "PMH: Nil significant"},
+  {"type": "negation", "detail": "Non smoker."},
+  {"type": "medicine", "detail": "Microgynon"},
+  {"type": "medicine", "detail": "paracetamol"},
+  {"type": "medicine", "detail": "ibuprofen"},
+  {"type": "inference", "detail": "Imp: ? Tension headache/first episode migraine. No features meningitic illness but is worse with light."}
+]

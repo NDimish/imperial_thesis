@@ -1,0 +1,5 @@
+[
+  {"type": "inference", "detail_type": "'urticaria (Hives)' is the note's own diagnostic categorization of the 'blotching rash' -- doctor's own term for it is garbled/inaudible in the transcript, never clearly names urticaria or hives", "detail": "Plan : advised to start on antihistamines straight away. It might be just urticaria ( Hives)Call the ambulance to r/o possible anaphylactic reaction"},
+  {"type": "clinical_word", "detail_type": "allergy", "detail": "Allergic to penicillin"},
+  {"type": "clinical_word", "detail_type": "chronic condition (PMH)", "detail": "Past medical history:\nEczema"}
+]

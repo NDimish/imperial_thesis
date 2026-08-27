@@ -1,0 +1,11 @@
+[
+  {"type": "negation", "detail": "No back pain."},
+  {"type": "negation", "detail": "No dysuria/freq."},
+  {"type": "negation", "detail": "No blood in stool."},
+  {"type": "negation", "detail": "No N&V, no dyspepsia."},
+  {"type": "negation", "detail": "PMH : Nil"},
+  {"type": "negation", "detail": "DH: Nil."},
+  {"type": "negation", "detail": "Non smoker."},
+  {"type": "negation", "detail": "No drugs."},
+  {"type": "inference", "detail": "Imp: ? UTI."}
+]

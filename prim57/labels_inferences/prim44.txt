@@ -1,0 +1,8 @@
+[
+  {"type": "inference", "detail_type": "specific steroid dose '40mg' given -- doctor only says 'two tablets in the morning...for five days', the mg strength is never stated", "detail": "Pred - 40mg 5 days."},
+  {"type": "clinical_word", "detail_type": "chronic condition (PMHx)", "detail": "PMHx - Asthma."},
+  {"type": "clinical_word", "detail_type": "allergy", "detail": "Hayfever \nDust allergy."},
+  {"type": "clinical_word", "detail_type": "drug", "detail": "Ventolin -"},
+  {"type": "clinical_word", "detail_type": "drug", "detail": "Clenil modulate -"},
+  {"type": "clinical_word", "detail_type": "family history condition", "detail": "Fhx - Mother - Excema. \nFather Asthma"}
+]

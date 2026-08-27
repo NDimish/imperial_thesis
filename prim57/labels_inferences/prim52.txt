@@ -1,0 +1,5 @@
+[
+  {"type": "inference", "detail_type": "diabetes type specified -- patient only ever says 'I'm diabetic', never specifies type 1 or type 2", "detail": "PMH: Hypertension\nT2 DM"},
+  {"type": "discrepancy", "detail_type": "note claims she can't recall the diabetes checkup timing -- patient explicitly says her blood test was 'around three weeks ago' and normal; only the BP-check date was vague", "detail": "Thinks last BP was fine, can't remember when last BP/DM check up was."},
+  {"type": "clinical_word", "detail_type": "drug", "detail": "DH: Lisinopril \nMetformin"}
+]

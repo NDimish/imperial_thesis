@@ -1,0 +1,6 @@
+[
+  {"type": "inference", "detail_type": "meningism/red-flag checks added to plan -- neck stiffness, fever and rash are never mentioned anywhere in the transcript, doctor only discusses headache/visual/GI symptoms", "detail": "For review face to face as 1st onset of headache - to be seen today at earliest - earliest appointment available - will need neurological assessment - also to assess for neck stiffness and fever and rash"},
+  {"type": "clinical_word", "detail_type": "diagnosis (doctor's working impression)", "detail": "Likely migraine however need to consider more serious differentials"},
+  {"type": "clinical_word", "detail_type": "chronic condition (PMH)", "detail": "Pmh: renal stones"},
+  {"type": "clinical_word", "detail_type": "family history condition", "detail": "Fhx: mother - migraines, Hypothyroidism"}
+]

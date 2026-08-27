@@ -1,0 +1,13 @@
+[
+  {"type": "negation", "detail": "No blood in stool."},
+  {"type": "negation", "detail": "Associated LLQ pain - crampy, intermittent, nil radiation."},
+  {"type": "negation", "detail": "No blood in vomit."},
+  {"type": "negation", "detail": "Fever on first day, nil since."},
+  {"type": "negation", "detail": "Wife and children also unwell with vomiting, but no diarrhea."},
+  {"type": "negation", "detail": "No other unwell contacts."},
+  {"type": "negation", "detail": "Nil smoking/etOH hx"},
+  {"type": "medicine", "detail": "Inhalers"},
+  {"type": "medicine", "detail": "paracetamol"},
+  {"type": "medicine", "detail": "diarolyte"},
+  {"type": "inference", "detail": "Imp: gastroenteritis"}
+]

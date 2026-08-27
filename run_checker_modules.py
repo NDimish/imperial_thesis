@@ -2,13 +2,23 @@ import argparse
 import os
 import sys
 
+# Windows' console defaults to a legacy codepage (cp1252) that can't encode
+# every character real clinical text contains (confirmed directly: a run
+# crashed on U+2105 "c/o" mid-file, killing the whole process -- including
+# every file and every module still queued after it -- before it ever
+# reached Evaluate.results(), so nothing gets written out at all when this
+# happens). Reconfiguring stdout to UTF-8 (falling back to a replacement
+# character instead of raising) means an unusual character in one file's
+# text can no longer take down an entire run.
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 import matplotlib.pyplot as plt
 
 from Modules.evaluate import Evaluate
 
 sys.path.insert(0, "Medical condensor")
 from base import clean_transcript
-from medspacy_condenser import MedspacyCondenser
+from medspacy_condenser_new import MedspacyCondenserNew
 # from negspacy_condenser import NegspacyCondenser
 # from quickumls_condenser import QuickUMLSCondenser
 # from scispacy_condenser import SciSpacyCondenser
@@ -20,9 +30,11 @@ RESULTS_DIR = os.environ.get("RESULTS_DIR", "Logs")
 PLOT_PATH = os.path.join(RESULTS_DIR, "main_trends.png")
 
 # Which NLP condenser module runs on each transcript before it reaches the checker
-# modules below. Swap this to MedspacyCondenser / SciSpacyCondenser /
-# NegspacyCondenser / QuickUMLSCondenser (needs QUICKUMLS_INSTALL_DIR configured).
-CONDENSER = MedspacyCondenser
+# modules below. Swap this to SciSpacyCondenser / NegspacyCondenser /
+# QuickUMLSCondenser (needs QUICKUMLS_INSTALL_DIR configured). MedspacyCondenser
+# itself is retired (Medical condensor/old/medspacy_condenser.py) in favor of
+# MedspacyCondenserNew.
+CONDENSER = MedspacyCondenserNew
 
 RUNS_PER_MODULE = 1
 
@@ -50,18 +62,32 @@ def load_checker_modules():
     # except Exception as e:
     #     print(f"Skipping AIChecker: {e}")
 
-    # Hashed out for a HighRiskChecker-only run -- re-enable by uncommenting.
-    # try:
-    #     from Modules.alignscore_checker import AlignScoreChecker
-    #     modules.append(AlignScoreChecker())
-    # except Exception as e:
-    #     print(f"Skipping AlignScoreChecker: {e}")
-
+    # AlignScoreChecker-only run (full 57-file, splitter fix + THRESHOLD=0.30,
+    # per request) -- re-enable AlignScoreChecker2/MinIEChecker below by
+    # uncommenting/commenting back.
     try:
-        from Modules.high_risk_checker import HighRiskChecker
-        modules.append(HighRiskChecker())
+        from Modules.alignscore_checker import AlignScoreChecker
+        modules.append(AlignScoreChecker())
     except Exception as e:
-        print(f"Skipping HighRiskChecker: {e}")
+        print(f"Skipping AlignScoreChecker: {e}")
+
+    # try:
+    #     from Modules.alignscorechecker2 import AlignScoreChecker2
+    #     modules.append(AlignScoreChecker2())
+    # except Exception as e:
+    #     print(f"Skipping AlignScoreChecker2: {e}")
+
+    # try:
+    #     from Modules.minie_checker import MinIEChecker
+    #     modules.append(MinIEChecker())
+    # except Exception as e:
+    #     print(f"Skipping MinIEChecker: {e}")
+
+    # try:
+    #     from Modules.high_risk_checker import HighRiskChecker
+    #     modules.append(HighRiskChecker())
+    # except Exception as e:
+    #     print(f"Skipping HighRiskChecker: {e}")
 
     # SummaCChecker disabled: a real 5-file run measured it at ~1,829s/file
     # average (one file took 71 minutes) -- a full 57-file run would take
@@ -192,9 +218,16 @@ def main(limit=None):
                 print(f"\n=== {module_name} on {input_filename} (run {run}/{RUNS_PER_MODULE}) ===")
                 for error in errors:
                     # HighRiskChecker (and any future severity-aware checker) returns
-                    # (type, severity, detail_type, detail, section) 5-tuples instead
-                    # of the (type, detail) 2-tuples every other checker here returns.
-                    if len(error) == 5:
+                    # (type, severity, detail_type, detail, section, highlighted) 6-tuples
+                    # -- "highlighted" is the specific term/phrase within detail that
+                    # triggered the flag, display-only (never fed to Evaluate's matching,
+                    # see Modules/evaluate.py's compare()) -- instead of the (type, detail)
+                    # 2-tuples every other checker here returns.
+                    if len(error) == 6:
+                        error_type, severity, detail_type, detail, section, highlighted = error
+                        text = f"{detail} :::: {highlighted}" if highlighted else detail
+                        print(f"{error_type} [{severity}/{detail_type}/{section}]: {text}")
+                    elif len(error) == 5:
                         error_type, severity, detail_type, detail, section = error
                         print(f"{error_type} [{severity}/{detail_type}/{section}]: {detail}")
                     elif len(error) == 4:
@@ -224,6 +257,6 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    print("started Main")
+    print("started run_checker_modules")
 
     main(args.limit)

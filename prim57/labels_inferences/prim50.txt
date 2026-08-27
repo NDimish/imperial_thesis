@@ -1,0 +1,7 @@
+[
+  {"type": "discrepancy", "detail_type": "note denies nausea -- patient explicitly says 'I'm just a bit nausea but no vomiting', i.e. she does have nausea", "detail": "No N&V, no dyspepsia."},
+  {"type": "discrepancy", "detail_type": "note denies urinary frequency -- patient explicitly answered 'yeah, a little bit' when asked if going more often than normal", "detail": "No dysuria/freq."},
+  {"type": "inference", "detail_type": "'no blood in stool' asserted -- patient's answer to the stool-blood question was actually about blood in her urine, no clear stool-specific denial was given", "detail": "No blood in stool."},
+  {"type": "clinical_word", "detail_type": "allergy", "detail": "DH: Nil. Allergic to amoxicillin."},
+  {"type": "clinical_word", "detail_type": "family history condition", "detail": "FMH: Mum had breast cancer, now in remission."}
+]

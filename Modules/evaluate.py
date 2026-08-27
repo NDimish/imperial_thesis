@@ -49,7 +49,7 @@ class Evaluate:
     label files and accumulates precision/recall/F1/accuracy across every compare() call
     -- both overall and broken down per error type (hallucination, omission, ...).
 
-    Usage (matches main.py):
+    Usage (matches run_checker_modules.py):
         evaluator = Evaluate(LABELS_DIR, module_name)
         evaluator.compare(errors, filename, elapsed)   # once per file
         evaluator.results()                             # once, after all files
@@ -214,21 +214,39 @@ class Evaluate:
             bucket[key] += 1
 
         for error in errors:
-            if len(error) == 5:
+            if len(error) == 6:
+                # 6th field ("highlighted") is DISPLAY-ONLY -- the specific
+                # term/phrase within error_text that triggered the flag
+                # (see Modules/high_risk_checker.py's _judge_* methods).
+                # Deliberately excluded from matching below: confirmed
+                # directly this session that folding it into error_text
+                # itself broke real TP matches (a label with trailing
+                # content beyond the plain sentence, e.g. "Regular
+                # paracetamol for pain 5", stopped matching once the
+                # prediction had extra text appended after the sentence
+                # too, diverging from the label's own trailing content).
+                error_type, p_severity, p_detail_type, error_text, p_section, p_highlighted = error
+                p_severity = str(p_severity).strip().lower() if p_severity else None
+                p_detail_type = str(p_detail_type).strip().lower() if p_detail_type else None
+                p_section = str(p_section).strip().lower() if p_section else "n/a"
+            elif len(error) == 5:
                 error_type, p_severity, p_detail_type, error_text, p_section = error
                 p_severity = str(p_severity).strip().lower() if p_severity else None
                 p_detail_type = str(p_detail_type).strip().lower() if p_detail_type else None
                 p_section = str(p_section).strip().lower() if p_section else "n/a"
+                p_highlighted = None
             elif len(error) == 4:
                 error_type, p_severity, p_detail_type, error_text = error
                 p_severity = str(p_severity).strip().lower() if p_severity else None
                 p_detail_type = str(p_detail_type).strip().lower() if p_detail_type else None
                 p_section = None
+                p_highlighted = None
             else:
                 error_type, error_text = error
                 p_severity = None
                 p_detail_type = None
                 p_section = None
+                p_highlighted = None
 
             p_type = str(error_type).strip().lower()
             p_clean = self._clean_text(error_text)
@@ -250,7 +268,7 @@ class Evaluate:
                 matched[match_index] = True
                 tp += 1
                 _bump(p_type, "tp")
-                flagged.append((error_type, p_severity, p_detail_type, p_section, error_text, True))
+                flagged.append((error_type, p_severity, p_detail_type, p_section, error_text, p_highlighted, True))
                 if p_section is not None:
                     bucket["tp"] += 1
 
@@ -265,7 +283,7 @@ class Evaluate:
             else:
                 fp += 1
                 _bump(p_type, "fp")
-                flagged.append((error_type, p_severity, p_detail_type, p_section, error_text, False))
+                flagged.append((error_type, p_severity, p_detail_type, p_section, error_text, p_highlighted, False))
                 if p_section is not None:
                     bucket["fp"] += 1
 
@@ -489,12 +507,13 @@ class Evaluate:
         printed the same way as the TRUE/FALSE predictions above it."""
         self._log(f"\n{filename}")
         if flagged:
-            for error_type, severity, detail_type, section, error_text, is_true in flagged:
+            for error_type, severity, detail_type, section, error_text, highlighted, is_true in flagged:
                 verdict = "TRUE" if is_true else "FALSE"
+                text = f"{error_text} :::: {highlighted}" if highlighted else error_text
                 if severity or detail_type:
-                    self._log(f"  [{verdict}] {error_type} [{severity or '?'}/{detail_type or '?'}/{section or '?'}]: {error_text}")
+                    self._log(f"  [{verdict}] {error_type} [{severity or '?'}/{detail_type or '?'}/{section or '?'}]: {text}")
                 else:
-                    self._log(f"  [{verdict}] {error_type}: {error_text}")
+                    self._log(f"  [{verdict}] {error_type}: {text}")
         else:
             self._log("  flagged - none")
 

@@ -108,7 +108,7 @@ python --version
 # Every submission gets its own folder: results/<timestamp>_<slurm-job-id>/
 # The target scripts below (run_main.sh, run_nlp_main.sh) read $RESULTS_DIR,
 # and the Python side (Modules/evaluate.py, Medical condensor/evaluate.py,
-# main.py, NLP_Main.py) all fall back to "Logs" when RESULTS_DIR isn't set,
+# run_checker_modules.py, run_condensers.py) all fall back to "Logs" when RESULTS_DIR isn't set,
 # so plain local runs (no sbatch) are unaffected.
 RUN_TS="$(date +%Y%m%d_%H%M%S)"
 JOB_CODE="${SLURM_JOB_ID:-local}"

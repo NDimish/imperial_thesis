@@ -1,0 +1,9 @@
+[
+  {"type": "negation", "detail": "symptoms not present now"},
+  {"type": "negation", "detail": "no dysphagia, no dysphasia"},
+  {"type": "negation", "detail": "no Pmhx of CVA/TIA"},
+  {"type": "negation", "detail": "Non smoker, normal blood tests for diabetes/ cholesterol when checked a few years ago"},
+  {"type": "negation", "detail": "PMHx and FH: otherwise nil of note"},
+  {"type": "medicine", "detail": "Aspirin"},
+  {"type": "inference", "detail": "Imp: TIAs- despite young age (need to exclude any systemic disease, eg antiphospholipid syndrome, that could be cause)"}
+]

@@ -1,0 +1,5 @@
+[
+  {"type": "inference", "detail_type": "'haemodynamically stable...well perfused' is a clinical judgment inferred from the patient's general coherence/appearance on the call -- no explicit pulse, perfusion, or stability check is described or verbalized", "detail": "Ex: haemodynamically stable now, at rest, seated, well perfused via video inspection, not SOB"},
+  {"type": "inference", "detail_type": "specific test 'trop T' (Troponin) added -- doctor only says the ambulance will 'do an ECG', a blood troponin test is never mentioned", "detail": "Imp: acute cardiac event- needs urgent ECG + trop T"},
+  {"type": "clinical_word", "detail_type": "allergy (specific reaction confirmed: mild swelling)", "detail": "DH: (mild) allergy to aspirin"}
+]

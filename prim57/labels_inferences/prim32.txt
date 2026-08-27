@@ -1,0 +1,5 @@
+[
+  {"type": "clinical_word", "detail_type": "drug (named explicitly by doctor)", "detail": "Plan : advised will prescribe fexofenatidine and Betnovate for eczema. Need to use steroid cream sparingly ."},
+  {"type": "clinical_word", "detail_type": "drug", "detail": "Medication: diprobase, dermol , hydrocortisone, salbutamol"},
+  {"type": "clinical_word", "detail_type": "family history condition", "detail": "FH Hypothyroidism"}
+]

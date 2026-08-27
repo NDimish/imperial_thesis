@@ -1,0 +1,14 @@
+[
+  {"type": "negation", "detail": "No blood in stools."},
+  {"type": "negation", "detail": "No abdo pain."},
+  {"type": "negation", "detail": "Not drinking sufficient fluids."},
+  {"type": "negation", "detail": "No fever/temp, but feels warm."},
+  {"type": "negation", "detail": "No headaches/muscle pain."},
+  {"type": "negation", "detail": "No unwell contacts"},
+  {"type": "negation", "detail": "NKDA"},
+  {"type": "negation", "detail": "Nil smoking, social EtOH"},
+  {"type": "medicine", "detail": "salbutamol"},
+  {"type": "medicine", "detail": "diarolyte"},
+  {"type": "medicine", "detail": "paracetamol"},
+  {"type": "inference", "detail": "Imp: gastroenteritis"}
+]

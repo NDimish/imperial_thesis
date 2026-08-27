@@ -1,0 +1,7 @@
+[
+  {"type": "discrepancy", "detail_type": "note records the wrong household -- patient explicitly says she lives with 'my husband, and my husband's family', not her parents", "detail": "SH; Teacher, has been able to work as usual. Lives with parents. No smoker/alcohol/drugs."},
+  {"type": "inference", "detail_type": "smoking/alcohol denied -- patient's actual answer to 'do you smoke or drink alcohol' was 'I don't know', not a clear no", "detail": "No smoker/alcohol/drugs."},
+  {"type": "discrepancy", "detail_type": "note claims difficulty urinating -- patient explicitly answered 'No' when asked 'any problems passing water?'", "detail": "No dysuria/frequency but some difficulty PUing."},
+  {"type": "clinical_word", "detail_type": "allergy", "detail": "DH: Nil. Allergic to amoxicillin."},
+  {"type": "clinical_word", "detail_type": "contraception/device", "detail": "Implanon 1 yr ago."}
+]

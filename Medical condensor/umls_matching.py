@@ -21,7 +21,7 @@ QUICKUMLS_INSTALL_DIR = r"C:\Users\natha\OneDrive\Documents\Uni\Impreial\modules
 # fuzzy-match spurious UMLS concepts at 0.7 Jaccard similarity, so almost every
 # turn (including pure greetings/sign-offs) was being kept as "clinical".
 #
-# THRESHOLD was first raised to 0.85, but a real full-dataset NLP_Main.py run
+# THRESHOLD was first raised to 0.85, but a real full-dataset run_condensers.py run
 # showed the fix that followed (a denylist) had made filtering much more
 # aggressive at a real cost: the condensed-vs-original groundedness score got
 # roughly 10x worse (-1.1 -> -11.3). Direct inspection of what an unrestricted
@@ -104,7 +104,7 @@ ACCEPTED_SEMTYPES = {
 # First attempt: a wordfreq-based Zipf-frequency cutoff (reject any match at
 # or above 4.7), reasoning that real clinical terms and generic words sit in
 # separate frequency bands. Verified WRONG at real full-dataset scale: a fresh
-# NLP_Main.py run showed QuickUMLS/Negspacy's groundedness got worse, not
+# run_condensers.py run showed QuickUMLS/Negspacy's groundedness got worse, not
 # better, after adding it. Root cause: raw English-wide word frequency doesn't
 # distinguish "generic discourse filler" from "a symptom word that's also
 # common in everyday speech" -- confirmed directly, "pain"=5.03, "blood"=5.10,

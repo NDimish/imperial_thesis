@@ -1,0 +1,16 @@
+[
+  {"type": "negation", "detail": "No fever, has checked temp - 37."},
+  {"type": "negation", "detail": "Not coughing up sputum, no haemoptysis/CP."},
+  {"type": "negation", "detail": "Not night time waking."},
+  {"type": "negation", "detail": "Not exercising at the moment."},
+  {"type": "negation", "detail": "Sometimes can't complete sentences but no SOB at rest, no problems walking upstairs."},
+  {"type": "negation", "detail": "Doesn't have peak flow meter at home."},
+  {"type": "negation", "detail": "No ITU."},
+  {"type": "negation", "detail": "Non smoker."},
+  {"type": "negation", "detail": "If wheeze not settling/getting worse in meantime if feels unwell for urgent appointment."},
+  {"type": "medicine", "detail": "Salbutamol"},
+  {"type": "medicine", "detail": "salbutamol"},
+  {"type": "medicine", "detail": "salbutamol"},
+  {"type": "medicine", "detail": "salbutamol"},
+  {"type": "inference", "detail": "Imp: Exacerbation asthma"}
+]

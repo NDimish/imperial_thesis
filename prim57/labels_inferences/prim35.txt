@@ -1,0 +1,6 @@
+[
+  {"type": "inference", "detail_type": "'Gastroenteritis' as a formal diagnosis label -- the doctor never says this word anywhere in the consultation, only discusses diarrhea management without naming a diagnosis", "detail": "Diagnosis: Gastroenteritis"},
+  {"type": "discrepancy", "detail_type": "drug name doesn't clearly match either speaker -- patient says 'Lexapro' (an antidepressant, unusual for asthma), doctor mishears it as 'Laxepro', and the note records a third variant 'Lapriso' -- the note's own '?' mark honestly flags this uncertainty rather than asserting it confidently", "detail": "Medication ? Lapriso"},
+  {"type": "clinical_word", "detail_type": "family history condition", "detail": "FH: Dad died of bowel cancer 10 years, HTN"},
+  {"type": "clinical_word", "detail_type": "drug (OTC, named by doctor)", "detail": "Plan : advised soft diet , drink plenty ."}
+]

@@ -1,0 +1,16 @@
+[
+  {"type": "negation", "detail": "Nil radiating."},
+  {"type": "negation", "detail": "Nil neck stiffness."},
+  {"type": "negation", "detail": "No speech disturbances"},
+  {"type": "negation", "detail": "No limb weakness or numbness"},
+  {"type": "negation", "detail": "No coordination/balance issues"},
+  {"type": "negation", "detail": "No recent head injury"},
+  {"type": "negation", "detail": "No fever"},
+  {"type": "negation", "detail": "No rashes"},
+  {"type": "negation", "detail": "PMH: nil"},
+  {"type": "negation", "detail": "NKDA"},
+  {"type": "negation", "detail": "Nil mood sx."},
+  {"type": "negation", "detail": "Nil smoking/etOH hx"},
+  {"type": "medicine", "detail": "microgynon"},
+  {"type": "inference", "detail": "Imp: migraine"}
+]

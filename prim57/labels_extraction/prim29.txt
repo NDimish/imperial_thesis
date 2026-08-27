@@ -1,0 +1,9 @@
+[
+  {"type": "negation", "detail": "You are having a cough but no sputum"},
+  {"type": "negation", "detail": "You have never needed anitibiotics or steroids"},
+  {"type": "negation", "detail": "You have never been hospitalized because of your asthma"},
+  {"type": "negation", "detail": "You don't have any allergies"},
+  {"type": "medicine", "detail": "clenil"},
+  {"type": "medicine", "detail": "hydrocortisone"},
+  {"type": "medicine", "detail": "cetraban"}
+]

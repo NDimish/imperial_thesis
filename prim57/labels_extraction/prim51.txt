@@ -1,0 +1,14 @@
+[
+  {"type": "negation", "detail": "No blood in stool."},
+  {"type": "negation", "detail": "Doesn't feel like she is holding down fluid."},
+  {"type": "negation", "detail": "Not sure of colour."},
+  {"type": "negation", "detail": "No foreign travel."},
+  {"type": "negation", "detail": "No rash."},
+  {"type": "negation", "detail": "Feels hot but hasn't checked temperature."},
+  {"type": "negation", "detail": "No regular SI."},
+  {"type": "negation", "detail": "Not using contraception."},
+  {"type": "negation", "detail": "PMH:Nil."},
+  {"type": "negation", "detail": "Non smoker."},
+  {"type": "medicine", "detail": "Vitamins"},
+  {"type": "inference", "detail": "Imp: Gastroenteritis ?Viral/?food poisoning."}
+]

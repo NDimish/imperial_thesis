@@ -1,0 +1,13 @@
+[
+  {"type": "negation", "detail": "Nil frequency."},
+  {"type": "negation", "detail": "Abdo pain - cramping, nil radiating"},
+  {"type": "negation", "detail": "Nil nausea/vomiting."},
+  {"type": "negation", "detail": "Nil fever."},
+  {"type": "negation", "detail": "Nil bowel sx"},
+  {"type": "negation", "detail": "No previous STD screen."},
+  {"type": "negation", "detail": "Nil PV discharge."},
+  {"type": "negation", "detail": "DH: Nil regular"},
+  {"type": "negation", "detail": "FH: Nil regular"},
+  {"type": "medicine", "detail": "Nitrofurantoin"},
+  {"type": "inference", "detail": "Imp: UTI/cystitis"}
+]

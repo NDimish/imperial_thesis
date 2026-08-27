@@ -1,0 +1,5 @@
+[
+  {"type": "negation", "detail": "No previous similar episodes"},
+  {"type": "negation", "detail": "Ex: haemodynamically stable now, at rest, seated, well perfused via video inspection, not SOB"},
+  {"type": "inference", "detail": "Imp: acute cardiac event- needs urgent ECG + trop T"}
+]

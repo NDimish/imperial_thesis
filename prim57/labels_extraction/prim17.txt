@@ -1,0 +1,12 @@
+[
+  {"type": "negation", "detail": "Not painful."},
+  {"type": "negation", "detail": "No trauma."},
+  {"type": "negation", "detail": "Not happened before"},
+  {"type": "negation", "detail": "PMHx: nil of note"},
+  {"type": "negation", "detail": "FH: nil of note"},
+  {"type": "negation", "detail": "DH: not on any medication, allergic to peanuts"},
+  {"type": "negation", "detail": "Ex: looks well, not in pain."},
+  {"type": "medicine", "detail": "NSAIDs"},
+  {"type": "inference", "detail": "No FH of rheumatological disease- NB pt says he has been old he has OA previously by doctors- ? need to confirm this"},
+  {"type": "inference", "detail": "Imp: possible bursitis"}
+]

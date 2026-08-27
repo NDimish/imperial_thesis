@@ -1,0 +1,17 @@
+[
+  {"type": "negation", "detail": "No specific area tenderness."},
+  {"type": "negation", "detail": "No giving way/locking."},
+  {"type": "negation", "detail": "No problems going up/downstairs or on normal walking."},
+  {"type": "negation", "detail": "No other jt pains, no general unwell/fever."},
+  {"type": "negation", "detail": "No change in temp/colour."},
+  {"type": "negation", "detail": "No problems walking hard floors/pain in sole."},
+  {"type": "negation", "detail": "Do not continue to run with pain."},
+  {"type": "negation", "detail": "No hx GI sx/asthma."},
+  {"type": "medicine", "detail": "Vit D"},
+  {"type": "medicine", "detail": "melatonin"},
+  {"type": "medicine", "detail": "ibuprofen"},
+  {"type": "medicine", "detail": "Xanax"},
+  {"type": "medicine", "detail": "ibuprofen"},
+  {"type": "medicine", "detail": "naproxen"},
+  {"type": "inference", "detail": "PMH:  LASIK, ? kidney stones."}
+]

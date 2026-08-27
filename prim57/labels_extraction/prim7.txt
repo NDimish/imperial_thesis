@@ -1,0 +1,14 @@
+[
+  {"type": "negation", "detail": "No chest pain."},
+  {"type": "negation", "detail": "No fevers."},
+  {"type": "negation", "detail": "No unwell contacts"},
+  {"type": "negation", "detail": "No nausea/vomiting"},
+  {"type": "negation", "detail": "No bowel symptoms"},
+  {"type": "negation", "detail": "NKDA"},
+  {"type": "medicine", "detail": "metformin"},
+  {"type": "medicine", "detail": "lisinopril"},
+  {"type": "medicine", "detail": "aspirin"},
+  {"type": "medicine", "detail": "paracetamol"},
+  {"type": "medicine", "detail": "amoxicillin"},
+  {"type": "inference", "detail": "Imp: viral URTI/? LRTI"}
+]

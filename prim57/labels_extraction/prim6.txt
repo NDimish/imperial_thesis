@@ -1,0 +1,15 @@
+[
+  {"type": "negation", "detail": "Feeling more SOB on minimal exertion, nil SOB at rest."},
+  {"type": "negation", "detail": "No chest pain/palpitations."},
+  {"type": "negation", "detail": "No fevers."},
+  {"type": "negation", "detail": "Urinary - Polyuria, nil else"},
+  {"type": "negation", "detail": "NKDA"},
+  {"type": "negation", "detail": "No etOH"},
+  {"type": "medicine", "detail": "furosemide"},
+  {"type": "medicine", "detail": "aspirin"},
+  {"type": "medicine", "detail": "bisoprolol"},
+  {"type": "medicine", "detail": "simvastatin"},
+  {"type": "medicine", "detail": "furosemide"},
+  {"type": "inference", "detail": "PMH: Heart failure, ?unstable angina"},
+  {"type": "inference", "detail": "Imp: exacerbation of heart failure"}
+]

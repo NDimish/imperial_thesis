@@ -1,0 +1,6 @@
+[
+  {"type": "inference", "detail_type": "'<14 units/week' is a calculated conversion into standard alcohol units from the patient's qualitative description ('three evenings a week, two or three glasses of wine') and patient's own admission she doesn't count units -- matches the doctor's spoken estimate ('probably just about under the limit') but the figure itself is never stated by the patient", "detail": "SH: lives with partner, works IT, denies stress. Ex-smoker - stopped 6/12 ago. Social EtOH <14 units/week"},
+  {"type": "clinical_word", "detail_type": "diagnosis", "detail": "Imp: viral URTI"},
+  {"type": "clinical_word", "detail_type": "drug", "detail": "DH: metformin, lisinopril"},
+  {"type": "clinical_word", "detail_type": "chronic condition (PMH)", "detail": "PMH: Type 2 diabetes, HTN"}
+]

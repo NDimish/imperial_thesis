@@ -1,0 +1,14 @@
+[
+  {"type": "negation", "detail": "No dysuria/frequency but some difficulty PUing."},
+  {"type": "negation", "detail": "No other PV discharge."},
+  {"type": "negation", "detail": "Not checked temp."},
+  {"type": "negation", "detail": "Does not feel feverish."},
+  {"type": "negation", "detail": "Not feeling faint."},
+  {"type": "negation", "detail": "No DIB/shoulder tip pain."},
+  {"type": "negation", "detail": "No vomiting/diarrhoea."},
+  {"type": "negation", "detail": "PMH: Nil significant"},
+  {"type": "negation", "detail": "DH: Nil."},
+  {"type": "negation", "detail": "No smoker/alcohol/drugs."},
+  {"type": "medicine", "detail": "Implanon"},
+  {"type": "inference", "detail": "Imp: Abdominal pain ? cause. Needs to check preg test today and contact us immediately if pos. Urgent examination booked with Dr. To get in touch before if pain worse/new sx."}
+]

@@ -1,0 +1,6 @@
+[
+  {"type": "inference", "detail_type": "causal link ('possibly secondary to immunosuppression') is the note's own clinical reasoning connecting the LRTI to methotrexate use -- doctor discusses methotrexate but never states this causal attribution aloud", "detail": "Imp: probable LRTI, possibly secondary to immunosuppression"},
+  {"type": "inference", "detail_type": "immune-status blood tests planned -- doctor only discusses today's physical exam (chest, BP, pulse, temp) in the transcript, future bloods for immune status are never mentioned", "detail": "May also need blood tests to check immune status in view of methotrexate"},
+  {"type": "clinical_word", "detail_type": "chronic condition (PMH) / drug", "detail": "Pmhx: SLE"},
+  {"type": "clinical_word", "detail_type": "drug (immunosuppressant)", "detail": "DH: on methotrexate"}
+]

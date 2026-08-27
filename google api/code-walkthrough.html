@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>DiSCaScribe pipeline &mdash; code walkthrough</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{
+  --bg:#faf8f4; --bg-panel:#ffffff; --bg-sunken:#f1ede6; --bg-code:#1e2023;
+  --ink:#20211d; --ink-soft:#55554e; --ink-faint:#8a897f;
+  --line:#e2ddd1; --line-soft:#ede9de;
+  --accent:#0f5c56; --accent-soft:#d9ece9;
+  --warn:#c1440e; --warn-soft:#f6ddd0;
+  --tip:#3a6ea5; --tip-soft:#dce7f2;
+  --code-ink:#e6e6e0; --code-key:#7fc9bd; --code-str:#e3b95a; --code-com:#8a897f;
+  --shadow: 0 1px 2px rgba(30,25,10,.06), 0 8px 24px -12px rgba(30,25,10,.18);
+  --font-display: ui-serif, Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", Consolas, monospace;
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{background:var(--bg); color:var(--ink); font-family:var(--font-body); line-height:1.6; font-size:15.5px;}
+a{color:var(--accent);}
+.layout{display:grid; grid-template-columns:250px 1fr; max-width:1280px; margin:0 auto;}
+@media (max-width:900px){.layout{grid-template-columns:1fr;} nav.toc{display:none;}}
+
+nav.toc{position:sticky; top:0; align-self:start; height:100vh; overflow-y:auto; padding:28px 18px; border-right:1px solid var(--line);}
+nav.toc .brand{font-family:var(--font-mono); font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:var(--accent); font-weight:700; margin-bottom:18px;}
+nav.toc ol{list-style:none; margin:0; padding:0; counter-reset:sec;}
+nav.toc li{counter-increment:sec; margin-bottom:2px;}
+nav.toc a{display:block; padding:7px 10px; border-radius:7px; color:var(--ink-soft); text-decoration:none; font-size:13.5px;}
+nav.toc a:before{content:counter(sec) "  "; font-family:var(--font-mono); color:var(--ink-faint); font-size:11px;}
+nav.toc a:hover{background:var(--bg-sunken); color:var(--ink);}
+
+main{padding:44px 40px 120px;}
+header.top{margin-bottom:44px;}
+header.top .eyebrow{font-family:var(--font-mono); font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--accent); font-weight:600; margin-bottom:10px;}
+h1{font-family:var(--font-display); font-size:clamp(26px,3.4vw,38px); font-weight:600; margin:0 0 12px; text-wrap:balance; letter-spacing:-0.01em;}
+header.top p.sub{color:var(--ink-soft); font-size:16.5px; max-width:70ch; margin:0;}
+
+section{margin:0 0 56px; padding-top:20px; border-top:1px solid var(--line-soft);}
+section:first-of-type{border-top:none;}
+section h2{font-family:var(--font-display); font-size:24px; font-weight:600; margin:0 0 6px; text-wrap:balance;}
+section .lede{color:var(--ink-soft); max-width:74ch; margin:0 0 22px; font-size:15px;}
+section h3{font-family:var(--font-display); font-size:18.5px; margin:30px 0 4px;}
+section h3 .file{font-family:var(--font-mono); font-size:13px; color:var(--accent); font-weight:600;}
+section h4{font-size:13.5px; margin:18px 0 4px; color:var(--ink);}
+p{max-width:74ch; color:var(--ink-soft); margin:0 0 14px;}
+strong{color:var(--ink); font-weight:600;}
+ul,ol.reg{max-width:74ch; color:var(--ink-soft); margin:0 0 16px; padding-left:22px;}
+li{margin-bottom:6px;}
+code{font-family:var(--font-mono); font-size:.88em; background:var(--bg-sunken); padding:1px 5px; border-radius:4px; color:var(--ink);}
+
+.func-table{width:100%; border-collapse:collapse; font-size:13.5px; max-width:none; margin:8px 0 22px;}
+.func-table th{text-align:left; font-size:11px; text-transform:uppercase; letter-spacing:.04em; color:var(--ink-faint); padding:6px 10px; border-bottom:1px solid var(--line);}
+.func-table td{padding:9px 10px; border-bottom:1px solid var(--line-soft); color:var(--ink-soft); vertical-align:top;}
+.func-table td.name{color:var(--ink); font-weight:600; font-family:var(--font-mono); font-size:12.8px; white-space:nowrap;}
+
+.callout{border-left:3px solid var(--accent); background:var(--accent-soft); border-radius:0 8px 8px 0; padding:12px 16px; margin:16px 0; font-size:14px; max-width:74ch;}
+.callout.warn{border-color:var(--warn); background:var(--warn-soft);}
+.callout.tip{border-color:var(--tip); background:var(--tip-soft);}
+.callout p{margin:0; color:var(--ink);}
+.callout p+p{margin-top:8px;}
+
+.flow{display:flex; flex-wrap:wrap; align-items:center; gap:6px; margin:20px 0 24px; max-width:none;}
+.flow .box{background:var(--bg-panel); border:1px solid var(--line); border-radius:10px; padding:10px 14px; font-size:12.8px; box-shadow:var(--shadow); color:var(--ink); text-align:center;}
+.flow .arrow{color:var(--ink-faint); font-size:16px;}
+
+.codeblock{background:var(--bg-code); border-radius:10px; padding:14px 16px; margin:10px 0 18px; overflow-x:auto; box-shadow:var(--shadow); max-width:none;}
+.codeblock pre{margin:0; font-family:var(--font-mono); font-size:12.2px; line-height:1.55; color:var(--code-ink); white-space:pre;}
+
+.filemap{background:var(--bg-panel); border:1px solid var(--line); border-radius:10px; padding:14px 18px; margin:10px 0 20px; font-family:var(--font-mono); font-size:12.8px; line-height:1.9; box-shadow:var(--shadow);}
+.filemap .dir{color:var(--accent); font-weight:700;}
+.filemap .comment{color:var(--ink-faint);}
+
+footer{padding:36px 40px; color:var(--ink-faint); font-size:12.5px; border-top:1px solid var(--line);}
+</style>
+</head>
+<body>
+<div class="layout">
+
+<nav class="toc">
+  <div class="brand">Code walkthrough</div>
+  <ol>
+    <li><a href="#map">File map</a></li>
+    <li><a href="#modules">Modules/ (shared)</a></li>
+    <li><a href="#server">oogle api/server/</a></li>
+    <li><a href="#dashboard-tpl">dashboard.html</a></li>
+    <li><a href="#extension">oogle api/extension/</a></li>
+    <li><a href="#content">content.js</a></li>
+    <li><a href="#add-checklist">Add a checklist module</a></li>
+    <li><a href="#add-detail-type">Add a diff detail_type</a></li>
+  </ol>
+</nav>
+
+<main>
+<header class="top">
+  <div class="eyebrow">oogle api &middot; reference</div>
+  <h1>What every file and function in this pipeline does</h1>
+  <p class="sub">A function-by-function walkthrough of the extension + server built from
+  <code>ambient-ai-capture-plan.html</code>'s design, plus where to plug in new checklist
+  modules and new edit-classification categories without touching the plumbing around them.</p>
+</header>
+
+<section id="map">
+  <h2>1 &middot; File map</h2>
+  <p class="lede">Three independent pieces. The extension never talks to the server from the page context &mdash; everything routes through <code>background.js</code> (see <code>ambient-ai-capture-plan.html</code> &sect;3 for why).</p>
+  <div class="flow">
+    <div class="box"><b>content.js</b><br>reads note/transcript,<br>renders the widget</div>
+    <div class="arrow">&rarr;</div>
+    <div class="box"><b>background.js</b><br>relays fetches</div>
+    <div class="arrow">&rarr;</div>
+    <div class="box"><b>server.py</b><br>runs the modules,<br>logs to CSV</div>
+    <div class="arrow">&rarr;</div>
+    <div class="box"><b>dashboard.html</b><br>charts + drill-down</div>
+  </div>
+  <div class="filemap">
+<span class="dir">oogle api/</span>
+&nbsp;&nbsp;ambient-ai-capture-plan.html   <span class="comment">-- original design doc</span>
+&nbsp;&nbsp;code-walkthrough.html          <span class="comment">-- this file</span>
+&nbsp;&nbsp;README.md                      <span class="comment">-- setup/usage steps</span>
+&nbsp;&nbsp;<span class="dir">server/</span>
+&nbsp;&nbsp;&nbsp;&nbsp;server.py                    <span class="comment">-- Flask app: /api/check, /events, /dashboard</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="dir">templates/</span>dashboard.html    <span class="comment">-- stats + SVG charts + session drill-down</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="dir">data/</span>                       <span class="comment">-- gitignored: events.csv + sessions/*.json</span>
+&nbsp;&nbsp;<span class="dir">extension/</span>
+&nbsp;&nbsp;&nbsp;&nbsp;manifest.json                <span class="comment">-- MV3 manifest</span>
+&nbsp;&nbsp;&nbsp;&nbsp;content.js                   <span class="comment">-- runs on the DiSCaScribe page itself</span>
+&nbsp;&nbsp;&nbsp;&nbsp;background.js                <span class="comment">-- service worker, relays to localhost:5000</span>
+&nbsp;&nbsp;&nbsp;&nbsp;popup.html / popup.js        <span class="comment">-- toolbar-icon on/off switch</span>
+
+<span class="dir">Modules/</span>                       <span class="comment">(project root -- shared with the offline checker pipeline)</span>
+&nbsp;&nbsp;note_extractor.py              <span class="comment">-- checklist extraction (medicine/negation/inference/number)</span>
+&nbsp;&nbsp;edit_diff_checker.py           <span class="comment">-- before/after diff + critical judgment</span>
+&nbsp;&nbsp;risk_taxonomy.py               <span class="comment">-- (pre-existing) severity rules, reused by edit_diff_checker</span>
+  </div>
+</section>
+
+<section id="modules">
+  <h2>2 &middot; Modules/ &mdash; shared logic</h2>
+  <p class="lede">Neither of these files know the extension or Flask exist &mdash; they're plain functions taking/returning plain data, same style as every other file in <code>Modules/</code>. That's what lets <code>server.py</code> import them directly and what let both be unit-tested from the command line while building this.</p>
+
+  <h3><span class="file">Modules/note_extractor.py</span> &mdash; what to flag on a note</h3>
+  <p>Pulls every medicine mention, negation, inference/impression, and (new) dose/frequency/duration/vital out of a note. No transcript needed &mdash; purely lexical/UMLS pattern-matching on the note text itself.</p>
+  <table class="func-table">
+    <tr><th>Function</th><th>What it does</th></tr>
+    <tr><td class="name">extract_note_content(note_text)</td><td>Original entry point (still used by <code>main2.py</code>) &mdash; takes one blob of note text, detects SOAP section headers itself via <code>SECTION_PATTERNS</code>, returns every (type, section, detail, highlight) item.</td></tr>
+    <tr><td class="name">extract_from_sections(sections)</td><td><strong>What the extension actually calls.</strong> Takes a <code>{"Subjective": "...", ...}</code> dict &mdash; the caller already knows each field's section from the UI, so this skips header-detection entirely and is more reliable for that case. Same output shape as above, plus the new <code>"number"</code> category.</td></tr>
+    <tr><td class="name">_extract_medicines_from_line(line, section)</td><td>Runs the shared QuickUMLS matcher, keeps only drug-semtype matches (<code>DRUG_SEMTYPES</code> from <code>risk_taxonomy.py</code>), drops common-word false positives via <code>MEDICINE_DENYLIST</code>.</td></tr>
+    <tr><td class="name">_extract_numbers_from_clause(clause)</td><td>New for the extension. Matches two shapes: <code>NUMBER_PHRASE_RE</code> (a number/word-number + unit, e.g. "2 tablets", "four times a day") and <code>VITAL_SHAPE_RE</code> (bare vital shapes with no unit word, e.g. "120/80", "37.5&deg;C").</td></tr>
+    <tr><td class="name">NEGATION_CUE_RE / INFERENCE_CUE_RE</td><td>Plain cue-word regexes (not medspaCy ConText) &mdash; tuned for this dataset's terse shorthand ("No SOB", "NKDA") rather than full conversational negation. See the module docstring for why.</td></tr>
+    <tr><td class="name">_split_clauses(line)</td><td>Splits one line into sentence-ish clauses on <code>.</code>/<code>;</code> + whitespace or newlines &mdash; the unit every cue-regex above is actually run against.</td></tr>
+  </table>
+
+  <h3><span class="file">Modules/edit_diff_checker.py</span> &mdash; before/after &rarr; critical or not</h3>
+  <p>Given the AI's draft and the clinician's saved edit, judges each changed line critical or not. Reuses <code>risk_taxonomy.classify_severity</code> for the actual severity call rather than inventing a second scale.</p>
+  <table class="func-table">
+    <tr><th>Function</th><th>What it does</th></tr>
+    <tr><td class="name">diff_edit(note_before, note_after)</td><td><strong>The entry point.</strong> Line-level <code>difflib.SequenceMatcher</code> over the two notes; for every changed opcode block, calls <code>_align_block</code> then <code>_classify_span</code> on each resulting pair. Returns <code>{similarity, edit_ratio, critical, changes: [...]}</code>.</td></tr>
+    <tr><td class="name">_align_block(old_lines, new_lines)</td><td>Re-pairs lines within one difflib "replace" block by per-line text similarity, instead of treating the whole block as one span. Without this, several bullets changing in the same edit (dose <em>and</em> allergy status <em>and</em> follow-up) collapse into one opcode and only the highest-priority category gets reported &mdash; confirmed as a real bug while building this, see the function's own docstring.</td></tr>
+    <tr><td class="name">_classify_span(old, new)</td><td>Priority order: a drug present in <code>old</code> missing from <code>new</code> &rarr; <code>"drug switch"</code>; a negation cue present in one but not the other &rarr; <code>"negation flip"</code>; a dose/frequency/vital phrase differs &rarr; <code>"number edit"</code>; whole span new &rarr; <code>"inserted sentence"</code>; whole span deleted &rarr; <code>"omitted detail"</code>; otherwise &rarr; <code>"reworded"</code> (always non-critical &mdash; the "just tidied wording" case). Every branch except <code>reworded</code> is scored by <code>risk_taxonomy.classify_severity</code>; <code>high</code>/<code>critical</code> severities bucket to <code>critical=True</code>.</td></tr>
+    <tr><td class="name">_drug_terms / _number_phrases / _has_negation</td><td>The three signals <code>_classify_span</code> diffs between old and new &mdash; each reuses the exact same matching rule as <code>note_extractor.py</code> so the two modules never disagree on "is this a drug"/"is this a number".</td></tr>
+  </table>
+  <div class="callout tip"><p>Both modules were unit-tested from the command line against realistic sample notes while building this (see the conversation this doc was generated from) &mdash; not run against the live DiSCaScribe page, since there's no browser-automation tool available to do that here.</p></div>
+</section>
+
+<section id="server">
+  <h2>3 &middot; <span class="file">oogle api/server/server.py</span></h2>
+  <p class="lede">Flask + CSV, no database. Three routes the extension/dashboard call, plus the storage/aggregation helpers behind them.</p>
+
+  <h3>Routes</h3>
+  <table class="func-table">
+    <tr><th>Route</th><th>What it does</th></tr>
+    <tr><td class="name">POST /api/check</td><td>Runs every function in <code>CHECKLIST_MODULES</code> (just <code>_run_note_extractor</code> today) against the posted <code>sections</code> dict, concatenates their items, assigns each an id, returns <code>{"items": [...]}</code>. See &sect;6 below for adding a second module.</td></tr>
+    <tr><td class="name">POST /events</td><td>Posted whenever the extension sees "Save" clicked. Joins the before/after section dicts into whole-note strings (<code>_join_note</code>), runs <code>edit_diff_checker.diff_edit</code>, writes a full-detail JSON file to <code>data/sessions/</code>, appends one summary row to <code>data/events.csv</code>.</td></tr>
+    <tr><td class="name">GET /dashboard</td><td>Reads the whole CSV, computes the stat-tile numbers and <code>_daily_aggregates</code>, renders <code>templates/dashboard.html</code>.</td></tr>
+    <tr><td class="name">GET /dashboard/session/&lt;file&gt;</td><td>Serves one session's full JSON (transcript, both note versions, the changes list) for the dashboard's click-to-expand drill-down. <code>os.path.basename()</code>'d against path traversal.</td></tr>
+  </table>
+
+  <h3>Helper functions</h3>
+  <table class="func-table">
+    <tr><th>Function</th><th>What it does</th></tr>
+    <tr><td class="name">_run_note_extractor(sections)</td><td>Wraps <code>note_extractor.extract_from_sections</code> into the common checklist-item dict shape (<code>type</code>/<code>section</code>/<code>text</code>/<code>highlight</code>/<code>color</code>) every entry in <code>CHECKLIST_MODULES</code> must return.</td></tr>
+    <tr><td class="name">_join_note(sections)</td><td>Renders the four SOAP fields back into one plain-text note in fixed SOAP order, so <code>diff_edit</code> has a single string to compare rather than four.</td></tr>
+    <tr><td class="name">_type_counts(changes)</td><td>Turns a <code>diff_edit</code> result's <code>changes</code> list into <code>{"type_drug_switch": n, ...}</code> &mdash; one count per <code>DETAIL_TYPES</code> entry. Used both for a fresh CSV row and for migrating an old one (next row).</td></tr>
+    <tr><td class="name">_ensure_storage()</td><td>Creates <code>data/</code>/the CSV with a header if missing. If the CSV already exists but is missing columns the current <code>CSV_FIELDS</code> expects (a schema upgrade, e.g. adding the per-type columns), it <strong>backfills every old row from that row's own <code>session_file</code> JSON</strong> rather than zero-filling or discarding history, then rewrites the CSV. Runs on every server start.</td></tr>
+    <tr><td class="name">_read_events()</td><td><code>csv.DictReader</code> over the whole file &mdash; the dashboard's only read path, small enough at this scale that no database is needed.</td></tr>
+    <tr><td class="name">_daily_aggregates(events)</td><td>Groups rows by UTC calendar date into <code>{date, count, avg_edit_ratio, critical, non_critical, types: {slug: count}}</code> &mdash; exactly the JSON the dashboard's client-side SVG charts consume.</td></tr>
+  </table>
+
+  <h3>Module-level constants</h3>
+  <table class="func-table">
+    <tr><th>Name</th><th>What it's for</th></tr>
+    <tr><td class="name">DETAIL_TYPES / TYPE_SLUGS / TYPE_COLUMNS</td><td>The six strings <code>edit_diff_checker._classify_span</code> can return, and their CSV-column/JS-key forms (spaces &rarr; underscores). Change this list and the CSV schema, the migration, the daily aggregates, and the dashboard's type chart all follow automatically &mdash; see &sect;7.</td></tr>
+    <tr><td class="name">CHECKLIST_COLORS</td><td>The four dot colors the floating widget uses &mdash; red/orange/blue/purple for medicine/number/negation/inference. A new checklist module reusing one of these four <code>type</code> values gets a color for free; a genuinely new type needs an entry here too.</td></tr>
+    <tr><td class="name">API_KEY</td><td>Static dev placeholder, read from <code>CAPTURE_API_KEY</code> env var. Matches <code>background.js</code>'s hardcoded copy &mdash; see the README's caveats section.</td></tr>
+  </table>
+</section>
+
+<section id="dashboard-tpl">
+  <h2>4 &middot; <span class="file">templates/dashboard.html</span></h2>
+  <p class="lede">One Jinja template, self-contained &mdash; no charting library, matching the pattern already used across this project's <code>extra/explainer/DESIGN__*.html</code> reports (dump aggregates as JSON, draw them with plain SVG-string-building JS).</p>
+  <table class="func-table">
+    <tr><th>Block</th><th>What it does</th></tr>
+    <tr><td class="name">.stats tiles</td><td>Server-rendered from the <code>stats</code> dict <code>dashboard()</code> passes in &mdash; total sessions, avg edit ratio, % critical, critical-session count, low-severity-edit count, no-edit count.</td></tr>
+    <tr><td class="name">svgLineChart(container, data, key)</td><td>Generic single-series line chart &mdash; used for the edit-ratio trend.</td></tr>
+    <tr><td class="name">svgStackedBarChart(container, data, series)</td><td>Generic multi-series stacked bar chart, where <code>series</code> is <code>[{label, color, extract(d)}, ...]</code>. Used for <em>both</em> the 2-series critical/non-critical chart and the 6-series per-type chart &mdash; add a chart with a new breakdown by writing a new <code>series</code> array, not a new chart function.</td></tr>
+    <tr><td class="name">DAILY (embedded JSON)</td><td><code>{{ daily | tojson }}</code> &mdash; the exact output of <code>server.py</code>'s <code>_daily_aggregates</code>, is what both charts above read from.</td></tr>
+    <tr><td class="name">Session table + .drill rows</td><td>Click a row &rarr; <code>fetch('/dashboard/session/' + file)</code> &rarr; renders the transcript and each changed span (critical ones highlighted) inline, cached in <code>dataset.loaded</code> so re-clicking doesn't re-fetch.</td></tr>
+  </table>
+</section>
+
+<section id="extension">
+  <h2>5 &middot; oogle api/extension/</h2>
+
+  <h3><span class="file">manifest.json</span></h3>
+  <p>MV3. <code>host_permissions</code> covers both the DiSCaScribe origin (to inject <code>content.js</code>) and <code>localhost:5000</code> (so <code>background.js</code>'s fetch isn't blocked by the page's CSP &mdash; see the plan doc &sect;3). <code>content_scripts.matches</code> is scoped to <code>/consultations/*</code> specifically, not the whole site.</p>
+
+  <h3><span class="file">background.js</span></h3>
+  <table class="func-table">
+    <tr><th>Listener</th><th>What it does</th></tr>
+    <tr><td class="name">onMessage: "CHECK_NOTE"</td><td>POSTs <code>{sections}</code> to <code>/api/check</code>, returns <code>{ok, items}</code> to whichever <code>content.js</code> call sent it. <code>return true</code> keeps the message channel open for the async <code>fetch</code>.</td></tr>
+    <tr><td class="name">onMessage: "NOTE_FINALIZED"</td><td>POSTs the full before/after/transcript payload to <code>/events</code>.</td></tr>
+  </table>
+
+  <h3><span class="file">popup.html / popup.js</span></h3>
+  <p>The toolbar-icon popup. Reads/writes <code>chrome.storage.sync.captureEnabled</code> &mdash; the same flag <code>content.js</code>'s in-widget toggle uses, so either one flips the other live.</p>
+</section>
+
+<section id="content">
+  <h2>6 &middot; <span class="file">content.js</span> &mdash; the big one</h2>
+  <p class="lede">Everything that runs inside the DiSCaScribe page itself. Grouped the same way the file's own <code>// ---------- section ----------</code> comments are.</p>
+
+  <h4>Reading the note &amp; transcript</h4>
+  <table class="func-table">
+    <tr><th>Function</th><th>What it does</th></tr>
+    <tr><td class="name">readNoteSections()</td><td>Edit mode: reads <code>#soap-Subjective</code> etc.'s <code>.value</code> directly (works regardless of which tab is active &mdash; the textareas stay mounted, just hidden). View mode fallback: <code>collectViewLines</code> below.</td></tr>
+    <tr><td class="name">collectViewLines(root, out)</td><td>Walks a <code>&lt;section&gt;</code> collecting each <code>&lt;p&gt;</code>/<code>&lt;li&gt;</code>'s own <code>.textContent</code> as one line. Deliberately <em>not</em> <code>.innerText</code> &mdash; that only inserts proper line breaks for an element that's actually rendered, so it silently glues every bullet into one run-on line both for a detached clone and for a section sitting in the currently-inactive tab's <code>display:none</code> panel. Fixed a real bug of exactly this shape while building this.</td></tr>
+    <tr><td class="name">readTranscript()</td><td>Anchors on the page's one <code>&lt;audio&gt;</code> element, walks up to its card, reads each turn's speaker label + bubble text via <code>.textContent</code>.</td></tr>
+    <tr><td class="name">isEditMode()</td><td>Just <code>!!document.getElementById("soap-Subjective")</code> &mdash; the presence check every edit-pass-tracking function is built on.</td></tr>
+  </table>
+
+  <h4>Jump-to / highlight</h4>
+  <table class="func-table">
+    <tr><th>Function</th><th>What it does</th></tr>
+    <tr><td class="name">jumpToItem(item)</td><td>Switches to the Clinical Note tab if needed, then: if in edit mode, <code>textarea.setSelectionRange()</code> on the matched substring (the textarea equivalent of "select and scroll to"); if in view mode, <code>highlightInSection</code>.</td></tr>
+    <tr><td class="name">highlightInSection(sectionEl, needle)</td><td><code>TreeWalker</code> over text nodes to find <code>needle</code>, then uses the native <code>Selection</code>/<code>Range</code> API to select it (not a DOM-inserted <code>&lt;mark&gt;</code>, which risks fighting React's own reconciliation of that subtree) and <code>scrollIntoView</code>.</td></tr>
+  </table>
+
+  <h4>Checklist widget</h4>
+  <table class="func-table">
+    <tr><th>Function</th><th>What it does</th></tr>
+    <tr><td class="name">createWidget()</td><td>Builds the floating bubble + panel inside a <code>ShadowRoot</code> (isolates the widget's CSS from the page's Tailwind and vice versa), wires up the bubble/close/reset/toggle click handlers.</td></tr>
+    <tr><td class="name">refreshChecklist()</td><td>Reads the current sections; if there's no content at all, shows "No SOAP note detected" (<code>renderNoSoap</code>) instead of leaving a stale checklist showing; otherwise <code>safeSendMessage</code>s <code>CHECK_NOTE</code> and re-renders on response.</td></tr>
+    <tr><td class="name">itemKey(item)</td><td><code>type|section|highlight</code> &mdash; a <em>content-based</em> identity for a checklist item, used for the checked/green-state <code>Set</code>. Deliberately not the server's index-based <code>item.id</code>, which shifts every time the checklist regenerates; keying on content is what lets an unchanged item stay green across a refresh while a changed one resets.</td></tr>
+    <tr><td class="name">renderPanel()</td><td>Groups items by section, renders each as <code>Type: highlighted text</code> (not the full sentence), wires each <code>&lt;li&gt;</code>'s click to <code>jumpToItem</code> + mark checked.</td></tr>
+  </table>
+
+  <h4>Edit-pass capture</h4>
+  <table class="func-table">
+    <tr><th>Function</th><th>What it does</th></tr>
+    <tr><td class="name">pollEditModeTransition()</td><td>Called on every debounced mutation. On the false&rarr;true transition (edit mode just started), snapshots the current sections as <code>editBaseline</code> &mdash; the "og" version for this edit pass.</td></tr>
+    <tr><td class="name">handleFinalize()</td><td>Fired by the capture-phase click listener on <code>document</code> when the button titled "Save as the next note version" is clicked (capture phase so this runs <em>before</em> the page's own handler can save-and-swap the DOM). Builds the payload (session id from the URL, both section snapshots, transcript, timestamps), sends <code>NOTE_FINALIZED</code>, then clears every checked item and re-pulls the checklist once the page settles.</td></tr>
+  </table>
+
+  <h4>Context-invalidation guard</h4>
+  <p>Reloading the extension from <code>chrome://extensions</code> mid-dev-session (normal workflow) breaks any already-open tab's connection to the old background worker. <code>isContextValid()</code>/<code>safeSendMessage()</code>/<code>handleContextInvalidated()</code> catch that and quietly disable the widget on the stale tab instead of throwing an uncaught error &mdash; the tab just needs a refresh to reconnect.</p>
+
+  <h4>Boot</h4>
+  <p><code>start()</code>/<code>stop()</code> gate everything on <code>chrome.storage.sync.captureEnabled</code>, with a <code>started</code> flag so repeated off/on toggling doesn't stack duplicate <code>MutationObserver</code>s or <code>input</code> listeners. <code>chrome.storage.onChanged</code> makes the toggle take effect live, no reload needed.</p>
+</section>
+
+<section id="add-checklist">
+  <h2>7 &middot; Adding a checklist module</h2>
+  <p class="lede">This is the "modules should be easy to add and remove like in main.py" part of the design &mdash; <code>server.py</code>'s <code>CHECKLIST_MODULES</code> list is deliberately the same one-list-of-functions idiom as <code>main.py</code>'s <code>load_checker_modules()</code>.</p>
+  <ol class="reg">
+    <li>Write your logic as a plain module in <code>Modules/</code> (like <code>note_extractor.py</code>) &mdash; a function that takes whatever input it needs and returns items.</li>
+    <li>In <code>server.py</code>, write a thin wrapper matching <code>_run_note_extractor</code>'s shape: takes the <code>sections</code> dict, returns a list of <code>{"type", "section", "text", "highlight", "color"}</code> dicts.</li>
+    <li>Add its color to <code>CHECKLIST_COLORS</code> if it's a new <code>type</code> the widget hasn't seen (the four current ones &mdash; medicine/number/negation/inference &mdash; already have colors matching the original checklist sketch).</li>
+    <li>Add the wrapper function to the <code>CHECKLIST_MODULES</code> list.</li>
+  </ol>
+  <div class="codeblock"><pre>def _run_my_new_module(sections):
+    items = []
+    for finding in my_module.find_things(sections):
+        items.append({
+            "type": "my_type",
+            "section": finding.section,
+            "text": finding.text,
+            "highlight": finding.highlight,
+            "color": CHECKLIST_COLORS.get("my_type", "#666666"),
+        })
+    return items
+
+CHECKLIST_MODULES = [
+    _run_note_extractor,
+    _run_my_new_module,
+]</pre></div>
+  <p>That's it &mdash; <code>api_check()</code> already concatenates every module's output and assigns ids, and <code>content.js</code>'s widget already groups/colors/renders by whatever <code>type</code>/<code>section</code>/<code>color</code> values it's given, so nothing in the extension needs to change. To disable a module without deleting it, comment its line out of the list, same as <code>main.py</code>.</p>
+</section>
+
+<section id="add-detail-type">
+  <h2>8 &middot; Adding a new edit-diff detail_type</h2>
+  <p class="lede">The critical/non-critical classifier is a single module (<code>edit_diff_checker.py</code>), not a list &mdash; you're extending its judgment, not adding a parallel one.</p>
+  <ol class="reg">
+    <li>Add your new case to <code>_classify_span</code>'s if/elif chain in <code>Modules/edit_diff_checker.py</code>, returning a new detail_type string.</li>
+    <li>If it should route through the existing severity rules, add that detail_type to <code>Modules/risk_taxonomy.py</code>'s <code>DETAIL_TYPES</code> tuple and give <code>classify_severity</code> a branch for it. If it needs its own bespoke critical/non-critical rule instead, judge it directly in <code>_classify_span</code> the way <code>"reworded"</code> is (skip <code>classify_severity</code> entirely).</li>
+    <li>Add the same string to <code>server.py</code>'s <code>DETAIL_TYPES</code> list.</li>
+  </ol>
+  <div class="callout tip"><p>That third step is the only thing that needs to happen on the server side &mdash; <code>TYPE_SLUGS</code>/<code>TYPE_COLUMNS</code>, the CSV schema (auto-migrated by <code>_ensure_storage</code> on next server start), <code>_daily_aggregates</code>, and the dashboard's per-type chart (<code>TYPE_SERIES</code> in <code>dashboard.html</code>) all derive from that one list. You'll still want to add a color/label for it in <code>dashboard.html</code>'s <code>TYPE_SERIES</code> array, the same way <code>CHECKLIST_COLORS</code> needs a new entry for a genuinely new checklist type.</p></div>
+</section>
+
+</main>
+</div>
+<footer>oogle api/code-walkthrough.html &middot; generated alongside the code it describes &mdash; if a function moves or changes shape, this file needs updating by hand, it isn't auto-derived from the source.</footer>
+</body>
+</html>

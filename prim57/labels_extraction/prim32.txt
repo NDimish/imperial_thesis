@@ -1,0 +1,16 @@
+[
+  {"type": "negation", "detail": "There is no scratch marks"},
+  {"type": "negation", "detail": "No thickened skin"},
+  {"type": "negation", "detail": "Used hydrocortisone and cetirizine not better"},
+  {"type": "negation", "detail": "No fever and joint pains"},
+  {"type": "negation", "detail": "No allergies"},
+  {"type": "medicine", "detail": "hydrocortisone"},
+  {"type": "medicine", "detail": "cetirizine"},
+  {"type": "medicine", "detail": "diprobase"},
+  {"type": "medicine", "detail": "dermol"},
+  {"type": "medicine", "detail": "hydrocortisone"},
+  {"type": "medicine", "detail": "salbutamol"},
+  {"type": "medicine", "detail": "fexofenatidine"},
+  {"type": "medicine", "detail": "Betnovate"},
+  {"type": "medicine", "detail": "steroid cream"}
+]

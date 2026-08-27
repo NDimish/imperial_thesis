@@ -30,7 +30,7 @@ in this repo out of the box (QuickUMLS is already configured here), while
 still being the "real" MetaMapLite path for anyone who sets up the install.
 
 Raises RuntimeError from __init__ if NEITHER backend is configured, so
-main.py's load_checker_modules() try/except skips this module with a
+run_checker_modules.py's load_checker_modules() try/except skips this module with a
 message instead of crashing the whole run -- the same pattern already used
 for AlignScoreChecker (missing checkpoint) and QuickUMLSCondenser (missing
 QUICKUMLS_INSTALL_DIR).

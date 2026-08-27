@@ -1,0 +1,6 @@
+[
+  {"type": "inference", "detail_type": "standard UTI workup filled in by clinical convention -- doctor only says 'some tests' / 'a pregnancy test', never names a urine dip or MSU specifically", "detail": "Urine dip and MSU"},
+  {"type": "clinical_word", "detail_type": "diagnosis", "detail": "Imp: ?UTI. also need to exclude pregnancy"},
+  {"type": "clinical_word", "detail_type": "drug (named antibiotic)", "detail": "Rx empirically with Abx for UTI"},
+  {"type": "clinical_word", "detail_type": "drug (contraceptive)", "detail": "DH: implanon , otherwise nil"}
+]

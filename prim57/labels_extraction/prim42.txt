@@ -1,0 +1,17 @@
+[
+  {"type": "negation", "detail": "No sputum."},
+  {"type": "negation", "detail": "Non productive."},
+  {"type": "negation", "detail": "No blood."},
+  {"type": "negation", "detail": "No chest pain."},
+  {"type": "negation", "detail": "Not at rest."},
+  {"type": "negation", "detail": "Not concerning or holding him back."},
+  {"type": "negation", "detail": "No Asthma"},
+  {"type": "negation", "detail": "No sig PHMx."},
+  {"type": "negation", "detail": "No unintentional weight loss."},
+  {"type": "negation", "detail": "No sig travel history."},
+  {"type": "negation", "detail": "Non smoker."},
+  {"type": "negation", "detail": "No Sig drug history"},
+  {"type": "negation", "detail": "Fhx - Mother Lung Ca nil else."},
+  {"type": "negation", "detail": "NKDA"},
+  {"type": "negation", "detail": "Shx - No asbestos exposure."}
+]

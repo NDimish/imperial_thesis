@@ -1,0 +1,4 @@
+[
+  {"type": "clinical_word", "detail_type": "chronic condition (PMH)", "detail": "Past medical history: you suffer from underactive thyroid"},
+  {"type": "clinical_word", "detail_type": "drug (stopped)", "detail": "Medications: you have not been using the thyroxine for a while since you changed practice"}
+]

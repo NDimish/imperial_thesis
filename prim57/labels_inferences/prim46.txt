@@ -1,0 +1,5 @@
+[
+  {"type": "inference", "detail_type": "'tension headache' added as a differential -- doctor only ever floats 'migraine' as the working impression, never mentions tension headache", "detail": "Imp: ? Tension headache/first episode migraine. No features meningitic illness but is worse with light."},
+  {"type": "clinical_word", "detail_type": "drug", "detail": "DH: Microgynon - no SEs, BP was normal when checked for last prescription ? when."},
+  {"type": "clinical_word", "detail_type": "family history condition", "detail": "FH: Mother has hypertension and migraines."}
+]

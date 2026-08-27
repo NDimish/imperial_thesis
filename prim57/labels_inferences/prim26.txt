@@ -1,0 +1,6 @@
+[
+  {"type": "inference", "detail_type": "labeled 'Examination' but this is a phone call, not video -- the breathing/lip-swelling findings are entirely the patient's own verbal self-report ('I can't breathe that well', 'the swelling is getting bigger'), not an observed exam", "detail": "Examination : during the consultation, it looked like you were having some problems breathing and your lips appeared to be increasingly swelling"},
+  {"type": "clinical_word", "detail_type": "allergy (severe, childhood injection)", "detail": "You have had an injection as a child for a peanut allergy"},
+  {"type": "clinical_word", "detail_type": "drug", "detail": "Medication: you are currently on salbutamol inhalers"},
+  {"type": "clinical_word", "detail_type": "diagnosis (suspected)", "detail": "I have advised Mom to call the ambulance as a 999 call as we are suspecting an anaphylactic reaction"}
+]

@@ -1,0 +1,6 @@
+[
+  {"type": "clinical_word", "detail_type": "diagnosis (query)", "detail": "Imp: ? CVA"},
+  {"type": "clinical_word", "detail_type": "allergy", "detail": "Allergic to penicillin"},
+  {"type": "clinical_word", "detail_type": "chronic condition (PMH) / drug", "detail": "Pmhx: T2dm, HTN"},
+  {"type": "clinical_word", "detail_type": "drug", "detail": "DH: metformin, losartan, amlodipine"}
+]

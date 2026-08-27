@@ -1,0 +1,8 @@
+[
+  {"type": "negation", "detail": "No recent long haul flights"},
+  {"type": "negation", "detail": "No FH or PMHx of DVT/Pes"},
+  {"type": "negation", "detail": "No allergies"},
+  {"type": "negation", "detail": "Ex: pulse around 66, normal CRT, throat inspection normal, pt cant feel any LNs in neck, not SOB, looks well"},
+  {"type": "medicine", "detail": "methotrexate"},
+  {"type": "inference", "detail": "Imp: probable LRTI, possibly secondary to immunosuppression"}
+]

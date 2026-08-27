@@ -1,0 +1,18 @@
+[
+  {"type": "negation", "detail": "Did lots of walking in shorts in Yosemite, didn't notice bite."},
+  {"type": "negation", "detail": "Reduced appetite, no wt loss,"},
+  {"type": "negation", "detail": "SE: GI - Dec app, no change in BH, no blood in stool, no dyspepsia."},
+  {"type": "negation", "detail": "Neuro: General headache/no visual disturbance/altered sens/weakness.Yosemite Park."},
+  {"type": "negation", "detail": "RS: No cough/sputum/CP/SOB."},
+  {"type": "negation", "detail": "No coryzal sx/sore throat."},
+  {"type": "negation", "detail": "Not exercising due to lack of energy"},
+  {"type": "negation", "detail": "No joint swelling."},
+  {"type": "negation", "detail": "No other rashes noted."},
+  {"type": "negation", "detail": "No sx depression."},
+  {"type": "negation", "detail": "DH: Has bd inhaler ? ICS, does not take salbutamol regularly."},
+  {"type": "negation", "detail": "Non smoker."},
+  {"type": "medicine", "detail": "salbutamol"},
+  {"type": "medicine", "detail": "Cetirizine"},
+  {"type": "inference", "detail": "DH: Has bd inhaler ? ICS, does not take salbutamol regularly."},
+  {"type": "inference", "detail": "Imp: 6/52 hx fatigue and hx circular rash on calf."}
+]

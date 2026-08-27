@@ -1,0 +1,5 @@
+[
+  {"type": "inference", "detail_type": "video-consult exam finding never verbalized -- doctor never comments on the patient's appearance or pain level anywhere in the transcript", "detail": "Ex: Looks well, not in pain."},
+  {"type": "clinical_word", "detail_type": "diagnosis (named by doctor)", "detail": "Hx of difficulty hearing left ear for 6 weeks with tinnitus and slight nausea/ dizziness."},
+  {"type": "clinical_word", "detail_type": "differential to exclude", "detail": "Imp: need to exclude impacted wax in ear canal first"}
+]

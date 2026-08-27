@@ -180,5 +180,5 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    print("started NLP Main")
+    print("started run_condensers")
     main(args.limit)

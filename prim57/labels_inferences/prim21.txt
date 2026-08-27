@@ -1,0 +1,5 @@
+[
+  {"type": "inference", "detail_type": "'cellulitis' added as an excluded differential -- never mentioned anywhere in the transcript (doctor only discusses ruling out anaphylaxis)", "detail": "Imp: localized inflammatory reaction to insect bite, no evidence of acute anaphylactic reaction or cellulitis"},
+  {"type": "clinical_word", "detail_type": "allergy", "detail": "No PMHx of anaphylaxis, no use of epipen in past"},
+  {"type": "clinical_word", "detail_type": "chronic condition (PMHx)", "detail": "Has had anxiety in past- felt panicked now"}
+]

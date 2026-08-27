@@ -1,0 +1,14 @@
+[
+  {"type": "negation", "detail": "Noticed urine today was pink, nil frank haematuria."},
+  {"type": "negation", "detail": "Suprapubic pain on PU - aching pain, nil radiating"},
+  {"type": "negation", "detail": "Nil nausea/vomiting"},
+  {"type": "negation", "detail": "Nil fevers"},
+  {"type": "negation", "detail": "Nil new bowel sx"},
+  {"type": "negation", "detail": "Nil PV discharge."},
+  {"type": "negation", "detail": "FH: nil"},
+  {"type": "negation", "detail": "SH: lives in student halls, nil smoking, social EtOH"},
+  {"type": "medicine", "detail": "COCP"},
+  {"type": "medicine", "detail": "mebeverine"},
+  {"type": "medicine", "detail": "nitrofurantoin"},
+  {"type": "inference", "detail": "Imp: UTI"}
+]

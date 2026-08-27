@@ -1,0 +1,8 @@
+[
+  {"type": "inference", "detail_type": "'gradual onset' asserted despite patient's own uncertain answer ('Don't know, really. It just happened.') to the onset-speed question", "detail": "Started few hours ago, gradual onset."},
+  {"type": "inference", "detail_type": "'neck pain' inferred from patient reporting the HEADACHE worsens on neck movement, not a distinct neck pain complaint", "detail": "Also reports some neck pain."},
+  {"type": "inference", "detail_type": "guideline-driven plan item with no transcript basis at all -- switching pill type for migraine-with-aura safety is never discussed or mentioned by either speaker", "detail": "Change COCP to POP"},
+  {"type": "clinical_word", "detail_type": "diagnosis", "detail": "Imp: migraine"},
+  {"type": "clinical_word", "detail_type": "drug (contraceptive)", "detail": "DH: microgynon"},
+  {"type": "clinical_word", "detail_type": "drug class", "detail": "Regular paracetamol/NSAIDs"}
+]

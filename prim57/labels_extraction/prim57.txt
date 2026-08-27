@@ -1,0 +1,13 @@
+[
+  {"type": "negation", "detail": "No visual disturbance/visual floaters/tingling/numbness/weakness/nausea/vomiting/fever/neck stiffness."},
+  {"type": "negation", "detail": "No worse cough/sneeze/bending."},
+  {"type": "negation", "detail": "Did not wake her up in the night, slept ok ."},
+  {"type": "negation", "detail": "No headaches in the past."},
+  {"type": "negation", "detail": "No change in diet/liestyle/increased stress."},
+  {"type": "negation", "detail": "DH: Nil"},
+  {"type": "negation", "detail": "If pain not settling/worse or new symptoms to contact dr asap."},
+  {"type": "medicine", "detail": "naproxen"},
+  {"type": "medicine", "detail": "ibuprofen"},
+  {"type": "medicine", "detail": "paracetmol"},
+  {"type": "inference", "detail": "Imp: New onset headache."}
+]

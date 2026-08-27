@@ -1,0 +1,8 @@
+[
+  {"type": "negation", "detail": "No vomiting"},
+  {"type": "negation", "detail": "No urgency"},
+  {"type": "negation", "detail": "No dysuria."},
+  {"type": "negation", "detail": "Nil Meds."},
+  {"type": "negation", "detail": "Shx - Non smoker."},
+  {"type": "inference", "detail": "Imp- Simple constipation, PID, STI, UTI"}
+]

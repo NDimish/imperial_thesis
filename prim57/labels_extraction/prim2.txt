@@ -1,0 +1,17 @@
+[
+  {"type": "negation", "detail": "No bleeding or discharge."},
+  {"type": "negation", "detail": "No spread elsewhere."},
+  {"type": "negation", "detail": "Not aware of any triggers."},
+  {"type": "negation", "detail": "Systemically well otherwise - no fevers, no vomiting, no SOB/cough."},
+  {"type": "negation", "detail": "No bowel sx."},
+  {"type": "negation", "detail": "DHx: Nil regular"},
+  {"type": "negation", "detail": "NKDA"},
+  {"type": "negation", "detail": "Non-smoker, social EtOH."},
+  {"type": "negation", "detail": "No concerns"},
+  {"type": "medicine", "detail": "steroid cream"},
+  {"type": "medicine", "detail": "antihistamines"},
+  {"type": "medicine", "detail": "Betnovate"},
+  {"type": "medicine", "detail": "cetraben"},
+  {"type": "medicine", "detail": "antihistamines"},
+  {"type": "inference", "detail": "Imp: flare up of eczema"}
+]

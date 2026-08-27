@@ -1,0 +1,4 @@
+[
+  {"type": "clinical_word", "detail_type": "chronic condition (PMH)", "detail": "PC : sobar pmhx of childhood asthma and hayfever."},
+  {"type": "clinical_word", "detail_type": "differential diagnosis (named explicitly by doctor)", "detail": "DDx : acute exacerbation of asthma, ?? allergy"}
+]

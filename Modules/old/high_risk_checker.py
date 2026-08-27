@@ -106,6 +106,17 @@ JUNK_CONCEPT_DENYLIST = {
     # ("antibiotic" vs "nitrofurantoin", "the pill" vs a named contraceptive)
     # -- too generic to usefully anchor a comparison either way.
     "medication", "medications", "antibiotic", "antibiotics",
+    # Confirmed directly against a real AI-generated SOAP note (extra/temp/
+    # prim1.md): a single sentence -- "Gastroenteritis, likely secondary to
+    # recent Chinese takeaway food consumption..." -- matched FOUR separate
+    # concepts, not one: "gastroenteritis" (real), plus "food" (resolved to
+    # a DRUG-semtype CUI), "secondary", and "consumption" (both resolved to
+    # DISEASE-semtype CUIs) -- three coincidental generic-word collisions
+    # that turned one real hallucination into four near-duplicate flags, all
+    # reporting the same enclosing sentence as their evidence text since
+    # they share it. Same collision class as "times"/"life" above, found on
+    # a well-formed prose note instead of this dataset's terser ones.
+    "food", "secondary", "consumption",
 }
 
 
@@ -150,11 +161,23 @@ def _split_phrases(text):
 # hospital-note headers this dataset doesn't use. A line before the first
 # recognized header defaults to "subjective" since these notes always open
 # with free-text presenting complaint / history before any header appears.
+# Markdown "## Assessment"/"## Plan" style headers added after a direct
+# test against a real AI-generated note (extra/temp/prim1.md) found the
+# colon-only patterns above never matched a single line of it -- every
+# line silently defaulted to "subjective", including its Plan and
+# Assessment sections, which matters a lot given hallucination FPs in Plan
+# are an accepted tolerance (see Modules/evaluate.py's by-section
+# breakdown) that a note using this header style couldn't benefit from at
+# all. `#{1,6}` covers any markdown heading level ("#" through "######").
 SECTION_PATTERNS = [
     ("plan", re.compile(r"^\s*(plan|rx|management|mx)\s*:", re.IGNORECASE)),
+    ("plan", re.compile(r"^\s*#{1,6}\s*(plan|rx|management)\s*:?\s*$", re.IGNORECASE)),
     ("assessment", re.compile(r"^\s*(imp|impression|dx|diagnosis|assessment)\s*:", re.IGNORECASE)),
+    ("assessment", re.compile(r"^\s*#{1,6}\s*(impression|assessment)\s*:?\s*$", re.IGNORECASE)),
     ("objective", re.compile(r"^\s*(o/e|exam\w*|obs|vitals?|bloods?|ix|investigations?)\s*:", re.IGNORECASE)),
+    ("objective", re.compile(r"^\s*#{1,6}\s*objective\s*:?\s*$", re.IGNORECASE)),
     ("subjective", re.compile(r"^\s*(pmh\w*|dh\w*|sh\w*|fh\w*|psh\w*|ice|hx|hpc)\s*:", re.IGNORECASE)),
+    ("subjective", re.compile(r"^\s*#{1,6}\s*subjective\s*:?\s*$", re.IGNORECASE)),
 ]
 
 
@@ -453,6 +476,24 @@ CLAUSE_SPLIT_RE = re.compile(r"[.,;]\s+|\band\b", re.IGNORECASE)
 
 
 FILLER_ONLY_RE = re.compile(r"^(um+|uh+|h?mm+|well|so|okay|ok)$", re.IGNORECASE)
+# A closing courtesy phrase ("Thank you", "Great", "Bye bye") carries no
+# yes/no signal about anything -- confirmed directly this session on a real
+# transcript (extra/temp/prim1.txt) with unusually messy turn-splitting
+# (several doctor-question/patient-answer exchanges merged under one
+# speaker tag): a "vomiting" concept pending from earlier in that merged
+# turn ended up positionally paired with the call's closing "Thank you"
+# clause, becoming its evidence sentence and corrupting the LAST-mention
+# comparison in _judge_status_flips (the genuinely correct, on-topic
+# mention -- "one child was vomiting" -- was right there earlier in the
+# same mentions list, just not last). NOT added to NEGATIVE_LEXICON/
+# AFFIRMATIVE_LEXICON (a courtesy phrase isn't evidence either way) --
+# dropped the same way FILLER_ONLY_RE drops pure filler, so a real pending
+# concept either finds a real answering clause or goes unconfirmed, rather
+# than being confirmed/negated by a goodbye.
+COURTESY_ONLY_RE = re.compile(
+    r"^(thanks?( you)?|great|bye( bye)?|goodbye|cheers|take care|you'?re welcome)$",
+    re.IGNORECASE,
+)
 
 
 def _split_reply_clauses(text):
@@ -464,9 +505,22 @@ def _split_reply_clauses(text):
     real content clause silently gets pushed out of alignment (or, for a
     single pending question, never even looked at -- only the leading "Um"
     clause is), rather than the filler being absorbed into the same clause
-    as the content that follows it."""
+    as the content that follows it. Also drops pure closing-courtesy
+    clauses ("Thank you", "Great") -- see COURTESY_ONLY_RE's comment.
+
+    Checks FILLER_ONLY_RE/COURTESY_ONLY_RE against the clause with trailing
+    ./!/?  stripped -- confirmed directly this session that without it, a
+    clause at the very end of a turn ("Bye bye.") keeps its trailing period
+    (CLAUSE_SPLIT_RE only splits a period followed by whitespace, so the
+    LAST clause's own trailing punctuation never gets separated), and
+    "bye bye." doesn't match "^bye( bye)?$" -- the exact same trailing-
+    punctuation gap _classify_reply already had to guard against for bare
+    "No."."""
     raw = [c.strip() for c in CLAUSE_SPLIT_RE.split(text) if c.strip()]
-    return [c for c in raw if not FILLER_ONLY_RE.match(c)]
+    return [
+        c for c in raw
+        if not FILLER_ONLY_RE.match(c.rstrip(".!?")) and not COURTESY_ONLY_RE.match(c.rstrip(".!?"))
+    ]
 
 
 def _classify_reply(clause):
@@ -826,17 +880,42 @@ class HighRiskChecker(CheckerModule):
             transcript_info = transcript_concepts.get(cui)
             if transcript_info is None:
                 continue
-            t_state = transcript_info["mentions"][-1][:3]
+
             s_state = soap_info["mentions"][-1][:3]
+            s_family = s_state[2]
+            # Compare against the LAST transcript mention that shares the
+            # same is_family value as the SOAP's last mention, not just the
+            # last mention overall -- confirmed directly this session that
+            # a single CUI can carry two different people's claims ("one
+            # child was vomiting" vs the patient's own vomiting, discussed
+            # far more in a long transcript), and picking the transcript's
+            # true last mention regardless of subject compared the wrong
+            # pair. If the transcript has no mention matching that same
+            # is_family value at all, there's nothing comparable to check
+            # against -- skip rather than compare across subjects.
+            same_subject = [m for m in transcript_info["mentions"] if m[2] == s_family]
+            if not same_subject:
+                continue
+            t_state = same_subject[-1][:3]
             if t_state == s_state:
                 continue
 
             detail_type = "negation flip"
             sentence = soap_info["mentions"][-1][3]
             severity = classify_severity(detail_type, sentence, soap_info["term"])
-            detail = f"{soap_info['term']}: {sentence}"
             section = _section_for_snippet(soap_note, sentence, soap_line_sections)
-            errors.append(("hallucination", severity, detail_type, detail, section))
+            # "detail" (the field Modules/evaluate.py substring-matches
+            # against ground-truth labels) stays the PLAIN sentence, never
+            # touched by presentation formatting -- confirmed directly this
+            # session that appending "highlighted" text into this same
+            # field broke real TP matches (a label with trailing junk like
+            # "Regular paracetamol for pain 5" matched a plain-sentence
+            # prediction via prediction-is-a-prefix-of-label, but no longer
+            # matched once the prediction had extra text appended after the
+            # sentence, diverging from the label's own trailing content).
+            # "highlighted" is a separate 6th field instead -- display-only,
+            # never used for scoring.
+            errors.append(("hallucination", severity, detail_type, sentence, section, soap_info["term"]))
         return errors
 
     def _make_error(self, error_type, info, soap_note=None, soap_line_sections=None):
@@ -844,7 +923,7 @@ class HighRiskChecker(CheckerModule):
         detail_type = "drug switch" if info["category"] == "DRUG" else "diagnosis mismatch"
         severity = classify_severity(detail_type, sentence, info["term"])
         section = _section_for_snippet(soap_note, sentence, soap_line_sections) if soap_note is not None else None
-        return (error_type, severity, detail_type, sentence, section)
+        return (error_type, severity, detail_type, sentence, section, info["term"])
 
     def _judge_allergies(self, transcript, soap_note, soap_line_sections):
         """Allergy status is a relation ("allergic to X" / "NKDA"), not a
@@ -875,7 +954,7 @@ class HighRiskChecker(CheckerModule):
             if substance not in s_allergies:
                 detail_type = "allergy mismatch"
                 severity = classify_severity(detail_type, sentence)
-                errors.append(("omission", severity, detail_type, sentence, None))
+                errors.append(("omission", severity, detail_type, sentence, None, substance))
 
         if t_allergies:
             for substance, sentence in s_allergies.items():
@@ -883,7 +962,7 @@ class HighRiskChecker(CheckerModule):
                     detail_type = "allergy mismatch"
                     severity = classify_severity(detail_type, sentence)
                     section = _section_for_snippet(soap_note, sentence, soap_line_sections)
-                    errors.append(("hallucination", severity, detail_type, sentence, section))
+                    errors.append(("hallucination", severity, detail_type, sentence, section, substance))
 
         return errors
 
@@ -967,16 +1046,16 @@ class HighRiskChecker(CheckerModule):
         word ("How much metformin do you take?" / "500mg twice a day").
         Merged into the same per-line frames below before comparing.
         """
-        transcript_frames = self._extract_numeric_frames(transcript)
         soap_frames = self._extract_numeric_frames(soap_note)
-
-        for anchor_key, link_frame in transcript_links.items():
-            frame = transcript_frames.setdefault(
+        for anchor_key, link_frame in soap_links.items():
+            frame = soap_frames.setdefault(
                 anchor_key, {"anchor_term": link_frame["anchor_term"], "sentence": link_frame["sentence"], "attrs": set()}
             )
             frame["attrs"] |= link_frame["attrs"]
-        for anchor_key, link_frame in soap_links.items():
-            frame = soap_frames.setdefault(
+
+        transcript_frames = self._extract_numeric_frames(transcript)
+        for anchor_key, link_frame in transcript_links.items():
+            frame = transcript_frames.setdefault(
                 anchor_key, {"anchor_term": link_frame["anchor_term"], "sentence": link_frame["sentence"], "attrs": set()}
             )
             frame["attrs"] |= link_frame["attrs"]
@@ -991,31 +1070,61 @@ class HighRiskChecker(CheckerModule):
                 sentence = soap_frame["sentence"]
                 detail_type = "number edit"
                 severity = classify_severity(detail_type, sentence)
-                detail = f"{soap_frame['anchor_term']}: {_describe_attr(attr)} -- {sentence}"
+                highlighted = f"{soap_frame['anchor_term']} ({_describe_attr(attr)})"
                 section = _section_for_snippet(soap_note, sentence, soap_line_sections)
-                errors.append(("hallucination", severity, detail_type, detail, section))
+                errors.append(("hallucination", severity, detail_type, sentence, section, highlighted))
         return errors
 
     def _extract_numeric_frames(self, text):
         """Phrase-scoped, not line-scoped (see PHRASE_SPLIT_RE's comment) --
         confirmed directly this session that line-scoping let a number in
         one sentence of a merged SOAP-note line anchor to an unrelated
-        concept from a different sentence in the same line."""
-        frames = {}
+        concept from a different sentence in the same line.
+
+        When the number's own phrase has no anchor, checks the NEAREST
+        anchor AFTER it first, then the nearest one before, rather than
+        only ever looking backward. Confirmed directly this session that
+        backward-only carry-forward has a real failure mode: "I would say
+        next two to three days... Infection clears from your system" has
+        the anchor word ("Infection") AFTER the number, not before --
+        backward-only carry attached the number to whatever unrelated
+        anchor happened to be active several phrases earlier instead (a
+        genuine new false positive, confirmed directly). Checking forward
+        first fixes that case; the "six, seven times a day" case (anchor a
+        full turn BEFORE, in the doctor's follow-up-question gap) still
+        needs the backward fallback, so both directions stay, forward
+        taking priority as the more locally-relevant one. Still "skip,
+        don't guess" if NEITHER direction finds anything."""
+        entries = []  # [(phrase, anchor_key, anchor_term, phrase_attrs), ...]
         for _speaker, line_text in split_turns(text):
             if not line_text.strip():
                 continue
             for phrase in _split_phrases(line_text):
-                phrase_attrs = extract_numeric_attributes(phrase)
-                if not phrase_attrs:
-                    continue  # no number in this phrase at all -- nothing to anchor
-
                 anchor_key, anchor_term = self._find_numeric_anchor(phrase)
-                if anchor_key is None:
-                    continue  # a number with no identifiable context -- skip, don't guess
+                phrase_attrs = extract_numeric_attributes(phrase)
+                entries.append((phrase, anchor_key, anchor_term, phrase_attrs))
 
-                frame = frames.setdefault(anchor_key, {"anchor_term": anchor_term, "sentence": phrase, "attrs": set()})
-                frame["attrs"] |= phrase_attrs
+        frames = {}
+        n = len(entries)
+        for i, (phrase, anchor_key, anchor_term, phrase_attrs) in enumerate(entries):
+            if not phrase_attrs:
+                continue  # no number in this phrase at all -- nothing to anchor
+
+            if anchor_key is None:
+                for j in range(i + 1, n):
+                    if entries[j][1] is not None:
+                        anchor_key, anchor_term = entries[j][1], entries[j][2]
+                        break
+            if anchor_key is None:
+                for j in range(i - 1, -1, -1):
+                    if entries[j][1] is not None:
+                        anchor_key, anchor_term = entries[j][1], entries[j][2]
+                        break
+            if anchor_key is None:
+                continue  # still nothing to anchor to at all -- skip, don't guess
+
+            frame = frames.setdefault(anchor_key, {"anchor_term": anchor_term, "sentence": phrase, "attrs": set()})
+            frame["attrs"] |= phrase_attrs
         return frames
 
     def _find_numeric_anchor(self, line_text):
@@ -1070,6 +1179,6 @@ class HighRiskChecker(CheckerModule):
             # (which never appears verbatim in soap_note) -- the anchor a
             # section lookup can actually find.
             section = _section_for_snippet(soap_note, soap_drug, soap_line_sections)
-            errors.append(("hallucination", severity, detail_type, detail, section))
+            errors.append(("hallucination", severity, detail_type, detail, section, None))
 
         return errors

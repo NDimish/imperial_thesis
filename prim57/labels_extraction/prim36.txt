@@ -1,0 +1,7 @@
+[
+  {"type": "negation", "detail": "No radiation to the head."},
+  {"type": "negation", "detail": "℅ nausea no vomiting since presentation"},
+  {"type": "negation", "detail": "HPC. longer term hx of reduced ADLs due to SOBOE, walking up hills / stairs with no chest discomfort."},
+  {"type": "inference", "detail": "DDx - MI, PE, GORD"},
+  {"type": "inference", "detail": "Plan - called ambulance ?? MI for further investigation and assessment."}
+]

@@ -1,0 +1,5 @@
+[
+  {"type": "clinical_word", "detail_type": "allergy", "detail": "Dhx. allergies to ibuprofen"},
+  {"type": "clinical_word", "detail_type": "family history condition", "detail": "FHx,\nMother hx of clots on legs."},
+  {"type": "clinical_word", "detail_type": "differential diagnosis", "detail": "DDx: PE"}
+]

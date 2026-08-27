@@ -1,0 +1,4 @@
+[
+  {"type": "inference", "detail_type": "specific drug name 'stemitil' filled in -- the drug name is literally inaudible/unclear in the transcript (marked <UNIN/>), the note confidently supplies the clinically-expected anti-vertigo drug name", "detail": "Plan we will prescribe some stemitil for symptom relief . Most likely disgnosis is labrynthitis"},
+  {"type": "clinical_word", "detail_type": "chronic condition (PMH) / drug", "detail": "You have premature ovarian failure and take HRT"}
+]

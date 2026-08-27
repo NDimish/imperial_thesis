@@ -1,0 +1,21 @@
+[
+  {"type": "negation", "detail": "Can be worse when stands up not when bends over/cough/sneeze."},
+  {"type": "negation", "detail": "Vision not disturbed."},
+  {"type": "negation", "detail": "No nausea/vomiting."},
+  {"type": "negation", "detail": "No altered taste/smell."},
+  {"type": "negation", "detail": "No rash."},
+  {"type": "negation", "detail": "No fever."},
+  {"type": "negation", "detail": "No coryzal symptoms."},
+  {"type": "negation", "detail": "Not woken up in the night."},
+  {"type": "negation", "detail": "No tingling/numbness/weakness."},
+  {"type": "negation", "detail": "Has been lacking in energy but no wt loss."},
+  {"type": "negation", "detail": "Taking ibuprofen, eases slightly but not resolving."},
+  {"type": "negation", "detail": "Has had some generalised headaches before but not bad and associated symptoms/altered vision."},
+  {"type": "negation", "detail": "PMH: Nil"},
+  {"type": "negation", "detail": "SH: Non smoker, no illicit drugs, 3 beers/week."},
+  {"type": "medicine", "detail": "ibuprofen"},
+  {"type": "medicine", "detail": "Mercilon"},
+  {"type": "medicine", "detail": "paracetamol"},
+  {"type": "medicine", "detail": "naproxen"},
+  {"type": "inference", "detail": "Imp: Likely migraine but as ongoing and persistent needs neurological examination to exclude other pathology. Advised regular paracetamol and naproxen with food (will prescribe). If gets worse in meantime contact us straightaway or go to A&E is severe/unrelenting."}
+]

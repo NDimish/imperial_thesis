@@ -1,0 +1,7 @@
+[
+  {"type": "inference", "detail_type": "specific blood tests named -- doctor only says generically 'we would probably like to do some blood tests', TSH and FBC are never named", "detail": "Plan \nTSH, FBC,"},
+  {"type": "clinical_word", "detail_type": "chronic condition (PMHx)", "detail": "PMHx - Hypothyroidism."},
+  {"type": "clinical_word", "detail_type": "drug", "detail": "DHx - Thyroxine."},
+  {"type": "clinical_word", "detail_type": "family history (suicide)", "detail": "Father - suicide."},
+  {"type": "clinical_word", "detail_type": "diagnosis", "detail": "Imp- depression. Hypothyroidism. (Low T3/4)"}
+]

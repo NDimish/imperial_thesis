@@ -1,0 +1,18 @@
+[
+  {"type": "negation", "detail": "Non productive."},
+  {"type": "negation", "detail": "NKDA"},
+  {"type": "negation", "detail": "Non productive."},
+  {"type": "negation", "detail": "NKDA"},
+  {"type": "medicine", "detail": "Ventolin"},
+  {"type": "medicine", "detail": "Clenil modulate"},
+  {"type": "medicine", "detail": "salbutamol"},
+  {"type": "medicine", "detail": "Clinil"},
+  {"type": "medicine", "detail": "Pred"},
+  {"type": "medicine", "detail": "Ventolin"},
+  {"type": "medicine", "detail": "Clenil modulate"},
+  {"type": "medicine", "detail": "salbutamol"},
+  {"type": "medicine", "detail": "Clinil"},
+  {"type": "medicine", "detail": "Pred"},
+  {"type": "inference", "detail": "Imp- Asthma exacerbation."},
+  {"type": "inference", "detail": "Imp- Asthma exacerbation."}
+]

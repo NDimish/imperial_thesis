@@ -1,0 +1,9 @@
+[
+  {"type": "negation", "detail": "No dysphagia, dysarthria, no unilateral weakness/numbness in the rest of the body, no visual disturbances"},
+  {"type": "negation", "detail": "No ear pain, ear discharge, fever, itchiness or cotton bud use."},
+  {"type": "negation", "detail": "Slight tinnitus at times in this period- not continuous"},
+  {"type": "negation", "detail": "No FH of note"},
+  {"type": "negation", "detail": "Ex: no facial asymmetry, looks well, normal facial expressions and movements"},
+  {"type": "medicine", "detail": "Rennies"},
+  {"type": "inference", "detail": "Imp: ? Bell's Palsy- need to rule out any other focal neurology"}
+]

@@ -1,0 +1,17 @@
+[
+  {"type": "negation", "detail": "No neck stiffness, no fever"},
+  {"type": "negation", "detail": "Some sensitivity to bright lights now, no nausea now"},
+  {"type": "negation", "detail": "Felt dizzy this morning,  but not now"},
+  {"type": "negation", "detail": "No FH of migraines"},
+  {"type": "negation", "detail": "Doesn't feel anxious right now- gets this at work at times"},
+  {"type": "negation", "detail": "No thoughts about self harm"},
+  {"type": "negation", "detail": "Pt has taken paracetamol- not helped"},
+  {"type": "negation", "detail": "Pmhx: nil, has not had BP checked"},
+  {"type": "negation", "detail": "Nkda"},
+  {"type": "negation", "detail": "Non smoker"},
+  {"type": "medicine", "detail": "sertraline"},
+  {"type": "medicine", "detail": "sertraline"},
+  {"type": "medicine", "detail": "paracetamol"},
+  {"type": "medicine", "detail": "ibuprofen"},
+  {"type": "inference", "detail": "Imp: tension type headache +/- migraine"}
+]

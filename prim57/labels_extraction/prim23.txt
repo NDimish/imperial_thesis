@@ -1,0 +1,11 @@
+[
+  {"type": "negation", "detail": "No cough, sore throat, runny nose, ear pain."},
+  {"type": "negation", "detail": "No diarrhea, no neck stiffness, no headache (no more than usual- normal headache on top of head through looking at screen)."},
+  {"type": "negation", "detail": "No rash, no joint swelling (ongoing back pain), no dysuria or frequency."},
+  {"type": "negation", "detail": "Nil allergies, hayfever"},
+  {"type": "medicine", "detail": "ibuprofen"},
+  {"type": "medicine", "detail": "paracetamol"},
+  {"type": "medicine", "detail": "cerazette"},
+  {"type": "inference", "detail": "Pmhx: nil of note, back pain- under physiotherapy, working diagnosis ? muscular/ posture"},
+  {"type": "inference", "detail": "Imp: PUO, need to exclude malaria"}
+]

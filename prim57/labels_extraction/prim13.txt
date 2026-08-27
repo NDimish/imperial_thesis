@@ -1,0 +1,19 @@
+[
+  {"type": "negation", "detail": "No visual sx"},
+  {"type": "negation", "detail": "Feels nauseous, no vomiting"},
+  {"type": "negation", "detail": "No neck pain/stiffness"},
+  {"type": "negation", "detail": "No speech disturbances"},
+  {"type": "negation", "detail": "No arm or leg weakness"},
+  {"type": "negation", "detail": "No head injury"},
+  {"type": "negation", "detail": "No fevers"},
+  {"type": "negation", "detail": "No rashes"},
+  {"type": "negation", "detail": "PMH: Nil"},
+  {"type": "negation", "detail": "DH: Nil"},
+  {"type": "negation", "detail": "NKDA"},
+  {"type": "negation", "detail": "SH: lives with housemates, works in IT, wears glasses, denies stress."},
+  {"type": "medicine", "detail": "ibuprofen"},
+  {"type": "medicine", "detail": "Paracetamol"},
+  {"type": "medicine", "detail": "NSAIDs"},
+  {"type": "inference", "detail": "ICE: ?related to stress/dehydration."},
+  {"type": "inference", "detail": "Imp: migraines"}
+]

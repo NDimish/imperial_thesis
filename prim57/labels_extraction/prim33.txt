@@ -1,0 +1,10 @@
+[
+  {"type": "negation", "detail": "Cough is dry, no sputum , no blood"},
+  {"type": "negation", "detail": "No wheeze"},
+  {"type": "negation", "detail": "No breathlessness"},
+  {"type": "medicine", "detail": "paracetamol"},
+  {"type": "medicine", "detail": "metformin"},
+  {"type": "medicine", "detail": "lisinopril"},
+  {"type": "medicine", "detail": "day nurse"},
+  {"type": "inference", "detail": "Diagnosis: Upper respiratory tract infection"}
+]

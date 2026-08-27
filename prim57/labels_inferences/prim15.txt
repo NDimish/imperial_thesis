@@ -1,0 +1,6 @@
+[
+  {"type": "inference", "detail_type": "dosing frequency 'BD' added for the steroid cream -- doctor gives a frequency for emollients ('three four times a day') but never states one for the steroid cream", "detail": "Steroid cream BD"},
+  {"type": "clinical_word", "detail_type": "diagnosis", "detail": "Imp: contact dermatitis"},
+  {"type": "clinical_word", "detail_type": "drug", "detail": "DH: metformin"},
+  {"type": "clinical_word", "detail_type": "chronic condition (PMH)", "detail": "PMH: Type 2 diabetes"}
+]

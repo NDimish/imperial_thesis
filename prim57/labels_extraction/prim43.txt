@@ -1,0 +1,10 @@
+[
+  {"type": "negation", "detail": "Not able to get up in the morning"},
+  {"type": "negation", "detail": "No energy during the day."},
+  {"type": "negation", "detail": "Not eating"},
+  {"type": "negation", "detail": "No suicidal ideation"},
+  {"type": "negation", "detail": "NKDA"},
+  {"type": "negation", "detail": "No brothers or sisters."},
+  {"type": "medicine", "detail": "Thyroxine"},
+  {"type": "inference", "detail": "Imp- depression. Hypothyroidism. (Low T3/4)"}
+]

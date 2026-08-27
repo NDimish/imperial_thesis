@@ -1,0 +1,11 @@
+[
+  {"type": "negation", "detail": "No blood in stools."},
+  {"type": "negation", "detail": "Nil urinary sx - passing less urine ."},
+  {"type": "negation", "detail": "no weight loss."},
+  {"type": "negation", "detail": "PMH: nil"},
+  {"type": "negation", "detail": "DH: nil regular"},
+  {"type": "negation", "detail": "NKDA"},
+  {"type": "medicine", "detail": "diarolyte"},
+  {"type": "medicine", "detail": "paracetamol"},
+  {"type": "inference", "detail": "Imp: gastroenteritis"}
+]

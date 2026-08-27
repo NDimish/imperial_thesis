@@ -1,0 +1,4 @@
+[
+  {"type": "inference", "detail_type": "'no neck stiffness' asserted -- neck stiffness is never asked about during history-taking, it only appears later as part of the doctor's red-flag safety-netting advice for future symptoms", "detail": "No visual disturbance/visual floaters/tingling/numbness/weakness/nausea/vomiting/fever/neck stiffness."},
+  {"type": "clinical_word", "detail_type": "family history condition", "detail": "FMH: Mother hypertension"}
+]

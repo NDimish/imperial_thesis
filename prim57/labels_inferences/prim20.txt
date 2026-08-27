@@ -1,0 +1,5 @@
+[
+  {"type": "inference", "detail_type": "specific procedure name 'carotid endarterectomy' translated from the patient's plain description of his father's history ('operation to the side of his neck, to reduce the risk of stroke') -- patient never names the procedure", "detail": "Father had CVA- appears to have had carotid endarterectomy"},
+  {"type": "inference", "detail_type": "specific differential diagnosis 'antiphospholipid syndrome' -- never mentioned anywhere in the transcript; doctor only discusses TIA/mini-stroke and refers for further tests generally", "detail": "Imp: TIAs- despite young age (need to exclude any systemic disease, eg antiphospholipid syndrome, that could be cause)"},
+  {"type": "clinical_word", "detail_type": "drug (self-prescribed)", "detail": "DH PT IS TAKING Aspirin daily on his own accord due to his FH"}
+]

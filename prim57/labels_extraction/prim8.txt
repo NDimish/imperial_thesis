@@ -1,0 +1,14 @@
+[
+  {"type": "negation", "detail": "No spread elsewhere."},
+  {"type": "negation", "detail": "No bleeding/discharge."},
+  {"type": "negation", "detail": "No cracked skin."},
+  {"type": "negation", "detail": "No prev skin problems."},
+  {"type": "negation", "detail": "No fevers."},
+  {"type": "negation", "detail": "No vomiting."},
+  {"type": "negation", "detail": "Appetite maintained, nil nausea/vomiting"},
+  {"type": "negation", "detail": "Nil bowel/urinary sx"},
+  {"type": "negation", "detail": "NKDA"},
+  {"type": "negation", "detail": "SH: - lives alone, nil smoker/etOH/recreational drugs , works as primary school teacher."},
+  {"type": "medicine", "detail": "microgynon"},
+  {"type": "inference", "detail": "Imp: dermatitis"}
+]

@@ -1,0 +1,6 @@
+[
+  {"type": "inference", "detail_type": "'obesity' as a formal descriptor derived from patient's casual self-description ('a wee bit on the chunky side... the spare tyre's definitely there') -- never diagnosed or named as obesity by either speaker", "detail": "PMH: obesity, diabetes - type 2 , hypertension"},
+  {"type": "inference", "detail_type": "'>14 units/week' is a calculated conversion into standard alcohol units from the patient's qualitative description ('four pints Saturday, maybe nine pints in a week') -- patient never states a units figure", "detail": "SH: lives with wife, works in factory/manufacturing, smoking socially, etOH - >14 units/week"},
+  {"type": "clinical_word", "detail_type": "diagnosis", "detail": "Imp: viral URTI/? LRTI"},
+  {"type": "clinical_word", "detail_type": "drug (named antibiotic)", "detail": "Delayed script for amoxicillin abx - to start in 24-48 hours if sx not improving"}
+]

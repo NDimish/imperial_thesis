@@ -1,0 +1,6 @@
+[
+  {"type": "discrepancy", "detail_type": "note denies nausea -- patient explicitly says 'feeling a bit sick, but no vomiting', i.e. she does have some nausea", "detail": "No nausea/vomiting."},
+  {"type": "inference", "detail_type": "specific pill name given -- patient's answer to 'which one?' is inaudible/unintelligible in the transcript, 'Mercilon' is never actually said", "detail": "DH: Mercilon. BP last checked 1 yr ago was normal."},
+  {"type": "inference", "detail_type": "bend/cough/sneeze triggers added -- these are never asked about or mentioned anywhere in the transcript, only standing up quickly is discussed", "detail": "Can be worse when stands up not when bends over/cough/sneeze."},
+  {"type": "clinical_word", "detail_type": "family history condition", "detail": "FMHx: Mum has migraine."}
+]

@@ -7,7 +7,7 @@ from Modules.evaluate import Evaluate
 sys.path.insert(0, "Medical condensor")
 from base import clean_transcript
 
-from main import CONDENSER, load_checker_modules
+from run_checker_modules import CONDENSER, load_checker_modules
 
 
 def read_transcript(path):
@@ -46,10 +46,17 @@ def main(transcript_path, note_path, label_path):
 
         for error in errors:
             # HighRiskChecker (and any future severity-aware checker) returns
-            # (type, severity, detail_type, detail, section) 5-tuples, or the
-            # earlier (type, severity, detail_type, detail) 4-tuples, instead
-            # of the (type, detail) 2-tuples every other checker here returns.
-            if len(error) == 5:
+            # (type, severity, detail_type, detail, section, highlighted) 6-tuples --
+            # "highlighted" is the specific term/phrase within detail that triggered
+            # the flag, display-only (never fed to Evaluate's matching) -- or the
+            # earlier (type, severity, detail_type, detail, section) 5-tuples/
+            # (type, severity, detail_type, detail) 4-tuples, instead of the
+            # (type, detail) 2-tuples every other checker here returns.
+            if len(error) == 6:
+                error_type, severity, detail_type, detail, section, highlighted = error
+                text = f"{detail} :::: {highlighted}" if highlighted else detail
+                print(f"{error_type} [{severity}/{detail_type}/{section}]: {text}")
+            elif len(error) == 5:
                 error_type, severity, detail_type, detail, section = error
                 print(f"{error_type} [{severity}/{detail_type}/{section}]: {detail}")
             elif len(error) == 4:
@@ -69,7 +76,7 @@ def main(transcript_path, note_path, label_path):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="Run every checker module in main.py against a single transcript/note pair, "
+        description="Run every checker module in run_checker_modules.py against a single transcript/note pair, "
         "instead of the whole prim57 dataset."
     )
     parser.add_argument("transcript_path", help="Path to the transcript file")
@@ -82,6 +89,6 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    print("started individual_tester")
+    print("started run_single_pair")
 
     main(args.transcript_path, args.note_path, args.label_path)
