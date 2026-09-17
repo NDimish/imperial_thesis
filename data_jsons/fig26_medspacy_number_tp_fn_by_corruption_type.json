@@ -1,0 +1,48 @@
+{
+ "figure": "Figure 26 -- medspaCy/UMLS/ConText + number-context checker TP/FN by corruption type",
+ "paper_section": "9.2.2 The medspaCy based checker (number-checker extension)",
+ "source": "Logs/evaluate_MedspacyUmlsNumberChecker_full57_20260912_064405.json, by_detail_type block (full 57-file run of Modules/medspacy_umls_number_checker.py's MedspacyUmlsNumberChecker, produced by batch_runs/medspacy_umls_number_batch57.py, scored by Modules/evaluate.py against the project's hand-labelled ground truth). Same checker as Figure 25 (Modules/medspacy_umls_checker.py's MedspacyUmlsChecker) plus one added deterministic judgment: a number+context extractor/matcher that flags a SOAP-note number as a hallucination UNLESS a context-matching transcript number is found stating the identical value (flag-by-default: a number with no transcript anchor at all, or only a thin/no context match, is flagged too, not silently skipped) -- see that module's docstring for the full mechanism, the flag-by-default policy and its precision/recall trade-off, and the dataset facts that motivated it (zero of the 57 cleaned transcripts contain a digit character at all; most number edits have no transcript anchor in any form).",
+ "description": "TP/FN per injected corruption type, using the same 6 detail_type categories and display labels as Figure 4 (left) / Figure 25. detail_type is label metadata carried only by a matched ground-truth item (Modules/evaluate.py), so a false positive -- a flag with no matching label -- cannot be attributed to a corruption type; total_fp is the combined-direction overall count (hallucination + omission + status_flip), matching the scope of by_detail_type itself, not a single-direction figure.",
+ "display_labels": {
+  "inserted sentence": "Inserted sentence (hallucinated)",
+  "negation flip": "Negation flip",
+  "number edit": "Number edit",
+  "omitted detail": "Omitted detail",
+  "entity swap": "Entity swap",
+  "drug switch": "Drug-name switch"
+ },
+ "by_detail_type": {
+  "inserted sentence": {
+   "tp": 20,
+   "fn": 22,
+   "total": 42
+  },
+  "negation flip": {
+   "tp": 14,
+   "fn": 24,
+   "total": 38
+  },
+  "number edit": {
+   "tp": 26,
+   "fn": 7,
+   "total": 33
+  },
+  "omitted detail": {
+   "tp": 0,
+   "fn": 32,
+   "total": 32
+  },
+  "entity swap": {
+   "tp": 10,
+   "fn": 13,
+   "total": 23
+  },
+  "drug switch": {
+   "tp": 1,
+   "fn": 1,
+   "total": 2
+  }
+ },
+ "total_fp": 2301,
+ "file_count": 57
+}

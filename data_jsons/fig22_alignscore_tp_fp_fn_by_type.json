@@ -1,0 +1,36 @@
+{
+  "figure": "Figure 22 -- AlignScore TP/FP/FN by direction",
+  "paper_section": "9.4.4 Results",
+  "source": "Logs/evaluate_AlignScoreChecker_20260818_203942.json (fixed pipeline, full 57-file run, produced by run_checker_modules.py, scored by Modules/evaluate.py against the project's hand-labelled hallucination/omission ground truth)",
+  "description": "TP/FP/FN counts for AlignScore's per-claim check, split by direction. Only the hallucination direction is implemented (SOAP claim vs. transcript context); every omission-type ground-truth label is an automatic FN since the checker is never asked to look for it, which is why the omission bar has 0 TP and 0 FP. Mirrors Figure 11's NoteExtractor-by-type layout so the two are visually comparable.",
+  "overall": {
+    "tp": 70,
+    "fp": 226,
+    "fn": 100,
+    "precision": 0.23648648648648649,
+    "recall": 0.4117647058823529,
+    "f1": 0.3004291845493562,
+    "accuracy": 0.17676767676767677
+  },
+  "by_type": {
+    "hallucination": {
+      "tp": 70,
+      "fp": 226,
+      "fn": 68,
+      "precision": 0.23648648648648649,
+      "recall": 0.5072463768115942,
+      "f1": 0.3225806451612903,
+      "accuracy": 0.19230769230769232
+    },
+    "omission": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 32,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0
+    }
+  },
+  "file_count": 57
+}

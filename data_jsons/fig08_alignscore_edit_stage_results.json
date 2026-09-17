@@ -1,0 +1,50 @@
+{
+  "figure": "Figure 8 -- AlignScoreChecker: hallucination-direction P/R/F1 across each edit",
+  "paper_section": "9.4.4 Proposed Use: AlignScore as a Per-Sentence Hallucination Check",
+  "description": "Same 10-file sample throughout: prim1.txt, prim10.txt-prim18.txt. Hallucination-direction labels only.",
+  "sources": {
+    "Original (full-stop split, thr=0.25)": "Logs/evaluate_AlignScoreChecker_20260806_163259.json (by_type.hallucination)",
+    "Edit 1 (splitter fix, thr=0.25)": "Modules/old/alignscore_checker.py threshold-sweep comment (threshold=0.25 row, the 'old default')",
+    "d/p pair chunking (structural replacement for Edit 2, thr=0.25)": "Logs/alignscore_pairchunk_sweep_cache.json, re-thresholded at 0.25 for comparability with the other pre-Edit-3 stages here (Modules/alignscore_checker.py's own adopted THRESHOLD is 0.30, unchanged, pending the full 57-file validation run) -- by_type.hallucination only, same method as the other stages",
+    "Edit 3 (d/p and splitter fix, thr=0.30)": "Logs/alignscore_pairchunk_sweep_cache.json, re-thresholded at 0.30 -- d/p pair chunking's stock-chunking predecessor (the old Edit 3, splitter fix only) is retired from this figure; d/p chunking on top of the same Edit 1 splitter, at the same thr=0.30, is now the Edit 3 slot"
+  },
+  "note": "Edit 2 (synthetic Q&A-bridging assertions appended to the transcript) is superseded by d/p pair chunking -- see Modules/alignscore_checker.py's module docstring for why Edit 2 backfired (appending at the end reshuffled AlignScore's own chunk boundaries for the whole file) and how pair chunking targets the same problem (implicit Q&A pairs never surfacing as a declarative sentence) structurally instead. The old Edit 3 (splitter fix only, stock AlignScore chunking, thr=0.30) is retired from this figure -- d/p pair chunking at the same thr=0.30 now occupies the Edit 3 slot, since d/p chunking (built on top of Edit 1's splitter) is the currently active implementation in Modules/alignscore_checker.py. d/p pair chunking's own best-F1 threshold in a wider sweep is 0.10 (Logs/alignscore_pairchunk_sweep_cache.json), not yet adopted pending the full 57-file run -- see Modules/alignscore_checker.py.",
+  "stages": [
+    {
+      "stage": "Original (full-stop split, thr=0.25)",
+      "tp": 1,
+      "fp": 17,
+      "fn": 7,
+      "precision": 0.056,
+      "recall": 0.125,
+      "f1": 0.077
+    },
+    {
+      "stage": "Edit 1 (splitter fix, thr=0.25)",
+      "tp": 8,
+      "fp": 16,
+      "fn": 14,
+      "precision": 0.333,
+      "recall": 0.364,
+      "f1": 0.348
+    },
+    {
+      "stage": "d/p pair chunking (thr=0.25)",
+      "tp": 11,
+      "fp": 25,
+      "fn": 11,
+      "precision": 0.306,
+      "recall": 0.5,
+      "f1": 0.379
+    },
+    {
+      "stage": "Edit 3 (d/p and splitter fix, thr=0.30)",
+      "tp": 12,
+      "fp": 26,
+      "fn": 10,
+      "precision": 0.316,
+      "recall": 0.545,
+      "f1": 0.4
+    }
+  ]
+}

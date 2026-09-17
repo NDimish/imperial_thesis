@@ -1,0 +1,42 @@
+{
+  "figure": "AlignScore d/p pair chunking: Precision/Recall/F1, hallucination-direction only, threshold sweep from 0.20 onward",
+  "paper_section": "9.4.3/9.4.4 -- companion to Figure 8 (edit-stage bar chart) and Figure 9 (Edit 1's own threshold sweep)",
+  "description": "Same 10-file sample throughout (prim1.txt, prim10.txt-prim18.txt). Scores are hallucination-direction only (by_type.hallucination), matching Figure 8's scope exactly -- the omission direction is not implemented for this checker (Section 9.4.5), so these numbers exclude omission-type labels from the denominator rather than counting them as automatic misses. This is the d/p pair chunking pipeline (Edit 1's splitter plus doctor/patient turn-pair context chunking, the adopted replacement for the abandoned Edit 2). Threshold 0.30 is Edit 3, and its tp/fp/fn here (12/26/10, F1=0.400) match Figure 8's 'Edit 3' bar exactly.",
+  "sources": {
+    "edit1": "Modules/old/alignscore_checker.py THRESHOLD comment block (verbatim); identical to data_jsons/fig09_alignscore_threshold_sweep.json. Kept here for provenance/reference only -- not plotted in the current version of this figure. Hallucination-direction only (no omission scoring existed for this variant); only 0.20/0.25/0.30/0.35/0.50 survive.",
+    "dp_pair_chunking": "Logs/evaluate_AlignScoreCheckerPairChunk_t{0.10..0.50}_20260911_*.json, by_type.hallucination, in 0.05 increments.",
+    "dp_pair_chunking_overall": "Same log files, top-level 'overall' block (all labels, omission counted as automatic FN) -- kept for reference; not what's plotted. F1 at 0.30 under this scope is 0.369, not 0.400 -- see the fig28/Figure 8 scope discussion if reusing this."
+  },
+  "note": "d/p pair chunking's own best-F1 point across the full sweep (hallucination-only) is threshold=0.10 (F1=0.426, not shown since the chart's x-range starts at 0.20); within 0.20-0.50 its F1 peaks again at 0.30 (F1=0.400), which is the threshold actually adopted as Edit 3 and matches Figure 8.",
+  "series": {
+    "edit1": [
+      {"threshold": 0.2, "precision": 0.381, "recall": 0.364, "f1": 0.372, "tp": 8, "fp": 13, "fn": 14},
+      {"threshold": 0.25, "precision": 0.333, "recall": 0.364, "f1": 0.348, "tp": 8, "fp": 16, "fn": 14},
+      {"threshold": 0.30, "precision": 0.367, "recall": 0.5, "f1": 0.423, "tp": 11, "fp": 19, "fn": 11},
+      {"threshold": 0.35, "precision": 0.324, "recall": 0.545, "f1": 0.407, "tp": 12, "fp": 25, "fn": 10},
+      {"threshold": 0.50, "precision": 0.235, "recall": 0.545, "f1": 0.329, "tp": 12, "fp": 39, "fn": 10}
+    ],
+    "dp_pair_chunking": [
+      {"threshold": 0.10, "precision": 0.4, "recall": 0.45454545454545453, "f1": 0.4255319148936171, "tp": 10, "fp": 15, "fn": 12},
+      {"threshold": 0.15, "precision": 0.3333333333333333, "recall": 0.45454545454545453, "f1": 0.3846153846153846, "tp": 10, "fp": 20, "fn": 12},
+      {"threshold": 0.20, "precision": 0.30303030303030304, "recall": 0.45454545454545453, "f1": 0.36363636363636365, "tp": 10, "fp": 23, "fn": 12},
+      {"threshold": 0.25, "precision": 0.3055555555555556, "recall": 0.5, "f1": 0.37931034482758624, "tp": 11, "fp": 25, "fn": 11},
+      {"threshold": 0.30, "precision": 0.3157894736842105, "recall": 0.5454545454545454, "f1": 0.39999999999999997, "tp": 12, "fp": 26, "fn": 10},
+      {"threshold": 0.35, "precision": 0.3, "recall": 0.5454545454545454, "f1": 0.3870967741935483, "tp": 12, "fp": 28, "fn": 10},
+      {"threshold": 0.40, "precision": 0.27906976744186046, "recall": 0.5454545454545454, "f1": 0.36923076923076914, "tp": 12, "fp": 31, "fn": 10},
+      {"threshold": 0.45, "precision": 0.2553191489361702, "recall": 0.5454545454545454, "f1": 0.34782608695652173, "tp": 12, "fp": 35, "fn": 10},
+      {"threshold": 0.50, "precision": 0.24489795918367346, "recall": 0.5454545454545454, "f1": 0.3380281690140845, "tp": 12, "fp": 37, "fn": 10}
+    ],
+    "dp_pair_chunking_overall": [
+      {"threshold": 0.10, "precision": 0.4, "recall": 0.37037037037037035, "f1": 0.3846153846153846, "tp": 10, "fp": 15, "fn": 17},
+      {"threshold": 0.15, "precision": 0.3333333333333333, "recall": 0.37037037037037035, "f1": 0.3508771929824561, "tp": 10, "fp": 20, "fn": 17},
+      {"threshold": 0.20, "precision": 0.30303030303030304, "recall": 0.37037037037037035, "f1": 0.3333333333333333, "tp": 10, "fp": 23, "fn": 17},
+      {"threshold": 0.25, "precision": 0.3055555555555556, "recall": 0.4074074074074074, "f1": 0.3492063492063492, "tp": 11, "fp": 25, "fn": 16},
+      {"threshold": 0.30, "precision": 0.3157894736842105, "recall": 0.4444444444444444, "f1": 0.36923076923076925, "tp": 12, "fp": 26, "fn": 15},
+      {"threshold": 0.35, "precision": 0.3, "recall": 0.4444444444444444, "f1": 0.3582089552238806, "tp": 12, "fp": 28, "fn": 15},
+      {"threshold": 0.40, "precision": 0.27906976744186046, "recall": 0.4444444444444444, "f1": 0.34285714285714286, "tp": 12, "fp": 31, "fn": 15},
+      {"threshold": 0.45, "precision": 0.2553191489361702, "recall": 0.4444444444444444, "f1": 0.32432432432432434, "tp": 12, "fp": 35, "fn": 15},
+      {"threshold": 0.50, "precision": 0.24489795918367346, "recall": 0.4444444444444444, "f1": 0.3157894736842105, "tp": 12, "fp": 37, "fn": 15}
+    ]
+  }
+}

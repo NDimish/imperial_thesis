@@ -1,0 +1,92 @@
+\contentsline {section}{\numberline {1}Introduction}{5}{section.1}%
+\contentsline {section}{\numberline {2}Landscape of Clinical AIaMD}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}AI as a medical Device}{6}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}AI benefits and concerns}{7}{subsubsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.2}Probabilistic software in healthcare}{9}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Operational Risks of AI in healthcare}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Taxonomy of AI-Induced Risks in Clinical Environments}{9}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Statistical and Distributional Risks (Algorithmic Decay)}{9}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Socio-Technical and Cognitive Risks (Human-AI Interaction)}{10}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Generative and LLM-Specific Vulnerabilities}{12}{subsubsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.4}Architectural + Systemic Blind Spots}{12}{subsubsection.3.1.4}%
+\contentsline {section}{\numberline {4}Current Evaluation Paradigms and Reporting Gaps}{13}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Pre-Deployment Testing and Benchmarking Limitations}{13}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Post-Market Surveillance and the Yellow Card Framework}{14}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}The Yellow Card Scheme}{15}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Manufacturer's Online Reporting Environment (MORE)}{15}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Routine Clinical Auditing}{15}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.4}Continuous Real Time Monitoring}{16}{subsubsection.4.2.4}%
+\contentsline {section}{\numberline {5}Modernizing Surveillance: Integration and Analytics}{16}{section.5}%
+\contentsline {section}{\numberline {6}The Proposed Solution: Targeted Evaluation via Ambient AI Scribes}{17}{section.6}%
+\contentsline {subsection}{\numberline {6.1} AVT Embedded Risk Mitigation}{17}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}AVT System Architecture}{18}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}What this work adds to clinicians}{18}{subsection.6.3}%
+\contentsline {section}{\numberline {7}This Paper's Objectives}{19}{section.7}%
+\contentsline {section}{\numberline {8}Test data}{20}{section.8}%
+\contentsline {subsection}{\numberline {8.1}PriMock57 Corpus (\texttt {babylonhealth/PriMock57})}{20}{subsection.8.1}%
+\contentsline {subsubsection}{\numberline {8.1.1}How the Dataset Was Augmented}{21}{subsubsection.8.1.1}%
+\contentsline {section}{\numberline {9}Determinism in a non-deterministic space }{24}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Natural Language Processing}{24}{subsection.9.1}%
+\contentsline {subsubsection}{\numberline {9.1.1}spaCy as a Foundation}{25}{subsubsection.9.1.1}%
+\contentsline {subsubsection}{\numberline {9.1.2}scispaCy}{25}{subsubsection.9.1.2}%
+\contentsline {subsubsection}{\numberline {9.1.3}NegspaCy}{25}{subsubsection.9.1.3}%
+\contentsline {subsubsection}{\numberline {9.1.4}MedspaCy}{26}{subsubsection.9.1.4}%
+\contentsline {subsubsection}{\numberline {9.1.5}UMLS Concept Mapping: MetaMap and QuickUMLS}{26}{subsubsection.9.1.5}%
+\contentsline {subsection}{\numberline {9.2}Proposed Use of NLP for SOAP checker}{26}{subsection.9.2}%
+\contentsline {subsubsection}{\numberline {9.2.1}Selecting a condenser: cosine and ROUGE-1 evaluation}{26}{subsubsection.9.2.1}%
+\contentsline {subsubsection}{\numberline {9.2.2}The medspaCy based checker}{28}{subsubsection.9.2.2}%
+\contentsline {subsubsection}{\numberline {9.2.3}Error Analysis \& Failure Modes}{28}{subsubsection.9.2.3}%
+\contentsline {subsection}{\numberline {9.3}KDE-Based Semantic Density Checking (EmbedKDECheck) }{29}{subsection.9.3}%
+\contentsline {subsubsection}{\numberline {9.3.1} How EmbedKDECheck works}{29}{subsubsection.9.3.1}%
+\contentsline {subsubsection}{\numberline {9.3.2}Why This Fits an Ambient AI Post-Market Check}{30}{subsubsection.9.3.2}%
+\contentsline {subsubsection}{\numberline {9.3.3} Proposed Use: Bidirectional, Per-Sentence Density Checking}{30}{subsubsection.9.3.3}%
+\contentsline {subsubsection}{\numberline {9.3.4}Results}{31}{subsubsection.9.3.4}%
+\contentsline {subsubsection}{\numberline {9.3.5}Error Analysis \& Failure Modes}{31}{subsubsection.9.3.5}%
+\contentsline {subsubsection}{\numberline {9.3.6}Possible Fixes for Further Research for using KDE in this context}{32}{subsubsection.9.3.6}%
+\contentsline {subsection}{\numberline {9.4}AlignScore: Trained Alignment Model}{32}{subsection.9.4}%
+\contentsline {subsubsection}{\numberline {9.4.1}How AlignScore works}{33}{subsubsection.9.4.1}%
+\contentsline {subsubsection}{\numberline {9.4.2}Why This Fits an Ambient AI Post-Market Check}{33}{subsubsection.9.4.2}%
+\contentsline {subsubsection}{\numberline {9.4.3}Proposed Use: AlignScore as a Per-Sentence Hallucination Check}{34}{subsubsection.9.4.3}%
+\contentsline {subsubsection}{\numberline {9.4.4}Results}{35}{subsubsection.9.4.4}%
+\contentsline {subsubsection}{\numberline {9.4.5}Error Analysis \& Failure Modes}{36}{subsubsection.9.4.5}%
+\contentsline {subsubsection}{\numberline {9.4.6}Possible Fixes for Further Research for using AlignScore in this context . }{36}{subsubsection.9.4.6}%
+\contentsline {subsection}{\numberline {9.5}SUMMAC}{37}{subsection.9.5}%
+\contentsline {subsubsection}{\numberline {9.5.1}How SummaC Works}{37}{subsubsection.9.5.1}%
+\contentsline {subsubsection}{\numberline {9.5.2}Why This Is a Harder Fit for an Ambient AI Check}{37}{subsubsection.9.5.2}%
+\contentsline {subsection}{\numberline {9.6} NoteExtractor: A Lightweight Structured-Summary Layer}{38}{subsection.9.6}%
+\contentsline {subsubsection}{\numberline {9.6.1}How NoteExtractor Works}{38}{subsubsection.9.6.1}%
+\contentsline {subsubsection}{\numberline {9.6.2}Results}{38}{subsubsection.9.6.2}%
+\contentsline {subsubsection}{\numberline {9.6.3}Error Analysis \& Failure Modes}{38}{subsubsection.9.6.3}%
+\contentsline {section}{\numberline {10}Results}{40}{section.10}%
+\contentsline {subsection}{\numberline {10.1}In Documents Tag Contribution}{41}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Cross-Document Verification Can Still Improve}{41}{subsection.10.2}%
+\contentsline {section}{\numberline {11}Example Market deployment}{41}{section.11}%
+\contentsline {subsection}{\numberline {11.1}What the Prototype Does}{42}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Why a Browser Extension Is the Right Delivery Mechanism}{43}{subsection.11.2}%
+\contentsline {subsubsection}{\numberline {11.2.1}Closing the Loop}{44}{subsubsection.11.2.1}%
+\contentsline {section}{\numberline {12}Method Limitations}{45}{section.12}%
+\contentsline {section}{\numberline {13}Conclusion}{46}{section.13}%
+\contentsline {section}{\numberline {14}Legal, Social, Ethical, and Professional Issues (LSEPI)}{46}{section.14}%
+\contentsline {subsection}{\numberline {14.1}Ethical Review and Data Governance}{46}{subsection.14.1}%
+\contentsline {subsection}{\numberline {14.2}Patient Consent and Acoustic Surveillance}{46}{subsection.14.2}%
+\contentsline {subsection}{\numberline {14.3}Medico-Legal Liability and Duty of Care}{46}{subsection.14.3}%
+\contentsline {subsection}{\numberline {14.4}Health Equity and Algorithmic Bias}{47}{subsection.14.4}%
+\contentsline {section}{\numberline {15}Policy Recommendation: A White Paper for AIaMD Governance}{47}{section.15}%
+\contentsline {section}{\numberline {16}Future Work}{47}{section.16}%
+\contentsline {section}{\numberline {17}Appendix A: Code}{52}{section.17}%
+\contentsline {subsection}{\numberline {17.1}Directory tree}{52}{subsection.17.1}%
+\contentsline {subsection}{\numberline {17.2}Files under Project}{53}{subsection.17.2}%
+\contentsline {subsubsection}{\numberline {17.2.1}run\_checker\_modules.py}{53}{subsubsection.17.2.1}%
+\contentsline {subsubsection}{\numberline {17.2.2}run\_condensers.py}{53}{subsubsection.17.2.2}%
+\contentsline {subsubsection}{\numberline {17.2.3}run\_note\_extractor.py}{53}{subsubsection.17.2.3}%
+\contentsline {subsection}{\numberline {17.3}Environment setup}{53}{subsection.17.3}%
+\contentsline {subsection}{\numberline {17.4}Running things}{54}{subsection.17.4}%
+\contentsline {subsubsection}{\numberline {17.4.1}Full-dataset evaluation runs}{54}{subsubsection.17.4.1}%
+\contentsline {section}{\numberline {18}Appendix B : Running the google extension}{55}{section.18}%
+\contentsline {subsection}{\numberline {18.1}Prerequisites}{55}{subsection.18.1}%
+\contentsline {subsection}{\numberline {18.2}Running the server}{55}{subsection.18.2}%
+\contentsline {subsection}{\numberline {18.3}Loading the extension into Chrome}{55}{subsection.18.3}%
+\contentsline {subsection}{\numberline {18.4}How the extension connects to the server}{57}{subsection.18.4}%
+\contentsline {subsection}{\numberline {18.5}Architecture at a glance}{57}{subsection.18.5}%
+\contentsline {subsection}{\numberline {18.6}Using the extension}{57}{subsection.18.6}%
+\contentsline {subsection}{\numberline {18.7}Known caveats}{58}{subsection.18.7}%

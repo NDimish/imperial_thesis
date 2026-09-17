@@ -1,0 +1,33 @@
+{
+  "figure": "Figure 23 -- EmbedKDECheck TP/FN by corruption type, raw vs. medspaCy-condensed transcript",
+  "paper_section": "9.3.4 Results / 9.3.6 Possible Fixes (condenser pre-filter test)",
+  "source": "Raw: Logs/evaluate_EmbedKdeChecker_full57_20260819_232035.json (published). Condensed: Logs/evaluate_EmbedKdeChecker_full57_condensed_20260911_212504.json (batch_runs/kde_batch57_condensed.py -- same checker, same 57 files, same labels, transcript pre-filtered through Medical condensor/medspacy_condenser_new.py's MedspacyCondenserNew before EmbedKdeChecker.check(), testing the first fix proposed in Sec 9.3.6).",
+  "description": "TP/FN per injected corruption type, using the same 6 detail_type categories and display labels as Figure 4 (left), compared across two conditions: the published run on the raw transcript, and a new run with the transcript pre-filtered by the medspaCy condenser before it reaches the KDE. detail_type is label metadata carried only by a matched ground-truth item (Modules/evaluate.py), so a false positive -- a flag with no matching label -- cannot be attributed to a corruption type; total_fp is reported separately per condition, not split across the rows below. Per-type ground-truth totals (tp+fn) are identical across both conditions since the labels themselves don't change, only which ones are caught.",
+  "display_labels": {
+    "inserted sentence": "Inserted sentence (hallucinated)",
+    "negation flip": "Negation flip",
+    "number edit": "Number edit",
+    "omitted detail": "Omitted detail",
+    "entity swap": "Entity swap",
+    "drug switch": "Drug-name switch"
+  },
+  "by_detail_type": {
+    "inserted sentence": {"tp": 24, "fn": 18, "total": 42},
+    "negation flip": {"tp": 19, "fn": 19, "total": 38},
+    "number edit": {"tp": 17, "fn": 16, "total": 33},
+    "omitted detail": {"tp": 0, "fn": 32, "total": 32},
+    "entity swap": {"tp": 14, "fn": 9, "total": 23},
+    "drug switch": {"tp": 2, "fn": 0, "total": 2}
+  },
+  "total_fp": 1661,
+  "by_detail_type_condensed": {
+    "inserted sentence": {"tp": 22, "fn": 20, "total": 42},
+    "negation flip": {"tp": 18, "fn": 20, "total": 38},
+    "number edit": {"tp": 17, "fn": 16, "total": 33},
+    "omitted detail": {"tp": 0, "fn": 32, "total": 32},
+    "entity swap": {"tp": 14, "fn": 9, "total": 23},
+    "drug switch": {"tp": 2, "fn": 0, "total": 2}
+  },
+  "total_fp_condensed": 1298,
+  "file_count": 57
+}

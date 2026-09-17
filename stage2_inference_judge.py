@@ -191,16 +191,165 @@ def judge_claim(transcript, claim, api_key=None, model=None):
     return result
 
 
-def _parse_response(text):
+# ============================================================================
+# Omission direction -- not part of the Augnito paper (that paper is
+# specifically about the hallucination-rate metric; it has no omission
+# methodology to port). This extends the same Stage-2 "criteria + protocol,
+# not verbatim matching" approach to the other direction, for the same
+# reason the paper gives for hallucination: a note is a SUMMARY, so a naive
+# "flag anything from the transcript not restated in the note" judge would
+# manufacture false omissions out of every routine, correct compression the
+# note-writer made -- the omission-side analogue of the paper's Stage-1
+# problem.
+#
+# Two calls per file instead of judge_claim's one:
+#   1. extract_checkable_facts -- ONE call, reads the whole transcript, and
+#      -- critically -- returns each fact phrased in SOAP-note REGISTER, not
+#      the transcript's own disfluent phrasing. This directly targets a
+#      failure already measured in this project: Modules/old/
+#      NLPMEDANDconverstaionNLP.py's omission checker reported facts in raw
+#      transcript wording and scored 0/430 true positives against note-style
+#      ground-truth labels purely because Evaluate.compare()'s substring
+#      matching can't bridge two different registers of the same real fact
+#      -- see extra/explainer/conversationalNLP.html's own diagnosis of
+#      that run ("proving it's a scoring-method problem, not an
+#      extraction-quality one"). Extracting in note-register from the start
+#      avoids re-creating that same failure here.
+#   2. judge_omission -- ONE call per extracted fact, mirroring judge_claim's
+#      own criteria-and-protocol structure but for coverage instead of
+#      support.
+# ============================================================================
+
+FACT_EXTRACTION_PROMPT_TEMPLATE = """You are extracting clinically checkable facts from a doctor-\
+patient consultation transcript, for later verification against a SOAP note written from it.
+
+TRANSCRIPT:
+{transcript}
+
+Extract every clinically significant fact a competent SOAP note would be expected to record: \
+symptoms (including explicitly denied ones, e.g. "denies fever"), history (medical / family / \
+social / drug), examination findings, and any diagnosis or plan item the doctor states. Do NOT \
+extract greetings, small talk, administrative chat (confirming name/age, thanking the patient), \
+or filler with no clinical content -- a note correctly leaves those out, they are not checkable \
+facts.
+
+Phrase EACH fact the way a clinician would write it in a SOAP note -- terse, third person, \
+clinical register -- NOT as a quote of the transcript's own spoken phrasing. For example, if the \
+transcript has the patient say "Uh, no, I haven't had any blood in it, no", the extracted fact \
+should be "No blood in stool", not a verbatim copy of the disfluent original.
+
+Respond with ONLY a JSON array of strings, no markdown code fences, no commentary, one fact per \
+element, in the order the topics were discussed:
+["fact 1", "fact 2", ...]
+"""
+
+# Mirrors PROMPT_TEMPLATE's own structure (criteria -> non-negotiable rule ->
+# ordered protocol -> hard floor -> taxonomy classification) so the two
+# directions apply comparably rigorous judgment instead of the omission side
+# being an afterthought bolted on with a simpler prompt.
+OMISSION_PROMPT_TEMPLATE = """You are a clinical documentation expert assessing whether a SOAP \
+note adequately captured one specific fact established during the consultation it was written \
+from. A SOAP note is a SUMMARY, not a transcript -- it is expected to compress and paraphrase, \
+and correctly leaving out a clinically insignificant detail is NOT an omission.
+
+SOAP NOTE:
+{soap_note}
+
+FACT (established during the consultation, to check against the note above):
+{fact}
+
+The fact is COVERED, and must NOT be flagged, under ANY of the following conditions:
+  - It is stated directly, verbatim or near-verbatim, in the note.
+  - It is paraphrased or summarized in the note (e.g. "abdominal pain" covers "pain in my tummy").
+  - It is a trade name / generic drug name equivalent of a medication mentioned in the note (or \
+vice versa).
+  - It is implied by a broader statement the note makes that clearly subsumes it.
+
+Synonym Rule (non-negotiable): trade names and generic drug names are to be treated as \
+equivalent under ALL circumstances -- this overrides any apparent lack of verbatim match.
+
+Apply this protocol, in order, with OMITTED as the verdict of last resort:
+  1. State the fact.
+  2. Scan the entire note for a direct mention, synonym, or paraphrase.
+  3. If found -> COVERED. Stop.
+  4. If not found, ask: is this fact clinically insignificant enough that a real clinician would \
+routinely leave it out of a summary (incidental chit-chat, a detail with no bearing on \
+diagnosis or management)? If yes -> COVERED (correct summarization, not an omission). Stop.
+  5. Otherwise -> OMITTED. State the specific reason.
+
+Retained Omission Conditions (hard floor -- these are ALWAYS OMITTED if missing from the note, \
+no exceptions): a specific medication, dose, frequency, allergy, or a symptom/finding directly \
+relevant to the note's own diagnosis/impression.
+
+If, and only if, the verdict is OMITTED, ALSO classify it using this project's own ground-truth \
+error taxonomy (Modules/risk_taxonomy.py -- the same one prim57's injected-error labels use):
+
+  severity -- exactly one of: low, moderate, high, critical.
+    Rule: a missing medication, dose, frequency, or allergy, or a symptom the note's own \
+diagnosis/impression depends on, is always "high" or "critical" -- everything else scales with \
+how clinically significant the missing content is.
+
+  detail_type -- always "omitted detail" for this direction.
+
+Respond with ONLY a JSON object, no markdown code fences, no commentary. When the verdict is \
+COVERED, set severity/detail_type/detail to null. When the verdict is OMITTED, "detail" must be \
+the FACT text above, copied back EXACTLY character-for-character (matching against ground truth \
+needs it exact, same reason judge_claim's own prompt gives):
+{{"verdict": "COVERED|OMITTED", "reason": "<one sentence: cite the specific note text used, or \
+explain what's missing>", "severity": "low|moderate|high|critical"|null, \
+"detail_type": "omitted detail"|null, "detail": "<exact fact text, verbatim>"|null}}
+"""
+
+
+def extract_checkable_facts(transcript, api_key=None, model=None):
+    """Single Gemini call: extracts a list of clinically checkable facts
+    from the transcript, phrased in SOAP-note register -- see the section
+    docstring above for why register matters here. Returns a list of
+    strings (possibly empty if the model's response wasn't valid JSON)."""
+    client = genai.Client(api_key=api_key or API_KEY)
+    prompt = FACT_EXTRACTION_PROMPT_TEMPLATE.format(transcript=transcript)
+
+    _throttle()
+    response = client.models.generate_content(model=model or MODEL, contents=prompt)
+
+    try:
+        facts = json.loads(_strip_code_fence(response.text))
+        return [f for f in facts if isinstance(f, str) and f.strip()]
+    except (json.JSONDecodeError, TypeError):
+        return []
+
+
+def judge_omission(soap_note, fact, api_key=None, model=None):
+    """Mirror of judge_claim() for the omission direction: is `fact`
+    (already phrased in note register by extract_checkable_facts) adequately
+    covered by soap_note? Returns a dict with keys
+    verdict/reason/severity/detail_type/detail (or verdict="PARSE_ERROR")."""
+    client = genai.Client(api_key=api_key or API_KEY)
+    prompt = OMISSION_PROMPT_TEMPLATE.format(soap_note=soap_note, fact=fact)
+
+    _throttle()
+    start = time.perf_counter()
+    response = client.models.generate_content(model=model or MODEL, contents=prompt)
+    elapsed = time.perf_counter() - start
+
+    result = _parse_response(response.text)
+    result["elapsed"] = elapsed
+    return result
+
+
+def _strip_code_fence(text):
     cleaned = text.strip()
     if cleaned.startswith("```"):
         cleaned = cleaned.strip("`")
         if cleaned.startswith("json"):
             cleaned = cleaned[4:]
         cleaned = cleaned.strip()
+    return cleaned
 
+
+def _parse_response(text):
     try:
-        return json.loads(cleaned)
+        return json.loads(_strip_code_fence(text))
     except json.JSONDecodeError:
         return {"tier": "?", "verdict": "PARSE_ERROR", "reason": text[:300]}
 

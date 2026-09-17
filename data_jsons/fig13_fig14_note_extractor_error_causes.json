@@ -1,0 +1,37 @@
+{
+  "figure": "Figure 13 & Figure 14 -- NoteExtractor false positive / false negative root causes",
+  "paper_section": "9.6.3 Error Analysis & Failure Modes",
+  "source": "extra/explainer/note_extractor_diagnostics.json (57-file NoteExtractor run, false positives/negatives manually root-caused)",
+  "description": "Figure 13 plots fp_cause_counts (71 total); Figure 14 plots fn_cause_counts (44 total).",
+  "tp": 552,
+  "fp": 71,
+  "fn": 44,
+  "fp_cause_counts": {
+    "advisory_conditional_negation": 10,
+    "allergy_history_context": 7,
+    "other": 22,
+    "medicine_ngram_granularity": 11,
+    "section_carryover": 8,
+    "cross_type_overlap": 13
+  },
+  "fn_cause_counts": {
+    "other": 28,
+    "contraction_only": 11,
+    "none_not_matched": 1,
+    "dash_header_not_colon": 4
+  },
+  "fp_cause_display_labels": {
+    "other": "Other (incl. labeling gaps)",
+    "cross_type_overlap": "Cross-type overlap",
+    "medicine_ngram_granularity": "Medicine ngram granularity",
+    "advisory_conditional_negation": "Advisory/conditional language",
+    "section_carryover": "Section-header carryover",
+    "allergy_history_context": "Allergy/history context"
+  },
+  "fn_cause_display_labels": {
+    "other": "Drug name outside matcher's reach",
+    "contraction_only": "Contraction not recognized",
+    "dash_header_not_colon": "Dash-style header, not colon",
+    "none_not_matched": "\"None\" isn't \"no\""
+  }
+}

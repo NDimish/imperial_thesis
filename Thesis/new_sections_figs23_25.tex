@@ -1,0 +1,364 @@
+% =====================================================================
+%  DROP-IN SECTIONS: medspaCy mechanism + Figs 23/24/25 analysis
+%  Written against the real evaluation logs:
+%    Logs/evaluate_MedspacyUmlsChecker_full57_20260818_222322.json
+%    Logs/evaluate_EmbedKdeChecker_full57_20260819_232035.json
+%    Logs/evaluate_AlignScoreChecker_20260818_203942.json
+%  (same JSONs that data_jsons/fig23..fig25 and graph_maker.py render from)
+%
+%  Figure PDFs have already been copied to:
+%    figures/NLP/fig25_medspacy_tp_fn_by_corruption_type.pdf
+%    figures/kde/fig23_kde_tp_fn_by_corruption_type.pdf
+%    figures/align_score/fig24_alignscore_tp_fn_by_corruption_type.pdf
+%
+%  BLOCK A -> replaces main.tex line 760-762 (the one-paragraph mechanism)
+%  BLOCK B -> replaces main.tex line 763 (the one-line results sentence)
+%  BLOCK C -> insert into 9.3.4 Results, after the Table 4 paragraph
+%  BLOCK D -> insert into 9.4.4 Results, after the Table 5 paragraph
+%  BLOCK E -> optional cross-method table, for 9.5 / the Results chapter
+% =====================================================================
+
+
+% =====================================================================
+% BLOCK A  --  how the checker works (mechanism, bullets)
+% =====================================================================
+
+The first SOAP checker module built on top of medspaCy reduces both documents to
+the same machine readable object and then compares those two objects rather than
+the text itself. The pipeline runs in three stages, and what each stage throws
+away matters as much as what it keeps.
+
+\paragraph{Stage 1 --- concept extraction.}
+The shared QuickUMLS matcher \cite{soldaini2016quickumls} is run over the
+transcript and over the SOAP note independently, and every span it resolves to a
+UMLS Concept Unique Identifier (CUI) is kept, provided the concept falls inside
+the semantic types this project scoped the matcher to:
+\begin{itemize}
+    \item \textbf{Diseases and findings} --- T047 (disease or syndrome), T033
+          (finding), T184 (sign or symptom), T191 (neoplastic process).
+    \item \textbf{Procedures} --- T059 (laboratory procedure), T060 (diagnostic
+          procedure), T061 (therapeutic or preventive procedure).
+    \item \textbf{Drugs} --- T121 (pharmacologic substance), T195 (antibiotic),
+          T200 (clinical drug).
+\end{itemize}
+Any span outside those types, and any span the matcher cannot resolve at all, is
+simply not carried forward; it does not exist for the rest of the pipeline.
+
+\paragraph{Stage 2 --- assertion tagging.}
+medspaCy's ConText component is then run over every surviving span and stamps it
+with its assertion state, so that a mentioned concept and an \emph{asserted}
+concept are not confused with one another:
+\begin{itemize}
+    \item \textbf{negated} --- ``no chest pain''
+    \item \textbf{uncertain} --- ``possibly a chest infection''
+    \item \textbf{historical} --- ``she had pneumonia in 2019''
+    \item \textbf{hypothetical} --- ``if the rash spreads''
+    \item \textbf{family associated} --- ``her mother has eczema''
+\end{itemize}
+
+\paragraph{Stage 3 --- set comparison.}
+After the first two stages each document has been collapsed into a
+\emph{set of (CUI, assertion) pairs}. The checker never looks at the prose
+again; it compares the two sets by CUI and raises one of three deterministic
+judgments, shown in \Cref{tab:medspacy_decision}.
+
+\begin{table}[htbp]
+  \centering
+  \begin{tabular}{lll}
+    \toprule
+    \textbf{CUI is in transcript?} & \textbf{CUI is in note?} & \textbf{Judgment} \\
+    \midrule
+    yes & no  & \textbf{Omission} --- content the clinician said was dropped \\
+    no  & yes & \textbf{Hallucination} --- content the note invented \\
+    yes & yes & assertion states agree $\rightarrow$ no flag \\
+    yes & yes & no pair of mentions agrees $\rightarrow$ \textbf{Status flip} \\
+    \bottomrule
+  \end{tabular}
+  \caption{The three deterministic judgments of the medspaCy/UMLS/ConText checker.
+  Every decision is a set membership test on CUIs; the status flip case is the only
+  one that consults ConText's assertion state at all.}
+  \label{tab:medspacy_decision}
+\end{table}
+
+\paragraph{What the comparison can and cannot see.}
+Because the comparison happens on the reduced set and not the text, the checker
+is structurally blind to anything that is not a CUI:
+\begin{itemize}
+    \item \textbf{Visible:} which clinical concepts appear on each side, and
+          whether each mention of them is asserted, denied, hedged, historical,
+          hypothetical or attributed to a relative.
+    \item \textbf{Invisible:} \emph{numbers of every kind} --- doses, frequencies,
+          durations, vital signs --- because a quantity is not a UMLS concept and
+          carries no CUI. ``500\,mg three times a day'' and ``50\,mg once a day''
+          reduce to the identical set.
+    \item \textbf{Invisible:} word order, sentence boundaries, and which speaker
+          said what. A doctor's question and a patient's one word answer land in
+          the same undifferentiated bag as everything else.
+    \item \textbf{Fragile:} near synonymous phrasing. A patient's ``loose stool''
+          and a note's ``watery stools'' can resolve to two different CUIs under
+          approximate matching, so a correctly documented fact still reads as a
+          mismatch by concept identity alone.
+    \item \textbf{Fragile:} ordinary conversational words that are themselves
+          valid, if clinically generic, Metathesaurus entries --- ``well,''
+          ``start,'' ``right'' --- which enter the transcript set as real
+          concepts and then have nothing to match against in the note.
+\end{itemize}
+The last three bullets are the mechanism behind almost every number in
+\Cref{fig:medspacy_by_type}; the second bullet is the mechanism behind one row of
+it exactly.
+
+
+% =====================================================================
+% BLOCK B  --  9.2.2 results, Table 5 + Figure 25
+% =====================================================================
+
+\subsubsection{Results}
+\label{sec:medspacy_results}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\textwidth]{figures/NLP/fig25_medspacy_tp_fn_by_corruption_type.pdf}
+    \caption{medspaCy/UMLS/ConText checker: true positives and false negatives
+    per injected corruption type over the full 57-file dataset, using the same
+    six categories as \Cref{fig:label-distributions}. False positives carry no
+    corruption type --- a flag that matches no ground-truth label has no label
+    metadata to inherit --- so they are reported as a single untyped total on
+    their own axis.}
+    \label{fig:medspacy_by_type}
+\end{figure}
+
+Scored over the full prim 57-file evaluation dataset, this checker performs
+poorly: 5.5\% precision and 16.7\% recall in the hallucination direction
+(F1 = 8.3\%) \Cref{tab:results}, with omission detection catching nothing at all
+(0\% precision and 0\% recall). Taken across all three directions at once the
+figures are worse still --- 23 true positives against 2{,}193 false positives and
+147 false negatives, or 1.0\% precision at 13.5\% recall --- and it is that
+combined scope, not the hallucination only row of \Cref{tab:results}, that
+\Cref{fig:medspacy_by_type} plots.
+
+\Cref{fig:medspacy_by_type} breaks those 170 ground-truth labels down by the kind
+of corruption that was injected, and the value of the breakdown is that it
+separates a checker that is uniformly mediocre from one that is blind in
+specific, diagnosable places. This checker is the second kind.
+
+\begin{itemize}
+    \item \textbf{Number edits: 0 of 33 caught.} Not a low score, a structurally
+          impossible one. A dose, a frequency or a duration is not a UMLS concept
+          and has no CUI, so a corrupted number and its original reduce to exactly
+          the same $(\text{CUI},\,\text{assertion})$ pair and the set difference in
+          \Cref{tab:medspacy_decision} is empty by construction. No threshold and
+          no amount of tuning moves this row; only a different representation does.
+    \item \textbf{Omitted detail: 0 of 32 caught, alongside 1{,}707 false positives
+          in the same direction.} The omission judgment is not silent --- it is the
+          single loudest part of the checker --- it is simply never right. Every
+          conversational turn that resolves to a generic Metathesaurus entry becomes
+          a transcript CUI with no counterpart in a short, condensed note, and is
+          duly reported as lost clinical content. The direction fires constantly
+          and scores nothing.
+    \item \textbf{Entity swap: 1 of 23 caught (4\%).} The weakest non-zero row, and
+          the one that most directly indicts CUI identity as a comparison key.
+          Swapping one clinical entity for a neighbouring one usually lands inside
+          the same approximate matching neighbourhood, so the swapped note concept
+          still matches a transcript concept and no difference is raised.
+    \item \textbf{Negation flip: 9 of 38 caught (24\%).} This is the most
+          instructive row in the figure, because negation is the one failure mode
+          medspaCy is specifically built for and gives a dedicated judgment to.
+          Its dedicated status flip judgment fired 90 times across the 57 files and
+          was correct \emph{zero} times. The 9 caught flips were all caught as
+          \emph{hallucinations} instead --- the flip happened to change the CUI
+          rather than only the assertion state, so the set difference caught what
+          ConText did not. The component that was supposed to make this checker
+          clinically aware contributed 90 false alarms and no correct flags.
+    \item \textbf{Inserted sentence: 12 of 42 caught (29\%).} The best typed row,
+          and the only category that plays to the design: a wholly fabricated
+          sentence tends to introduce a genuinely new concept, which is precisely
+          what a set difference is good at. Even here two thirds are missed, because
+          a fabricated sentence assembled from concepts already present elsewhere in
+          the transcript produces no new CUI at all.
+    \item \textbf{Drug-name switch: 1 of 2 caught.} $n = 2$; nothing can be
+          concluded from this row and it should not be read as a 50\% result.
+\end{itemize}
+
+The right hand panel of \Cref{fig:medspacy_by_type} is on its own axis for a
+reason: at 2{,}193 false positives against 23 true positives, plotting it on the
+shared scale would flatten every typed bar to invisibility. That ratio ---
+roughly \textbf{95 false alarms for every correct flag} --- is the number that
+disqualifies the module clinically, not the F1. A clinician working through this
+checker's output would dismiss ninety-odd wrong flags before meeting a real one,
+which is the alert fatigue failure mode described in \Cref{sec:Results} arriving
+in its most extreme form.
+
+
+% =====================================================================
+% BLOCK C  --  9.3.4 KDE, Figure 23 + comparison to medspaCy
+% =====================================================================
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\textwidth]{figures/kde/fig23_kde_tp_fn_by_corruption_type.pdf}
+    \caption{EmbedKDECheck: true positives and false negatives per injected
+    corruption type over the same 57 files and the same 170 ground-truth labels
+    as \Cref{fig:medspacy_by_type}, so the two figures can be read directly
+    against each other.}
+    \label{fig:kde_by_type}
+\end{figure}
+
+\Cref{fig:kde_by_type} plots the same breakdown for EmbedKDECheck, and read
+against \Cref{fig:medspacy_by_type} it shows that dropping the symbolic layer
+entirely bought a real improvement in every direction the method is capable of
+looking:
+
+\begin{itemize}
+    \item \textbf{Every typed row improves, several of them severalfold.}
+          Inserted sentences rise from 12 to 24 of 42, negation flips from 9 to 19
+          of 38, and entity swaps from 1 to 14 of 23 --- a fourteenfold increase on
+          the category where CUI identity failed hardest. Total typed catches rise
+          from 23 to 76, lifting overall recall from 13.5\% to 44.7\%
+          \Cref{tab:results}.
+    \item \textbf{Number edits go from 0 to 17 of 33.} This is the clearest
+          demonstration that the two methods fail for unrelated reasons. medspaCy's
+          zero was structural: numbers have no CUI, so they cannot be compared.
+          EmbedKDECheck has no such blind spot because it never reduces text to
+          concepts at all --- it scores a whole sentence's tokens against a density
+          map. The caveat is that it is not reading the number either; it is
+          registering that the sentence containing it sits in a low density region,
+          which is a weaker claim than ``this dose is wrong'' and explains why the
+          row is a coin flip rather than a solved category.
+    \item \textbf{Entity swaps are where being phrasing-agnostic pays.} A swapped
+          entity that stayed inside the same UMLS neighbourhood, and so was
+          invisible to a CUI set difference, still moves in embedding space far
+          enough to change the density estimate. This is the single row that best
+          justifies the move from rule-based NLP to a statistical method.
+    \item \textbf{Omitted detail is still 0 of 32.} The one row that does not move.
+          Both checkers score exactly nothing here, and --- damningly --- both do it
+          while flagging omissions constantly: 1{,}707 omission-direction false
+          positives for medspaCy, 1{,}330 for EmbedKDECheck. Two methods with
+          nothing in common mechanically produce the same result in this direction,
+          which is strong evidence that the problem is neither symbolic matching nor
+          density estimation but the task itself. Scoring ordinary spoken
+          conversational turns against a condensed note guarantees most of them look
+          unsupported whether or not anything was actually lost, exactly the failure
+          shown in \Cref{tab:KDE_sub_results}.
+    \item \textbf{The false positive panel barely improves.} 1{,}661 against
+          medspaCy's 2{,}193 --- a 24\% reduction while true positives more than
+          tripled, which moves the cost per correct flag from roughly 95:1 to
+          roughly 22:1. Better by a factor of four, and still four times too noisy
+          to put in front of a clinician.
+\end{itemize}
+
+The honest summary of the medspaCy $\rightarrow$ KDE step is therefore that it
+solved a recall problem and left a precision problem untouched. Removing the
+requirement that a fact be phrased in a way a rule can recognise roughly tripled
+what the checker could find; it did nothing about the fact that both methods are
+being asked to compare a spoken register against a written one, and the false
+positive panel is where that unsolved half of the problem shows up.
+
+
+% =====================================================================
+% BLOCK D  --  9.4.4 AlignScore, Figure 24 + comparison to both
+% =====================================================================
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\textwidth]{figures/align_score/fig24_alignscore_tp_fn_by_corruption_type.pdf}
+    \caption{AlignScore (fixed pipeline, full 57-file run): true positives and
+    false negatives per injected corruption type, over the same 170 ground-truth
+    labels as \Cref{fig:medspacy_by_type} and \Cref{fig:kde_by_type}. Note that
+    the false positive axis is an order of magnitude smaller than in either
+    earlier figure.}
+    \label{fig:alignscore_by_type}
+\end{figure}
+
+\Cref{fig:alignscore_by_type} completes the set, and the first thing to note is
+what did \emph{not} change. AlignScore finds 70 of the 170 labels against
+EmbedKDECheck's 76: on raw recall the trained NLI model is very slightly
+\emph{worse} than the statistical density method it replaced. The entire gain
+recorded in \Cref{tab:results} --- 8\% F1 to 30\% F1 --- is a precision gain, and
+it is visible only in the right hand panel.
+
+\paragraph{Where it is strongest.}
+\begin{itemize}
+    \item \textbf{False positives: 226, against EmbedKDECheck's 1{,}661 and
+          medspaCy's 2{,}193.} Roughly \textbf{3 false alarms per correct flag},
+          down from 22:1 and 95:1. Across the three-method progression the cost per
+          catch falls by a factor of thirty while recall stays flat, which is the
+          single clearest result the three figures produce together. Part of this
+          is architectural rather than earned: because only the hallucination
+          direction is implemented, AlignScore never generates the flood of
+          omission-direction false positives that dominates both earlier panels.
+          Even setting the omission direction aside entirely, though, it is still
+          the only one of the three whose precision is in a plausible range at all.
+    \item \textbf{Number edits: 20 of 33, the best row of any method.} This is the
+          one place where the alignment head is genuinely doing something neither
+          other method can. medspaCy scored zero here because quantities have no
+          CUI; EmbedKDECheck scored 17 by accident of sentence-level density.
+          AlignScore is the only one of the three that actually reads a quantity as
+          part of the claim and can find a transcript span that fails to support it.
+    \item \textbf{Entity swap (13 of 23) and inserted sentence (21 of 42)} hold
+          roughly level with EmbedKDECheck, at a fraction of the false positive
+          cost.
+\end{itemize}
+
+\paragraph{Where it is weakest.}
+\begin{itemize}
+    \item \textbf{Negation flips: 15 of 38, worse than EmbedKDECheck's 19.} The
+          worst result in the figure relative to expectation, since a 3-way NLI
+          head is trained precisely to separate entailment from contradiction and
+          a negation flip is a textbook contradiction. The cause is the one
+          diagnosed earlier in this section: the transcript-side chunking glues
+          conditionally opposite instructions into a single $\sim$350-token context,
+          so a chunk frequently supports both a claim and its negation and the
+          alignment head has no reason to score either below threshold. The model is
+          capable of this category; the surrounding pipeline denies it the evidence.
+    \item \textbf{Omitted detail: 0 of 32, for the third time.} Here the zero is
+          neither a representational blind spot (medspaCy) nor a register mismatch
+          (EmbedKDECheck) but a straightforward absence: the symmetric direction is
+          not implemented, so all 32 labels are automatic false negatives. This is
+          also why AlignScore's omission direction contributes 0 false positives
+          where the other two contributed 1{,}707 and 1{,}330 --- a meaningful part
+          of its precision advantage is that it declines to answer the question the
+          other two answer badly.
+    \item \textbf{Inserted sentences still only half caught (21 of 42),} on the
+          category that should be easiest: a fabricated claim with no transcript
+          support is the exact profile AlignScore was trained for.
+\end{itemize}
+
+Read as a series, \Cref{fig:medspacy_by_type,fig:kde_by_type,fig:alignscore_by_type}
+tell one story in three panels. Recall moved once, at the symbolic to statistical
+step, and then stopped: 23 $\rightarrow$ 76 $\rightarrow$ 70 true positives. Precision
+moved once, at the statistical to trained-NLI step, and moved by an order of
+magnitude: 2{,}193 $\rightarrow$ 1{,}661 $\rightarrow$ 226 false positives. And one row
+--- omitted detail --- is zero in all three, for three entirely different and
+independently sufficient reasons. Three methods sharing no mechanism failing
+identically on the same category is not three coincidences; it is the register
+mismatch argument of \Cref{sec:Results} in its most direct empirical form.
+
+
+% =====================================================================
+% BLOCK E  --  optional cross-method summary table
+% =====================================================================
+
+\begin{table}[htbp]
+  \centering
+  \begin{tabular}{lrrrr}
+    \toprule
+    \textbf{Corruption type} & \textbf{Labels} & \textbf{medspaCy} & \textbf{EmbedKDECheck} & \textbf{AlignScore} \\
+    \midrule
+    Inserted sentence (hallucinated) & 42  & 12 (29\%) & \textbf{24 (57\%)} & 21 (50\%) \\
+    Negation flip                    & 38  & 9 (24\%)  & \textbf{19 (50\%)} & 15 (39\%) \\
+    Number edit                      & 33  & 0 (0\%)   & 17 (52\%)          & \textbf{20 (61\%)} \\
+    Omitted detail                   & 32  & 0 (0\%)   & 0 (0\%)            & 0 (0\%) \\
+    Entity swap                      & 23  & 1 (4\%)   & \textbf{14 (61\%)} & 13 (57\%) \\
+    Drug-name switch                 & 2   & 1         & \textbf{2}         & 1 \\
+    \midrule
+    \textbf{True positives}          & 170 & 23        & \textbf{76}        & 70 \\
+    \textbf{False positives}         & --- & 2{,}193   & 1{,}661            & \textbf{226} \\
+    \textbf{False alarms per catch}  & --- & 95:1      & 22:1               & \textbf{3.2:1} \\
+    \bottomrule
+  \end{tabular}
+  \caption{Recall per injected corruption type across the three cross-document
+  checkers, all scored on the same 57 files and the same 170 hand-labelled
+  ground-truth items (\Cref{fig:medspacy_by_type,fig:kde_by_type,fig:alignscore_by_type}).
+  Drug-name switch is reported as raw counts; $n = 2$ is too small for a percentage.}
+  \label{tab:checker_by_corruption_type}
+\end{table}

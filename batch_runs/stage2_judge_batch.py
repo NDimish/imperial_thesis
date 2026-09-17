@@ -5,8 +5,11 @@ throttled across processes via gemini_rate_limiter.py.
 
 This is the SMOKE TEST configuration: 20 of the 57 files, the "lib" dataset
 only (prim57/bad notes lib + prim57/bad notes labels lib), a single run --
-not the full 57-file x2-dataset x2-run evaluation. At ~237 claims for 20
-files and a 18s/claim throttle, this takes roughly 70-80 minutes.
+not the full 57-file x2-dataset x2-run evaluation. Now judges BOTH
+directions (hallucination claims + extracted-fact omission checks, see
+Modules/old/stage2_judge_checker.py), roughly double the Gemini calls per
+file versus the hallucination-only version -- budget accordingly against
+the ~18s/claim throttle.
 
 Usage: python batch_runs/stage2_judge_batch.py [limit]
 """
@@ -87,13 +90,17 @@ def main(limit):
             else:
                 error_type, detail = error
                 print(f"{error_type}: {detail}")
-        print(f"Claims judged: {len(checker.last_claims)} | Flagged hallucinated: {len(errors)} | "
+        flagged_halluc = sum(1 for e in errors if e[0] == "hallucination")
+        flagged_omit = sum(1 for e in errors if e[0] == "omission")
+        print(f"Claims judged: {len(checker.last_claims)} (flagged {flagged_halluc}) | "
+              f"Facts judged: {len(checker.last_facts)} (flagged {flagged_omit}) | "
               f"Time: {file_elapsed:.1f}s")
 
         record = evaluator.compare(errors, input_filename, elapsed)
         file_records.append({
             "filename": input_filename,
             "claims": checker.last_claims,
+            "facts": checker.last_facts,
             "eval": record,
             "file_elapsed": file_elapsed,
         })

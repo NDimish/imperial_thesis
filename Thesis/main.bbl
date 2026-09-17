@@ -1,0 +1,432 @@
+\begin{thebibliography}{57}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bajwa et~al.(2021)Bajwa, Munir, Nori, and
+  Williams]{bajwa2021artificial}
+Junaid Bajwa, Usman Munir, Aditya Nori, and Bryan Williams.
+\newblock Artificial intelligence in healthcare: transforming the practice of
+  medicine.
+\newblock \emph{Future Healthcare Journal}, 8\penalty0 (2):\penalty0
+  e188--e194, Jul 2021.
+\newblock \doi{10.7861/fhj.2021-0095}.
+
+\bibitem[{Medicines \& Healthcare products Regulatory Agency
+  (MHRA)}(2025)]{mhra2025}
+{Medicines \& Healthcare products Regulatory Agency (MHRA)}.
+\newblock Ai airlock sandbox pilot programme report.
+\newblock Technical report, Medicines and Healthcare products Regulatory
+  Agency, London, 2025.
+
+\bibitem[{The Royal College of Radiologists (RCR)}(2026)]{rcr2026}
+{The Royal College of Radiologists (RCR)}.
+\newblock Post-deployment monitoring and safety reporting of ai medical imaging
+  devices in clinical practice.
+\newblock Technical report, The Royal College of Radiologists, London, 2026.
+
+\bibitem[{IMDRF SaMD Working Group}(2013)]{imdrf2013}
+{IMDRF SaMD Working Group}.
+\newblock Software as a medical device (samd): Key definitions.
+\newblock Technical report, International Medical Device Regulators Forum,
+  2013.
+
+\bibitem[{Medicines and Healthcare products Regulatory Agency
+  (MHRA)}(2021)]{mhra2021}
+{Medicines and Healthcare products Regulatory Agency (MHRA)}.
+\newblock Software and ai as a medical device change programme.
+\newblock Technical report, Medicines and Healthcare products Regulatory
+  Agency, London, 2021.
+
+\bibitem[Kothari et~al.(2019)Kothari, Kumar, Harrison, and Patel]{kothari2019}
+S.~Kothari, P.~Kumar, M.~Harrison, and R.~Patel.
+\newblock System degradation and performance drift in production machine
+  learning: Methods for passive detection and temporal distribution alignment.
+\newblock \emph{IEEE Transactions on Knowledge and Data Engineering},
+  31\penalty0 (8):\penalty0 1542--1555, 2019.
+\newblock \doi{10.1109/TKDE.2019.2891104}.
+
+\bibitem[Guan et~al.(2026)Guan, Bates, and Zhou]{guan2026}
+H.~Guan, D.~Bates, and L.~Zhou.
+\newblock Keeping medical ai healthy and trustworthy: A review of detection and
+  correction methods for system degradation.
+\newblock \emph{IEEE Transactions on Biomedical Engineering}, pages 1--38,
+  2026.
+\newblock Available at: PMC 2026 April 05.
+
+\bibitem[Oukelmoun et~al.(2025)Oukelmoun, Semmar, de~Chalendar, Cormi,
+  Oukelmoun, Vibert, and Allard]{oUKelmoun2025}
+A.~Oukelmoun, N.~Semmar, G.~de~Chalendar, C.~Cormi, M.~Oukelmoun, E.~Vibert,
+  and M.~A. Allard.
+\newblock Detecting omissions in llm-generated medical summaries.
+\newblock In \emph{Proceedings of the 2025 Conference on Empirical Methods in
+  Natural Language Processing: Industry Track}, pages 325--337. Association for
+  Computational Linguistics, 2025.
+
+\bibitem[Aithal et~al.(2026)Aithal, Kotz, and Mitchell]{aithal2026}
+M.~B. Aithal, A.~Kotz, and J.~Mitchell.
+\newblock Placid: Privacy-preserving large language models for acronym clinical
+  inference and disambiguation.
+\newblock \emph{arXiv preprint}, arXiv:2603.23678v1 [cs.CL]:\penalty0 1--12,
+  2026.
+
+\bibitem[Van~Oyen and Mirza-Haq(2026)]{vanoyen2026}
+C.~Van~Oyen and N.~Mirza-Haq.
+\newblock Medsafe-dx (v0): A safety-focused benchmark for evaluating llms in
+  clinical diagnostic decision support.
+\newblock \emph{medRxiv preprint}, 2026.
+\newblock \doi{10.64898/2026.04.14.26350711}.
+
+\bibitem[{U.S. Food and Drug Administration} et~al.(2021){U.S. Food and Drug
+  Administration}, {Health Canada}, and {Medicines and Healthcare products
+  Regulatory Agency (MHRA)}]{fda_gmlp_2021}
+{U.S. Food and Drug Administration}, {Health Canada}, and {Medicines and
+  Healthcare products Regulatory Agency (MHRA)}.
+\newblock Good machine learning practice for medical device development:
+  Guiding principles.
+\newblock Technical report, U.S. Food and Drug Administration, Oct 2021.
+\newblock URL \url{https://www.fda.gov/media/153486/download}.
+
+\bibitem[{IntuitionLabs}(2026)]{intuitionlabs2026fdapccp}
+{IntuitionLabs}.
+\newblock Fda pccp guide for ai/ml software as a medical device, Apr 2026.
+\newblock URL
+  \url{https://intuitionlabs.ai/articles/fda-pccp-implementation-guide-ai-ml-samd}.
+\newblock Accessed: 2026-07-11.
+
+\bibitem[{Vention}(2026)]{vention2026UKhealthcare}
+{Vention}.
+\newblock Ai in {UK} healthcare: Statistics and trends, 2026.
+\newblock URL
+  \url{https://ventionteams.com/uk/healthcare/ai/statistics-and-trends}.
+\newblock Accessed: 2026-07-11.
+
+\bibitem[{Microsoft Source}(2026)]{microsoft2026nhs}
+{Microsoft Source}.
+\newblock Nhs england accelerates ai adoption with microsoft 365 copilot to
+  improve service delivery, reduce costs and create more time for care, Jun
+  2026.
+\newblock URL
+  \url{https://news.microsoft.com/source/2026/06/08/nhs-england-accelerates-ai-adoption-with-microsoft-365-copilot-to-improve-service-delivery-reduce-costs-and-create-more-time-for-care/}.
+\newblock Accessed: 2026-07-11.
+
+\bibitem[Finlayson et~al.(2019)Finlayson, Bowers, Ito, Zittrain, Beam, and
+  Kohane]{finlayson2019adversarial}
+Samuel~G. Finlayson, John~D. Bowers, Joichi Ito, Jonathan~L. Zittrain,
+  Andrew~L. Beam, and Isaac~S. Kohane.
+\newblock Adversarial attacks on medical machine learning.
+\newblock \emph{Science}, 363\penalty0 (6433):\penalty0 1287--1289, 2019.
+\newblock \doi{10.1126/science.aaw4399}.
+
+\bibitem[{Atomic Spin}(2026)]{atomicspin2026}
+{Atomic Spin}.
+\newblock Your coding agents are only as good as their feedback loop, Jul 2026.
+\newblock URL \url{https://spin.atomicobject.com/recent-articles/}.
+\newblock Accessed: 2026-07-11.
+
+\bibitem[{Evidently AI}(2024)]{evidentlyai2024}
+{Evidently AI}.
+\newblock Monitoring data drift in ml models: Workflows and tools, 2024.
+\newblock URL \url{https://www.evidentlyai.com/blog/data-drift}.
+\newblock Accessed: 2026-07-11.
+
+\bibitem[Guo et~al.(2017)Guo, Pleiss, Sun, and Weinberger]{guo2017calibration}
+Chuan Guo, Geoff Pleiss, Yu~Sun, and Kilian~Q. Weinberger.
+\newblock On calibration of modern neural networks.
+\newblock In \emph{Proceedings of the 34th International Conference on Machine
+  Learning (ICML)}, pages 1321--1330. PMLR, 2017.
+
+\bibitem[Goddard et~al.(2012)Goddard, Roudsari, and Wyatt]{Goddard2012}
+Kate Goddard, Abdul Roudsari, and Jeremy~C Wyatt.
+\newblock Automation bias: a systematic review of frequency, effect mediators,
+  and mitigators.
+\newblock \emph{Journal of the American Medical Informatics Association},
+  19:\penalty0 121--127, 2012.
+\newblock \doi{10.1136/amiajnl-2011-000089}.
+
+\bibitem[Parasuraman and Manzey(2010)]{parasuraman2010complacency}
+Raja Parasuraman and Dietrich~H. Manzey.
+\newblock Complacency and bias in human use of automation: An attentional
+  integration.
+\newblock \emph{Human Factors}, 52\penalty0 (3):\penalty0 381--410, 2010.
+\newblock \doi{10.1177/0018720810376055}.
+
+\bibitem[Lyu et~al.(2026)Lyu, Li, Chen, Pan, Peng, Talankar, and Wu]{lyu2026}
+M.~Lyu, X.~Li, Z.~Chen, J.~Pan, C.~Peng, S.~Talankar, and Y.~Wu.
+\newblock Natural language generation in healthcare: A review of methods and
+  applications.
+\newblock \emph{Journal of Biomedical Informatics}, 176\penalty0
+  (104997):\penalty0 1--27, 2026.
+
+\bibitem[Daneshjou et~al.(2022)Daneshjou, Vodrahalli, Novoa, Jenkins, Liang,
+  Rotemberg, Halpern, and Zou]{daneshjou2022disparities}
+Roxana Daneshjou, Kailas Vodrahalli, Roberto~A. Novoa, Margaret Jenkins, Weixin
+  Liang, Veronica Rotemberg, Allan Halpern, and James Zou.
+\newblock Disparities in dermatology ai performance on a diverse, curated
+  clinical image set.
+\newblock \emph{Science Advances}, 8\penalty0 (32):\penalty0 eabq6147, 2022.
+\newblock \doi{10.1126/sciadv.abq6147}.
+
+\bibitem[Vokinger et~al.(2021)]{vokinger2021continual}
+K.~N. Vokinger et~al.
+\newblock Continual learning in medical devices: {FDA}'s action plan and
+  beyond.
+\newblock \emph{The Lancet Digital Health}, 3\penalty0 (6):\penalty0
+  e337--e338, 2021.
+\newblock PubMed: 33933404.
+
+\bibitem[{U.S. Food and Drug Administration}(2019)]{fda2019artificial}
+{U.S. Food and Drug Administration}.
+\newblock Artificial intelligence and machine learning in software as a medical
+  device, 2019.
+\newblock URL
+  \url{https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-software-medical-device}.
+\newblock Accessed: 4 July 2022.
+
+\bibitem[Chen et~al.(2017)]{chen2017decaying}
+J.~H. Chen et~al.
+\newblock Decaying relevance of clinical data towards future decisions in
+  data-driven inpatient clinical order sets.
+\newblock \emph{International Journal of Medical Informatics}, 102:\penalty0
+  71--79, 2017.
+\newblock PubMed: 28495350.
+
+\bibitem[Young and Steele(2022)]{young2022empirical}
+Z.~Young and R.~Steele.
+\newblock Empirical evaluation of performance degradation of machine
+  learning-based predictive models--{A} case study in healthcare information
+  systems.
+\newblock \emph{International Journal of Information Management Data Insights},
+  2\penalty0 (1):\penalty0 100070, 2022.
+
+\bibitem[Vargesson(2015)]{vargesson2015}
+N.~Vargesson.
+\newblock Thalidomide-induced teratogenesis: History and mechanisms of action.
+\newblock \emph{BioMed Research International}, 2015:\penalty0 1--14, 2015.
+\newblock \doi{10.1155/2015/241016}.
+
+\bibitem[Greener et~al.(2017)Greener, Jones, and Tomkins]{greener2017}
+Robert Greener, Alan Jones, and Sarah Tomkins.
+\newblock Integrating alternative products into national safety frameworks: An
+  evaluation of e-cigarette adverse incident reporting under the yellow card
+  scheme.
+\newblock \emph{International Journal of Drug Policy}, 43\penalty0
+  (2):\penalty0 88--95, 2017.
+\newblock \doi{10.1016/j.drugpo.2017.02.011}.
+
+\bibitem[{British Society of Interventional Radiology (BSIR)}(2026)]{bsir2026}
+{British Society of Interventional Radiology (BSIR)}.
+\newblock Standards and resource assessment for medical device safety reviews
+  in nhs trusts.
+\newblock BSIR Professional Technical Report, 2026.
+
+\bibitem[{Newton's Tree and Leeds Teaching Hospitals NHS
+  Trust}(2026)]{newtonstree2026}
+{Newton's Tree and Leeds Teaching Hospitals NHS Trust}.
+\newblock Federated ai monitoring service (famos): Proactive ai monitoring and
+  deployment in healthcare.
+\newblock GOV.UK AI Assurance Case Study and Technical Report, 2026.
+\newblock Supported by Innovate UK.
+
+\bibitem[Goddard et~al.(2011)Goddard, Roudsari, and Wyatt]{Goddard2011}
+Kate Goddard, Abdul Roudsari, and Jeremy~C. Wyatt.
+\newblock Automation bias -- a hidden issue for clinical decision support
+  system use.
+\newblock In \emph{International Perspectives in Health Informatics}, volume
+  164 of \emph{Studies in Health Technology and Informatics}, pages 17--22. IOS
+  Press, 2011.
+\newblock \doi{10.3233/978-1-60750-709-3-17}.
+
+\bibitem[{HIT Consultant}(2026)]{hitconsultant2026klas}
+{HIT Consultant}.
+\newblock Beyond the hype: New {KLAS} data validates the financial and clinical
+  {ROI} of ambient {AI}, jan 2026.
+\newblock URL
+  \url{https://hitconsultant.net/2026/01/21/klas-roi-validation-2026-ambient-ai-results/}.
+\newblock Accessed: 2026-07-15.
+
+\bibitem[{NHS England Digital}(2026)]{nhsedigital2026registry}
+{NHS England Digital}.
+\newblock Ambient voice technology self-certified supplier registry, jun 2026.
+\newblock URL
+  \url{https://digital.nhs.uk/services/ambient-scribing/ambient-voice-technology-self-certified-supplier-registry}.
+\newblock Last edited: June 23, 2026. Accessed: 2026-07-15.
+
+\bibitem[{TORTUS AI}(2026)]{tortus2026}
+{TORTUS AI}.
+\newblock {TORTUS}: The ambient {AI} scribe for healthcare, 2026.
+\newblock URL \url{https://tortus.ai/}.
+\newblock Accessed: 2026-07-15.
+
+\bibitem[{Heidi Health}(2026)]{heidihealth2026safety}
+{Heidi Health}.
+\newblock Safety at heidi, 2026.
+\newblock URL \url{https://www.heidihealth.com/safety}.
+\newblock Accessed: 2026-07-15.
+
+\bibitem[{Suki AI}(2026)]{sUKi2026guide}
+{Suki AI}.
+\newblock What is ambient clinical intelligence? the 2026 guide for health
+  systems, 2026.
+\newblock URL
+  \url{https://www.suki.ai/blog/what-is-ambient-clinical-intelligence-the-2026-guide-for-health-systems/}.
+\newblock Accessed: 2026-07-15.
+
+\bibitem[Papadopoulos~Korfiatis et~al.(2022)Papadopoulos~Korfiatis, Moramarco,
+  Sarac, and Savkov]{korfiatis2022primock57}
+Alex Papadopoulos~Korfiatis, Francesco Moramarco, Radmila Sarac, and Aleksandar
+  Savkov.
+\newblock {PriMock57}: A dataset of primary care mock consultations.
+\newblock \emph{arXiv preprint arXiv:2204.00333}, 2022.
+\newblock \doi{10.48550/arXiv.2204.00333}.
+\newblock URL \url{https://arxiv.org/abs/2204.00333}.
+
+\bibitem[Lundberg and Lee(2017)]{Lundberg2017}
+Scott~M. Lundberg and Su{-}In Lee.
+\newblock A unified approach to interpreting model predictions.
+\newblock In \emph{Advances in Neural Information Processing Systems 30
+  (NeurIPS 2017)}, 2017.
+\newblock URL \url{https://arxiv.org/abs/1705.07874}.
+
+\bibitem[Ribeiro et~al.(2016)Ribeiro, Singh, and Guestrin]{Ribeiro2016}
+Marco~Tulio Ribeiro, Sameer Singh, and Carlos Guestrin.
+\newblock "why should i trust you?": Explaining the predictions of any
+  classifier.
+\newblock In \emph{Proceedings of the 22nd ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}, 2016.
+\newblock URL \url{https://arxiv.org/abs/1602.04938}.
+
+\bibitem[Vachhani et~al.(2026)Vachhani, Shrisvastava, Nema, and
+  Chiranthan]{vachhani2026beyond}
+Bhavik Vachhani, Kush Shrisvastava, Pranshu Nema, and Sai Chiranthan.
+\newblock Beyond literal summarization: Redefining hallucination for medical
+  soap note evaluation, 2026.
+\newblock URL \url{https://arxiv.org/abs/2604.14829}.
+
+\bibitem[Gashteovski et~al.(2017)Gashteovski, Gemulla, and
+  Del~Corro]{Gashteovski2017}
+Kiril Gashteovski, Rainer Gemulla, and Luciano Del~Corro.
+\newblock Minie: Minimizing facts in open information extraction.
+\newblock \emph{Proceedings of the 2017 Conference on Empirical Methods in
+  Natural Language Processing}, n.d.:\penalty0 n.d., 2017.
+\newblock \doi{10.18653/v1/d17-1278}.
+
+\bibitem[Eyre et~al.(2021)Eyre, Chapman, Peterson, Shi, Alba, Jones, Box,
+  DuVall, and Patterson]{eyre2021launching}
+Hannah Eyre, Alec~B. Chapman, Kelly~S. Peterson, Jianlin Shi, Patrick~R. Alba,
+  Makoto~M. Jones, Thomas~L. Box, Scott~L. DuVall, and Oliver~V. Patterson.
+\newblock Launching into clinical space with {medspaCy}: a new clinical text
+  processing toolkit in {Python}.
+\newblock \emph{arXiv preprint arXiv:2106.07799}, 2021.
+\newblock \doi{10.48550/arXiv.2106.07799}.
+\newblock URL \url{https://arxiv.org/abs/2106.07799}.
+
+\bibitem[Honnibal and Montani(2017)]{honnibal2017spacy}
+Matthew Honnibal and Ines Montani.
+\newblock {spaCy 2}: Natural language understanding with {Bloom} embeddings,
+  convolutional neural networks and incremental parsing.
+\newblock \url{https://spacy.io}, 2017.
+
+\bibitem[Bird et~al.(2009)Bird, Klein, and Loper]{bird2009natural}
+Steven Bird, Ewan Klein, and Edward Loper.
+\newblock \emph{Natural Language Processing with {Python}}.
+\newblock O'Reilly Media, 1st edition, 2009.
+\newblock ISBN 978-0596516499.
+
+\bibitem[Neumann et~al.(2019)Neumann, King, Beltagy, and
+  Ammar]{neumann2019scispacy}
+Mark Neumann, Daniel King, Iz~Beltagy, and Waleed Ammar.
+\newblock {ScispaCy}: Fast and robust models for biomedical natural language
+  processing.
+\newblock In \emph{Proceedings of the 18th BioNLP Workshop and Shared Task},
+  pages 319--327. Association for Computational Linguistics, 2019.
+\newblock \doi{10.18653/v1/W19-5034}.
+\newblock URL \url{https://aclanthology.org/W19-5034}.
+
+\bibitem[Pizarro(n.d.)]{pizarro_negspacy}
+J.~Pizarro.
+\newblock negspacy: spacy pipeline object for negating concepts in text, n.d.
+\newblock URL \url{https://github.com/jenojp/negspacy}.
+
+\bibitem[Chapman et~al.(2001)Chapman, Bridewell, Hanbury, Cooper, and
+  Buchanan]{chapman2001simple}
+Wendy~W. Chapman, William Bridewell, Paul Hanbury, Gregory~F. Cooper, and
+  Bruce~G. Buchanan.
+\newblock A simple algorithm for identifying negated findings and diseases in
+  discharge summaries.
+\newblock \emph{Journal of Biomedical Informatics}, 34\penalty0 (5):\penalty0
+  301--310, 2001.
+
+\bibitem[Harkema et~al.(2009)Harkema, Dowling, Thornblade, and
+  Chapman]{harkema2009context}
+Henk Harkema, John~N. Dowling, Tyler Thornblade, and Wendy~W. Chapman.
+\newblock Context: An algorithm for determining negation, experiencer, and
+  temporal status from clinical reports.
+\newblock \emph{Journal of Biomedical Informatics}, 42\penalty0 (5):\penalty0
+  839--851, 2009.
+
+\bibitem[Bodenreider(2004)]{bodenreider2004unified}
+Olivier Bodenreider.
+\newblock The unified medical language system (umls): integrating biomedical
+  terminology.
+\newblock \emph{Nucleic Acids Research}, 32\penalty0 (Database issue):\penalty0
+  D267--D270, 2004.
+
+\bibitem[Aronson(2001)]{aronson2001effective}
+Alan~R. Aronson.
+\newblock Effective mapping of biomedical text to the umls metathesaurus: The
+  metamap program.
+\newblock In \emph{Proceedings of the AMIA Symposium}, pages 17--21, 2001.
+
+\bibitem[Soldaini and Goharian(2016)]{soldaini2016quickumls}
+Luca Soldaini and Nazli Goharian.
+\newblock Quickumls: a fast, unsupervised approach for medical concept
+  extraction.
+\newblock In \emph{Proceedings of the Medical Information Retrieval (MedIR)
+  Workshop at SIGIR}, 2016.
+
+\bibitem[Okazaki and Tsujii(2010)]{okazaki2010simple}
+Naoaki Okazaki and Jun'ichi Tsujii.
+\newblock Simple and efficient algorithm for approximate dictionary matching.
+\newblock In \emph{Proceedings of the 23rd International Conference on
+  Computational Linguistics (COLING 2010)}, pages 851--859, 2010.
+
+\bibitem[Zha et~al.(2023)Zha, Yang, Li, and Hu]{zha2023alignscore}
+Y.~Zha, Y.~Yang, R.~Li, and Z.~Hu.
+\newblock Alignscore: Evaluating factual consistency with a unified alignment
+  function.
+\newblock \emph{arXiv preprint arXiv:2305.16739}, 2023.
+\newblock Presented at ACL 2023.
+
+\bibitem[Laban et~al.(2022)Laban, Schnabel, Bennett, and
+  Hearst]{laban2022summac}
+Philippe Laban, Tobias Schnabel, Paul~N. Bennett, and Marti~A. Hearst.
+\newblock Summac: Re-visiting nli-based models for inconsistency detection in
+  summarization.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  10:\penalty0 163--177, 2022.
+\newblock \doi{10.1162/tacl_a_00453}.
+
+\bibitem[Yeh and Wickens(2001)]{yeh2001display}
+Michelle Yeh and Christopher~D. Wickens.
+\newblock Display signaling in augmented reality: Effects of cue reliability
+  and image realism on attention allocation and trust calibration.
+\newblock \emph{Human Factors}, 43\penalty0 (3):\penalty0 355--365, 2001.
+\newblock \doi{10.1518/001872001775898269}.
+\newblock URL
+  \url{https://journals.sagepub.com/doi/10.1518/001872001775898269}.
+
+\bibitem[UKM(2002)]{UKMDR2002}
+The medical devices regulations 2002, 2002.
+\newblock URL \url{https://www.legislation.gov.uk/uksi/2002/618/contents}.
+
+\bibitem[{General Medical Council}(2024)]{GMC2024GoodMedicalPractice}
+{General Medical Council}.
+\newblock Good medical practice, 2024.
+\newblock URL
+  \url{https://www.gmc-uk.org/professional-standards/the-professional-standards/good-medical-practice}.
+\newblock Accessed: 2026-08-27.
+
+\end{thebibliography}

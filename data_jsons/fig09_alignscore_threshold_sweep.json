@@ -1,0 +1,57 @@
+{
+  "figure": "Figure 9 -- AlignScore threshold re-sweep after the splitter fix (Edit 1 + Edit 3)",
+  "paper_section": "9.4.4, Edit 3: re-calibrating THRESHOLD after the splitter fix",
+  "description": "Real 10-file sweep (prim1.txt, prim10.txt-prim18.txt), hallucination-type labels only, every claim scored once by AlignScore with Edit 1's clinical-note-aware splitter applied (Modules/old/alignscore_checker.py) -- a single model pass, not one pass per threshold candidate -- then each threshold tried against those cached scores. This is Edit 3 only: the splitter fix (Edit 1) plus this re-sweep, with Edit 2's adjacency-pair bridging (attempted, made things worse, not adopted -- see main.tex) and the later d/p pair-chunking work both excluded, matching what this checker's state actually was when Edit 3 was written up.",
+  "source": "Modules/old/alignscore_checker.py's own THRESHOLD comment block -- the sweep results are preserved there verbatim (this file's data_jsons JSON had been overwritten at some point by a later, unrelated d/p pair-chunking threshold sweep; restored from that code comment, the only surviving record of the original run).",
+  "old_threshold": 0.25,
+  "new_threshold": 0.3,
+  "old_threshold_label": "old: 0.25",
+  "new_threshold_label": "new: 0.30 (best F1)",
+  "sweep": [
+    {
+      "threshold": 0.2,
+      "precision": 0.381,
+      "recall": 0.364,
+      "f1": 0.372,
+      "tp": 8,
+      "fp": 13,
+      "fn": 14
+    },
+    {
+      "threshold": 0.25,
+      "precision": 0.333,
+      "recall": 0.364,
+      "f1": 0.348,
+      "tp": 8,
+      "fp": 16,
+      "fn": 14
+    },
+    {
+      "threshold": 0.3,
+      "precision": 0.367,
+      "recall": 0.5,
+      "f1": 0.423,
+      "tp": 11,
+      "fp": 19,
+      "fn": 11
+    },
+    {
+      "threshold": 0.35,
+      "precision": 0.324,
+      "recall": 0.545,
+      "f1": 0.407,
+      "tp": 12,
+      "fp": 25,
+      "fn": 10
+    },
+    {
+      "threshold": 0.5,
+      "precision": 0.235,
+      "recall": 0.545,
+      "f1": 0.329,
+      "tp": 12,
+      "fp": 39,
+      "fn": 10
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "figure": "Figure 25 -- medspaCy/UMLS/ConText checker TP/FN by corruption type",
+  "paper_section": "9.2.2 The medspaCy based checker",
+  "source": "Logs/evaluate_MedspacyUmlsChecker_full57_20260818_222322.json, by_detail_type block (full 57-file run, produced by run_checker_modules.py, scored by Modules/evaluate.py against the project's hand-labelled ground truth)",
+  "description": "TP/FN per injected corruption type, using the same 6 detail_type categories and display labels as Figure 4 (left). detail_type is label metadata carried only by a matched ground-truth item (Modules/evaluate.py), so a false positive -- a flag with no matching label -- cannot be attributed to a corruption type; total_fp is the combined-direction overall count (hallucination + omission), matching the scope of by_detail_type itself, not the hallucination-only figure this checker's own tab:results row reports (5.5/16.7/8.3%).",
+  "display_labels": {
+    "inserted sentence": "Inserted sentence (hallucinated)",
+    "negation flip": "Negation flip",
+    "number edit": "Number edit",
+    "omitted detail": "Omitted detail",
+    "entity swap": "Entity swap",
+    "drug switch": "Drug-name switch"
+  },
+  "by_detail_type": {
+    "inserted sentence": {"tp": 12, "fn": 30, "total": 42},
+    "negation flip": {"tp": 9, "fn": 29, "total": 38},
+    "number edit": {"tp": 0, "fn": 33, "total": 33},
+    "omitted detail": {"tp": 0, "fn": 32, "total": 32},
+    "entity swap": {"tp": 1, "fn": 22, "total": 23},
+    "drug switch": {"tp": 1, "fn": 1, "total": 2}
+  },
+  "total_fp": 2193,
+  "file_count": 57
+}

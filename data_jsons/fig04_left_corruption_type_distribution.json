@@ -1,0 +1,16 @@
+{
+  "figure": "Figure 4 (left) -- Library-based corruption types",
+  "paper_section": "8.1.1 How the Dataset Was Augmented / Figure 4",
+  "source": "prim57/bad notes labels lib/*.txt (57 files, one JSON-array-per-file, produced by datamakerfiles/prim_lib_injection.py)",
+  "description": "Count of injected corruption issues by detail_type, aggregated across all 57 corrupted notes.",
+  "total_issues": 170,
+  "n_files": 57,
+  "counts": {
+    "Omitted detail": 32,
+    "Negation flip": 38,
+    "Number edit": 33,
+    "Inserted sentence (hallucinated)": 42,
+    "Entity swap": 23,
+    "Drug-name switch": 2
+  }
+}

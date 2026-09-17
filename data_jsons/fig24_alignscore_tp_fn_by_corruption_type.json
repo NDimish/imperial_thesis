@@ -1,0 +1,24 @@
+{
+  "figure": "Figure 24 -- AlignScore TP/FN by corruption type",
+  "paper_section": "9.4.4 Results",
+  "source": "Logs/evaluate_AlignScoreChecker_20260818_203942.json, by_detail_type block (fixed pipeline, full 57-file run, produced by run_checker_modules.py, scored by Modules/evaluate.py against the project's hand-labelled ground truth)",
+  "description": "TP/FN per injected corruption type, using the same 6 detail_type categories and display labels as Figure 4 (left). detail_type is label metadata carried only by a matched ground-truth item (Modules/evaluate.py), so a false positive -- a flag with no matching label -- cannot be attributed to a corruption type; total_fp is reported separately as a single untyped total, not split across the rows below.",
+  "display_labels": {
+    "inserted sentence": "Inserted sentence (hallucinated)",
+    "negation flip": "Negation flip",
+    "number edit": "Number edit",
+    "omitted detail": "Omitted detail",
+    "entity swap": "Entity swap",
+    "drug switch": "Drug-name switch"
+  },
+  "by_detail_type": {
+    "inserted sentence": {"tp": 21, "fn": 21, "total": 42},
+    "negation flip": {"tp": 15, "fn": 23, "total": 38},
+    "number edit": {"tp": 20, "fn": 13, "total": 33},
+    "omitted detail": {"tp": 0, "fn": 32, "total": 32},
+    "entity swap": {"tp": 13, "fn": 10, "total": 23},
+    "drug switch": {"tp": 1, "fn": 1, "total": 2}
+  },
+  "total_fp": 226,
+  "file_count": 57
+}

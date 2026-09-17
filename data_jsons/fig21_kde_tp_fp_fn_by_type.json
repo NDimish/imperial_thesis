@@ -1,0 +1,36 @@
+{
+  "figure": "Figure 21 -- EmbedKDECheck TP/FP/FN by direction",
+  "paper_section": "9.3.4 Results",
+  "source": "Logs/evaluate_EmbedKdeChecker_full57_20260819_232035.json (produced by run_checker_modules.py over all 57 files, scored by Modules/evaluate.py against the project's hand-labelled hallucination/omission ground truth)",
+  "description": "TP/FP/FN counts for EmbedKDECheck's bidirectional per-sentence check, split by direction (hallucination: KDE fit on the transcript, scoring SOAP sentences; omission: KDE fit on the SOAP note, scoring transcript sentences). Mirrors Figure 11's NoteExtractor-by-type layout so the two are visually comparable.",
+  "overall": {
+    "tp": 76,
+    "fp": 1661,
+    "fn": 94,
+    "precision": 0.04375359815774323,
+    "recall": 0.4470588235294118,
+    "f1": 0.07970634504457262,
+    "accuracy": 0.04150737302020754
+  },
+  "by_type": {
+    "hallucination": {
+      "tp": 76,
+      "fp": 331,
+      "fn": 62,
+      "precision": 0.18673218673218672,
+      "recall": 0.5507246376811594,
+      "f1": 0.2788990825688073,
+      "accuracy": 0.16204690831556504
+    },
+    "omission": {
+      "tp": 0,
+      "fp": 1330,
+      "fn": 32,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0
+    }
+  },
+  "file_count": 57
+}

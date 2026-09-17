@@ -1,0 +1,217 @@
+% ==========================================
+% DATASET 1: Automated Medical Transcription
+% ==========================================
+\subsection{Automated Medical Transcription Dataset (Zenodo 4279041)}
+\label{subsec:zenodo\_dataset}
+
+\subsubsection*{Overview \& Description}
+Created by researchers at Montana State University and NAMI, this corpus was designed to train and benchmark Automatic Speech Recognition (ASR) and text summarization models specifically for psychiatric case note generation. Due to HIPAA constraints surrounding real psychiatric dialogues, student pairs enacted psychiatric consultations using expert-authored scripts. Audio was transcribed via the Google Cloud Speech-to-Text API, and students subsequently generated psychiatric case notes from these ASR outputs.
+
+\subsubsection*{File Structure \& Organization}
+\begin{verbatim}
+dataset\_automated\_medical\_transcription/
+├── transcripts/
+│   ├── source/               # Original expert-authored scripts
+│   └── transcribed/          # Google Cloud ASR output files
+├── casenotes/                # Human-written psychiatric notes (.json / .pickle)
+├── recordings/               # Dual-channel audio recordings
+└── .zenodo.json              # Repository metadata
+\end{verbatim}
+
+\subsubsection*{Contents \& Annotations}
+\begin{itemize}
+    \item \textbf{Source Scripts:} Ground-truth dialogue scripts written by psychiatric experts or adapted from Alexander Street clinical case studies.
+    \item \textbf{ASR Transcripts:} Noisy speech-to-text outputs reflecting acoustic errors, word drops, and phonetic substitutions typical of clinical ASR engines.
+    \item \textbf{Mapped Case Notes:} Structured psychiatric notes categorized into fields such as \textit{Mental Status Exam} and \textit{Social History}, featuring sentence-level pointers (\texttt{sourceId}, \texttt{categoryId}, \texttt{formalText}).
+\end{itemize}
+
+\subsubsection*{Dataset Statistics \& Distribution}
+\begin{itemize}
+    \item \textbf{Domain:} Psychiatry and Mental Health.
+    \item \textbf{Modalities:} Dual-channel audio, paired verbatim/ASR text, and structured JSON notes.
+    \item \textbf{Volume:} $\sim$6.4 MB of annotated text transcripts and metadata.
+\end{itemize}
+
+\subsubsection*{Safety System Application (Omission, LASA, Hallucination)}
+\begin{itemize}
+    \item \textbf{ASR Omission Auditing:} Quantifies symptom drops by benchmarking \texttt{transcripts/source/} against raw \texttt{transcripts/transcribed/} outputs.
+    \item \textbf{Psychiatric Hallucination Detection:} Evaluates whether generative models hallucinate psychiatric symptoms or MSE findings when processing noisy mental health audio.
+    \item \textbf{Mental Health LASA:} Identifies acoustic substitutions in psychotropic drug names (e.g., transposing \textit{Zyprexa} and \textit{Zoloft}).
+\end{itemize}
+
+\subsubsection*{Target Hazard Mapping}
+\begin{itemize}
+    \item \textbf{H01 \& H02:} Missing transcription features and examination findings (ASR Word Error Rate analysis).
+    \item \textbf{H05:} Hallucinated clinical assertions added during note generation.
+    \item \textbf{H07 \& H08:} Depth control for granular psychiatric histories.
+\end{itemize}
+
+\clearpage
+
+% ==========================================
+% DATASET 2: ACI-BENCH
+% ==========================================
+\subsection{ACI-BENCH Corpus (Figshare 22494601)}
+\label{subsec:aci\_bench}
+
+\subsubsection*{Overview \& Description}
+Developed by Microsoft Research, \textbf{ACI-BENCH} is a standard benchmark dataset designed for automated clinical visit note generation from ambient doctor-patient conversations. The corpus features outpatient primary care encounters paired with human verbatim transcriptions, multi-engine ASR outputs, and expert-validated gold-standard SOAP notes.
+
+\subsubsection*{File Structure \& Organization}
+\begin{verbatim}
+aci\_bench\_corpus/
+├── data/
+│   ├── train.json            # Training dialogue-note pairs
+│   ├── val.json              # Validation split
+│   └── test.json             # Benchmark test split
+├── asr\_outputs/              # Multi-engine ASR transcripts (e.g., Whisper, Azure)
+└── README.md                 # Corpus documentation
+\end{verbatim}
+
+\subsubsection*{Contents \& Annotations}
+\begin{itemize}
+    \item \textbf{Dialogue Transcripts:} Multi-turn doctor-patient clinical encounter dialogues.
+    \item \textbf{Multi-ASR Data:} Parallel transcriptions from diverse ASR engines for acoustic robustness evaluation.
+    \item \textbf{Gold-Standard SOAP Notes:} Clinical summaries categorized into \textit{Subjective}, \textit{Objective}, \textit{Assessment}, and \textit{Plan}.
+\end{itemize}
+
+\subsubsection*{Dataset Statistics \& Distribution}
+\begin{itemize}
+    \item \textbf{Encounters:} 67 full ambient outpatient visit dialogues in the core benchmark.
+    \item \textbf{Corpus Subsets:} Includes \texttt{aci} (Ambient Clinical Intelligence), \texttt{virtscribe} (Virtual Scribe), and \texttt{virtassist} (Virtual Assistant).
+    \item \textbf{Domain:} Outpatient Primary Care and General Practice.
+\end{itemize}
+
+\subsubsection*{Safety System Application (Omission, LASA, Hallucination)}
+\begin{itemize}
+    \item \textbf{Omission Detection:} Audits entity overlap between dialogue transcripts and generated SOAP notes to verify that key symptoms or red flags are retained.
+    \item \textbf{Hallucination Guardrails:} Tests if ambient LLMs generate ungrounded assertions not supported by verbatim or ASR transcripts.
+    \item \textbf{LASA Robustness:} Evaluates model sensitivity to misheard acoustic medical terms across different ASR backends.
+\end{itemize}
+
+\subsubsection*{Target Hazard Mapping}
+\begin{itemize}
+    \item \textbf{H01 \& H03:} Missing transcription features and dropped summary red flags.
+    \item \textbf{H04:} Omitted objective examination findings.
+    \item \textbf{H05:} Unfounded clinical hallucinations.
+    \item \textbf{H09:} Enforcement of structural SOAP formatting schemas.
+\end{itemize}
+
+% ==========================================
+% DATASET 3: PriMock57
+% ==========================================
+
+
+% ==========================================
+% DATASET 4: ISMP & NHS dm+d
+% ==========================================
+\subsection{ISMP Confused Drug Names List \& NHS dm+d}
+\label{subsec:ismp\_dmd}
+
+\subsubsection*{Overview \& Description}
+This resource combines two pharmacological knowledge bases: the ISMP Confused Drug Names List (published by the Institute for Safe Medication Practices) and the NHS Dictionary of Medicines and Devices (dm+d). Together, they provide look-alike/sound-alike (LASA) error lists and standardized UK clinical prescribing codes (SNOMED CT).
+
+\subsubsection*{File Structure \& Schema}
+\begin{itemize}
+    \item \textbf{ISMP List:} Structural mapping tables pairing frequently transposed drug names, error mechanisms, and Tall Man lettering specifications (e.g., \texttt{dobuTAMine} vs. \texttt{doPAMine}).
+    \item \textbf{NHS dm+d:} Relational database schema structured into five primary categories:
+    \begin{enumerate}
+        \item \textit{Virtual Therapeutic Moiety (VTM):} Generic substance concept (e.g., \textit{Paracetamol}).
+        \item \textit{Virtual Medicinal Product (VMP):} Generic form and strength (e.g., \textit{Paracetamol 500mg tablets}).
+        \item \textit{Actual Medicinal Product (AMP):} Branded product concept (e.g., \textit{Panadol 500mg tablets}).
+        \item \textit{VMPP / AMPP:} Packaged product definitions.
+    \end{enumerate}
+\end{itemize}
+
+\subsubsection*{Dataset Statistics \& Distribution}
+\begin{itemize}
+    \item \textbf{ISMP Corpus:} 400+ documented high-risk LASA drug pairs.
+    \item \textbf{NHS dm+d:} 100,000+ active clinical drug concepts covering 100\% of NHS UK prescribing terminology.
+\end{itemize}
+
+\subsubsection*{Safety System Application (Omission, LASA, Hallucination)}
+\begin{itemize}
+    \item \textbf{Deterministic LASA Guardrail:} String-distance metrics (e.g., Levenshtein Distance) cross-reference ASR outputs against the ISMP list to detect phonetic transpositions (e.g., audio says \textit{"hydralazine"}, ASR writes \textit{"hydroxyzine"}).
+    \item \textbf{Medication Hallucination Validation:} Cross-checks generated medication lists against dm+d. Unrecognized drug names, invalid dosages, or illegal form combinations trigger a \textit{Medication Hallucination} alert.
+\end{itemize}
+
+\subsubsection*{Target Hazard Mapping}
+\begin{itemize}
+    \item \textbf{H01 \& H05:} Omitted or hallucinated drug concepts (preventing severe prescribing errors).
+    \item \textbf{H10:} Placement of medication data into incorrect EHR fields.
+\end{itemize}
+
+% ==========================================
+% DATASET 5: MedMentions
+% ==========================================
+\subsection{MedMentions Corpus}
+\label{subsec:medmentions}
+
+\subsubsection*{Overview \& Description}
+Developed by the National Library of Medicine (NLM), \textbf{MedMentions} is a biomedical Named Entity Recognition (NER) and entity linking dataset. It consists of PubMed abstracts manually annotated by domain experts who mapped clinical terms directly to the Unified Medical Language System (UMLS) Metathesaurus.
+
+\subsubsection*{File Structure \& Format}
+The corpus is formatted according to the \textit{PubTator} schema:
+\begin{verbatim}
+MedMentions-master/
+├── full/                     # Complete dataset (127 UMLS semantic types)
+│   └── corpus\_pubtator.txt
+├── st21pv/                   # Preferred subset (21 semantic types, ~34k concepts)
+│   └── corpus\_pubtator.txt
+└── README.md
+\end{verbatim}
+
+\subsubsection*{Dataset Statistics \& Distribution}
+\begin{itemize}
+    \item \textbf{Documents:} 4,392 PubMed titles and abstracts.
+    \item \textbf{Annotations:} 352,496 medical concept mentions annotated with exact character offsets.
+    \item \textbf{Concept Diversity:} 25,419 unique UMLS Concept Unique Identifiers (CUIs) across 127 semantic categories.
+\end{itemize}
+
+\subsubsection*{Safety System Application (Omission, LASA, Hallucination)}
+\begin{itemize}
+    \item \textbf{Entity Extractor Training:} Trains the NER models used by real-time transcript auditing algorithms.
+    \item \textbf{Automated Omission Auditing:} Compares extracted transcript entities ($E\_{\text{transcript}}$) against note entities ($E\_{\text{note}}$) to flag missing clinical findings or red flags.
+    \item \textbf{Automated Hallucination Auditing:} Flags any medical concept present in $E\_{\text{note}}$ that lacks semantic grounding in $E\_{\text{transcript}}$.
+\end{itemize}
+
+\subsubsection*{Target Hazard Mapping}
+\begin{itemize}
+    \item \textbf{H01 \& H02:} Omitted transcript symptoms and objective exam findings.
+    \item \textbf{H03 \& H04:} Dropped red flags and assessment elements.
+    \item \textbf{H05:} Unfounded clinical entity hallucinations.
+\end{itemize}
+
+
+
+% ==========================================
+% SUMMARY COMPARISON TABLE
+% ==========================================
+\subsection{Resource Summary and Hazard Mapping Matrix}
+\label{subsec:dataset\_summary\_matrix}
+
+Table~\ref{tab:dataset\_summary} synthesizes the data resources, modalities, safety functional roles, and target operational hazards evaluated in this thesis.
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Summary of Datasets and Safety System Functional Alignment}
+\label{tab:dataset\_summary}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\linewidth}{>{\bfseries}p{2.8cm} >{\raggedright\arraybackslash}p{2.2cm} >{\raggedright\arraybackslash}p{2.4cm} >{\raggedright\arraybackslash}X >{\bfseries\raggedright\arraybackslash}p{1.8cm}}
+\toprule
+Dataset / Resource & Primary Domain & Core Modality & Safety Role (Omission / LASA / Hallucination) & Target Hazards \\
+\midrule
+
+Zenodo 4279041 & Psychiatry / Mental Health & Audio, ASR Text, Case Notes & Evaluates ASR drops, psychotropic LASA, and mental status exam hallucinations. & H01, H02, H05, H07, H08 \\
+\rowcolor{gray!10}
+ACI-BENCH & Outpatient Primary Care & Ambient Dialogue, Multi-ASR, SOAP Notes & Benchmarks LLM omissions, multi-engine ASR errors, and SOAP compliance. & H01, H03, H04, H05, H09 \\
+
+PriMock57 & UK General Practice (GP) & Diarized Transcripts, Structured Notes & Speaker attribution, diarization safety, and primary care red-flag omissions. & H03, H06, H07, H08, H09 \\
+\rowcolor{gray!10}
+ISMP \& NHS dm+d & Pharmacology \& Prescribing & LASA Lists, SNOMED CT Codes & Deterministic LASA acoustic checking and medication hallucination validation. & H01, H05, H10 \\
+
+MedMentions & Biomedical Literature & PubTator Text, UMLS CUIs & Trains NER models for transcript vs. note entity overlap auditing. & H01, H02, H03, H04, H05 \\
+\bottomrule
+\end{tabularx}
+\end{table}

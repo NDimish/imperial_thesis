@@ -32,7 +32,7 @@ class AIChecker(CheckerModule):
         "by being falsely reassuring: they sound confident while quietly under-reporting real problems. "
         "For this review, a missed error is a worse outcome than flagging a borderline case that turns out "
         "to be fine — do not default to an empty result out of caution or uncertainty. If something looks "
-        "like it could plausibly be an omission, hallucination, or LASA error, include it.\n\n"
+        "like it could plausibly be an omission or hallucination, include it.\n\n"
         "Before answering, work through the transcript and the SOAP note fact by fact — every symptom, "
         "medication, dosage, vital sign, and plan item — and check whether each one is accurately "
         "reflected in the other document. Then compile the complete list of errors you found.\n\n"
@@ -41,20 +41,16 @@ class AIChecker(CheckerModule):
         "Omissions matter because the SOAP note is the clinical record used for continuity of care, billing, "
         "and legal documentation — a missing symptom, medication, allergy, vital sign, or plan detail can "
         "directly lead to a misdiagnosis or the wrong treatment for the patient.\n"
-        "- Hallucination: information present in the SOAP note that is not supported by the transcript.\n"
-        "- LASA (Look-Alike/Sound-Alike) error: a drug, dosage, or clinical term in the SOAP note that has been "
-        "confused with a similarly named/sounding one from the transcript. LASA errors are a well-documented "
-        "cause of real-world medication mistakes (e.g. hydralazine vs. hydroxyzine, Celebrex vs. Celexa, "
-        "clonidine vs. clonazepam). The ISMP (Institute for Safe Medication Practices) List of Confused Drug "
-        "Names is the standard reference for common LASA pairs — use it as a guide for what counts as a "
-        "plausible confusion.\n\n"
+        "- Hallucination: information present in the SOAP note that is not supported by the transcript.\n\n"
+        "(LASA — Look-Alike/Sound-Alike drug/term confusion — is checked separately in a dedicated pass; "
+        "do not report it here.)\n\n"
         "Respond with ONLY a JSON array of objects, one per error found, each with exactly two keys:\n"
-        '  "type": one of "omission", "hallucination", "lasa"\n'
+        '  "type": one of "omission", "hallucination"\n'
         '  "error": depends on "type":\n'
-        '    - "lasa": just the confused term itself, exactly as it appears in the SOAP note — this may be '
-        "a single word (e.g. a drug name) or a multi-word phrase (e.g. a dosage, a two-word drug name, or a "
-        "clinical term), whatever the confusable unit is\n"
-        '    - "omission": the exact sentence from the transcript that is missing from the SOAP note\n'
+        '    - "omission": the missing fact, phrased the way a clinician would write it in a SOAP note — '
+        "terse, third person, clinical register. Do NOT quote the transcript's own spoken phrasing "
+        "verbatim (e.g. write \"No blood in stool\", not \"Uh, no, I haven't had any blood in it, no\") — "
+        "this must read like a sentence that could appear directly in a SOAP note.\n"
         '    - "hallucination": the exact sentence from the SOAP note that is not supported by the transcript\n'
         "If there are no errors, respond with an empty JSON array: []\n"
         "Output must be valid JSON and nothing else — no markdown code fences, no commentary, no preamble.\n\n"
@@ -101,9 +97,16 @@ class AIChecker(CheckerModule):
 
         error_pairs = tuple((error.get("type", "Unknown"), error.get("error", "")) for error in errors)
 
-        #lasa_pairs, lasa_elapsed = self.find_lasa_words(soap_note)
+        # Dedicated second pass: the combined prompt above asks for lasa
+        # errors too, but as one item competing for attention alongside
+        # omission/hallucination in the same call -- a prompt whose ONLY
+        # job is scanning for LASA terms (find_lasa_words' own
+        # LASA_PROMPT_TEMPLATE) is a stronger, more thorough pass. Re-enabled
+        # (was previously commented out, so LASA coverage came only from
+        # whatever the combined prompt caught incidentally).
+        lasa_pairs, lasa_elapsed = self.find_lasa_words(soap_note)
 
-        return error_pairs,elapsed#error_pairs + lasa_pairs, elapsed + lasa_elapsed
+        return error_pairs + lasa_pairs, elapsed + lasa_elapsed
 
     def find_lasa_words(self, soap_note):
         """Lists every LASA-candidate term found in a SOAP note (no transcript needed).

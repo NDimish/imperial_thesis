@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: unsrtnat.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Database file #1: references.bib
+Warning--entry type for "pizarro_negspacy" isn't style-file defined
+--line 370 of file references.bib
+Warning--entry type for "UKMDR2002" isn't style-file defined
+--line 510 of file references.bib
+You've used 57 entries,
+            2481 wiz_defined-function locations,
+            898 strings with 16810 characters,
+and the built_in function-call counts, 20949 in all, are:
+= -- 1829
+> -- 1006
+< -- 40
++ -- 408
+- -- 294
+* -- 1490
+:= -- 3331
+add.period$ -- 215
+call.type$ -- 57
+change.case$ -- 119
+chr.to.int$ -- 57
+cite$ -- 58
+duplicate$ -- 1050
+empty$ -- 1956
+format.name$ -- 368
+if$ -- 4503
+int.to.chr$ -- 1
+int.to.str$ -- 58
+missing$ -- 35
+newline$ -- 333
+num.names$ -- 168
+pop$ -- 512
+preamble$ -- 1
+purify$ -- 57
+quote$ -- 0
+skip$ -- 674
+stack$ -- 0
+substring$ -- 763
+swap$ -- 183
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 396
+warning$ -- 0
+while$ -- 168
+width$ -- 0
+write$ -- 811
+(There were 2 warnings)

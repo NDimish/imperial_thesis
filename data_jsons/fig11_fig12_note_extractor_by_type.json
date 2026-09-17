@@ -1,0 +1,45 @@
+{
+  "figure": "Figure 11 & Figure 12 -- NoteExtractor results by extraction type",
+  "paper_section": "9.6.2 Results",
+  "source": "Logs/evaluate_NoteExtractor_20260808_182240.json (produced by run_note_extractor.py over all 57 files, scored by Modules/evaluate.py against prim57/labels_extraction ground truth)",
+  "description": "Figure 11 plots tp/fp/fn per type; Figure 12 plots precision/recall/f1 per type (plus the 'Overall' bar).",
+  "overall": {
+    "tp": 552,
+    "fp": 71,
+    "fn": 44,
+    "precision": 0.8860353130016051,
+    "recall": 0.9261744966442953,
+    "f1": 0.9056603773584906,
+    "accuracy": 0.8275862068965517
+  },
+  "by_type": {
+    "inference": {
+      "tp": 53,
+      "fp": 14,
+      "fn": 10,
+      "precision": 0.7910447761194029,
+      "recall": 0.8412698412698413,
+      "f1": 0.8153846153846153,
+      "accuracy": 0.6883116883116883
+    },
+    "medicine": {
+      "tp": 114,
+      "fp": 29,
+      "fn": 21,
+      "precision": 0.7972027972027972,
+      "recall": 0.8444444444444444,
+      "f1": 0.8201438848920863,
+      "accuracy": 0.6951219512195121
+    },
+    "negation": {
+      "tp": 385,
+      "fp": 28,
+      "fn": 13,
+      "precision": 0.9322033898305084,
+      "recall": 0.9673366834170855,
+      "f1": 0.9494451294697904,
+      "accuracy": 0.903755868544601
+    }
+  },
+  "file_count": 57
+}
